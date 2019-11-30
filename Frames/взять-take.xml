@@ -1,0 +1,255 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="взять">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="взять.01" name="take, hold, get">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">брать</alias>
+		<alias framenet="" pos="v" verbnet="">взяться</alias>
+		<alias framenet="" pos="v" verbnet="">браться</alias>
+      </aliases>
+      <note>взять.01 NOTES: based on English take.01</note>
+      <roles>
+        <role descr="Taker" f="PAG" n="0">
+        </role>
+        <role descr="thing taken" f="PPT" n="1">
+        </role>
+		<role descr="taken FROM, SOURCE of thing taken" f="DIR" n="2"/>
+		<role descr="destination" f="GOL" n="3"/>
+      </roles>
+      <example name="arg0 and arg1" src="" type="">
+        <text>Хорошо , я его возьму .</text>
+		<arg f="dis" n="m">Хорошо</arg>
+        <arg f="" n="0">я</arg>
+		<arg f="" n="1">его</arg>
+		<rel f="">возьму</rel>
+      </example>
+	  <example name="arg2" src="" type="">
+        <text>мне проще у тебя взять !</text>
+		<arg f="" n="2">у тебя</arg>
+        <rel f="">взять</rel>
+      </example>
+	  <example name="take it home to yourself" src="" type="">
+        <text>возьми себе домой эту книгу</text>
+        <rel f="">возьми</rel>
+		<arg f="gol" n="m">себе</arg>
+		<arg f="" n="3">домой</arg>
+		<arg f="" n="1">эту книгу</arg>
+      </example>
+	  <example name="get picked up by" src="Л. Н. Толстой, «Анна Каренина», 1876 г. (цитата из Викитеки)" type="">
+        <text>Крупное , слежавшееся сено не бралось сразу на вилы .</text>
+		<arg f="" n="1">Крупное , слежавшееся сено</arg>
+        <arg f="neg" n="m">не</arg>
+		<rel f="">бралось</rel>
+		<arg f="tmp" n="m">сразу</arg>
+		<arg f="" n="3">на вилы</arg>
+      </example>
+	  <example name="come from" src="В. П. Катаев, «Алмазный мой венец», 1975–1977 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Забытые сновидения , как призраки , являлись в наших стихах , и трудно было понять , из каких глубин сознания они взялись .</text>
+		<arg f="" n="2">из каких глубин сознания</arg>
+        <arg f="" n="1">они</arg>
+		<rel f="">взялись</rel>
+      </example>
+	  <example name="take hold of" src="В. М. Дорошевич, «Конец мира» (цитата из Викитеки)" type="">
+        <text>Он то брался за копьё , то снова клал его на скамейку .</text>
+		<arg f="" n="0">Он</arg>
+		<arg f="adv" n="m">то</arg>
+        <rel f="">брался</rel>
+		<arg f="" n="1">за копьё</arg>
+      </example>
+	  <example name="charge money" src="А. П. Чехов, «Утопленник», 1885 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>С вас я возьму недорого .</text>
+		<arg f="" n="2">С вас</arg>
+		<arg f="" n="0">я</arg>
+        <rel f="">возьму</rel>
+		<arg f="adv" n="m">недорого</arg>
+      </example>
+	  <example name="figurative" src="Russian National Corpus: [Вячеслав Рыбаков. Трудно стать Богом (1996)]" type="">
+        <text>Я хочу, чтобы ты взял ноги в руки и приехал работать сюда.</text>
+		<arg f="" n="0">ты</arg>
+        <rel f="">взял</rel>
+		<arg f="" n="1">ноги</arg>
+		<arg f="" n="3">в руки</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="взять.02" name="to gain control of, achieve, conquer, possess, arrest, rape">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">брать</alias>
+		<alias framenet="" pos="v" verbnet="">взяться</alias>
+		<alias framenet="" pos="v" verbnet="">взятие</alias>
+      </aliases>
+      <note>взять.02 NOTES: Roleset based on English conquer.01</note>
+      <roles>
+		<note>Russian Arg3-GOL has no match in English frame</note>
+        <role descr="conquering hero, agent" f="PAG" n="0">
+        </role>
+        <role descr="entity conquered, spoils (if unclear whether the spoils or the loser, use this arg)" f="PPT" n="1"/>
+		<role descr="defeated entity; loser; former owner of arg1" f="DIR" n="2"/>
+      </roles>
+      <example name="made the summit" src="И. А. Ефремов, «Лезвие бритвы», 1959—1963 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Только отчаянным порывом , с безмерным напряжением сил храбрые шерпы и австрийцы взяли вершину .</text>
+		<arg f="mnr" n="m">Только отчаянным порывом , с безмерным напряжением сил</arg>
+        <arg f="" n="0">храбрые шерпы и австрийцы</arg>
+		<rel f="">взяли</rel>
+		<arg f="" n="1">вершину</arg>
+      </example>
+	  <example name="reach the high note" src="Герард Васильев, «Роли, которые нас выбирают», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Людгарда Августовна дала тональность , и я запел , она повысила тональность , я спел выше , она ещё повысила , я спел и в этой тесситуре , дошло до того , что я взял верхнее ля .</text>
+		<arg f="" n="0">я</arg>
+        <rel f="">взял</rel>
+		<arg f="" n="1">верхнее ля</arg>
+      </example>
+	  <example name="get wise" src="Russian National Corpus: [Алексей Слаповский. Большая Книга Перемен // «Волга», 2010]" type="">
+        <text>Я вас на своей шее кормить всю жизнь не собираюсь! Денег нет, умом берите! Образованием!</text>
+		<arg f="" n="1">умом</arg>
+		<rel f="">берите</rel>
+      </example>
+	  <example name="had no beauty" src="Russian National Corpus: [П. Д. Боборыкин. Воспоминания (1906-1913)]" type="">
+        <text>Она была ровно на десять лет моложе автора «Ребенка». Красотой она не брала. Простое милое лицо с мелким овалом и небольшим немного вздернутым носом, с ясным выражением тоже неэффектных глаз. </text>
+        <arg f="" n="1">Красотой</arg>
+		<arg f="" n="0">она</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">брала</rel>
+      </example>
+    </roleset>
+	
+	<roleset id="взять.03" name="middle voice; shave, cut, shoot, etc.">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">брать</alias>
+      </aliases>
+      <note>взять.03 NOTES: no parallel English frame</note>
+      <roles>
+        <role descr="tool or weapon" f="PAG" n="0"/>
+		<role descr="entity that is target of tool or weapon" f="PPT" n="1"/>
+		<role descr="manner, distance, extent" f="MNR" n="2"/>
+      </roles>
+      <example name="picks up from 300m" src="Russian National Corpus: [Владимир Черкасов. Черный ящик (2000)]" type="">
+        <text>Внизу у тротуара, невдалеке от подъезда Скориных сидел в зеленом «уазике», похожем на армейский, с подслушкой лазерного микрофона, берущего на триста метров, Прапорщик, известный также в определенных кругах как Пальто.</text>
+        <arg f="" n="0">лазерного микрофона</arg>
+		<rel f="">берущего</rel>
+		<arg f="" n="2">на триста метров</arg>
+      </example>
+	  <example name="reach target" src="Russian National Corpus: [Р. Б. Ахмедов. Промельки (2011) // «Бельские Просторы»]" type="">
+        <text>А его самого ни одна пуля не берет, он как заговоренный.</text>
+		<arg f="dis" n="m">А</arg>
+		<arg f="" n="1">его самого</arg>
+		<arg f="" n="0">ни одна пуля</arg>
+		<arg f="neg" n="m">не</arg>
+        <rel f="">берет</rel>
+      </example>
+    </roleset>
+	
+	<roleset id="взять.04" name="hang or take a direction (a left, etc.), move self">
+      <aliases>
+      </aliases>
+      <note>взять.04 NOTES: based on English turn.01</note>
+      <roles>
+        <role descr="turner" f="PAG" n="0"/>
+		<role descr="thing turning" f="PPT" n="1"/>
+		<role descr="direction, location, destination" f="LOC" n="m"/>
+      </roles>
+      <example name="go left" src="Василий Белов, «Привычное дело», 1967 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Иван Африканович взял левее , в надежде опять выбраться на тропу .<text>
+        <arg f="" n="0">Иван Африканович</arg>
+		<rel f="">взял</rel>
+		<arg f="loc" n="m">левее</arg>
+      </example>
+	  <example name="move" src="Валериан Скворцов, «Каникулы вне закона», 2001 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Джип «Тойота-Лэндкрузер-Прадо» с затемнёнными стеклами резко взял с места с подсолнечной стороны .</text>
+		<arg f="" n="1">Джип «Тойота-Лэндкрузер-Прадо» с затемнёнными стеклами</arg>
+		<arg f="mnr" n="m">резко</arg>
+        <rel f="">взял</rel>
+		<arg f="loc" n="m">с места</arg>
+		<arg f="loc" n="m">с подсолнечной стороны</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="взять.05" name="understand to be, let's talk about, take, for example">
+      <aliases>
+      </aliases>
+	  <note>взять.05 NOTES: based on English take.04</note>
+      <roles>
+        <role descr="understander" f="PAG" n="0"/>
+		<role descr="thing" f="PPT" n="1"/>
+		<role descr="attribute" f="PRD" n="2"/>
+      </roles>
+      <example name="take the question" src="Андрей Андреев, «Будущее принадлежит нам!», 22 августа 2003 г. // «Завтра» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Взять хотя бы вопрос о необходимости службы в армии …<text>
+		<rel f="">Взять</rel>
+		<arg f="adv" n="m">хотя бы</arg>
+		<arg f="" n="1">вопрос о необходимости службы в армии</arg>
+      </example>
+	  <example name="for example" src="М. А. Булгаков, «Мастер и Маргарита, часть 2», 1929—1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Да возьмите вы любых пять страниц из любого его романа , и без всякого удостоверения вы убедитесь , что имеете дело с писателем .</text>
+		<arg f="adv" n="m">Да</arg>
+        <rel f="">возьмите</rel>
+		<arg f="" n="0">вы</arg>
+		<arg f="" n="1">любых пять страниц из любого его романа</arg>
+      </example>
+	  <example name="what made you think that" src="" type="">
+        <text>с чего ты взяла что не пустят </text>
+		<arg f="dir" n="m">с чего</arg>
+		<arg f="" n="0">ты</arg>
+        <rel f="">взяла</rel>
+		<arg f="" n="1">что не пустят</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="взять.06" name="hire">
+      <aliases>
+      </aliases>
+	  <note>взять.06 NOTES: based on English hire.01</note>
+      <roles>
+        <role descr="employer " f="PAG" n="0"/>
+		<role descr="new employee" f="PPT" n="1"/>
+		<role descr="job" f="PRD" n="2"/>
+      </roles>
+      <example name="all args" src="Д. Донцова, «Микстура от косоглазия», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Его взяли шофёром , едва ли месяц поездил и ушёл.<text>
+		<arg f="" n="1">Его</arg>
+		<rel f="">взяли</rel>
+		<arg f="" n="2">шофёром</arg>
+      </example>
+    </roleset>
+  </predicate>
+
+  <predicate lemma="взяться">
+	<roleset id="взяться.07" name="undertake, deal with, begin, take upon oneself">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">браться</alias>
+      </aliases>
+	  <note>взять.06 NOTES: based on English undertake.01</note>
+      <roles>
+        <role descr="entity taking on the endeavor" f="PAG" n="0"/>
+		<role descr="the endeavor" f="PPT" n="1"/>
+      </roles>
+      <example name="arg1" src="Russian National Corpus: [Наталья Дубова. Вокруг ITSM // «Computerworld», 2004]" type="">
+        <text>Можно прочитать тома библиотеки ITIL на английском языке и, засучив рукава, взяться за реорганизацию ИТ-службы в соответствии с её рекомендациями.<text>
+		<rel f="">взяться</rel>
+		<arg f="" n="1">за реорганизацию ИТ-службы</arg>
+		<arg f="mnr" n="m">в соответствии с её рекомендациями</arg>
+      </example>
+	  <example name="took up the pen" src="Russian National Corpus: [Александра Маринина. Последний рассвет (2013)]" type="">
+        <text>Но все же экономическая хватка у Алексея Юрьевича была недюжинной, и, поостыв, он взялся за перо и бумагу и принялся считать.<text>
+		<arg f="adv" n="m">поостыв</arg>
+		<arg f="" n="0">он</arg>
+		<rel f="">взялся</rel>
+		<arg f="" n="1">за перо и бумагу</arg>
+      </example>
+	  <example name="deal with someone" src="Russian National Corpus: [Дарья Данилова, Дмитрий Карцев. Вышел в дамки // «Русский репортер», 2013]" type="">
+        <text>Но кремлевские технологи взялись за начальника цеха с полной серьезностью.<text>
+		<arg f="dis" n="m">Но</arg>
+		<arg f="" n="1">кремлевские технологи</arg>
+		<rel f="">взялись</rel>
+		<arg f="" n="1">за начальника цеха</arg>
+		<arg f="adv" n="m">с полной серьезностью</arg>
+      </example>
+	  <example name="figurative; get smart" src="Russian National Corpus: [Екатерина Завершнева. Высотка (2012)]" type="">
+        <text>Взялся за ум, сессию с лету сдал, трезвенником<text>
+		<rel f="">Взялся</rel>
+		<arg f="" n="1">за ум</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>

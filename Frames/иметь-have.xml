@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="иметь">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="иметь.01" name="have">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">имеющий</alias>
+		<alias framenet="" pos="j" verbnet="">имевший</alias>
+		<alias framenet="" pos="j" verbnet="">имеемый</alias>
+		<alias framenet="" pos="v" verbnet="">заиметь</alias>
+		<alias framenet="" pos="j" verbnet="">заимевший</alias>
+        <alias framenet="" pos="j" verbnet="">заименный</alias>
+		<alias framenet="" pos="v" verbnet="">иметься</alias>
+	  </aliases>
+	  <note>иметь.01 NOTES: Based on have.03.</note>
+	  <roles>
+        <role descr="owner" f="pag" n="0">
+        </role>
+        <role descr="possession, thing had as" f="ppt" n="1">
+		</role>
+	  </roles>
+      <example name="all args" src="" type="">
+        <text>Кражей это становится тогда , когда человек полагает , что то , что он имеет - действительно принадлежит ему .</text>
+		<arg f="" n="1">что</arg>
+		<arg f="" n="0">он</arg>
+        <rel f="">имеет</rel>
+      </example>
+	  <example name="makes no sense" src="" type="">
+        <text>Это не имеет смысла .</text>
+		<arg f="" n="0">Это</arg>
+		<arg f="neg" n="m">не</arg>
+        <rel f="">имеет</rel>
+		<arg f="" n="1">смысла</arg>
+      </example>
+      <example name="don't belong to time" src="" type="">
+        <text>Есть вещи , которые не имеют времени .</text>
+		<arg f="" n="0">которые</arg>
+		<arg f="dis" n="m">не</arg>
+        <rel f="">имеют</rel>
+		<arg f="" n="1">времени</arg>
+      </example>
+	  <example name="have a trait or characteristic" src="Я. И. Перельман, «Живая математика», Математические рассказы и головоломки, 1958 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Так как фигуры человеческого тела приблизительно подобны, то при вдвое большем росте человек имеет объём не вдвое, а в 8 раз больший.</text>
+		<arg f="adv" n="m">при вдвое большем росте</arg>
+		<arg f="" n="0">человек</arg>
+        <rel f="">имеет</rel>
+		<arg f="" n="1">объём не вдвое, а в 8 раз больший</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="иметь.02" name="have sex with">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">имеющий</alias>
+		<alias framenet="" pos="j" verbnet="">имевший</alias>
+		<alias framenet="" pos="j" verbnet="">имеемый</alias>
+	  </aliases>
+	  <note>иметь.02 NOTES: Based on have.09.</note>
+	  <roles>
+        <role descr="agent, aggressor" f="pag" n="0">
+        </role>
+        <role descr="victim/patient" f="ppt" n="1">
+		</role>
+	  </roles>
+	  <note>*English Arg1-VSP has no match in Russian frame</note>
+	  <example name="all args" src="Владимир Шахиджанян, «1001 вопрос про ЭТО (№ 1–500)», 1999 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Один из персонажей знаменитой книги «Тысяча и одна ночь» за ночь овладевал сорока женщинами и имел их по тридцать раз.</text>
+		<arg f="" n="0">Один из персонажей знаменитой книги «Тысяча и одна ночь»</arg>
+		<arg f="tmp" n="m">за ночь</arg>
+        <rel f="">имел</rel>
+		<arg f="" n="1">их</arg>
+		<arg f="tmp" n="m">по тридцать раз</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

@@ -1,0 +1,185 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="идти">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="идти.01" name="motion, progress, proceed, change, extend">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">идущий</alias>
+		<alias framenet="" pos="j" verbnet="">шедший</alias>
+		<alias framenet="" pos="v" verbnet="">пойти</alias>
+		<alias framenet="" pos="j" verbnet="">пошедший</alias>
+      </aliases>
+      <note>идти.01 NOTES: based on go.01</note>
+	  <note>Corresponds to Framebank sense 5,6,9,13,17,18,19,20,22,24</note>
+      <roles>
+        <role descr="entity in motion/goer" f="PPT" n="1">
+        </role>
+        <role descr="extent" f="LOC" n="2">
+        </role>
+        <role descr="start point" f="DIR" n="3"/>
+		<role descr="end point, end state of arg1" f="GOL" n="4"/>
+      </roles>
+      <example name="arg1, 4" src="Russian National Corpus. [С. В. Лавров. Статья в газетах «Коммерсант» и «Уолл-стрит джорнал» // «Дипломатический вестник», 2004]" type="">
+        <text>Уже не впервые за последние полтора десятилетия мировое общественное мнение задаётся вопросом , куда идёт Россия .</text>
+        <arg f="" n="4">куда</arg>
+        <rel f="">идёт</rel> 
+		<arg f="" n="1">Россия</arg>
+      </example>
+	  <example name="arg1, 4" src="Russian National Corpus. [В. В. Путин. Выступление встречи с И.А. Каримовым // «Дипломатический вестник», 2004]" type="">
+        <text>а сейчас счёт уже идёт на миллиарды долларов.</text>
+        <arg f="dis" n="m">а</arg>
+		<arg f="tmp" n="m">сейчас</arg>
+		<arg f="" n="1">счёт</arg>
+		<arg f="adv" n="m">уже</arg>
+        <rel f="">идёт</rel> 
+		<arg f="" n="4">на миллиарды долларов</arg>
+      </example>
+	  <example name="arg2 in instrumental" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=11908" type="">
+        <text>А бизнес-элита понимает , что это эпизод , и мы по-прежнему идём верной дорогой ?</text>
+		<arg f="" n="0">мы</arg>
+		<rel f="">идём</rel>
+		<arg f="" n="1">верной дорогой</arg>
+      </example
+    </roleset>
+	
+	<roleset id="идти.02" name="self-directed motion, physical movement">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">идущий</alias>
+		<alias framenet="" pos="j" verbnet="">шедший</alias>
+		<alias framenet="" pos="v" verbnet="">пойти</alias>
+		<alias framenet="" pos="j" verbnet="">пошедший</alias>
+      </aliases>
+      <note>идти.01 NOTES: based on go.02 but has path as argument</note>
+	  <note>Corresponds to Framebank sense 1,2,3,4,7,8,14,15,16</note>
+      <roles>
+        <role descr="goer" f="PAG" n="0"/>
+        <role descr="path" f="LOC" n="1"/>
+        <role descr="start point" f="DIR" n="2"/>
+        <role descr="destination" f="GOL" n="3"/>
+      </roles>
+      <example name="arg0" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3886" type="">
+        <text>Я иду , как мамонт .</text>
+        <arg f="" n="0">Я</arg>
+        <rel f="">иду</rel> 
+        <arg f="mnr" n="m">как мамонт</arg>
+      </example>
+	  <example name="arg0 and arg1" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3887" type="">
+        <text>если он шёл по улице и где-то раздавалась музыка, он должен был непременно прислушаться и объявить: "Ага, вот и товарищ Бах!"</text>
+        <arg f="dis" n="m">если</arg>
+		<arg f="" n="0">он</arg>
+		<rel f="">шёл</rel>
+		<arg f="" n="1">по улице</arg>
+      </example>>
+	  <example name="inanimate goer" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3895" type="">
+        <text>В девять тридцать , -- сказала моя жена, -- идёт первый автобус .</text>
+		<arg f="tmp" n="m">В девять тридцать</arg>
+		<rel f="">идёт</rel>
+		<arg f="" n="0">первый автобус</arg>
+      </example>
+    </roleset>
+    
+    <roleset id="идти.03" name="be happening">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">идущий</alias>
+		<alias framenet="" pos="j" verbnet="">шедший</alias>
+      </aliases>
+	  <note>NOTES: based on go_on.15</note>
+	  <note>Corresponds to Framebank sense 5,21</note>
+      <roles>
+        <role descr="thing/entity continuing/occuring" f="PAG" n="1"/>
+      </roles>
+      <example name="weather event" src="" type="">
+        <text>Дождь идет .</text>
+        <arg f="" n="1">Дождь</arg>
+		<rel f="">идет</rel>
+      </example>
+	  <example name="change of understanding" src="" type="">
+        <text>Возможно идет подмена понятий : следовать стилю и слепо его копировать ?</text>
+		<arg f="mod" n="m">Возможно</arg>
+		<rel f="">идет</rel>
+		<arg f="" n="1">подмена понятий</arg>
+      </example>
+    </roleset>
+    
+    <roleset id="идти.04" name="goes well with, fit, belong">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">идущий</alias>
+		<alias framenet="" pos="j" verbnet="">шедший</alias>
+      </aliases>
+      <note>идти.04 NOTES: same as suit.01</note>
+	  <note>Corresponds to Framebank sense 23</note>
+	  
+      <roles>
+        <role descr="suitable thing" f="PPT" n="1"/>
+        <role descr="suitable to/for" f="GOL" n="2"/>
+      </roles>
+      <example name="ARG0 and ARG2" src="" type="">
+        <text>Очень странной показалась мысль о том , что выбрать определенный стиль который идет вам больше всего и совпадает с вашим внутренним представлением о себе - оказывается плохо </text>
+        <arg f="" n="1">который</arg>
+        <rel f="">идет</rel>
+		<arg f="" n="2">вам</arg>
+		<arg f="ext" n="m">больше всего</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="идти.05" name="belong, benefactive">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">идущий</alias>
+		<alias framenet="" pos="j" verbnet="">шедший</alias>
+		<alias framenet="" pos="v" verbnet="">пойти</alias>
+		<alias framenet="" pos="j" verbnet="">пошедший</alias>
+      </aliases>
+      <note>идти.05 NOTES: same as go.10</note>
+	  <note>Corresponds to Framebank sense 10,11,12,26,27</note>
+      <roles>
+        <role descr="thing going" f="PPT" n="1"/>
+		<role descr="receiver" f="GOL" n="2"/>
+      </roles>
+      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=идти" type="">
+        <text>Картофель идет в ботву.</text>
+        <arg f="" n="1">Картофель</arg>
+        <rel f="">идет</rel>
+		<arg f="" n="2">в ботву</arg>
+      </example>
+	  <example name="goes into, goes with, belongs to" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&cxid=3912" type="">
+        <text>Туда же, в отбросы , шли овощи , гниющие на полях , на складах .</text>
+        <arg f="" n="2">Туда же, в отбросы ,</arg>
+        <rel f="">шли</rel>
+		<arg f="" n="1">овощи</arg>
+      </example>
+	  <example name="goes for, benefactive" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&cxid=3913" type="">
+        <text>Подавляющая часть производимой в ЛПХ продукции шла на питание .</text>
+        <arg f="" n="1">Подавляющая часть производимой в ЛПХ продукции</arg>
+        <rel f="">шла</rel>
+		<arg f="" n="2">на питание</arg>
+      </example>
+	  <example name="goes for, benefactive" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&cxid=14218" type="">
+        <text>Всё идёт в ход , чтобы вырваться на волю, то есть сдать предмет на тройку и снять с себя обвинение. </text>
+        <arg f="" n="1">Всё</arg>
+        <rel f="">идёт</rel>
+		<arg f="" n="2">в ход</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="идти.06" name="talk about, be the topic or focus">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">идущий</alias>
+		<alias framenet="" pos="j" verbnet="">шедший</alias>
+      </aliases>
+      <note>идти.05 NOTES: same as be.01</note>
+	  <note>ARG1 is usually "речь"</note>
+	  <note>Corresponds to Framebank sense 24</note>
+      <roles>
+        <role descr="talk, speech, conversation" f="PPT" n="1"/>
+		<role descr="topic" f="PRD" n="2"/>
+      </roles>
+      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&cxid=11906" type="">
+        <text>Речь идёт прежде всего о своевременной выплате заработной платы . </text>
+        <arg f="" n="1">Речь</arg>
+        <rel f="">идёт</rel>
+		<arg f="adv" n="m">прежде всего</arg>
+		<arg f="" n="2">о своевременной выплате заработной платы</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>

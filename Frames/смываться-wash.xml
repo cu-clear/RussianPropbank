@@ -1,0 +1,149 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="смываться">
+	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="смываться.01" name="wash off, dissipate">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">смывающийся</alias> 
+		<alias framenet="" pos="j" verbnet="">смывавшийся</alias> 
+		<alias framenet="" pos="v" verbnet="">смыться</alias>
+		<alias framenet="" pos="v" verbnet="">смывать</alias>
+		<alias framenet="" pos="j" verbnet="">смывающий</alias> 
+		<alias framenet="" pos="j" verbnet="">смывавший</alias> 
+		<alias framenet="" pos="j" verbnet="">смываемый</alias>
+		<alias framenet="" pos="v" verbnet="">смыть</alias>
+		<alias framenet="" pos="j" verbnet="">смытый</alias> 
+		<alias framenet="" pos="j" verbnet="">смывший</alias> 
+        <alias framenet="" pos="j" verbnet="">смыт</alias> 
+		<alias framenet="" pos="n" verbnet="">смывание</alias>
+		<alias framenet="" pos="n" verbnet="">смывка</alias>  
+      </aliases>
+      <note>смыть.01 NOTES: based on wash.01</note>
+      <roles>
+        <role descr="agent of washing" f="PAG" n="0"/>
+        <role descr="stain, thing being washed off" f="PPT" n="1"/>
+		<role descr="washing liquid" f="MNR" n="2"/>
+        <role descr="location of stain or thing being washed off" f="DIR" n="3"/>
+      </roles>
+	  <note>English Arg4-GOL has no match in Russian frame</note>
+	  <example name="all args, imperfective" src="" type="">
+        <text>Мы смывали чернильные пятна со стола.</text>
+        <arg f="" n="0">Мы</arg>
+		<rel f="">смывали</rel>
+		<arg f="" n="1">чернильные пятна</arg>
+		<arg f="" n="2">со стола</arg>
+      </example> 
+      <example name="all args, figurative use" src="" type="">
+        <text>Он смыл с себя позор</text>
+        <arg f="" n="0">Он</arg>
+		<rel f="">смыл</rel>
+		<arg f="" n="2">с себя</arg>
+        <arg f="" n="1">позор</arg>
+      </example> 
+	  <example name="reflexive as passive" src="Владислав Крапивин, «Трое с площади Карронад», 1979 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Йод испарится , а зелёнка липучая и долго не смывается .</text>
+        <arg f="" n="1">зелёнка липучая</arg>
+		<arg f="adv" n="m">и</arg>
+		<arg f="tmp" n="m">долго</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">смывается</rel>
+	  </example>
+	  <example name="reflexive as passive, figurative use" src="Б. Л. Васильев, «Вещий Олег», 1996 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Оскорбление смывается только кровью , отец .</text>
+		<arg f="" n="1">Оскорбление</arg> 
+        <rel f="">смывается</rel>
+		<arg f="adv" n="m">только</arg>
+        <arg f="" n="3">кровью</arg>
+		<arg f="dis" n="m">отец</arg>
+      </example>
+	  <example name="reduced adjective participle; no change of location" src="" type="">
+        <text>С дорог смыто дорожное покрытие .</text>
+        <arg f="" n="2">С дорог</arg>
+        <rel f="">смыто</rel>
+        <arg f="" n="1">дорожное покрытие</arg>
+      </example>
+	  <example name="reflexive as passive, figurative use" src="Валентина Осеева, «Динка», 1959 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Когда я смотрю на неё , мои глаза отдыхают , и вся усталость , вся накипь дня смывается с моей души , как чёрная копоть , ― с восторгом говорил Вася своему ученику и тут же , взъерошив свои густые волосы , привычно удивлялся : ― И как это в одной семье , у одной матери могут быть такие разные дети ?</text>
+		<arg f="" n="1">вся усталость , вся накипь дня</arg> 
+        <rel f="">смывается</rel>
+        <arg f="" n="2">с моей души</arg>
+		<arg f="adv" n="m">как чёрная копоть</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="смываться.02" name="wash away, move by water">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">смывающийся</alias> 
+		<alias framenet="" pos="j" verbnet="">смывавшийся</alias> 
+		<alias framenet="" pos="v" verbnet="">смыться</alias>
+		<alias framenet="" pos="v" verbnet="">смывать</alias>
+		<alias framenet="" pos="j" verbnet="">смывающий</alias> 
+		<alias framenet="" pos="j" verbnet="">смывавший</alias> 
+		<alias framenet="" pos="j" verbnet="">смываемый</alias>
+		<alias framenet="" pos="v" verbnet="">смыть</alias>
+		<alias framenet="" pos="j" verbnet="">смытый</alias> 
+		<alias framenet="" pos="j" verbnet="">смывший</alias> 
+        <alias framenet="" pos="j" verbnet="">смыт</alias> 
+		<alias framenet="" pos="n" verbnet="">смыв</alias> 
+      </aliases>
+	  <note>Corresponds to FrameBank senses 1,2</note>
+      <note>смываться.02 NOTES: based on wash.01</note>
+      <roles>
+        <role descr="agent of washing" f="PAG" n="0"/>
+        <role descr="stain, thing being washed off" f="PPT" n="1"/>
+        <role descr="location of stain or thing being washed off" f="DIR" n="2"/>
+        <role descr="end state or location of arg1" f="GOL" n="3"/>
+      </roles>
+	  <note>English Arg2-MNR has no match in Russian frame</note>
+	  <note>English Arg3-DIR = Russian Arg2-DIR</note>
+	  <note>English Arg4-GOL = Russian Arg3-GOL</note>
+	  <example name="passive with goal" src="" type="">
+        <text>В океан было смыто несколько десятков домов и более 100 тысяч домашних животных , которые , вероятнее всего , погибли .</text>
+        <arg f="" n="3">В океан</arg>
+        <rel f="">смыто</rel>
+        <arg f="" n="1">несколько десятков домов и более 100 тысяч домашних животных , которые , вероятнее всего , погибли</arg>
+      </example>
+	  <example name="arg0, arg4, arg1" src="" type="">
+        <text>Потоки воды смыли в океан множество жилых строений , а также стада животных .</text>
+        <arg f="" n="0">Потоки воды</arg>
+        <rel f="">смыли</rel>
+        <arg f="" n="3">в океан</arg>
+		<arg f="" n="1">множество жилых строений</arg> 
+      </example>
+	  <example name="impersonal construction, arg3 and arg1" src="https://dic.academic.ru/dic.nsf/ogegova/225054" type="">
+        <text>Водой смыло лодку .</text>
+        <arg f="" n="0">Водой</arg>
+        <rel f="">смыло</rel>
+		<arg f="" n="1">лодку</arg> 
+      </example> 
+	  <example name="reflexive as passive" src="Степан Григорьев, «Материки дрейфуют, но не на плитах!» // «Техника - молодежи», 1977 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>И это несмотря на то, что каждые 10-15 млн. лет с возвышенностей смывается 1 км пород , а на дне океана за тот же срок накапливается слой осадков в 0,3-0,5 к .</text>
+		<arg f="tmp" n="m">каждые 10-15 млн. лет</arg>
+        <arg f="" n="2">с возвышенностей</arg>
+        <rel f="">смывается</rel>
+		<arg f="" n="1">1 км пород</arg> 
+      </example>
+    </roleset>
+	
+	<roleset id="смываться.03" name="sneak out">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">смывающийся</alias>
+		<alias framenet="" pos="j" verbnet="">смывавшийся</alias>
+		<alias framenet="" pos="j" verbnet="">смыться</alias>
+      </aliases>
+	  <note>смываться.03 NOTES: based on sneak.01</note>
+      <roles>
+        <role descr="entity sneaking " f="PAG" n="0"/>
+        <role descr="destination " f="GOL" n="1"/>
+		<role descr="source " f="DIR" n="2"/>
+      </roles>
+	  <note>English Arg3-PPT has no match in Russian frame</note>
+	  <example name="all args, imperfective" src="" type="">
+        <text>Надо нам отсюда смываться.</text>
+        <arg f="" n="0">нам</arg>
+		<arg f="" n="1">отсюда</arg>
+		<rel f="">смываться</rel>
+      </example>  
+    </roleset>
+  </predicate>
+</frameset>

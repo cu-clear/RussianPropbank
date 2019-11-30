@@ -1,0 +1,85 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="считаться">
+	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="считаться.01" name="characterize">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">считающийся</alias>
+		<alias framenet="" pos="j" verbnet="">считавшийся</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense 3</note>
+	  <note>считаться.01 NOTES: Based on characterize.01.</note>
+      <roles>
+        <role descr="considerer" f="pag" n="0">
+        </role>
+		<role descr="thing considered" f="ppt" n="1">
+        </role>
+        <role descr="attribute, described-as" f="prd" n="2"/>
+      <example name="is considered, counted" src="" type="">
+        <text>В столице Парагвая наводнение вынудило 72 тысячи жителей покинуть свои жилища , кроме этого 30 тысяч считаются пострадавшими по всей стране .</text>
+        <arg f="" n="1">30 тысяч</arg>
+        <rel f="">считаются</rel>
+		<arg f="" n="2">пострадавшими</arg>
+		<arg f="loc" n="m">по всей стране</arg>
+      </example>
+      <example name="is considered to be" src="" type="">
+        <text>Во-вторых, считается что тренд - это прямолинейный канал постоянной ширины .</text>
+        <arg f="dis" n="m">Во-вторых</arg>
+		<rel f="">считается</rel>
+		<arg f="" n="1">что тренд</arg>
+        <arg f="" n="2">это прямолинейный канал постоянной ширины</arg>
+      </example>
+	  <example name="consider" src="" type="">
+        <text>Коренной поворот деревни к социализму можно считать уже обеспеченным .</text>
+        <arg f="" n="1">Коренной поворот деревни к социализму</arg>
+		<rel f="">считать</rel>
+		<arg f="adv" n="m">уже</arg>
+		<arg f="" n="2">обеспеченным</arg>
+      </example>
+	  <example name="consider" src="" type="">
+        <text>Сегодня я должен считать вас за клеветника и за интригана .</text>
+        <arg f="tmp" n="m">Сегодня</arg>
+		<arg f="" n="0">я</arg>
+		<rel f="">считать</rel>
+		<arg f="" n="1">вас</arg>
+		<arg f="" n="2">за клеветника и за интригана</arg>
+      </example>
+	</roleset>
+
+	<roleset id="считаться.02" name="reckon">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">считающийся</alias>
+		<alias framenet="" pos="j" verbnet="">считавшийся</alias>
+        <alias framenet="" pos="v" verbnet="">посчитаться</alias>
+		<alias framenet="" pos="j" verbnet="">посчитавшийся</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense 2</note>
+	  <note>считаться.02 NOTES: Based on reckon.02.</note>
+      <roles>
+        <role descr="thing to be reckoned with" f="ppt" n="1">
+        </role>
+      <example name="take into consideration, reckon with" src="" type="">
+        <text>Если правило основано на здравом смысле , с ним нужно считаться .</text>    
+        <arg f="" n="1">с ним</arg>
+		<rel f="">считаться</rel>
+      </example>
+	</roleset>
+
+    <roleset id="считаться.03" name="count">
+      <aliases>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense 1</note>
+	  <note>считаться.01 NOTES: Based on count.04.</note>
+      <roles>
+        <role descr="important thing" f="pag" n="1">
+        </role>
+      <example name="matter" src="" type="">
+        <text>Все остальное не считается .</text>    
+        <arg f="" n="1">Все остальное</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">считается</rel>
+      </example>
+	</roleset>
+	
+  </predicate>
+</frameset>
