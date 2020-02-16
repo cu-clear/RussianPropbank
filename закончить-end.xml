@@ -1,0 +1,98 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+ <predicate lemma="закончить">
+	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="закончить.01" name="end">
+       <aliases>
+		<alias framenet="" pos="j" verbnet="">закончиться</alias>
+		<alias framenet="" pos="j" verbnet="">закончившийся</alias>
+		<alias framenet="" pos="v" verbnet="">заканчиваться</alias>
+		<alias framenet="" pos="j" verbnet="">заканчивающийся</alias>
+		<alias framenet="" pos="j" verbnet="">заканчивавшийся</alias>
+		<alias framenet="" pos="j" verbnet="">закончивший</alias>
+		<alias framenet="" pos="j" verbnet="">законченный</alias>
+		<alias framenet="" pos="v" verbnet="">заканчивать</alias>
+		<alias framenet="" pos="j" verbnet="">заканчивавший</alias>
+		<alias framenet="" pos="j" verbnet="">заканчивающий</alias>
+		<alias framenet="" pos="j" verbnet="">заканчиваемый</alias>
+      </aliases>
+	  <note>NOTES: Based on "end.01"</note>
+	  <roles>
+        <role descr="Agent/cause of ending" f="pag" n="0">
+        </role>
+        <role descr="Thing ending" f="ppt" n="1">
+        </role>
+        <role descr="Explicit instrument, thing ended with, end portion" f="mnr" n="2"/>
+		<role descr="Benefactive, possessor, location of ending" f="mnr" n="3"/>
+      </roles>
+      <example name="arg1" src="" type="">
+        <text>Он скоро закончится .</text>
+        <arg f="" n="1">Он</arg>
+		<arg f="tmp" n="m">скоро</arg>
+        <rel f="">закончится</rel>
+      </example>
+      <example name="arg 1 and 3" src="" type="with benefactive">
+        <text>У нас закончилась туалетная бумага .</text>
+        <arg f="" n="3">У нас</arg>
+        <rel f="">закончилась</rel>
+        <arg f="mnr" n="1">туалетная бумага</arg>
+      </example>
+      <example name="arg1 and arg2" type="">
+        <text>Напомним , последнее крупное извержение Фуэго в 2012 году закончилось именно массовым вывозом жителей близлежащих населённых пунктов на безопасное расстояние .</text>
+        <arg f="" n="1">последнее крупное извержение Фуэго</arg>
+        <arg f="tmp" n="m">в 2012 году</arg>
+        <rel f="">закончилось</rel>
+		<arg f="adv" n="m">именно</arg>
+		<arg f="" n="2">массовым вывозом жителей близлежащих населённых пунктов на безопасное расстояние</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="закончить.02" name="complete, graduate">
+       <aliases>
+		<alias framenet="" pos="j" verbnet="">закончивший</alias>
+		<alias framenet="" pos="j" verbnet="">законченный</alias>
+		<alias framenet="" pos="v" verbnet="">окончить</alias>
+		<alias framenet="" pos="j" verbnet="">окончивший</alias>
+		<alias framenet="" pos="j" verbnet="">оконченный</alias>
+		<alias framenet="" pos="v" verbnet="">оканчивать</alias>
+		<alias framenet="" pos="j" verbnet="">оканчивающий</alias>
+		<alias framenet="" pos="j" verbnet="">оканчивавший</alias>
+		<alias framenet="" pos="j" verbnet="">оканчиваемый</alias>
+		<alias framenet="" pos="v" verbnet="">кончить</alias>
+		<alias framenet="" pos="j" verbnet="">кончивший</alias>
+		<alias framenet="" pos="j" verbnet="">конченный</alias>
+		<alias framenet="" pos="v" verbnet="">кончать</alias>
+		<alias framenet="" pos="j" verbnet="">кончающий</alias>
+		<alias framenet="" pos="j" verbnet="">кончавший</alias>
+		<alias framenet="" pos="j" verbnet="">кончаемый</alias>
+      </aliases>
+	  <note>NOTES: Based on adjustment to "graduate.01"</note>
+	  <roles>
+        <role descr="graduate " f="pag" n="0">
+        </role>
+        <role descr="program completed" f="ppt" n="1">
+        </role>
+		<role descr="grade or manner of graduation" f="mnr" n="2">
+      </roles>
+      <example name="закончить" src="" type="">
+        <text>Он закончил Московский государственный университет .</text>
+        <arg f="" n="0">Он</arg>
+        <rel f="">закончил</rel>
+		<arg f="mnr" n="1">Московский государственный университет</arg>
+      </example>
+      <example name="окончить, with arg2" src="" type="with benefactive">
+        <text>А Маша очень старалась окончить пятый класс на " хорошо " и " отлично " .</text>
+        <arg f="" n="0">*trace-1*</arg>
+        <rel f="">окончить</rel>
+        <arg f="mnr" n="1">пятый класс</arg>
+		<arg f="mnr" n="2">на " хорошо " и " отлично "</arg>
+      </example>
+      <example name="кончить" src="В. О. Пелевин, «Синий фонарь», 1991 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Потом они все выросли, кончили школу , женились и стали работать и воспитывать детей .</text>
+        <arg f="" n="0">*Trace-1*</arg>
+        <rel f="">кончили</rel>
+		<arg f="" n="1">школу</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>

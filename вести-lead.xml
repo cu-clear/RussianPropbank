@@ -1,0 +1,366 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+ <predicate lemma="вести">
+	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="вести.01" name="directed motion, be ahead of, lead">
+       <aliases>
+		<alias framenet="" pos="j" verbnet="">ведущий</alias>
+		<alias framenet="" pos="j" verbnet="">ведомый</alias>
+		<alias framenet="" pos="j" verbnet="">ведённый</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="v" verbnet="">водить</alias>
+		<alias framenet="" pos="j" verbnet="">водящий</alias>
+		<alias framenet="" pos="j" verbnet="">водивший</alias>
+		<alias framenet="" pos="j" verbnet="">водимый</alias>
+		<alias framenet="" pos="j" verbnet="">воженный</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="v" verbnet="">повести</alias>
+		<alias framenet="" pos="j" verbnet="">поведший</alias>
+		<alias framenet="" pos="j" verbnet="">поведённый</alias>
+		<alias framenet="" pos="j" verbnet="">поведенный</alias>
+		<alias framenet="" pos="n" verbnet="">вождение</alias>
+		<alias framenet="" pos="n" verbnet="">ведение</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 1,2,14</note>
+	  <note>вести.01 NOTES: Based on English lead.01</note>
+	  <roles>
+        <role descr="leader" f="PAG" n="0"/>
+        <role descr="in the lead of" f="PPT" n="1"/>
+		<role descr="extent, how far in front" f="EXT" n="2"/>
+        <role descr="start point" f="DIR" n="3"/>
+		<role descr="end point" f="GOL" n="4"/>
+      </roles>
+	  <example name="top candidate" src="" type="">
+        <text>В качестве ведущих кандидатов на пост президента его страны в следующем году выборов , Марио Варгас как неизменяющиеся часто отражают реакционные политические стратегии должны быть в завидном положении .</text>
+        <rel f="">ведущих</rel>
+		<arg f="" n="0">кандидатов на пост президента его страны</arg>
+		<arg f="LOC" n="m">в следующем году</arg>
+		<arg f="" n="1">выборов</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="вести.02" name="guide, direct, accompany">
+        <aliases>
+		<alias framenet="" pos="j" verbnet="">ведущий</alias>
+		<alias framenet="" pos="j" verbnet="">ведший</alias>
+		<alias framenet="" pos="j" verbnet="">ведомый</alias>
+		<alias framenet="" pos="j" verbnet="">ведённый</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="v" verbnet="">водить</alias>
+		<alias framenet="" pos="j" verbnet="">водящий</alias>
+		<alias framenet="" pos="j" verbnet="">водивший</alias>
+		<alias framenet="" pos="j" verbnet="">водимый</alias>
+		<alias framenet="" pos="j" verbnet="">воженный</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="v" verbnet="">повести</alias>
+		<alias framenet="" pos="j" verbnet="">поведший</alias>
+		<alias framenet="" pos="j" verbnet="">поведённый</alias>
+		<alias framenet="" pos="j" verbnet="">поведенный</alias>
+		<alias framenet="" pos="n" verbnet="">вождение</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank sense 2</note>
+	  <note>вести.02 NOTES: Based on English guide.01</note>
+	  <roles>
+		<note>English Arg3-PRD = Russian ARG3-MNR</note>
+        <role descr="guide, agent" f="PAG" n="0"/>
+        <role descr="entity guided" f="PPT" n="1"/>
+		<role descr="guided to/in/through" f="LOC" n="2"/>
+        <role descr="manner of guiding, e.g. под руку" f="MNR" n="3"/>
+      </roles>
+      <example name="arg1 and arg2" src="Russian National Corpus. [В. П. Катаев. Алмазный мой венец (1975-1977)]" type="">
+        <text>― Тогда ладно, ― сказал королевич, ― не хочешь вести меня к Командору, так веди меня к его соратнику, а уж он меня наверняка подружит с самим .</text>
+        <arg f="" n="0">*PRO*</arg>
+        <rel f="">веди</rel>
+		<arg f="" n="1">меня</arg>
+		<arg f="" n="3">к его соратнику</arg>
+      </example>
+	  <example name="figurative" src="" type="">
+        <text>Ну , суровая реальность говорит нам о том , что многие великие личности , выходцы из простонародья , навсегда покидали свою малую Родину , дабы вести свою ветвь развития по восходящей , а не наоборот .</text>
+        <arg f="" n="0">*PRO*</arg>
+        <rel f="">вести</rel>
+		<arg f="" n="1">свою ветвь развития</arg>
+		<arg f="" n="2">по восходящей</arg>
+      </example>
+	  <example name="by hand" src="Russian National Corpus. [Сати Спивакова. Не всё (2002)]" type="">
+        <text>Она вела его под руку (он тогда неважно ходил, хотя всю жизнь был по натуре живчик, занимался йогой, стоял на голове, прыгал).</text>
+		<arg f="" n="0">Она</arg>
+		<rel f="">вела</rel>
+		<arg f="" n="1">его</arg>
+		<arg f="" n="3">под руку</arg>
+      </example>
+	  <example name="figurative example" src="" type="">
+        <text>Если всё так , как Вы написали и мама - единственная , милая , родная и любимая , то и делитесь с ней с благодарностью дарами своей души , а коль скоро эта помощь оставляет опустошение и будит гамму негативных чувств внутри , то , скорее всего , Вас ведёт желание соответствовать общественным стандартам , любви здесь нет .</text>
+		<arg f="" n="1">Вас</arg>
+		<rel f="">ведёт</rel>
+		<arg f="" n="0">желание соответствовать общественным стандартам</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="вести.03" name="drive or operate a vehicle, or be driven">
+        <aliases>
+		<alias framenet="" pos="j" verbnet="">ведущий</alias>
+		<alias framenet="" pos="j" verbnet="">ведший</alias>
+		<alias framenet="" pos="j" verbnet="">ведомый</alias>
+		<alias framenet="" pos="j" verbnet="">ведённый</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="v" verbnet="">водить</alias>
+		<alias framenet="" pos="j" verbnet="">водящий</alias>
+		<alias framenet="" pos="j" verbnet="">водивший</alias>
+		<alias framenet="" pos="j" verbnet="">водимый</alias>
+		<alias framenet="" pos="j" verbnet="">воженный</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="v" verbnet="">повести</alias>
+		<alias framenet="" pos="j" verbnet="">поведший</alias>
+		<alias framenet="" pos="j" verbnet="">поведённый</alias>
+		<alias framenet="" pos="j" verbnet="">поведенный</alias>
+		<alias framenet="" pos="n" verbnet="">вождение</alias>
+		<alias framenet="" pos="n" verbnet="">ведение</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank sense 3</note>
+	  <note>вести.03 NOTES: Based on English drive.01</note>
+	  <roles>
+        <role descr="driver" f="PAG" n="0"/>
+        <role descr="vehicle or path" f="PPT" n="1"/>
+      </roles>
+      <example name="drive a car" src="" type="">
+        <text>У нас у знакомых так девушку " развели на деньги " за то , что она вела машину в туфлях на каблуке .</text>
+        <arg f="" n="0">она</arg>
+		<rel f="">вела</rel>
+		<arg f="" n="1">машину</arg>
+		<arg f="adv" n="m">в туфлях на каблуке</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="вести.04" name="supervise, be a project leader or chair">
+       <aliases>
+		<alias framenet="" pos="j" verbnet="">ведущий</alias>
+		<alias framenet="" pos="j" verbnet="">ведший</alias>
+		<alias framenet="" pos="j" verbnet="">ведомый</alias>
+		<alias framenet="" pos="j" verbnet="">ведённый</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="v" verbnet="">повести</alias>
+		<alias framenet="" pos="j" verbnet="">поведший</alias>
+		<alias framenet="" pos="j" verbnet="">поведённый</alias>
+		<alias framenet="" pos="j" verbnet="">поведенный</alias>
+		<alias framenet="" pos="n" verbnet="">ведение</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 8,10</note>
+	  <note>вести.04 NOTES: Based on lead.02</note>
+	  <roles>
+        <role descr="leader" f="PAG" n="0"/>
+		<role descr="entity led" f="PPT" n="1"/>
+		<role descr="proposition" f="PRD" n="2"/>
+      </roles>
+      <example name="arg1" src="" type="">
+        <text>На небольших четырех комнате дома Элиас минстр здравоохранения ЮАР , ведущим АНК юнионистов и бывший командир группы вооруженного крыла , Умконто ве Сизве доброжелателей и заклинило в открытом положении мало АНК флаги в их волосы и мужчина tooted на звуковой сигнал антилоп завернутые в АНК ленточек .</text>
+		<arg f="" n="0">*Trace-1*</arg>
+		<rel f="">ведущим</rel>
+		<arg f="" n="1">АНК юнионистов</arg>
+      </example>
+	  <example name="housekeeper" src="Russian National Corpus. [Алексей Варламов. Купавна // «Новый Мир», 2000]" type="">
+        <text>У неё доставало сил вести этот большой дом, на всех готовить, обстирывать, шить и ходить по магазинам, отвозить на санках в ясли, отводить в детский сад или в школу внуков, покупать им подарки с сорокарублевой пенсии, дарить каждому по три рубля к Седьмому ноября, принимать гостей и ездить в гости самой к сыновьям и родственникам, благоразумно ладить с соседями, но никогда не сидеть на скамейке во дворе с другими бабками, не жаловаться на болячки и не обсуждать проходящих мимо.</text>
+		<rel f="">вести</rel>
+		<arg f="" n="1">этот большой дом</arg>
+      </example>
+	  <example name="chair a meeting" src="Russian National Corpus. [Жорес Алферов. Мы должны винить сами себя (2001)]" type="">
+        <text>И когда Горбачев начал вести это собрание, то поднялся крик, свист ― коммунисты орали чуть ли не «Долой!» .</text>
+		<rel f="">вести</rel>
+		<arg f="" n="1">это собрание</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="вести.05" name="move something along a surface">
+        <aliases>
+		<alias framenet="" pos="j" verbnet="">ведущий</alias>
+		<alias framenet="" pos="j" verbnet="">ведший</alias>
+		<alias framenet="" pos="j" verbnet="">ведомый</alias>
+		<alias framenet="" pos="j" verbnet="">ведённый</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="v" verbnet="">водить</alias>
+		<alias framenet="" pos="j" verbnet="">водящий</alias>
+		<alias framenet="" pos="j" verbnet="">водивший</alias>
+		<alias framenet="" pos="j" verbnet="">водимый</alias>
+		<alias framenet="" pos="j" verbnet="">воженный</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="v" verbnet="">повести</alias>
+		<alias framenet="" pos="j" verbnet="">поведший</alias>
+		<alias framenet="" pos="j" verbnet="">поведённый</alias>
+		<alias framenet="" pos="j" verbnet="">поведенный</alias>
+		<alias framenet="" pos="n" verbnet="">вождение</alias>
+		<alias framenet="" pos="n" verbnet="">ведение</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank sense 5</note>
+	  <note>вести.05 NOTES: Based on English walk.01, but figurative, ergative sense only</note>
+	  <roles>
+        <role descr="walker, thing in motion" f="PAG" n="0"/>
+        <role descr="entity being moved" f="PPT" n="1"/>
+		<role descr="path/ underspecified location" f="LOC" n="2"/>
+      </roles>
+      <example name="move eyes along lines" src="Russian National Corpus.  [В. Т. Шаламов. Колымские рассказы (1954-1961)]" type="">
+        <text>Строчки прыгают перед глазами, когда я вслушиваюсь в радиопередачу, хотя автоматизм чтения сохраняется, я веду глазами по строчкам, и вдруг обнаруживается, что из только что прочитанного я не помню ничего.</text>
+        <arg f="" n="0">я</arg>
+		<rel f="">веду</rel>
+		<arg f="" n="1">глазами</arg>
+		<arg f="" n="2">по строчкам</arg>
+      </example>
+	  <example name="guide fingers" src="Russian National Corpus.  [А. Н. Толстой. Черная пятница (1924)]" type="">
+        <text>Картошин по пути от нечего делать вёл пальцем по обоям тёмного коридора .</text>
+		<rel f="">вёл</rel>
+		<arg f="" n="1">пальцем</arg>
+		<arg f="" n="2">по обоям тёмного коридора</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="вести.06" name="lead to, cause a result, have terminus">
+       <aliases>
+		<alias framenet="" pos="j" verbnet="">ведущий</alias>
+		<alias framenet="" pos="j" verbnet="">ведший</alias>
+		<alias framenet="" pos="j" verbnet="">ведомый</alias>
+		<alias framenet="" pos="j" verbnet="">ведённый</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="j" verbnet="">веденный</alias>
+		<alias framenet="" pos="v" verbnet="">повести</alias>
+		<alias framenet="" pos="j" verbnet="">поведший</alias>
+		<alias framenet="" pos="j" verbnet="">поведённый</alias>
+		<alias framenet="" pos="j" verbnet="">поведенный</alias>
+		<alias framenet="" pos="n" verbnet="">ведение</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 4,6,7</note>
+	  <note>вести.06 NOTES: somewhat based on lead.03. See also VerbNet "terminus" class.</note>
+	  <roles>
+		<note>English Arg1-PPT has no match in Russian frame</note>
+		<note>English Arg2-PRD = Russian Arg2-GOL</note>
+		<note>Russian Arg3-DIR has no match in English frame</note>
+        <role descr="factors, thing leading to something" f="PAG" n="0"/>
+		<role descr="destination, result, action or attribute on arg1" f="GOL" n="2"/>
+		<role descr="source" f="DIR" n="3"/>
+      </roles>
+	  <example name="arg1 and arg2" src="" type="">
+        <text>Пограничная полиция и спасатели Аргентины убирают покрытые пеплом деревья из реки , ведущей к озеру во избежании затора воды в Вилла Ла Ангостура , южная Аргентина .</text>
+		<rel f="">ведущей</rel>
+		<arg f="" n="2">к озеру</arg>
+      </example>
+	  <example name="all args" src="" type="">
+        <text>Другой дороге , ведущей от южной границы города Рафах в Хан-Юнис будет открыт в течение 10 ДАВС , сказал он</text>
+		<rel f="">ведущей</rel>
+		<arg f="" n="3">от южной границы города Рафах</arg>
+		<arg f="" n="2">в Хан-Юнис</arg>
+      </example>
+	  <example name="link to" src="" type="">
+        <text>Отдельной же темы про Сиде 2006 нет , твоя ссылка ведет на твою страничку</text>
+		<arg f="" n="1">твоя ссылка</arg>
+		<rel f="">ведет</rel>
+		<arg f="" n="2">на твою страничку</arg>
+      </example>
+	  <example name="result in" src="" type="">
+        <text>Главными причинами столь высокой аварийности в Главном штабе ВВС считают крайне низкую натренированность экипажей , что ведет к утрате ими летных навыков , а также фактическую потерю квалификации должностными лицами , отвечающими за организацию полетов и управление ими .</text>
+		<rel f="">ведет</rel>
+		<arg f="" n="2">к утрате ими летных навыков</arg>
+      </example>
+	  <example name="active adjectival participal, result in" src="" type="">
+        <text>Почему то наш народ так устроен , что в момент опасности он моментально может " собраться с силами ": появляется ярко выраженная сплоченность , четкость мышления , появляется упрямая целеустремленность , ведущая к победе</text>
+		<rel f="">ведущая</rel>
+		<arg f="" n="2">к победе</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="вести.07" name="remain unmoved, don't pay attention, be unaffected emotionally or cognitively">
+      <aliases>
+	  </aliases>
+		<note>Corresponds to FrameBank sense 15</note>
+		<note>вести.07 NOTES: based on move.05</note>
+      <roles>
+		<role descr="(non) attender" f="PAG" n="0">
+        </role>
+		<role descr="(non) experiencer of emotion or attention" f="PPT" n="1">
+		</role>
+		<role descr="indicator of emotion or attention" f="MNR" n="2">
+		</role>
+	  </roles>
+      <example name="бровью не ведёт" src="Russian National Corpus. [Булат Окуджава. Новенький как с иголочки (1962)]" type="">
+        <text>А Саша Абношкин , как самый неумолимый судья , и бровью не ведёт .</text>
+        <arg f="dis" n="m">А</arg>
+		<arg f="" n="0">Саша Абношкин , как самый неумолимый судья ,</arg>
+		<arg f="adv" n="m">и</arg>
+		<arg f="" n="1">бровью</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">ведёт</rel>
+      </example>
+	  <example name="ухом не ведёт" src=" Russian National Corpus. [Владимир Кунин. Кыся (1998-2000)] " type="">
+        <text>Она теперь ко мне то и дело подлизывается , но я и ухом не веду в ее сторону .</text>
+        <arg f="" n="0">я</arg>
+		<arg f="adv" n="m">и</arg>
+		<arg f="" n="1">ухом</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">веду</rel>
+		<arg f="" n="2">в ее сторону</arg>
+      </example>
+	</roleset>
+  </predicate>
+  
+  <predicate lemma="вестись">
+	 <roleset id="вестись.08" name="be influenced, usually with negative outcomes; deceived; led astray">
+      <aliases>
+	  </aliases>
+	  <note>вестись.08 NOTES: based on misguide.01</note>
+      <roles>
+        <role descr="agent, causer of misdirection" f="PAG" n="0">
+        </role>
+		<role descr="misguided one" f="PPT" n="1">
+		</role>
+		<role descr="misguided actions" f="PPT" n="2"/>
+	  </roles>
+      <example name="influenced by other's opinion" src="Russian National Corpus" type="">
+        <text>Думал, что выиграю при любых раскладах. Повелся на мнение людей, которые думали так же</text>
+		<rel f="">Повелся</rel>
+		<arg f="" n="0">на мнение</arg>
+      </example>
+	  <example name="by pointless questions" src="Russian National Corpus" type="">
+        <text>Не надо вестись на опасные вопросы типа «А что, мы вас плохо воспитали?» - ведь у них не бывает верных ответов.</text>
+		<rel f="">вестись</rel>
+		<arg f="" n="0">на опасные вопросы типа «А что, мы вас плохо воспитали?»</arg>
+		<arg f="adv" n="m">ведь у них не бывает верных ответов</arg>
+      </example>
+	  <example name="gypped" src="Russian National Corpus" type="">
+        <text>Однажды на Киевском вокзале я повелся на предложение одной цыганки. Но, кроме «развода», ничего не  увидел и поймал цыганку, которая хотела отнять у меня деньги.</text>
+		<arg f="tmp" n="m">Однажды</arg>
+		<arg f="loc" n="m">на Киевском вокзале</arg>
+		<arg f="" n="1">я</arg>
+		<rel f="">повелся</rel>
+		<arg f="" n="0">на предложение одной цыганки</arg>
+      </example>
+	</roleset>
+  </predicate>
+
+  <predicate lemma="вести_себя-m">
+	 <roleset id="вести_себя.09" name="behave">
+      <aliases>
+	  <mwe id="вести_себя">
+			<token slot="A" arg="" pos="" head="" dep="">вести</token>
+			<token slot="B" arg="" pos="" head="A" dep="">себя</token>
+		</mwe>
+	  </aliases>
+	  <note>вести_себя.09 NOTES: based on behave.01</note>
+      <roles>
+        <role descr="agent, entity behaving" f="PAG" n="0">
+        </role>
+		<role descr="manner" f="PRD" n="1">
+		</role>
+	  </roles>
+      <example name="" src="" type="">
+        <text>- Один из мужчин – тот , который подозревается в убийстве , вел себя агрессивно , поэтому медикам ничего не оставалось , как привязать буйного пациента к кровати , – говорит Александр Владимирович .</text>
+        <arg f="" n="0">Один из мужчин</arg>
+		<rel f="">вел</rel>
+		<rel f="">себя</rel>
+		<arg f="" n="1">агрессивно</arg>
+      </example>
+	  <example name="" src="" type="">
+        <text>Изучение свойств веществ , которые могут вырваться в атмосферу - какая высота подъема , как ведут себя в холод и дождь .</text>
+		<arg f="" n="1">как</arg>
+		<rel f="">ведут</rel>
+		<rel f="">себя</rel>
+		<arg f="loc" n="m">в холод и дождь</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

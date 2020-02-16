@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="числиться">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="числиться.01" name="listed, counted among, included">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">числящийся</alias>
+		<alias framenet="" pos="v" verbnet="">числить</alias>
+		<alias framenet="" pos="j" verbnet="">числящий</alias>
+      </aliases>
+      <note>числиться.01 NOTES: Based on find.01.</note>
+      <roles>     
+        <role descr="lister" f="PAG" n="0"/>
+		<role descr="item" f="PPT" n="1"/>
+        <role descr="list" f="GOL" n="2">
+        </role>
+      </roles>
+      <example name="counted among" src="" type="">
+        <text>Обратите внимание , где наступил коллапс : Притыцкого , Пушкина , Матусевича ( эти улицы никогда не числились среди затапливаемых ) и даже МКАД ( тут затопить не могло по определению ).</text>
+        <arg f="" n="1">эти улицы</arg>
+		<arg f="neg" n="m">никогда</arg>
+		<arg f="neg" n="m">не</arg>
+        <rel f="">числились</rel>
+        <arg f="" n="2">среди затапливаемых</arg>
+      </example>
+      <example name="considered" src="" type="">
+        <text>Еще два индийских рабочих до сих пор числятся пропавшими без вести после того , как грузовик Чояла смыло потоком в понедельник в столице Омана , Маскате .</text>
+        <arg f="" n="1">Еще два индийских рабочих</arg>
+		<arg f="tmp" n="m">до сих пор</arg>
+        <rel f="">числятся</rel>
+		<arg f="" n="2">пропавшими без вести</arg>
+      </example>
+      <example name="includes" src="" type="">
+        <text>Среди полуразрушенных прибрежных городов в юго-западной области Иравади числятся такие населенные пункты , как Хай-Гуй-Айленд, Лапутта , Моламьяйнджун , Богале , Пхьяпоун , Кайклат , Нгапута , Дедайе . В области Янгон больше всего пострадали Кунгянгон , Танхльин , Кяуктан , Твантай , Кавму , а также сам город Янгон .</text>
+        <arg f="" n="2">Среди полуразрушенных прибрежных городов в юго-западной области Иравади</arg>
+        <rel f="">числятся</rel>
+		<arg f="" n="1">такие населенные пункты , как Хай-Гуй-Айленд, Лапутта , Моламьяйнджун , Богале , Пхьяпоун , Кайклат , Нгапута , Дедайе</arg>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>

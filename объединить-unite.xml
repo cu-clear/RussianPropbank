@@ -1,0 +1,85 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="объединить">
+	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+		<roleset id="объединить.01" name="unite, join together, combine">
+			<aliases>
+				<alias framenet="" pos="j" verbnet="">объединенный</alias>
+				<alias framenet="" pos="j" verbnet="">объединивший</alias>
+				<alias framenet="" pos="j" verbnet="">объединённый</alias>
+				<alias framenet="" pos="v" verbnet="">объединять</alias>
+				<alias framenet="" pos="j" verbnet="">объединяющий</alias>
+				<alias framenet="" pos="j" verbnet="">объединявший</alias>
+				<alias framenet="" pos="j" verbnet="">объединяемый</alias>
+				<alias framenet="" pos="v" verbnet="">объединиться</alias>
+				<alias framenet="" pos="j" verbnet="">объединившийся</alias>
+				<alias framenet="" pos="v" verbnet="">объединяться</alias>
+				<alias framenet="" pos="j" verbnet="">объединяющийся</alias>
+				<alias framenet="" pos="j" verbnet="">объединявшийся</alias>
+			</aliases>
+			<note>Corresponds to FrameBank senses 1,4,5</note>
+			<note>объединить.01 NOTES: Frame based on adjustment of English unite.01</note>
+			<note>объединить.01 NOTES: The passive perfective participle will capture the word in titles such as "United Nations"</note>
+			<roles>
+				<role descr="uniter, agent" f="PAG" n="0"/>
+				<role descr="first thing(s) being unified" f="PPT" n="1"/>
+				<role descr="second thing(s) being unified (if mentioned)" f="PPT" n="2"/>
+				<role descr="resulting union or state" f="prd" n="3"/>
+			</roles>
+			<example name="passive participle" src="" type="">
+				<text>Генерал Ричад Майерс , председатель объединенного комитета начальников штабов , предложил изолировать представителей предыдущей власти в столице , отрезав их от остальной части страны , пока собирается " временная администрация ", которая начнет работать над организацией послевоенного правительства .</text>
+				<rel f="">объединенного</rel>
+				<arg f="" n="3">комитета начальников штабов</arg>
+			</example>
+			<example name="put together" src="" type="">
+				<text>у меня просьба : объедините , пожалуйста темки Страхование путешественников в Путешествиях и отдыхе .</text>
+				<arg f="" n="0">*PRO*</arg>
+				<rel f="">объедините</rel>
+				<arg f="" n="1">темки Страхование путешественников в Путешествиях и отдыхе</arg>
+				<arg f="loc" n="m">в Путешествиях и отдыхе</arg>
+			</example>
+			<example name="reflexive perfective" src="Александр Новиков, Дмитрий Гронский, «Записки врача», 15 декабря 2002 г. // «Автопилот» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+				<text>Когда DKW в 1932 году объединился с Audi , Horch и Wanderer в автомобильный союз Auto Union , дальновидный датчанин стал одним из крупнейших акционеров автогиганта и занял кресло в совете директоров .</text>
+				<arg f="" n="1">DKW</arg>
+				<arg f="tmp" n="m">в 1932 году</arg>
+				<rel f="">объединился</rel>
+				<arg f="" n="2">с Audi , Horch и Wanderer</arg>
+				<arg f="" n="3">в автомобильный союз Auto Union</arg>
+			</example> 
+			
+			<roleset id="объединить.02" name="solidify, strengthen, unite">
+			<aliases>
+				<alias framenet="" pos="j" verbnet="">объединенный</alias>
+				<alias framenet="" pos="j" verbnet="">объединивший</alias>
+				<alias framenet="" pos="j" verbnet="">объединённый</alias>
+				<alias framenet="" pos="v" verbnet="">объединять</alias>
+				<alias framenet="" pos="j" verbnet="">объединяющий</alias>
+				<alias framenet="" pos="j" verbnet="">объединявший</alias>
+				<alias framenet="" pos="j" verbnet="">объединяемый</alias>
+				<alias framenet="" pos="v" verbnet="">объединиться</alias>
+				<alias framenet="" pos="j" verbnet="">объединившийся</alias>
+				<alias framenet="" pos="v" verbnet="">объединяться</alias>
+				<alias framenet="" pos="j" verbnet="">объединяющийся</alias>
+				<alias framenet="" pos="j" verbnet="">объединявшийся</alias>
+			</aliases>
+			<note>Corresponds to FrameBank senses 2,3</note>
+			<note>объединить.02 NOTES: Frame based on adjustment of English solidify.01</note>
+			<roles>
+				<role descr="cause of solidification" f="PAG" n="0"/>
+				<role descr="entity made strong" f="PPT" n="1"/>
+			</roles>
+			<example name="unite the party" src="" type="">
+				<text>Эрдоган пользуется огромной популярностью в Турции .</text>
+				<rel f="">объединить</rel>
+				<arg f="" n="1">свою партию</arg>
+			</example>
+			<example name="fortify economy" src="" type="">
+				<text>Общий рубль уже не спаяет республики в унитарное государство, а вот новый российский рубль способен объединить, обслужить хозяйство России</text>
+				<arg f="adv" n="m">вот</arg>
+				<arg f="" n="0">новый российский рубль</arg>
+				<rel f="">объединить</rel>
+				<arg f="" n="1">хозяйство России</arg>
+			</example>
+		</roleset>
+	</predicate>
+</frameset>

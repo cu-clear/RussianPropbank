@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="помочь">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+	<roleset id="помочь.01" name="help">
+	  <aliases>
+		<alias framenet="" pos="j" verbnet="">помогший</alias>
+		<alias framenet="" pos="v" verbnet="">помогши</alias>
+		<alias framenet="" pos="v" verbnet="">помогать</alias>
+		<alias framenet="" pos="j" verbnet="">помогающий</alias>
+		<alias framenet="" pos="j" verbnet="">помогавший</alias>
+		<alias framenet="" pos="v" verbnet="">помогая</alias>
+		<alias framenet="" pos="v" verbnet="">помогав</alias>
+		<alias framenet="" pos="v" verbnet="">помогавши</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses 1,2</note>
+	  <note>помочь.01 NOTES: Based on help.01</note>	  
+	  <roles>
+		<role descr="helper" f="pag" n="0">
+		</role>
+		<role descr="project" f="ppt" n="1">
+		</role>
+		<role descr="benefactive, secondary agent" f="gol" n="2">
+		</role>
+	  </roles>
+	  <example name="help with something" src="" type="">
+		<text>Я помогу маме с домашним хозяйством .</text>
+		<arg f="" n="0">Я</arg>
+		<rel f="">помогу</rel>
+		<arg f="" n="2">маме</arg>
+		<arg f="" n="1">с домашним хозяйством</arg>
+	  </example>
+	  <example name="help how" src="" type="">
+		<text>Помогите советом , надо ли что-то делать срочно ?</text>
+		<rel f="">Помогите</rel>
+		<arg f="mnr" n="m">советом</arg>
+	  </example>
+	  <example name="help do something" src="" type="">
+		<text>книга рулит…в свое время помогла мне справиться со многими комплексами в ЭТОМ плане… хорошая, душевная , лучше чем " камасутра " и нужнее , особенно начинающим ))</text>
+		<arg f="tmp" n="m">в свое время</arg>
+		<rel f="">помогла</rel>
+		<arg f="" n="2">мне</arg>
+		<arg f="" n="1">справиться со многими комплексами в ЭТОМ плане…</arg>
+	  </example>
+	</roleset>
+	
+	<roleset id="помочь.02" name="heal">
+	  <aliases>
+		<alias framenet="" pos="j" verbnet="">помогший</alias>
+		<alias framenet="" pos="v" verbnet="">помогши</alias>
+	  </aliases>  
+	  <note>Corresponds to FrameBank sense 3</note>
+	  <roles>
+		<role descr="healing entity" f="pag" n="0">
+		</role>
+		<role descr="sickness, sick entity" f="ppt" n="1">
+		</role>
+	  </roles>
+	  <example name="medicine allievate" src="" type="">
+		<text>Аспирин не помог с мигрейном.</text>
+		<arg f="" n="0">Аспирин</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">помог</rel>
+		<arg f="" n="1">с мигрейном</arg>
+	  </example>
+	  <example name="intransitive" src="В. А. Обручев, «От Кяхты до Кульджи. Путешествие в Центральную Азию и Китай», 1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+		<text>Утром больной явился ко мне повеселевший и сообщил , что лекарство помогло .</text>
+		<arg f="" n="0">лекарство</arg>
+		<rel f="">помогло</rel>
+	  </example>
+	</roleset>
+  </predicate>
+</frameset>

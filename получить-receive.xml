@@ -1,0 +1,214 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="получить">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="получить.01" name="get, receive">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">получивший</alias>
+		<alias framenet="" pos="j" verbnet="">полученный</alias>
+		<alias framenet="" pos="v" verbnet="">получать</alias>
+		<alias framenet="" pos="j" verbnet="">получающий</alias>
+		<alias framenet="" pos="j" verbnet="">получавший</alias>
+		<alias framenet="" pos="j" verbnet="">получаемый</alias>
+		<alias framenet="" pos="v" verbnet="">получиться</alias>
+		<alias framenet="" pos="j" verbnet="">получившийся</alias>
+		<alias framenet="" pos="v" verbnet="">получаться</alias>
+		<alias framenet="" pos="j" verbnet="">получающийся</alias>
+		<alias framenet="" pos="j" verbnet="">получавшийся</alias>
+		<alias framenet="" pos="n" verbnet="">получение</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 1,2,3,5</note>
+      <note>получить.01 NOTES: Roleset based on verb frame get.01</note>
+      <roles>
+        <role descr="receiver" f="pag" n="0">
+        </role>
+        <role descr="thing gotten" f="ppt" n="1"/>
+        <role descr="giver" f="dir" n="2"/>
+        <role descr="price paid/exchange for" f="vsp" n="3"/>
+		<role descr="beneficiary" f="gol" n="4"/>
+      </roles>
+      <example name="receive awards" src="Russian National Corpus. [коллективный. Форум: Рецензия на фильм «Поймай меня, если сможешь» (2006-2011)]" type="">
+        <text>Фильм не зря входит в топы и получил в свое время массу наград .</text>
+        <arg f="" n="0">*PRO*</arg>
+        <rel f="">получил</rel> 
+		<arg f="tmp" n="m">в свое время</arg>
+        <arg f="" n="1">массу наград</arg>
+      </example>
+	  <example name="receive awards" src="Russian National Corpus. [коллективный. Форум: Универ (институт) VS школа. Плюсы и минусы. Где в итоге лучше и почему? (2011)]" type="">
+        <text>Открывает , просматривает и комментирует: « Ммм , языкознание пять , похвально … Ого , вы получили у преподавателя ***** отлично ? ! как вам это удалось ?</text>
+        <arg f="" n="0">вы</arg>
+        <rel f="">получили</rel> 
+		<arg f="" n="2">у преподавателя</arg>
+        <arg f="" n="1">отлично</arg>
+      </example>
+	  <example name="all arguments" src="" type="">
+        <text>Возьмите любого режиссёра того времени ( эпохи ) - получите тот же самый так называемый гламур : те же глазки , бровки , тщательные причёсочки , выщпанные бровки - аля Грета Гарбо - и т . д . и т . п .</text>
+		<rel f="">получите</rel>
+		<arg f="" n="0">*PRO*</arg>
+        <arg f="" n="1">тот же самый так называемый гламур</arg>
+      </example>
+	  <example name="reflexive as passive" src="Russian National Corpus. [П. Н. Милюков. Воспоминания (1859—1917). Том второй (1940-1943)]" type="">
+        <text>После семи часов получалась петербургская почта с письмами императрицы , которая день за днем сообщала о политических событиях, давала советы и диктовала решения, которые, по своей определенности и настойчивости, не уступали планам Алексеева .</text>
+		<arg f="tmp" n="m">После семи часов</arg>
+		<rel f="">получалась</rel>
+        <arg f="" n="1">петербургская почта с письмами императрицы</arg>
+      </example>
+    </roleset>
+    
+	<roleset id="получить.02" name="get hit/punched/punished">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">получивший</alias>
+		<alias framenet="" pos="j" verbnet="">полученный</alias>
+		<alias framenet="" pos="v" verbnet="">получать</alias>
+		<alias framenet="" pos="j" verbnet="">получающий</alias>
+		<alias framenet="" pos="j" verbnet="">получавший</alias>
+		<alias framenet="" pos="j" verbnet="">получаемый</alias>
+		<alias framenet="" pos="v" verbnet="">получиться</alias>
+		<alias framenet="" pos="j" verbnet="">получившийся</alias>
+		<alias framenet="" pos="v" verbnet="">получаться</alias>
+		<alias framenet="" pos="j" verbnet="">получающийся</alias>
+		<alias framenet="" pos="j" verbnet="">получавшийся</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 4,7</note>
+      <note>получить.02 NOTES: based on injure.01 but there is usually no agent causing injury</note>
+      <roles>
+        <role descr="actor" f="pag" n="0"/>
+        <role descr="experiencer of injury/punishment" f="ppt" n="1"/>
+		<role descr="thing hit or injured" f="ppt" n="2"/>
+		<role descr="instrument" f="mnr" n="3"/>
+      </roles>
+      <example name="all arguments" src="" type="">
+        <text>от девушки он получил по морде книгой за оскорбления .</text>
+        <arg f="" n="0">от девушки</arg>
+		<arg f="" n="1">он</arg>
+        <rel f="">получил</rel>
+		<arg f="" n="2">по морде</arg>
+		<arg f="" n="3">книгой</arg>
+		<arg f="cau" n="m">за оскорбления</arg>
+      </example>
+      <example name="got it in the teeth" src="" type="">
+        <text>С людями мы вежливые , потому что можно получить *PRO* в зубы .</text>
+        <arg f="mod" n="m">можно</arg>
+        <rel f="">получить</rel>
+		<arg f="" n="0">*PRO*</arg>
+		<arg f="" n="2">в зубы</arg>
+      </example>
+	  <example name="arg 1 and 2" src="" type="">
+        <text>region27 Логично , не знаю как у вас в районе , но своего шерифа мля местного я ниразу в глаза не видел , а за чищеный капот в ухо получил дворник , помощьник хренов метлой мля снег сметал с машин , типо говорит вы все равно чистить будете , а мне двойную работу делать</text>
+        <arg f="cau" n="m">за чищеный капот</arg>
+		<arg f="" n="2">в ухо</arg>
+        <rel f="">получил</rel>
+		<arg f="" n="1">дворник</arg>
+      </example>
+	</roleset>
+	
+    <roleset id="получить.03" name="get, extract, produce, manufacture">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">получать</alias>
+		<alias framenet="" pos="j" verbnet="">получивший</alias>
+		<alias framenet="" pos="j" verbnet="">полученный</alias>
+		<alias framenet="" pos="j" verbnet="">получающий</alias>
+		<alias framenet="" pos="j" verbnet="">получавший</alias>
+		<alias framenet="" pos="j" verbnet="">получаемый</alias>
+		<alias framenet="" pos="v" verbnet="">получиться</alias>
+		<alias framenet="" pos="j" verbnet="">получившийся</alias>
+		<alias framenet="" pos="v" verbnet="">получаться</alias>
+		<alias framenet="" pos="j" verbnet="">получающийся</alias>
+		<alias framenet="" pos="j" verbnet="">получавшийся</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank sense 6</note>
+      <note>NOTES: based on extract.01 but it has a different meaning</note>
+      <roles>
+        <role descr="agent " f="pag" n="0"/>
+        <role descr="thing actively gotten" f="ppt" n="1"/>
+		<role descr="entity arg1 is got from" f="dir" n="2"/>
+      </roles>
+      <example name="adjectival form" src="Russian National Corpus. [Герман Дмитриев. Домна, не требующая кокса // «Техника - молодежи», 1987]" type="">
+        <text>Остается добавить , что чугун , полученный без кокса , превосходно переделывается в сталь в мартенах , конвертерах и дуговых электропечах .</text>
+		<rel f="">полученный</rel>
+		<arg f="" n="1">*PRO*</arg>
+        <arg f="mnr" n="m">без кокса</arg>
+      </example>
+	  <example name="imperfective impersonal" src="Russian National Corpus. [Борис Розен. На подступах к синтетическому горючему // «Техника - молодежи», 1987]" type="">
+        <text>И в угле , и в нефти , из которой , как известно , получают бензин и другие моторные топлива , встречаются пять одних и тех же основных элементов : углерод , водород , кислород , азот , сера .</text>
+		<arg f="" n="2">из которой</arg>
+		<arg f="adv" n="m">как известно</arg>
+		<arg f="" n="0">*PRO*</arg>
+		<rel f="">получают</rel>
+		<arg f="" n="1">бензин и другие моторные топлива</arg>
+      </example>
+	  <example name="reflexive as passive" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7180" type="">
+        <text>А что при такой проверке могут получиться самые неожиданные результаты , он скоро попытается доказать .</text>
+		<arg f="dis" n="m">А чт</arg>
+		<arg f="tmp" n="m">при такой проверке</arg>
+		<rel f="">получиться</rel>
+		<arg f="" n="1">самые неожиданные результаты</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="получиться.04" name="succeed, happen">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">получившийся</alias>
+		<alias framenet="" pos="v" verbnet="">получаться</alias>
+		<alias framenet="" pos="j" verbnet="">получающийся</alias>
+		<alias framenet="" pos="j" verbnet="">получавшийся</alias>
+      </aliases>
+      <note>NOTES: based on succeed.01 but no agent</note>
+      <roles>
+        <role descr="task, goal succeeding" f="ppt" n="1"/>
+		<role descr="benefactive" f="ppt" n="2"/>
+      </roles>
+	  <example name="eventive arg1" src="Эльвира Савкина, «Если нужно, могу выпустить когти», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Зрелищность акции позволила собрать максимальное количество зрителей -- получился праздник городского масштаба , соответственно , параллельно с дегустацией напитка .</text>
+		<rel f="">получилось</rel>
+		<arg f="" n="1">сделать то, о чём он давно мечтал</arg>
+      </example>
+	  <example name="clausal arg1" src="Мария Пупшева, «На крыше дома твоего», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>А то может получиться , что хотели обитать в мезонине, а окажетесь в бельведере на морозном зимнем воздухе .</text>
+		<arg f="dis" n="m">А то</arg>
+		<rel f="">получиться</rel>
+		<arg f="" n="1">что хотели обитать в мезонине, а окажетесь в бельведере на морозном зимнем воздухе</arg>
+      </example>
+	  <example name="clausal arg1" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7182" type="">
+        <text>Но взаимопонимания не получилось .</text>
+		<arg f="dis" n="m">Но</arg>
+		<arg f="" n="1">взаимопонимания</arg>
+		<rel f="">получилось</rel>
+      </example>
+	  <example name="all args" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7183" type="">
+        <text>Чуть раньше Амнерис я спела в " Аиде " Верховную жрицу , и эта партия получилась у меня легко .</text>
+		<arg f="" n="1">эта партия</arg>
+		<rel f="">получилась</rel>
+		<arg f="" n="2">у меня</arg>
+		<arg f="adv" n="m">легко</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="получиться.05" name="turn out (to be)">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">получившийся</alias>
+		<alias framenet="" pos="v" verbnet="">получаться</alias>
+		<alias framenet="" pos="j" verbnet="">получающийся</alias>
+		<alias framenet="" pos="j" verbnet="">получавшийся</alias>
+      </aliases>
+      <note>NOTES: based on turn_out11 but no benefactive?</note>
+      <roles>
+        <role descr="thing seeming, changing" f="ppt" n="1"/>
+        <role descr="attribute" f="prd" n="2"/>
+      </roles>
+      <example name="all args" src="Владимир Лукашик, Елена Иванова, «Сборник задач по физике. 7-9 кл.», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>При заполнении цилиндрического сосуда жидкостью менее плотной, чем вода, высота столба получилась бы больше. </text>
+		<arg f="" n="1">высота столба</arg>
+		<rel f="">получилась</rel>
+        <arg f="" n="2">больше</arg>
+      </example>
+	  <example name="instrumental arg2" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7185" type="">
+        <text>Калькулятор получился достаточно компактным , чтобы его можно было уместить на офисном столе</text>
+		<arg f="" n="1">Калькулятор</arg>
+		<rel f="">получился</rel>
+		<arg f="" n="2">достаточно компактным</arg>
+      </example>
+    </roleset>
+	
+  </predicate>
+</frameset>

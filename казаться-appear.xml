@@ -1,0 +1,102 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="казаться">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="казаться.01" name="have a desire">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">кажущийся</alias>
+        <alias framenet="" pos="j" verbnet="">казавшийся</alias>
+		<alias framenet="" pos="v" verbnet="">показаться</alias>
+		<alias framenet="" pos="j" verbnet="">показавшийся</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 1,2,3,4</note>
+      <note>казаться.01 NOTES: Adjusted from English PB seem.01.</note>
+      <roles>     
+        <role descr="thing seeming" f="PPT" n="1">
+        </role>
+        <role descr="perceiver" f="GOL" n="2">
+        </role>
+		<role descr="how seems, attribute" f="PRD" n="3">
+        </role>
+      </roles>
+      <example name="all args" src="" type="">
+        <text>Предательством мне это казалось</text>
+        <arg f="" n="3">Предательством</arg>
+		<arg f="" n="2">мне</arg>
+		<arg f="" n="1">это</arg>
+        <rel f="">казалось</rel>
+      </example>
+	  <example name="clausal arg1" src="" type="">
+        <text>Мне кажется , что ты не любишь печенье .</text>
+        <arg f="" n="2">Мне</arg>
+        <rel f="">кажется</rel>
+		<arg f="" n="1">что ты не любишь печенье</arg>
+      </example>
+	  <example name="arg1 and arg3" src="Russian National Corpus. [Олег Павлов. Карагандинские девятины, или Повесть последних дней // «Октябрь», 2001]" type="">
+        <text>Вкуснее всего кажется вода из скважины ( покупаю и пью и сырой , и кипяченой ).</text>
+        <arg f="" n="3">Вкуснее всего</arg>
+        <rel f="">кажется</rel>
+		<arg f="" n="1">вода из скважины</arg>
+      </example>
+	  <example name="nominative arg3" src="Russian National Corpus via FrameBank:http://marker.framebank.ru/verbs_ex.php?lex=казаться&cxid=17129" type="">
+        <text>А мамка-- ни в какую... А папка-- молчит. А мамка кричит : не смей . Они не понимают , что есть такая профессия . Им всё кажутся всякие глупости</text>
+        <arg f="" n="2">Им</arg>
+		<arg f="" n="1">всё</arg>
+		<rel f="">кажутся</rel>
+		<arg f="" n="3">всякие глупости</arg>
+      </example>
+    </roleset>
+  </predicate>
+  
+  <predicate lemma="казаться_на_глаза">
+    <roleset id="казаться_на_глаза.02" name="appear, show up">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">показаться_на_глаза</alias>
+		<alias framenet="" pos="j" verbnet="">казаться_на_глаза</alias>
+        <alias framenet="" pos="j" verbnet="">казать_глаз</alias>
+		<alias framenet="" pos="j" verbnet="">показать_глаз</alias>
+		<mwe id="казаться_на_глаза">
+			<token slot="A" arg="" pos="" head="" dep="">показаться</token>
+			<token slot="A" arg="" pos="" head="" dep="">казаться</token>
+			<token slot="A" arg="" pos="" head="" dep="">казать</token>
+			<token slot="A" arg="" pos="" head="" dep="">показать</token>
+			<token slot="B" arg="" pos="" head="С" dep="">на</token>
+			<token slot="С" arg="" pos="" head="A" dep="">глаза</token>
+			<token slot="С" arg="" pos="" head="A" dep="">глаз</token>
+			<token slot="С" arg="" pos="" head="A" dep="">глазах</token>
+		</mwe>
+      </aliases>
+      <note>казаться_на_глаза NOTES: Adjusted from appear.01.</note>
+      <roles>     
+	    <role descr="thing appearing" f="PPT" n="1">
+        </role>
+        <role descr="perceiver" f="GOL" n="2">
+        </role>
+      </roles>
+      <example name="arg1" src="Russian National Corpus. [Ольга Славникова. Стрекоза, увеличенная до размеров собаки (1995-1999)]" type="">
+        <text>Софье Андреевне казалось просто оскорбительным, что ее любовник не кажет глаз и не является просить прощения и благословения даже накануне ее ― тут она резко поворачивалась на живот ― безвременной кончины .</text>
+        <arg f="" n="1">ее любовник</arg>
+		<arg f="neg" n="m">не</arg>
+        <rel f="">кажет</rel>
+		<rel f="">глаз</rel>
+      </example>
+	  <example name="perfective reflexive, all args" src="Russian National Corpus. [Валентин Иванов. Свободу олигархам! (2003) // Интернет-альманах «Лебедь», 2003.12.14]" type="">
+        <text>Он показался на глазах аудитории, включая Путина, без галстука.</text>
+        <arg f="" n="1">Он</arg>
+        <rel f="">показался</rel>
+		<rel f="">на</rel>
+		<rel f="">глазах</rel>
+		<arg f="" n="2">аудитории, включая Путина</arg>
+		<arg f="prd" n="m">без галстука</arg>
+      </example>
+	  <example name="perfective reflexive, dative arg2" src="Russian National Corpus. [Ирина Краева. Тим и Дан, или Тайна «Разбитой коленки»: сказочная повесть (2007)]" type="">
+        <text>Как они осмелились показаться вам на глаза?</text>
+        <arg f="" n="1">*Trace-1*</arg>
+        <rel f="">показаться</rel>
+		<arg f="" n="2">вам</arg>
+		<rel f="">на</rel>
+		<rel f="">глаза</rel>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>

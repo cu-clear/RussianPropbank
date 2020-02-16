@@ -1,0 +1,252 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="﻿уйти">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="﻿уйти.01" name="to depart, go away from a place, leave to go elsewhere">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">уходить</alias>
+      </aliases>
+	  <note>﻿уйти.01 NOTES: Roleset based on English verb frame leave.11</note>
+	  <note>Corresponds to FrameBank senses </note>
+      <roles>
+        <role descr="entity in motion" f="PAG" n="0"/>
+		<role descr="starting point" f="DIR" n="1"/>
+		<role descr="destination" f="GOL" n="2"/>
+      </roles>
+      <example name="went away" src="" type="">
+        <text>Я его выловила , заперла в душе , дочка ушла .</text>
+        <arg f="" n="0">дочка</arg>
+		<rel f="">ушла</rel>
+      </example>
+	  <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
+        <text>И интересно куда на самом деле ушел 1 трлн рублей?</text>
+		<arg f="" n="0">1 трлн рублей</arg>
+		<arg f="" n="2">куда на самом деле</arg>
+        <rel f="">ушел</rel>
+      </example>
+	   <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)] " type="">
+        <text>Когда гангрена поразила организм, приходится резать до тех пор пока гангрена не уйдет…"</text>
+		<arg f="" n="0">гангрена</arg>
+		<arg f="" n="2">пока</arg>
+        <rel f="">не уйдет</rel>
+      </example>
+    </roleset>
+	
+	<roleset id="﻿уйти.02" name="retire, quit, abandon something in exchange for another; permanently leave an association/relationship/way of living">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">уходить</alias>
+      </aliases>
+	  <note>﻿уйти.02 NOTES: Roleset based on English verb frame leave.15</note>
+      <roles>
+        <role descr="abandoner, entity leaving the relationship/organization " f="PAG" n="0"/>
+		<role descr="person, thing abandoned" f="PPT" n="1"/>
+		<role descr="in exchange for; greener pastures" f="GOL" n="2"/>
+      </roles>
+	  <example name="" src="" type="">
+        <text>Уходить из компании. ◆ Уходить от жены. ◆ Уходить от дел.</text>
+        <arg f="" n="0"> </arg>
+		<arg f="" n="1"></arg>
+		<rel f=""></rel>
+	  </example>
+	  <example name="" src="type=">
+        <text>Так эти ж моторы на пенсию ушли.</text>
+		<arg f="" n="0">эти ж моторы</arg>
+		<arg f="" n="2">на пенсию</arg>
+        <rel f="">ушли</rel>
+      </example>
+	  	  <example name="" src="Russian National Corpus[коллективный. Форум: Мужчина в школе (Взгляд на Мужчину в школе снаружи и изнутри) (2011)]" type="">
+        <text>Три раза предлагали уйти на повышение… остался в школе простым учителем.</text>
+		<arg f="" n="2">на повышение</arg>
+        <rel f="">уйти</rel>
+      </example>
+	  	  <example name="" src="Russian National Corpus[Леонид Черняк. Монополист «на час» // «Computerworld», 2004]"type="">
+        <text>Однако "дело Netscape" не исчезло бесследно, в феврале 1998 года Андриссен, который ушёл из AOL в молодую компанию LoudCloud, ныне Opsware, открыл коды Netscape Navigator.</text>
+		<arg f="" n="1">AOL</arg>
+		<arg f="" n="2">в молодую компанию LoudCloud, ныне Opsware</arg>
+        <rel f="">ушел</rel>
+      </example>
+	  <example name="" src="" type="">
+        <text>Не получилось , йена копейка в копейку ушла на 93.52.</text>
+		<arg f="" n="0">йена</arg>
+		<arg f="" n="2">на 93.52</arg>
+        <rel f="">ушла</rel>
+	  </example>
+	</roleset>
+	
+	<roleset id="﻿уйти.03" name="cease from, stop, die, escape">
+      <aliases>
+	  <alias framenet="" pos="v" verbnet="">уходить</alias>
+	  </aliases>
+	  <note>﻿уйти.03 NOTES: Roleset based on English verb frame cease.01</note>
+	  <roles>
+		<role descr="causer of ceasing, Agent (vnrole: 55.4-1-agent) " f="PAG" n="0"/>
+		<role descr="Theme (action or object being stopped)" f="PPT" n="1"/>
+      </roles>
+	  <example name="example" src="Б. А. Ахмадулина." type="">
+        <text>По улице моей который год // звучат шаги - мои друзья уходят. <text>
+		<rel f="">уходят</rel>
+		<arg f="" n="1">мои друзья</arg>
+	  </example>
+	    <example name="example" src="Russian National Corpus [коллективный. Форум: 17 мгновений весны (2005-2010)]">
+        <text>Считать, что от этой мутной игры можно уйти, мог считать только человек наивный. <text>
+		<rel f="">уйти</rel>
+		<arg f="" n="o">отец</arg>
+		<arg f="" n="1">этой мутной игры</arg>
+	  </example>
+	    <example name="example" src="Russian National Corpus [Ольга Бойцова. «Плейбой» чуть не раздел депутата (2002) // «Вечерняя Москва», 2002.02.07]">
+        <text>Тогда я уже, скорее всего, уйду с политической арены, и меня не будет волновать, что подумают мои избиратели".<text>
+		<rel f="">уйду</rel>
+		<arg f="" n="1">политической арены</arg>
+	  </example>
+	    <example name="example" src="Russian National Corpus [Дина Абрамова. Мы говорим вам «До свидания!» (2002) // «Вечерняя Москва», 2002.02.07]">
+        <text>Эту акцию артисты посвятили памяти недавно ушедшего из жизни главного режиссёра.<text>
+		<rel f="">ушедшего</rel>
+		<arg f="" n="1">главного режиссёра</arg>
+	  </example>
+	</roleset>
+  
+	<roleset id="﻿уйти.04" name="go by, pass">
+	 <aliases>
+	  <alias framenet="" pos="v" verbnet="">уходить</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense 2</note>
+	  <note>﻿уйти.04 NOTES: Roleset based on English verb frame pass.03</note>
+      <roles>
+		<role descr="thing passing" f="PPT" n="1"/>
+      </roles>
+	  <example name="example" src="Russian National Corpus[Юлия Рахаева. Как стать успешным черным котом (2003) // «Известия», 2003.02.06]" type="">
+        <text>То время ушло, увы, поторопила свой уход вслед за ним и Юлия Друнина…<text>
+		<rel f="">уход</rel>
+		<arg f="" n="1"></arg>
+	  </example>
+	  </roleset>
+	  
+	  
+	  <roleset id="﻿уйти.05" name="to engage self wholly or deeply, be engulfed completely, enter deep into">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">уходить</alias>
+	  </aliases>
+	  <note>﻿уйти.05 NOTES: Roleset based on English verb frame immerse.01</note>
+	  <roles>
+		<role descr="entity immersed " f="PTT" n="0"/>
+		<role descr="entity immersed into" f="PPT" n="1"/>
+      </roles>
+	  <example name="example" src="Russian National Corpus[Вячеслав Пьецух. Шкаф (1997)]" type="">
+        <text>― Чему быть, того не миновать, ― сказала Ольга и как-то ушла в себя.<text>
+		<rel f="">ушла</rel>
+		<arg f="" n="0">Ольга</arg>
+		<arg f="" n="1">в себя</arg>
+	  </example>
+	    <example name="example" src="Russian National Corpus [Переписка в icq между agd-ardin и Колючий друг (2008.02.08)]">
+        <text>А ты, кстати, собираешься серьезно уйти в профессионалы?<text>
+		<rel f="">уйти</rel>
+		<arg f="" n="o">ты</arg>
+		<arg f="" n="1">в профессионалы /arg>
+	  </example>
+	    <example name="example" src="Russian National Corpus [Сати Спивакова. Не всё (2002)]">
+        <text>Живёт нашей жизнью, полностью уйдя в воспитание внучек, в мои заботы."<text>
+		<rel f="">уйдя</rel>
+		<arg f="" n="1">в воспитание внучек</arg>
+	  </example>
+	    <example name="example" src="Russian National Corpus [Валентин Распутин. Изба (1999)]">
+        <text>Все из-под Агафьиных рук выходило не по линейке, вразнобой и вразнохлыст: столбы не держали строя, тын то приседал, то вытягивался ― зато прочно: те же столбы уходили в землю на полтора метра, сени смотрелись жилым пристроем.<text>
+		<rel f="">выходило</rel>
+		<arg f="" n="1">Агафьиных рук</arg>
+		<arg f="" n="0">Все</arg>
+	  </example>
+	  </roleset>
+	  
+	  <roleset id="﻿уйти.06" name="(clock) is fast">
+      <aliases>
+	  <alias framenet="" pos="v" verbnet="">уходить</alias>
+	  <aliases>
+	  <note>﻿уйти.06 NOTES: Roleset based on English verb frame fast.02</note>
+	  <roles>
+		<role descr="fast entity/action" f="PTT" n="1"/>
+		<role descr="speed" f="EXT" n="2"/>
+      </roles>
+	  <example name="example" src="Russian National Corpus[С. Д. Мстиславский. Грач ― птица весенняя (1937)]" type="">
+        <text>Коридорные часы уходили на десять минут вперед.<text>
+		<rel f="">уходили/rel>
+		<arg f="" n="2">на десять минут вперед</arg>
+		<arg f="" n="1">Коридорные часы</arg>
+	  </example>
+	  </roleset>
+	  
+	 <roleset id="﻿уйти.07" name="benefactive, be spent or needed for">
+      <aliases>
+	  <alias framenet="" pos="v" verbnet="">уходить</alias>
+	  </aliases>
+	  <note>﻿уйти.07 NOTES: Roleset based on English verb frame go.10</note>
+	  <roles>
+		<role descr="thing going " f="PTT" n="1"/>
+		<role descr="receiver" f="GOL" n="2"/>
+      </roles>
+	  <example name="example" src="Russian National Corpus[Наталья Дубова. Вокруг ITSM // «Computerworld», 2004]" type="">
+        <text>Однако сколько времени уйдёт на это, и каких усилий может это стоить ИТ-отделу, не имеющему реального опыта подобных проектов? <text>
+		<rel f="">уйдёт/rel>
+		<arg f="" n="2">на это</arg>
+		<arg f="" n="1">сколько времени</arg>
+	  </example>
+	  </roleset>
+	  
+	   <roleset id="﻿уйти.08" name="boil out, boil over">
+      <aliases>
+	  <alias framenet="" pos="v" verbnet="">уходить</alias>
+	  </aliases>
+	  <note>﻿уйти.08 NOTES: Roleset based on English verb frame boil_over.02</note>
+	  <roles>
+		<role descr="thing boiling over (pot, etc)" f="PTT" n="1"/>
+      </roles>
+	  </roleset>
+	  
+	   <roleset id="﻿уйти.09" name="cool off, calm down, recover from negative emotions">
+      <aliases>
+	  </aliases>
+	  <note>﻿уйти.09 NOTES: Roleset based on English verb frame calm_down.02</note>
+	  <roles>
+		<role descr="entity becoming calm (vnrole: 42.3-patient)" f="PTT" n="1"/>
+		<role descr=" instrument of calming" f="MNR" n="2"/>
+      </roles>
+	  <example name="example" src="Russian National Corpus[А. Н. Островский. Гроза (1860)]" type="">
+        <text>Молоду тебя замуж-то отдали, погулять-то тебе в девках не пришлось: вот у тебя сердце-то и не уходилось ещё.<text>
+		<rel f="">уходилось/rel>
+		<arg f="" n="2">у тебя сердце</arg>
+	  </example>
+	  <example name="example" src="Russian National Corpus[Д. Н. Мамин-Сибиряк. Три конца (1890)]" type="">
+        <text>Даже Катря, и та «уходилась» с разными хозяйственными хлопотами. <text>
+		<rel f="">«уходилась»/rel>
+		<arg f="" n="1">Катря</arg>
+		<arg f="" n="2">с разными хозяйственными хлопотами</arg>
+	  </example>
+	  </roleset>
+   </predicate>
+   
+    <predicate lemma="уйти_из_рук">
+    <roleset id="уйти_из_рук.10" name="lose control">
+      <aliases>
+		<alias framenet="" pos="m" verbnet="">уходить_из_рук</alias>
+		<mwe id="уйти_из_рук">
+			<token slot="A" arg="" pos="" head="" dep="">уйти</token>
+			<token slot="A" arg="" pos="" head="" dep="">уходить</token>
+			<token slot="B" arg="" pos="" head="C" dep="">из</token>
+			<token slot="C" arg="" pos="" head="A" dep="">рук</token>
+		</mwe>
+      </aliases>
+      <note>No English frame match</note>
+      <roles>
+        <role descr="controller" f="PAG" n="0">
+		<role descr="controlled" f="PPT" n="1">
+        </role>
+      </roles>
+      <example name="" src="Russian National Corpus [Н. С. Лесков. Вдохновенные бродяги (1894)]" type="">
+        <text>Тогда самые простые люди, имеющие понятие об устройстве европейских государств и о быте народа, сочли все это за совершенно пустую и глупую выдумку и знали, что ничего такого быть не может, но Катков все свое твердил, что вольные казаки могут уйти у нас из рук; что они уже и деньги от англичанкиного посла взяли, но что все-таки их еще можно остановить и направить к тому, чтобы они пошли и подбили кого-то не под англичанку, а под нас.</text>
+		<arg f="" n="1">вольные казаки</arg>
+		<rel f="">уйти</rel>
+		<arg f="" n="0">у нас</arg>
+		<rel f="">из</rel>
+		<rel f="">рук</rel>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>
