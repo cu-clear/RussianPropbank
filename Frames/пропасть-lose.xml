@@ -20,7 +20,7 @@
 				<arg f="loc" n="m">В Бразилии</arg>
 				<arg f="" n="1">десятки человек</arg>
 				<rel f="">пропали</rel>
-				<arg f="mnr" n="m">без вести</arg>
+				<arg f="prd" n="m">без вести</arg>
 				<arg f="loc" n="m">в затопленном ядовитыми отходами районе</arg>
 			</example>
 			<example name="disappear, arg1" src="" type="">

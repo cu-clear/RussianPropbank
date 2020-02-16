@@ -4,31 +4,9 @@
   <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="говорить.01" name="speak, say, talk">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">говорящий</alias>
-		<alias framenet="" pos="j" verbnet="">говоривший</alias>
-		<alias framenet="" pos="v" verbnet="">говоривши</alias>
-		<alias framenet="" pos="v" verbnet="">говорив</alias>
-		<alias framenet="" pos="j" verbnet="">говоримый</alias>
-		<alias framenet="" pos="j" verbnet="">говорённый</alias>
-		<alias framenet="" pos="j" verbnet="">говоренный</alias>
 		<alias framenet="" pos="v" verbnet="">говориться</alias>
-		<alias framenet="" pos="v" verbnet="">говорясь</alias>
-		<alias framenet="" pos="j" verbnet="">говорящийся</alias>
-		<alias framenet="" pos="j" verbnet="">говорившийся</alias>
-		<alias framenet="" pos="v" verbnet="">говорившись</alias>
 		<alias framenet="" pos="v" verbnet="">поговорить</alias>
-		<alias framenet="" pos="j" verbnet="">поговорящий</alias>
-		<alias framenet="" pos="j" verbnet="">поговоривший</alias>
-		<alias framenet="" pos="v" verbnet="">поговоривши</alias>
-		<alias framenet="" pos="v" verbnet="">поговорив</alias>
-		<alias framenet="" pos="j" verbnet="">поговоримый</alias>
-		<alias framenet="" pos="j" verbnet="">поговорённый</alias>
-		<alias framenet="" pos="j" verbnet="">поговоренный</alias>
 		<alias framenet="" pos="v" verbnet="">поговориться</alias>
-		<alias framenet="" pos="v" verbnet="">поговорясь</alias>
-		<alias framenet="" pos="j" verbnet="">поговорящийся</alias>
-		<alias framenet="" pos="j" verbnet="">поговорившийся</alias>
-		<alias framenet="" pos="v" verbnet="">поговорившись</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses 1,2,3,4,5,8,9</note>
       <note>говорить.01 NOTES: Based on say.01.</note>
@@ -136,7 +114,9 @@
 		<arg f="" n="1">законопослушание</arg>
       </example>
 	</roleset>
-	
+  </predicate>
+
+  <predicate>
 	<roleset id="говориться.04" name="(not) want to speak">
       <aliases>
 		<alias framenet="" pos="j" verbnet="">говорящий</alias>

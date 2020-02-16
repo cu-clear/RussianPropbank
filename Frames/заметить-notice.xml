@@ -1,0 +1,108 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="﻿заметить">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="﻿заметить.01" name="note, notice, see, observe">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">замечать</alias>
+		<alias framenet="" pos="v" verbnet="">замечаться</alias>
+		<alias framenet="" pos="v" verbnet="">заметиться</alias>
+      </aliases
+	  <note>﻿заметить.01 NOTES: Roleset based on English verb frame notice.01</note>
+	  <note>Corresponds to FrameBank senses 1, 2, 3, 6</note>
+      <roles>
+        <role descr="noticer" f="PPT" n="0"/>
+		<role descr="noticed" f="PAG" n="1"/>
+      </roles>
+      <example name="" src="Татьяна Труфанова, «Не/друг», 2016 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Славик дёрнулся, как от электроразряда. Заметила ли она ручку?! — Поехали, — сказала Катерина. Саврасов нервно сглотнул и тронулся с места.</text>
+        <arg f="" n="0">она</arg>
+		<rel f="">Заметила</rel>
+		<arg f="" n="1">ручку</arg>
+      </example>
+	  <example name="" src="" type="Russian National Corpus[Александр Ослон. Мир теорий в эпоху «охвата» // «Отечественные записки», 2003]">
+        <text>Это замечается не только у детей, которые невольно воспринимают всякое мнение, предложенное им, но также у людей величайшей рассудительности и ума; и им бывает очень трудно следовать собственному разуму и собственным наклонностям вопреки мнениям их друзей и ежедневных собеседников"</text>
+		<arg f="" n="1">Это</arg>
+        <rel f="">замечаетсяа</rel>
+      </example>
+    </roleset>
+	<roleset id="﻿заметить.02" name="take note, remember, note, make note of">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">замечать</alias
+      </aliases>
+	  <note>﻿заметить.02 NOTES: Roleset based on English verb frame memorize.01</note>
+	<note>Corresponds to FrameBank senses 5</note>    
+	<roles>
+        <role descr="memorizer" f="PAG" n="0"/>
+		<role descr="thing memorized" f="PPT" n="1"/>
+      </roles>
+	  <example name="" src="Russian National Corpus[Е. Л. Шварц. Сказка о потерянном времени (1940-1950)]" type="">
+        <text>Я вчера не заметил дороги обратно к домику ― боялся время потерять.</text>
+        <arg f="" n="0">Я</arg>
+		<arg f="" n="1">дороги обратно</arg>
+		<arg f="TMP" n="m">вчера</arg>
+		<rel f="">не заметил</rel>
+	  </example>
+	</roleset>
+	
+	<roleset id="﻿заметить.03" name="remark, make note, say, mention">
+      <aliases>
+	  <alias framenet="" pos="v" verbnet="">замечать</alias>
+      </aliases>
+	  <note>﻿заметить.03 NOTES: Roleset based on English verb frame note.01</note>
+	  <note>Corresponds to FrameBank senses 4</note>  
+	  <roles>
+		<role descr="noter" f="PAG" n="0"/>
+		<role descr="utterance" f="PPT" n="1"/>
+		<role descr="hearer" f="GOL" n="2"/>
+		<role descr="attribute of arg1" f="GOL" n="3"/>
+      </roles>
+	  <example name="" src="Russian National Corpus[коллективный. Форум: Рецензия на фильм «Поймай меня, если сможешь» (2006-2011)]" type="">
+        <text>Дотоле не замеченный в биографических драмах режиссер, чья карьера вымощена блокбастерами, умудрился и на таком сюжете сделать кассовый хит, в шесть раз перекрыв бюджет фильма. <text>
+		<rel f="">замеченный</rel>
+		<arg f="" n="1"></arg>
+		<arg f="" n="2"></arg>
+		<arg f="" n="3"></arg>
+	  </example>
+	    <example name="example" src="Russian National Corpus[Наталья Дубова. Вокруг ITSM // «Computerworld», 2004]" type="">
+        <text>"У нас уже есть примеры, когда при наличии определённой воли у бизнес-подразделений ИТ-департаменты начинают предоставлять и даже продавать именно услуги", ― заметил он. <text>
+		<rel f="">заметил</rel>
+		<arg f="" n="o">он</arg>
+	  </example>
+	</roleset>
+	</predicate>
+	
+	<predicate lemma="ни_в_чем_не_замечен">
+    <roleset id="ни_в_чем_не_замечен.04" name="not suspected">
+	<note>PASSIVE ONLY. NEGATIVE ONLY.</note>
+      <aliases>
+	  <alias></alias>
+		<mwe id="ни_в_чем_не_замечен">
+			<token slot="E" arg="" pos="" head="" dep="">замечен</token>
+			<token slot="D" arg="" pos="" head="A" dep="">не</token>
+			<token slot="C" arg="" pos="" head="A" dep="">чем</token>
+			<token slot="B" arg="" pos="" head="C" dep="">в</token>
+			<token slot="A" arg="" pos="" head="C" dep="">ни</token>
+		</mwe>
+      </aliases>
+      <note>Based on English frame suspect.01</note>
+      <roles>
+        <role descr="suspecter" f="PAG" n="0">
+		<role descr="suspicion: what arg0 thinks" f="PPT" n="1">
+		<role descr="suspect; entity inspring suspicion in arg0" f="PRD" n="2">
+        </role>
+      </roles>
+      <example name="" src="Russian National Corpus [М. А. Булгаков. Мастер и Маргарита, часть 2 (1929-1940)]" type="">
+        <text>Она дала самые лестные рекомендации коту, объяснила, что знает его пять лет с тех пор, как он был котёнком, ручается за него, как за самоё себя, доказала, что он ни в чём плохом не замечен и никогда не ездил в Москву.</text>
+		<arg f="" n="0">он</arg>
+		<rel f="">ни</rel>
+		<rel f="">в</rel>
+		<rel f="">чём</rel>
+		<arg f="" n="1">плохом</arg>
+		<rel f="">не</rel>
+		<rel f="">замечен</rel>
+      </example>
+    </roleset>
+  </predicate>
+	</frameset>
+  
