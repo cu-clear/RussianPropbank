@@ -4,20 +4,9 @@
   <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="унести.01" name="carry away">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">унёсший</alias>
-		<alias framenet="" pos="j" verbnet="">унесший</alias>
-		<alias framenet="" pos="j" verbnet="">унесённый</alias>
-		<alias framenet="" pos="j" verbnet="">унесенный</alias>
 		<alias framenet="" pos="v" verbnet="">уносить</alias>
-		<alias framenet="" pos="j" verbnet="">уносящий</alias>
-		<alias framenet="" pos="j" verbnet="">уносивший</alias>
-		<alias framenet="" pos="j" verbnet="">уносимый</alias>
 		<alias framenet="" pos="v" verbnet="">уноситься</alias>
-		<alias framenet="" pos="j" verbnet="">уносящийся</alias>
-		<alias framenet="" pos="j" verbnet="">уносившийся</alias>
 		<alias framenet="" pos="j" verbnet="">унестись</alias>
-		<alias framenet="" pos="j" verbnet="">унёсшийся</alias>
-		<alias framenet="" pos="j" verbnet="">унесшийся</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank sense 1</note>
       <note>NOTES: Based on carry.01.</note>
@@ -33,7 +22,7 @@
         <text>Счёт подтопленных , унесённых потоками воды или просто брошенных автомобилей шёл на тысячи .</text>
 		<arg f="" n="1">подтопленных</arg>
 		<rel f="">унесённых</rel>
-        <arg f="" n="2">потоками воды</arg>
+        <arg f="" n="0">потоками воды</arg>
       </example>
 	   <example name="impersonal construction" src="" type="">
         <text>Ребёнка сразу унесли в помещение поликлиники , у нас там Неотложка есть .</text>
@@ -88,9 +77,9 @@
 	  <note>Corresponds to FrameBank senses 2,4,6</note>
       <note>NOTES: Based on steal.01.</note>
 	  <roles>
-        <role descr="thief, agent" f="pag" n="0"/>
-        <role descr="thing stolen" f="ppt" n="1"/>
-        <role descr="stolen from" f="dir" n="2"/>
+        <role descr="thief, agent" f="PAG" n="0"/>
+        <role descr="thing stolen" f="PPT" n="1"/>
+        <role descr="stolen from" f="DIR" n="2"/>
       </roles>
      <example name="take a life" src="" type="">
         <text>С середины мая , Индия шатается из-за периодов сильной жары , которая унесла жизни 1,403 человек .</text>
@@ -131,8 +120,8 @@
 	  <note>Corresponds to FrameBank sense 3</note>
       <note>NOTES: Based on disappear.01.</note>
 	  <roles>
-        <role descr="causal agent" f="pag" n="0"/>
-        <role descr="the disappeared" f="ppt" n="1"/>
+        <role descr="causal agent" f="PAG" n="0"/>
+        <role descr="the disappeared" f="PPT" n="1"/>
       </roles>
      <example name="take a life" src="Russian National Corpus. [Еремей Парнов. Александрийская гемма (1990)]" type="">
         <text>Маг-чернокнижник забыл заклинание и был унесен дьяволом.</text>
@@ -154,8 +143,8 @@
 	  <note>Corresponds to FrameBank sense 5</note>
       <note>NOTES: Based on escape.01</note>
 	  <roles>
-        <role descr="entity escaping" f="pag" n="0"/>
-		<role descr="place escaped" f="dir" n="1"/>
+        <role descr="entity escaping" f="PAG" n="0"/>
+		<role descr="place escaped" f="DIR" n="1"/>
       </roles>  
 	  <example name="унести_ноги-m" src="Russian National Corpus. [Николай Дежнев. Принцип неопределенности (2009)]" type="">
         <text>Ну уж нет, ― покачал головой Мокей, ― с меня достаточно! Я оттуда едва ноги унес.</text>

@@ -1,0 +1,173 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="сказать">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="сказать.01" name="say">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">сказывать</alias>
+		<alias framenet="" pos="j" verbnet="">сказаться</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense 1</note>
+      <note>NOTES: Based on say.01.</note>
+	  <roles>
+		<note>English Arg3-VSP = Russian Arg3-SRC
+        <role descr="Sayer" f="PAG" n="0"/>
+        <role descr="Utterance" f="PPT" n="1"/>
+        <role descr="Hearer" f="GOL" n="2"/>
+        <role descr="Attributive" f="ADV" n="3"/>
+      </roles>
+      <example name="" src="" type="">
+        <text>Она сказала, что вас не было.</text>
+		<arg f="" n="0">Она </arg>
+		<rel f="">сказала</rel>
+		<arg f="" n="1">что вас не было</arg>
+      </example>
+	   <example name="" src="" type="">
+        <text>На твоем месте я бы ей (arg2) сказала.</text>
+		<arg f="" n="0">я</arg>
+		<arg f="" n="2">ей </arg>
+		<rel f="">сказала</rel>
+		<arg f="loc" n="m">На твоем месте</arg>
+      </example>
+	  <example name="" src="" type="">
+        <text>Во время встречи со своим тайским коллегой Самаком Сунтхараветом , которая состоялась в Янгоне в среду , премьер-министр Мьянмы генерал Тейн Сейн сказал : « На сегодняшний день все спасательные работы завершены.</text>
+		<arg f="" n="0">премьер-министр Мьянмы генерал Тейн Сейн</arg>
+		<rel f="">сказал</rel>
+		<arg f="" n="1">На сегодняшний день все спасательные работы завершены</arg>
+      </example>
+	  <example name="" src="" type="">
+        <text>Сделали укол от столбняка и сказали мазать АРГОСУЛЬФАНОМ .</text>
+		<rel f="">сказали</rel>
+		<arg f="" n="3">мазать АРГОСУЛЬФАНОМ</arg>
+      </example>
+	  <example name="" src="" type="">
+        <text>потому и сказала про понаблюдать.</text>
+		<rel f="">сказала</rel>
+		<arg f="" n="3">про понаблюдать</arg>
+      </example>
+	  <example name="" src="И. С. Тургенев, «Новь», 1877 г. (цитата из Викитеки).">
+        <text>― Ну что, ― начала она, ― сказывай скорей, чем вы решили.</text>
+		<rel f="">сказывай</rel>
+		<arg f="tmp" n="">скорей</arg>
+      </example>
+	   <example name="" src="">
+        <text>Если его нету , то скажите место , я могу скинуть.</text>
+		<rel f="">сказывай</rel>
+		<arg f="" n="3">место</arg>
+      </example>
+	   <example name="" src=" Максим Горький, «Жизнь Клима Самгина. Часть 2», 1928 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+        <text>Он не думал сказать это и удивился, что слова сказались пл мальчишески виновато, тогда как следовало бы вести себя развязно; ведь ничего особенного не случилось, и не по своей воле попал он в эту комнату. Максим Горький, «Жизнь Клима Самгина. Часть 2», 1928 г.</text>
+		<rel f="">сказывай</rel>
+		<arg f="" n="3">место</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="сказать.02" name="let's say, for example">
+      <aliases>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses </note>
+      <note>NOTES: Based on say.02</note>
+	  <roles>
+      </roles>
+     <example name="" src="[Людмила Улицкая. Казус Кукоцкого [Путешествие в седьмую сторону света] // «Новый Мир», 2000]." type="">
+        <text>У Тани любовная, семейная, творческая и рутинно-бытовая линия были сплавлены воедино, и повседневность проживалась "музыкально", по тем же самым законам, по которым организуется музыкальное произведение, скажем симфония. </text>
+      </example>
+	   <example name="" src="[Сергей Довлатов. Переводные картинки // «Иностранная литература», 1990]" type="">
+        <text>Толстого, например, переводить легче, чем Гоголя. Тургенева, скажем, проще, чем Лескова. А ведь есть русские писатели, всё творчество которых основано на словесных аргументах.</text>
+      </example>
+	</roleset>
+	
+	<roleset id="сказаться.03" name="become evident, tell">
+      <aliases>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense </note>
+      <note>NOTES: Based on tell.01.</note>
+	  <roles>
+        <role descr="thing becoming evident" f="pag" n="1"/>
+        <role descr="how or where evident" f="ppt" n="2"/>
+      </roles>
+     <example name="" src="М. В. Барро, «Мольер. Его жизнь и литературная деятельность», 1891 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Сколько раз приходилось ему в эту пору вести разговоры с ростовщиками, образчик которых он с таким искусством изобразил в «Дон-Жуане» и где, конечно, сказался опыт, вынесенный им из встреч с его кредиторами ― Фоссе, Помье и другими.</text>
+        <rel f="">сказался</rel>
+		<arg f="" n="1">опыт</arg>
+      </example>
+	   <example name="" src="" type="">
+        <text>Все это сказалось на состоянии здоровья населения , повлияло на демографическую ситуацию в стране на десятилетия вперед.</text>
+		<arg f="" n="1"> Все это</arg>
+		 <rel f="">сказался</rel>
+		<arg f="" n="1"> на состоянии здоровья населения</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="сказаться.04" name="(falsely) report oneself, claim to be">
+      <aliases>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense </note>
+      <note>NOTES: Based on report.01.</note>
+	  <roles>
+        <role descr="reporter" f="PAG" n="0"/>
+        <role descr="thing reported" f="PPT" n="1"/>
+		<role descr="reported as" f="PRD" n="2"/>
+      </roles>
+     <example name="" src="А. Шубин, «Путь к благополучию», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Андрей Иванович сказался больным. Он и в самом деле маялся подагрой, однако и ее сумел использовать.</text>
+		<arg f="" n="0">Андрей Иванович</arg>
+		<rel f="">сказался</rel>
+		<arg f="" n="2">больным</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="сказаться.05" name="alert, forewarn, excuse oneself">
+      <aliases>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense </note>
+      <note>NOTES: Based on alert.01.</note>
+	  <roles>
+        <role descr="entity giving warning" f="PAG" n="0"/>
+      </roles>
+     <example name="" src="(Оглядывает его.) [А. П. Чехов. Вишневый сад (1904)]" type="">
+        <text>Нечего там… Утром уехали, не сказавшись.</text>
+		<rel f="">сказавшись</rel>
+      </example>
+	</roleset>
+	<roleset id="сказаться.06" name="notify">
+      <aliases>
+	  <alias framenet="" pos="j" verbnet="">сказываться</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense </note>
+      <note>NOTES: No match in English Frame</note>
+	  <roles>
+        <role descr="notifier" f="PAG" n="0"/>
+        <role descr="notified state" f="PPT" n="1"/>
+      </roles>
+     <example name="" src="А. Шубин, «Путь к благополучию», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>И подписали «Кондиции» ― все, кроме Остермана, который, между прочим, эти «Кондиции» редактировал. Андрей Иванович сказался больным. Он и в самом деле маялся подагрой, однако и ее сумел использовать.</text>
+		<arg f="" n="0">Андрей Иванович</arg>
+		<rel f="">сказался</rel>
+		<arg f="" n="2">больным</arg>
+      </example>
+	</roleset>
+	<roleset id="сказаться.07" name="be apparent">
+      <aliases>
+	  <alias framenet="" pos="j" verbnet="">сказываться</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense </note>
+      <note>NOTES: No match in English Frame</note>
+	  <roles>
+        <role descr="thing that is apparent" f="PAG" n="1"/>
+        <role descr="where or how ARG1 is apparent, thing affected by ARG1" f="GOL" n="2"/>
+      </roles>
+     <example name="" src="М. В. Барро, «Мольер. Его жизнь и литературная деятельность», 1891 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Сколько раз приходилось ему в эту пору вести разговоры с ростовщиками , образчик которых он с таким искусством изобразил в « Дон-Жуане » и где , конечно , сказался опыт , вынесенный им из встреч с его кредиторами ― Фоссе, Помье и другими.</text>
+		<rel f="">сказался</rel>
+		<arg f="" n="1">опыт</arg>
+      </example>
+	   <example name="" src="Е. Т. Гайдар, «Гибель империи», 2006 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Все это сказалось на состоянии здоровья населения, повлияло на демографическую ситуацию в стране на десятилетия вперед.</text>
+		<arg f="" n="1">Все это</arg>
+		<rel f="">сказался</rel>
+		<arg f="" n="1">на состоянии здоровья населения</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

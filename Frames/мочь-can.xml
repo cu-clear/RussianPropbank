@@ -42,12 +42,6 @@
 	
 	<roleset id="мочь.03" name="MODAL">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">смогший</alias>
-        <alias framenet="" pos="v" verbnet="">смогши</alias>
-		<alias framenet="" pos="v" verbnet="">мочь</alias>
-		<alias framenet="" pos="j" verbnet="">могущий</alias>
-        <alias framenet="" pos="j" verbnet="">могший</alias>
-		<alias framenet="" pos="v" verbnet="">могши</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses 4,5,6</note>
 	  <note>мочь.03 NOTES: Added to distinguish sense.</note>

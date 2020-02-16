@@ -4,9 +4,6 @@
 	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless src otherwise noted.</note>
 	<roleset id="утверждать.01" name="insist, claim, assert">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">утверждающий</alias>
-		<alias framenet="" pos="j" verbnet="">утверждавший</alias>
-		<alias framenet="" pos="j" verbnet="">утверждаемый</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank sense 5</note>
 	  <note>NOTES: Based on insist.01.</note>
@@ -52,18 +49,9 @@
 
 	<roleset id="утверждать.02" name="confirm, establish, certify, approve, appoint">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">утверждающий</alias>
-		<alias framenet="" pos="j" verbnet="">утверждавший</alias>
-		<alias framenet="" pos="j" verbnet="">утверждаемый</alias>
 		<alias framenet="" pos="v" verbnet="">утвердить</alias>
-		<alias framenet="" pos="j" verbnet="">утвердивший</alias>
-		<alias framenet="" pos="j" verbnet="">утверждённый</alias>		
-		<alias framenet="" pos="j" verbnet="">утвержденный</alias>
 		<alias framenet="" pos="v" verbnet="">утвердиться</alias>
-		<alias framenet="" pos="j" verbnet="">утвердившийся</alias>
 		<alias framenet="" pos="v" verbnet="">утверждаться</alias>
-		<alias framenet="" pos="j" verbnet="">утверждающийся</alias>
-		<alias framenet="" pos="j" verbnet="">утверждавшийся</alias>
 		<alias framenet="" pos="n" verbnet="">утверждение</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses 1,2,3</note>
