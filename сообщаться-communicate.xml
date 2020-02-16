@@ -1,0 +1,87 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="сообщаться">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="сообщаться.01" name="inform, announce, broadcast, report">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">сообщиться</alias>
+		<alias framenet="" pos="j" verbnet="">сообщившийся</alias>
+		<alias framenet="" pos="j" verbnet="">сообщающийся</alias>
+        <alias framenet="" pos="j" verbnet="">сообщавшийся</alias>
+		<alias framenet="" pos="v" verbnet="">сообщить</alias>
+		<alias framenet="" pos="j" verbnet="">сообщивший</alias>
+		<alias framenet="" pos="j" verbnet="">сообщённый</alias>
+		<alias framenet="" pos="j" verbnet="">сообщенный</alias>
+		<alias framenet="" pos="v" verbnet="">сообщать</alias>
+		<alias framenet="" pos="j" verbnet="">сообщающий</alias>
+        <alias framenet="" pos="j" verbnet="">сообщавший</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses 1,2</note>
+	  <note>сообщаться.01 NOTES: Based on inform.01</note>
+      <roles>
+        <role descr="informer" f="PAG" n="0">
+        </role>
+		<role descr="information, quality or attribute" f="PPT" n="1">
+		</role>
+        <role descr="recipient of information, quality or attribute" f="GOL" n="2">
+		</role>
+	  </roles>
+      <example name="say, report" src="" type="">
+        <text>Как сообщает правительство , Министерство продовольствия и Управление по ликвидации последствий стихийных бедствий уже отправили пострадавшим предметы первой необходимости , включая рис , печенье и строительные материалы .</text>
+        <arg f="adv" n="m">Как</arg>
+		<rel f="">сообщает</rel>
+		<arg f="" n="0">правительство</arg>
+        <arg f="" n="1">Министерство продовольствия и Управление по ликвидации последствий стихийных бедствий уже отправили пострадавшим предметы первой необходимости , включая рис , печенье и строительные материалы</arg>
+      </example>
+	  <example name="report that" src="" type="">
+        <text>Российские СМИ сообщают , что жители Чечни ощутили не менее 10 подземных толчков .</text>
+        <arg f="" n="0">Российские СМИ</arg>
+        <rel f="">сообщают</rel>
+        <arg f="" n="1">что жители Чечни ощутили не менее 10 подземных толчков</arg>
+      </example>
+	  <example name="inform" src="" type="">
+        <text>мама работает в скорой помощи и мчсовцы им в первую очередь сообщают об таких прогнозах , т.к. им выдают бинтовки дополнительно тд и тп.</text>
+        <arg f="" n="0">мчсовцы</arg>
+		<arg f="" n="2">им</arg>
+		<arg f="tmp" n="m">в первую очередь</arg>
+        <rel f="">сообщают</rel>
+        <arg f="" n="1">об таких прогнозах</arg>
+      </example>
+	  <example name="is communicated" src="" type="">
+        <text>Сообщается во всеобщее сведение .</text>
+        <rel f="">Сообщается</rel>
+		<arg f="" n="2">во всеобщее сведение</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="сообщаться.02" name="correspond, connect with">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">сообщающийся</alias>
+        <alias framenet="" pos="j" verbnet="">сообщавшийся</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense 4</note>
+	  <note>сообщаться.02 NOTES: NO PERFECTIVE PAIR</note>
+	  <note>сообщаться.02 based on English correspond.01</note>
+      <roles>
+        <role descr="first (or all) correspondent(s)" f="PAG" n="0">
+        </role>
+		<role descr="additional correspondent" f="PPT" n="1">
+		</role>
+		<role descr="additional correspondent" f="VSP" n="2">
+		</role>
+	  </roles>
+      <example name="arg1 and arg2" src="[А. В. Амфитеатров. Чудодей (1932)] (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Был ещё историк ― Атлантиды , по подлинным летописям её жрецов , сообщавшихся с автором в сонных видениях .</text>
+		<rel f="">сообщавшихся</rel>
+		<arg f="" n="1">с автором</arg>
+		<arg f="loc" n="m">в сонных видениях</arg>
+      </example>
+	  <example name="passive adjectival particle" src="[Сергей Каледин. Аллея Руж // «Огонек», 2013] (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>По сообщающимся сосудам удача сестры перетекла к Леле ― умер Лесючевский .</text>
+        <rel f="">сообщающимся</rel>
+        <arg f="" n="0">сосудам</arg>
+      </example>
+	</roleset>
+	
+  </predicate>
+</frameset>

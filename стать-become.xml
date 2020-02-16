@@ -1,0 +1,239 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="стать">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="стать.01" name="become">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">cтановиться</alias>
+		<alias framenet="" pos="j" verbnet="">становящийся</alias>
+		<alias framenet="" pos="j" verbnet="">становившийся</alias>
+		<alias framenet="" pos="v" verbnet="">становясь</alias>
+		<alias framenet="" pos="j" verbnet="">становившись</alias>
+		<alias framenet="" pos="j" verbnet="">ставший</alias>
+		<alias framenet="" pos="v" verbnet="">став</alias>
+		<alias framenet="" pos="v" verbnet="">ставши</alias>
+	  </aliases>
+	  <note>стать.01 NOTES: Based on English become.01</note>
+      <roles>
+        <role descr="entity changing, gaining attribute" f="PPT" n="1"/>
+		<role descr="new state, attribute" f="PRD" n="2"/>
+	  </roles>
+      <example name="become as something" src="" type="">
+        <text>Жертвами землетрясения стал 31 человек , еще 800 получили ранения .</text>
+        <arg f="" n="2">Жертвами землетрясения</arg>
+		<rel f="">стал</rel>
+		<arg f="" n="1">31 человек</arg>
+      </example>
+	  <example name="mood, cognitive change" src="" type="">
+        <text>Че-то грустно как-то стало мене ...</text>
+        <arg f="" n="2">Че-то грустно как-то</arg>
+		<rel f="">стало</rel>
+		<arg f="" n="1">мене</arg>
+      </example>
+	  <example name="gain attribute" src="" type="">
+        <text>А вражеская Чечня в одночасье стала такой любимой и родной ?</text>
+        <arg f="" n="1">вражеская Чечня</arg>
+		<arg f="tmp" n="m">в одночасье</arg>
+		<rel f="">стала</rel>
+		<arg f="" n="2">такой любимой и родной</arg>
+      </example>
+	</roleset>
+ 
+	<roleset id="стать.02" name="(aspectual) begin">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">ставший</alias>
+		<alias framenet="" pos="v" verbnet="">став</alias>
+		<alias framenet="" pos="v" verbnet="">ставши</alias>
+	  </aliases>
+      <note>стать.02 NOTES: Based on English begin.02</note>
+      <roles>
+        <role descr="action, change begun" f="PPT" n="1"/>
+		<role descr="Instrument, starting point" f="MNR" n="2"/>
+      </roles>
+      <example name="begin, start" src="" type="">
+        <text>После 7 часов утра уровень воды стал резко понижаться .</text>
+        <arg f="tmp" n="m">После 7 часов утра</arg>
+		<arg f="" n="1">уровень воды</arg>
+		<rel f="">стал</rel>
+		<arg f="" n="1">резко понижаться</arg>
+      </example>
+	</roleset>
+
+	<roleset id="стать.03" name="freeze">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">ставший</alias>
+		<alias framenet="" pos="v" verbnet="">став</alias>
+		<alias framenet="" pos="v" verbnet="">ставши</alias>
+	  </aliases>
+	  <note>стать.03 NOTES: Based on English freeze_over.03</note>
+      <roles>
+        <role descr="Thing freezing over" f="PAG" n="1"/>
+	  </roles>
+	  <example name="freeze" src="Аксаков, «Детские годы Багрова-внука, служащие продолжением семейной хроники», 1858 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Наконец получили известие , что Волга стала и что через нее потянулись обозы .</text>
+        <arg f="" n="1">Волга</arg>
+		<rel f="">стала</rel>
+      </example>
+	  <example name="freeze hard" src="Анатолий Ким, «Белка», 1984 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Мы были посреди широкой замерзшей реки , лед стал только недавно , трещал и гнулся под ногами .</text>
+		<arg f="" n="1">лед</arg>
+		<rel f="">стал</rel>
+		<arg f="tmp" n="m">только недавно</arg>
+      </example>
+	</roleset>
+
+	<roleset id="стать.04" name="stand, stand up">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">cтановиться</alias>
+		<alias framenet="" pos="j" verbnet="">становящийся</alias>
+		<alias framenet="" pos="j" verbnet="">становившийся</alias>
+		<alias framenet="" pos="v" verbnet="">становясь</alias>
+		<alias framenet="" pos="j" verbnet="">становившись</alias>
+		<alias framenet="" pos="j" verbnet="">ставший</alias>
+		<alias framenet="" pos="v" verbnet="">став</alias>
+		<alias framenet="" pos="v" verbnet="">ставши</alias>
+	  </aliases>
+	  <note>стать.04 NOTES: Based on English stand.01</note>
+      <roles>
+        <role descr="thing standing" f="PPT" n="1"/>
+		<role descr="location, position" f="LOC" n="2"/>
+	  </roles>
+	  <note>English Arg0-PAG has no match in Russian frame</note>
+	  <example name="be at a standstill" src="" type="">
+        <text>троллейбус, там , по ходу , Кнорина около Севастопольского или Химреактивов затопило , вот и машины стали .</text>
+        <arg f="" n="1">машины</arg>
+		<rel f="">стали</rel>
+      </example>
+      <example name="stand" src="" type="">
+        <text>После утренника попросила стать с девочками чтобы я их сфотографировала , что то дочке не понравилось ( поставила её не по центру ) запустила в меня зонтиком и разрыдалась</text>
+		<rel f="">стать</rel>
+		<arg f="com" n="m">с девочками</arg>
+      </example>
+	  <example name="all args" src="М. Ю. Лермонтов, «Песня про царя Ивана Васильевича, молодого опричника и удалого купца Калашникова», 1837 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>И он стал к окну</text>
+		<arg f="dis" n="m">И</arg>
+		<arg f="" n="1">он</arg>
+		<rel f="">стал</rel>
+		<arg f="" n="2">к окну</arg>
+      </example>
+	  <example name="get up" src="А. С. Пушкин, «Капитанская дочка», 1836 г. (цитата из Викитеки)" type="">
+        <text>Я стал на колени и устремил глаза мои на больного .</text>
+		<arg f="" n="1">Я</arg>
+		<rel f="">стал</rel>
+		<arg f="" n="2">на колени</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="стать.05" name="cost">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">cтановиться</alias>
+		<alias framenet="" pos="j" verbnet="">становящийся</alias>
+		<alias framenet="" pos="j" verbnet="">становившийся</alias>
+		<alias framenet="" pos="v" verbnet="">становясь</alias>
+		<alias framenet="" pos="j" verbnet="">становившись</alias>
+		<alias framenet="" pos="j" verbnet="">ставший</alias>
+		<alias framenet="" pos="v" verbnet="">став</alias>
+		<alias framenet="" pos="v" verbnet="">ставши</alias>
+	  </aliases>
+      <roles>
+        <role descr="commodity " f="PPT" n="1"/>
+		<role descr="price" f="VSP" n="2"/>
+		<role descr="buyer" f="GOL" n="3"/>
+	  </roles>
+	  <note>стать.04 NOTES: Based on English cost.01</note>
+      <example name="cost" src="https://dic.academic.ru/dic.nsf/ogegova/278800" type="">
+        <text>Пальто мне стало в кругленькую сумму .</text>
+		<arg f="" n="1">Пальто</arg>
+		<arg f="" n="3">мне</arg>
+		<rel f="">стало</rel>
+		<arg f="" n="2">в кругленькую сумму</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="стать.06" name="last">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">ставший</alias>
+		<alias framenet="" pos="v" verbnet="">став</alias>
+		<alias framenet="" pos="v" verbnet="">ставши</alias>
+	  </aliases>
+      <roles>
+        <role descr="hing that lasts" f="PPT" n="1"/>
+		<role descr="period of time" f="VSP" n="2"/>
+	  </roles>
+	  <note>стать.06 NOTES: based on English last.01</note>
+      <example name="arg2" src="М. Е. Салтыков-Щедрин, «Господа Головлёвы», 1875 г. (цитата из Викитеки)" type="">
+        <text>Одним словом , Степан Владимирыч проводил братьев дружелюбно и не без самодовольства показал Якову-земскому две двадцатипятирублёвые бумажки , очутившиеся в его руке после прощания. — Теперь , брат , мне надолго станет ! — сказал он .</text>
+		<arg f="dis" n="m">Теперь</arg>
+		<arg f="dis" n="m">брат</arg>
+		<arg f="gol" n="m">мне</arg>
+		<arg f="" n="2">надолго</arg>
+		<rel f="">станет</rel>
+      </example>
+	</roleset>
+	
+	<roleset id="стать.07" name="expect something">
+      <aliases>
+	  </aliases>    
+      <roles>
+        <role descr="entity one may expect something from" f="PPT" n="1"/>
+	  </roles>
+	  <note>English Arg0-PAG has no match in Russian frame</note>
+	  <note>стать.07 NOTES: based on English expect.01</note>
+      <example name="stand" src="" type="">
+        <text>С него станет, этот праведник на всё способен, – испуганно сказал Дима, – а от тебя такого предательства я не ожидал .</text>
+        <rel f="">С</rel>
+		<arg f="" n="1">него</arg>
+		<rel f="">станет</rel>
+      </example>
+	</roleset>
+  </predicate>
+  
+  <predicate lemma="стать">
+	<roleset id="не_стало.08" name="die, disappear">
+      <aliases>
+        <alias framenet="" pos="m" verbnet="">не_стало</alias>
+		<mwe id="не_стало">
+			<token slot="A" arg="" pos="" head="B" dep="">не</token>
+			<token slot="B" arg="" pos="" head="" dep="">стало</token>
+		</mwe>
+	  </aliases>
+      <roles>
+        <role descr="entity dying" f="PPT" n="1"/>
+	  </roles>
+	  <note>не_стало.08 NOTES: Based on English pass.20</note>
+      <example name="pass on" src="" type="">
+        <text>И её тоже не стало .</text>
+        <arg f="dis" n="m">И</arg>
+		<arg f="" n="1">её</arg>
+		<rel f="">не</rel>
+		<rel f="">стало</rel>
+      </example>
+	  <example name="end, finish" src="" type="">
+        <text>Не стало средств , запасов .</text>
+        <rel f="">Не</rel>
+		<rel f="">стало</rel>
+		<arg f="" n="1">средств , запасов</arg>
+      </example>
+	</roleset>
+  </predicate>
+  
+  <predicate lemma="стало_быть">
+	<roleset id="стало_быть.09" name="therefore, hence, thus">
+      <aliases>
+        <alias framenet="" pos="m" verbnet="">стало_быть</alias>
+		<mwe id="стало_быть">
+			<token slot="A" arg="" pos="" head="" dep="">стало</token>
+			<token slot="B" arg="" pos="" head="A" dep="">быть</token>
+		</mwe>
+	  </aliases>
+      <roles>
+	  </roles>
+	  <note>стало_быть.09 NOTES: No parallel English frame.</note>
+      <example name="example" src="" type="">
+        <text>А чтоб и в Огайо с помидорами в августе завязывали ... жаль коли так...не суждено стало быть ... Фермеры на рынке судачили , что у них еще и баклажны " не отколосились ", как следует</text>
+		<rel f="">стало</rel>
+		<rel f="">быть</rel>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

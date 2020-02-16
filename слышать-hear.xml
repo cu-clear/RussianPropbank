@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="слышать">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="слышать.01" name="sense, hear, smell">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">слышащий</alias>
+		<alias framenet="" pos="j" verbnet="">слышавший</alias>
+		<alias framenet="" pos="j" verbnet="">слышимый</alias>
+		<alias framenet="" pos="j" verbnet="">слышанный</alias>
+		<alias framenet="" pos="v" verbnet="">услышать</alias>
+        <alias framenet="" pos="j" verbnet="">услышавший</alias>
+		<alias framenet="" pos="j" verbnet="">услышанный</alias>
+		<alias framenet="" pos="v" verbnet="">послышаться</alias>
+		<alias framenet="" pos="j" verbnet="">слышащийся</alias>
+		<alias framenet="" pos="j" verbnet="">слышавшийся</alias>
+        <alias framenet="" pos="j" verbnet="">услышаться</alias>
+		<alias framenet="" pos="j" verbnet="">услышавшийся</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses 1,2,3,4,5</note>
+	  <note>слышать.01 NOTES: Based on hear.01.</note>
+	  <roles>
+        <role descr="hearer, experiencer" f="PAG" n="0">
+        </role>
+        <role descr="utterance, sense, stimulus" f="PPT" n="1">
+		</role>
+		<role descr="speaker, source" f="DIR" n="2"/>
+	  </roles>
+      <example name="can hear where" src="" type="">
+        <text>Я могу слышать тебя дальше по коридору .</text>
+		<arg f="" n="0">Я</arg>
+        <rel f="">слышать</rel>
+        <arg f="" n="1">тебя</arg>
+		<arg f="loc" n="m">дальше по коридору</arg>
+      </example>
+	  <example name="unspecified arg1" src="" type="">
+        <text>Вы слышали ?</text>
+		<arg f="" n="0">Вы</arg>
+        <rel f="">слышали</rel>
+      </example>
+      <example name="first I've ever heard of" src="" type="">
+        <text>Первый раз слышу о каких-то грехах</text>
+		<arg f="tmp" n="m">Первый раз</arg>
+        <rel f="">слышу</rel>
+        <arg f="" n="1">о каких-то грехах</arg>
+      </example>
+	  <example name="never heard of" src="" type="">
+        <text>Что-то не слышала о колонне, жаль бабушек нет , что бы уточнить , но не слышала от них такой истории , а историй разные были</text>
+		<arg f="adv" n="m">Что-то</arg>
+		<arg f="neg" n="m">не</arg>
+        <rel f="">слышала</rel>
+		<arg f="" n="1">о колонне</arg>
+      </example>
+	  <example name="sense figurative smell" src="" type="">
+        <text>От одного только Капниста послышался аромат истинно душевного чувства</text>
+		<arg f="adv" n="m">Что-то</arg>
+		<arg f="neg" n="m">не</arg>
+        <rel f="">слышала</rel>
+		<arg f="" n="1">о колонне</arg>
+      </example>
+	  <example name="smell" src="" type="">
+        <text>мне так и послышался запах нашего деревенского березняка</text>
+		<arg f="" n="0">мне</arg>
+		<arg f="adv" n="m">так и</arg>
+        <rel f="">послышался</rel>
+		<arg f="" n="1">запах нашего деревенского березняка</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

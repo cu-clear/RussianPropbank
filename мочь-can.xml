@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="мочь">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="мочь.01" name="able">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">смогший</alias>
+        <alias framenet="" pos="v" verbnet="">смогши</alias>
+		<alias framenet="" pos="v" verbnet="">мочь</alias>
+		<alias framenet="" pos="j" verbnet="">могущий</alias>
+        <alias framenet="" pos="j" verbnet="">могший</alias>
+		<alias framenet="" pos="v" verbnet="">могши</alias>
+	  </aliases>
+	  <note>мочь.01 NOTES: Based on able.01.</note>
+	  <note>Corresponds to FrameBank senses 1,2,3</note>
+      <roles>
+        <role descr="entity with ability " f="ppt" n="1"/>
+        <role descr="ability itself, what is arg1 able to do?" f="prd" n="2"/>
+	  </roles>
+      <example name="all args" src="" type="">
+        <text>Я уверен , мы сможем что-нибудь придумать .</text>
+        <arg f="" n="1">мы</arg>
+		<rel f="">сможем</rel>
+		<arg f="" n="2">что-нибудь придумать</arg>
+      </example>
+	</roleset>
+  
+	<roleset id="мочь.02" name="do, live, be (as in how are you?)">
+      <aliases>
+	  </aliases>
+	  <note>мочь.02 NOTES: Based on live.01.</note>
+      <roles>
+        <role descr="alive entity" f="ppt" n="1"/>
+        <role descr="health or life" f="prd" n="2"/>
+	  </roles>
+      <example name="greeting" src="" type="">
+        <text>Он вгляделся в их лица, успокоенно улыбнулся, в знак доверия перекинул автомат на спину, и сказал: ― Здорово, мужики! Как живете-можете? Это вы на Рижскую? [Дмитрий Глуховский. Метро 2033 (2005)]</text>
+        <arg f="" n="2">Как</arg>
+		<rel f="">можете</rel>
+      </example>
+	</roleset>
+	
+	<roleset id="мочь.03" name="MODAL">
+      <aliases>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses 4,5,6</note>
+	  <note>мочь.03 NOTES: Added to distinguish sense.</note>
+      <roles>
+	  </roles>
+      <example name="example" src="" type="">
+        <text> ООН выступила с предупреждением , что Бангладеш может столкнуться с острой нехваткой продовольствия</text>
+		<rel f="">может</rel>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

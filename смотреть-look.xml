@@ -1,0 +1,243 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="смотреть">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="смотреть.01" name="look">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">смотрящий</alias>
+		<alias framenet="" pos="j" verbnet="">смотревший</alias>
+		<alias framenet="" pos="v" verbnet="">посмотреть</alias>
+		<alias framenet="" pos="j" verbnet="">посмотревший</alias>
+        <alias framenet="" pos="j" verbnet="">посмотренный</alias>
+		<alias framenet="" pos="v" verbnet="">посмотреться</alias>
+		<alias framenet="" pos="v" verbnet="">смотреться</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses 1,5,8,15,19</note>
+	  <note>смотреть.01 NOTES: Based on look.01.</note>
+	  <roles>
+        <role descr="observer, searcher" f="pag" n="0">
+        </role>
+        <role descr="at what or where arg0 looked" f="gol" n="1">
+		</role>
+	  </roles>
+	  <example name="look somewhere" src="" type="">
+        <text>А ты посмотрел под кроватью ?</text>
+		<arg f="dis" n="m">А</arg>
+		<arg f="" n="0">ты</arg>
+        <rel f="">посмотрел</rel>
+		<arg f="" n="1">под кроватью</arg>
+      </example>
+	  <example name="all args" src="М. Ю. Лермонтов, «Герой нашего времени», 1839 г." type="">
+        <text>Только не один Печорин любовался хорошенькой княжной : из угла комнаты на неё смотрели другие два глаза , неподвижные , огненные .</text>
+        <arg f="" n="1">на неё</arg>
+		<rel f="">смотрели</rel>
+		<arg f="" n="0">другие два глаза</arg>
+	  </example>
+	  <example name="figurative sense" src="Булгаков, «Белая гвардия», 1923-1924 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Старые её стены смотрят на вас .</text>
+        <arg f="" n="0">Старые её стены</arg>
+		<rel f="">смотрят</rel>
+		<arg f="" n="1">на вас</arg>
+	  </example>
+	        <example name="look at one's reflection in mirror" src="" type="">
+        <text>Расчесываю волосы на голове , смотрюсь в зеркало , брею себя бритвой,</text>
+        <rel f="">смотрюсь</rel>
+        <arg f="" n="1">в зеркало</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="смотреть.02" name="watch">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">смотрящий</alias>
+		<alias framenet="" pos="j" verbnet="">смотревший</alias>
+		<alias framenet="" pos="v" verbnet="">посмотреть</alias>
+		<alias framenet="" pos="j" verbnet="">посмотревший</alias>
+        <alias framenet="" pos="j" verbnet="">посмотренный</alias>
+		<alias framenet="" pos="v" verbnet="">смотреться</alias>
+		<alias framenet="" pos="j" verbnet="">смотрящийся</alias>
+		<alias framenet="" pos="j" verbnet="">смотревшийся</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses 2,3,4,7,10,17,18</note>
+	  <note>Based on watch.01.</note>
+	  <roles>
+        <role descr="observer" f="pag" n="0">
+        </role>
+        <role descr="thing being watched" f="ppt" n="1">
+		</role>
+	  </roles>
+      <example name="perfective, watch film" src="" type="">
+        <text>Я хочу посмотреть фильм .</text>
+		<arg f="" n="0">PRO</arg>
+        <rel f="">посмотреть</rel>
+        <arg f="" n="1">фильм</arg>
+      </example>
+	  <example name="reflexive as middle voice" src="" type="">
+        <text>Фильм хорошо смотрится .</text>
+		<arg f="" n="1">Фильм</arg>
+		<arg f="mnr" n="1">хорошо</arg>
+        <rel f="">смотрится</rel>
+      </example>
+	</roleset>
+	
+	<roleset id="смотреть.03" name="examine">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">смотрящий</alias>
+		<alias framenet="" pos="j" verbnet="">смотревший</alias>
+		<alias framenet="" pos="v" verbnet="">посмотреть</alias>
+		<alias framenet="" pos="j" verbnet="">посмотревший</alias>
+        <alias framenet="" pos="j" verbnet="">посмотренный</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses 6,11</note>
+	  <note>Based on examine.01.</note>
+	  <roles>
+        <role descr="examiner" f="pag" n="0">
+        </role>
+        <role descr="examined" f="ppt" n="1">
+		</role>
+	  </roles>
+      <example name="examine; impersonal construction" src="" type="">
+        <text>Не , меня посмотрели и в операционную сразу .</text>
+		<arg f="neg" n="m">Не</arg>
+		<arg f="" n="1">меня</arg>
+        <rel f="">посмотрели</rel>
+      </example>
+	  <example name="all args" src="М. А. Булгаков, «Мастер и Маргарита, часть 1», 1929-1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Психиатр смотрел вас ?</text>
+		<arg f="" n="0">Психиатр</arg>
+		<arg f="" n="1">смотрел</arg>
+        <rel f="">вас</rel>
+      </example>
+	</roleset>
+	
+	<roleset id="смотреть.04" name="look after">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">смотрящий</alias>
+		<alias framenet="" pos="j" verbnet="">смотревший</alias>
+		<alias framenet="" pos="v" verbnet="">посмотреть</alias>
+		<alias framenet="" pos="j" verbnet="">посмотревший</alias>
+        <alias framenet="" pos="j" verbnet="">посмотренный</alias>>
+	  </aliases>
+	  <note>Based on look_after.07.</note>
+	  <roles>
+        <role descr="minder, watcher" f="pag" n="0">
+        </role>
+        <role descr="entity minded, taken care of" f="ppt" n="1">
+		</role>
+	  </roles>
+      <example name="look after someone" src="В. В. Измайлов, «Прекрасная Татьяна, живущая у подошвы Воробьевых гор», 1804 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Мельтон , не довольный сею помочью , остался сам смотреть за больною и успокаивать огорченного старца .</text>
+		<arg f="" n="0">сам</arg>
+        <rel f="">смотреть</rel>
+        <arg f="" n="1">за больною</arg>
+      </example>
+	  </roleset>
+	  
+	<roleset id="смотреть.05" name="seem">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">смотрящий</alias>
+		<alias framenet="" pos="j" verbnet="">смотревший</alias>
+		<alias framenet="" pos="v" verbnet="">смотреться</alias>
+		<alias framenet="" pos="j" verbnet="">смотрящийся</alias>
+		<alias framenet="" pos="j" verbnet="">смотревшийся</alias>
+	  </aliases>
+	  <note>Based on look.02.</note>
+	  <roles>
+        <role descr="seemer" f="pag" n="1">
+        </role>
+        <role descr="attribute" f="prd" n="2">
+		</role>
+	  </roles>
+      <example name="perfective, watch film" src="" type="">
+        <text>Он смотрет молодцом .</text>
+		<arg f="" n="1">Он</arg>
+        <rel f="">смотрет</rel>
+        <arg f="" n="2">молодцом</arg>
+      </example>
+	  <example name="appears to be" src="Russian National Corpus [коллективный. Форум: 17 мгновений весны (2005-2010)]" type="">
+        <text>А смотрится полнее достойно , особенно по сравнению с современными сериалами .</text>
+		<arg f="dis" n="m">А</arg>
+		<arg f="" n="1">PRO</arg>
+        <rel f="">смотрится</rel>
+        <arg f="" n="2">полнее достойно</arg>
+      </example>
+	</roleset>
+  </predicate>
+  
+  <predicate lemma="посмотреть">
+	<roleset id="посмотреть.06" name="search">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">посмотрящий</alias>
+		<alias framenet="" pos="j" verbnet="">посмотревший</alias>
+	  </aliases>
+	  <note>NOTES: Based on search.01.</note>
+	  <roles>
+        <role descr="searcher " f="pag" n="0">
+        </role>
+        <role descr="searched for" f="ppt" n="1">
+		</role>
+	  </roles>
+      <example name="perfective, watch film" src="" type="">
+        <text>Посмотрите рубль, пожалуйста .</text>
+		<arg f="" n="0">PRO</arg>
+        <rel f="">Посмотрите</rel>
+        <arg f="" n="1">рубль</arg>
+		<arg f="dis" n="m">пожалуйста</arg>
+      </example>
+	  </roleset>
+	</predicate>
+	
+	<predicate lemma="смотря">
+	<roleset id="смотря.08" name="depends">
+      <aliases>
+	  </aliases>
+	  <roles>
+        <role descr="deciding factor" f="ppt" n="1">
+        </role>
+	  </roles>
+      <example name="depends on" src="Russian National Corpus. [Свадьба тюменских старожилов // «Народное творчество», 2004]" type="">
+        <text>Также было принято, чтобы родители невесты дарили молодым скотину, а остальные ― кто что может, смотря по достатку: скотину, холст, шаль, платок, деньги.</text>
+        <rel f="">смотря</rel>
+        <arg f="" n="1">по достатку</arg>
+      </example>
+	  <example name="depends how" src="Russian National Corpus. [Василь Быков. Болото (2001)]" type="">
+        <text>Смотря как оформлено. ― Слушай, доктор, учись, ― наставительно заметил Огрызков.</text>
+        <rel f="">Смотря</rel>
+        <arg f="" n="1">как оформлено</arg>
+      </example>
+	</roleset>
+  </predicate>
+  
+  <predicate lemma="смотреть_в_рот">
+	 <roleset id="смотреть_в_рот_кому.09" name="hang on every word">
+      <aliases>
+		<alias framenet="" pos="m" verbnet="">смотреть_в_рот</alias>
+		<alias framenet="" pos="m" verbnet="">глядеть_в_рот</alias>
+        <alias framenet="" pos="m" verbnet="">смотреть_в_глаза</alias>
+		<alias framenet="" pos="m" verbnet="">глядеть_в_глаза</alias>
+		<note>Corresponds to FrameBank senses 13,14,16</note>
+		<mwe id="смотреть_в_рот">
+			<token slot="A" arg="" pos="" head="" dep="">смотреть</token>
+			<token slot="A" arg="" pos="" head="" dep="">глядеть</token>
+			<token slot="B" arg="" pos="" head="C" dep="">в</token>
+			<token slot="C" arg="" pos="" head="A" dep="">рот</token>
+			<token slot="C" arg="" pos="" head="A" dep="">глаза</token>
+		</mwe>
+	  </aliases>
+	  <note>смотреть_в_рот NOTES: Based on flatter.01.</note>
+      <roles>
+        <role descr="gratifier" f="pag" n="0">
+        </role>
+		<role descr="target of gratification" f="ppt" n="1">
+		</role>
+	  </roles>
+      <example name="example" src="Russian National Corpus. [И. Э. Кио. Иллюзии без иллюзий (1995-1999)]" type="">
+        <text>Бардиан считался настолько авторитарным и серьёзным начальником, что едва ли не все смотрели ему в рот, ― и уж по линии личных удовольствий он, будь половчее и смелее, мог бы добиться всего, чего только пожелал бы.</text>
+        <arg f="" n="0">едва ли не все</arg>
+		<rel f="">смотрели</rel>
+		<arg f="" n="1">ему</arg>
+		<rel f="">в</rel>
+		<rel f="">рот</rel>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

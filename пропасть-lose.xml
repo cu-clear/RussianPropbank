@@ -1,0 +1,102 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+	<predicate lemma="пропасть">
+	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+		<roleset id="пропасть.01" name="lose, disappear">
+			<aliases>
+				<alias framenet="" pos="j" verbnet="">пропавший</alias>
+				<alias framenet="" pos="v" verbnet="">пропадать</alias>
+				<alias framenet="" pos="j" verbnet="">пропадающий</alias>
+				<alias framenet="" pos="j" verbnet="">пропадавший</alias>
+			</aliases>
+			<note>Corresponds to FrameBank senses 1,2,3,4</note>
+			<note>NOTES: Frame based on expansion of English disappear.01</note>
+			<roles>
+				<role descr="the disappeared" f="PPT" n="1"/>
+			</roles>
+			<note>English Arg0-PAG has no match in Russian frame.</note>
+			<example name="all args" src="" type="">
+				<text>В Бразилии десятки человек пропали без вести в затопленном ядовитыми отходами районе . Две дамбы , сдерживавшие воду с отходами металлургической промышленности , рухнули 5 ноября .</text>
+				<arg f="loc" n="m">В Бразилии</arg>
+				<arg f="" n="1">десятки человек</arg>
+				<rel f="">пропали</rel>
+				<arg f="prd" n="m">без вести</arg>
+				<arg f="loc" n="m">в затопленном ядовитыми отходами районе</arg>
+			</example>
+			<example name="disappear, arg1" src="" type="">
+				<text>Пропало последнее сообщение , точно помню - писал .</text>
+				<rel f="">Пропало</rel>
+				<arg f="" n="1">последнее сообщение</arg>
+			</example>
+			<example name="lost connection, arg1" src="" type="">
+				<text>В районе выключился свет , и пропала мобильная связь .</text>
+				<rel f="">пропала</rel>
+				<arg f="" n="1">мобильная связь</arg>
+			</example>
+			<example name="lose interest" src="" type="">
+				<text>Интерес до сих пор не пропал .</text>
+				<arg f="" n="1">Интерес</arg>
+				<arg f="tmp" n="m">до сих пор</arg>
+				<arg f="neg" n="m">не</arg>
+				<rel f="">пропал</rel>
+			</example>
+		</roleset>
+	
+		<roleset id="пропасть.02" name="be lost on">
+		  <aliases>
+		  </aliases>
+		  <note>пропасть.02 NOTES: based on lose.07. Usually in the negative.</note>
+		  <roles>
+			<role descr="what you're not aware of" f="PPT" n="1">
+			</role>
+			<role descr="unaware entity" f="GOL" n="2">
+			</role>
+		  </roles>
+		  <example name="" src="Russian National Corpus. [Юрий Давыдов. Синие тюльпаны (1988-1989)]" type="">
+			<text>Подполковник (да-да, уже подполковник) Германн хотел, чтобы эта история, сохранившись в роду, как предания у эскимосов, свидетельствовала о том, что за царём служба не пропадёт.</text>
+			<arg f="" n="2">за царём</arg>
+			<arg f="" n="1">служба</arg>
+			<arg f="neg" n="m">не</arg>
+			<rel f="">пропадёт</rel>
+		  </example>
+		</roleset>
+	</predicate>
+	  
+  <predicate lemma="пропасть_пропадом-m">
+	 <roleset id="пропадом.03" name="be damned, may the earth swallow up">
+      <aliases>
+        <alias framenet="" pos="m" verbnet="">пропасть_пропадом</alias>
+		<alias framenet="" pos="m" verbnet="">пропадать_пропадом</alias>
+        <alias framenet="" pos="m" verbnet="">провалиться_пропадом</alias>
+		<alias framenet="" pos="m" verbnet="">пропасть_пропастью</alias>
+		<alias framenet="" pos="m" verbnet="">пропадать_пропастью</alias>
+        <alias framenet="" pos="m" verbnet="">провалиться_пропастью</alias>
+		<mwe id="пропасть_пропадом">
+			<token slot="A" arg="" pos="" head="" dep="">пропасть</token>
+			<token slot="A" arg="" pos="" head="" dep="">пропадать</token>
+			<token slot="A" arg="" pos="" head="" dep="">провалиться</token>
+			<token slot="B" arg="" pos="" head="A" dep="">пропадом</token>
+			<token slot="B" arg="" pos="" head="A" dep="">пропастью</token>
+		</mwe>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense 5</note>
+	  <note>пропасть_пропадом-m NOTES: based on damn.01. Usually with imperative verb</note>
+      <roles>
+		<role descr="damner, God" f="PAG" n="0"/>
+		<role descr="damned" f="PPT" n="1"/>
+	  </roles>
+      <example name="пропасть_пропадом" src="Russian National Corpus. [Виктор Астафьев. Последний поклон (1968-1991)]" type="">
+        <text>Пропади пропадом эти переметы, гальяны, налимы, Енисей и дед вместе с ними !</text>
+		<rel f="">Пропади</rel>
+		<rel f="">пропадом</rel>
+		<arg f="" n="1">эти переметы, гальяны, налимы, Енисей и дед вместе с ними</arg>
+      </example>
+	  <example name="провалиться_пропадом" src="Russian National Corpus. [Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001]" type="">
+        <text>Ну мне чего? ― плюнул, открыл места… сервис купил, чтобы отвязались, провались он пропадом.</text>
+		<rel f="">провались</rel>
+		<arg f="" n="1">он</arg>
+		<rel f="">пропадом</rel>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

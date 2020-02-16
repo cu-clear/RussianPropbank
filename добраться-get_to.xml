@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="добраться">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="добраться.01" name="get to, arrive at, make it to, achieve">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">добираться</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank senses </note>
+      <note>добраться.01 NOTES: Roleset based on English make_it.14</note>
+      <roles>
+        <role descr="traveller" f="PAG" n="0">
+        </role>
+        <role descr="destination" f="PPT" n="1">
+      </roles>
+      <example name="" src="Russian National Corpus[В. Э. Карпов, Т. В. Мещерякова. Об автоматизации нетворческих литературных процессов // «Информационные технологии», 2004]" type="">
+        <text>Необходимы для описания того, как персонаж добирается до места встречи из одного локуса в другой.</text>
+        <arg f="" n="0">персонаж</arg>
+        <rel f="">добирается</rel> 
+        <arg f="" n="1">до места встречи</arg>
+      </example>
+      <example name="" src="Russian National Corpus[Наши дети: Подростки (2004)]" type="">
+        <text>А автор, судя по всему, до этого никак не доберётся и, тратя силы и время на ор, будет искать взаимопонимание очень долго.</text>
+        <arg f="" n="0">автор</arg>
+        <rel f="">не доберётся</rel>
+        <arg f="" n="1">до этого</arg>
+      </example>
+      <example name="" src="Russian National Corpus[Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001]" type="">
+        <text>Вот что страшно: знать, что и до тебя скоро доберётся!</text>
+        <arg f="TMP" n="m">скоро</arg>
+        <rel f="">доберётся</rel>
+        <arg f="" n="1">и до тебя</arg>
+      </example>
+ 

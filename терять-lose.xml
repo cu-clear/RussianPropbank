@@ -1,0 +1,149 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="терять">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="терять.01" name="lose, not have any longer in possession/sight etc.">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">теряющий</alias>
+		<alias framenet="" pos="j" verbnet="">терявший</alias>
+		<alias framenet="" pos="j" verbnet="">теряемый</alias>
+		<alias framenet="" pos="v" verbnet="">утерять</alias>
+		<alias framenet="" pos="v" verbnet="">потерять</alias>
+		<alias framenet="" pos="j" verbnet="">потерявший</alias>
+        <alias framenet="" pos="j" verbnet="">потерянный</alias>
+		<alias framenet="" pos="v" verbnet="">потеряться</alias>
+		<alias framenet="" pos="j" verbnet="">потерявшийся</alias>
+		<alias framenet="" pos="v" verbnet="">теряться</alias>
+		<alias framenet="" pos="j" verbnet="">теряющийся</alias>
+        <alias framenet="" pos="j" verbnet="">терявшийся</alias>
+		<alias framenet="" pos="v" verbnet="">затеряться</alias>
+		<alias framenet="" pos="j" verbnet="">затерявшийся</alias>
+        <alias framenet="" pos="v" verbnet="">затериваться</alias>
+		<alias framenet="" pos="j" verbnet="">затеривающийся</alias>
+        <alias framenet="" pos="j" verbnet="">затеривавшийся</alias>
+		<alias framenet="" pos="v" verbnet="">перетерять</alias>
+		<alias framenet="" pos="v" verbnet="">растерять</alias>
+        <alias framenet="" pos="v" verbnet="">растеривать</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense 1</note>
+	  <note>терять.01 NOTES: Based on lose.02.</note>
+	  <roles>
+        <role descr="entity losing sth" f="PAG" n="0">
+        </role>
+        <role descr="thing lost" f="PPT" n="1">
+		</role>
+		<role descr="benefactive, entity gaining thing lost" f="GOL" n="2"/>
+		<role descr="source of loss" f="DIR" n="3"/>
+	  </roles>
+      <example name="arg1" src="" type="">
+        <text>вот смысл сказки , худ литературы не улавливает .. вернее теряет его через 3-4 предложения .</text>
+		<arg f="" n="0">*Trace-1*</arg>
+        <rel f="">теряет</rel>
+        <arg f="" n="1">его</arg>
+		<arg f="loc" n="m">через 3-4 предложения</arg>
+      </example>
+      <example name="reflexive as passive" src="Russian National Corpus. [Василий Гроссман. Жизнь и судьба, ч. 1 (1960)]" type="">
+        <text>Есть одно ощущение, которое почти целиком теряется участниками боя, ― это ощущение времени. </text>
+		<arg f="" n="1">которое</arg>
+		<arg f="ext" n="m">почти целиком</arg>
+        <rel f="">теряется</rel>
+		<arg f="" n="0">участниками боя</arg>
+      </example>
+	  <example name="disappear, be lost from view" src="Russian National Corpus. [А. И. Герцен. Сорока-воровка (1846)]" type="">
+        <text>Да и, как на смех, небо было серо, ветер холоден, даль терялась за болотистыми испарениями, все виды, которыми я восхищался, ехавши сюда, были угрюмы; оттого ли, что я их видел в обратном порядке, или от чего другого, только они меня не веселили.</text>
+		<arg f="" n="1">даль</arg>
+        <rel f="">терялась</rel>
+		<arg f="loc" n="m">за болотистыми испарениями</arg>
+      </example>
+	  <example name="be lost in a crowd" src="Russian National Corpus. [Майя Кучерская. Современный патерик: чтение для впавших в уныние (2004)]" type="">
+        <text>Батюшки-хорошие-люди было зажались, заприкладывали руки к сердцу, хотели что-то объяснить — их тоже начали обнимать и целовать, и они сразу же затерялись в этой ликующей толпе.</text>
+		<arg f="" n="1">они</arg>
+        <arg f="loc" n="m">сразу же</arg>
+		<rel f="">затерялись</rel>
+		<arg f="loc" n="m">в этой ликующей толпе</arg>
+      </example>
+	  <example name="figurative; lose one's head" src="Russian National Corpus." type="">
+        <text>Чтобы не терять голову до прихода врача и не впадать в панику из-за пустяков, достаточно знать о сыпи (ее видах) несколько простых вещей.</text>
+        <arg f="neg" n="m">не</arg>
+		<rel f="">терять</rel>
+		<arg f="" n="1">голову</arg>
+		<arg f="tmp" n="m">до прихода врача</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="терять.02" name="lose out, suffer">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">потерять</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses 2,3,4,5,6,7</note>
+	  <note>терять.02 NOTES: Based on lose_out.06.</note>
+	  <roles>
+        <role descr="entity losing something" f="PAG" n="0">
+        </role>
+        <role descr="thing lost" f="PPT" n="1">
+		</role>
+	  </roles>
+	  <note>English Arg2-GOL has no match in Russian frame</note>
+	  <example name="lose (out), suffer" src="" type="">
+        <text>САмое грустное , что когда растет доллар , те, кто взял в рублях кредиты тоже теряют - их уровень жизни падает .</text>
+		<arg f="adv" n="m">тоже</arg>
+        <rel f="">теряют</rel>
+      </example>
+	  <example name="lose good opinion" src="Russian National Corpus [Максим Горький. Жизнь Клима Самгина. Часть 4 (1928-1935)]" type="">
+        <text>Ах, ты не можешь представить себе, как мы теряем во мнении Европы!</text>
+		<arg f="adv" n="m">как</arg>
+		<arg f="" n="0">мы</arg>
+        <rel f="">теряем</rel>
+		<arg f="1" n="m">во мнении Европы</arg>
+      </example>
+	</roleset>
+  </predicate>
+  
+  <predicate lemma="теряться">
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="теряться.03" name="be confused, baffled, unsure">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">потеряться</alias>
+		<alias framenet="" pos="j" verbnet="">потерявшийся</alias>
+		<alias framenet="" pos="j" verbnet="">теряющийся</alias>
+        <alias framenet="" pos="j" verbnet="">терявшийся</alias>
+		<alias framenet="" pos="v" verbnet="">растеряться</alias>
+		<alias framenet="" pos="j" verbnet="">растерявшийся</alias>
+        <alias framenet="" pos="v" verbnet="">растериваться</alias>
+		<alias framenet="" pos="j" verbnet="">растеривающийся</alias>
+        <alias framenet="" pos="j" verbnet="">растеривавшийся</alias>
+	  </aliases>
+	  <note>теряться.01 NOTES: Based on confuse.01.</note>
+	  <roles>
+		<role descr="entity experiencing confusion" f="PPT" n="1">
+		</role>
+		<role descr="confused about or over what? (first or all things)" f="VSP" n="2">
+		</role>
+	  </roles>
+	  <note>English Arg0-PAG has no match in Russian frame</note>
+	  <note>English Arg3-VSP has no match in Russian frame</note>
+      <example name="all args" src="Russian National Corpus. [Людмила Улицкая. Казус Кукоцкого [Путешествие в седьмую сторону света]" type="">
+        <text>Павел Алексеевич терялся перед болезнью своей жены, потому что не понимал.</text>
+		<arg f="" n="1">Павел Алексеевич</arg>
+        <rel f="">терялся</rel>
+        <arg f="" n="2">перед болезнью своей жены</arg>
+		<arg f="cau" n="m">потому что не понимал</arg>
+      </example>
+	  <example name="arg2" src="Russian National Corpus [Анатолий Рыбаков. Тяжелый песок (1975-1977)]" type="">
+        <text>Она была решительной, категоричной, всеми управляла и командовала, и вот впервые растерялась перед мужчиной видным, необычным, не она командовала им, а он ею, не он подчинялся ей, а она ему.</text>
+		<arg f="adv" n="m">вот</arg>
+		<arg f="adv" n="m">впервые</arg>
+        <rel f="">растерялась</rel>
+		<arg f="" n="2">перед мужчиной видным, необычным</arg>
+      </example>
+	  <example name="lose count" src="Russian National Corpus. [Дина Рубина. Медная шкатулка (сборник) (2015)]" type="">
+        <text>Скоро я просто теряю счет этим великолепно отрепетированным театральным выходам: широким мерным шагом, по одному, затем опять по двое семинаристы появляются то из левой, то из правой кулисы.</text>
+		<arg f="adv" n="m">Скоро</arg>
+		<arg f="" n="0">я</arg>
+		<arg f="adv" n="m">просто</arg>
+        <rel f="">теряю</rel>
+		<rel f="">счет >этим великолепно отрепетированным театральным выходам: широким мерным шагом, по одному, затем опять по двое семинаристы появляются то из левой, то из правой кулисы</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

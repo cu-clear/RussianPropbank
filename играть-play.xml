@@ -1,0 +1,305 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="играть">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="играть.01" name="engage in activity for enjoyment, entertainment, and competition">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">играющий</alias>
+		<alias framenet="" pos="j" verbnet="">игравший</alias>
+		<alias framenet="" pos="j" verbnet="">играемый</alias>
+		<alias framenet="" pos="j" verbnet="">игранный</alias>
+		<alias framenet="" pos="v" verbnet="">сыграть</alias>
+		<alias framenet="" pos="j" verbnet="">сыгравший</alias>
+		<alias framenet="" pos="j" verbnet="">сыгранный</alias>
+		<alias framenet="" pos="v" verbnet="">сыграться</alias>
+		<alias framenet="" pos="j" verbnet="">сыгравшийся</alias>
+		<alias framenet="" pos="v" verbnet="">играться</alias>
+		<alias framenet="" pos="j" verbnet="">играющийся</alias>
+		<alias framenet="" pos="j" verbnet="">игравшийся</alias>
+		<alias framenet="" pos="v" verbnet="">игрывать</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 1,2,3?,7,8,9,12</note>
+      <note>играть.01 NOTES: Roleset based on English play.01</note>
+      <roles>
+        <role descr="player" f="PAG" n="0">
+        </role>
+        <role descr="game/toy" f="PPT" n="1">
+        </role>
+        <role descr="instrument/equipment used to play game" f="MNR" n="2"/>
+        <role descr="opponent, play against whom" f="COM" n="3"/>
+      </roles>
+      <example name="ARG0" src="" type="">
+        <text>Будем играть в несколько известных во всем мире игр .</text>
+        <arg f="" n="0">*PRO*</arg>
+        <rel f="">играть</rel> 
+        <arg f="" n="1">в несколько известных во всем мире игр</arg>
+      </example>
+      <example name="specific game" src="" type="">
+        <text>Ты играешь в какие-нибудь спортивные игры ?</text>
+        <arg f="" n="0">Ты</arg>
+        <rel f="">играешь</rel>
+        <arg f="" n="1">в какие-нибудь спортивные игры</arg>
+      </example>
+      <example name="specific game" src="" type="">
+        <text>Тебе нравится играть в футбол ?</text>
+        <arg f="" n="0">*PRO*</arg>
+        <rel f="">играть</rel>
+        <arg f="" n="1">в футбол</arg>
+      </example>
+      <example name="with secondary predication" src="" type="">
+        <text>Но играли с братом знатно - и корабль и дом и многое придумывали )))</text>
+		<arg f="dis" n="m">Но</arg>
+        <arg f="" n="0">*PRO*</arg>
+        <rel f="">играли</rel>
+        <arg f="COM" n="m">с братом</arg>
+        <arg f="adv" n="m">знатно</arg>
+      </example>
+      <example name="With reciprocal" src="web" type="">
+        <text>Сама не играю вообще , муж очень-очень изредка .</text>
+        <arg f="rec" n="m">Сама</arg>
+		<arg f="" n="0">*PRO*</arg>
+		<arg f="neg" n="m">не</arg>
+        <rel f="">играю</rel>
+        <arg f="adv" n="m">вообще</arg>
+      </example>
+      <example name="With game" src="" type="">
+        <text>В кээс и дотку не играю ... ЯРусскостью не увлекаюсь , репчик не слушаю ...</text>
+        <arg f="" n="1">В кээс и дотку</arg>
+        <arg f="" n="0">*PRO*</arg>
+		<arg f="neg" n="m">не</arg>
+        <rel f="">играю</rel>
+      </example>
+	  <example name="play with" src="" type="">
+        <text>Клара молчала и играла вилкой .</text>
+        <arg f="" n="0">*PRO*</arg>
+        <rel f="">играла</rel>
+		<arg f="" n="2">вилкой</arg>
+      </example>
+	  <example name="play with" src="" type="">
+        <text>Клара молчала и играла вилкой .</text>
+        <arg f="" n="0">*PRO*</arg>
+        <rel f="">играла</rel>
+		<arg f="" n="2">вилкой</arg>
+      </example>
+    </roleset>
+    
+	<roleset id="играть.02" name="perform/play music">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">играющий</alias>
+		<alias framenet="" pos="j" verbnet="">игравший</alias>
+		<alias framenet="" pos="j" verbnet="">играемый</alias>
+		<alias framenet="" pos="j" verbnet="">игранный</alias>
+		<alias framenet="" pos="v" verbnet="">сыграть</alias>
+		<alias framenet="" pos="j" verbnet="">сыгравший</alias>
+		<alias framenet="" pos="j" verbnet="">сыгранный</alias>
+		<alias framenet="" pos="j" verbnet="">сыгравшийся</alias>
+		<alias framenet="" pos="v" verbnet="">играться</alias>
+		<alias framenet="" pos="j" verbnet="">играющийся</alias>
+		<alias framenet="" pos="j" verbnet="">игравшийся</alias>
+		<alias framenet="" pos="v" verbnet="">игрывать</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 4,5</note>
+      <note>играть.02 NOTES: based on English play.11</note>
+      <roles>
+        <role descr="performer" f="PAG" n="0">
+        </role>
+        <role descr="music" f="PPT" n="1">
+        </role>
+        <role descr="instrument or equipment on which the music is played" f="MNR" n="2"/>
+      </roles>
+      <example name="play a piece" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=3874" type="">
+        <text>Если ты " Аппассионату " играешь , то с этой музыкой как-нибудь справишься .</text>
+        <arg f="" n="0">ты</arg>
+		<arg f="" n="1">Аппассионату</arg>
+        <rel f="">играешь</rel>
+      </example>
+	  <example name="play an instrument" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=3875" type="">
+        <text>Разве вы не видите : я играю на скрипке !</text>
+        <arg f="" n="0">я</arg>
+        <rel f="">играю</rel>
+		<arg f="" n="2">на скрипке</arg>
+      </example>
+	  <example name="arg1 and arg2, instrument metonym for music" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=12799" type="">
+        <text>Всё деревом обделано, камин , светильники тёмные , орган играет по магнитофону .</text>
+        <arg f="" n="1">орган</arg>
+        <rel f="">играет</rel>
+		<arg f="" n="2">по магнитофону</arg>
+      </example>
+	  <example name="arg1 and arg2, music metonym for performer" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=12799" type="">
+        <text>Все шумно усаживаются за стол ; минутная пауза ; музыка играет марш .</text>
+        <arg f="" n="0">музыка</arg>
+        <rel f="">играет</rel>
+		<arg f="" n="1">марш</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="играть.03" name="represent a character in a performance, play a role">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">играющий</alias>
+		<alias framenet="" pos="j" verbnet="">игравший</alias>
+		<alias framenet="" pos="j" verbnet="">играемый</alias>
+		<alias framenet="" pos="j" verbnet="">игранный</alias>
+		<alias framenet="" pos="v" verbnet="">сыграть</alias>
+		<alias framenet="" pos="j" verbnet="">сыгравший</alias>
+		<alias framenet="" pos="j" verbnet="">сыгранный</alias>
+		<alias framenet="" pos="v" verbnet="">игрывать</alias>
+		<alias framenet="" pos="j" verbnet="">сыгравшийся</alias>
+		<alias framenet="" pos="v" verbnet="">играться</alias>
+		<alias framenet="" pos="j" verbnet="">играющийся</alias>
+		<alias framenet="" pos="j" verbnet="">игравшийся</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 6,10</note>
+      <note>играть.03 NOTES: based on play.02</note>
+      <roles>
+        <role descr="actor/player" f="PAG" n="0"/>
+        <role descr="role/music/song/performance" f="PPT" n="1"/>
+		<role descr="production/theater/performance, if different from arg1" f="LOC" n="2"/>
+      </roles>
+	  <note>Russian Arg2-LOC has no match in English frame</note>
+	  <example name="arg0 actor" src="" type="">
+        <text>Там , кажется , играет Франко Неро ?</text>
+        <arg f="loc" n="m">Там</arg>
+		<rel f="">играет</rel>
+		<arg f="" n="0">Франко Неро</arg>
+	</example>
+	<example name="Hollywood role" src="" type="">
+        <text>И еще вопрос , кто играл жену главы мафиозного клана ?</text>
+        <arg f="dis" n="m">И еще вопрос</arg>
+		    <arg f="" n="0">кто</arg>
+        <rel f="">играл</rel>
+		<arg f="" n="1">жену главы мафиозного клана</arg>
+	</example>
+	<example name="pretend to be" src="" type="">
+        <text>а мне понравилось в кафе в центре в районе 1000 мелочей , не помню точно название , где дети играют в поваров и делают пиццу сами под руководством повара ...</text>
+        <arg f="loc" n="m">где</arg>
+        <rel f="">играют</rel>
+		<arg f="" n="1">в поваров</arg>
+      </example>
+      <example name="be a factor" src="" type="">
+        <text>числа в нашей жизни и мироздании играют далеко не последнюю роль , но кто сможет узнать , будет ли это 11-й рейс самолёта или автобуса ?</text>
+        <arg f="" n="0">числа</arg>
+        <arg f="" n="1">в нашей жизни и мироздании</arg>
+		<rel f="">играют</rel>
+		<arg f="adv" n="m">далеко</arg>
+        <arg f="" n="1">не последнюю роль</arg>
+      </example>
+	  <example name="figurative role in life" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть" type="">
+        <text>Они верят в то , что Бог играет важную роль в их жизни , в том числе и в футбольной » .</text>
+        <arg f="" n="0">Бог</arg>
+		<rel f="">играет</rel>
+		<arg f="" n="1">важную роль</arg>
+        <arg f="" n="2">в их жизни</arg>
+      </example>
+	  <example name="type of performance/role as arg1" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть" type="">
+        <text>Актёр котируется лучше , если он играет трагедию , а не водевиль .</text>
+        <arg f="" n="0">он</arg>
+		<rel f="">играет</rel>
+		<arg f="" n="1">трагедию</arg>
+      </example>
+	  <example name="type of performance/role as arg1" src="Russian National Corpus.[И. Грекова. Фазан (1984)]" type="">
+        <text>"Кот Плюшка" ― называлась одна пьеса, а другая ― "Тихо-тихо" ― игралась шёпотом .</text>
+        <arg f="MNR" n="m">шёпотом</arg>
+		<rel f="">игралась</rel>
+		<arg f="" n="2">другая ― "Тихо-тихо"</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="играть.04" name="have a wedding, get married">
+      <aliases>
+		<alias framenet="" pos="j" verbnet="">играющий</alias>
+		<alias framenet="" pos="j" verbnet="">игравший</alias>
+		<alias framenet="" pos="j" verbnet="">играемый</alias>
+		<alias framenet="" pos="j" verbnet="">игранный</alias>
+		<alias framenet="" pos="v" verbnet="">сыграть</alias>
+		<alias framenet="" pos="j" verbnet="">сыгравший</alias>
+		<alias framenet="" pos="j" verbnet="">сыгранный</alias>
+		<alias framenet="" pos="j" verbnet="">сыгравшийся</alias>
+		<alias framenet="" pos="v" verbnet="">играться</alias>
+		<alias framenet="" pos="j" verbnet="">играющийся</alias>
+		<alias framenet="" pos="j" verbnet="">игравшийся</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank sense 13</note>
+	  <note>NOTES: based on English host.04</note>
+      <roles>
+        <role descr="conductor, host" f="PAG" n="0">
+        </role>
+		<role descr="thing held - wedding" f="PPT" n="1"/>
+		<role descr="with whom" f="COM" n="2"/>
+      </roles>
+      <example name="have a wedding" src="Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть" type="">
+        <text>Они сыграли свадьбу в июле</text>
+        <arg f="" n="0">Они</arg>
+        <rel f="">сыграли</rel>
+        <arg f="" n="1">свадьбу</arg>
+		<arg f="tmp" n="m">в июле</arg>
+      </example>
+	  <example name="wedding was held, reflexive as passive" src="Russian National Corpus. [В. Г. Распутин. Новая профессия (1998)]" type="">
+        <text>И сама свадьба играется ― потому что положено тряхнуть событием, а заодно и карманом .</text>
+        <arg f="dis" n="m">И</arg>
+		<arg f="" n="1">сама свадьба</arg>
+		<rel f="">играется</rel>
+      </example>
+    </roleset>
+  </predicate>
+  
+  <predicate>	
+	<roleset id="играть_на_руку.05" name="play into one's hands">
+      <aliases>
+		<alias framenet="" pos="m" verbnet="">сыграть_на_руку</alias>
+		<alias framenet="" pos="m" verbnet="">играть_на_руку</alias>
+		<alias framenet="" pos="m" verbnet="">играться_на_руку</alias>
+		<alias framenet="" pos="m" verbnet="">сыграться_на_руку</alias>
+		<mwe id="играть_на_руку">
+			<token slot="A" arg="" pos="" head="" dep="">сыграть</token>
+			<token slot="A" arg="" pos="" head="" dep="">играть</token>
+			<token slot="A" arg="" pos="" head="" dep="">играться</token>
+			<token slot="A" arg="" pos="" head="" dep="">сыграться</token>
+			<token slot="B" arg="" pos="" head="С" dep="">на</token>
+			<token slot="С" arg="" pos="" head="A" dep="">руку</token>
+		</mwe>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 11</note>
+	  <note>NOTES: based on English play.08</note>
+      <roles>
+        <role descr="thing factoring in, subject in active clauses" f="PAG" n="0"/>
+		<role descr="thing being factored into" f="PPT" n="1"/>
+      </roles>
+      <example name="into the hands of enemies" src="Russian National Corpus. [Василий Гроссман. Жизнь и судьба, часть 3 (1960)]" type="">
+        <text>― Виктор Павлович , ― сказал он , ― надо вам сказать , что эта кампания англо-американцев прямо играет на руку фашистам .</text>
+        <arg f="" n="0">эта кампания англо-американцев</arg>
+		<arg f="adv" n="m">прямо</arg>
+        <rel f="">играет</rel>
+		<rel f="">на</rel>
+		<rel f="">руку</rel>
+		<arg f="" n="1">фашистам</arg>
+      </example>
+    </roleset>
+  </predicate>
+  
+    <predicate>	
+	<roleset id="сыграть_в_ящик.06" name="die, kick the bucket">
+      <aliases>
+		<alias framenet="" pos="m" verbnet="">сыграть_в_ящик</alias>
+		<mwe id="сыграть_в_ящик">
+			<token slot="A" arg="" pos="" head="" dep="">сыграть</token>
+			<token slot="B" arg="" pos="" head="С" dep="">в</token>
+			<token slot="С" arg="" pos="" head="A" dep="">ящик</token>
+		</mwe>
+      </aliases>
+	  <note>Corresponds to FrameBank senses 11</note>
+	  <note>NOTES: based on English die.01</note>
+      <roles>
+		<role descr="the deceased" f="PPT" n="1"/>
+      </roles>
+	  <note>English Arg2-PRD has no match in Russian frame</note>
+      <example name="die" src="Russian National Corpus. [Василий Катанян. Прикосновение к идолам (1998)]" type="">
+        <text>Шло время. Сталин сыграл в ящик. После XX съезда Тима ночью пересказывал закрытое письмо о Сталине (только для партийных!</text>
+        <arg f="" n="1">Сталин</arg>
+		<arg f="adv" n="m">прямо</arg>
+        <rel f="">сыграл</rel>
+		<rel f="">в</rel>
+		<rel f="">ящик</rel>
+      </example>
+    </roleset>
+  </predicate>
+</frameset>
