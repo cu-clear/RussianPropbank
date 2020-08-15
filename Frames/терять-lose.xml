@@ -4,9 +4,6 @@
   <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="терять.01" name="lose, not have any longer in possession/sight etc.">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">теряющий</alias>
-		<alias framenet="" pos="j" verbnet="">терявший</alias>
-		<alias framenet="" pos="j" verbnet="">теряемый</alias>
 		<alias framenet="" pos="v" verbnet="">утерять</alias>
 		<alias framenet="" pos="v" verbnet="">потерять</alias>
 		<alias framenet="" pos="j" verbnet="">потерявший</alias>
@@ -37,7 +34,6 @@
 	  </roles>
       <example name="arg1" src="" type="">
         <text>вот смысл сказки , худ литературы не улавливает .. вернее теряет его через 3-4 предложения .</text>
-		<arg f="" n="0">*Trace-1*</arg>
         <rel f="">теряет</rel>
         <arg f="" n="1">его</arg>
 		<arg f="loc" n="m">через 3-4 предложения</arg>
@@ -100,8 +96,8 @@
   </predicate>
   
   <predicate lemma="теряться">
-  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="теряться.03" name="be confused, baffled, unsure">
+	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+	<roleset id="теряться.03" name="be confused, baffled, unsure">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">потеряться</alias>
 		<alias framenet="" pos="j" verbnet="">потерявшийся</alias>

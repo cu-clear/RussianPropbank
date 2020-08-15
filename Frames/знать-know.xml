@@ -7,16 +7,11 @@
         <alias framenet="" pos="v" verbnet="">знать</alias>
 		<alias framenet="" pos="j" verbnet="">знающий</alias>
 		<alias framenet="" pos="j" verbnet="">знавший</alias>
-		<alias framenet="" pos="v" verbnet="">зная</alias>
-		<alias framenet="" pos="v" verbnet="">знавши</alias>
-		<alias framenet="" pos="v" verbnet="">знав</alias>
 		<alias framenet="" pos="j" verbnet="">знаемый</alias>
 		<alias framenet="" pos="n" verbnet="">знание</alias>
 		<alias framenet="" pos="v" verbnet="">узнать</alias>
 		<alias framenet="" pos="j" verbnet="">узнающий</alias>
 		<alias framenet="" pos="j" verbnet="">узнавший</alias>
-		<alias framenet="" pos="v" verbnet="">узная</alias>
-		<alias framenet="" pos="v" verbnet="">узнавши</alias>
 		<alias framenet="" pos="j" verbnet="">узнаемый</alias>
 		<alias framenet="" pos="v" verbnet="">узнавать</alias>
 		<alias framenet="" pos="j" verbnet="">узнававший</alias>
@@ -26,11 +21,11 @@
 	  <note>Corresponds to FrameBank senses 1,4,5</note>
 	  <note>знать.01 NOTES: Based on know.01.</note>
       <roles>
-	    <role descr="knower" f="pag" n="0">
+	    <role descr="knower" f="PAG" n="0">
         </role>
-        <role descr="fact that is known" f="ppt" n="1">
+        <role descr="fact that is known" f="PPT" n="1">
         </role>
-		<role descr="entity that is known ABOUT" f="prd" n="2">
+		<role descr="entity that is known ABOUT" f="PRD" n="2">
         </role>
 	  </roles>
       <example name="all args" src="" type="">
@@ -55,20 +50,15 @@
       </example>
 	</roleset>
 
-	<roleset id="знать.02" name="kennen">
+	<roleset id="знать.02" name="kennen, recognize">
       <aliases>
         <alias framenet="" pos="v" verbnet="">знать</alias>
 		<alias framenet="" pos="j" verbnet="">знающий</alias>
 		<alias framenet="" pos="j" verbnet="">знавший</alias>
-		<alias framenet="" pos="v" verbnet="">зная</alias>
-		<alias framenet="" pos="v" verbnet="">знавши</alias>
-		<alias framenet="" pos="v" verbnet="">знав</alias>
 		<alias framenet="" pos="j" verbnet="">знаемый</alias>
 		<alias framenet="" pos="v" verbnet="">знаться</alias>
 		<alias framenet="" pos="j" verbnet="">знающийся</alias>
 		<alias framenet="" pos="j" verbnet="">знавшийся</alias>
-		<alias framenet="" pos="v" verbnet="">знаясь</alias>
-		<alias framenet="" pos="v" verbnet="">знавшись</alias>
 		<alias framenet="" pos="v" verbnet="">знавать</alias>
 		<alias framenet="" pos="j" verbnet="">знавающий</alias>
 		<alias framenet="" pos="j" verbnet="">знававший</alias>
@@ -76,8 +66,6 @@
 		<alias framenet="" pos="v" verbnet="">узнать</alias>
 		<alias framenet="" pos="j" verbnet="">узнающий</alias>
 		<alias framenet="" pos="j" verbnet="">узнавший</alias>
-		<alias framenet="" pos="v" verbnet="">узная</alias>
-		<alias framenet="" pos="v" verbnet="">узнавши</alias>
 		<alias framenet="" pos="j" verbnet="">узнаемый</alias>
 		<alias framenet="" pos="v" verbnet="">узнавать</alias>
 		<alias framenet="" pos="j" verbnet="">узнававший</alias>
@@ -87,9 +75,9 @@
 	  <note>Corresponds to FrameBank sense 3</note>
       <note>знать.02 NOTES: Based on know.02.</note>
       <roles>
-	    <role descr="knower" f="pag" n="0">
+	    <role descr="knower" f="PAG" n="0">
         </role>
-        <role descr="entity arg0 is familiar with" f="ppt" n="1">
+        <role descr="entity arg0 is familiar with" f="PPT" n="1">
         </role>
 	  </roles>
       <example name="know of" src="" type="">
@@ -125,9 +113,6 @@
         <alias framenet="" pos="v" verbnet="">знать</alias>
 		<alias framenet="" pos="j" verbnet="">знающий</alias>
 		<alias framenet="" pos="j" verbnet="">знавший</alias>
-		<alias framenet="" pos="v" verbnet="">зная</alias>
-		<alias framenet="" pos="v" verbnet="">знавши</alias>
-		<alias framenet="" pos="v" verbnet="">знав</alias>
 		<alias framenet="" pos="j" verbnet="">знаемый</alias>
 		<alias framenet="" pos="v" verbnet="">узнать</alias>
 		<alias framenet="" pos="j" verbnet="">узнавший</alias>
@@ -136,9 +121,9 @@
 	  <note>Corresponds to FrameBank sense 2</note>
       <note>знать.03 NOTES: Based on know.03.</note>
       <roles>
-	    <role descr="knower, person with an ability/skill" f="pag" n="0">
+	    <role descr="knower, person with an ability/skill" f="PAG" n="0">
         </role>
-        <role descr="ability or skill" f="ppt" n="1">
+        <role descr="ability or skill" f="PPT" n="1">
         </role>
 	  </roles>
       <example name="know how" src="" type="">
@@ -176,10 +161,10 @@
 	  </aliases>
 	  <note>знать.01 NOTES: Ожегов defn 3 https://dic.academic.ru/dic.nsf/ogegova/250150 </note>
       <roles>
-	    <role descr="inquirer" f="pag" n="0">
+	    <role descr="inquirer" f="PAG" n="0">
         </role>
-        <role descr="subject that is inquired or learned about" f="ppt" n="1"/>
-		<role descr="one being inquired of, source of knowledge" f="dir" n="2"/>
+        <role descr="subject that is inquired or learned about" f="PPT" n="1"/>
+		<role descr="one being inquired of, source of knowledge" f="DIR" n="2"/>
 	  </roles>
       <example name="inquire about" src="И. А. Гончаров, «Превратность судьбы», 1891 г. (цитата из Национального корпуса русского языка, см. Список литературы) " type="">
         <text>Между тем Двор не оставлял его без осведомлении : почти каждый день курьер приезжал узнавать о его здоровье и наказывал хозяйке , что как только он выздоровеет , то чтоб явился к генералу Дибичу .</text>

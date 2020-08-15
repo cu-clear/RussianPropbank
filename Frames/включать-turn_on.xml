@@ -1,9 +1,9 @@
-<!DOCTYPE frameset SYSTEM "frameset.dtd">
+	<!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="﻿включать">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿включать.01" name="read, interpret, understand (visually)">
- <aliases>
+    <roleset id="﻿включать.01" name="include">
+	<aliases>
 	    <alias framenet="" pos="v" verbnet="">включить</alias>
 		<alias framenet="" pos="v" verbnet="">включаться</alias>
 		<alias framenet="" pos="v" verbnet="">включиться</alias>
@@ -11,8 +11,8 @@
 	  <note>﻿включать.01 NOTES: Roleset based on English verb frame include.01 </note>
 	  <note>Corresponds to FrameBank senses </note>
       <roles>
-        <role descr="agent, entity causing some grouping " f="PAG" n="0"/>
-		<role descr="theme, thing being included in some group " f="PPT" n="1"/>
+        <role descr="agent, entity causing some inclusion" f="PAG" n="0"/>
+		<role descr="theme, thing being included" f="PPT" n="1"/>
 		<role descr="group" f="GOL" n="2"/>
       </roles>
       <example name="" src="Максим Горький, «Жизнь Клима Самгина. Часть 3», 1928 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
@@ -41,7 +41,7 @@
 	  <alias framenet="" pos="v" verbnet="">включить</alias>
       </aliases>
 	  <note>﻿включать.02 NOTES: Roleset based on English verb frame plug.04</note>
-	  	  <note>Corresponds to FrameBank senses </note>
+	  <note>Corresponds to FrameBank senses </note>
       <roles>
         <role descr="plugger" f="PAG" n="0"/>
 		<role descr="(thing with) plug " f="PPT" n="1"/>
@@ -72,4 +72,6 @@
 		<rel f="">включать</rel>
 		<arg f="" n="1">свет</arg>
 	  </example>
-	
+	</roleset>
+  </predicate>
+</frameset>

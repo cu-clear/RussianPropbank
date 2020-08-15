@@ -5,9 +5,8 @@
     <roleset id="прибыть.01" name="arrive, move, come to">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">прибывать</alias>
-	  <alias framenet="" pos="v" verbnet="">прибытие</alias>
+	  <alias framenet="" pos="n" verbnet="">прибытие</alias>
       </aliases>
-	  <note>NO PERFECTIVE<note>
 	  <note>прибыть.01 NOTES: Roleset based on English verb frame arrive.01</note>
 	  <note>Corresponds to FrameBank senses 1</note>
       <roles>
@@ -16,36 +15,36 @@
 		<role descr="start point -- also rare" f="DIR" n="3"/>
 		<role descr="end point, destination " f="LOC" n="4"/>
       </roles>
-      <example name="" src="А. Р. Беляев, «Остров погибших кораблей», 1926 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+      <example name="will land" src="А. Р. Беляев, «Остров погибших кораблей», 1926 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>В порыве великодушия и умиления собственным геройством он обещал Гатлингу перед тем, как взойти на пароход, сохранить тайну его личности и предложил бежать, как только пароход прибудет в ближайшую гавань.</text>
-		<rel f="">прибудет</rel>
-		<arg f="" n="1">пароход</arg>
-		<arg f="" n="4">в ближайшую гавань</arg>
 		<arg f="tmp" n="m">как только</arg>
+		<arg f="" n="1">пароход</arg>
+		<rel f="">прибудет</rel>
+		<arg f="" n="4">в ближайшую гавань</arg>
       </example>
-	  <example name="" src="В. В. Быков, «Болото», 2001 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+	  <example name="where to go" src="В. В. Быков, «Болото», 2001 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Огрызкову сообщили, куда они должны прибыть, но лишь в общих чертах — урочище Боговизна, где базировалось руководство партизанской зоны.</text>
-		<arg f="" n="1">они</arg>
 		<arg f="" n="4">куда</arg>
+		<arg f="" n="1">они</arg>
         <rel f="">прибыть</rel>
       </example>
-	    <example name="" src="Николай Карпов, «Крым — Галлиполи — Балканы», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+	  <example name="arrive" src="Николай Карпов, «Крым — Галлиполи — Балканы», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>18 марта 1920 г. он, как и другие видные генералы белых армий Юга России, получил телеграмму от генерала Деникина, предлагавшую им прибыть вечером 21 марта в Севастополь на заседание Военного совета для избрания преемника Главнокомандующего Вооруженными силами юга России.</text>
 		<arg f="" n="1">им</arg>
-		<arg f="" n="4">в Севастополь</arg>
+		<rel f="">прибыть</rel>
 		<arg f="tmp" n="m">вечером 21 марта</arg>
 		<arg f="prp" n="m">для избрания преемника Главнокомандующего Вооруженными силами юга России</arg>
-        <rel f="">прибыть</rel>
+		<arg f="" n="4">в Севастополь</arg>
       </example>
     </roleset>
     
-	<roleset id="﻿represent.01" name="increase">
+	<roleset id="﻿прибыть.02" name="increase">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">прибывать</alias>
-		<alias framenet="" pos="v" verbnet="">прибывание</alias>
+		<alias framenet="" pos="n" verbnet="">прибывание</alias>
       </aliases>
-	  <note>Corresponds to FrameBank sense 2</note>
 	  <note>прибыть.02 NOTES: Roleset based on English verb frame increase.01 </note>
+	  <note>Corresponds to FrameBank sense 2</note>
       <roles>
         <role descr="thing increasing" f="PPT" n="1"/>
 		<role descr="amount increased by, EXT or MNR " f="EXT" n="2"/>
@@ -53,16 +52,19 @@
 		<role descr="end point" f="GOL" n="4"/>
       </roles>
 	  <note>English Arg0-PAG has no match in Russian frame<note>
-	  <example name="" src="П. И. Мельников-Печерский, «В лесах», 1871—1874 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+	  <example name="args 1 and 4" src="П. И. Мельников-Печерский, «В лесах», 1871—1874 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Тебя не убудет, а мне радости прибудет.</text>
         <arg f="" n="4">мне</arg>
 		<arg f="" n="1">радости</arg>
 		<rel f="">прибудет</rel>
 	  </example>
-	 <example name="" src="Николай II, «Дневники 1913—1916», 1913—1916 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+	 <example name="args 1 and 2" src="Николай II, «Дневники 1913—1916», 1913—1916 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Из-за дождей вода прибыла на полтора аршина.</text>
+		<arg f="cau" n="m">Из-за дождей</arg>
 		<arg f="" n="1">вода</arg>
-		<arg f="" n="2">на полтора аршина</arg>
 		<rel f="">прибыла</rel>
+		<arg f="" n="2">на полтора аршина</arg>
 	  </example>
-	
+	</roleset>
+  </predicate>
+</frameset>

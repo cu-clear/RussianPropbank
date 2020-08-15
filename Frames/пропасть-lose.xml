@@ -63,7 +63,7 @@
 	</predicate>
 	  
   <predicate lemma="пропасть_пропадом-m">
-	 <roleset id="пропадом.03" name="be damned, may the earth swallow up">
+	 <roleset id="пропасть_пропадом.03" name="be damned, may the earth swallow up">
       <aliases>
         <alias framenet="" pos="m" verbnet="">пропасть_пропадом</alias>
 		<alias framenet="" pos="m" verbnet="">пропадать_пропадом</alias>

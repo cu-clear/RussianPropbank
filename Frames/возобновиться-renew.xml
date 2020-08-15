@@ -2,7 +2,7 @@
 <frameset>
   <predicate lemma="возобновиться">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="возобновиться.01" name="renew">
+    <roleset id="возобновиться.01" name="renew, restart">
       <aliases>
 		<alias framenet="" pos="j" verbnet="">возобновившийся</alias>
 		<alias framenet="" pos="v" verbnet="">возобновляться</alias>
@@ -51,7 +51,7 @@
     </roleset>
 	
 	<roleset id="возобновиться.02" name="repair">
-	<note>возобновиться.02 NOTES: The syntactic structure does not change from возобновиться.01 but the semantic entailments should be different.</note>
+	  <note>возобновиться.02 NOTES: The syntactic structure does not change from возобновиться.01 but the semantic entailments should be different.</note>
       <aliases>
 		<alias framenet="" pos="j" verbnet="">возобновившийся</alias>
 		<alias framenet="" pos="v" verbnet="">возобновляться</alias>

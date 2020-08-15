@@ -2,7 +2,7 @@
 <frameset>
   <predicate lemma="﻿лететь">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿лететь.01" name="to take willingly, accept, receive, ingest, listen to positively">
+    <roleset id="﻿лететь.01" name="fly, travel via air in (one-way) directed motion, move or change very quickly">
       <aliases>
 		<alias framenet="" pos="n" verbnet="">летание</alias>
 		<alias framenet="" pos="n" verbnet="">лёт</alias>
@@ -18,53 +18,54 @@
 		  <role descr="start point, originating location" f="DIR" n="5"/>
       </roles>
 	   <note>Russian Arg5-DIR has no match in English frame</note>
-      <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=лететь&cxid=4494" type="">
+      <example name="arg 0" src="http://marker.framebank.ru/verbs_ex.php?lex=лететь&cxid=4494" type="">
         <text>Птица летела с головокружительной быстротою , поднимаясь всё выше и выше . </text>
         <arg f="" n="0">Птица</arg>
 		<rel f="">летела</rel>
 		<arg f="mnr" n="m">с головокружительной быстротою </arg>
       </example>
-	  <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=лететь">
+	  <example name="arg 1 and " src="http://marker.framebank.ru/verbs_ex.php?lex=лететь" type="">
         <text>Самолет летит с востока. </text>
 		<arg f="" n="1">Самолет</arg>
 		<arg f="" n="5">с востока </arg>
         <rel f="">летит</rel>
       </example>
-	   </example>
-	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=лететь" type="">
+	  <example name="arg 0 and 2" src="http://marker.framebank.ru/verbs_ex.php?lex=лететь" type="">
         <text>Я готов лететь хоть грузовым самолетом.</text>
 		<arg f="" n="0">Я</arg>
 		<arg f="" n="2">хоть грузовым самолетом </arg>
         <rel f="">лететь</rel>
       </example>
-	   </example>
-	  <example name="" src="" type="">
+	  <example name="adjectival participle" src="" type="">
         <text>быстро летевшие облака.</text>
 		<arg f="" n="0">облака</arg>
-		<arg f="mnr" n="m">быстро</arg>
+		<arg f="adv" n="m">быстро</arg>
         <rel f="">летевшие</rel>
       </example>
-	   </example>
-	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=лететь" type="">
+	  <example name="arg 0 and 3" src="http://marker.framebank.ru/verbs_ex.php?lex=лететь" type="">
         <text>А далее , перебравшись через ерик , Яков словно на крыльях летел.</text>
+		<arg f="adv" n="m">А далее , перебравшись через ерик</arg>
 		<arg f="" n="0">Яков</arg>
-		<arg f="" n="3">словно на крыльях </arg>
+		<arg f="adv" n="m">словно на крыльях</arg>
         <rel f="">летел</rel>
       </example>
-	   </example>
-	  <example name="" src="" type="">
+	  <example name="figurative" src="" type="">
         <text>Время летит. </text>
 		<arg f="" n="0">Время</arg>
         <rel f="">летит</rel>
       </example>
-	   </example>
-	  <example name="" src="" type="">
+	  <example name="figurative, arg1 and arg4" src="" type="">
         <text>Доллар летит вниз.</text>
 		<arg f="" n="1">Доллар</arg>
 		<arg f="" n="4">вниз</arg>
         <rel f="">лететь</rel>
       </example>
+	</roleset>
+	
 	<roleset id="﻿лететь.02" name="fall, fly off">
+	  <aliases>
+		<alias framenet="" pos="v" verbnet="">полететь</alias>
+      </aliases>
 	  <note>﻿лететь.02 NOTES: Roleset based on English verb frame fall.01</note>
 	  <note>Corresponds to FrameBank senses 4</note>
       <roles>
@@ -75,61 +76,47 @@
       </roles>
 	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=лететь&cxid=4517" type="">
         <text>У меня, как я ни старался, он подскакивал раз пять или шесть, а« дядя Володя» пошепчет над ним какое-то волшебное слово, разбежится и так зашвырнёт его в воду своей сильной, короткой рукой, что тот , словно и впрямь заколдованный, летит рикошетом и ни за что не хочет погружаться на дно.</text>
-        <arg f="mnr" n="m">рикошетом </arg>
-		<arg f="" v="1">наблюдая</arg>
+		<arg f="" n="1">тот , словно и впрямь заколдованный</arg>
 		<rel f="">летит</rel>
+		<arg f="mnr" n="m">рикошетом </arg>
 	  </example>
+	</roleset>
 		
 	<roleset id="﻿лететь.03" name="be ruined or upset">
-	 <note>﻿лететь.03 NOTES: Roleset based on English verb frame ruin.01 </note>
-	      <aliases>
+	  <aliases>
 		<alias framenet="" pos="n" verbnet="">полететь</alias>
       </aliases>
+	  <note>﻿лететь.03 NOTES: Roleset based on English verb frame ruin.01 </note>
 	  <note>Corresponds to FrameBank sense 9</note>
 	  <roles>
-		<role descr="ruiner " f="PAG" n="0"/>
-		<role descr="ruined thing " f="PPT" n="1"/>
+		<role descr="ruiner" f="PAG" n="0"/>
+		<role descr="ruined thing" f="PPT" n="1"/>
 		<role descr="attribute of arg1 that is being ruined (if in addition to arg1)" f="VSP" n="2"/>
       </roles>
 	  <note>English Arg0-PAG has no match in Russian frame </note>
 	  <example name="example" src="Russian National Corpus[Светлана Бабаева, Екатерина Григорьева. Слоеный пирог. Владимир Путин начал раздачу власти (2003) // «Известия», 2003.02.18]" type="">
         <text>Новоиспечённым родителям часто кажется , что всё вокруг рушится , летит в тартарары .<text>
 		<rel f="">летит</rel>
-		<arg f="" n=""></arg>
-	  </example
+		<arg f="" n="2">в тартарары</arg>
+	  </example>
 	</roleset>
   
-	<roleset id="﻿лететь" name="read, catch, receive (a signal)">
-	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿лететь.04 NOTES: No Frame match in English </note>
-      <roles>
-		<role descr="entity receiving signal " f="PAG" n="0"/>
-		<role descr="signal" f="PPT" n="1"/>
+	<roleset id="﻿лететь.04" name="read, catch, receive (a signal)">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">пролeтеть</alias>
+      </aliases>
+	  <note>﻿лететь.04 NOTES: Based on English PB frame fall.05</note>
+	  <note>Corresponds to FrameBank sense 9</note>
+	  <roles>
+		<role descr="loser" f="PPT" n="1"/>
+		<role descr="winner or instrument of destruction" f="GOL" n="1"/>
       </roles>
-	  <example name= src="Russian National Corpus[Борис Дубинин. В том далеком сорок четвертом (2004) // «Наш современник», 2004.06.15]" type="">
-        <text>"Корабельные радисты приняли сигнал, доложили вахтенному офицеру, командиру линкора ― он приказал сыграть «подъем», радостную весть объявили всему экипажу.".<text>
-		<rel f="">приняли</rel>
-		<arg f="" n="0">Корабельные радисты </arg>
-		<arg f="" n="1">сигнал</arg>
-	  </example>
-	  	<example name= src="Russian National Corpus[Владимир Дудинцев. Не хлебом единым (1956)]" type="">
-        <text>"Для начала я вручу вам три книжечки страниц по триста, заставлю вас их подзубрить и приму экзамен.".<text>
-		<rel f="">приму</rel>
-		<arg f="" n="0"> </arg>
-		<arg f="" n="1"></arg>
-	  </example>
-	  <roleset id="﻿лететь" name="lose badly in some undertaking">
-	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿лететь.04 NOTES: Roleset based on English verb frame fall.05</note>
-	<aliases>
-      </aliases> 
-	<roles>
-		<role descr="loser " f="PPT" n="1"/>
-		<role descr="winner or instrument of destruction" f="PPT" n="2"/>
-      </roles>
-	  <example name= src="Russian National Corpus[Александр Рыклин. Спор правительствующих субъектов (2003) // «Еженедельный журнал», 2003.03.24]" type="">
-        <text>"Мы пролeтели в этом деле.<text>
+	  <example name="perfective" src="" type="">
+        <text>Мы пролeтели в этом деле.<text>
+		<arg f="" n="0">Мы</arg>
 		<rel f="">пролeтели</rel>
-		<arg f="" n="1">Мы</arg>
+		<arg f="" n="1">в этом деле</arg>
 	  </example>
-	
+	</roleset>
+ </predicate>
+</frameset>

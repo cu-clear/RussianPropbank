@@ -5,23 +5,27 @@
     <roleset id="мочь.01" name="able">
       <aliases>
         <alias framenet="" pos="j" verbnet="">смогший</alias>
-        <alias framenet="" pos="v" verbnet="">смогши</alias>
-		<alias framenet="" pos="v" verbnet="">мочь</alias>
+		<alias framenet="" pos="v" verbnet="">смочь</alias>
 		<alias framenet="" pos="j" verbnet="">могущий</alias>
         <alias framenet="" pos="j" verbnet="">могший</alias>
-		<alias framenet="" pos="v" verbnet="">могши</alias>
 	  </aliases>
 	  <note>мочь.01 NOTES: Based on able.01.</note>
 	  <note>Corresponds to FrameBank senses 1,2,3</note>
       <roles>
-        <role descr="entity with ability " f="ppt" n="1"/>
-        <role descr="ability itself, what is arg1 able to do?" f="prd" n="2"/>
+        <role descr="entity with ability " f="PPT" n="1"/>
+        <role descr="ability itself, what is arg1 able to do?" f="PRD" n="2"/>
 	  </roles>
       <example name="all args" src="" type="">
         <text>Я уверен , мы сможем что-нибудь придумать .</text>
         <arg f="" n="1">мы</arg>
 		<rel f="">сможем</rel>
 		<arg f="" n="2">что-нибудь придумать</arg>
+      </example>
+	  <example name="can hear" src="" type="">
+        <text>Я могу слышать тебя дальше по коридору .</text>
+        <arg f="" n="0">Я</arg>
+		<rel f="">могу</rel>
+        <arg f="" n="1">слышать тебя дальше по коридору</arg>
       </example>
 	</roleset>
   
@@ -30,8 +34,8 @@
 	  </aliases>
 	  <note>мочь.02 NOTES: Based on live.01.</note>
       <roles>
-        <role descr="alive entity" f="ppt" n="1"/>
-        <role descr="health or life" f="prd" n="2"/>
+        <role descr="alive entity" f="PPT" n="1"/>
+        <role descr="health or life" f="PRD" n="2"/>
 	  </roles>
       <example name="greeting" src="" type="">
         <text>Он вгляделся в их лица, успокоенно улыбнулся, в знак доверия перекинул автомат на спину, и сказал: ― Здорово, мужики! Как живете-можете? Это вы на Рижскую? [Дмитрий Глуховский. Метро 2033 (2005)]</text>
@@ -40,7 +44,7 @@
       </example>
 	</roleset>
 	
-	<roleset id="мочь.03" name="MODAL">
+	<roleset id="мочь.03" name="MODAL: may, is possible, might, можно">
       <aliases>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses 4,5,6</note>

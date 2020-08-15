@@ -52,6 +52,8 @@
 		<arg f="" n="1">подаст ли кто-нибудь сразу обоим музыкантам на променаде, и одновременно прислушивалась к звонкому голоску рыжей девочки</arg>
         <rel f="">понаблюдать</rel>
       </example>
+	</roleset>
+	
 	<roleset id="﻿наблюдать.02" name="observe, keep, regard a law or rule (archaic)">
 	  <note>﻿наблюдать.02 NOTES: Roleset based on English verb frame obey.01</note>
 	  <note>Corresponds to FrameBank senses </note>
@@ -65,3 +67,6 @@
 		<arg f="" v="1">строгий этикет</arg>
 		<rel f="">наблюдая</rel>
 	  </example>
+	</roleset>
+   </predicate>
+<frameset>

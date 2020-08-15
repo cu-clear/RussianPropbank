@@ -12,17 +12,18 @@
         <role descr="focus" f="PPT" n="1"/>
 		<role descr="ground" f="PRD" n="2"/>
       </roles>
-      <example name="" src="Russian National Corpus[коллективный. Форум: Мужчина в школе (Взгляд на Мужчину в школе снаружи и изнутри) (2011)] " type="">
+      <example name="without reflexive pronoun" src="Russian National Corpus[коллективный. Форум: Мужчина в школе (Взгляд на Мужчину в школе снаружи и изнутри) (2011)] " type="">
         <text>Высшую нравственную ценность представляет именно отличие каждого человека от других людей (мужчин, женщин) и их отличие от меня.</text>
-		<rel f="">представляет</rel>
-		<arg f="" n="1">отличие</arg>
 		<arg f="" n="2">Высшую нравственную ценность</arg>
+		<rel f="">представляет</rel>
+		<arg f="" n="1">именно отличие каждого человека от других людей (мужчин, женщин) и их отличие от меня</arg>
       </example>
-	  <example name="" src="Russian National Corpus[И. А. Барков. Автоматический синтез структурного описания конструкции // «Информационные технологии», 2004]" type="">
+	  <example name="with reflexive pronoun" src="Russian National Corpus[И. А. Барков. Автоматический синтез структурного описания конструкции // «Информационные технологии», 2004]" type="">
         <text>Описание свойств класса изделий представляет собой систему конструкторских понятий.</text>
 		<arg f="" n="1">Описание свойств класса изделий</arg>
+		<rel f="">представляет</rel>
+		<arg f="prd" n="m">собой</arg>
 		<arg f="" n="2">систему конструкторских понятий</arg>
-        <rel f="">представляет</rel>
       </example>
     </roleset>
     
@@ -30,8 +31,8 @@
       <aliases>
 		<alias framenet="" pos="v" verbnet="">представить</alias>
       </aliases>
-	  <note>Corresponds to FrameBank sense 7</note>
 	  <note>﻿представлять.02 NOTES: Roleset based on English verb frame represent.01 </note>
+	  <note>Corresponds to FrameBank sense 7</note>
       <roles>
         <role descr="entity standing in for another entity" f="PAG" n="0"/>
 		<role descr="entity stood in for" f="PPT" n="1"/>
@@ -39,10 +40,9 @@
       </roles>
 	  <example name="" src="Russian National Corpus[Александр Гамаюн. Северокавказский приговор (2003) // «Завтра», 2003.08.06]" type="">
         <text>В мирном Кремле готовятся к выборам, считают голоса на референдуме, предлагают Кадырову представлять страну в международных гуманитарных организациях.</text>
-        <arg f="" n="0">Кадырову</arg>
+        <rel f="">представлять</rel>
 		<arg f="" n="1">страну</arg>
 		<arg f="" n="2">в международных гуманитарных организациях</arg>
-		<rel f="">представлять</rel>
 	  </example>
 	</roleset>
 	
@@ -52,199 +52,192 @@
 	  <alias framenet="" pos="v" verbnet="">представиться</alias>
 	  <alias framenet="" pos="v" verbnet="">представляться</alias>
       </aliases>
-	   <note>Corresponds to FrameBank sense 4, 9; -ся 5</note>
 	  <note>﻿представлять.03 NOTES: Roleset based on English verb frame depict.01</note>
+	  <note>Corresponds to FrameBank sense 4,9; -ся 5</note>
 	  <roles>
 		<role descr="agent, depictor" f="PAG" n="0"/>
 		<role descr="thing described" f="PPT" n="1"/>
 		<role descr="attribute" f="PRD" n="2"/>
       </roles>
-	  <example name="" src="Татьяна Алеева, 1990 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+	  <example name="with modal, try to seem" src="Татьяна Алеева, 1990 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Плохой человек никогда не сможет до конца представиться добрым.<text>
-		<rel f="">представиться</rel>
-		<arg f="" n="0">Плохой человек</arg>
-		<arg f="" adj="2">добрым</arg>
-		<arg f="tmp" n="m">никогда</arg>
+		<arg f="" n="1">Плохой человек</arg>
 		<arg f="ext" n="m">до конца</arg>
+		<rel f="">представиться</rel>
+		<arg f="" n="2">добрым</arg>
 	  </example>
-	    <example name="" src="Russian National Corpus[коллективный. Форум: 17 мгновений весны (2005-2010)]" type="">
+	  <example name="paint" src="Russian National Corpus[коллективный. Форум: 17 мгновений весны (2005-2010)]" type="">
         <text>Но старание создателей картины показать или представить тот период, реальную ситуацию, дух войны и подобные переживания, нельзя не отметить, нельзя сказать, что это у них не получилось.<text>
-		<rel f="">представить</rel>
-		<arg f="" n="1">тот период</arg>
 		<arg f="" n="0">создателей картины</arg>
+		<rel f="">представить</rel>
+		<arg f="" n="1">тот период, реальную ситуацию, дух войны и подобные переживания</arg>
 	  </example>
-	    </example>
-	    <example name="" src="Russian National Corpus [Мария Кувшинова. Алексей Мурадов и Сельма Хайек встретятся на «Сандэнсе» (2003) // «Известия», 2003.01.16]" type="">
-        <text>Другой актёр, Мэтт Диллон, также представит свой полнометражный режиссёрский дебют ― триллер "Город призраков", в котором сыграли Жерар Депардье, Джеймс Каан и Наташа МакЭллон.<text>
-		<rel f="">представит</rel>
-		<arg f="" n="0">Мэтт Диллон</arg>
-		<arg f="" n="1">свой полнометражный режиссёрский дебют</arg>
+	  <example name="reflexive" src="Russian National Corpus [Наталья Дубова. Вокруг ITSM // «Computerworld», 2004]" type="">
+        <text>Но, с другой стороны, интеграторы знают ограничения этих продуктов и потому при реализации ITSM имеют возможность избежать таких ситуаций, когда процесс управления спроектирован, а автоматизировать его в полной мере не представляется возможным. <text>
+		<arg f="" v="1">автоматизировать его в полной мере</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">представляется</rel>
+		<arg f="" v="2">возможным</arg>
 	  </example>
 	</roleset>
   
 	<roleset id="﻿представлять.04" name="present, hand, turn in, offer, give, cause">
 		<aliases>
-	  <alias framenet="" pos="v" verbnet="">представить</alias>
-	   <alias framenet="" pos="v" verbnet="">представиться</alias>
+		<alias framenet="" pos="v" verbnet="">представить</alias>
+		<alias framenet="" pos="v" verbnet="">представиться</alias>
 	    <alias framenet="" pos="v" verbnet="">представляться</alias>
       </aliases>
-    
-	  <note>Corresponds to FrameBank sense 1, 2; -ся 2</note>
 	  <note>﻿представлять.04 NOTES:Roleset based on English verb frame present.01</note>
+	  <note>Corresponds to FrameBank sense 1, 2; -ся 2</note>
       <roles>
 		<role descr="giver" f="PAG" n="0"/>
 		<role descr="thing given" f="PPT" n="1"/>
 		<role descr="given to" f="GOL" n="2"/>
 		<role descr="secondary attribute of thing given" f="PRD" n="3"/>
       </roles>
-	  <example name="" src="" type="Russian National Corpus[коллективный. Форум: Поход в цирк (2010)]">
-        <text>На днях я в компании друзей отправился в цирк!<text>
-		<rel f="">отправился</rel>
-		<arg f="" n="o">я</arg>
-		<arg f="" n="2">в цирк</arg>
-		<arg f="mnr" n="m">в компании друзей </arg>
 	  </example>
-	    <example name="" src="" type="Russian National Corpus[Договор об открытии банковского счёта (2003)]">
+	  <example name="make a debut" src="Russian National Corpus [Мария Кувшинова. Алексей Мурадов и Сельма Хайек встретятся на «Сандэнсе» (2003) // «Известия», 2003.01.16]" type="">
+        <text>Другой актёр, Мэтт Диллон, также представит свой полнометражный режиссёрский дебют ― триллер "Город призраков", в котором сыграли Жерар Депардье, Джеймс Каан и Наташа МакЭллон.<text>
+		<arg f="" n="0">Другой актёр, Мэтт Диллон</arg>
+		<arg f="adv" n="m">также</arg>
+		<rel f="">представит</rel>
+		<arg f="" n="1">свой полнометражный режиссёрский дебют ― триллер "Город призраков", в котором сыграли Жерар Депардье, Джеймс Каан и Наташа МакЭллон</arg>
+	  </example>
+	  <example name="present document" src="" type="Russian National Corpus[Договор об открытии банковского счёта (2003)]">
         <text>Выписки из Счёта считаются подтверждёнными, если Клиент не представит свои письменные замечания в течение 10 (десяти) календарных дней с даты получения выписки в Банке;<text>
-		<rel f="">не представит</rel>
-		<arg f="" n="o">Клиент</arg>
-		<arg f="loc" n="m">в Банке</arg>
+		<arg f="" n="0">Клиент</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">представит</rel>
 		<arg f="" n="1">свои письменные замечания</arg>
 		<arg f="tmp" n="m">в течение 10 (десяти) календарных дней с даты получения выписки</arg>
+		<arg f="loc" n="m">в Банке</arg>
 	  </example>
-    <example name="" src="" type="И. К. Архипова, «Музыка жизни», 1996 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+	  <example name="reflexive as passive" src="" type="И. К. Архипова, «Музыка жизни», 1996 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Теперь ему представился случай, который был как нельзя кстати, — он работал над книгой "Песня, опера, певцы Италии".<text>
+		<arg f="dis" n="m">Теперь</arg>
+		<arg f="" n="2">ему</arg>
 		<rel f="">представился</rel>
 		<arg f="" n="1">случай</arg>
-		<arg f="" n="2">ему</arg>
-		<arg f="tmp" n="m">Теперь</arg>
 	  </example>
-	  <example name="" src="" type="Russian National Corpus[Интеграция. Часть вторая // «Computerworld», 2004]">
+	  <example name="announce product" src="" type="Russian National Corpus[Интеграция. Часть вторая // «Computerworld», 2004]">
         <text>Одновременно и независимо от этого BEA представила свой продукт WebLogic Server Process Edition, новую версию сервера приложений, в которой должны объединиться возможности разработки приложений и управления бизнес-процессами (business process management, BPM) при построении программных решений, основанных на идеях SOA.<text>
-		<rel f="">представила</rel>
+		<arg f="tmp" n="m">Одновременно</arg>
+		<arg f="adv" n="m">независимо от этого</arg>
 		<arg f="" n="0">BEA</arg>
-		<arg f="" n="1">свой продукт WebLogic Server Process Edition</arg>
-		<arg f="mnr" n="m">Одновременно и независимо от этого</arg>
+		<rel f="">представила</rel>
+		<arg f="" n="1">свой продукт WebLogic Server Process Edition, новую версию сервера приложений, в которой должны объединиться возможности разработки приложений и управления бизнес-процессами (business process management, BPM) при построении программных решений, основанных на идеях SOA.</arg>
 	  </example>
-	  <example name="" src="Russian National Corpus [Наталья Дубова. Вокруг ITSM // «Computerworld», 2004]" type="">
-        <text>Но, с другой стороны, интеграторы знают ограничения этих продуктов и потому при реализации ITSM имеют возможность избежать таких ситуаций, когда процесс управления спроектирован, а автоматизировать его в полной мере не представляется возможным. <text>
-		<rel f="">представить</rel>
-		<arg f="" v="1">автоматизировать</arg>
-		<arg f="" n="2">его</arg>
-		<arg f="ext" n="m">полной мере</arg>
-	  </example>
-	  <example name="" src="" type="[Народный костюм: архаика или современность? // «Народное творчество», 2004]">
+	  <example name="give" src="" type="Russian National Corpus [Народный костюм: архаика или современность? // «Народное творчество», 2004]">
         <text>Как будто у нас больше некому представить честь России…<text>
+		<arg f="adv" n="m">Как будто</arg>
+		<arg f="" n="0">у нас</arg>
+		<arg f="" n="2">больше некому</arg>
 		<rel f="">представить</rel>
-		<arg f="" n="0">больше некому</arg>
 		<arg f="" n="1">честь России</arg>
-		<arg f="" n=""></arg>
 	  </example>
-	  <example name="" src="" type="">
+	  <example name="offer proof" src="Russian National Corpus [Б. Г. Бажанов. Воспоминания бывшего секретаря Сталина (1980)]" type="">
         <text> Они, к сожалению, не могут еще представить никаких доказательств и основываются больше на своем чекистском чутье и опыте, но считают, что их обязанность ― довести их убеждение до сведения ЦК. Письмо подписал Ягода. Сталин протянул мне письмо и сказал: «Прочтите». [Б. Г. Бажанов. Воспоминания бывшего секретаря Сталина (1980)] <text>
 		<rel f="">представить</rel>
-		<arg f="" n="0">Они</arg>
 		<arg f="" n="1">никаких доказательств</arg>
 	  </example>
-	  <roleset id="﻿представлять.05" name="introduce, present">
-		<aliases>
-	  <alias framenet="" pos="v" verbnet="">представить</alias>
-	   <alias framenet="" pos="v" verbnet="">представиться</alias>
+	  <example name="present information" src="" type="Russian National Corpus [Алексей Макаркин. НДПР уходит в подполье // «ПОЛИТКОМ. РУ», 2003.05.26]">
+		<text>Представители НДПР должны были представить в Минюст информацию о регистрации 45 региональных отделений партии, однако к назначенному сроку документы не поступили ― всего, по данным Минюста, зарегистрированы 40 филиалов.<text>
+		<arg f="" n="0">Представители НДПР</arg>
+		<rel f="">представить</rel>
+		<arg f="loc" n="m">в Минюст</arg>
+		<arg f="" n="1">информацию о регистрации 45 региональных отделений партии</arg>
+	  </example>
+	</roleset>
+	
+	<roleset id="﻿представлять.05" name="introduce">
+	  <aliases>
+		<alias framenet="" pos="v" verbnet="">представить</alias>
+		<alias framenet="" pos="v" verbnet="">представиться</alias>
 	    <alias framenet="" pos="v" verbnet="">представляться</alias>
 		<alias framenet="" pos="n" verbnet="">представление</alias>
-      </aliases>
-    
+	  </aliases>
 	  <note>Corresponds to FrameBank sense 3,8; -ся 1</note>
 	  <note>﻿представлять.05 NOTES:Roleset based on English verb frame introduce.01</note>
       <roles>
-		<role descr="entity making introduction " f="PAG" n="0"/>
+		<role descr="entity making introduction" f="PAG" n="0"/>
 		<role descr="entity being introduced" f="PPT" n="1"/>
 		<role descr="entity being introduced TO" f="GOL" n="2"/>
-		<role descr="introduced as *Russian Arg3-PRD " f="PRD" n="3"/>
+		<role descr="introduced as" f="PRD" n="3"/>
       </roles>
-	  <example name="" src="" type="А. Г. Волос, 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Она позвонила вечером, представилась и сообщила, что обратиться ко мне ей посоветовали Кондрашовы.<text>
-		<rel f="">представилась</rel>
-	  </example>
-	    <example name="" src="" type="Russian National Corpus[Р. М. Зотов. Два брата, или Москва в 1812 году. Часть II (1850)]">
-        <text>Государыня позволила ему представить меня во время большого вечернего собрания. Нет! Я не в силах рассказать!<text>
+	  <note>Russian Arg3-PRD has no match in English frame</note>
+	  <example name="introduce someone else" src="" type="Russian National Corpus [Р. М. Зотов. Два брата, или Москва в 1812 году. Часть II (1850)]">
+		<text>Государыня позволила ему представить меня во время большого вечернего собрания.<text>
+		<arg f="" n="0">ему</arg>
 		<rel f="">представить</rel>
-		<arg f="" n="o">Государыня</arg>
-		<arg f="" n="2">ему</arg>
 		<arg f="" n="1">меня</arg>
 		<arg f="tmp" n="m">во время большого вечернего собрания</arg>
 	  </example>
-    <example name="" src="" type="Russian National Corpus[Алексей Макаркин. НДПР уходит в подполье // «ПОЛИТКОМ. РУ», 2003.05.26]">
-        <text>Представители НДПР должны были представить в Минюст информацию о регистрации 45 региональных отделений партии, однако к назначенному сроку документы не поступили ― всего, по данным Минюста, зарегистрированы 40 филиалов.<text>
+	  <example name="introduce to something" src="" type="Russian National Corpus: К. Чуковский. Литература и школа // Собр. соч. [Л. К. Чуковская. Памяти детства: Мой отец – Корней Чуковский (1971)">
+        <text>Вообще, если составители программы нарочно стремились представить ребятам художественную нашу словесность в самом невкусном, неудобоваримом и непривлекательном виде, они достигли своей цели блистательно»<text>
 		<rel f="">представить</rel>
-		<arg f="" n="0">Представители НДПР</arg>
-		<arg f="" n="1">информацию о регистрации 45 региональных отделений партии</arg>
-		<arg f="" n="2">в Минюст</arg>
-	  </example>
-	  <example name="" src="" type="К. Чуковский. Литература и школа // Собр. соч. [Л. К. Чуковская. Памяти детства: Мой отец – Корней Чуковский (1971)">
-        <text>Вообще, если составители программы нарочно стремились представить ребятам художественную нашу словесность в самом невкусном, неудобоваримом и непривлекательном виде, они достигли своей цели блистательно» *<text>
-		<rel f="">представить</rel>
-		<arg f="" n="0">составители программы</arg>
-		<arg f="" n="1">художественную нашу словесность</arg>
 		<arg f="" n="2">ребятам</arg>
-		<arg f="mnr" n="m">нарочно</arg>
-		<arg f="mnr" n="m">в самом невкусном, неудобоваримом и непривлекательном виде</arg>
+		<arg f="" n="1">художественную нашу словесность</arg>
+		<arg f="" n="3">в самом невкусном, неудобоваримом и непривлекательном виде</arg>
 	  </example>
-	   <roleset id="﻿представлять.06" name="imagine, picture">
-		<aliases>
-	  <alias framenet="" pos="v" verbnet="">представить</alias>
-	   <alias framenet="" pos="v" verbnet="">представиться</alias>
-	    <alias framenet="" pos="v" verbnet="">представляться</alias>
+	</roleset>
+	
+	<roleset id="﻿представлять.06" name="imagine, picture">
+	  <aliases>
+		<alias framenet="" pos="v" verbnet="">представить</alias>
+		<alias framenet="" pos="v" verbnet="">представиться</alias>
+		<alias framenet="" pos="v" verbnet="">представляться</alias>
       </aliases>
-    
+	  <note>﻿﻿представлять.06 NOTES:Roleset based on English verb frame picture.01</note>
 	  <note>Corresponds to FrameBank sense 5; -ся 3</note>
-	  <note>﻿ NOTES:Roleset based on English verb frame introduce.01</note>
       <roles>
 		<role descr="displayer, agent" f="PAG" n="0"/>
 		<role descr="thing pictured" f="PPT" n="1"/>
 		<role descr="imaginer (reflexive)" f="GOL" n="2"/>
-		<note>Russian Arg2-GOL has no match in English frame <note>
       </roles>
-	  <example name="" src="" type="Russian National Corpus[коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)] .">
+	  <note>Russian Arg2-GOL has no match in English frame</note>
+	  <example name="with reflexive pronoun" src="" type="Russian National Corpus[коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)] .">
         <text>Да, есть объявления со строками «о предоставлении жилья», но, по-моему, это все-таки не везде, а самое главное ― я не представляю себе это «жилье».<text>
-		<rel f="">не представляю</rel>
 		<arg f="" n="0">я</arg>
-		<arg f="" n="1">это «жилье»</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">представляю</rel>
 		<arg f="" n="2">себе</arg>
+		<arg f="" n="1">это «жилье»</arg>
 	  </example>
-	    <example name="" src="" type="В. С. Гроссман, «Жизнь и судьба», 1960 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+	  <example name="reflexive" src="" type="В. С. Гроссман, «Жизнь и судьба», 1960 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>После этого раз или два на короткий миг ему представились эти глаза и откинутая, словно у матёрчатой куклы, голова девочки.<text>
-		<rel f="">представились</rel>
-		<arg f="" n="1">эти глаза</arg>
-		<arg f="" n="2">ему</arg>
+		<arg f="tmp" n="m">После этого</arg>
+		<arg f="tmp" n="m">раз или два</arg>
 		<arg f="tmp" n="m">на короткий миг</arg>
+		<arg f="" n="2">ему</arg>
+		<rel f="">представились</rel>
+		<arg f="" n="1">эти глаза и откинутая, словно у матёрчатой куклы, голова девочки</arg>
 	  </example>
-    <example name="" src="" type="Russian National Corpus[коллективный. Форум: рецензии на фильм «Службный роман» (2006-2010)]">
+	  <example name="clausal complement" src="" type="Russian National Corpus[коллективный. Форум: рецензии на фильм «Службный роман» (2006-2010)]">
         <text>Страшно представить, что же они покажут своим детям в качестве примера кинематографического шедевра… Лично я обязательно покажу своему ребенку этот фильм, равно как и «Иван Васильевич меняет профессию», «Кавказскую пленницу», «Джентльменов удачи» и много-много других советских комедий, поскольку та мера добра, искренности и красоты присуща им и только им.<text>
+		<arg f="adv" n="m">Страшно</arg>
 		<rel f="">представить</rel>
 		<arg f="" n="1">что же они покажут своим детям в качестве примера кинематографического шедевра</arg>
 	  </example>
-	   <roleset id="﻿представлять.07" name="pretend to be, present self as, appear to be">
-		<aliases>
-	   <alias framenet="" pos="v" verbnet="">представиться</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank sense -ся 4</note>
-	  <note>﻿NOTES:Roleset based on English verb frame pretend.01</note>
-      <roles>
+	</roleset>
+  </predicate>
+	
+  <predicate>
+	<roleset id="﻿представляться.07" name="pretend to be, present self as, appear to be">
+	  <aliases>
+		<alias framenet="" pos="v" verbnet="">представиться</alias>
+	  </aliases>
+	  <note>﻿представляться.07 NOTES:Roleset based on English verb frame pretend.01</note>
+      <note>Corresponds to FrameBank sense -ся 4</note>
+	  <roles>
 		<role descr="pretender" f="PAG" n="0"/>
-		<role descr="premise" f="PRF" n="1"/>
-		<role descr="imaginer (reflexive)" f="GOL" n="2"/>
-		<note>Russian ARG1-PRD = English Arg1-PPT<note>
+		<role descr="premise" f="PRD" n="1"/>
       </roles>
-	  <example name="" src="" type="Russian National Corpus[А. П. Гайдар. Судьба барабанщика (1938)]">
+	  <note>Russian ARG1-PRD == English Arg1-PPT<note>
+	  <example name="malingering" src="" type="Russian National Corpus[А. П. Гайдар. Судьба барабанщика (1938)]">
         <text>Конечно, если только человек этот не такой тип, как злобный Яков, вся жизнь которого, вероятно, только в том и заключается, чтобы охать, ахать, представляться больным и тянуть у доверчивых пассажиров их вещи.<text>
 		<rel f="">представляться</rel>
 		<arg f="" n="1">больным</arg>
 	  </example>
-	    <example name="" src="" type="">
-        <text>Он так и не понял, почему детектив представился его клиентом.<text>
-		<rel f="">представился</rel>
-		<arg f="" n="0">детектив</arg>
-		<arg f="" n="1">его клиентом</arg>
-	  </example>
-   
+	</roleset>
+  </predicate>
+</frameset>

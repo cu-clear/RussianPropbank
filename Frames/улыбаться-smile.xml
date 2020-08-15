@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="уметь">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="уметь.01" name="know how">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">суметь </alias>
+      </aliases>
+	  <note>уметь.01 NOTES: Roleset based on English verb frame know.03</note>
+	  <note>Corresponds to FrameBank senses 1</note>
+      <roles>
+        <role descr="knower, person with an ability/skill" f="PAG" n="0"/>
+        <role descr="ability or skill" f="PPT" n="1"/>
+      </roles>
+	  <note></note>
+      <example name="smile" src="Oksana Melnyk" type="">
+        <text>Большинство коллег умели хорошо одеваться.</text>
+		<arg f="" n="0">Большинство коллег</arg>
+		<rel f="">умели</rel>
+		<arg f="" n="1">хорошо одеваться</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>
+  

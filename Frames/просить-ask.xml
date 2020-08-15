@@ -1,0 +1,173 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="﻿просить">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="﻿просить.01" name="request, ask a favor, petition, ask for, beg, ask permission for inclusion or to be excused from, ask for it, invite">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">попросить</alias>
+		<alias framenet="" pos="v" verbnet="">попроситься</alias>
+      </aliases>
+	  <note>﻿просить.01 NOTES: Roleset based on English verb frame request.01</note>
+	  <note>Corresponds to FrameBank senses 1,2,3</note>
+      <roles>
+        <role descr="asker" f="PAG" n="0"/>
+		<role descr="favor" f="PPT" n="1"/>
+		<role descr="hearer" f="GOL" n="2"/>
+      </roles>
+	   <example name="request" src="" type="Russian National Corpus [Алексей Варламов. Купавна // «Новый Мир», 2000]">
+        <text>Соседка просила бабушку, чтобы она повлияла на Колюню и он заступился за бедного мальчугана, который от отчаяния не хотел жить на даче и просился домой, но у Гоши был слишком противный характер, и все уставали от его нытья.</text>
+		<arg f="" n="0">Соседка</arg>
+		<rel f="">просила</rel>
+		<arg f="" n="2">бабушку</arg>
+		<arg f="" v="1">чтобы она повлияла на Колюню</arg>
+      </example>
+      <example name="reflexive" src="Russian National Corpus [Илья Петрусенко. Я вдыхаю ветер воли… // «Народное творчество», 2003]" type="">
+        <text>Наверное, потому, что Борис Федирко с самого рождения наделён большой песенной душой, многие его стихи "просятся" на музыку.</text>
+		<arg f="" v="0">многие его стихи</arg>
+		<rel f="">просятся</rel>
+		<arg f="" n="1">на музыку</arg>
+      </example>
+	  <example name="borrow" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8060">
+        <text>сейчас прибегал ваш матрос Сизый, вы его знаете, пижонистый такой, просил у моего соседа учебник тригонометрии для десятого класса.</text>
+		<rel f="">просил</rel>
+		<arg f="" n="2">у моего соседа</arg>
+		<arg f="" v="1">учебник тригонометрии для десятого класса</arg>
+      </example>
+	  <example name="ask to do" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8062">
+        <text>Вот тут особо впечатлительных просим на всякий случай присесть...</text>
+		<arg f="dis" n="m">Вот</arg>
+		<arg f="tmp" n="m">тут</arg>
+		<arg f="" n="2">особо впечатлительных</arg>
+		<rel f="">просим</rel>
+		<arg f="prp" n="m">на всякий случай</arg>
+		<arg f="" v="1">присесть</arg>
+      </example>
+	  <example name="direct quote" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8065">
+        <text>-- Ну же, Абношкин ,-- уже прошу я ,-- договаривай , если начал.</text>
+		<arg f="dis" n="m">Ну же</arg>
+		<arg f="" n="2">Абношкин</arg>
+		<arg f="adv" n="m">уже</arg>
+		<rel f="">прошу</rel>
+		<arg f="" n="0">я</arg>
+		<arg f="" v="1">договаривай , если начал</arg>
+      </example>
+	  <example name="not verb in arg 1" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8070">
+        <text>Вас к себе начальник просит .</text>
+		<arg f="" n="1">Вас к себе</arg>
+		<arg f="" n="0">начальник</arg>
+		<rel f="">просит</rel>
+      </example>
+	  <example name="asking for" src="" type="Russian National Corpus [Василий Белов. Плотницкие рассказы (1968)]">
+        <text>Родной дом словно жалуется на старость и просит ремонта.</text>
+		<rel f="">просит</rel>
+		<arg f="" n="1">ремонта</arg>
+      </example>
+	</roleset>
+	
+	<roleset id="﻿просить.02" name="intercede, sue, ask on behalf of, intervene">
+	  <aliases>
+		<alias framenet="" pos="v" verbnet="">попросить</alias>
+      </aliases>
+	  <note>﻿приказать.02 NOTES: Roleset based on English verb frame intercede.01</note>
+	  <note>Corresponds to FrameBank senses 5</note>
+      <roles>
+        <role descr="intercessor" f="PAG" n="0"/>
+		<role descr="resolution between/among/with whom" f="PPT" n="1"/>
+		<role descr="on behalf of" f="GOL" n="2"/>
+      </roles>
+	  <example name="args 0 and 2" src="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8073" type="">
+        <text>Он за тебя просил.</text>
+        <arg f="" n="0">Он</arg>
+		<arg f="" n="2">за тебя</arg>
+		<rel f="">просил</rel>
+	  </example>
+	  <example name="sue" src="https://vgd.ru/genealogical-mailer/inheritance/" type="">
+        <text>В суд никогда не хаживал , ни на кого не просил<text>
+		<arg f="neg" n="m">ни</arg>
+		<arg f="" n="2">на кого</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">просил</rel>
+	  </example>
+	  <example name="intercede to someone for" src="http://marker.framebank.ru/verbs_ex.php?lex=просить" type="">
+        <text>Я попросила вас за Петра только потому, что пообещала ему это.<text>
+		<arg f="" n="0">Я</arg>
+		<rel f="">попросила</rel>
+		<arg f="" n="1">вас</arg>
+		<arg f="" n="2">за Петра</arg>
+	  </example>
+	</roleset>
+	
+	<roleset id="﻿просить.03" name="buying and selling, ask for">
+	  <aliases>
+		<alias framenet="" pos="v" verbnet="">попросить</alias>
+      </aliases>
+	  <note>﻿просить.02 NOTES: Roleset based on English verb frame ask.03</note>
+	  <note>Corresponds to FrameBank senses 4</note>
+      <roles>
+        <role descr="seller" f="PAG" n="0"/>
+		<role descr="commodity" f="PPT" n="1"/>
+		<role descr="buyer" f="GOL" n="2"/>
+		<role descr="asking price" f="VSP" n="3"/>
+      </roles>
+	  <example name="args 0 and 2" src="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8072" type="">
+        <text>Сколько же ты за свою курицу просишь?</text>
+        <arg f="" n="3">Сколько</arg>
+        <arg f="" n="0">ты</arg>
+		<arg f="" n="1">за свою курицу</arg>
+		<rel f="">просишь</rel>
+	  </example>
+	</roleset>
+  </predicate>
+  
+  <predicate>
+	<roleset id="﻿проситься.04" name="ask permission to go potty">
+	  <aliases>
+		<alias framenet="" pos="v" verbnet="">попроситься</alias>
+      </aliases>
+	  <note>﻿просить.02 NOTES: Roleset based on English verb frame go.29</note>
+	  <note>Corresponds to FrameBank senses 4</note>
+      <roles>
+        <role descr="potty-er" f="PAG" n="0"/>
+		<role descr="potty place" f="GOL" n="1"/>
+      </roles>
+	  <note>English Arg1-PPT == Russian Arg1-GOL</note>
+	  <example name="example" src="" type="">
+        <text>cобака просится на улицу</text>
+        <arg f="" n="0">cобака</arg>
+		<rel f="">просится</rel>
+		<arg f="" n="1">на улицу</arg>
+	  </example>
+	  <example name="bequeath" src="https://vgd.ru/genealogical-mailer/inheritance/" type="">
+        <text>В суд никогда не хаживал , ни на кого не просил<text>
+		<arg f="neg" n="m">ни</arg>
+		<arg f="" n="2">на кого</arg>
+		<arg f="neg" n="m">не</arg>
+		<rel f="">просил</rel>
+	  </example>
+	</roleset>
+  </predicate>
+  
+  <predicate lemma="﻿милости_просим">
+	<roleset id="﻿милости_просим-m" name="welcome, greet, invite in">
+	  <aliases>
+		<mwe id="милости_просим">
+			<token slot="A" arg="" pos="" head="B" dep="">милости</token>
+			<token slot="B" arg="" pos="" head="" dep="">просим</token>
+		</mwe>
+      </aliases>
+	  <note>﻿милости_просим NOTES: Roleset based on English verb frame welcome.01</note>
+      <roles>
+        <role descr="welcomer" f="PAG" n="0"/>
+        <role descr="thing welcomed" f="PPT" n="1"/>
+        <role descr="welcomed to" f="LOC" n="2"/>
+      </roles>
+      <example name="example" src="Russian National Corpus: [И. Грекова. Перелом (1987)]" type="">
+        <text>Милости просим в наше отделение.</text>
+        <rel f="">Милости</rel>
+		<rel f="">просим</rel>
+		<arg f="" n="2">в наше отделение</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>
+  

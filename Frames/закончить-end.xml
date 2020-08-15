@@ -2,7 +2,7 @@
 <frameset>
  <predicate lemma="закончить">
 	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="закончить.01" name="end">
+    <roleset id="закончить.01" name="end, run out">
        <aliases>
 		<alias framenet="" pos="j" verbnet="">закончиться</alias>
 		<alias framenet="" pos="j" verbnet="">закончившийся</alias>
@@ -18,12 +18,12 @@
       </aliases>
 	  <note>NOTES: Based on "end.01"</note>
 	  <roles>
-        <role descr="Agent/cause of ending" f="pag" n="0">
+        <role descr="Agent/cause of ending" f="PAG" n="0">
         </role>
-        <role descr="Thing ending" f="ppt" n="1">
+        <role descr="Thing ending" f="PPT" n="1">
         </role>
-        <role descr="Explicit instrument, thing ended with, end portion" f="mnr" n="2"/>
-		<role descr="Benefactive, possessor, location of ending" f="mnr" n="3"/>
+        <role descr="Explicit instrument, thing ended with, end portion" f="MNR" n="2"/>
+		<role descr="Benefactive, possessor, location of ending" f="GOL" n="3"/>
       </roles>
       <example name="arg1" src="" type="">
         <text>Он скоро закончится .</text>
@@ -35,7 +35,7 @@
         <text>У нас закончилась туалетная бумага .</text>
         <arg f="" n="3">У нас</arg>
         <rel f="">закончилась</rel>
-        <arg f="mnr" n="1">туалетная бумага</arg>
+        <arg f="MNR" n="1">туалетная бумага</arg>
       </example>
       <example name="arg1 and arg2" type="">
         <text>Напомним , последнее крупное извержение Фуэго в 2012 году закончилось именно массовым вывозом жителей близлежащих населённых пунктов на безопасное расстояние .</text>
@@ -68,24 +68,23 @@
       </aliases>
 	  <note>NOTES: Based on adjustment to "graduate.01"</note>
 	  <roles>
-        <role descr="graduate " f="pag" n="0">
+        <role descr="graduate " f="PAG" n="0">
         </role>
-        <role descr="program completed" f="ppt" n="1">
+        <role descr="program completed" f="PPT" n="1">
         </role>
-		<role descr="grade or manner of graduation" f="mnr" n="2">
+		<role descr="grade or manner of graduation" f="MNR" n="2">
       </roles>
       <example name="закончить" src="" type="">
         <text>Он закончил Московский государственный университет .</text>
         <arg f="" n="0">Он</arg>
         <rel f="">закончил</rel>
-		<arg f="mnr" n="1">Московский государственный университет</arg>
+		<arg f="MNR" n="1">Московский государственный университет</arg>
       </example>
       <example name="окончить, with arg2" src="" type="with benefactive">
         <text>А Маша очень старалась окончить пятый класс на " хорошо " и " отлично " .</text>
-        <arg f="" n="0">*trace-1*</arg>
         <rel f="">окончить</rel>
-        <arg f="mnr" n="1">пятый класс</arg>
-		<arg f="mnr" n="2">на " хорошо " и " отлично "</arg>
+        <arg f="MNR" n="1">пятый класс</arg>
+		<arg f="MNR" n="2">на " хорошо " и " отлично "</arg>
       </example>
       <example name="кончить" src="В. О. Пелевин, «Синий фонарь», 1991 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Потом они все выросли, кончили школу , женились и стали работать и воспитывать детей .</text>

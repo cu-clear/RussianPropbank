@@ -2,7 +2,7 @@
 <frameset>
   <predicate lemma="начать">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="начать.01" name="engage in activity for enjoyment, entertainment, and competition">
+    <roleset id="начать.01" name="start, begin something, initiate">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">начинать</alias>
 		<alias framenet="" pos="v" verbnet="">начаться</alias>

@@ -1,0 +1,170 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="убить">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="убить.01" name="kill, put to death">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">убивать</alias>
+		<alias framenet="" pos="v" verbnet="">убиваться</alias>
+		<alias framenet="" pos="v" verbnet="">убиться</alias>
+      </aliases>
+	  <note>убить.01 NOTES: Roleset based on English verb frame kill.01</note>
+	  <note>Corresponds to FrameBank senses 1,2</note>
+      <roles>
+        <role descr="killer" f="PAG" n="0"/>
+        <role descr="corpse" f="PPT" n="1"/>
+		<role descr="instrument" f="MNR" n="2"/>
+      </roles>
+	  <note></note>
+      <example name="killed by" src="Russian National Corpus: Алла Глебова, «Матрёшка Ханны Шигуллы» // «Домовой», 04 августа 2002 г. RNC" type="">
+        <text>Фассбиндера убила гремучая смесь кокаина, барбитуратов и алкоголя, а также непрерывная работа на износ.</text>
+		<arg f="" n="1">Фассбиндера</arg>
+		<rel f="">убила</rel>
+		<arg f="" n="0">гремучая смесь кокаина, барбитуратов и алкоголя, а также непрерывная работа на износ</arg>
+      </example>
+	  <example name="inanimate subject" src="Russian National Corpus: Евгений Водолазкин, «Лавр», 2012 г." type="">
+        <text>За сбором трав их застала гроза, и на опушке леса её убило молнией.</text>
+		<arg f="loc" n="m">на опушке леса</arg>
+		<arg f="" n="1">её</arg>
+		<rel f="">убило</rel>
+		<arg f="" n="0">молнией</arg>
+      </example>
+	  <example name="figurative" src="Russian National Corpus: Д. Н. Мамин-Сибиряк, «Приваловские миллионы», 1883 г." type="">
+        <text>Меня просто убило это известие, — грустно заговорил Бахарев.</text>
+		<arg f="" n="1">Меня</arg>
+		<arg f="adv" n="m">просто</arg>
+		<rel f="">убил</rel>
+		<arg f="" n="0">это известие</arg>
+      </example>
+    </roleset>
+    
+	<roleset id="убить.02" name="eradicate, destroy, delete, remove">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">убивать</alias>
+		<alias framenet="" pos="v" verbnet="">убиваться</alias>
+		<alias framenet="" pos="v" verbnet="">убиться</alias>
+		<alias framenet="" pos="v" verbnet="">убивание</alias>
+      </aliases>
+	  <note>убить.02 NOTES: Roleset based on English verb frame eradicate.01</note>
+	  <note>Corresponds to FrameBank senses 3</note>
+      <roles>
+		<role descr="eliminator, agent " f="PPT" n="0"/>
+		<role descr="thing eliminated " f="PPT" n="1"/>
+      </roles>
+	  <example name="trump the card" src="" type="">
+        <text>Убить карту.</text>
+		<rel f="">Убить</rel>
+		<arg f="" n="1">карту</arg>
+	  </example>
+	  <example name="take apart, criticize" src="http://marker.framebank.ru/verbs_cx.php?lex=убить" type="">
+        <text>Плохие критики убивают всякую поэзию.</text>
+		<arg f="" n="0">Плохие критики</arg>
+		<rel f="">убивают</rel>
+		<arg f="" n="1">всякую поэзию</arg>
+	  </example>
+	  <example name="suppress" src="Russian National Corpus: М. Е. Салтыков-Щедрин, 1856–1860 г" type="">
+        <text>Мало-помалу развилась в нём страсть к чтению, но к чтению бестолковому, которое может скорее убить талант, нежели развить его.</text>
+		<rel f="">убить</rel>
+		<arg f="" n="1">талант</arg>
+	  </example>
+	  <example name="take away" src="Russian National Corpus: В. С. Вихров, «Рыцарь мечты», 1965 г." type="">
+        <text>Ведь жизнь, кажется, сделала всё, чтобы очерствить, ожесточить сердце, смять и развеять романтические идеалы, убить веру во всё лучшее и светлое.</text>
+		<rel f="">убить</rel>
+		<arg f="" n="1">веру во всё лучшее и светлое</arg>
+	  </example>
+	</roleset>
+	
+	<roleset id="убить.03" name="waste, spend, consume">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">убивать</alias>
+		<alias framenet="" pos="v" verbnet="">убиваться</alias>
+		<alias framenet="" pos="v" verbnet="">убиться</alias>
+		<alias framenet="" pos="v" verbnet="">убивание</alias>
+      </aliases>
+	  <note>убить.03 NOTES: Roleset based on English verb frame kill.04</note>
+	  <roles>
+		<role descr="time-spender" f="PAG" n="0"/>
+		<role descr="time, money, etc." f="PPT" n="1"/>
+		<role descr="activity, waster" f="GOL" n="2"/>
+      </roles>
+	  <example name="squander" src="Russian National Corpus: [Вас. И. Немирович-Данченко. Цари биржи (Каиново племя в наши дни) (1886)]" type="">
+        <text>Я очень много убил денег на «Старгородку».<text>
+		<arg f="" n="0">Я</arg>
+		<arg f="ext" n="m">очень много</arg>
+		<rel f="">убил</rel>
+		<arg f="" n="1">денег</arg>
+		<arg f="" n="2">на «Старгородку»</arg>
+	  </example>
+	  <example name="waste" src="Russian National Corpus: [А. К. Шеллер-Михайлов. Лес рубят - щепки летят (1871)]" type="">
+        <text>Это была Оболенская, скучающая барыня, убившая свою молодость со старым мужем и стремящаяся теперь найти человека, который решился бы убить свою молодость со старою женой.<text>
+		<arg f="" n="0">Оболенская, скучающая барыня</arg>
+		<rel f="">убившая</rel>
+		<arg f="" n="1">свою молодость</arg>
+		<arg f="" n="2">со старым мужем</arg>
+	  </example>
+	</roleset>
+  
+	<roleset id="убить.04" name="smitten, pleasantly shock, forceful emotional impact">
+	  <aliases>
+      </aliases>
+	  <note>убить.04 NOTES:Roleset based on English verb frame smite.01</note>
+	  <note>NO IMPERFECTIVE</note>
+      <roles>
+		<role descr="agent, smiter" f="PAG" n="0"/>
+		<role descr="entity smitten" f="PPT" n="1"/>
+		<role descr="with what" f="MNR" n="2"/>
+	  </roles>
+	  <note>English ARG2-GOL = Russian ARG1-PPT</note>
+	  <note>English ARG3-MNR = Russian ARG2-MNR</note>
+	  <note>English ARG1-PPT has no match in Russian frame</note>
+	  <example name="amazed" src="" type="Wiktionary">
+        <text>Все просто убиты твоим новым платьем<text>
+		<arg f="" n="1">Все</arg>
+		<arg f="adv" n="m">просто</arg>
+		<rel f="">убиты</rel>
+		<arg f="" n="2">твоим новым платьем</arg>
+	  </example>
+	</roleset>
+	
+	<roleset id="убить.05" name="injure, hurt">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">убивать</alias>
+      </aliases>
+	  <note>убить.03 NOTES: Roleset based on English verb frame injure.01</note>
+	  <roles>
+		<role descr="agent, entity causing/possessing arg1's injury" f="PAG" n="0"/>
+		<role descr="injured entity (body part if arg0 is possessor)" f="PPT" n="1"/>
+		<role descr="instrument, injured doing what" f="MNR" n="2"/>
+      </roles>
+	  <example name="hurt limb" src="Russian National Corpus: [Л. М. Леонов. Гибель Егорушки (1922)]" type="">
+        <text>Лев облизал ему убившую руку, а птица стратон поклонилась ему.<text>
+		<rel f="">убившую</rel>
+		<arg f="" n="1">руку</arg>
+	  </example>
+	  <example name="struck by God" src="" type="">
+        <text>Убитый богом<text>
+		<rel f="">Убитый</rel>
+		<arg f="" n="0">богом</arg>
+	  </example>
+	</roleset>
+	
+	<roleset id="убить.06" name="compact, compact, tamp">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">убивать</alias>
+		<alias framenet="" pos="v" verbnet="">убиваться</alias>
+      </aliases>
+	  <note>убить.03 NOTES: Roleset based on English verb frame compact.01</note>
+	  <roles>
+		<role descr="causer of compaction" f="PAG" n="0"/>
+		<role descr="thing getting compacted" f="PPT" n="1"/>
+      </roles>
+	  <example name="well beaten road" src="Russian National Corpus:  [А. И. Эртель. Записки Степняка (1883)] " type="">
+        <text>Немного погодя бойкий топот Копчика по твердо убитой дороге дал нам знать, что Михайло действительно скатает «духом» в Березовку.<text>
+		<arg f="adv" n="m">твердо</arg>
+		<rel f="">убитой</rel>
+		<arg f="" n="1">дороге</arg>
+	  </example>
+	</roleset>
+  </predicate>
+</frameset>
+  

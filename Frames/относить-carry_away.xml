@@ -6,7 +6,6 @@
       <aliases>
 		<alias framenet="" pos="v" verbnet="">отнести</alias>
       </aliases>
-	  <note>Corresponds to FrameBank senses </note>
       <note>относить.01 NOTES: based on English remove.01</note>
       <roles>
         <role descr="entity removing" f="PAG" n="0">
@@ -17,42 +16,40 @@
       </roles>
 	  <role descr="removed to" f="GOL" n="3"/>
       </roles>
-	    <note>Russian Arg3-GOL has no match in English frame </note>
-      <example name="" src="" type="Russian National Corpus[Наши дети: Подростки (2004)]">
+	  <note>Russian Arg3-GOL has no match in English frame </note>
+      <example name="take away" src="" type="Russian National Corpus[Наши дети: Подростки (2004)]">
         <text>А в школе была проблема, поскольку там не разрешали тарелки с недоеденным в мойку относить.</text>
         <arg f="" n="1">тарелки с недоеденным</arg>
 		<arg f="" n="3">в мойку</arg>
 		<rel f="">относить</rel>
       </example>
-	    <example name="" src="" type="Russian National Corpus[С. П. Капица. Мои воспоминания (2008)]">
+	  <example name="carried away" src="" type="Russian National Corpus[С. П. Капица. Мои воспоминания (2008)]">
         <text>Бывали случаи, когда мы попадали в сильные течения и нас относило далеко от места погружения.</text>
         <arg f="" n="1">нас</arg>
-		<arg f="" n="2">от места погружения</arg>
-		<arg f="" adj="3">далеко</arg>
 		<rel f="">относило</rel>
+		<arg f="" n="2">далеко от места погружения</arg>
       </example>
-	    <example name="" src="" type="Russian National Corpus[Никита Юрьевский, Евгений Джумаев. Лети-лети под облака… (2013.05.23) // «Новгородские ведомости», 2013]">
+	  <example name="blow away" src="" type="Russian National Corpus[Никита Юрьевский, Евгений Джумаев. Лети-лети под облака… (2013.05.23) // «Новгородские ведомости», 2013]">
         <text>…Юго-восточный ветерок относил шары на северо-запад и гнал параллельно автодороге Старая Русса — Шимск.</text>
-        <arg f="" n="1">шары</arg>
 		<arg f="" n="0">Юго-восточный ветерок</arg>
-		<arg f="" n="3">на северо-запад</arg>
 		<rel f="">относил</rel>
+		<arg f="" n="1">шары</arg>
+		<arg f="" n="3">на северо-запад</arg>
       </example>
-	      </example>
-	    <example name="" src="" type="Russian National Corpus[Виктор Астафьев. Трофейная пушка // «Знамя», 2001]">
+	  <example name="float away" src="" type="Russian National Corpus[Виктор Астафьев. Трофейная пушка // «Знамя», 2001]">
         <text>Когда дым отнесло от дульного тормоза, Игнат сокрушенно развел руками:</text>
+        <arg f="tmp" n="m">Когда</arg>
         <arg f="" n="1">дым</arg>
-		<arg f="" n="2">от дульного тормоза</arg>
 		<rel f="">отнесло</rel>
+		<arg f="" n="2">от дульного тормоза</arg>
       </example>
     </roleset>
     
 	<roleset id="относить.02" name="postpone">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">отнести</alias>
-		<alias framenet="" pos="v" verbnet="">отнесение</alias>
+		<alias framenet="" pos="n" verbnet="">отнесение</alias>
       </aliases>
-	  <note>Corresponds to FrameBank sense </note>
 	  <note>относить.02 NOTES: Roleset based on English verb frame postpone.01</note>
       <roles>
         <role descr="agent, causer of delay" f="PAG" n="0"/>
@@ -61,121 +58,129 @@
 		<role descr="original time " f="DIR" n="3"/>
 		 <role descr="new time" f="GOL" n="4"/>
       </roles>
-	  <example name="" src="" type="Russian National Corpus[К. С. Бадигин. Секрет государственной важности (1974)]">
+	  <example name="postpone" src="" type="Russian National Corpus[К. С. Бадигин. Секрет государственной важности (1974)]">
         <text>Сначала я и это отнес к случайности… Относил до вчерашнего дня… Может быть, все же разрешите закурить?</text>
-		<rel f="">Относил</rel>
-		<arg f="" n="4">до вчерашнего дня</arg>
+		<arg f="tmp" n="m">Сначала</arg>
+		<arg f="" n="0">я</arg>
+		<arg f="dis" n="m">и</arg>
+		<arg f="" n="1">это</arg>
+		<rel f="">отнес</rel>
+		<arg f="" n="4">к случайности</arg>
 	  </example>
-	</roleset>	  
+	</roleset>
 	
-	<roleset id="относить.03" name="relate, have attitude, treat">
-      <aliases>
-		<alias framenet="" pos="v" verbnet="">отнестись</alias>
-		<alias framenet="" pos="v" verbnet="">отношение</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank senses 1,2,4</note>
-	  <note>относить.03 NOTES: based on English treat.01</note>
-	  <roles>
-		<role descr="assumer of attribute" f="PAG" n="0">
-      </roles>
-	  <role descr="entity treated" f="PPT" n="1">
-      </roles><role descr="attitude or manner of relating" f="MNR" n="2">
-      </roles>
-	  <role descr="attribute of arg1" f="PRD" n="3">
-      </roles>
-	   <note>English Arg2-PRD = Russian Arg2-MNR</note>
-	  <example name="" src="«Вы над собой смеяться не боитесь?», 2002 г. // « "Дело" (Самара)» (цитата из Национального корпуса русского языка, см. Список литературы" type="">
-        <text>Я ко всему такому отношусь с юмором и радуюсь, если ко мне так же относятся мои друзья, знакомые.</text>
-		<roles>
-		<rel f="">отношусь</rel>
-		<arg f="" n="0">Я</arg>
-		<arg f="" n="1">ко всему</arg>
-		<arg f="" n="2">с юмором</arg>
-	  </example>
-	  <example name="" src="Russian National Corpus [коллективный. Форум: Универ (институт) VS школа. Плюсы и минусы. Где в итоге лучше и почему? (2011)]" type="">
-        <text>тут на тебя не смотрят, как на 1-классницу, которой тебя помнят, а относятся как к взрослому человеку и в общении это заметно…</text>
-		<rel f="">относятся</rel>
-		<arg f="" n="2">как к взрослому человеку</arg>
-	  </example>
-	</roleset>	
-<roleset id="относить.04" name="include as, assign to, count among, account as, consider as part of">
+	<roleset id="относить.03" name="include as, assign to, count among, account as, consider as part of">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">отнести</alias>
 		<alias framenet="" pos="v" verbnet="">относиться</alias>
 		<alias framenet="" pos="v" verbnet="">отнестись</alias>
-		<alias framenet="" pos="v" verbnet="">отношение</alias>
-		<alias framenet="" pos="v" verbnet="">отнесение</alias>
+		<alias framenet="" pos="n" verbnet="">отношение</alias>
+		<alias framenet="" pos="n" verbnet="">отнесение</alias>
       </aliases>
-	    <note>Corresponds to FrameBank sense 3</note>
-	  <note>Corresponds to FrameBank senses</note>
+	  <note>Corresponds to FrameBank sense 3</note>
 	  <note>относить.03 NOTES: based on English include.01</note>
 	  <roles>
-		<role descr="agent, entity causing some grouping " f="PAG" n="0">
-      </roles>
-	  <role descr="theme, thing being included in some group " f="PPT" n="1">
-      </roles><role descr="group" f="GOL" n="2">
-      </roles>
-	  <example name="" src="А. Л. Калуцкий, «Отряд Жуки», 2003 г. // «Биология» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+		<role descr="agent, entity causing some grouping" f="PAG" n="0"/>
+		<role descr="theme, thing being included in some group " f="PPT" n="1"/>
+		<role descr="group" f="GOL" n="2"/>
+	  </roles>
+	  <example name="a type of" src="А. Л. Калуцкий, «Отряд Жуки», 2003 г. // «Биология» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>К хищным жукам относятся и плавунцы.</text>
 		<roles>
-		<rel f="">относятся</rel>
-		<arg f="" n="0">плавунцы</arg>
 		<arg f="" n="2">К хищным жукам</arg>
+		<rel f="">относятся</rel>
+		<arg f="adv" n="m">и</arg>
+		<arg f="" n="0">плавунцы</arg>
 	  </example>
-	  <example name="" src="Russian National Corpus [коллективный. Форум: 17 мгновений весны (2005-2010)]" type="">
+	  <example name="one of" src="Russian National Corpus [коллективный. Форум: 17 мгновений весны (2005-2010)]" type="">
         <text>Интересный захватывающий сюжет — в принципе, больше ничего, особенно простому зрителю, к коим я себя отношу.</text>
-        <arg f="" n="0">я</arg>
-		<arg f="" n="1">себя</arg>
 		<arg f="" n="2">к коим</arg>
-		<rel f="">отношу</rel>
-	  </example>
-	  <example name="" src="Russian National Corpus[Сергей Старостин, Григорий Зеленко. У человечества был один праязык // «Знание -- сила», 2003]" type="">
-        <text> А к какому времени вы относите единство ностратического, афразийского и сино-кавказского?</text>
-        <arg f="" n="0">вы</arg>
-		<arg f="" n="1">к какому времени</arg>
-		<arg f="" n="2">единство ностратического, афразийского и сино-кавказского</arg>
-		<rel f="">относите</rel>
-	  </example>	
-	    <example name="" src="Russian National Corpus[Сергей Довлатов. Заповедник (1983)]" type="">
-        <text> Вначале я относил это за счёт моей потускневшей индивидуальности.</text>
         <arg f="" n="0">я</arg>
+		<rel f="">отношу</rel>
+		<arg f="" n="1">себя</arg>
+	  </example>
+	  <example name="time of" src="Russian National Corpus[Сергей Старостин, Григорий Зеленко. У человечества был один праязык // «Знание -- сила», 2003]" type="">
+        <text>А к какому времени вы относите единство ностратического, афразийского и сино-кавказского?</text>
+        <arg f="dis" n="m">А</arg>
+		<arg f="" n="1">к какому времени</arg>
+		<arg f="" n="0">вы</arg>
+		<rel f="">относите</rel>
+		<arg f="" n="2">единство ностратического, афразийского и сино-кавказского</arg>
+	  </example>	
+	  <example name="include on" src="Russian National Corpus[Сергей Довлатов. Заповедник (1983)]" type="">
+        <text>Вначале я относил это за счёт моей потускневшей индивидуальности.</text>
+        <arg f="tmp" n="m">Вначале</arg>
+        <arg f="" n="0">я</arg>
+		<rel f="">относил</rel>
 		<arg f="" n="1">это</arg>
 		<arg f="" n="2">за счёт моей потускневшей индивидуальности</arg>
-		<rel f="">относил</rel>
-	  </example>	
-	  	  </example>	
-	    <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
+	  </example>
+	  <example name="classify as" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
         <text>А при чем здесь девушки? Лафет относится к мужскому полу! Ой!</text>
 		<arg f="" n="1">Лафет</arg>
-		<arg f="" n="2">к мужскому полу</arg>
 		<rel f="">относится </rel>
+		<arg f="" n="2">к мужскому полу</arg>
 	  </example>
-	  	    <example name="" src="Russian National Corpus[А. А. Рафалович. Путешествие по Нижнему Египту и внутренним областям Дельты (1850)]" type="">
+	  <example name="belong to" src="Russian National Corpus[А. А. Рафалович. Путешествие по Нижнему Египту и внутренним областям Дельты (1850)]" type="">
         <text>При этом не мешает заметить, что Египтяне, как и все другие мусульмане, вечер и ночь относят к следующему дню, так что напр. праздничный день начинается с захождения солнца на кануне.</text>
 		<arg f="" n="0">Египтяне, как и все другие мусульмане</arg>
 		<arg f="" n="1">вечер и ночь</arg>
-		<arg f="" n="2">к следующему дню</arg>
 		<rel f="">относят</rel>
+		<arg f="" n="2">к следующему дню</arg>
 	  </example>
-	    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="относить.01" name="approach officially">
-	<note>NO IMPERFECTIVE</note>
+  </predicate>
+	
+  <predicate>
+	<roleset id="относиться.04" name="relate, have attitude, treat">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">отнести</alias>
+		<alias framenet="" pos="v" verbnet="">отнестись</alias>
+		<alias framenet="" pos="n" verbnet="">отношение</alias>
       </aliases>
-	  <note>Corresponds to FrameBank senses </note>
-      <note>относить.01 NOTES: based on English approach.02</note>
+	  <note>относить.04 NOTES: based on English treat.01</note>
+	  <note>Corresponds to FrameBank senses 1,2,4</note>
+	  <roles>
+		<role descr="assumer of attribute" f="PAG" n="0"></role>
+		<role descr="entity treated" f="PPT" n="1"/>
+		<role descr="attitude or manner of relating" f="MNR" n="2"/>
+      </roles>
+	   <note>English Arg2-PRD = Russian Arg2-MNR</note>
+	  <example name="have a good sense of humor" src="«Вы над собой смеяться не боитесь?», 2002 г. // «Дело (Самара)» (цитата из Национального корпуса русского языка, см. Список литературы" type="">
+        <text>Я ко всему такому отношусь с юмором и радуюсь, если ко мне так же относятся мои друзья, знакомые.</text>
+		<roles>
+		<arg f="" n="0">Я</arg>
+		<arg f="" n="1">ко всему такому</arg>
+		<rel f="">отношусь</rel>
+		<arg f="" n="2">с юмором</arg>
+	  </example>
+	  <example name="treat as" src="Russian National Corpus [коллективный. Форум: Универ (институт) VS школа. Плюсы и минусы. Где в итоге лучше и почему? (2011)]" type="">
+        <text>тут на тебя не смотрят, как на 1-классницу, которой тебя помнят, а относятся как к взрослому человеку и в общении это заметно…</text>
+		<rel f="">относятся</rel>
+		<arg f="" n="2">как к взрослому человеку</arg>
+	  </example>
+	</roleset>
+  </predicate>
+	
+  <predicate>
+    <roleset id="отнестись.05" name="approach officially">
+	<note>NO IMPERFECTIVE</note>
+    <aliases>
+    </aliases>
+      <note>отнестись.05 NOTES: based on English approach.02</note>
       <roles>
-        <role descr="treater, dealer, agent (vnrole: 98-agent) " f="PAG" n="0">
+        <role descr="treater, dealer, agent" f="PAG" n="0">
         </role>
-        <role descr="thing (vnrole: 98-theme) " f="PPT" n="1">
+        <role descr="thing" f="PPT" n="1">
         </role>
 		<role descr="attribute" f="PRD" n="2"/>
       </roles>
-      <example name="" src="" type="Russian National Corpus[Г. И. Невельской. Подвиги русских морских офицеров на крайнем Востоке России (1878)]">
+      <example name="participle" src="" type="Russian National Corpus[Г. И. Невельской. Подвиги русских морских офицеров на крайнем Востоке России (1878)]">
         <text>Что же касается до присылки собственно для экспедиции парового судна из Кронштадта, то я отнёсся уже с просьбою к начальнику Главного морского штаба и с этою же почтою предлагаю к точному исполнению начальнику Аянского порта Кашеварову исполнять ваши требования и отправлять в Петровское зимовье товары, запасы и прочее и на компанейских судах, следующих из Аяна в Ситху».</text>
         <arg f="" n="0">я</arg>
+		<rel f="">отнёсся</rel>
+		<arg f="adv" n="m">уже</arg>
 		<arg f="" n="1">с просьбою</arg>
-		<rel f="">отнёсся </rel>
+		<arg f="" n="2">к начальнику Главного морского штаба</arg>
       </example>
-	   
+	</roleset>
+  </predicate>
+</frameset>

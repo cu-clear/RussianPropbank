@@ -2,7 +2,7 @@
 <frameset>
   <predicate lemma="добавить">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="добавить.01" name="reside">
+    <roleset id="добавить.01" name="do sums, add">
       <aliases>
 		<alias framenet="" pos="j" verbnet="">добавлять</alias>
 		<alias framenet="" pos="j" verbnet="">добавляться</alias>
@@ -42,7 +42,7 @@
       </example>
     </roleset>
     
-	<roleset id="добавить.02" name="add, say">
+	<roleset id="добавить.02" name="say, add">
       <aliases>
 		<alias framenet="" pos="j" verbnet="">добавлять</alias>
 		<alias framenet="" pos="j" verbnet="">живший</alias>
@@ -58,4 +58,6 @@
         <arg f="" n="0">он</arg>
 		<rel f="">добавил</rel>
 	  </example>
-	 
+	</roleset>
+  </predicate>
+</frameset>

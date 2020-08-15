@@ -17,14 +17,14 @@
        <example name="" src="«Дышащие мембраны», 2003 г. // «Текстиль» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Одной из самых известных мембран такого типа является Gore-Tex. </text>
 		<arg f="" n="1">Одной из самых известных мембран такого типа</arg>
+		<rel f="">является</rel>
 		<arg f="" n="2">Gore-Tex</arg>
-        <rel f="">является</rel>
       </example>
-	   <example name="" src="wiki" type="">
+	   <example name="" src="wikipedia" type="">
         <text>Самым знаменитым изобретением человека явилось колесо.</text>
 		<arg f="" n="2">Самым знаменитым изобретением человека</arg>
-		<arg f="" n="1">колесо</arg>
         <rel f="">явилось</rel>
+		<arg f="" n="1">колесо</arg>
       </example>
     </roleset>
     
@@ -34,23 +34,18 @@
 		<alias framenet="" pos="n" verbnet="">явление</alias>
       </aliases>
 	  <note>являться.02 NOTES: Roleset based on English verb frame appear.01</note>
-	   <note>Corresponds to FrameBank senses 6</note>
+	   <note>Corresponds to FrameBank senses 1, 3, 4</note>
       <roles>
 		<role descr="thing appearing" f="PAG" n="1"/>
       </roles>
-	  <example name="" src="Уильям Шекспир, «Король Лир»" type="">
+	  <example name="appear" src="Уильям Шекспир, «Король Лир»" type="">
         <text>Хотя этот сорванец явился на свет без приглашения, мать его была красавица.</text>
-		<arg f="mnr" n="m">без приглашения</arg>
+		<arg f="dis" n="m">Хотя</arg>
 		<arg f="" n="1">этот сорванец</arg>
 		<arg f="loc" n="m">на свет</arg>
 		<rel f="">явился</rel>
+		<arg f="mnr" n="m">без приглашения</arg>
 	  </example>
-	  	  <example name="" src="А. С. Пушкин, «Барышня-крестьянка», 1830 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Он первый перед ними явился мрачным и разочарованным, первый говорил им об утраченных радостях и об увядшей своей юности; сверх того носил он чёрное кольцо с изображением мёртвой головы.</text>
-		<arg f="" n="0">царь</arg>
-		<arg f="mnr" n="m">мрачным и разочарованным</arg>
-		<rel f="">явился</rel>
-		 </example>
 	</roleset>
 	
 	<roleset id="являться.03" name="present self, show up to an official function, report">
@@ -58,46 +53,55 @@
 	  <alias framenet="" pos="v" verbnet="">явиться</alias>
 	  <alias framenet="" pos="n" verbnet="">явка</alias>
       </aliases>
-	   <note>Corresponds to FrameBank sense 5</note>
 	  <note>являться.03 NOTES: Roleset based on English verb frame present.02</note>
+	  <note>Corresponds to FrameBank sense 5</note>
 	  <roles>
 		<role descr="entity present" f="PAG" n="0"/>
 		<role descr="where" f="LOC" n="1"/>
       </roles>
-	  <example name="" src="Вадим Карамба, «Якут и партия едины», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Более того, не понятно, на каком основании контролёры будут являться с инспекцией на предприятия.<text>
-		<rel f="">являться </rel>
-		<arg f="" n="0">контролёры</arg>
-		<arg f="" n="1">на предприятия</arg>
-		<arg f="gol" n="m">с инспекцией</arg>
+	  <example name="appeared as" src="А. С. Пушкин, «Барышня-крестьянка», 1830 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+      <text>Он первый перед ними явился мрачным и разочарованным, первый говорил им об утраченных радостях и об увядшей своей юности; сверх того носил он чёрное кольцо с изображением мёртвой головы.</text>
+		<arg f="" n="0">Он</arg>
+		<arg f="" n="1">первый перед</arg>
+		<rel f="">явился</rel>
+		<arg f="mnr" n="m">мрачным и разочарованным</arg>
 	  </example>
-	  	<example name="" src="Сергей Волгин, «Дело о въезде под «кирпич»», 2003.05.15 г. // «За рулем» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+	  <example name="report" src="Вадим Карамба, «Якут и партия едины», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Более того, не понятно, на каком основании контролёры будут являться с инспекцией на предприятия.<text>
+		<arg f="dis" n="m">Более того</arg>
+		<arg f="adv" n="m">не понятно</arg>
+		<arg f="adv" n="m">на каком основании</arg>
+		<arg f="" n="0">контролёры</arg>
+		<rel f="">являться </rel>
+		<arg f="mnr" n="m">с инспекцией</arg>
+		<arg f="" n="1">на предприятия</arg>
+	  </example>
+	  <example name="be summoned" src="Сергей Волгин, «Дело о въезде под «кирпич»», 2003.05.15 г. // «За рулем» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>В суд мы явились, как и было предписано, к 11 часам утра.<text>
-		<rel f="">явились</rel>
 		<arg f="" n="1">В суд</arg>
 		<arg f="" n="0">мы</arg>
-	  </example>
-	   <example name="" src="" type="">
-        <text>явиться с повинной головой / Он явился с повинной <text>
-		<rel f="">явиться</rel>
-		<arg f="mnr" n="m">с повинной головой </arg>
+		<rel f="">явились</rel>
 	  </example>
 	</roleset>
+  </predicate>
   
-	<roleset id="являтьсясь.04" name="stop a run (of a show, movie, act), stop showing, lose popularity, not "in".">
-		<aliases>
-	  <alias framenet="" pos="v" verbnet="">явить</alias>
+  <predicate>
+	<roleset id="являть.04" name="display, make obvious, demonstrate, reveal, show">
+	  <aliases>
+		<alias framenet="" pos="v" verbnet="">явить</alias>
       </aliases>
-    
-	  <note>Corresponds to FrameBank sense 4</note>
 	  <note>являться.04 NOTES:Roleset based on English verb frame demonstrate.01</note>
       <roles>
 		<role descr="demonstrator" f="PAG" n="0"/>
 		<role descr="thing demonstrated" f="PPT" n="1"/>
 		<role descr="watcher" f="GOL" n="2"/>
 		</roles>
-	  <example name="" src="" type="Russian National Corpus[Иоанн Мейендорф. Духовное и культурное Возрождение XIV века и судьбы Восточной Европы (1992)]">
+	  <example name="reveal" src="" type="Russian National Corpus[Иоанн Мейендорф. Духовное и культурное Возрождение XIV века и судьбы Восточной Европы (1992)]">
         <text>Имя Божие как бы являет Его собственное присутствие.<text>
+		<arg f="" n="0">Имя Божие</arg>
 		<rel f="">являет</rel>
-		<arg f="" n="1">Имя Божие</arg>
+		<arg f="" n="1">Его собственное присутствие</arg>
 	  </example>
+	</roleset>
+  </predicate>
+</frameset>

@@ -2,19 +2,14 @@
 <frameset>
  <predicate lemma="делать">
 	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="делать.01" name="act">
+    <roleset id="делать.01" name="act, do">
        <aliases>
 		<alias framenet="" pos="j" verbnet="">делающий</alias>
 		<alias framenet="" pos="j" verbnet="">делавший</alias>
-		<alias framenet="" pos="v" verbnet="">делая</alias>
-		<alias framenet="" pos="v" verbnet="">делавши</alias>
-		<alias framenet="" pos="v" verbnet="">делав</alias>
 		<alias framenet="" pos="j" verbnet="">делаемый</alias>
 		<alias framenet="" pos="j" verbnet="">деланный</alias>
 		<alias framenet="" pos="v" verbnet="">сделать</alias>
 		<alias framenet="" pos="j" verbnet="">сделавший</alias>
-		<alias framenet="" pos="v" verbnet="">сделав</alias>
-		<alias framenet="" pos="v" verbnet="">сделавши</alias>
 		<alias framenet="" pos="j" verbnet="">сделанный</alias>
 		<alias framenet="" pos="v" verbnet="">делаться</alias>
 		<alias framenet="" pos="j" verbnet="">делающийся</alias>
@@ -25,11 +20,11 @@
 	  <note>Corresponds to FrameBank senses 1,2,3,5,10</note>
 	  <note>Based on "do.02"</note>
 	  <roles>
-        <role descr="agent, doer" f="pag" n="0"/>
-        <role descr="thing done" f="ppt" n="1"/>
-        <role descr="benefactive, done for or about" f="gol" n="2"/>
-        <role descr="instrumental" f="mnr" n="3"/>
-        <role descr="comitative, companion while doing" f="com" n="4"/>
+        <role descr="agent, doer" f="PAG" n="0"/>
+        <role descr="thing done" f="PPT" n="1"/>
+        <role descr="benefactive, done for or about" f="GOL" n="2"/>
+        <role descr="instrumental" f="MNR" n="3"/>
+        <role descr="comitative, companion while doing" f="COM" n="4"/>
       </roles>
       <example name="do-v" src="" type="">
         <text>это полезно делать людям ЛЮБОГО возраста .</text>
@@ -42,7 +37,7 @@
         <arg f="" n="0">*PRO*</arg>
         <rel f="">делай</rel>
         <arg f="" n="1">это</arg>
-        <arg f="mnr" n="3">с любовью</arg>
+        <arg f="MNR" n="3">с любовью</arg>
       </example>
       <example name="do-v: with benefactive" src="with benefactive" type="with benefactive">
         <text>Интересно стало , а девочкам они как делают ?</text>
@@ -82,9 +77,9 @@
       </aliases>
 	  <note>Corresponds to FrameBank senses 4,6,7,8,9</note>
 	  <roles>
-        <role descr="agent, doer" f="pag" n="0"/>
-        <role descr="entity made" f="ppt" n="1"/>
-        <role descr="thing made from" f="dir" n="2">
+        <role descr="agent, doer" f="PAG" n="0"/>
+        <role descr="entity made" f="PPT" n="1"/>
+        <role descr="thing made from" f="DIR" n="2">
       </roles>
       <example name="make out of" src="" type="">
         <text>Не надо делать из него посмешище .</text>
@@ -113,15 +108,10 @@
        <aliases>
 		<alias framenet="" pos="j" verbnet="">делающий</alias>
 		<alias framenet="" pos="j" verbnet="">делавший</alias>
-		<alias framenet="" pos="v" verbnet="">делая</alias>
-		<alias framenet="" pos="v" verbnet="">делавши</alias>
-		<alias framenet="" pos="v" verbnet="">делав</alias>
 		<alias framenet="" pos="j" verbnet="">делаемый</alias>
 		<alias framenet="" pos="j" verbnet="">деланный</alias>
 		<alias framenet="" pos="v" verbnet="">сделать</alias>
 		<alias framenet="" pos="j" verbnet="">сделавший</alias>
-		<alias framenet="" pos="v" verbnet="">сделав</alias>
-		<alias framenet="" pos="v" verbnet="">сделавши</alias>
 		<alias framenet="" pos="j" verbnet="">сделанный</alias>
 		<alias framenet="" pos="v" verbnet="">делаться</alias>
 		<alias framenet="" pos="j" verbnet="">делающийся</alias>
@@ -130,9 +120,9 @@
 		<alias framenet="" pos="j" verbnet="">сделавшийся</alias>
       </aliases>
 	  <roles>
-        <role descr="agent, doer" f="pag" n="0"/>
-        <role descr="entity changed" f="ppt" n="1"/>
-        <role descr="end state" f="prd" n="2">
+        <role descr="agent, doer" f="PAG" n="0"/>
+        <role descr="entity changed" f="PPT" n="1"/>
+        <role descr="end state" f="PRD" n="2">
       </roles>
       <example name="make as" src="" type="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=делать">
         <text>Поэтому при отделке изделий с резьбой ( мебели, багета, рам для картин и зеркал ) обычно делали выпуклости полированными , а впадины-- матовыми.</text>
@@ -150,7 +140,9 @@
 		<arg f="" n="2">холодным</arg>
       </example>
     </roleset>
-	
+  </predicate>
+
+  <predicate>	
 	<roleset id="делать_жизнь-m" name="choose a role model">
        <aliases>
 		<alias framenet="" pos="j" verbnet="">делающий</alias>
@@ -167,8 +159,8 @@
 		<alias framenet="" pos="j" verbnet="">сделанный</alias>
       </aliases>
 	  <roles>
-        <role descr="follower" f="pag" n="0"/>
-        <role descr="role model" f="ppt" n="1"/>
+        <role descr="follower" f="PAG" n="0"/>
+        <role descr="role model" f="PPT" n="1"/>
       </roles>
       <example name="do-v" src="" type="">
         <text>Делать жизнь с кого</text>

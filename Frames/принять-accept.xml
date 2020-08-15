@@ -25,6 +25,8 @@
 		<arg f="" n="1">свою точку зрения</arg>
         <rel f="">принять</rel>
       </example>
+	</roleset>
+	
 	<roleset id="﻿принять.02" name="to allow or receive or accept person for some purpose">
 	  <note>﻿принять.02 NOTES: Roleset based on English verb frame embrace.01</note>
       <roles>
@@ -39,41 +41,44 @@
 		<rel f="гостей"></rel>
 	  </example>
 	  	<example name="" src="" type="">
-		  <text>Все рейсы как из аэропорта Хургады , так и из Луксора отправляются по расписанию – мы специально узнавали это в администрации аэропортов », - рассказал корреспонденту инфогруппы « ТУРПРОМ » Сергей Заливин , замдиректора египетской missing word [arg 0] принимающего туроператор «ALS-tour» [arg 1].</text>
-		<arg f="" n="1"></arg>
-		<rel f=""></rel>
+		  <text>Все рейсы как из аэропорта Хургады , так и из Луксора отправляются по расписанию – мы специально узнавали это в администрации аэропортов », - рассказал корреспонденту инфогруппы « ТУРПРОМ » Сергей Заливин , замдиректора египетской missing word принимающего туроператор «ALS-tour».</text>
+		<arg f="" n="0">замдиректора египетской missing word</arg>
+		<rel f="">принимающего</rel>
+		<arg f="" n="1">туроператор «ALS-tour»</arg>
 	  </example>
-	  	<example name="" src=""type="">
-		  <text>Раньше в "Лана" принимали *pro* деток с 1,5 годика</text>
+	  <example name="" src=""type="">
+		<text>Раньше в "Лана" принимали *pro* деток с 1,5 годика</text>
 		<arg f="" n="0""Лана"></arg>
 		<arg f="" n="1""*pro* деток с 1,5 годика"></arg>
 		<rel f="принимали"></rel>
 	  </example>
-	  	  <example name="" src="" type="">
+	  <example name="" src="" type="">
         <text>Принять нас для получения задатка Елена Наумовна отказалась, сделки не будет, всё пошло прахом. А. Г. Волос, «Недвижимость», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)</text>
         <arg f="Елена Наумовна" n="0"></arg>
 		<arg f="нас" n="1"></arg>
 		<arg f="для получения задатка" n="2"></arg>
 		<rel f="Принять"></rel>
 	  </example>
-	  	  <example name="" src="Ирина Муравьева, «Мещанин во дворянстве», 1994 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+	  <example name="" src="Ирина Муравьева, «Мещанин во дворянстве», 1994 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Надо было по-царски принять и декана, и замдекана, и заведующую кафедрой, и старых друзей.</text>
 		<arg f="и декана, и замдекана, и заведующую кафедрой, и старых друзей" n="1"></arg>
 		<arg f="по-царски" n="2"></arg>
 		<rel f="Принять"></rel>
 	  </example>
-	  	  <example name="" src="Л. Е. Улицкая, «Путешествие в седьмую сторону света», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+	  <example name="" src="Л. Е. Улицкая, «Путешествие в седьмую сторону света», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Просьба Павла Алексеевича была скромной — принять дочку, вечерницу биофака, на работу в должности лаборанта.</text>
-        <arg f="на работу в должности лаборанта" n="2"> </arg>
-		<arg f="дочку, вечерницу биофака" n="1"></arg>
-		<rel f="принять"></rel>
+        <arg f="" n="2">на работу в должности лаборанта</arg>
+		<arg f="" n="1">дочку, вечерницу биофака</arg>
+		<rel f="">принять</rel>
 	  </example>
-	  	  <example name="" src="Russian National Corpus[коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)]" type="">
+	  <example name="" src="Russian National Corpus[коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)]" type="">
         <text>Я повторюсь, с хорошим знанием «живого» языка и опытом работы Вас примут с распростёртыми объятиями в необразовательных учреждениях, где это (язык особенно) требуется. </text>
-        <arg f="с распростёртыми объятиями в необразовательных учреждениях" n="2"></arg>
-		<arg f="Вас" v="1"></arg>
-		<rel f="примут"></rel>
+        <arg f=" n="2">"с распростёртыми объятиями в необразовательных учреждениях</arg>
+		<arg f="" v="1">Вас</arg>
+		<rel f="">примут</rel>
 	  </example>
+	</roleset>
+	
 	<roleset id="﻿принять.03" name="pass (e.g. law, resolution, etc), make official by voting">
 	  <note>﻿принять.03 NOTES: Roleset based on English verb frame pass.01 </note>
 	  <roles>
@@ -94,7 +99,7 @@
 	  </example>
 	</roleset>
   
-	<roleset id="﻿принять" name="read, catch, receive (a signal)">
+	<roleset id="﻿принять.04" name="catch, receive (a signal)">
 	  <note>Corresponds to FrameBank sense </note>
 	  <note>﻿принять.04 NOTES: No Frame match in English </note>
       <roles>
@@ -110,46 +115,11 @@
 	  	<example name= src="Russian National Corpus[Владимир Дудинцев. Не хлебом единым (1956)]" type="">
         <text>"Для начала я вручу вам три книжечки страниц по триста, заставлю вас их подзубрить и приму экзамен.".<text>
 		<rel f="">приму</rel>
-		<arg f="" n="0"> </arg>
-		<arg f="" n="1"></arg>
+		<arg f="" n="1">экзамен</arg>
 	  </example>
-	  <roleset id="﻿принять" name="undertake, tackle, start, begin">
-	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿принять.04 NOTES: Roleset based on English verb frame tackle.01</note>
-	<aliases>
-		<alias framenet="приниматься" pos="v" verbnet=""></alias>
-      </aliases> 
-	<roles>
-		<role descr="tackler, entity dealing with something, agent" f="PAG" n="0"/>
-		<role descr="thing tackled" f="PPT" n="1"/>
-		<role descr="means, strategy" f="MNR" n="2"/>
-      </roles>
-	  <example name= src="Russian National Corpus[Александр Рыклин. Спор правительствующих субъектов (2003) // «Еженедельный журнал», 2003.03.24]" type="">
-        <text>"Премьер покритиковал, покритикованные сделали выводы и принялись за работу. ".<text>
-		<rel f="">принялись</rel>
-		<arg f="" n="1">за работу</arg>
-	  </example>
-	  	<example name= src="Russian National Corpus [Анатолий Азольский. Лопушок // «Новый Мир», 1998]" type="">
-        <text>"Затем принялась за Андрея. Сказала, что поступать будет в педагогический, сочинение напишет, но вот по физике её надо поднатаскать.".<text>
-		<rel f="">принялась</rel>
-		<arg f="" n="1">за Андрея</arg>
-	  </example>
-	  <roleset id="﻿приняться" name="(plant) take root, grow"> 
-	    <aliases>
-		<alias framenet="" pos="v" verbnet="">приниматься</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿принять.04 NOTES: Roleset based on English verb frame settle_down.05</note>
-      <roles>
-		<role descr="resident " f="PPT" n="0"/>
-		<role descr="location" f="LOC" n="1"/>
-      </roles>
-	  <example name="" src="Russian National Corpus [М. Л. Гаспаров. Записи и выписки (2001)" type="">
-        <text>"Садовник пришел сказать: Посаженные им деревья принялись хорошо.<text>
-		<rel f="">принялись</rel>
-		<arg f="">Посаженные им деревья J="1"></arg>
-	  </example>
-	    <roleset id="﻿принять.07" name="assist birth, be a midwife"> 
+	</roleset>
+	
+	<roleset id="﻿принять.06" name="assist birth, be a midwife"> 
 	    <aliases>
 		<alias framenet="" pos="v" verbnet="">принимать</alias>
       </aliases>
@@ -167,16 +137,48 @@
 		<arg f="беременного следователя" n="1"></arg>
 		<arg f="роды" n="2"></arg>
 	  </example>
-	  	    <roleset id="﻿приняться.07" name="">
+	</roleset>
+  </predicate>
+
+  <predicate lemma="приняться">
+	<roleset id="﻿приняться.07" name="undertake, tackle, start, begin">
 	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿принять.04 NOTES: /note>
-      <roles>
-		<role descr="" f="PAG" n="0"/>
-		<role descr="" f="PPT" n="1"/>
+	  <note>﻿принять.05 NOTES: Roleset based on English verb frame tackle.01</note>
+	  <aliases>
+		<alias framenet="приниматься" pos="v" verbnet=""></alias>
+      </aliases> 
+	  <roles>
+		<role descr="tackler, entity dealing with something, agent" f="PAG" n="0"/>
+		<role descr="thing tackled" f="PPT" n="1"/>
+		<role descr="means, strategy" f="MNR" n="2"/>
       </roles>
-	  <example name="" src="" type="">
-        <text>"<text>
-		<rel f=""></rel>
-		<arg f="" n="0"></arg>
-		<arg f="" n="1"></arg>
+	  <example name= src="Russian National Corpus[Александр Рыклин. Спор правительствующих субъектов (2003) // «Еженедельный журнал», 2003.03.24]" type="">
+        <text>"Премьер покритиковал, покритикованные сделали выводы и принялись за работу. ".<text>
+		<rel f="">принялись</rel>
+		<arg f="" n="1">за работу</arg>
 	  </example>
+	  	<example name= src="Russian National Corpus [Анатолий Азольский. Лопушок // «Новый Мир», 1998]" type="">
+        <text>"Затем принялась за Андрея. Сказала, что поступать будет в педагогический, сочинение напишет, но вот по физике её надо поднатаскать.".<text>
+		<rel f="">принялась</rel>
+		<arg f="" n="1">за Андрея</arg>
+	  </example>
+	</roleset>
+	
+	<roleset id="﻿приняться.08" name="(plant) take root, grow"> 
+	    <aliases>
+		<alias framenet="" pos="v" verbnet="">приниматься</alias>
+      </aliases>
+	  <note>Corresponds to FrameBank sense </note>
+	  <note>﻿принять.04 NOTES: Roleset based on English verb frame settle_down.05</note>
+      <roles>
+		<role descr="resident " f="PPT" n="0"/>
+		<role descr="location" f="LOC" n="1"/>
+      </roles>
+	  <example name="" src="Russian National Corpus [М. Л. Гаспаров. Записи и выписки (2001)" type="">
+        <text>"Садовник пришел сказать: Посаженные им деревья принялись хорошо.<text>
+		<rel f="">принялись</rel>
+		<arg f="">Посаженные им деревья J="1"></arg>
+	  </example>
+	</roleset>
+  </predicate>
+</frameset>

@@ -36,6 +36,7 @@
       <roles>
         <role descr="worthy thing" f="PAG" n="1"/>
 		<role descr="worthy of what" f="PPT" n="2"/>
+		<role descr="entity recognizing value" f="GOL" n="3"/>
 	  </roles>
       <example name="worth it" src="" type="">
         <text>Но разве оно того стоило ?</text>

@@ -34,7 +34,7 @@
       <roles>
 		<role descr="thing found " f="PPT" n="1"/>
       </roles>
-	  <note>English Arg0-PAG has no match in Russian frame</note>
+	  <note>NOTES: English Arg0-PAG has no match in Russian frame</note>
 	  <example name="" src="Russian National Corpus[М. В. Сушков. Российский Вертер (1801)]" type="">
         <text>Однако ж не огорчайся много моею участию, но ты рассудителен, и слова сии будут излишни; а ежели когда-нибудь ты случишься в подобном положении, то последуй за мною.</text>
 		<arg f="" n="1">в подобном положении</arg>
@@ -71,33 +71,11 @@
 	  </example>
 	</roleset>
   
-	<roleset id="случить.04" name="bring together, befriend">
+	<roleset id="случить.04" name="call or gather hunting dogs">
 		<aliases>
 	  <alias framenet="" pos="v" verbnet="">случать</alias>
       </aliases>
-    
-	  <note>Corresponds to FrameBank sense </note>
-	  <note>случиться.04 NOTES:Roleset based on English verb frame introduce.01</note>
-      <roles>
-		<role descr="entity making introduction" f="PAG" n="0"/>
-		<role descr="entity being introduced " f="PPT" n="1"/>
-		<role descr="entity being introduced TO" f="PPT" n="2"/>
-      </roles>
-	  <example name="" src="" type="Russian National Corpus[Марина Вишневецкая. Вышел месяц из тумана (1997)]">
-        <text>Там он их познакомит, случит, чуть ли не женит ― и освободится в конце-то концов от ее домогательств.<text>
-		<rel f="">случит</rel>
-		<arg f="" n="o">он</arg>
-		<arg f="" n="1">их</arg>
-		<arg f="loc" n="m">Там </arg>
-	  </example>
-	   
-	  <roleset id="случиться.05" name="call or gather hunting dogs">
-		<aliases>
-	  <alias framenet="" pos="v" verbnet="">случать</alias>
-      </aliases>
-    
-	  <note>I am unfamiliar with this meaning of the word to make examples****-OM</note>
-	  <note>случиться.05 NOTES:Roleset based on English verb frame </note>
+	  <note>Rare, specialized. Perhaps archaic.</note>
       <roles>
 		<role descr="" f="" n="0"/>
 		<role descr="" f="" n="1"/>

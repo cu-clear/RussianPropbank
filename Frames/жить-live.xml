@@ -37,6 +37,7 @@
 		<alias framenet="" pos="j" verbnet="">прожитый</alias>
 		<alias framenet="" pos="v" verbnet="">житься</alias>
 		<alias framenet="" pos="j" verbnet="">живущийся</alias>
+		<alias framenet="" pos="v" verbnet="">поживать</alias>
       </aliases>
 	  <note>Corresponds to FrameBank sense 1</note>
 	  <note>жить.01 NOTES: Roleset based on English verb frame live.01</note>

@@ -4,9 +4,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="﻿приказать.01" name="order, advise, command, demand">
       <aliases>
-		<alias framenet="" pos="n" verbnet="">приказывать</alias>
-		<alias framenet="" pos="n" verbnet="">приказываться</alias>
-		<alias framenet="" pos="n" verbnet="">приказаться</alias>
+		<alias framenet="" pos="v" verbnet="">приказывать</alias>
+		<alias framenet="" pos="v" verbnet="">приказываться</alias>
+		<alias framenet="" pos="v" verbnet="">приказаться</alias>
       </aliases>
 	  <note>﻿приказать.01 NOTES: Roleset based on English verb frame order.01</note>
 	  <note>Corresponds to FrameBank senses 1</note>
@@ -15,63 +15,72 @@
 		<role descr="impelled agent" f="GOL" n="1"/>
 		<role descr="impelled action" f="PPT" n="2"/>
       </roles>
-	   <example name="" src="" type="М. А. Булгаков, «Мастер и Маргарита, часть 2», 1929-1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+	   <example name="split arg2" src="" type="М. А. Булгаков, «Мастер и Маргарита, часть 2», 1929-1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>У вас праздник, а что же прикажешь делать мне?</text>
+		<arg f="" n="2">что</arg>
+		<rel f="">прикажешь</rel>
 		<arg f="" n="1">мне</arg>
 		<arg f="" v="2">делать</arg>
-        <rel f="">прикажешь</rel>
       </example>
-      <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=приказать&cxid=7688" type="">
-        <text>А в Думе руководимая ими" Единая Россия " голосует так , как прикажет правительство .</text>
-        <arg f="" n="0">правительство</arg>
+      <example name="command, direct" src="http://marker.framebank.ru/verbs_ex.php?lex=приказать&cxid=7688" type="">
+        <text>А в Думе руководимая ими " Единая Россия " голосует так , как прикажет правительство .</text>
+		<arg f="" v="2">голосует так как</arg>
 		<rel f="">прикажет</rel>
-		<arg f="" v="2">голосует так</arg>
+		<arg f="" n="0">правительство</arg>
       </example>
-	  <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=приказать&cxid=7689">
+	  <example name="order; reflexive as passive" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=приказать&cxid=7689">
         <text>Приказывалось за час до выступления отправить с обоих корпусов 400 рабочих , с нужным числом фронтовых офицеров и двумя дивизионными квартирмистрами для исправления мостов и дороги</text>
-		<arg f="" n="1">Самолет</arg>
-		<arg f="" v="2">отправить</arg>
+		<rel f="">Приказывалось</rel>
 		<arg f="tmp" n="m">за час до выступления</arg>
-        <rel f="">Приказывалось</rel>
+		<arg f="" v="2">отправить с обоих корпусов 400 рабочих , с нужным числом фронтовых офицеров и двумя дивизионными квартирмистрами для исправления мостов и дороги</arg>
       </example>
-	   </example>
-	<roleset id="﻿приказать.02" name="entrust">
-	  <note>﻿приказать.02 NOTES: Roleset based on English verb frame entrust.01</note>
-	    <aliases>
-		<alias framenet="" pos="n" verbnet="">приказывать</alias>
+	</roleset>
+	
+	<roleset id="﻿приказать.02" name="entrust, bequeath">
+	  <aliases>
+		<alias framenet="" pos="v" verbnet="">приказывать</alias>
       </aliases>
-	  <note>Corresponds to FrameBank senses </note>
+	  <note>﻿приказать.02 NOTES: Roleset based on English verb frame entrust.01</note>
+	  <note>Somewhat archaic.</note>
+	  <note>Corresponds to FrameBank senses</note>
       <roles>
         <role descr="entity giving up control, agent" f="PAG" n="0"/>
-		<role descr="entity entrusted " f="PPT" n="1"/>
+		<role descr="entity entrusted" f="PPT" n="1"/>
 		<role descr="entity entrusted to" f="GOL" n="2"/>
       </roles>
-	  <example name="" src="Л. Н. Толстой, «Отрывки из деревенской жизни»" type="">
+	  <example name="entrust" src="Л. Н. Толстой, «Отрывки из деревенской жизни»" type="">
         <text>Накануне хозяин к начальству за деньгами в город ездил, а ребят Лизуну приказал.</text>
-        <arg f="" n="2">Лизуну</arg>
-		<arg f="" n="1">ребят</arg>
+        <arg f="" n="1">ребят</arg>
+		<arg f="" n="2">Лизуну</arg>
 		<rel f="">приказал</rel>
 	  </example>
-		
-	<roleset id="﻿приказать.03" name="bequeath, leave to">
-	 <note>﻿приказать.03 NOTES: Roleset based on English verb frame bequeath.01 </note>
-	      <aliases>
-	  <note>Corresponds to FrameBank sense </note>
-	  <roles>
-		<role descr="giver, agent" f="PAG" n="0"/>
-		<role descr="entity bequeathed" f="PPT" n="1"/>
-		<role descr="recipient" f="GOL" n="2"/>
-      </roles>
-	  <example name="example" src="https://vgd.ru/genealogical-mailer/inheritance/" type="">
+	  <example name="bequeth" src="https://vgd.ru/genealogical-mailer/inheritance/" type="">
         <text>В духовных грамотах завещатели, имея жену, приказывают имущество матери своей и сыновьям, отчину и дедину, землю и воду по отцовской грамоте и по владенью; распоряжаются челядью дерноватою;<text>
+		<arg f="loc" n="m">В духовных грамотах</arg>
+		<arg f="" n="0">завещатели, имея жену</arg>
 		<rel f="">приказывают</rel>
 		<arg f="" n="1">имущество</arg>
-		<arg f="" n="2"> матери своей и сыновьям</arg>
-	  </example
-	    <example name="example" src="OM" type="">
-        <text>В прошлом в России, владелец мог свой участок променять, продать, приказать кому-нибудь. (OM)<text>
-		<rel f="">приказать</rel>
-		<arg f="" n="2">кому-нибудь</arg>
-	  </example
+		<arg f="" n="2">матери своей и сыновьям</arg>
+	  </example>
 	</roleset>
+  </predicate>
+
+  <predicate>
+	<roleset id="приказать_долго_жить.03" name="give up the ghost, be no more, cease existence">
+	  <aliases>
+      </aliases>
+      <roles>
+		<role descr="corpse" f="PPT" n="1"/>
+      </roles>
+	  <example name="example" src="Russian National Corpus [Александр Ивантер. Созидательное разрушение // «Эксперт», 2014]" type="">
+        <text>Прямое железнодорожное сообщение с Екатеринбургом приказало долго жить несколько лет назад, а на перекладных через Серов займет часов одиннадцать чистого, без пересадок и ожиданий, времени.</text>
+        <arg f="" n="1">Прямое железнодорожное сообщение с Екатеринбургом</arg>
+		<rel f="">приказало</rel>
+		<rel f="">долго</rel>
+		<rel f="">жить</rel>
+		<arg f="" n="1">несколько лет назад</arg>
+	  </example>
+	</roleset>
+  </predicate>
+</frameset>
   

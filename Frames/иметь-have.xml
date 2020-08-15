@@ -4,19 +4,14 @@
   <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="иметь.01" name="have">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">имеющий</alias>
-		<alias framenet="" pos="j" verbnet="">имевший</alias>
-		<alias framenet="" pos="j" verbnet="">имеемый</alias>
 		<alias framenet="" pos="v" verbnet="">заиметь</alias>
-		<alias framenet="" pos="j" verbnet="">заимевший</alias>
-        <alias framenet="" pos="j" verbnet="">заименный</alias>
 		<alias framenet="" pos="v" verbnet="">иметься</alias>
 	  </aliases>
 	  <note>иметь.01 NOTES: Based on have.03.</note>
 	  <roles>
-        <role descr="owner" f="pag" n="0">
+        <role descr="owner" f="PAG" n="0">
         </role>
-        <role descr="possession, thing had as" f="ppt" n="1">
+        <role descr="possession, thing had as" f="PPT" n="1">
 		</role>
 	  </roles>
       <example name="all args" src="" type="">
@@ -50,15 +45,12 @@
 	
 	<roleset id="иметь.02" name="have sex with">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">имеющий</alias>
-		<alias framenet="" pos="j" verbnet="">имевший</alias>
-		<alias framenet="" pos="j" verbnet="">имеемый</alias>
 	  </aliases>
 	  <note>иметь.02 NOTES: Based on have.09.</note>
 	  <roles>
-        <role descr="agent, aggressor" f="pag" n="0">
+        <role descr="agent, aggressor" f="PAG" n="0">
         </role>
-        <role descr="victim/patient" f="ppt" n="1">
+        <role descr="victim/patient" f="PPT" n="1">
 		</role>
 	  </roles>
 	  <note>*English Arg1-VSP has no match in Russian frame</note>
@@ -83,7 +75,6 @@
 		<role descr="benefactive" f="GOL" n="2"/>
 		<role descr="secondary attribute of arg1" f="PAG" n="3"/>
 	  </roles>
-	  <note>иметь.03 NOTES: Based on hold.01.</note>
 	  <example name="all args" src="Russian National Corpus [Александра Маринина. Последний рассвет (2013)]" type="">
         <text>Илюша имеет на тебя зуб из-за дочери, которой ты морочишь голову уже десять лет, Олег Цырков тоже на тебя заковырял, хоть и не доказано ничего, но подозрения остались, да и по отношению ко мне у тебя непреходящее чувство вины за то, что ты натворил.</text>
 		<arg f="" n="0">Илюша</arg>
@@ -122,7 +113,7 @@
   </predicate>
   
   <predicate lemma="иметь_место">
-    <roleset id="иметь_место.05" name="have or take place">
+    <roleset id="иметь_место.05" name="have/take place">
       <aliases>
 		<alias framenet="" pos="m" verbnet="">иметься_место</alias>
 		<mwe id="иметь_место">

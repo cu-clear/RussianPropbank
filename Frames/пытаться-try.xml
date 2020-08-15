@@ -53,9 +53,8 @@
 		<rel f="">Пытали</rel>
       </example>
     </roleset>
-  </predicate>
-</frameset>
-<roleset id="пытаться.03" name="test, try, interrogate">
+
+	<roleset id="пытаться.03" name="test, try, interrogate">
       <aliases>
       </aliases>
 	  <note>NOTES: based on try_out.05</note>
@@ -91,4 +90,5 @@
 		<rel f=""></rel>
       </example>
     </roleset>
+   </predicate>
 </frameset>

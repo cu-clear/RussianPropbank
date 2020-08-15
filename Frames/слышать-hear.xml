@@ -28,7 +28,6 @@
 	  </roles>
       <example name="can hear where" src="" type="">
         <text>Я могу слышать тебя дальше по коридору .</text>
-		<arg f="" n="0">Я</arg>
         <rel f="">слышать</rel>
         <arg f="" n="1">тебя</arg>
 		<arg f="loc" n="m">дальше по коридору</arg>

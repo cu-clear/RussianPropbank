@@ -5,7 +5,6 @@
     <roleset id="обращаться.01" name="circulate, orbit, turn around">
       <aliases>
 	  </aliases>
-	  <note>Corresponds to FrameBank senses </note>
       <note>обращаться.01 NOTES: Based on orbit.01.</note>
       <roles>
 	    <role descr="revolving entity" f="PAG" n="0">
@@ -13,45 +12,42 @@
         <role descr="point orbited" f="PPT" n="1">
         </role>
 	  </roles>
-      <example name="" src="Russian National Corpus [В. П. Катаев. Алмазный мой венец (1975-1977)]" type="">
+      <example name="revolve around" src="Russian National Corpus [В. П. Катаев. Алмазный мой венец (1975-1977)]" type="">
         <text>в хорошем романе (хотя я и не признаю деление прозы на жанры) герой должен быть неподвижен, а обращаться вокруг него должен весь физический мир, что и составит если не галактику, то, во всяком случае, солнечную систему художественного произведения.</text>
-        <arg f="" n="0">весь физический мир</arg>
 		<rel f="">обращаться</rel>
         <arg f="" n="1">вокруг него</arg>
       </example>
-	  <example name="" src="Russian National Corpus [Ф. М. Достоевский. Записки из Мертвого дома (1862)]" type="">
+	  <example name="circulate" src="Russian National Corpus [Ф. М. Достоевский. Записки из Мертвого дома (1862)]" type="">
         <text>И уставали-то мы наконец, и легко в то же время становилось; щеки краснели, кровь обращалась быстрее.</text>
-        <rel f="">обращалась</rel>
-		<arg f="" n="0">кровь</arg>
-		<arg f="mnr" n="m">быстрее</arg>
+        <arg f="" n="0">кровь</arg>
+		<rel f="">обращалась</rel>
+		<arg f="adv" n="m">быстрее</arg>
       </example>
 	</roleset>
 	
 	<roleset id="обращаться.02" name="treat, act, behave, use, handle">
       <aliases>
 	  </aliases>
-	  <note>Corresponds to FrameBank senses 9</note>
       <note>обращаться.02 NOTES: Based on treat.01.</note>
+	  <note>Corresponds to FrameBank senses 9</note>
       <roles>
-	    <role descr="assumer of attribute (vnrole: 29.2-agent) " f="PAG" n="0">
+	    <role descr="assumer of attribute" f="PAG" n="0">
         </role>
-        <role descr="entity treated (vnrole: 29.2-theme) " f="PPT" n="1">
+        <role descr="entity treated" f="PPT" n="1">
         </role>
 		<role descr="attribute" f="PRD" n="2"/>
 	  </roles>
-      <example name="" src="" type="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+      <example name="treat" src="" type="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
         <text>Мачеха обращалась с ребенком плохо.</text>
 		<arg f="" n="0">Мачеха</arg>
+		<rel f="">обращалась</rel>
 		<arg f="" n="1">с ребенком</arg>
 		<arg f="" n="2">плохо</arg>
-		<rel f="">обращалась</rel>
       </example>
-	    <example name="" src="" type="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+	    <example name="handle" src="" type="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
         <text>Мой сын с юных лет умеет обращаться с ружьем.</text>
-		<arg f="" n="0">Мой сын</arg>
-		<arg f="" n="2">с юных лет</arg>
-		<arg f="" n="1">с ружьем</arg>
 		<rel f="">обращаться</rel>
+		<arg f="" n="1">с ружьем</arg>
       </example>
 	</roleset>
 	
@@ -68,53 +64,51 @@
         </role>
         <role descr="direction, destination" f="PPT" n="1">
         </role>
-		<role descr="attribute" f="GOL" n="3"/>
 	  </roles>
 	    <note>English ARGM-LOC = Russian Arg3-GOL</note>
-      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
+      <example name="address as" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
         <text>Он обращается ко мне на «вы», хотя я давно ему тыкаю.</text>
 		<arg f="" n="0">Он</arg>
-		<arg f="" n="3">ко мне</arg>
-		<arg f="" n="1">на «вы»</arg>
 		<rel f="">обращается</rel>
+		<arg f="" n="1">ко мне</arg>
+		<arg f="mnr" n="m">на «вы»</arg>
       </example>
-	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
+	   <example name="address with" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
 	   <text>Профессор обратился к первокурсникам с приветственной речью.</text>
 		<arg f="" n="0">Профессор</arg>
-		<arg f="" n="3">к первокурсникам</arg>
-		<arg f="" n="1">с приветственной речью</arg>
 		<rel f="">обратился</rel>
+		<arg f="" n="1">к первокурсникам</arg>
+		<arg f="mnr" n="m">с приветственной речью</arg>
       </example>
-	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
+	   <example name="turned to" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
 	   <text>Вдруг он обратился ко мне: «Вы не могли бы ему помочь?» </text>
+	   <arg f="dis" n="m">Вдруг</arg>
 		<arg f="" n="0">он</arg>
-		<arg f="" n="3">ко мне</arg>
-		<arg f="" n="1">«Вы не могли бы ему помочь?»</arg>
 		<rel f="">обратился</rel>
+		<arg f="" n="2">ко мне</arg>
+		<arg f="mnr" n="m">«Вы не могли бы ему помочь?»</arg>
       </example>
-	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
+	   <example name="directed towards" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
 	   <text>Все взгляды обратились к ней.</text>
-		<arg f="" n="0">Все</arg>
-		<arg f="" n="3">к ней</arg>
-		<arg f="" n="1">взгляды</arg>
+		<arg f="" n="0">Все взгляды</arg>
 		<rel f="">обратились</rel>
+		<arg f="" n="1">к ней</arg>
       </example>
-	        </example>
-	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
+	   <example name="imperfective" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
 	   <text>Исследователь обращается к изучению рукописей XV века.</text>
 		<arg f="" n="0">Исследователь</arg>
-		<arg f="" n="3"> рукописей XV века</arg>
-		<arg f="" v="1">изучению</arg>
+		<arg f="" v="1">к изучению рукописей XV века</arg>
 		<rel f="">обращается</rel>
       </example>
 	        </example>
 	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
 	   <text>обратить оружие против кого-л.</text>
-		<arg f="" n="3">против кого-л</arg>
+		<arg f="" n="2">против кого-л</arg>
 		<arg f="" n="1">оружие</arg>
 		<rel f="">обратить</rel>
       </example>
-	  <roleset id="обращаться.04" name="turn into, transform, exchange, convert">
+	 
+	 <roleset id="обращаться.04" name="turn into, transform, exchange, convert">
       <aliases>
 		<alias framenet="" pos="j" verbnet="">обратить</alias>
 		<alias framenet="" pos="j" verbnet="">обращаться</alias>

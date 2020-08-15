@@ -12,8 +12,8 @@
 	  <note>Corresponds to FrameBank senses 1,2; -ся 1,2,4</note>
       <roles>
         <role descr="bringer" f="PPT" n="0"/>
-		<role descr="thing brought" f="LOC" n="1"/>
-		<role descr="benefactive, brought-for, brought-to" f="PPT" n="2"/>
+		<role descr="thing brought" f="PPT" n="1"/>
+		<role descr="benefactive, brought-for, brought-to" f="GOL" n="2"/>
 		<role descr="attribute" f="DIR" n="3"/>
 		<role descr="ablative, brought-from" f="GOL" n="4"/>
       </roles>
@@ -106,14 +106,12 @@
 		<rel f="">достали</rel>
 		<arg f="" n="1">меня</arg>
 	  </example>
-
-
-	  </example>
-	  	<roleset id="﻿достать.05" name="get to, have to">
+	</roleset>
+	
+	<roleset id="﻿достать.05" name="get to, have to">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">доставаться</alias>
       </aliases>
-    
 	  <note>Corresponds to FrameBank sense 3</note>
 	  <note>﻿достать.04 NOTES: Roleset based on English verb frame get.06</note>
       <roles>
@@ -125,9 +123,10 @@
 		<rel f="">досталось</rel>
 		<arg f="" n="0">ему</arg>
 		<arg f="" v="1">служить в очень проблемной воинской части</arg>
-
 	  </example>
-	  	<roleset id="﻿достать.06" name="gonna get it, be in trouble">
+	</roleset>
+	
+	<roleset id="﻿достать.06" name="gonna get it, be in trouble">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">доставаться</alias>
       </aliases>
@@ -151,7 +150,7 @@
 		<arg f="EXT" n="m">по полной</arg>
 		<arg f="LOC" n="m">под Прохоровкой</arg>
 		</example>
-		 </roleset>
+	</roleset>
   </predicate>
   
    <predicate lemma="достаться_на_орехи">

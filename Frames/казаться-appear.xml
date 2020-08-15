@@ -2,12 +2,9 @@
 <frameset>
   <predicate lemma="казаться">
   <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="казаться.01" name="have a desire">
+    <roleset id="казаться.01" name="seem, appear to be">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">кажущийся</alias>
-        <alias framenet="" pos="j" verbnet="">казавшийся</alias>
 		<alias framenet="" pos="v" verbnet="">показаться</alias>
-		<alias framenet="" pos="j" verbnet="">показавшийся</alias>
       </aliases>
 	  <note>Corresponds to FrameBank senses 1,2,3,4</note>
       <note>казаться.01 NOTES: Adjusted from English PB seem.01.</note>
@@ -52,7 +49,8 @@
     <roleset id="казаться_на_глаза.02" name="appear, show up">
       <aliases>
         <alias framenet="" pos="j" verbnet="">показаться_на_глаза</alias>
-		<alias framenet="" pos="j" verbnet="">казаться_на_глаза</alias>
+		<alias framenet="" pos="j" verbnet="">показаться_на_глазах</alias>
+		<alias framenet="" pos="j" verbnet="">казаться_на_глазах</alias>
         <alias framenet="" pos="j" verbnet="">казать_глаз</alias>
 		<alias framenet="" pos="j" verbnet="">показать_глаз</alias>
 		<mwe id="казаться_на_глаза">
@@ -66,11 +64,11 @@
 			<token slot="С" arg="" pos="" head="A" dep="">глазах</token>
 		</mwe>
       </aliases>
-      <note>казаться_на_глаза NOTES: Adjusted from appear.01.</note>
+      <note>казаться_на_глаза NOTES: Based on English PB appear.02 but semantically closer to appear.01.</note>
       <roles>     
 	    <role descr="thing appearing" f="PPT" n="1">
         </role>
-        <role descr="perceiver" f="GOL" n="2">
+        <role descr="viewer, to whom does it seem like that?" f="GOL" n="2">
         </role>
       </roles>
       <example name="arg1" src="Russian National Corpus. [Ольга Славникова. Стрекоза, увеличенная до размеров собаки (1995-1999)]" type="">
@@ -91,7 +89,6 @@
       </example>
 	  <example name="perfective reflexive, dative arg2" src="Russian National Corpus. [Ирина Краева. Тим и Дан, или Тайна «Разбитой коленки»: сказочная повесть (2007)]" type="">
         <text>Как они осмелились показаться вам на глаза?</text>
-        <arg f="" n="1">*Trace-1*</arg>
         <rel f="">показаться</rel>
 		<arg f="" n="2">вам</arg>
 		<rel f="">на</rel>

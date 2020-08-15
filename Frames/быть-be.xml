@@ -68,7 +68,6 @@
 	  <example name="example" src="" type="">
         <text>С чем будешь пиво ?<text>
 		<arg f="adv" n="m">С чем</arg>
-		<arg f="" n="0">*PRO*</arg>
 		<rel f="">будешь</rel>
 		<arg f="" n="1">пиво</arg>
 	  </example>

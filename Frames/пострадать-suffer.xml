@@ -7,13 +7,8 @@
          <alias framenet="" pos="v" verbnet="">страдать</alias>
 		 <alias framenet="" pos="j" verbnet="">страдающий</alias>
 		 <alias framenet="" pos="j" verbnet="">страдавший</alias>
-		 <alias framenet="" pos="v" verbnet="">страдая</alias>
-		 <alias framenet="" pos="v" verbnet="">страдавши</alias>
-		 <alias framenet="" pos="v" verbnet="">страдав</alias>
 		 <alias framenet="" pos="v" verbnet="">пострадать</alias>
 		 <alias framenet="" pos="j" verbnet="">пострадавший</alias>
-		 <alias framenet="" pos="j" verbnet="">пострадавши</alias>
-		 <alias framenet="" pos="v" verbnet="">пострадав</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses 1,4,5</note>
 	  <note>ПОСТРАДАТЬ.01 NOTES: Based on English suffer.01</note>
