@@ -119,6 +119,18 @@
 		<arg f="" n="0">вузу, который может зарабатывать деньги за счёт дополнительных услуг</arg>
 	  </example>
 	</roleset>
+		  
+	<roleset id="быть.08" name="MODAL; will/was/were">
+      <aliases>
+      </aliases>
+	  <note>быть.08 NOTES: Roleset based on English verb frame be.03f</note>
+      <roles>
+      </roles>
+	<example name="modal" src="Sarah Moeller" type="">
+        <text>Машина была в гараже.<text>
+		<rel f="">была</rel>
+	  </example>
+	</roleset>
   </predicate>
 
   <predicate lemma="стало_быть">
