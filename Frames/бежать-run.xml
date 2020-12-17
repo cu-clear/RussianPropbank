@@ -1,0 +1,127 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="﻿бежать">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="﻿бежать.01" name="run, move quickly">
+      <aliases>
+      </aliases>
+	  <note>﻿бежать.01 NOTES: Roleset based on English verb frame run.02 </note>
+	  <note>Corresponds to FrameBank senses 1,3,4,5,7,8</note>
+      <roles>
+        <role descr="runner " f="PPT" n="0"/>
+		<role descr="course, race, distance " f="LOC" n="1"/>
+		<role descr="opponent" f="PPT" n="2"/>
+		<role descr="start point" f="DIR" n="3"/>
+		<role descr="end point" f="GOL" n="4"/>
+      </roles>
+	    <note>NOTES:Russian Arg3-DIR has no match in English Frame </note>
+		<note>NOTES:Russian Arg4-GOL has no match in English Frame</note>
+      <example name="chases" src="И. П. Горелов, «Витенька», 1952 г. // «Крокодил»" type="">
+        <text>Мама бежит за чем-то в кухню и натыкается на Витеньку.</text>
+        <arg f="" n="0">Мама</arg
+		<rel f="">бежит</rel>
+		 <arg f="prp" n="m">за чем-то</arg>
+		<arg f="" n="4">в кухню</arg>
+      </example>
+	  <example name="run and" src="FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=бежать&cxid=1039" type="">
+        <text>Анка с Таней бегут закупаться чтивом в дорогу -- ехать предстоит 36 часов."</text>
+		<arg f="" n="0">Анка с Таней</arg>
+		<rel f="">бегут</rel>
+		<arg f="prp" n="m">закупаться</arg>
+      </example>
+	   <example name="run distance" src="Russian National Corpus[Сергей Самсонов. Одиннадцать (2010)]" type="">
+        <text>― Не сочтите за лекцию: в футболе быстр не тот, кто бежит стометровку за тринадцать секунд.</text>
+		<arg f="" n="0">кто</arg>
+		<rel f="">бежит</rel>
+		<arg f="" n="1">стометровку</arg>
+		<arg f="tmp" n="m">за тринадцать секунд</arg>
+      </example>
+	   <example name="time flies" src="" type="">
+        <text>Время бежит.</text>
+		<arg f="" n="0">Время</arg>
+        <rel f="">бежит</rel>
+      </example>
+	   <example name="goosebumps up and down spine" src="" type="">
+        <text>мурашки по спине бегут</text>
+		<arg f="" n="0">мурашки</arg>
+		<arg f="" n="1">по спине</arg>
+        <rel f="">бегут</rel>
+      </example>
+    </roleset>
+ 
+	<roleset id="﻿бежать.02" name="range, extend">
+      <aliases>
+      </aliases>
+	  <note>﻿бежать.02 NOTES: Roleset based on English verb frame run.04</note>
+	  <note>Corresponds to FrameBank senses 6</note>
+      <roles>
+        <role descr="agent (rare)" f="PAG" n="0"/>
+		<role descr="logical subject, thing ranging" f="PPT" n="1"/>
+		<role descr="extent, distance run" f="EXT" n="2"/>
+		<role descr="start point" f="DIR" n="3"/>
+		<role descr="end point" f="GOL" n="4"/>
+		<role descr="location, surface" f="LOC" n="5"/>
+      </roles>
+	  <note>NOTES:Russian Arg5-LOC has no match in English Frame </note>
+	  <example name="cracks run along" src="" type="">
+        <text>Перед зеркалом, по которому веером бежали трещины, он брил моряка в полосатой тельняшке.</text>
+		<arg f="" n="5">по которому</arg>
+		<arg f="mnr" n="m">веером</arg>
+		<rel f="">бежали</rel>
+		<arg f="" n="1">трещины</arg>
+	  </example>
+	  <example name="shadow stretches" src="" type="">
+        <text>И с особенной отчетливостью выделялся на фоне стены позорный столб, его тень, прямая как стрела, лежала на мощеной поверхности двора, круто переламывалась у подножия стены и вертикально бежала дальше вверх по стене, растворяясь в бесконечности ночи...</text>
+		<arg f="mnr" n="m">вертикально</arg>
+		<rel f="">бежала</rel>
+		<arg f="" n="5">дальше вверх по стене</arg>
+	  </example>
+	</roleset>
+	
+	<roleset id="﻿бежать.03" name="run away, escape">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">сбежать</alias>
+		<alias framenet="" pos="n" verbnet="">побег </alias>
+      </aliases>
+	  <note>﻿бежать.03 NOTES:No Frame match in English.</note>
+	  <note>Corresponds to FrameBank sense 2</note>
+	  <roles>
+		<role descr="entity escaping " f="PAG" n="0"/>
+		<role descr="place or thing escaped" f="PPT" n="1"/>
+      </roles>
+	  <example name="all args" src="" type="">
+        <text>Ты бежал с каторги, что ли? <text>
+		<arg f="" n="0">Ты</arg>
+		<rel f="">бежал</rel>
+		<arg f="" n="1">с каторги</arg>
+	  </example>
+	  <example name="escaping" src="А. И. Куприн, «Листригоны», 1911 г." type="">
+        <text>Это бежат сотни и тысячи испуганных рыб, спасающихся от преследования прожорливого хищника. <text>
+		<rel f="">бежат</rel>
+		<arg f="" n="o">сотни и тысячи испуганных рыб</arg>
+	  </example>
+	  <example name="runs away" src="нар. песня на основе стихотворения; А. С. Пушкина, «Как ныне сбирается вещий Олег...», 1910-е г" type="">
+        <text>Так громче, музыка, играй победу, // Мы победили, и враг бежит, бежит, бежит!" <text>
+		<arg f="" n="0">враг</arg>
+		<rel f="">бежит</rel>
+	  </example>
+	</roleset>
+  
+	<roleset id="﻿бежать.04" name="(about clocks) be fast, show a later time">
+      <aliases>
+      </aliases>
+	  <note>﻿бежать.04 NOTES: Roleset based on English verb frame fast.02</note>
+	  <note>Corresponds to FrameBank sense 9</note>
+      <roles>
+		<role descr="fast entity/action" f="PPT" n="10"/>
+		<role descr="speed, how many minutes ahead" f="EXT" n="2"/>
+      </roles>
+	  <example name="example" src="Russian National Corpus[И. Грекова. На испытаниях (1967)]" type="">
+        <text>Часы на 10 минут бегут.<text>
+		<arg f="" n="1">Часы</arg>
+		<arg f="" n="2">на 10 минут</arg>
+		<rel f="">бегут</rel>
+	  </example>
+	 </roleset>
+	</predicate>
+</frameset>

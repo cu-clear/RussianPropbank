@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="﻿наблюдать">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="﻿наблюдать.01" name="observe, look at, mark, watch over">
+      <aliases>
+		<alias framenet="" pos="n" verbnet="">понаблюдать</alias>
+		<alias framenet="" pos="n" verbnet="">наблюдаться</alias>
+      </aliases>
+	  <note>﻿наблюдать.01 NOTES: Roleset based on English verb frame observe.01</note>
+	  <note>Corresponds to FrameBank senses 1,2,3</note>
+      <roles>
+        <role descr="observer" f="PAG" n="0"/>
+		<role descr="thing looked at " f="PAG" n="1"/>
+      </roles>
+      <example name="" src="С. Т. Аксаков, «Детские годы Багрова-внука, служащие продолжением семейной хроники», 1858 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Я внимательно наблюдал, как она обдавала миндаль кипятком, </text>
+        <arg f="" n="0">Я</arg>
+		<arg f="mnr" n="m">внимательно</arg>
+		<rel f="">наблюдал</rel>
+		<arg f="" n="1">скак она обдавала миндаль кипятком</arg>
+      </example>
+	  <example name="" src="" type="С. П. Мельгунов, «Красный террор" в России», 1924 г. (цитата из Национального корпуса русского языка, см. Список литературы)""type="">
+        <text> Поздно вечером на тюремном дворе, когда он был уже пуст, случайно мне пришлось наблюдать картину ― не знаю жуткую или страшную, но по своему неестественному контрасту врезавшуюся в память, как острая игла.</text>
+		<arg f="" n="1">картину</arg>
+        <rel f="">наблюдать</rel>
+      </example>
+	   </example>
+	  <example name="" src="В. А. Обручев, «Земля Санникова», 1924 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Они обходили только ближайшие поляны и леса, всегда в сопровождении нескольких воинов, наблюдая жизнь животных и развитие растительности, принимая участие в небольших охотах или занимаясь рыбной ловлей на озёрах, чтобы познакомиться с представителями этого класса позвоночных.</text>
+		<arg f="" n="0">Я</arg>
+		<arg f="" n="1">жизнь животных и развитие растительности</arg>
+        <rel f="">наблюдая </rel>
+      </example>
+	   </example>
+	  <example name="" src="С. Т. Аксаков, «Воспоминания», 1856 г. (цитата из Библиотеки Максима Мошкова, см. Список литературы)" type="">
+        <text>[Отец] большую часть дня должен был проводить на мельнице, наблюдая над разными работами.</text>
+		<arg f="" n="1">над разными работами</arg>
+        <rel f="">наблюдая</rel>
+      </example>
+	   </example>
+	  <example name="" src="" type="">
+        <text>Врач наблюдала больного.</text>
+		<arg f="" n="0">Врач </arg>
+		<arg f="" n="1">больного</arg>
+        <rel f="">наблюдала</rel>
+      </example>
+	   </example>
+	  <example name="" src="Д. И. Рубина, «Окна», 2011 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Я решила понаблюдать, подаст ли кто-нибудь сразу обоим музыкантам на променаде, и одновременно прислушивалась к звонкому голоску рыжей девочки, поэтому не заметила, как подошла та женщина.</text>
+		<arg f="" n="0">Я </arg>
+		<arg f="" n="1">подаст ли кто-нибудь сразу обоим музыкантам на променаде, и одновременно прислушивалась к звонкому голоску рыжей девочки</arg>
+        <rel f="">понаблюдать</rel>
+      </example>
+	</roleset>
+	
+	<roleset id="﻿наблюдать.02" name="observe, keep, regard a law or rule (archaic)">
+	  <note>﻿наблюдать.02 NOTES: Roleset based on English verb frame obey.01</note>
+	  <note>Corresponds to FrameBank senses </note>
+      <roles>
+        <role descr="obeyer" f="PAG" n="0"/>
+		<role descr="rule" f="PPT" n="1"/>
+      </roles>
+	  <example name="" src="А. С. Пушкин, «Пиковая дама», 1833 г. (цитата из Русской виртуальной библиотеки)" type="">
+        <text>У себя принимала она весь город, наблюдая строгий этикет.</text>
+        <arg f="mnr" n="m">рикошетом </arg>
+		<arg f="" v="1">строгий этикет</arg>
+		<rel f="">наблюдая</rel>
+	  </example>
+	</roleset>
+   </predicate>
+<frameset>

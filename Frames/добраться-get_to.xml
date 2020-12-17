@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="добраться">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="добраться.01" name="get to, arrive at, make it to, achieve">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">добираться</alias>
+      </aliases>
+      <note>добраться.01 NOTES: Roleset based on English reach.1</note>
+      <roles>
+        <role descr="thing striving" f="PAG" n="0">
+        </role>
+        <role descr="goal, destination, end state, thing attained" f="GOL" n="1">
+      </roles>
+      <example name="arg 0 and 1" src="Russian National Corpus[В. Э. Карпов, Т. В. Мещерякова. Об автоматизации нетворческих литературных процессов // «Информационные технологии», 2004]" type="">
+        <text>Необходимы для описания того, как персонаж добирается до места встречи из одного локуса в другой.</text>
+        <arg f="" n="0">персонаж</arg>
+        <rel f="">добирается</rel> 
+        <arg f="" n="1">до места встречи</arg>
+      </example>
+      <example name="perfective all args" src="Russian National Corpus[Наши дети: Подростки (2004)]" type="">
+        <text>А автор, судя по всему, до этого никак не доберётся и, тратя силы и время на ор, будет искать взаимопонимание очень долго.</text>
+        <arg f="" n="0">автор</arg>
+        <arg f="neg" n="m">не </arg>
+        <rel f="">доберётся</rel>
+        <arg f="" n="1">до этого</arg>
+      </example>
+      <example name="perfective" src="Russian National Corpus[Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001]" type="">
+        <text>Вот что страшно: знать, что и до тебя скоро доберётся!</text>
+		<arg f="" n="1">до тебя</arg>
+        <arg f="tmp" n="m">скоро</arg>
+        <rel f="">доберётся</rel>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>
+ 

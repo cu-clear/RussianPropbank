@@ -1,0 +1,85 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="случиться">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="случиться.01" name="happen, occur, happen to be">
+      <aliases>
+      </aliases>
+	  <note>случиться.01 NOTES: Roleset based on English verb frame happen.01</note>
+	  <note>Corresponds to FrameBank senses 1,2</note>
+      <roles>
+        <role descr="event" f="PPT" n="1"/>
+		<role descr="benefactive" f="GOL" n="2"/>
+      </roles>
+      <example name="" src="Russian National Corpus[Евгений Гришковец. ОдноврЕмЕнно (2004)]" type="">
+        <text>Папа, что это с тётей случилось?</text>
+		<rel f="">случилось</rel>
+		<arg f="" n="1">что это</arg>
+		<arg f="" n="2">с тётей</arg>
+      </example>
+	  <example name="" src="Russian National Corpus[Запись LiveJournal (2004)] " type="">
+        <text>Случилось мне недавно обедать с моим приятелем Олегом Муковским.</text>
+		<arg f="" n="1">обедать</arg>
+		<arg f="" n="2">мне</arg>
+		<arg f="tmp" n="m">недавно</arg>
+        <rel f="">Случилось</rel>
+      </example>
+    </roleset>
+    
+	<roleset id="случиться.02" name="happen to be, find self (middle or passive voice)">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">случаться</alias>
+      </aliases>
+	  <note>случиться.02 NOTES: Roleset based on English verb frame find.03</note>
+      <roles>
+		<role descr="thing found " f="PPT" n="1"/>
+      </roles>
+	  <note>NOTES: English Arg0-PAG has no match in Russian frame</note>
+	  <example name="" src="Russian National Corpus[М. В. Сушков. Российский Вертер (1801)]" type="">
+        <text>Однако ж не огорчайся много моею участию, но ты рассудителен, и слова сии будут излишни; а ежели когда-нибудь ты случишься в подобном положении, то последуй за мною.</text>
+		<arg f="" n="1">в подобном положении</arg>
+		<arg f="tmp" n="m">когда-нибудь</arg>
+		<rel f="">случишься</rel>
+	  </example>
+	  	  <example name="" src="Russian National Corpus[Алексей Иванов. За рекой, за речкой (1982)]" type="">
+        <text>А если и я случусь к тому времени за столом, так горе мне горькое ― выпить не дадут: расскажи да расскажи, как с гусями дело было.</text>
+		<arg f="loc" n="m">за столом</arg>
+		<arg f="tmp" n="m">к тому времени</arg>
+		<rel f="">случусь</rel>
+	  </example>
+	</roleset>
+	
+	<roleset id="случиться.03" name="mate animals">
+      <aliases>
+	  <alias framenet="" pos="v" verbnet="">случаться</alias>
+	  <alias framenet="" pos="v" verbnet="">случиться</alias>
+	  <alias framenet="" pos="v" verbnet="">случать</alias>
+      </aliases>
+	   <note>Corresponds to FrameBank sense</note>
+	  <note>случиться.03 NOTES: Roleset based on English verb frame mate.02</note>
+	  <roles>
+		<role descr="outside agent" f="PAG" n="0"/>
+		<role descr="first party (or all parties)" f="PAG" n="1"/>
+		<role descr="second party" f="COM" n="2"/>
+      </roles>
+	  <example name="" src="[Алексей Варламов. Купавна // «Новый Мир», 2000]" type="">
+        <text>Однажды кошку случили с громадным сиамским котом, и у неё родилось беленькое потомство. <text>
+		<rel f="">случили</rel>
+		<arg f="" n="2">с громадным сиамским котом</arg>
+		<arg f="" n="1">кошку</arg>
+		<arg f="tmp" n="m">Однажды</arg>
+	  </example>
+	</roleset>
+  
+	<roleset id="случить.04" name="call or gather hunting dogs">
+		<aliases>
+	  <alias framenet="" pos="v" verbnet="">случать</alias>
+      </aliases>
+	  <note>Rare, specialized. Perhaps archaic.</note>
+      <roles>
+		<role descr="" f="" n="0"/>
+		<role descr="" f="" n="1"/>
+		<role descr="" n="2"/>
+		<role descr=" " f="" n="3"/>
+      </roles>
+	

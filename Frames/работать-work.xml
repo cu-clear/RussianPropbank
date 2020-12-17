@@ -6,24 +6,19 @@
       <aliases>
 		<alias framenet="" pos="j" verbnet="">работающий</alias>
 		<alias framenet="" pos="j" verbnet="">работавший</alias>
-		<alias framenet="" pos="v" verbnet="">работая</alias>
-		<alias framenet="" pos="v" verbnet="">работавши</alias>
-		<alias framenet="" pos="v" verbnet="">работав</alias>
 		<alias framenet="" pos="j" verbnet="">работаемый</alias>
 		<alias framenet="" pos="j" verbnet="">работанный</alias>
 		<alias framenet="" pos="v" verbnet="">поработать</alias>
 		<alias framenet="" pos="j" verbnet="">поработавший</alias>
-		<alias framenet="" pos="v" verbnet="">поработавши</alias>
-		<alias framenet="" pos="v" verbnet="">поработав</alias>
       </aliases>
 	  <note>Corresponds to FrameBank sense 1</note>
 	  <roles>
-        <role descr="worker" f="pag" n="0"/>
-        <role descr="job, project" f="ppt" n="1"/>
-        <role descr="employer, benefactive" f="gol" n="2"/>
-        <role descr="coworker" f="com" n="3"/>
-        <role descr="instrumental, predicative job" f="mnr" n="4"/>
-        <role descr="secondary-theme" f="prd" n="5"/>
+        <role descr="worker" f="PAG" n="0"/>
+        <role descr="job, project" f="PPT" n="1"/>
+        <role descr="employer, benefactive" f="GOL" n="2"/>
+        <role descr="coworker" f="COM" n="3"/>
+        <role descr="instrumental, predicative job" f="MNR" n="4"/>
+        <role descr="secondary-theme" f="PRD" n="5"/>
       </roles>
       <example name="work-v: unaccusative" src="" type="">
         <text>Твоя мама работает ?</text>
@@ -84,15 +79,15 @@
 	  <note>Corresponds to FrameBank sense 6</note>
 	  <note>работать.02 NOTE: Similar to "work.09"</note>
       <roles>
-        <role descr="thing functioning" f="ppt" n="0"/>
-        <role descr="beneficiary" f="gol" n="1"/>
+        <role descr="thing functioning" f="WPPT" n="0"/>
+        <role descr="beneficiary" f="GOL" n="1"/>
       </roles>
       <example name="work-v: machine" src="" type="">
         <text>Дык только переключатель выключают , он просто работает в режиме stand-by ( желтый мигает )</text>
         <arg f="" n="0">он</arg>
         <arg f="adv" n="m">просто</arg>
         <rel f="">работает</rel>
-        <arg f="mnr" n="m">в режиме stand-by</arg>
+        <arg f="MNR" n="m">в режиме stand-by</arg>
       </example>
       <example name="work-v: working" src="" type="">
         <text>Полагаю , ничего хорошего не ожидается от постоянно работающего мобильника в кармане .</text>
@@ -107,12 +102,12 @@
 	<note>Corresponds to FrameBank senses 2,3,4</note>
       <note>работать.03 NOTE: Similar to "work.10"</note>
       <roles>
-        <role descr="Person/Entity working something1" f="pag" n="0"/>
-        <role descr="Thing undergoing change of state, unselected object of work" f="ppt" n="1"/>
-        <role descr="End result of thing worked, arg1" f="prd" n="2"/>
-        <role descr="Instrument" f="prd" n="3"/>
+        <role descr="Person/Entity working something1" f="PAG" n="0"/>
+        <role descr="Thing undergoing change of state, unselected object of work" f="PPT" n="1"/>
+        <role descr="End result of thing worked, arg1" f="PRD" n="2"/>
+        <role descr="Instrument" f="MNR" n="3"/>
       </roles>
-      <example name="work-v:" src="BOLT" type="">
+      <example name="work-v:" src="" type="">
         <inflection aspect="ns" form="ns" person="ns" tense="ns" voice="ns"/>
         <text>Часто меняют те которые работают с пирамидами фондами и держат свои рефсайты .</text>
         <arg f="" n="0">которые</arg>
@@ -126,8 +121,8 @@
       <note>работать.04 NOTE: Similar to "work.09" but no beneficiary possible</note>
       <note>работать.04 NOTE: Meaning: to be free of passage, available for business</note>
       <roles>
-        <role descr="causer" f="pag" n="0"/>
-        <role descr="thing functioning" f="ppt" n="1"/>
+        <role descr="causer" f="PAG" n="0"/>
+        <role descr="thing functioning" f="PPT" n="1"/>
       </roles>
       <example name="work-v: operating place of business" src="" type="">
         <text>Йogurt Antonio клуб вобщет работает до 4х утра теперь</text>
@@ -149,8 +144,8 @@
       </aliases>
 	  <note>Corresponds to FrameBank sense 7</note>
       <roles>
-        <role descr="how it works, middle voice" f="mnr" n="1"/>
-		<role descr="worker, one affected by desire/feeling about work" f="ppt" n="2"/>
+        <role descr="how it works, middle voice" f="MNR" n="1"/>
+		<role descr="worker, one affected by desire/feeling about work" f="PPT" n="2"/>
       </roles>
       <example name="how is the work going" src="" type="">
         <text>Как вам работается на новом месте ?</text>

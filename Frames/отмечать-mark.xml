@@ -1,0 +1,137 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="отметить">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="отметить.01" name="make a mark">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">отмечать</alias>
+		<alias framenet="" pos="n" verbnet="">отметка</alias>
+      </aliases>
+      <note>отметить.01 NOTES: based on English mark.02</note>
+      <note>Corresponds to FrameBank senses 1,2</note>
+	  <roles>
+        <role descr="agent, marker" f="PAG" n="0">
+        </role>
+        <role descr="mark" f="PPT" n="1">
+        </role>
+		<role descr="surface, marked-on " f="GOL" n="2"/>
+		<role descr="instrument, marker" f="MNR" n="3"/>
+      </roles>
+      <example name="arg1 and arg 2" src="" type="">
+        <text>в паспорте отметили «постоянно проживающий за границей».</text>
+        <arg f="" n="2">в паспорте</arg>
+		<rel f="">отметили</rel>
+		<arg f="" n="1">«постоянно проживающий за границей»</arg>
+      </example>
+    </roleset>
+    
+	<roleset id="отметить.02" name="mark, signify, distinguish, celebrate">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">отмечать</alias>
+		<alias framenet="" pos="v" verbnet="">отметиться</alias>
+		<alias framenet="" pos="v" verbnet="">отмечаться</alias>
+      </aliases>
+	  <note>отметить.02 NOTES: Roleset based on English verb frame mark.01</note>
+	  <note>Corresponds to FrameBank sense 5,6</note>
+      <roles>
+        <role descr="signifier" f="PAG" n="0"/>
+		<role descr="signified" f="PPT" n="1"/>
+      </roles>
+	  <example name="commemorate" src="" type="Russian National Corpus[Взрыв и хаос к юбилею (2003) // «Поиск», 2003.09.12]">
+        <text>Именно так отметили в Институте ядерной физики СО РАН 75-летний юбилей академика Бориса Чирикова, основателя физической теории динамического хаоса.</text>
+		<arg f="dis" n="m">Именно так</arg>
+		<rel f="">отметили</rel>
+		<arg f="loc" n="m">в Институте ядерной физики СО РАН</arg>
+		<arg f="" n="1">75-летний юбилей академика Бориса Чирикова</arg>
+	  </example>
+	  <example name="recognized for" src="Russian National Corpus [Людмила Улицкая. Казус Кукоцкого [Путешествие в седьмую сторону света] // «Новый Мир», 2000]" type="">
+        <text>Начальство Елену хвалило, отмечало как старательную и способную девушку.</text>
+		<rel f="">отмечало</rel>
+		<arg f="" n="1">как старательную и способную девушку</arg>
+	  </example>
+	  <example name="celebrate" src="Сергей Останин, «Отмечается 63-я годовщина рождения советской гвардии», 2004 г. (цитата из Национального корпуса русского языка, см. Список литературы" type="">
+        <text>63-я годовщина со дня рождения советской гвардии отмечается сегодня в России.</text>
+        <arg f="" n="1">63-я годовщина со дня рождения советской гвардии</arg>
+		<rel f="">отмечается</rel>
+		<arg f="tmp" n="m">сегодня</arg>
+		<arg f="loc" n="m">в России</arg>
+	  </example>
+	  <example name="Middle voice/reflexive" src="Олег Селедцов, «Учебка», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Вот и апрель отметился цветением сирени.</text>
+		<arg f="dis" n="m">Вот и</arg>
+		<arg f="" n="0">апрель</arg>
+		<rel f="">отметился</rel>
+		<arg f="" n="1">цветением сирени</arg>
+	  </example>
+	</roleset>
+	
+	<roleset id="отметить.03" name="note, notice, point out">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">отмечать</alias>
+		<alias framenet="" pos="v" verbnet="">отмечаться</alias>
+      </aliases>
+	  <note>отметить.03 NOTES: based on English note.01</note>
+	  <note>Corresponds to FrameBank senses 3,4</note>
+	  <roles>
+		<role descr="noter " f="PAG" n="0"/>
+		<role descr="utterance" f="PPT" n="1"/>
+		<role descr="hearer" f="GOL" n="2"/>
+		<role descr="attribute of arg1" f="PRD" n="3"/>
+      </roles>
+	  <example name="noted" src="Russian National Corpus[Мария Козлова. Свобода совести и светскость государства: проблемы и решения (1 часть) (2004) // «Адвокат», 2004.12.01]" type="">
+        <text>В начале своего выступления он отметил: "Во всех мировых религиях в священных текстах встречаются сцены насилия, самобичевания как способ вероисповедания."</text>
+		<roles>
+		<arg f="tmp" n="m">В начале своего выступления</arg>
+		<arg f="" n="0">он</arg>
+		<rel f="">отметил</rel>
+		<arg f="" n="1">"Во всех мировых религиях в священных текстах встречаются сцены насилия, самобичевания как способ вероисповедания."</arg>
+	  </example>
+	  <example name="mentioned" src="Russian National Corpus [В Чечне разбился вертолет Ми-24, один летчик выжил (2004) // РБК, 2004.09.13]" type="">
+        <text>Один из членов экипажа погиб, второй - получил ранения, отметили в МВД.</text>
+        <arg f="" n="1">Один из членов экипажа погиб, второй - получил ранения</arg>
+		<rel f="">отметили</rel>
+		<arg f="" n="0">в МВД</arg>
+	  </example>
+	  <example name="noting" src="Russian National Corpus [А. В. Конузин. Выступление на открытом заседании СБ по вопросу о действии санкций в отношении талибов и «Аль-Каиды» // «Дипломатический вестник», 2004]" type="">
+        <text>Мы с удовлетворением отмечаем подготовку Комитетом доклада с анализом причин, по которым целый ряд государств-членов не смог представить Совету Безопасности в соответствии с п. 6 резолюции 1455 своих отчётов о мерах по реализации требований санкционного режима.</text>
+        <arg f="" n="1">подготовку Комитетом доклада с анализом причин</arg>
+		<arg f="" n="0">Мы</arg>
+		<arg f="adv" n="m">с удовлетворением</arg>
+		<rel f="">отмечаем </rel>
+		<arg f="" n="1">подготовку Комитетом доклада с анализом причин, по которым целый ряд государств-членов не смог представить Совету Безопасности в соответствии с п. 6 резолюции 1455 своих отчётов о мерах по реализации требований санкционного режима.</arg>
+	  </example>
+	   </example>
+	  <example name="reflexive as passive" src="В. В. Седов, «Этногенез ранних славян», 2003 г. // «Вестник РАН» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Отмечался резкий рост увлажнённости почвы, что было обусловлено и увеличением осадков, и трансгрессией Балтийского моря.</text>
+		<rel f="">Отмечался</rel>
+		<arg f="" n="1">резкий рост увлажнённости почвы, что было обусловлено и увеличением осадков, и трансгрессией Балтийского моря.</arg>
+	  </example>
+	</roleset>
+  </predicate>
+	
+  <predicate>
+	<roleset id="отметиться.04" name="sign in, check in, register">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">отмечаться</alias>
+      </aliases>
+	  <note>отметиться.04 NOTES: based on English sign_in.06</note>
+	  <roles>
+		<role descr="Agent, causer of check in" f="PAG" n="0"/>
+		<role descr="entity being checked in" f="PPT" n="1"/>
+		<role descr="checked in to" f="LOC" n="2"/>
+      </roles>
+	  <example name="checked in" src="Ю. В. Никулин, «Семь долгих лет», 1979 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Я вошёл в помещение призывного пункта, отметился у дежурного и, положив в угол рюкзак, сел на скамейку."</text>
+		<roles>
+		<rel f="">отметился</rel>
+		<arg f="" n="2">у дежурного</arg>
+	  </example>
+	  <example name="register" src="И. Грекова, «Хозяева жизни», 1960 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>"Живи как хочешь и чем хочешь, только ходи каждую неделю отмечаться в районный цент"</text>
+        <arg f="tmp" n="m">каждую неделю</arg>
+		<rel f="">отмечаться</rel>
+		<arg f="" n="2">в районный цент</arg>
+	  </example>
+	</roleset>
+  </predicate>
+</frameset>

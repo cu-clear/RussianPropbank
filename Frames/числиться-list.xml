@@ -12,8 +12,7 @@
       <roles>     
         <role descr="lister" f="PAG" n="0"/>
 		<role descr="item" f="PPT" n="1"/>
-        <role descr="list" f="GOL" n="2">
-        </role>
+        <role descr="list" f="GOL" n="2"/>
       </roles>
       <example name="counted among" src="" type="">
         <text>Обратите внимание , где наступил коллапс : Притыцкого , Пушкина , Матусевича ( эти улицы никогда не числились среди затапливаемых ) и даже МКАД ( тут затопить не могло по определению ).</text>

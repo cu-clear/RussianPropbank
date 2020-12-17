@@ -19,10 +19,10 @@
 	  <note>Corresponds to FrameBank senses 1,2,3,4,5</note>
 	  <note>чувствовать.01 NOTES: Based on feel.02.</note>
 	  <roles>
-        <role descr="feeler, person experiencing emotion or sensation" f="ppt" n="0"/>
-        <role descr="reflexive object, or emotion or sensation" f="ppt" n="1"/>
-        <role descr="conduit of the feeling" f="src" n="2"/>
-		<role descr="attribute of emotion or sensation (if different from arg1)" f="prd" n="3"/>
+        <role descr="feeler, person experiencing emotion or sensation" f="PPT" n="0"/>
+        <role descr="reflexive object, or emotion or sensation" f="GOL" n="1"/>
+        <role descr="conduit of the feeling" f="SRC" n="2"/>
+		<role descr="attribute of emotion or sensation (if different from arg1)" f="PRD" n="3"/>
 	  </roles>
       <example name="feel bad, reflexive arg1" src="" type="">
         <text>Я плохо себя чувствую .</text>

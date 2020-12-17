@@ -8,7 +8,7 @@
 		<alias framenet="" pos="v" verbnet="">взяться</alias>
 		<alias framenet="" pos="v" verbnet="">браться</alias>
       </aliases>
-      <note>взять.01 NOTES: based on English take.01</note>
+      <note>взять.01 NOTES: based on English PropBank take.01</note>
       <roles>
         <role descr="Taker" f="PAG" n="0">
         </role>
@@ -82,10 +82,11 @@
       <note>взять.02 NOTES: Roleset based on English conquer.01</note>
       <roles>
 		<note>Russian Arg3-GOL has no match in English frame</note>
-        <role descr="conquering hero, agent" f="PAG" n="0">
-        </role>
+        <role descr="conquering hero, agent" f="PAG" n="0"/>
         <role descr="entity conquered, spoils (if unclear whether the spoils or the loser, use this arg)" f="PPT" n="1"/>
 		<role descr="defeated entity; loser; former owner of arg1" f="DIR" n="2"/>
+		 <role descr="purpose or benefactive (or agent if in addition to arg0))" f="GOL" n="3"/>
+		<role descr="how taken(e.g. взаймы, штурмом)" f="MNR" n="4"/>
       </roles>
       <example name="made the summit" src="И. А. Ефремов, «Лезвие бритвы», 1959—1963 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Только отчаянным порывом , с безмерным напряжением сил храбрые шерпы и австрийцы взяли вершину .</text>
@@ -142,6 +143,7 @@
 	
 	<roleset id="взять.04" name="hang or take a direction (a left, etc.), move self">
       <aliases>
+		<alias framenet="" pos="v" verbnet="">брать</alias>
       </aliases>
       <note>взять.04 NOTES: based on English turn.01</note>
       <roles>
@@ -169,6 +171,7 @@
       <aliases>
       </aliases>
 	  <note>взять.05 NOTES: based on English take.04</note>
+	  <note>взять.05 NOTES: only occurs in the infinitive or imperative</note>
       <roles>
         <role descr="understander" f="PAG" n="0"/>
 		<role descr="thing" f="PPT" n="1"/>
@@ -215,41 +218,91 @@
   </predicate>
 
   <predicate lemma="взяться">
-	<roleset id="взяться.07" name="undertake, deal with, begin, take upon oneself">
+	<roleset id="взяться.07" name="become covered">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">браться</alias>
       </aliases>
-	  <note>взять.06 NOTES: based on English undertake.01</note>
+	  <note>взяться.07 NOTES: based on English cover_over.05</note>
       <roles>
-        <role descr="entity taking on the endeavor" f="PAG" n="0"/>
+        <role descr="thing being covered" f="PPT" n="1"/>
+		<role descr="the cover itself" f="MNR" n="2"/>
+      </roles>
+      <example name="example" src="А. И. Солженицын, «В круге первом», 1968 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Куда тёк ручей — почти нельзя было понять : он не тёк вовсе , его поверхность была готова взяться ледком .<text>
+		<arg f="" n="2">его поверхность</arg>
+		<rel f="">взяться</rel>
+		<arg f="" n="2">ледком</arg>
+      </example>
+    </roleset>
+	
+	<roleset id="взяться.08" name="undertake, deal with, begin, take upon oneself">
+      <aliases>
+      </aliases>
+	  <note>взяться.08 NOTES: based on English undertake.01</note>
+      <roles>
+        <role descr="entity taking on the endeavor" f="PPT" n="0"/>
 		<role descr="the endeavor" f="PPT" n="1"/>
       </roles>
-      <example name="arg1" src="Russian National Corpus: [Наталья Дубова. Вокруг ITSM // «Computerworld», 2004]" type="">
-        <text>Можно прочитать тома библиотеки ITIL на английском языке и, засучив рукава, взяться за реорганизацию ИТ-службы в соответствии с её рекомендациями.<text>
-		<rel f="">взяться</rel>
-		<arg f="" n="1">за реорганизацию ИТ-службы</arg>
-		<arg f="mnr" n="m">в соответствии с её рекомендациями</arg>
-      </example>
-	  <example name="took up the pen" src="Russian National Corpus: [Александра Маринина. Последний рассвет (2013)]" type="">
+      <example name="thing" src="Russian National Corpus: [Александра Маринина. Последний рассвет (2013)]" type="">
         <text>Но все же экономическая хватка у Алексея Юрьевича была недюжинной, и, поостыв, он взялся за перо и бумагу и принялся считать.<text>
-		<arg f="adv" n="m">поостыв</arg>
 		<arg f="" n="0">он</arg>
 		<rel f="">взялся</rel>
 		<arg f="" n="1">за перо и бумагу</arg>
       </example>
-	  <example name="deal with someone" src="Russian National Corpus: [Дарья Данилова, Дмитрий Карцев. Вышел в дамки // «Русский репортер», 2013]" type="">
+	  <example name="person" src="Russian National Corpus: [Дарья Данилова, Дмитрий Карцев. Вышел в дамки // «Русский репортер», 2013]" type="">
         <text>Но кремлевские технологи взялись за начальника цеха с полной серьезностью.<text>
-		<arg f="dis" n="m">Но</arg>
-		<arg f="" n="1">кремлевские технологи</arg>
-		<rel f="">взялись</rel>
+		<arg f="" n="0">технологи</arg>
+		<rel f="">взялся</rel>
 		<arg f="" n="1">за начальника цеха</arg>
 		<arg f="adv" n="m">с полной серьезностью</arg>
       </example>
-	  <example name="figurative; get smart" src="Russian National Corpus: [Екатерина Завершнева. Высотка (2012)]" type="">
-        <text>Взялся за ум, сессию с лету сдал, трезвенником<text>
-		<rel f="">Взялся</rel>
-		<arg f="" n="1">за ум</arg>
+  </predicate>
+  
+  <predicate lemma="взять_да">
+    <roleset id="взять_да.09" name="emphatic, sudden action, to up and X">
+      <aliases>
+	  </aliases>
+		<mwe id="взять_да">
+			<token slot="A" arg="" pos="" head="" dep="">взять</token>
+			<token slot="B" arg="" pos="" head="A" dep="">да</token>
+		</mwe>
+      </aliases>
+      <note>взять_да.09 NOTES: No equivalent English PB frame</note>
+      <roles>
+      </roles>
+      <example name="example" src="Ю. И. Коваль, «Сиротская зима», 1980—1993 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>А медведь нашёл их, взял да и съел .</text>
+        <rel f="">взял</rel>
+		<rel f="">да</rel>
       </example>
     </roleset>
   </predicate>
+  
+  <predicate lemma="взять_себя_в_руки">
+    <roleset id="взять_себя_в_руки.10" name="calm down, restrain self, stop and think">
+      <aliases>
+		<alias framenet="" pos="m" verbnet="">брать_себя_в_руки</alias>
+	  </aliases>
+		<mwe id="взять_себя_в_руки">
+			<token slot="A" arg="" pos="" head="" dep="">взять</token>
+			<token slot="A" arg="" pos="" head="" dep="">брать</token>
+			<token slot="B" arg="" pos="" head="A" dep="">себя</token>
+			<token slot="C" arg="" pos="" head="C" dep="">в</token>
+			<token slot="D" arg="" pos="" head="B" dep="">руки</token>
+		</mwe>
+      </aliases>
+      <note>взять_себя_в_руки.10 NOTES: No equivalent English PB frame</note>
+      <roles>
+		<role descr="entity restraining or calming self" f="PAG" n="0"/>
+      </roles>
+      <example name="example" src="Ю. И. Коваль, «Сиротская зима», 1980—1993 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Фантомчик возьми себя в руки .</text>
+		<arg f="" n="0">Фантомчик</arg>
+        <rel f="">возьми</rel>
+		<rel f="">себя</rel>
+		<rel f="">в</rel>
+		<rel f="">руки</rel>
+      </example>
+    </roleset>
+  </predicate>
+  
 </frameset>

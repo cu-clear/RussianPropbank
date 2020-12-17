@@ -20,9 +20,9 @@
 	  <note>Corresponds to FrameBank senses 2,3,4</note>
 	  <note>любить.01 NOTES: Based on "love.01"</note>
 	  <roles>
-		<role descr="lover" f="pag" n="0">
+		<role descr="lover" f="PAG" n="0">
 		</role>
-		<role descr="loved" f="ppt" n="1">
+		<role descr="loved" f="PPT" n="1">
 		</role>
 	  </roles>
 	  <example name="active transitive" src="" type="">
@@ -65,9 +65,9 @@
 	  </aliases>
 	  <note>Corresponds to FrameBank sense 1</note>
 	  <roles>
-		<role descr="lover(s)" f="pag" n="0">
+		<role descr="lover(s)" f="PAG" n="0">
 		</role>
-		<role descr="beloved, if different from arg0" f="ppt" n="1">
+		<role descr="beloved, if different from arg0" f="PPT" n="1">
 		</role>
 	  </roles>
 	  <example name="be in love, reflexive" src="М. Е. Салтыков-Щедрин, «Самоотверженный заяц», 1886 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
@@ -94,9 +94,9 @@
 		<alias framenet="" pos="v" verbnet="">любившись</alias>
 	  </aliases>
 	  <roles>
-		<role descr="lover(s)" f="pag" n="0">
+		<role descr="lover(s)" f="PAG" n="0">
 		</role>
-		<role descr="beloved, if different from arg0" f="ppt" n="1">
+		<role descr="beloved, if different from arg0" f="PPT" n="1">
 		</role>
 	  </roles>
 	  <example name="requite love" src="Ф. М. Решетников, «Горнозаводские люди», 1863 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
@@ -127,9 +127,9 @@
 		<alias framenet="" pos="v" verbnet="">влюблявшийся</alias>
 	  </aliases>
 	  <roles>
-		<role descr="lover(s)" f="pag" n="0">
+		<role descr="lover(s)" f="PAG" n="0">
 		</role>
-		<role descr="beloved, if different from arg0" f="ppt" n="1">
+		<role descr="beloved, if different from arg0" f="PPT" n="1">
 		</role>
 	  </roles>
 	  <example name="passive particle" src="И. А. Гончаров, «Обломов», 1859 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">

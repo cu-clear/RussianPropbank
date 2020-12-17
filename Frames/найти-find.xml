@@ -24,7 +24,6 @@
 	  <example name="find something somewhere" src="Russian National Corpus. [коллективный. Форум: комментарии к фильму «Все будет хорошо» (2008-2011)]" type="">
         <text>Мужчины здесь имеют одну возможность прокормить семью — работа на заводе всю жизнь, а в остальное время находят утешение в бутылке горькой водки.</text>
 		<arg f="tmp" n="m">в остальное время</arg>
-		<arg f="" n="0">*Trace-1*</arg>
         <rel f="">находят</rel>
 		<arg f="" n="1">утешение</arg>
 		<arg f="loc" n="m">в бутылке горькой водки</arg>
@@ -43,7 +42,6 @@
       </example>
 	  <example name="find something" src="Russian National Corpus. [Александр Зайцев. Загадки эволюции: Кратка история глаза // «Знание -- сила», 2003]" type="">
         <text>Это помогает им находить добычу. Ведь мелкие грызуны метят свою территорию струйкой мочи, а та светится ультрафиолетом.</text>
-		<arg f="" n="0">*Trace-1*</arg>
         <rel f="">находить</rel>
 		<arg f="" n="1">добычу</arg>
       </example>
@@ -106,7 +104,6 @@
 	  <example name="find to be" src="Russian National Corpus. [Дмитрий Фролов. Цензура с рыночным лицом (2003) // «Совершенно секретно», 2003.04.08" type="">
         <text>Между прочим, книгу нашёл весьма грамотной, а не понравился мне авторский подход к подаче материала: своё правильное понимание экономических идей он тщательно маскировал.</text>
          <arg f="dis" n="m">Между прочим</arg>
-		<arg f="" n="0">*PRO*</arg>
 		<arg f="" n="1">книгу</arg>
 		<rel f="">нашёл</rel>
 		<arg f="" n="2">весьма грамотной</arg>
@@ -115,6 +112,7 @@
 	
 	<roleset id="найти.04" name="be located, find one's place or position">
       <aliases>
+		<alias framenet="" pos="v" verbnet="">находиться</alias>
       </aliases>
 	  <note>Corresponds to FrameBank senses 5,6,7,8</note>
 	  <note>найти.04 NOTES: Roleset based on English verb frame locate.01</note>

@@ -6,20 +6,17 @@
 	  <aliases>
 		<alias framenet="" pos="v" verbnet="">оставаться</alias>
 		<alias framenet="" pos="j" verbnet="">оставшийся</alias>
-		<alias framenet="" pos="v" verbnet="">оставшись</alias>
 		<alias framenet="" pos="j" verbnet="">остающийся</alias>
 		<alias framenet="" pos="j" verbnet="">остававшийся</alias>
-		<alias framenet="" pos="v" verbnet="">оставаясь</alias>
-		<alias framenet="" pos="v" verbnet="">остававшись</alias>
 	</aliases>
 	<note>Corresponds to FrameBank sense 1</note>
 	<note>остаться.01 NOTES: Based on stay.01</note>
 	<roles>
-		<role descr="thing remaining" f="ppt" n="1">
+		<role descr="thing remaining" f="PPT" n="1">
 		</role>
-		<role descr="benefactive, rare" f="gol" n="2">
+		<role descr="benefactive, rare" f="GOL" n="2">
 		</role>
-		<role descr="attribute of arg1: state, location stayed in" f="prd" n="3"/>
+		<role descr="attribute of arg1: state, location stayed in" f="PRD" n="3"/>
 	</roles>
 	  <example name="visit, stay with" src="" type="">
 		<text>Я остался с родителями .</text>
@@ -65,40 +62,48 @@
 	<note>Corresponds to FrameBank senses 2,5,6</note>
 	<note>остаться.02 NOTES: Based on leave.13</note>
 	<roles>
-		<role descr="event/condition causing arg1 to happen" f="PAG" n="1"/>
-		<role descr="new state (may involve concatenation)" f="PPT" n="1"/>
+		<role descr="event/condition causing arg2 to happen" f="PAG" n="0"/>
+		<role descr="entity in state" f="PPT" n="1"/>
+		<role descr="new state (may involve concatenation)" f="PRD" n="2"/>
 		</role>
 	</roles>
+	<note>English ARG1 = Russian ARG2</note>
+	<note>Russian ARG1 has no match in English frame</note>
 	  <example name="left with nothing" src="" type="">
 		<text>Так я остался ни с чем .</text>
 		<arg f="dis" n="m">Так</arg>
 		<arg f="" n="1">я</arg>
 		<rel f="">остался</rel>
-		<arg f="" n="1">ни с чем</arg>
+		<arg f="" n="2">ни с чем</arg>
 	  </example>
 	  <example name="keep my own opinion" src="" type="">
 		<text>В конце концов , я решил прекратить все споры и остаться при своем мнении .</text>
 		<rel f="">остаться</rel>
-		<arg f="" n="1">при своем мнении</arg>
+		<arg f="" n="2">при своем мнении</arg>
 	  </example>
 	  <example name="remained alive" src="" type="">
 		<text>Все дети остались живы , старшая девочка , Таня Бланк , получила легкое ранение в ногу .</text>
 		<arg f="" n="1">Все дети</arg>
 		<rel f="">остались</rel>
-		<arg f="" n="1">живы</arg>
+		<arg f="" n="2">живы</arg>
 	  </example>
 	  <example name="remained a living miracle" src="" type="">
 		<text>Кот остался живым чудом .</text>
 		<arg f="" n="1">Кот</arg>
 		<rel f="">остался</rel>
-		<arg f="" n="1">живым чудом</arg>
+		<arg f="" n="2">живым чудом</arg>
 	  </example>
 	  <example name="left with a nose (nothing)" src="[Василий Дубовский. Хижина дяди Саши (2013.04.12) // «Новгородские ведомости», 2013" type="">
 		<text>Но трудно не согласиться и с Александром Михайловым, когда он говорит, что надо работать с людьми, чтобы они не оставались с носом, по крайней мере, когда государство о них заботится.</text>
 		<arg f="" n="1">они</arg>
 		<arg f="neg" n="m">не</arg>
 		<rel f="">оставались</rel>
-		<arg f="" n="1">с носом</arg>
+		<arg f="" n="2">с носом</arg>
+	  </example>
+	  <example name="leave as is" src="" type="">
+		<text>Оставим все как есть</text>
+		<rel f="">Оставим</rel>
+		<arg f="" n="2">все как есть</arg>
 	  </example>
 	</roleset>
 	
@@ -106,16 +111,13 @@
 	  <aliases>
 		<alias framenet="" pos="v" verbnet="">оставаться</alias>
 		<alias framenet="" pos="j" verbnet="">оставшийся</alias>
-		<alias framenet="" pos="v" verbnet="">оставшись</alias>
 		<alias framenet="" pos="j" verbnet="">остающийся</alias>
 		<alias framenet="" pos="j" verbnet="">остававшийся</alias>
-		<alias framenet="" pos="v" verbnet="">оставаясь</alias>
-		<alias framenet="" pos="v" verbnet="">остававшись</alias>
 	</aliases>
 	<note>Corresponds to FrameBank senses 3,4</note>
 	<note>остаться.03 NOTES: Based on leave.17</note>	
 	<roles>
-		<role descr="enity remaining" f="ppt" n="1"/>
+		<role descr="enity remaining" f="PPT" n="1"/>
 		<role descr="larger original set of which a part is remaining" f="dir" n="2"/>
 	</roles>
 	  <example name="is left" src="" type="">
@@ -165,7 +167,7 @@
 	  <roles>
 		<role descr="debtor" f="pag" n="0">
 		</role>
-		<role descr="debt" f="ppt" n="1">
+		<role descr="debt" f="PPT" n="1">
 		</role>
 		<role descr="state of debt" f="prd" n="2">
 		</role>

@@ -20,12 +20,12 @@
 	  <note>Corresponds to FrameBank senses 1,2,3,5</note>
       <note>получить.01 NOTES: Roleset based on verb frame get.01</note>
       <roles>
-        <role descr="receiver" f="pag" n="0">
+        <role descr="receiver" f="PAG" n="0">
         </role>
-        <role descr="thing gotten" f="ppt" n="1"/>
-        <role descr="giver" f="dir" n="2"/>
+        <role descr="thing gotten" f="PPT" n="1"/>
+        <role descr="giver" f="DIR" n="2"/>
         <role descr="price paid/exchange for" f="vsp" n="3"/>
-		<role descr="beneficiary" f="gol" n="4"/>
+		<role descr="beneficiary" f="GOL" n="4"/>
       </roles>
       <example name="receive awards" src="Russian National Corpus. [коллективный. Форум: Рецензия на фильм «Поймай меня, если сможешь» (2006-2011)]" type="">
         <text>Фильм не зря входит в топы и получил в свое время массу наград .</text>
@@ -57,8 +57,6 @@
     
 	<roleset id="получить.02" name="get hit/punched/punished">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">получивший</alias>
-		<alias framenet="" pos="j" verbnet="">полученный</alias>
 		<alias framenet="" pos="v" verbnet="">получать</alias>
 		<alias framenet="" pos="j" verbnet="">получающий</alias>
 		<alias framenet="" pos="j" verbnet="">получавший</alias>
@@ -72,9 +70,9 @@
 	  <note>Corresponds to FrameBank senses 4,7</note>
       <note>получить.02 NOTES: based on injure.01 but there is usually no agent causing injury</note>
       <roles>
-        <role descr="actor" f="pag" n="0"/>
-        <role descr="experiencer of injury/punishment" f="ppt" n="1"/>
-		<role descr="thing hit or injured" f="ppt" n="2"/>
+        <role descr="actor" f="PAG" n="0"/>
+        <role descr="experiencer of injury/punishment" f="PPT" n="1"/>
+		<role descr="thing hit or injured" f="PPT" n="2"/>
 		<role descr="instrument" f="mnr" n="3"/>
       </roles>
       <example name="all arguments" src="" type="">
@@ -119,9 +117,9 @@
 	  <note>Corresponds to FrameBank sense 6</note>
       <note>NOTES: based on extract.01 but it has a different meaning</note>
       <roles>
-        <role descr="agent " f="pag" n="0"/>
-        <role descr="thing actively gotten" f="ppt" n="1"/>
-		<role descr="entity arg1 is got from" f="dir" n="2"/>
+        <role descr="agent " f="PAG" n="0"/>
+        <role descr="thing actively gotten" f="PPT" n="1"/>
+		<role descr="entity arg1 is got from" f="DIR" n="2"/>
       </roles>
       <example name="adjectival form" src="Russian National Corpus. [Герман Дмитриев. Домна, не требующая кокса // «Техника - молодежи», 1987]" type="">
         <text>Остается добавить , что чугун , полученный без кокса , превосходно переделывается в сталь в мартенах , конвертерах и дуговых электропечах .</text>
@@ -146,6 +144,19 @@
       </example>
     </roleset>
 	
+	<roleset id="получить.LV" name="light verb">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">получать</alias>
+      </aliases>
+      <roles>
+      </roles>
+      <example name="receive an injury" src="" type="">
+        <text>800 человек получили ранения</text>
+      </example>
+    </roleset>
+  </predicate>
+  
+  <predicate>
 	<roleset id="получиться.04" name="succeed, happen">
       <aliases>
 		<alias framenet="" pos="j" verbnet="">получившийся</alias>
@@ -155,8 +166,8 @@
       </aliases>
       <note>NOTES: based on succeed.01 but no agent</note>
       <roles>
-        <role descr="task, goal succeeding" f="ppt" n="1"/>
-		<role descr="benefactive" f="ppt" n="2"/>
+        <role descr="task, goal succeeding" f="PPT" n="1"/>
+		<role descr="benefactive" f="PPT" n="2"/>
       </roles>
 	  <example name="eventive arg1" src="Эльвира Савкина, «Если нужно, могу выпустить когти», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Зрелищность акции позволила собрать максимальное количество зрителей -- получился праздник городского масштаба , соответственно , параллельно с дегустацией напитка .</text>
@@ -191,10 +202,10 @@
 		<alias framenet="" pos="j" verbnet="">получающийся</alias>
 		<alias framenet="" pos="j" verbnet="">получавшийся</alias>
       </aliases>
-      <note>NOTES: based on turn_out11 but no benefactive?</note>
+      <note>NOTES: based on turn_out.11 but no benefactive?</note>
       <roles>
-        <role descr="thing seeming, changing" f="ppt" n="1"/>
-        <role descr="attribute" f="prd" n="2"/>
+        <role descr="thing seeming, changing" f="PPT" n="1"/>
+        <role descr="attribute" f="PRD" n="2"/>
       </roles>
       <example name="all args" src="Владимир Лукашик, Елена Иванова, «Сборник задач по физике. 7-9 кл.», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>При заполнении цилиндрического сосуда жидкостью менее плотной, чем вода, высота столба получилась бы больше. </text>

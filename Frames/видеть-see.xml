@@ -48,7 +48,7 @@
         <rel f="">видел</rel>
 		<arg f="" n="1">что власть его над людьми кончится навсегда, если только Христос не отречётся от своей проповеди</arg>
       </example>
-	  <example name="find oneself" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=видеть&amp;cxid=1601" type="">
+	  <example name="arg 1 and 2" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=видеть&amp;cxid=1601" type="">
         <text>Так или иначе , существует вероятность , что человечество в обозримом будущем исправит одну из фатальных ошибок , совершённых на заре времён , когда , увлёкшись игрой в слова -- неоднозначные и неточные , обманчиво лёгкие в эксплуатации ,-- оно разучилось видеть мир таким , каков он есть на самом деле , и, извините за выражение , оглохло.</text>
         <rel f="">видеть</rel>
 		<arg f="" n="1">мир</arg>
@@ -73,6 +73,7 @@
 		<arg f="" n="1">что</arg>
 		<rel f="">видел</rel>
 		<arg f="loc" n="m">во сне</arg>
+	  </example>
     </roleset>
     
 	<roleset id="видеть.02" name="see, meet, date">
@@ -86,7 +87,7 @@
 	  <note>видеть.02 NOTES: Roleset based on English verb frame see.05</note>
       <roles>
         <role descr="first entity" f="PAG" n="0"/>
-		<role descr="second entity, or 'each other' (or variant" f="PPT" n="1"/>
+		<role descr="second entity, or 'each other' (or variant)" f="PPT" n="1"/>
       </roles>
 	  <example name="see or meet" src="А. П. Чехов, «Ионыч», 1898 г." type="">
         <text>Я не видел вас целую неделю, я не слышал вас так долго.</text>

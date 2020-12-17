@@ -15,13 +15,13 @@
 				<alias framenet="" pos="j" verbnet="">решавшийся</alias>
 				<alias framenet="" pos="n" verbnet="">решение</alias>
 			</aliases>
-			<note>Corresponds to FrameBank senses 1,3</note>
-			<note>NOTES: Frame based on expansion of English decide.01</note>			
+			<note>решить.01 NOTES: Corresponds to FrameBank senses 1,3</note>
+			<note>решить.01 NOTES: Frame based on expansion of English decide.01</note>			
 			<roles>
-				<role descr="decider" f="pag" n="0"/>
-				<role descr="decision" f="ppt" n="1"/>
-				<role descr="beneficiary" f="gol" n="2"/>
-				<role descr="subject-matter of a decision " f="vsp" n="3"/>
+				<role descr="decider" f="PAG" n="0"/>
+				<role descr="decision" f="PPT" n="1"/>
+				<role descr="beneficiary" f="GOL" n="2"/>
+				<role descr="subject-matter of a decision " f="VSP" n="3"/>
 			</roles>
 			<example name="arg0 and 1" src="" type="">
 				<text>Хорошо , скажи мне , что ты решишь .</text>
@@ -79,10 +79,10 @@
 			<note>Corresponds to FrameBank senses 2,4</note>
 			<note>NOTES: Frame based on expansion of English solve.01</note>			
 			<roles>
-				<role descr="solver" f="pag" n="0"></role>
-				<role descr="problem" f="ppt" n="1"/>
+				<role descr="solver" f="PAG" n="0"></role>
+				<role descr="problem" f="PPT" n="1"/>
 				<role descr="manner" f="mnr" n="2"/>
-				<role descr="beneficiary [new, not in ENG]" f="gol" n="3"/>
+				<role descr="beneficiary [new, not in ENG]" f="GOL" n="3"/>
 			</roles>
 			<example name="find an answer to the question" src="" type="">
 				<text>Так , что если учиться , то надо решить *PRO* основной вопрос : а тому ли я учусь ? </text>

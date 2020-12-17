@@ -39,15 +39,16 @@
       </example>
 	</roleset>
  
-	<roleset id="стать.02" name="(aspectual) begin">
+	<roleset id="стать.02" name="begin">
       <aliases>
 		<alias framenet="" pos="j" verbnet="">ставший</alias>
 		<alias framenet="" pos="v" verbnet="">став</alias>
 		<alias framenet="" pos="v" verbnet="">ставши</alias>
 	  </aliases>
-      <note>стать.02 NOTES: Based on English begin.02</note>
+      <note>стать.02 NOTES: Based on English begin.01</note>
       <roles>
-        <role descr="action, change begun" f="PPT" n="1"/>
+        <role descr="beginner, Agent" f="PAG" n="0"/>
+		<role descr="Thing begun" f="PPT" n="1"/>
 		<role descr="Instrument, starting point" f="MNR" n="2"/>
       </roles>
       <example name="begin, start" src="" type="">

@@ -2,21 +2,23 @@
 <frameset>
   <predicate lemma="считаться">
 	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="считаться.01" name="characterize">
+    <roleset id="считаться.01" name="consider, be counted as">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">считающийся</alias>
-		<alias framenet="" pos="j" verbnet="">считавшийся</alias>
+        <alias framenet="" pos="v" verbnet="">посчитать</alias>
+		<alias framenet="" pos="v" verbnet="">считать</alias>
+		<alias framenet="" pos="v" verbnet="">счесть</alias>
 	  </aliases>
-	  <note>Corresponds to FrameBank sense 3</note>
-	  <note>считаться.01 NOTES: Based on characterize.01.</note>
+	  <note>считаться.01 NOTES: Based on English PB characterize.01 or deem.01.</note>
       <roles>
-        <role descr="considerer" f="pag" n="0">
+        <role descr="describer" f="PAG" n="0">
         </role>
-		<role descr="thing considered" f="ppt" n="1">
+		<role descr="described" f="PPT" n="1">
         </role>
-        <role descr="attribute, described-as" f="prd" n="2"/>
+        <role descr="secondardy attribute, described-as" f="PRD" n="2"/>
+	  </roles>
       <example name="is considered, counted" src="" type="">
         <text>В столице Парагвая наводнение вынудило 72 тысячи жителей покинуть свои жилища , кроме этого 30 тысяч считаются пострадавшими по всей стране .</text>
+		<arg f="adv" n="m">кроме этого</arg>
         <arg f="" n="1">30 тысяч</arg>
         <rel f="">считаются</rel>
 		<arg f="" n="2">пострадавшими</arg>
@@ -29,14 +31,18 @@
 		<arg f="" n="1">что тренд</arg>
         <arg f="" n="2">это прямолинейный канал постоянной ширины</arg>
       </example>
-	  <example name="consider" src="" type="">
-        <text>Коренной поворот деревни к социализму можно считать уже обеспеченным .</text>
-        <arg f="" n="1">Коренной поворот деревни к социализму</arg>
-		<rel f="">считать</rel>
-		<arg f="adv" n="m">уже</arg>
-		<arg f="" n="2">обеспеченным</arg>
+	  <example name="consider" src="Ф. М. Достоевский, «Преступление и наказание», 1866 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+        <text>Может быть, по одной только силе своих желаний он и счёл себя тогда человеком, которому более разрешено, чем другому.</text>
+        <arg f="adv" n="m">Может быть</arg>
+		<arg f="adv" n="m">по одной только силе своих желаний</arg>
+		<arg f="" n="1">он</arg>
+		<arg f="adv" n="m">и</arg>
+		<rel f="">счёл</rel>
+		<arg f="" n="1">себя</arg>
+		<arg f="adv" n="m">тогда</arg>
+		<arg f="" n="2">человеком, которому более разрешено, чем другому.</arg>
       </example>
-	  <example name="consider" src="" type="">
+	  <example name="consider it" src="" type="">
         <text>Сегодня я должен считать вас за клеветника и за интригана .</text>
         <arg f="tmp" n="m">Сегодня</arg>
 		<arg f="" n="0">я</arg>
@@ -46,18 +52,18 @@
       </example>
 	</roleset>
 
-	<roleset id="считаться.02" name="reckon">
+	<roleset id="считаться.02" name="reckon with; take into consideration">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">считающийся</alias>
-		<alias framenet="" pos="j" verbnet="">считавшийся</alias>
         <alias framenet="" pos="v" verbnet="">посчитаться</alias>
-		<alias framenet="" pos="j" verbnet="">посчитавшийся</alias>
+		<alias framenet="" pos="v" verbnet="">считать</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank sense 2</note>
 	  <note>считаться.02 NOTES: Based on reckon.02.</note>
       <roles>
-        <role descr="thing to be reckoned with" f="ppt" n="1">
+		<role descr="reckoner" f="PAG" n="0"/>
+        <role descr="thing to be reckoned with" f="PPT" n="1">
         </role>
+	  </roles>
       <example name="take into consideration, reckon with" src="" type="">
         <text>Если правило основано на здравом смысле , с ним нужно считаться .</text>    
         <arg f="" n="1">с ним</arg>
@@ -71,7 +77,7 @@
 	  <note>Corresponds to FrameBank sense 1</note>
 	  <note>считаться.01 NOTES: Based on count.04.</note>
       <roles>
-        <role descr="important thing" f="pag" n="1">
+        <role descr="important thing" f="PPT" n="1">
         </role>
       <example name="matter" src="" type="">
         <text>Все остальное не считается .</text>    
@@ -81,5 +87,56 @@
       </example>
 	</roleset>
 	
+	<roleset id="считаться.04" name="settle accounts">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">cосчитаться</alias>
+	  </aliases>
+	  <note>считаться.04 NOTES: Based on settle.02.</note>
+      <roles>
+        <role descr="entity making resolution" f="PAG" n="0"/>
+        <role descr="comitative, resolved with" f="COM" n="1"/>
+		<role descr="thing being resolved" f="GOL" n="2"/>
+		<role descr="what the settlement is (value or decision)" f="PRD" n="3"/>
+      <example name="example" src="Russian National Corpus: [А. И. Деникин. Очерки русской смуты. Том I. Крушение власти и армии (1921)" type="">
+        <text>Погоди, с. с ― мы с тобой сосчитаемся!</text>    
+        <arg f="" n="0">мы</arg>
+		<arg f="" n="1">с тобой</arg>
+		<rel f="">сосчитаемся</rel>
+      </example>
+	</roleset>
   </predicate>
+  
+  <predicate lemma="считай">	
+	<roleset id="считай.05" name="discourse marker">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">считайте</alias>
+	  </aliases>
+	  <note>считай.05 NOTES: No English PB equivalent.</note>
+      <roles>
+	</roleset>
+  </predicate>	
+  
+  <predicate lemma="считать_ворон">
+    <roleset id="считать_ворон.06" name="daydream, be lazy, bum around">
+      <aliases>
+		<alias framenet="" pos="m" verbnet="">считать_галок</alias>
+		<mwe id="считать_ворон">
+			<token slot="A" arg="" pos="" head="" dep="">считать</token>
+			<token slot="B" arg="" pos="" head="A" dep="">ворон</token>
+			<token slot="B" arg="" pos="" head="A" dep="">галок</token>
+		</mwe>
+      </aliases>
+      <note>считать_ворон NOTES: No English PB equivalent</note>
+      <roles>
+        <role descr="daydreamer" f="PAG" n="0">
+        </role>
+      </roles>
+      <example name="all args" src="Russian National Corpus [Р. Б. Ахмедов. Промельки (2011) // «Бельские Просторы», ]" type="">
+        <text>Тупо смотреть в окно и «считать ворон», как любили выражаться учителя?</text>
+        <rel f="">считать</rel>
+		<rel f="">ворон</rel>
+      </example>
+    </roleset>
+  </predicate>
+  
 </frameset>

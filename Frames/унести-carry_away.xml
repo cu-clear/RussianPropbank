@@ -2,74 +2,63 @@
 <frameset>
   <predicate lemma="унести">
   <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="унести.01" name="carry away">
-      <aliases>
-        <alias framenet="" pos="j" verbnet="">унёсший</alias>
-		<alias framenet="" pos="j" verbnet="">унесший</alias>
-		<alias framenet="" pos="j" verbnet="">унесённый</alias>
-		<alias framenet="" pos="j" verbnet="">унесенный</alias>
+  <roleset id="унести.01" name="carry away">
+	<aliases>
 		<alias framenet="" pos="v" verbnet="">уносить</alias>
-		<alias framenet="" pos="j" verbnet="">уносящий</alias>
-		<alias framenet="" pos="j" verbnet="">уносивший</alias>
-		<alias framenet="" pos="j" verbnet="">уносимый</alias>
 		<alias framenet="" pos="v" verbnet="">уноситься</alias>
-		<alias framenet="" pos="j" verbnet="">уносящийся</alias>
-		<alias framenet="" pos="j" verbnet="">уносившийся</alias>
 		<alias framenet="" pos="j" verbnet="">унестись</alias>
-		<alias framenet="" pos="j" verbnet="">унёсшийся</alias>
-		<alias framenet="" pos="j" verbnet="">унесшийся</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank sense 1</note>
-      <note>NOTES: Based on carry.01.</note>
-	  <roles>
-		<note>English Arg3-VSP = Russian Arg3-SRC
-        <role descr="carrier" f="pag" n="0"/>
-        <role descr="thing carried" f="ppt" n="1"/>
-        <role descr="instrument" f="mnr" n="2"/>
-        <role descr="source" f="src" n="3"/>
-        <role descr="goal, recipient" f="gol" n="4"/>
-      </roles>
-      <example name="passive adjectival particple, arg1 and arg2" src="" type="">
-        <text>Счёт подтопленных , унесённых потоками воды или просто брошенных автомобилей шёл на тысячи .</text>
+	</aliases>
+	<note>Corresponds to FrameBank sense 1</note>
+    <note>NOTES: Based on carry.01.</note>
+	<roles>
+        <role descr="carrier" f="PAG" n="0"/>
+        <role descr="thing carried" f="PPT" n="1"/>
+        <role descr="instrument" f="MNR" n="2"/>
+        <role descr="source" f="SRC" n="3"/>
+        <role descr="goal, recipient" f="GOL" n="4"/>
+    </roles>
+	<note>English Arg3-VSP = Russian Arg3-SRC</note>
+    <example name="passive adjectival particple, arg1 and arg2" src="" type="">
+		<text>Счёт подтопленных , унесённых потоками воды или просто брошенных автомобилей шёл на тысячи .</text>
 		<arg f="" n="1">подтопленных</arg>
 		<rel f="">унесённых</rel>
-        <arg f="" n="2">потоками воды</arg>
-      </example>
-	   <example name="impersonal construction" src="" type="">
-        <text>Ребёнка сразу унесли в помещение поликлиники , у нас там Неотложка есть .</text>
+        <arg f="" n="0">потоками воды</arg>
+	</example>
+	<example name="impersonal construction" src="" type="">
+		<text>Ребёнка сразу унесли в помещение поликлиники , у нас там Неотложка есть .</text>
 		<arg f="" n="1">Ребёнка</arg>
 		<arg f="tmp" n="m">сразу</arg>
 		<rel f="">унесли</rel>
 		<arg f="" n="4">в помещение поликлиники</arg>
-      </example>
-	  <example name="non sentient arg0" src="http://marker.framebank.ru/verbs_ex.php?lex=унести&cxid=18209" type="">
-        <text>Если бы вы не были привязаны -- вас унесло бы легчайшим дуновением ветра .</text>
+	</example>
+	<example name="non sentient arg0" src="http://marker.framebank.ru/verbs_ex.php?lex=унести&cxid=18209" type="">
+		<text>Если бы вы не были привязаны -- вас унесло бы легчайшим дуновением ветра .</text>
 		<arg f="" n="1">вас</arg>
 		<rel f="">унесло</rel>
 		<arg f="" n="0">легчайшим дуновением ветра</arg>
-      </example>
-	  <example name="perfective active" src="" type="">
-        <text>Участники протеста лежат на дороге , препятствуя движению , и не двинутся , пока представители властей не унесут их .</text>
+	</example>
+	<example name="perfective active" src="" type="">
+		<text>Участники протеста лежат на дороге , препятствуя движению , и не двинутся , пока представители властей не унесут их .</text>
 		<arg f="" n="0">представители властей</arg>
 		<arg f="neg" n="m">не</arg>
 		<rel f="">унесут</rel>
 		<arg f="" n="1">их</arg>
-      </example>
-	  <example name="imperfective active" src="С. Д. Довлатов, «Виноград», 1990 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Проделав это раза три или четыре , мы уносили ящики в дальний угол склада .</text>
+	</example>
+	<example name="imperfective active" src="С. Д. Довлатов, «Виноград», 1990 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+		<text>Проделав это раза три или четыре , мы уносили ящики в дальний угол склада .</text>
 		<arg f="" n="0">мы</arg>
 		<rel f="">уносили</rel>
 		<arg f="" n="1">ящики</arg>
 		<arg f="" n="4">в дальний угол склада</arg>
-      </example>
-	  <example name="take oneself away" src="Russian National Corpus" type="">
-        <text>Следом размашисто шагает коварный итальянец Швазер, который уже пытался своими длинными ногами унестись вперед.</text>
+	</example>
+	<example name="take oneself away" src="Russian National Corpus" type="">
+		<text>Следом размашисто шагает коварный итальянец Швазер, который уже пытался своими длинными ногами унестись вперед.</text>
 		<arg f="" n="0">который</arg>
 		<arg f="tmp" n="m">уже</arg>
 		<arg f="" n="2">своими длинными ногами</arg>
 		<rel f="">унестись</rel>
 		<arg f="" n="4">вперед</arg>
-      </example>
+	</example>
 	</roleset>
 	
 	<roleset id="унести.02" name="steal, remove, kill">
@@ -88,9 +77,9 @@
 	  <note>Corresponds to FrameBank senses 2,4,6</note>
       <note>NOTES: Based on steal.01.</note>
 	  <roles>
-        <role descr="thief, agent" f="pag" n="0"/>
-        <role descr="thing stolen" f="ppt" n="1"/>
-        <role descr="stolen from" f="dir" n="2"/>
+        <role descr="thief, agent" f="PAG" n="0"/>
+        <role descr="thing stolen" f="PPT" n="1"/>
+        <role descr="stolen from" f="DIR" n="2"/>
       </roles>
      <example name="take a life" src="" type="">
         <text>С середины мая , Индия шатается из-за периодов сильной жары , которая унесла жизни 1,403 человек .</text>
@@ -131,18 +120,17 @@
 	  <note>Corresponds to FrameBank sense 3</note>
       <note>NOTES: Based on disappear.01.</note>
 	  <roles>
-        <role descr="causal agent" f="pag" n="0"/>
-        <role descr="the disappeared" f="ppt" n="1"/>
+        <role descr="causal agent" f="PAG" n="0"/>
+        <role descr="the disappeared" f="PPT" n="1"/>
       </roles>
      <example name="take a life" src="Russian National Corpus. [Еремей Парнов. Александрийская гемма (1990)]" type="">
         <text>Маг-чернокнижник забыл заклинание и был унесен дьяволом.</text>
-        <arg f="" n="1">*Trace-1*</arg>
 		<rel f="">унесен</rel>
 		<arg f="" n="0">дьяволом</arg>
       </example>
 	</roleset>
 	
-	<roleset id="унести_ноги.04" name="escape">
+	<roleset id="унести_ноги-m" name="escape">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">уносить_ноги</alias>
 		<mwe id="унести_ноги">
@@ -154,10 +142,10 @@
 	  <note>Corresponds to FrameBank sense 5</note>
       <note>NOTES: Based on escape.01</note>
 	  <roles>
-        <role descr="entity escaping" f="pag" n="0"/>
-		<role descr="place escaped" f="dir" n="1"/>
+        <role descr="entity escaping" f="PAG" n="0"/>
+		<role descr="place escaped" f="DIR" n="1"/>
       </roles>  
-	  <example name="унести_ноги-m" src="Russian National Corpus. [Николай Дежнев. Принцип неопределенности (2009)]" type="">
+	  <example name="унести ноги" src="Russian National Corpus. [Николай Дежнев. Принцип неопределенности (2009)]" type="">
         <text>Ну уж нет, ― покачал головой Мокей, ― с меня достаточно! Я оттуда едва ноги унес.</text>
 		<arg f="" n="0">Я</arg>
 		<arg f="" n="1">оттуда</arg>
@@ -165,7 +153,7 @@
 		<rel f="">ноги</rel>
 		<rel f="">унес</rel>
       </example>
-	  <example name="уносить_ноги-m" src="Russian National Corpus. [Евгений Лукин. Катали мы ваше солнце (1997)]" type="">
+	  <example name="уносить ноги" src="Russian National Corpus. [Евгений Лукин. Катали мы ваше солнце (1997)]" type="">
         <text>Наслышаны мы, наслышаны, как вы с речки со Сволочи ноги уносили …</text>
 		<arg f="" n="0">вы</arg>
 		<arg f="" n="1">с речки со Сволочи</arg>

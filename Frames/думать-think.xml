@@ -7,15 +7,10 @@
       <aliases>
         <alias framenet="" pos="j" verbnet="">думающий</alias>
 		<alias framenet="" pos="j" verbnet="">думавший</alias>
-		<alias framenet="" pos="v" verbnet="">думая</alias>
-		<alias framenet="" pos="v" verbnet="">думавши</alias>
-		<alias framenet="" pos="v" verbnet="">думав</alias>
 		<alias framenet="" pos="j" verbnet="">думаемый</alias>
 		<alias framenet="" pos="j" verbnet="">думанный</alias>
 		<alias framenet="" pos="v" verbnet="">подумать</alias>
 		<alias framenet="" pos="j" verbnet="">подумавший</alias>
-		<alias framenet="" pos="v" verbnet="">подумавши</alias>
-		<alias framenet="" pos="v" verbnet="">подумав</alias>
 		<alias framenet="" pos="v" verbnet="">думаться</alias>
 		<alias framenet="" pos="v" verbnet="">подуматься</alias>
 	  </aliases>

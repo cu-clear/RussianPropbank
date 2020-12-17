@@ -15,9 +15,9 @@
 	  <note>Corresponds to FrameBank senses 1,5,8,15,19</note>
 	  <note>смотреть.01 NOTES: Based on look.01.</note>
 	  <roles>
-        <role descr="observer, searcher" f="pag" n="0">
+        <role descr="observer, searcher" f="PAG" n="0">
         </role>
-        <role descr="at what or where arg0 looked" f="gol" n="1">
+        <role descr="at what or where arg0 looked" f="GOL" n="1">
 		</role>
 	  </roles>
 	  <example name="look somewhere" src="" type="">
@@ -60,9 +60,9 @@
 	  <note>Corresponds to FrameBank senses 2,3,4,7,10,17,18</note>
 	  <note>Based on watch.01.</note>
 	  <roles>
-        <role descr="observer" f="pag" n="0">
+        <role descr="observer" f="PAG" n="0">
         </role>
-        <role descr="thing being watched" f="ppt" n="1">
+        <role descr="thing being watched" f="PPT" n="1">
 		</role>
 	  </roles>
       <example name="perfective, watch film" src="" type="">
@@ -90,9 +90,9 @@
 	  <note>Corresponds to FrameBank senses 6,11</note>
 	  <note>Based on examine.01.</note>
 	  <roles>
-        <role descr="examiner" f="pag" n="0">
+        <role descr="examiner" f="PAG" n="0">
         </role>
-        <role descr="examined" f="ppt" n="1">
+        <role descr="examined" f="PPT" n="1">
 		</role>
 	  </roles>
       <example name="examine; impersonal construction" src="" type="">
@@ -119,9 +119,9 @@
 	  </aliases>
 	  <note>Based on look_after.07.</note>
 	  <roles>
-        <role descr="minder, watcher" f="pag" n="0">
+        <role descr="minder, watcher" f="PAG" n="0">
         </role>
-        <role descr="entity minded, taken care of" f="ppt" n="1">
+        <role descr="entity minded, taken care of" f="PPT" n="1">
 		</role>
 	  </roles>
       <example name="look after someone" src="В. В. Измайлов, «Прекрасная Татьяна, живущая у подошвы Воробьевых гор», 1804 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
@@ -142,9 +142,9 @@
 	  </aliases>
 	  <note>Based on look.02.</note>
 	  <roles>
-        <role descr="seemer" f="pag" n="1">
+        <role descr="seemer" f="PAG" n="1">
         </role>
-        <role descr="attribute" f="prd" n="2">
+        <role descr="attribute" f="PRD" n="2">
 		</role>
 	  </roles>
       <example name="perfective, watch film" src="" type="">
@@ -171,9 +171,8 @@
 	  </aliases>
 	  <note>NOTES: Based on search.01.</note>
 	  <roles>
-        <role descr="searcher " f="pag" n="0">
-        </role>
-        <role descr="searched for" f="ppt" n="1">
+        <role descr="searcher " f="PAG" n="0" />
+        <role descr="searched for" f="PPT" n="1">
 		</role>
 	  </roles>
       <example name="perfective, watch film" src="" type="">
@@ -191,7 +190,7 @@
       <aliases>
 	  </aliases>
 	  <roles>
-        <role descr="deciding factor" f="ppt" n="1">
+        <role descr="deciding factor" f="PPT" n="1">
         </role>
 	  </roles>
       <example name="depends on" src="Russian National Corpus. [Свадьба тюменских старожилов // «Народное творчество», 2004]" type="">
@@ -225,9 +224,9 @@
 	  </aliases>
 	  <note>смотреть_в_рот NOTES: Based on flatter.01.</note>
       <roles>
-        <role descr="gratifier" f="pag" n="0">
+        <role descr="gratifier" f="PAG" n="0">
         </role>
-		<role descr="target of gratification" f="ppt" n="1">
+		<role descr="target of gratification" f="PPT" n="1">
 		</role>
 	  </roles>
       <example name="example" src="Russian National Corpus. [И. Э. Кио. Иллюзии без иллюзий (1995-1999)]" type="">

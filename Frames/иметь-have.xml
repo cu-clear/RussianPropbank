@@ -4,19 +4,14 @@
   <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="иметь.01" name="have">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">имеющий</alias>
-		<alias framenet="" pos="j" verbnet="">имевший</alias>
-		<alias framenet="" pos="j" verbnet="">имеемый</alias>
 		<alias framenet="" pos="v" verbnet="">заиметь</alias>
-		<alias framenet="" pos="j" verbnet="">заимевший</alias>
-        <alias framenet="" pos="j" verbnet="">заименный</alias>
 		<alias framenet="" pos="v" verbnet="">иметься</alias>
 	  </aliases>
 	  <note>иметь.01 NOTES: Based on have.03.</note>
 	  <roles>
-        <role descr="owner" f="pag" n="0">
+        <role descr="owner" f="PAG" n="0">
         </role>
-        <role descr="possession, thing had as" f="ppt" n="1">
+        <role descr="possession, thing had as" f="PPT" n="1">
 		</role>
 	  </roles>
       <example name="all args" src="" type="">
@@ -50,15 +45,12 @@
 	
 	<roleset id="иметь.02" name="have sex with">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">имеющий</alias>
-		<alias framenet="" pos="j" verbnet="">имевший</alias>
-		<alias framenet="" pos="j" verbnet="">имеемый</alias>
 	  </aliases>
 	  <note>иметь.02 NOTES: Based on have.09.</note>
 	  <roles>
-        <role descr="agent, aggressor" f="pag" n="0">
+        <role descr="agent, aggressor" f="PAG" n="0">
         </role>
-        <role descr="victim/patient" f="ppt" n="1">
+        <role descr="victim/patient" f="PPT" n="1">
 		</role>
 	  </roles>
 	  <note>*English Arg1-VSP has no match in Russian frame</note>
@@ -71,5 +63,125 @@
 		<arg f="tmp" n="m">по тридцать раз</arg>
       </example>
 	</roleset>
+	
+	<roleset id="иметь.03" name="have something against/for/towards">
+      <aliases>
+	  </aliases>
+	  <note>иметь.03 NOTES: Based on hold.01.</note>
+	  <roles>
+        <role descr="holder" f="PAG" n="0"/>
+        <role descr="thing held" f="PPT" n="1">
+		</role>
+		<role descr="benefactive" f="GOL" n="2"/>
+		<role descr="secondary attribute of arg1" f="PAG" n="3"/>
+	  </roles>
+	  <example name="all args" src="Russian National Corpus [Александра Маринина. Последний рассвет (2013)]" type="">
+        <text>Илюша имеет на тебя зуб из-за дочери, которой ты морочишь голову уже десять лет, Олег Цырков тоже на тебя заковырял, хоть и не доказано ничего, но подозрения остались, да и по отношению ко мне у тебя непреходящее чувство вины за то, что ты натворил.</text>
+		<arg f="" n="0">Илюша</arg>
+        <rel f="">имеет</rel>
+		<arg f="" n="2">на тебя</arg>
+		<arg f="" n="1">зуб</arg>
+		<arg f="cau" n="m">из-за дочери</arg>
+      </example>
+	</roleset>
+  </predicate>
+  
+  <predicate lemma="иметь_ввиду">
+    <roleset id="иметь_ввиду.04" name="mean, have in mind">
+      <aliases>
+		<alias framenet="" pos="m" verbnet="">иметь_в_виду</alias>
+		<mwe id="иметь_ввиду">
+			<token slot="A" arg="" pos="" head="" dep="">иметь</token>
+			<token slot="B" arg="" pos="" head="A" dep="">ввиду</token>
+			<token slot="B" arg="" pos="" head="C" dep="">в</token>
+			<token slot="C" arg="" pos="" head="A" dep="">виду</token>
+		</mwe>
+      </aliases>
+      <note>иметь_ввиду NOTES: Based on English mean.02</note>
+      <roles>
+        <role descr="agent" f="PAG" n="0"/>
+        <role descr="thing intended" f="PPT" n="1"/>
+      </roles>
+      <example name="all args" src="" type="">
+        <text>Да не , я имела ввиду не отражение Ваших проблем , а отражение ВАШЕГО ОТНОШЕНИЯ К НЕЙ .</text>
+        <arg f="" n="0">я</arg>
+        <rel f="">имела</rel>
+		<rel f="">ввиду</rel>
+		<arg f="" n="1">не отражение Ваших проблем , а отражение ВАШЕГО ОТНОШЕНИЯ К НЕЙ</arg>
+      </example>
+    </roleset>
+  </predicate>
+  
+  <predicate lemma="иметь_место">
+    <roleset id="иметь_место.05" name="have/take place">
+      <aliases>
+		<alias framenet="" pos="m" verbnet="">иметься_место</alias>
+		<mwe id="иметь_место">
+			<token slot="A" arg="" pos="" head="" dep="">иметь</token>
+			<token slot="A" arg="" pos="" head="" dep="">иметься</token>
+			<token slot="B" arg="" pos="" head="A" dep="">место</token>
+		</mwe>
+      </aliases>
+      <note>иметь_место NOTES: Based on English happen.01</note>
+      <roles>
+        <role descr="event" f="PPT" n="1"/>
+        <role descr="benefactive, location" f="GOL" n="2"/>
+      </roles>
+      <example name="all args" src="" type="">
+        <text>По одной из гипотез , в ходе глубоких землетрясений имеет место фазовый переход между минералами в земной коре .</text>
+        <arg f="" n="1">в ходе глубоких землетрясений</arg>
+        <rel f="">имеет</rel>
+		<rel f="">место</rel>
+		<arg f="" n="0">фазовый переход между минералами в земной коре</arg>
+      </example>
+    </roleset>
+  </predicate>
+  
+  <predicate lemma="иметь_дело">
+    <roleset id="иметь_дело.06" name="have ought to do with, do business with">
+      <aliases>
+		<mwe id="иметь_дело">
+			<token slot="A" arg="" pos="" head="" dep="">иметь</token>
+			<token slot="B" arg="" pos="" head="A" dep="">дело</token>
+		</mwe>
+      </aliases>
+      <note>иметь_дело NOTES: Based on English interact.01</note>
+      <roles>
+        <role descr="one participant" f="PAG" n="0"/>
+        <role descr="other participant(s)" f="COM" n="1"/>
+		<role descr="domain of the interaction" f="PPT" n="2"/>
+      </roles>
+      <example name="example" src="" type="">
+        <text>Для начала пойду к гинекологу ( последний раз имела с ними дело в роддоме ).</text>
+        <arg f="tmp" n="m">последний раз</arg>		
+        <rel f="">имела</rel>
+		<arg f="" n="1">с ними</arg>
+		<rel f="">дело</rel>
+		<arg f="loc" n="m">в роддом</arg>
+      </example>
+    </roleset>
+  </predicate>
+  
+  <predicate lemma="иметь_руку">
+    <roleset id="иметь_руку.06" name="be protected, have connections">
+      <aliases>
+		<mwe id="иметь_руку">
+			<token slot="A" arg="" pos="" head="" dep="">иметь</token>
+			<token slot="B" arg="" pos="" head="A" dep="">руку</token>
+		</mwe>
+      </aliases>
+      <note>иметь_руку NOTES: Based on English patronize.01</note>
+      <roles>
+        <role descr="patron, agent" f="PAG" n="0"/>
+        <role descr="entity patronized " f="PPT" n="1"/>
+      </roles>
+      <example name="example" src="Russian National Corpus: [Семен Ицкович. Шила в мешке не утаишь, или крах «шолоховедения» (2003) // «Вестник США», 2003.07.23]" type="">
+        <text>За деньги или за протекции, поскольку везде имел руку и в самых верхах поддержку.</text>
+        <arg f="adv" n="m">поскольку</arg>
+		<arg f="loc" n="m">везде</arg>
+        <rel f="">имел</rel>
+		<rel f="">руку</rel>
+      </example>
+    </roleset>
   </predicate>
 </frameset>

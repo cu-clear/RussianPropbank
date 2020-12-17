@@ -2,33 +2,11 @@
 <frameset>
   <predicate lemma="говорить">
   <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="говорить.01" name="speak, say, talk">
+  <note>говорить.01 NOTES: NO PERFECTIVE.</note>
+    <roleset id="говорить.01" name="speak, say, (be able to) talk, pronounce">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">говорящий</alias>
-		<alias framenet="" pos="j" verbnet="">говоривший</alias>
-		<alias framenet="" pos="v" verbnet="">говоривши</alias>
-		<alias framenet="" pos="v" verbnet="">говорив</alias>
-		<alias framenet="" pos="j" verbnet="">говоримый</alias>
-		<alias framenet="" pos="j" verbnet="">говорённый</alias>
-		<alias framenet="" pos="j" verbnet="">говоренный</alias>
 		<alias framenet="" pos="v" verbnet="">говориться</alias>
-		<alias framenet="" pos="v" verbnet="">говорясь</alias>
-		<alias framenet="" pos="j" verbnet="">говорящийся</alias>
-		<alias framenet="" pos="j" verbnet="">говорившийся</alias>
-		<alias framenet="" pos="v" verbnet="">говорившись</alias>
 		<alias framenet="" pos="v" verbnet="">поговорить</alias>
-		<alias framenet="" pos="j" verbnet="">поговорящий</alias>
-		<alias framenet="" pos="j" verbnet="">поговоривший</alias>
-		<alias framenet="" pos="v" verbnet="">поговоривши</alias>
-		<alias framenet="" pos="v" verbnet="">поговорив</alias>
-		<alias framenet="" pos="j" verbnet="">поговоримый</alias>
-		<alias framenet="" pos="j" verbnet="">поговорённый</alias>
-		<alias framenet="" pos="j" verbnet="">поговоренный</alias>
-		<alias framenet="" pos="v" verbnet="">поговориться</alias>
-		<alias framenet="" pos="v" verbnet="">поговорясь</alias>
-		<alias framenet="" pos="j" verbnet="">поговорящийся</alias>
-		<alias framenet="" pos="j" verbnet="">поговорившийся</alias>
-		<alias framenet="" pos="v" verbnet="">поговорившись</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses 1,2,3,4,5,8,9</note>
       <note>говорить.01 NOTES: Based on say.01.</note>
@@ -37,7 +15,7 @@
         </role>
         <role descr="utterance" f="PPT" n="1">
         </role>
-		<role descr="hearer" f="GOL" n="2">
+		<role descr="hearer, conversationalist" f="GOL" n="2">
         </role>
 		<role descr="attributive, language" f="ADV" n="3">
         </role>
@@ -46,6 +24,7 @@
         <text>Я слышал , что вы говорили обо мне .</text>
         <arg f="" n="0">вы</arg>
 		<rel f="">говорили</rel>
+		<arg f="" n="1">что</arg>
         <arg f="" n="3">обо мне</arg>
       </example>
 	  <example name="say what" src="" type="">
@@ -64,7 +43,7 @@
       </example>
 	  <example name="say quote" src="" type="">
         <text>При открытии съезда говорились приветственные речи .</text>
-        <arg f="adv" n="m">При открытии съезда</arg>
+        <arg f="tmp" n="m">При открытии съезда</arg>
 		<rel f="">говорились</rel>
         <arg f="" n="1">приветственные речи</arg>
       </example>
@@ -80,44 +59,35 @@
 		<arg f="" n="3">о мало-мальски известных людях</arg>
       </example>
 	</roleset>
-	
+
 	<roleset id="говорить.02" name="accuse, tattle">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">говорящий</alias>
-		<alias framenet="" pos="j" verbnet="">говоривший</alias>
-		<alias framenet="" pos="v" verbnet="">говоривши</alias>
-		<alias framenet="" pos="v" verbnet="">говорив</alias>
-		<alias framenet="" pos="j" verbnet="">говоримый</alias>
-		<alias framenet="" pos="j" verbnet="">говорённый</alias>
-		<alias framenet="" pos="j" verbnet="">говоренный</alias>
 	  </aliases>
       <note>говорить.02 NOTES: Based on accuse.01 but different role numbers and types. More like "tattle on" which is not in English PropBank.</note>
       <roles>
 	    <role descr="accuser" f="PAG" n="0">
         </role>
         <role descr="crime" f="PPT" n="1">
+		  <note>English ARG2-PRD = Russian ARG1-PPT</note>
         </role>
-		<role descr="accused" f="GOL" n="2"/>
+		<role descr="accused" f="GOL" n="2">
+		  <note>English ARG1-PPT = Russian ARG2-GOL</note>
+		</role>
 	  </roles>
-      <example name="all args" src="" type="">
-        <text>И что бы ты ни говорил на меня на суде, что бы ты ни свидетельствовал ― принимаю и не боюсь тебя; сам все подтвержу! [Ф. М. Достоевский. Братья Карамазовы (1880)]</text>
+      <example name="all args" src="Russian National Corpus: [Ф. М. Достоевский. Братья Карамазовы (1880)]" type="">
+        <text>И что бы ты ни говорил на меня на суде, что бы ты ни свидетельствовал ― принимаю и не боюсь тебя; сам все подтвержу!</text>
         <arg f="dis" n="m">И</arg>
 		<arg f="" n="1">что</arg>
 		<arg f="" n="0">ты</arg>
+		<arg f="adv" n="m">ни</arg>
 		<rel f="">говорил</rel>
         <arg f="" n="2">на меня</arg>
+		<arg f="loc" n="m">на суде</arg>
       </example>
 	</roleset>
 	
 	<roleset id="говорить.03" name="reveal">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">говорящий</alias>
-		<alias framenet="" pos="j" verbnet="">говоривший</alias>
-		<alias framenet="" pos="v" verbnet="">говоривши</alias>
-		<alias framenet="" pos="v" verbnet="">говорив</alias>
-		<alias framenet="" pos="j" verbnet="">говоримый</alias>
-		<alias framenet="" pos="j" verbnet="">говорённый</alias>
-		<alias framenet="" pos="j" verbnet="">говоренный</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses 6,7</note>
       <note>говорить.03 NOTES: Based on reveal.01.</note>
@@ -126,7 +96,8 @@
         </role>
         <role descr="utterance, truth condition" f="PPT" n="1">
         </role>
-		<role descr="entity possession or demonstrating arg0" f="GOL" n="2"/>
+		<role descr="entity possession or demonstrating arg1" f="PRD" n="2"/>
+		<note>English ARG2-GOL has no match in Russian frame</note>
 	  </roles>
       <example name="all args" src="Ю. М. Нагибин, «Бунташный остров», 1994 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>А может, это говорило в нём законопослушание: раз тебе полагается, должен получить.</text>
@@ -136,17 +107,13 @@
 		<arg f="" n="1">законопослушание</arg>
       </example>
 	</roleset>
-	
+  </predicate>
+
+  <predicate lemma="говориться">
 	<roleset id="говориться.04" name="(not) want to speak">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">говорящий</alias>
-		<alias framenet="" pos="j" verbnet="">говоривший</alias>
-		<alias framenet="" pos="v" verbnet="">говоривши</alias>
-		<alias framenet="" pos="v" verbnet="">говорив</alias>
-		<alias framenet="" pos="j" verbnet="">говоримый</alias>
-		<alias framenet="" pos="j" verbnet="">говорённый</alias>
-		<alias framenet="" pos="j" verbnet="">говоренный</alias>
 	  </aliases>
+	  <note>IMPERSONAL; usually negative</note>
       <roles>
 	    <role descr="entity (not) wanting to speak" f="PPT" n="1">
         </role>
@@ -162,10 +129,9 @@
 	</roleset>
   </predicate>
   
-  <predicate>	
+  <predicate lemma="не_говори">	
 	<roleset id="не_говори.05" name="no way">
       <aliases>
-		<alias framenet="" pos="m" verbnet="">не говори</alias>
 		<mwe id="не_говори">
 			<token slot="A" arg="" pos="" head="B" dep="">не</token>
 			<token slot="B" arg="" pos="" head="" dep="">говори</token>
@@ -182,10 +148,9 @@
     </roleset>
   </predicate>
   
-  <predicate>	
+  <predicate lemma="кто_говорит">	
 	<roleset id="кто_говорит.06" name="of course, be self-evident, undoubtedly">
       <aliases>
-		<alias framenet="" pos="m" verbnet="">кто говорит</alias>
 		<mwe id="кто_говорит">
 			<token slot="A" arg="" pos="" head="B" dep="">кто</token>
 			<token slot="B" arg="" pos="" head="" dep="">говорит</token>
@@ -197,7 +162,6 @@
       <example name="example" src="made up from our heads" type="">
         <text>Нелегко, кто говорит!.</text>
         <arg f="" n="1">Нелегко</arg>
-		<arg f="adv" n="m">прямо</arg>
         <rel f="">кто</rel>
 		<rel f="">говорит</rel>
       </example>

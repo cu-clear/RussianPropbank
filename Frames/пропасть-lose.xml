@@ -20,7 +20,7 @@
 				<arg f="loc" n="m">В Бразилии</arg>
 				<arg f="" n="1">десятки человек</arg>
 				<rel f="">пропали</rel>
-				<arg f="mnr" n="m">без вести</arg>
+				<arg f="prd" n="m">без вести</arg>
 				<arg f="loc" n="m">в затопленном ядовитыми отходами районе</arg>
 			</example>
 			<example name="disappear, arg1" src="" type="">
@@ -63,7 +63,7 @@
 	</predicate>
 	  
   <predicate lemma="пропасть_пропадом-m">
-	 <roleset id="пропадом.03" name="be damned, may the earth swallow up">
+	 <roleset id="пропасть_пропадом.03" name="be damned, may the earth swallow up">
       <aliases>
         <alias framenet="" pos="m" verbnet="">пропасть_пропадом</alias>
 		<alias framenet="" pos="m" verbnet="">пропадать_пропадом</alias>

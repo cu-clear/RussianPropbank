@@ -22,9 +22,9 @@
 	  <note>Corresponds to FrameBank senses 1,2,3,4</note>
 	  <note>понять.01 NOTES: Based on understand.01.</note>
 	  <roles>
-        <role descr="understander" f="pag" n="0">
+        <role descr="understander" f="PAG" n="0">
         </role>
-        <role descr="thing understood" f="ppt" n="1">
+        <role descr="thing understood" f="PPT" n="1">
 		</role>
 	  </roles>
       <example name="as I understood" src="" type="">

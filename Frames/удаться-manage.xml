@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="удаться">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="удаться.01" name="turn out, manage to">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">удаваться</alias>
+      </aliases>
+	  <note>удаться.01 NOTES: Roleset based on English verb frame manage.02</note>
+	  <note>Corresponds to FrameBank senses 1,2</note>
+      <roles>
+        <role descr="manager" f="PAG" n="0"/>
+        <role descr="deed accomplished" f="PPT" n="1"/>
+      </roles>
+	  <note></note>
+      <example name="succeed" src="http://marker.framebank.ru/verbs_cx.php?lex=удаться&cxid=10746" type="">
+        <text>Репетиция золотого матча у них удалась.</text>
+		<arg f="" n="1">Репетиция золотого матча</arg>
+		<arg f="" n="0">у них</arg>
+		<rel f="">удалась</rel>
+      </example>
+	  <example name="inanimate subject" src="http://marker.framebank.ru/verbs_cx.php?lex=удаться&cxid=10747" type="">
+        <text>В конце концов ей удалось сорвать с одного из нападавших маску.</text>
+		<arg f="tmp" n="m">В конце концов</arg>
+		<arg f="" n="0">ей</arg>
+		<rel f="">удалось</rel>
+		<arg f="" n="1">сорвать с одного из нападавших маску</arg>
+      </example>
+    </roleset>
+    
+	<roleset id="удаться.02" name="be similar to somebody, to take after">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">удаваться</alias>
+      </aliases>
+	  <note>удаться.02 NOTES: Roleset based on English verb frame take.32</note>
+	  <note>Corresponds to FrameBank senses 3</note>
+      <roles>
+		<role descr="similar entity" f="PAG" n="0"/>
+		<role descr="entity taken after" f="PPT" n="1"/>
+      </roles>
+	  <example name="take after" src="http://marker.framebank.ru/verbs_cx.php?lex=удаться" type="">
+        <text>Ты удался в отца.</text>
+		<arg f="" n="0">Ты</arg>
+		<rel f="">удался</rel>
+		<arg f="" n="1">в отца</arg>
+	  </example>
+	</roleset>
+  </predicate>
+</frameset>
+  

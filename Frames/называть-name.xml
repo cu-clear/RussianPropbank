@@ -1,0 +1,91 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="называть">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <roleset id="называть.01" name="name, entitle, label, characterize by a name/title/nickname/etc.">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">назвать</alias>
+		<alias framenet="" pos="v" verbnet="">называться</alias>
+		<alias framenet="" pos="v" verbnet="">назваться</alias>
+	  </aliases>
+      <note>называть.01 NOTES: based on English name.01</note>
+	  <note>Corresponds to FrameBank senses 1,2</note>
+      <roles>
+        <role descr="namer" f="PAG" n="0">
+        </role>
+        <role descr="named" f="PPT" n="1">
+        </role>
+		<role descr="name of arg1" f="PRD" n="2"/>
+      </roles>
+      <example name="name after" src="http://marker.framebank.ru/verbs_cx.php?lex=называть" type="">
+        <text>Своего ребенка мы назовем по дедушке.</text>
+        <arg f="" n="1">Своего ребенка</arg>
+        <arg f="" n="0">мы</arg>
+		<rel f="">назовем</rel>
+		<arg f="" n="2">по дедушке</arg>
+      </example>
+	  <example name="call a spade a spade" src="" type="">
+        <text>Назовем вещи своими именами.</text>
+        <rel f="">Назовем</rel>
+		<arg f="" n="1">вещи</arg>
+		<arg f="" n="2">своими именами</arg>
+      </example>
+	  <example name="call someone something" src="http://marker.framebank.ru/verbs_cx.php?lex=называть" type="">
+        <text>Он называл ее очаровательной.</text>
+		<arg f="" n="0">Он</arg>
+        <rel f="">называл</rel>
+		<arg f="" n="1">ее</arg>
+		<arg f="" n="2">очаровательной</arg>
+      </example>
+    </roleset>
+    
+	<roleset id="называть.02" name="identify (by name), pronounce, call">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">назвать </alias>
+		<alias framenet="" pos="v" verbnet="">называться</alias>
+		<alias framenet="" pos="v" verbnet="">назваться</alias>
+      </aliases>
+	  <note>называть.02 NOTES: Roleset based on English verb frame identify.01</note>
+	  <note>Corresponds to FrameBank sense 3, 4</note>
+      <roles>
+        <role descr="caller" f="PAG" n="0"/>
+		<role descr="item being labelled" f="PPT" n="1"/>
+		<role descr="attribute" f="PRD" n="2"/>
+      </roles>
+	  <example name="name, recite" src="" type="">
+        <text>Он назвал все столицы Европы.</text>
+        <arg f="" n="0">Он</arg>
+		<rel f="">назвал</rel>
+		<arg f="" n="1">все столицы Европы</arg>
+	  </example>
+	  <example name="identify" src="http://marker.framebank.ru/verbs_cx.php?lex=называть" type="">
+        <text>Я назвал ноты: си и ля.</text>
+        <arg f="" n="0">Я</arg>
+		<rel f="">назвал</rel>
+		<arg f="" n="1">ноты: си и ля</arg>
+	  </example>
+	</roleset>  
+	
+	<roleset id="называть.03" name="invite a lot of people">
+      <aliases>
+		<alias framenet="" pos="v" verbnet="">назвать </alias>
+		<alias framenet="" pos="v" verbnet="">называться</alias>
+		<alias framenet="" pos="v" verbnet="">назваться</alias>
+		<alias framenet="" pos="v" verbnet="">звать</alias>
+      </aliases>
+	  <note>называть.03 NOTES: based on English invite.01</note>
+	  <roles>
+		<role descr="inviter" f="PAG" n="0">
+		<role descr="invited" f="PPT" n="1">
+		<role descr="invited-to" f="GOL" n="2">
+      </roles>
+	  <note>Russian Arg2-GOL == English Arg2-PPT</note>
+	  <example name="example" src="Oksana Melnyk" type="">
+        <text>Мы назвали полную хату гостей.
+		<arg f="" n="0">Мы</arg>
+		<rel f="">назвали</rel>
+		<arg f="" n="1">полную хату гостей</arg>
+	  </example>
+	</roleset>
+  </predicate>
+</frameset>
