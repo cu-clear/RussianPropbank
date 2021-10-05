@@ -29,7 +29,7 @@
 	
 	<roleset id="﻿заметить.02" name="take note, remember, note, make note of">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">замечать</alias
+	      <alias framenet="" pos="v" verbnet="">замечать</alias>
       </aliases>
 	  <note>﻿заметить.02 NOTES: Roleset based on English verb frame memorize.01</note>
 	<note>Corresponds to FrameBank senses 5</note>    
