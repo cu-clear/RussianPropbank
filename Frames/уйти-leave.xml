@@ -159,7 +159,7 @@
 	  <roleset id="﻿уйти.06" name="(clock) is fast">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">уходить</alias>
-	  <aliases>
+	  </aliases>
 	  <note>﻿уйти.06 NOTES: Roleset based on English verb frame fast.02</note>
 	  <roles>
 		<role descr="fast entity/action" f="PTT" n="1"/>
