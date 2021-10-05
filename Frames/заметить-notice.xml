@@ -72,7 +72,6 @@
     <roleset id="ни_в_чем_не_замечен.04" name="not suspected">
 	<note>PASSIVE ONLY. NEGATIVE ONLY.</note>
       <aliases>
-	  <alias></alias>
 		<mwe id="ни_в_чем_не_замечен">
 			<token slot="A" arg="" pos="" head="C" dep="">ни</token>
 			<token slot="B" arg="" pos="" head="C" dep="">в</token>
