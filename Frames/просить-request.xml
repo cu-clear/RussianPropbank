@@ -255,7 +255,6 @@
   <predicate lemma="ни_в_чем_не_замечен">
     <roleset id="милости_просим.05" name="welcome, greet, invite in">
       <aliases>
-	  <alias></alias>
 		<mwe id="милости_просим">
 			<token slot="A" arg="" pos="" head="A" dep="">милости</token>
 			<token slot="B" arg="" pos="" head="" dep="">просим</token>
