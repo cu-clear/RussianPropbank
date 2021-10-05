@@ -47,7 +47,7 @@
       <roles>
 		<role descr="entity in motion/goer" f="PPT" n="1"/>
 		<role descr="extent" f="EXT" n="2"/>
-		<role descr="start point" f="DIR n="3"/>
+		<role descr="start point" f="DIR" n="3"/>
 		<role descr="end point, end state of arg1" f="GOL" n="4"/>
       </roles>
 	  <example name="melt" src="Russian National Corpus[Весенний призыв (2004) // «Экран и сцена», 2004.05.06]" type="">
