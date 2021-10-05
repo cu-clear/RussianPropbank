@@ -4,7 +4,7 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="﻿принять.01" name="to take willingly, accept, receive, ingest, listen to positively">
       <aliases>
-		<alias framenet="" pos="v" verbnet=""></alias>
+		<alias framenet="" pos="v" verbnet="">принимать</alias>
       </aliases>
 	  <note>﻿принять.01 NOTES: Roleset based on English verb frame accept.01</note>
 	  <note>Corresponds to FrameBank senses </note>
