@@ -145,7 +145,7 @@
 	  <note>Corresponds to FrameBank sense </note>
 	  <note>﻿принять.05 NOTES: Roleset based on English verb frame tackle.01</note>
 	  <aliases>
-		<alias framenet="приниматься" pos="v" verbnet=""></alias>
+		<alias framenet="" pos="v" verbnet="">приниматься</alias>
       </aliases> 
 	  <roles>
 		<role descr="tackler, entity dealing with something, agent" f="PAG" n="0"/>
