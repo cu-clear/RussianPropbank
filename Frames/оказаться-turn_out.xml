@@ -72,7 +72,7 @@
 		<role descr="watcher" f="GOL" n="2"/>
       </roles>
 	  <example name="example" src="https://ru.wiktionary.org/wiki/оказывать" type="">
-        <text>Старшим должны оказывать уважение.<text>
+        <text>Старшим должны оказывать уважение.</text>
 		<arg f="" adj="2">Старшим</arg>
 		<rel f="">оказывать</rel>
 		<arg f="" n="1">уважение</arg>
