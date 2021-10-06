@@ -167,7 +167,7 @@
       <note>No English frame match</note>
       <roles>
         <role descr="punisher, agent" f="PAG" n="0" />
-		<role descr="punished" f="PPT" n="1 /">
+		<role descr="punished" f="PPT" n="1" />
 		<role descr="punished-for" f="CAU" n="2" />
 		<role descr="mention of punishment itself" f="MNR" n="3" />
       </roles>
