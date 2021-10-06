@@ -32,20 +32,20 @@
 		<arg f="" n="2">ему</arg>
         <arg f="" n="1">что он желает выйти из-под его опеки и самостоятельно вступить в свет</arg>
       </example>
-	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&cxid=3770" type="">
+	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=3770" type="">
         <text>Начавший кампанию по выборам мэра Олег Сысуев заявляет об оказываемом на него давлении со стороны администрации области.</text>
         <arg f="" n="0">Олег Сысуев</arg>
 		<rel f="">заявляет</rel>
         <arg f="" n="1">об оказываемом на него давлении со стороны администрации области</arg>
       </example>
-	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&cxid=14033" type="">
+	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=14033" type="">
         <text>вот тогда он и заявляет: люблю, дескать, но не женюсь,</text>
         <arg f="" n="0">он</arg>
 		<arg f="TMP" n="m">вот тогда</arg>
 		<rel f="">заявляет</rel>
         <arg f="" n="1">люблю, дескать, но не женюсь</arg>
       </example>
-	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&cxid=16667" type="">
+	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=16667" type="">
         <text>ребенок заявит (скорее всего плачем), что устал</text>
 		<rel f="">заявит</rel>
         <arg f="" n="0">ребенок</arg>
@@ -69,13 +69,13 @@
 		<role descr="registered with or for" f="GOL" n="2"/>
 		<role descr="secondary predication" f="PRD" n="3"/>
 	  </roles>
-      <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&cxid=14184">
+      <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=14184">
         <text>Но если его приходилось заявлять на матч , то об этом ему полагалось объявлять буквально за минуту до начала -- в противном случае он просто «рассыпался»</text>
 		<arg f="" n="1">его</arg>
 		<arg f="" n="3">на матч</arg>
 		<rel f="">заявлять</rel>
       </example>
-	     <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&cxid=16588">
+	     <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=16588">
         <text>Он заявил в милицию о краже.</text>
 		<arg f="" n="0">Он</arg>
 		<arg f="" n="1">о краже</arg>
@@ -88,13 +88,13 @@
 		<arg f="" n="1">на него</arg>
 		<rel f="">заявят</rel>
       </example>
-	  	     <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&cxid=14182">
+	  	     <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=14182">
         <text>Ассоциация впервые заявила о себе в 1992 году.</text>
 		<arg f="" n="0">Ассоциация</arg>
 		<arg f="" n="1">о себе</arg>
 		<rel f="">заявила</rel>
       </example>
-	  	     <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&cxid=16671">
+	  	     <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=16671">
         <text>Цель заявили громко -- «перспективы развития страны».</text>
 		<arg f="" n="1">Цель</arg>
 		<arg f="" n="1-APPOS">«перспективы развития страны»</arg>
