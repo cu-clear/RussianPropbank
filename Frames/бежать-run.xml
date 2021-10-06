@@ -23,7 +23,7 @@
 		 <arg f="prp" n="m">за чем-то</arg>
 		<arg f="" n="4">в кухню</arg>
       </example>
-	  <example name="run and" src="FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=бежать&cxid=1039" type="">
+	  <example name="run and" src="FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=бежать&amp;cxid=1039" type="">
         <text>Анка с Таней бегут закупаться чтивом в дорогу -- ехать предстоит 36 часов."</text>
 		<arg f="" n="0">Анка с Таней</arg>
 		<rel f="">бегут</rel>
