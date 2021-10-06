@@ -136,14 +136,13 @@
 	  <note>относить.04 NOTES: based on English treat.01</note>
 	  <note>Corresponds to FrameBank senses 1,2,4</note>
 	  <roles>
-		<role descr="assumer of attribute" f="PAG" n="0"></role>
-		<role descr="entity treated" f="PPT" n="1"/>
-		<role descr="attitude or manner of relating" f="MNR" n="2"/>
+		<role descr="assumer of attribute" f="PAG" n="0" />
+		<role descr="entity treated" f="PPT" n="1" />
+		<role descr="attitude or manner of relating" f="MNR" n="2" />
       </roles>
 	   <note>English Arg2-PRD = Russian Arg2-MNR</note>
 	  <example name="have a good sense of humor" src="«Вы над собой смеяться не боитесь?», 2002 г. // «Дело (Самара)» (цитата из Национального корпуса русского языка, см. Список литературы" type="">
         <text>Я ко всему такому отношусь с юмором и радуюсь, если ко мне так же относятся мои друзья, знакомые.</text>
-		<roles>
 		<arg f="" n="0">Я</arg>
 		<arg f="" n="1">ко всему такому</arg>
 		<rel f="">отношусь</rel>
