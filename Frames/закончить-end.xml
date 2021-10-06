@@ -72,7 +72,7 @@
         </role>
         <role descr="program completed" f="PPT" n="1">
         </role>
-		<role descr="grade or manner of graduation" f="MNR" n="2">
+		<role descr="grade or manner of graduation" f="MNR" n="2" />
       </roles>
       <example name="закончить" src="" type="">
         <text>Он закончил Московский государственный университет .</text>
