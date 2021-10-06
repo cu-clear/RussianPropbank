@@ -39,7 +39,7 @@
 		<arg f="" n="0">мы</arg>
 		<rel f="">идём</rel>
 		<arg f="" n="1">верной дорогой</arg>
-      </example
+	    </example>
     </roleset>
 	
 	<roleset id="идти.02" name="self-directed motion, physical movement">
@@ -141,19 +141,19 @@
         <rel f="">идет</rel>
 		<arg f="" n="2">в ботву</arg>
       </example>
-	  <example name="goes into, goes with, belongs to" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&cxid=3912" type="">
+	  <example name="goes into, goes with, belongs to" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=3912" type="">
         <text>Туда же, в отбросы , шли овощи , гниющие на полях , на складах .</text>
         <arg f="" n="2">Туда же, в отбросы ,</arg>
         <rel f="">шли</rel>
 		<arg f="" n="1">овощи</arg>
       </example>
-	  <example name="goes for, benefactive" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&cxid=3913" type="">
+	  <example name="goes for, benefactive" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=3913" type="">
         <text>Подавляющая часть производимой в ЛПХ продукции шла на питание .</text>
         <arg f="" n="1">Подавляющая часть производимой в ЛПХ продукции</arg>
         <rel f="">шла</rel>
 		<arg f="" n="2">на питание</arg>
       </example>
-	  <example name="goes for, benefactive" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&cxid=14218" type="">
+	  <example name="goes for, benefactive" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=14218" type="">
         <text>Всё идёт в ход , чтобы вырваться на волю, то есть сдать предмет на тройку и снять с себя обвинение. </text>
         <arg f="" n="1">Всё</arg>
         <rel f="">идёт</rel>
@@ -173,7 +173,7 @@
         <role descr="talk, speech, conversation" f="PPT" n="1"/>
 		<role descr="topic" f="PRD" n="2"/>
       </roles>
-      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&cxid=11906" type="">
+      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=11906" type="">
         <text>Речь идёт прежде всего о своевременной выплате заработной платы . </text>
         <arg f="" n="1">Речь</arg>
         <rel f="">идёт</rel>
