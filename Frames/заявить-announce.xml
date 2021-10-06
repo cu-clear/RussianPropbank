@@ -103,9 +103,7 @@
 		<rel f="">заявили</rel>
       </example>
 	</roleset>
-	</predicate>
-</frameset>
-	
+
 	<roleset id="заявить.03" name="appear, arrive suddenly and unexpectedly">
       <aliases>
 		<alias framenet="" pos="j" verbnet="">заявляться</alias>
@@ -121,3 +119,5 @@
         <arg f="TMP" n="m">в 3 ч. ночи</arg>
       </example>
 	</roleset>
+	</predicate>
+</frameset>
