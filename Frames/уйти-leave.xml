@@ -210,7 +210,7 @@
       </roles>
 	  <example name="example" src="Russian National Corpus[А. Н. Островский. Гроза (1860)]" type="">
         <text>Молоду тебя замуж-то отдали, погулять-то тебе в девках не пришлось: вот у тебя сердце-то и не уходилось ещё.</text>
-		<rel f="">уходилось/rel>
+		<rel f="">уходилось</rel>
 		<arg f="" n="2">у тебя сердце</arg>
 	  </example>
 	  <example name="example" src="Russian National Corpus[Д. Н. Мамин-Сибиряк. Три конца (1890)]" type="">
