@@ -79,7 +79,7 @@
 	  <roles>
         <role descr="agent, doer" f="PAG" n="0"/>
         <role descr="entity made" f="PPT" n="1"/>
-        <role descr="thing made from" f="DIR" n="2">
+        <role descr="thing made from" f="DIR" n="2"/>
       </roles>
       <example name="make out of" src="" type="">
         <text>Не надо делать из него посмешище .</text>
