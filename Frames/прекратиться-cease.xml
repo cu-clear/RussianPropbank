@@ -20,9 +20,8 @@
 			<note>Corresponds to FrameBank senses 1</note>
 			<note>прекратиться.01 NOTES: Frame based on adjustment of English cease.01</note>
 			<roles>
-				<role descr="causer of ceasing, Agent" f="pag" n="0">
-				</role>
-				<role descr="Theme (action or object being stopped)" f="ppt" n="1">
+				<role descr="causer of ceasing, Agent" f="pag" n="0" />
+				<role descr="Theme (action or object being stopped)" f="ppt" n="1" />
 			</roles>
 			<example name="arg1 only" src="" type="">
 				<text>В субботу осадки прекратились , выглянуло солнце и движение в столице возобновилось .</text>
