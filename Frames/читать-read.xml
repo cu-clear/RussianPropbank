@@ -139,7 +139,7 @@
 		<role descr="speed, how many minutes ahead" f="EXT" n="2"/>
       </roles>
 	  <example name="example" src="" type="">
-        <text>Скворцов взял газету, но ему не читалось.<text>
+        <text>Скворцов взял газету, но ему не читалось.</text>
 		<arg f="" n="0">ему</arg>
 		<arg f="neg" n="m">не</arg>
 		<rel f="">читалось</rel>
