@@ -111,7 +111,7 @@
 		<alias framenet="" pos="v" verbnet="">считайте</alias>
 	  </aliases>
 	  <note>считай.05 NOTES: No English PB equivalent.</note>
-      <roles>
+		<roles></roles>
 	</roleset>
   </predicate>	
   
