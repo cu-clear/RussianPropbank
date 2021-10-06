@@ -167,7 +167,7 @@
       </roles>
 	  <example name="example" src="Russian National Corpus[С. Д. Мстиславский. Грач ― птица весенняя (1937)]" type="">
         <text>Коридорные часы уходили на десять минут вперед.</text>
-		<rel f="">уходили/rel>
+		<rel f="">уходили</rel>
 		<arg f="" n="2">на десять минут вперед</arg>
 		<arg f="" n="1">Коридорные часы</arg>
 	  </example>
