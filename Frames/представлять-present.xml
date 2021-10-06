@@ -231,7 +231,7 @@
 		<role descr="pretender" f="PAG" n="0"/>
 		<role descr="premise" f="PRD" n="1"/>
       </roles>
-	  <note>Russian ARG1-PRD == English Arg1-PPT<note>
+	  <note>Russian ARG1-PRD == English Arg1-PPT</note>
 	  <example name="malingering" src="" type="Russian National Corpus[А. П. Гайдар. Судьба барабанщика (1938)]">
         <text>Конечно, если только человек этот не такой тип, как злобный Яков, вся жизнь которого, вероятно, только в том и заключается, чтобы охать, ахать, представляться больным и тянуть у доверчивых пассажиров их вещи.</text>
 		<rel f="">представляться</rel>
