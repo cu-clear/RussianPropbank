@@ -62,8 +62,6 @@
 		<alias framenet="" pos="v" verbnet="">перехотеть</alias>
 		<alias framenet="" pos="j" verbnet="">перехотевший</alias>
       </aliases>
-      </aliases>
-      </aliases>
       <note>расхотеть.01 NOTES: Based on English want.01.</note>
       <roles>     
         <role descr="Wanter" f="PAG" n="0"/>
