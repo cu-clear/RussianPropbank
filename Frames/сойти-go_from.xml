@@ -92,7 +92,7 @@
 		<alias framenet="" pos="v" verbnet="">сходить</alias>
       </aliases>
 	  <note>сойти.04 NOTES:Roleset based on English verb frame ran.09</note>
-	  <note>ran.09-only negative or past, completive aspect!<note>
+	  <note>ran.09-only negative or past, completive aspect!</note>
       <roles>
 		<role descr="advertisement, series, etc" f="PPT" n="0"/>
 		<role descr="medium " f="MNR" n="1"/>
