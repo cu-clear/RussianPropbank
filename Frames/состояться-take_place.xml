@@ -39,7 +39,7 @@
 		<rel f="">состоялась</rel>
 		<arg f="" n="2">как актриса</arg>
 	  </example>
-	  <example name="come about, take off" src="http://marker.framebank.ru/verbs_cx.php?lex=состояться&cxid=17371" type="">
+	  <example name="come about, take off" src="http://marker.framebank.ru/verbs_cx.php?lex=состояться&amp;cxid=17371" type="">
         <text>Автор статьи убежден : реальный социализм не состоялся.</text>
 		<arg f="" n="1">реальный социализм</arg>
 		<arg f="neg" n="m">не</arg>
