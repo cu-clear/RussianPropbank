@@ -121,7 +121,7 @@
 	  <note>Corresponds to FrameBank senses 7,8</note>
 	  <note>видеть.03 NOTES: based on English see.03</note>
 	  <roles>
-		<role descr="you" f="PAG" n="0">
+		<role descr="you" f="PAG" n="0" />
       </roles>
 	  <example name="example" src="Russian National Corpus. [Евгений Гришковец. ОдноврЕмЕнно (2004)]" type="">
         <text>То есть, видите, я сам не понимал, чего я хотел.</text>
