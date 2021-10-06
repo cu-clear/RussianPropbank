@@ -82,14 +82,14 @@
 		<rel f="">просил</rel>
 	  </example>
 	  <example name="sue" src="https://vgd.ru/genealogical-mailer/inheritance/" type="">
-        <text>В суд никогда не хаживал , ни на кого не просил<text>
+        <text>В суд никогда не хаживал , ни на кого не просил</text>
 		<arg f="neg" n="m">ни</arg>
 		<arg f="" n="2">на кого</arg>
 		<arg f="neg" n="m">не</arg>
 		<rel f="">просил</rel>
 	  </example>
 	  <example name="intercede to someone for" src="http://marker.framebank.ru/verbs_ex.php?lex=просить" type="">
-        <text>Я попросила вас за Петра только потому, что пообещала ему это.<text>
+        <text>Я попросила вас за Петра только потому, что пообещала ему это.</text>
 		<arg f="" n="0">Я</arg>
 		<rel f="">попросила</rel>
 		<arg f="" n="1">вас</arg>
@@ -138,7 +138,7 @@
 		<arg f="" n="1">на улицу</arg>
 	  </example>
 	  <example name="bequeath" src="https://vgd.ru/genealogical-mailer/inheritance/" type="">
-        <text>В суд никогда не хаживал , ни на кого не просил<text>
+        <text>В суд никогда не хаживал , ни на кого не просил</text>
 		<arg f="neg" n="m">ни</arg>
 		<arg f="" n="2">на кого</arg>
 		<arg f="neg" n="m">не</arg>
