@@ -22,13 +22,13 @@
 		<arg f="" n="1">мне</arg>
 		<arg f="" v="2">делать</arg>
       </example>
-      <example name="command, direct" src="http://marker.framebank.ru/verbs_ex.php?lex=приказать&cxid=7688" type="">
+      <example name="command, direct" src="http://marker.framebank.ru/verbs_ex.php?lex=приказать&amp;cxid=7688" type="">
         <text>А в Думе руководимая ими " Единая Россия " голосует так , как прикажет правительство .</text>
 		<arg f="" v="2">голосует так как</arg>
 		<rel f="">прикажет</rel>
 		<arg f="" n="0">правительство</arg>
       </example>
-	  <example name="order; reflexive as passive" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=приказать&cxid=7689">
+	  <example name="order; reflexive as passive" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=приказать&amp;cxid=7689">
         <text>Приказывалось за час до выступления отправить с обоих корпусов 400 рабочих , с нужным числом фронтовых офицеров и двумя дивизионными квартирмистрами для исправления мостов и дороги</text>
 		<rel f="">Приказывалось</rel>
 		<arg f="tmp" n="m">за час до выступления</arg>
