@@ -104,7 +104,7 @@
 	  </example>
 	</roleset>
   
-	<roleset id="спуститьсь.04" name="stop a run (of a show, movie, act), stop showing, lose popularity, not "in".">
+	<roleset id="спуститьсь.04" name="stop a run (of a show, movie, act), stop showing, lose popularity, not 'in'.">
 		<aliases>
 	  <alias framenet="" pos="v" verbnet="">спускать</alias>
 	  <alias framenet="" pos="v" verbnet="">спуск</alias>
