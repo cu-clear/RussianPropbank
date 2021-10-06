@@ -255,6 +255,7 @@
 		<arg f="" n="1">за начальника цеха</arg>
 		<arg f="adv" n="m">с полной серьезностью</arg>
       </example>
+	  </roleset>
   </predicate>
   
   <predicate lemma="взять_да">
