@@ -31,7 +31,7 @@
       <roles>
         <role descr="demolisher, agent " f="PAG" n="0">
         </role>
-        <role descr="entity torn" f="PPT" n="1">
+        <role descr="entity torn" f="PPT" n="1" />
       </roles>	  
       <example name="collapsing wall" src="" type="">
         <text>Старший лейтенант Иван Ушаков дежурил на одном из объектов Минобороны , когда на него обрушилась стена .</text>
