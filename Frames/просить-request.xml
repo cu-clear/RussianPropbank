@@ -204,7 +204,7 @@
 		<role descr="displayer, agent" f="PAG" n="0"/>
 		<role descr="thing pictured" f="PPT" n="1"/>
 		<role descr="imaginer (reflexive)" f="GOL" n="2"/>
-		<note>Russian Arg2-GOL has no match in English frame <note>
+		<note>Russian Arg2-GOL has no match in English frame </note>
       </roles>
 	  <example name="" src="" type="Russian National Corpus[коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)] .">
         <text>Да, есть объявления со строками «о предоставлении жилья», но, по-моему, это все-таки не везде, а самое главное ― я не представляю себе это «жилье».</text>
