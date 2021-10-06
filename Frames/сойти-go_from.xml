@@ -241,7 +241,6 @@
   <predicate lemma="сойти_с_ума">
     <roleset id="сойти_с_ума-m" name="be/go crazy, out of one's mind">
       <aliases>
-	  </aliases>
 		<mwe id="сойти_с_ума">
 			<token slot="A" arg="" pos="" head="" dep="">сойти</token>
 			<token slot="B" arg="" pos="" head="C" dep="">с</token>
