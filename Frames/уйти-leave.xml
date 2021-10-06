@@ -215,7 +215,7 @@
 	  </example>
 	  <example name="example" src="Russian National Corpus[Д. Н. Мамин-Сибиряк. Три конца (1890)]" type="">
         <text>Даже Катря, и та «уходилась» с разными хозяйственными хлопотами. </text>
-		<rel f="">«уходилась»/rel>
+		<rel f="">«уходилась»</rel>
 		<arg f="" n="1">Катря</arg>
 		<arg f="" n="2">с разными хозяйственными хлопотами</arg>
 	  </example>
