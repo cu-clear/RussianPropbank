@@ -97,7 +97,7 @@
 		<role descr="advertisement, series, etc" f="PPT" n="0"/>
 		<role descr="medium " f="MNR" n="1"/>
 	  </roles>
-	  <note>English Arg0-PAG has no match in Russian frame<note>
+	  <note>English Arg0-PAG has no match in Russian frame</note>
 	  <example name="quit acting" src="" type="Russian National Corpus[Я был когда-то странным... – беседа с национальным героем // «Пятое измерение», 2002]">
         <text>Когда я сошел с больших экранов, журналисты меня какое-то время доставали, пытались развести на скандал ― не получилось.</text>
 		<arg f="tmp" n="m">Когда</arg>
