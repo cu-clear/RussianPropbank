@@ -112,9 +112,7 @@
 	  <note>Corresponds to FrameBank senses </note>
       <note>заявить.03 NOTES: Based on show_up.02.</note>
       <roles>
-	    <role descr="thing appearing, showing up" f="PPT" n="1">
-        </role>
-        </role>
+	    <role descr="thing appearing, showing up" f="PPT" n="1" />
 	  </roles>
       <example name="" src="" type="">
         <text>Заявился в гости в 3 ч. ночи.</text>
