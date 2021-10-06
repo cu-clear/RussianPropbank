@@ -14,7 +14,6 @@
 	  <note>ПОСТРАДАТЬ.01 NOTES: Based on English suffer.01</note>
       <roles>
 		<role descr="entity suffering" f="PPT" n="0"/>
-		</role>
 	  </roles>
 	  <note>English Arg1-PAG has no match in Russian Frame</note>
 	  <example name="suffer" src="" type="">
