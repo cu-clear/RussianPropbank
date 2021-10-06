@@ -34,7 +34,7 @@
         <rel f="">начали</rel>
         <arg f="" n="2">с окна</arg>
       </example>
-      <example name="reflexive as passive" src="Russian National Corpus. [коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]</" type="">
+      <example name="reflexive as passive" src="Russian National Corpus. [коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
         <text>Проекты начинаются уже сейчас, просто законодательство еще в сыром состоянии.</text>
         <arg f="" n="1">Проекты</arg>
         <rel f="">начинаются</rel>
