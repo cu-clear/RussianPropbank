@@ -86,7 +86,7 @@
 	   <alias framenet="" pos="v" verbnet="">попадаться</alias>
       </aliases>
 	  <note>попасть.03 NOTES: Roleset based on English verb frame encounter.01</note>
-	  <note>Corresponds to FrameBank sense 7 *FrameBank -ся 3, 4/<note>
+	  <note>Corresponds to FrameBank sense 7 *FrameBank -ся 3, 4</note>
 	  <roles>
 		<role descr="entity encountering something" f="PAG" n="1"/>
 		<role descr="entity encountered" f="PPT" n="2"/>
