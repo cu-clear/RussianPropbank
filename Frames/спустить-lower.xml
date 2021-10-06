@@ -148,7 +148,7 @@
 		<rel f="">спусти́ло</rel>
 		<arg f="" n="1">колесо</arg>
 	  </example>
-  
+	  </roleset>
 	<roleset id="спустить.06" name="gamble away, lose through recklessnes, completely waste, spend recklessly">
 		<aliases>
 	  <alias framenet="" pos="v" verbnet="">спускать</alias>
