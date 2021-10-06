@@ -51,6 +51,7 @@
         <arg f="" n="0">ребенок</arg>
 		<arg f="" n="1">что устал</arg>
 		<arg f="MNR" n="m">скорее всего плачем</arg>
+	    </example>
 	</roleset>
 	
 	<roleset id="заявить.02" name="accuse, tattle">
