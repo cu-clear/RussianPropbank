@@ -116,12 +116,10 @@
 	  <note>Corresponds to FrameBank senses 6,7,8,10</note>
       <note>обращаться.03 NOTES: Based on convert.01</note>
        <roles>
-	    <role descr="causer of transformation" f="PAG" n="0">
-        </role>
-        <role descr="thing changing " f="PPT" n="1">
-		  <role descr="end state" f="PRD" n="2">
-        </role>
-		<role descr="start state" f="VSP" n="3"/>
+	    <role descr="causer of transformation" f="PAG" n="0" />
+        <role descr="thing changing " f="PPT" n="1" />
+		  <role descr="end state" f="PRD" n="2" />
+		<role descr="start state" f="VSP" n="3" />
 	  </roles>
       <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращать" type="">
         <text>Идеология расизма обращает человека в зверя. </text>
