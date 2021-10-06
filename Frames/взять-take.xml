@@ -261,7 +261,6 @@
   <predicate lemma="взять_да">
     <roleset id="взять_да.09" name="emphatic, sudden action, to up and X">
       <aliases>
-	  </aliases>
 		<mwe id="взять_да">
 			<token slot="A" arg="" pos="" head="" dep="">взять</token>
 			<token slot="B" arg="" pos="" head="A" dep="">да</token>
@@ -282,7 +281,6 @@
     <roleset id="взять_себя_в_руки.10" name="calm down, restrain self, stop and think">
       <aliases>
 		<alias framenet="" pos="m" verbnet="">брать_себя_в_руки</alias>
-	  </aliases>
 		<mwe id="взять_себя_в_руки">
 			<token slot="A" arg="" pos="" head="" dep="">взять</token>
 			<token slot="A" arg="" pos="" head="" dep="">брать</token>
