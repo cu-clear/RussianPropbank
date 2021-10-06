@@ -59,7 +59,7 @@
 		<arg f="" n="2">на повышение</arg>
         <rel f="">уйти</rel>
       </example>
-	  	  <example name="" src="Russian National Corpus[Леонид Черняк. Монополист «на час» // «Computerworld», 2004]"type="">
+	  	  <example name="" src="Russian National Corpus[Леонид Черняк. Монополист «на час» // «Computerworld», 2004]" type="">
         <text>Однако "дело Netscape" не исчезло бесследно, в феврале 1998 года Андриссен, который ушёл из AOL в молодую компанию LoudCloud, ныне Opsware, открыл коды Netscape Navigator.</text>
 		<arg f="" n="1">AOL</arg>
 		<arg f="" n="2">в молодую компанию LoudCloud, ныне Opsware</arg>
