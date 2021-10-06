@@ -29,11 +29,9 @@
 	  <note>Corresponds to FrameBank senses 1,3</note>
 	  <note>NOTES: Based on rub.01. No GOL</note>
       <roles>
-	    <role descr="rubber, agent" f="pag" n="0">
-        </role>
-        <role descr="thing rubbed" f="ppt" n="1">
-        </role>
-		<role descr="rubbed with, if separate from agent" f="mnr" n="2">
+	    <role descr="rubber, agent" f="pag" n="0" />
+        <role descr="thing rubbed" f="ppt" n="1" />
+		<role descr="rubbed with, if separate from agent" f="mnr" n="2" />
 	  </roles>
       <example name="rub; all args" src="" type="">
         <text>Парень сидел в трусах , испуганно тер кулаком красное от стыда лицо</text>
