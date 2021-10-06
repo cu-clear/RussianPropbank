@@ -16,23 +16,23 @@
 	<role descr="thing being added to" f="PPT" n="2" />
 	<role descr="resulting sum" f="PPT" n="3" />
       </roles>
-      <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=добавить&cxid=2888">
+      <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=добавить&amp;cxid=2888">
         <text>Затем добавить остальную муку , соду и быстро размешать до однородной массы .</text>
         <arg f="" n="1">остальную муку, соду</arg>
         <rel f="">добавить</rel>
       </example>
-	   <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=добавить&cxid=2889">
+	   <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=добавить&amp;cxid=2889">
         <text>Эффект будет сильнее , если добавите в ванну.</text>
         <arg f="" n="2">в ванну</arg>
         <rel f="">добавите</rel>
       </example>
-	   <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=добавить&cxid=2888">
+	   <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=добавить&amp;cxid=2888">
         <text>В образовании , к примеру , предлагается отнять деньги у молодых специалистов и добавить тем , у кого стаж больше.</text>
         <arg f="" n="1">деньги</arg>
 		<arg f="" n="2">тем , у кого стаж больше</arg>
         <rel f="">добавить</rel>
       </example>
-	   <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=добавить&cxid=12216">
+	   <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=добавить&amp;cxid=12216">
         <text>Тут дядя Паша действительно дал костра и добавил овечьей верёвкой .</text>
         <arg f="" n="0">дядя Паша</arg>
 		<arg f="" n="1">овечьей верёвкой</arg>
