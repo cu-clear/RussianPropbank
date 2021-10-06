@@ -31,7 +31,7 @@
 		<rel f="">унесли</rel>
 		<arg f="" n="4">в помещение поликлиники</arg>
 	</example>
-	<example name="non sentient arg0" src="http://marker.framebank.ru/verbs_ex.php?lex=унести&cxid=18209" type="">
+	<example name="non sentient arg0" src="http://marker.framebank.ru/verbs_ex.php?lex=унести&amp;cxid=18209" type="">
 		<text>Если бы вы не были привязаны -- вас унесло бы легчайшим дуновением ветра .</text>
 		<arg f="" n="1">вас</arg>
 		<rel f="">унесло</rel>
