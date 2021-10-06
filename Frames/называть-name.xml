@@ -81,7 +81,7 @@
       </roles>
 	  <note>Russian Arg2-GOL == English Arg2-PPT</note>
 	  <example name="example" src="Oksana Melnyk" type="">
-        <text>Мы назвали полную хату гостей.
+		  <text>Мы назвали полную хату гостей.</text>
 		<arg f="" n="0">Мы</arg>
 		<rel f="">назвали</rel>
 		<arg f="" n="1">полную хату гостей</arg>
