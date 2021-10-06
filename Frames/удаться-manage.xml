@@ -13,13 +13,13 @@
         <role descr="deed accomplished" f="PPT" n="1"/>
       </roles>
 	  <note></note>
-      <example name="succeed" src="http://marker.framebank.ru/verbs_cx.php?lex=удаться&cxid=10746" type="">
+      <example name="succeed" src="http://marker.framebank.ru/verbs_cx.php?lex=удаться&amp;cxid=10746" type="">
         <text>Репетиция золотого матча у них удалась.</text>
 		<arg f="" n="1">Репетиция золотого матча</arg>
 		<arg f="" n="0">у них</arg>
 		<rel f="">удалась</rel>
       </example>
-	  <example name="inanimate subject" src="http://marker.framebank.ru/verbs_cx.php?lex=удаться&cxid=10747" type="">
+	  <example name="inanimate subject" src="http://marker.framebank.ru/verbs_cx.php?lex=удаться&amp;cxid=10747" type="">
         <text>В конце концов ей удалось сорвать с одного из нападавших маску.</text>
 		<arg f="tmp" n="m">В конце концов</arg>
 		<arg f="" n="0">ей</arg>
