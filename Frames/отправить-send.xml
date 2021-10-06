@@ -48,7 +48,7 @@
 		<rel f="">отправляет</rel>
 		<arg f="" n="1">поезд</arg>
 	  </example>
-	  <example name="sent away" src="http://marker.framebank.ru/verbs_ex.php?lex=отправить&18726" type="">
+	  <example name="sent away" src="http://marker.framebank.ru/verbs_ex.php?lex=отправить&amp;18726" type="">
         <text>А у самих-- три машины и два шофёра , да и внучку в Англию отправили учиться .</text>
 		<arg f="" n="1">внучку</arg>
 		<arg f="gol" n="m">в Англию</arg>
