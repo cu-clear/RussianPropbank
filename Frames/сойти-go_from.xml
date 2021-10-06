@@ -212,7 +212,7 @@
 	  </example>
 	 </roleset>
 	
-	<roleset id="сойтись.08" name="get close with someone, befriend, shack up"/>
+	<roleset id="сойтись.08" name="get close with someone, befriend, shack up">
 		<aliases>
 	  <alias framenet="" pos="v" verbnet="">сходиться</alias>
       </aliases>
