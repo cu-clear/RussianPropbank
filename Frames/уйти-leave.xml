@@ -184,7 +184,7 @@
       </roles>
 	  <example name="example" src="Russian National Corpus[Наталья Дубова. Вокруг ITSM // «Computerworld», 2004]" type="">
         <text>Однако сколько времени уйдёт на это, и каких усилий может это стоить ИТ-отделу, не имеющему реального опыта подобных проектов?</text>
-		<rel f="">уйдёт/rel>
+		<rel f="">уйдёт</rel>
 		<arg f="" n="2">на это</arg>
 		<arg f="" n="1">сколько времени</arg>
 	  </example>
