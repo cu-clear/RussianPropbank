@@ -205,8 +205,8 @@
       <roles>
 		<role descr="action begun" f="PPT" n="1"/>
       </roles>
-	  	  <example name="" src="Russian National Corpus[Александр Снегирев. Вера (2015)]"type="">
-        <text>"Он принялся вытаскивать из всех своих закромов банкноты, вернулся к столу и давай награждать. </text>
+	  	  <example name="" src="Russian National Corpus[Александр Снегирев. Вера (2015)]" type="">
+        <text>Он принялся вытаскивать из всех своих закромов банкноты, вернулся к столу и давай награждать. </text>
 		<rel f="">давай</rel>
 		<arg f="награждать" v="1"></arg>
 	  </example>
