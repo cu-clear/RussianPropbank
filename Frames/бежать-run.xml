@@ -90,7 +90,7 @@
 		<role descr="place or thing escaped" f="PPT" n="1"/>
       </roles>
 	  <example name="all args" src="" type="">
-        <text>Ты бежал с каторги, что ли? <text>
+        <text>Ты бежал с каторги, что ли? </text>
 		<arg f="" n="0">Ты</arg>
 		<rel f="">бежал</rel>
 		<arg f="" n="1">с каторги</arg>
