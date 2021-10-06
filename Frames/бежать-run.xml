@@ -18,7 +18,7 @@
 		<note>NOTES:Russian Arg4-GOL has no match in English Frame</note>
       <example name="chases" src="И. П. Горелов, «Витенька», 1952 г. // «Крокодил»" type="">
         <text>Мама бежит за чем-то в кухню и натыкается на Витеньку.</text>
-        <arg f="" n="0">Мама</arg
+	      <arg f="" n="0">Мама</arg>
 		<rel f="">бежит</rel>
 		 <arg f="prp" n="m">за чем-то</arg>
 		<arg f="" n="4">в кухню</arg>
