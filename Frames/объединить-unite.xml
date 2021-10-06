@@ -46,8 +46,8 @@
 				<arg f="" n="2">с Audi , Horch и Wanderer</arg>
 				<arg f="" n="3">в автомобильный союз Auto Union</arg>
 			</example> 
-			
-			<roleset id="объединить.02" name="solidify, strengthen, unite">
+		</roleset>
+		<roleset id="объединить.02" name="solidify, strengthen, unite">
 			<aliases>
 				<alias framenet="" pos="j" verbnet="">объединенный</alias>
 				<alias framenet="" pos="j" verbnet="">объединивший</alias>
