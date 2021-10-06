@@ -188,7 +188,7 @@
   <predicate>
 	<roleset id="﻿даться.07" name="be discussed, become object of attention, interest, or topic of conversation">
 	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿дать.07 NOTES: No frame match in English/note>
+	  <note>﻿дать.07 NOTES: No frame match in English</note>
       <roles>
 		<role descr="discusser, interested entity" f="PAG" n="0"/>
 		<role descr="interesting entity being discussed" f="PPT" n="1"/>
