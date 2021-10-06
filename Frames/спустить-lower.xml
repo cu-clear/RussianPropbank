@@ -122,6 +122,7 @@
 		<arg f="" n="0">Он</arg>
 		<arg f="" n="1">курок</arg>
 	  </example>
+	  </roleset>
 	   	<roleset id="спустить.05" name="deflate, let off steam, gas, water, etc.">
 		<aliases>
 	  <alias framenet="" pos="v" verbnet="">спускать</alias>
