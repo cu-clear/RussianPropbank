@@ -262,10 +262,9 @@
       </aliases>
       <note>Based on English frame welcome.01</note>
       <roles>
-        <role descr="welcomer" f="PAG" n="0">
-		<role descr="thing welcomed" f="PPT" n="1">
-		<role descr="welcomed to" f="LOC" n="2">
-        </role>
+        <role descr="welcomer" f="PAG" n="0" />
+		<role descr="thing welcomed" f="PPT" n="1" />
+		<role descr="welcomed to" f="LOC" n="2" />
       </roles>
       <example name="" src="Russian National Corpus [И. Грекова. Перелом (1987)]" type="">
         <text>Милости просим в наше отделение. Место для вас приготовлено.</text>
