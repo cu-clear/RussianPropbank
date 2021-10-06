@@ -102,8 +102,9 @@
 		<arg f="MNR" n="m">громко</arg>
 		<rel f="">заявили</rel>
       </example>
-	  
 	</roleset>
+	</predicate>
+</frameset>
 	
 	<roleset id="заявить.03" name="appear, arrive suddenly and unexpectedly">
       <aliases>
