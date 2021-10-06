@@ -55,9 +55,8 @@
 	  <note>Corresponds to FrameBank sense 2</note>
       <note>NOTES: Roleset based on English propbank begin.02</note>
       <roles>
-        <role descr="thing beginning something" f="PAG" n="0">
-		<role descr="Action begun - S-node!" f="PPT" n="1">
-        </role>
+        <role descr="thing beginning something" f="PAG" n="0" />
+		<role descr="Action begun - S-node!" f="PPT" n="1" />
       </roles>
       <example name="non agentive arg0" src="" type="">
         <text>Если нога начнет пухнуть - хорошо влажные повязки с фурацилином .</text>
