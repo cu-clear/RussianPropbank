@@ -95,7 +95,7 @@
       </roles>
 	  <note>English Arg0-PAG has no match in Russian frame </note>
 	  <example name="example" src="Russian National Corpus[Светлана Бабаева, Екатерина Григорьева. Слоеный пирог. Владимир Путин начал раздачу власти (2003) // «Известия», 2003.02.18]" type="">
-        <text>Новоиспечённым родителям часто кажется , что всё вокруг рушится , летит в тартарары .<text>
+        <text>Новоиспечённым родителям часто кажется , что всё вокруг рушится , летит в тартарары .</text>
 		<rel f="">летит</rel>
 		<arg f="" n="2">в тартарары</arg>
 	  </example>
@@ -112,7 +112,7 @@
 		<role descr="winner or instrument of destruction" f="GOL" n="1"/>
       </roles>
 	  <example name="perfective" src="" type="">
-        <text>Мы пролeтели в этом деле.<text>
+        <text>Мы пролeтели в этом деле.</text>
 		<arg f="" n="0">Мы</arg>
 		<rel f="">пролeтели</rel>
 		<arg f="" n="1">в этом деле</arg>
