@@ -201,7 +201,7 @@
 	  </example>
 	   <roleset id="﻿даться.08" name="begin (ASPECTUAL USAGE)">
 	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿дать.08 NOTES: No frame match in English/note>
+	  <note>﻿дать.08 NOTES: No frame match in English</note>
       <roles>
 		<role descr="action begun" f="PPT" n="1"/>
       </roles>
