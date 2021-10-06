@@ -95,6 +95,7 @@
         <role descr="comitative, resolved with" f="COM" n="1"/>
 		<role descr="thing being resolved" f="GOL" n="2"/>
 		<role descr="what the settlement is (value or decision)" f="PRD" n="3"/>
+	</roles>
       <example name="example" src="Russian National Corpus: [А. И. Деникин. Очерки русской смуты. Том I. Крушение власти и армии (1921)" type="">
         <text>Погоди, с. с ― мы с тобой сосчитаемся!</text>    
         <arg f="" n="0">мы</arg>
