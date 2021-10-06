@@ -125,7 +125,7 @@
 		<role descr="maker, subject of the light-verb" f="PAG" n="0"/>
 		<role descr="true noun predicate " f="PRD" n="1"/>
       </roles>
-	  <example name= type="">
+	  <example name="" type="">
         <text>"Похоже на упраждение для развития бредогенератора ))))) И что , дашь совет ? )))))".</text>
 		<rel f="">дашь</rel>
 		<arg f="" n="1">совет</arg>
