@@ -27,13 +27,13 @@
 		<rel f="">просятся</rel>
 		<arg f="" n="1">на музыку</arg>
       </example>
-	  <example name="borrow" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8060">
+	  <example name="borrow" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&amp;cxid=8060">
         <text>сейчас прибегал ваш матрос Сизый, вы его знаете, пижонистый такой, просил у моего соседа учебник тригонометрии для десятого класса.</text>
 		<rel f="">просил</rel>
 		<arg f="" n="2">у моего соседа</arg>
 		<arg f="" v="1">учебник тригонометрии для десятого класса</arg>
       </example>
-	  <example name="ask to do" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8062">
+	  <example name="ask to do" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&amp;cxid=8062">
         <text>Вот тут особо впечатлительных просим на всякий случай присесть...</text>
 		<arg f="dis" n="m">Вот</arg>
 		<arg f="tmp" n="m">тут</arg>
@@ -42,7 +42,7 @@
 		<arg f="prp" n="m">на всякий случай</arg>
 		<arg f="" v="1">присесть</arg>
       </example>
-	  <example name="direct quote" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8065">
+	  <example name="direct quote" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&amp;cxid=8065">
         <text>-- Ну же, Абношкин ,-- уже прошу я ,-- договаривай , если начал.</text>
 		<arg f="dis" n="m">Ну же</arg>
 		<arg f="" n="2">Абношкин</arg>
@@ -51,7 +51,7 @@
 		<arg f="" n="0">я</arg>
 		<arg f="" v="1">договаривай , если начал</arg>
       </example>
-	  <example name="not verb in arg 1" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8070">
+	  <example name="not verb in arg 1" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=просить&amp;cxid=8070">
         <text>Вас к себе начальник просит .</text>
 		<arg f="" n="1">Вас к себе</arg>
 		<arg f="" n="0">начальник</arg>
@@ -75,7 +75,7 @@
 		<role descr="resolution between/among/with whom" f="PPT" n="1"/>
 		<role descr="on behalf of" f="GOL" n="2"/>
       </roles>
-	  <example name="args 0 and 2" src="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8073" type="">
+	  <example name="args 0 and 2" src="http://marker.framebank.ru/verbs_ex.php?lex=просить&amp;cxid=8073" type="">
         <text>Он за тебя просил.</text>
         <arg f="" n="0">Он</arg>
 		<arg f="" n="2">за тебя</arg>
@@ -109,7 +109,7 @@
 		<role descr="buyer" f="GOL" n="2"/>
 		<role descr="asking price" f="VSP" n="3"/>
       </roles>
-	  <example name="args 0 and 2" src="http://marker.framebank.ru/verbs_ex.php?lex=просить&cxid=8072" type="">
+	  <example name="args 0 and 2" src="http://marker.framebank.ru/verbs_ex.php?lex=просить&amp;cxid=8072" type="">
         <text>Сколько же ты за свою курицу просишь?</text>
         <arg f="" n="3">Сколько</arg>
         <arg f="" n="0">ты</arg>
