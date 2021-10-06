@@ -64,7 +64,6 @@
 		<role descr="Action (barely) begun" f="PPT" n="1"/>
 		<role descr="Instrument, starting point" f="MNR" n="2"/>
 	  </roles>
-	  </example>
 	  <example name="only begin" src="М. А. Булгаков, «Мастер и Маргарита, часть 1», 1929-1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Ну , а колдовству , как известно , стоит только начаться , а там уж его ничем не остановишь .</text>
 		<rel f="">стоит</rel>
