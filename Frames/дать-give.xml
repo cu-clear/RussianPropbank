@@ -219,15 +219,15 @@
 	  <note>﻿дать.09 NOTES: No frame match in English</note>
       <roles>
       </roles>
-	  <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]"type="">
+	  <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
         <text>"А давайте вместе начинать, а то опять всю ответственность взваливаете на нас. </text>
 		<rel f="">давайте</rel>
 	  </example>
-	    <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2008.01.16)]"type="">
+	    <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2008.01.16)]" type="">
         <text>"Хороший подход, однако ) правда, если б он к нашим преподам по гермафилу подошел с подобным:" а давайте я сразу на пересдачу приду ", они бы ему хором ответили -" А давайте!"</text>
 		<rel f="">a давайте</rel>
 	  </example>
-	  <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]"type="">
+	  <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]" type="">
         <text>"Ага, давай, спокойной ночи. Я бы тоже пошел, но завтра не встану. </text>
 		<rel f="">давай</rel>
 	  </example>
@@ -238,7 +238,7 @@
       <roles>
 		<role descr="" f="" n=""/>
       </roles>
-	  <example name="example" src="Russian National Corpus [Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]"type="">
+	  <example name="example" src="Russian National Corpus [Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]" type="">
         <text>"Ага, давай, спокойной ночи. Я бы тоже пошел, но завтра не встану</text>
 		<rel f="">давай</rel>
 	  </example>
@@ -250,15 +250,15 @@
 	  <note>﻿дать.09 NOTES: No frame match in English</note>
       <roles>
       </roles>
-	  <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]"type="">
+	  <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
         <text>"А давайте вместе начинать, а то опять всю ответственность взваливаете на нас. </text>
 		<rel f="">давайте</rel>
 	  </example>
-	    <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2008.01.16)]"type="">
+	    <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2008.01.16)]" type="">
         <text>"Хороший подход, однако ) правда, если б он к нашим преподам по гермафилу подошел с подобным:" а давайте я сразу на пересдачу приду ", они бы ему хором ответили -" А давайте!"</text>
 		<rel f="">a давайте</rel>
 	  </example>
-	  <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]"type="">
+	  <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]" type="">
         <text>"Ага, давай, спокойной ночи. Я бы тоже пошел, но завтра не встану. </text>
 		<rel f="">давай</rel>
 	  </example>
