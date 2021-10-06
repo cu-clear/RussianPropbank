@@ -82,10 +82,9 @@
       </aliases>
       <note>Based on English frame suspect.01</note>
       <roles>
-        <role descr="suspecter" f="PAG" n="0">
-		<role descr="suspicion: what arg0 thinks" f="PPT" n="1">
-		<role descr="suspect; entity inspring suspicion in arg0" f="PRD" n="2">
-        </role>
+        <role descr="suspecter" f="PAG" n="0" />
+		<role descr="suspicion: what arg0 thinks" f="PPT" n="1" />
+		<role descr="suspect; entity inspring suspicion in arg0" f="PRD" n="2" />
       </roles>
       <example name="example" src="Russian National Corpus [М. А. Булгаков. Мастер и Маргарита, часть 2 (1929-1940)]" type="">
         <text>Она дала самые лестные рекомендации коту, объяснила, что знает его пять лет с тех пор, как он был котёнком, ручается за него, как за самоё себя, доказала, что он ни в чём плохом не замечен и никогда не ездил в Москву.</text>
