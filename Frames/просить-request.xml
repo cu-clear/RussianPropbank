@@ -251,7 +251,7 @@
 		<arg f="" n="1">его клиентом</arg>
 	  </example>  
   </roleset>
-  </predicat>
+  </predicate>
   <predicate lemma="ни_в_чем_не_замечен">
     <roleset id="милости_просим.05" name="welcome, greet, invite in">
       <aliases>
