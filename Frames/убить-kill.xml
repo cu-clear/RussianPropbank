@@ -88,7 +88,7 @@
 		<role descr="activity, waster" f="GOL" n="2"/>
       </roles>
 	  <example name="squander" src="Russian National Corpus: [Вас. И. Немирович-Данченко. Цари биржи (Каиново племя в наши дни) (1886)]" type="">
-        <text>Я очень много убил денег на «Старгородку».<text>
+        <text>Я очень много убил денег на «Старгородку».</text>
 		<arg f="" n="0">Я</arg>
 		<arg f="ext" n="m">очень много</arg>
 		<rel f="">убил</rel>
@@ -96,7 +96,7 @@
 		<arg f="" n="2">на «Старгородку»</arg>
 	  </example>
 	  <example name="waste" src="Russian National Corpus: [А. К. Шеллер-Михайлов. Лес рубят - щепки летят (1871)]" type="">
-        <text>Это была Оболенская, скучающая барыня, убившая свою молодость со старым мужем и стремящаяся теперь найти человека, который решился бы убить свою молодость со старою женой.<text>
+        <text>Это была Оболенская, скучающая барыня, убившая свою молодость со старым мужем и стремящаяся теперь найти человека, который решился бы убить свою молодость со старою женой.</text>
 		<arg f="" n="0">Оболенская, скучающая барыня</arg>
 		<rel f="">убившая</rel>
 		<arg f="" n="1">свою молодость</arg>
@@ -118,7 +118,7 @@
 	  <note>English ARG3-MNR = Russian ARG2-MNR</note>
 	  <note>English ARG1-PPT has no match in Russian frame</note>
 	  <example name="amazed" src="" type="Wiktionary">
-        <text>Все просто убиты твоим новым платьем<text>
+        <text>Все просто убиты твоим новым платьем</text>
 		<arg f="" n="1">Все</arg>
 		<arg f="adv" n="m">просто</arg>
 		<rel f="">убиты</rel>
@@ -137,12 +137,12 @@
 		<role descr="instrument, injured doing what" f="MNR" n="2"/>
       </roles>
 	  <example name="hurt limb" src="Russian National Corpus: [Л. М. Леонов. Гибель Егорушки (1922)]" type="">
-        <text>Лев облизал ему убившую руку, а птица стратон поклонилась ему.<text>
+        <text>Лев облизал ему убившую руку, а птица стратон поклонилась ему.</text>
 		<rel f="">убившую</rel>
 		<arg f="" n="1">руку</arg>
 	  </example>
 	  <example name="struck by God" src="" type="">
-        <text>Убитый богом<text>
+        <text>Убитый богом</text>
 		<rel f="">Убитый</rel>
 		<arg f="" n="0">богом</arg>
 	  </example>
@@ -159,7 +159,7 @@
 		<role descr="thing getting compacted" f="PPT" n="1"/>
       </roles>
 	  <example name="well beaten road" src="Russian National Corpus:  [А. И. Эртель. Записки Степняка (1883)] " type="">
-        <text>Немного погодя бойкий топот Копчика по твердо убитой дороге дал нам знать, что Михайло действительно скатает «духом» в Березовку.<text>
+        <text>Немного погодя бойкий топот Копчика по твердо убитой дороге дал нам знать, что Михайло действительно скатает «духом» в Березовку.</text>
 		<arg f="adv" n="m">твердо</arg>
 		<rel f="">убитой</rel>
 		<arg f="" n="1">дороге</arg>
