@@ -35,7 +35,7 @@
         <rel f="">кажется</rel>
 		<arg f="" n="1">вода из скважины</arg>
       </example>
-	  <example name="nominative arg3" src="Russian National Corpus via FrameBank:http://marker.framebank.ru/verbs_ex.php?lex=казаться&cxid=17129" type="">
+	  <example name="nominative arg3" src="Russian National Corpus via FrameBank:http://marker.framebank.ru/verbs_ex.php?lex=казаться&amp;cxid=17129" type="">
         <text>А мамка-- ни в какую... А папка-- молчит. А мамка кричит : не смей . Они не понимают , что есть такая профессия . Им всё кажутся всякие глупости</text>
         <arg f="" n="2">Им</arg>
 		<arg f="" n="1">всё</arg>
