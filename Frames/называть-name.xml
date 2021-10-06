@@ -75,9 +75,9 @@
       </aliases>
 	  <note>называть.03 NOTES: based on English invite.01</note>
 	  <roles>
-		<role descr="inviter" f="PAG" n="0">
-		<role descr="invited" f="PPT" n="1">
-		<role descr="invited-to" f="GOL" n="2">
+		<role descr="inviter" f="PAG" n="0" />
+		<role descr="invited" f="PPT" n="1" />
+		<role descr="invited-to" f="GOL" n="2" />
       </roles>
 	  <note>Russian Arg2-GOL == English Arg2-PPT</note>
 	  <example name="example" src="Oksana Melnyk" type="">
