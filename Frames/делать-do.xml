@@ -89,7 +89,7 @@
 		<arg f="" n="2">из него</arg>
 		<arg f="" n="1">посмешище</arg>
       </example> 
-	  <example name="make" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=делать&cxid=2795" type="">
+	  <example name="make" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=делать&amp;cxid=2795" type="">
         <text>Хотя мы тоже делаем колготки в сеточку и корсеты , эстетика кабаре -- это too much , и это уже не наш бизнес .</text>
         <arg f="dis" n="m">Хотя</arg>
 		<arg f="" n="0">мы</arg>
