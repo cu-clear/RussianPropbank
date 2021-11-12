@@ -119,23 +119,7 @@
 		<arg f="" n="0">вузу, который может зарабатывать деньги за счёт дополнительных услуг</arg>
 	  </example>
 	</roleset>
-		  
-	<roleset id="быть.08" name="auxiliary; will/was/were">
-      <aliases>
-      </aliases>
-	  <note>быть.08 NOTES: Roleset based on English verb frame be.03f</note>
-      <roles>
-      </roles>
-	<example name="aux" src="" type="">
-        <text>мы будем есть.</text>
-		<rel f="">будем</rel>
-	  </example>
-	<example name="aux" src="" type="">
-        <text>Я буду скучать по тебе .</text>
-		<rel f="">буду</rel>
-	  </example>
-	
-	</roleset>
+		 
   </predicate>
 
   <predicate lemma="стало_быть">
