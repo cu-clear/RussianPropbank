@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="пронестись">
+    <roleset id="пронестись.01" name="rush across/over, zip through/by, flash">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">пронестись</alias>
+        <alias framenet="" pos="v" verbnet="">проносится</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English run.02</note>
+      <roles>
+        <role descr="runner" f="PPT" n="0"/>
+        <role descr="course, race, distance" f="LOC" n="1"/>
+        <role descr="entetiy run past" f="PPT" n="2"/>
+	  </roles>
+      <example name="ARG0 and ARG1" src="Russian National Corpus" type="">
+        <text>Они бурей пронеслись через комнату, разбросав пустые стулья.</text>
+        <arg f="" n="0">Они</arg>
+        <rel f="">пронеслись</rel>
+	<arg f="" n="1">комнату</arg>
+      </example>
+      <example name="ARG0 and ARG2" src="Russian National Corpus" type="">
+        <text>Собаки пронеслись мимо нас с такой быстротой, что задержать их нам не удалось.</text>
+        <arg f="" n="0">Собаки</arg>
+        <rel f="">пронеслись</rel>
+	<arg f="" n="2">нас</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

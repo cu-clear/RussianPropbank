@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="стоять">
+    <roleset id="стоять.01" name="stand, to be in a verticle position">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">стоять</alias>
+        <alias framenet="" pos="v" verbnet="">постоять</alias>
+        <alias framenet="" pos="j" verbnet="">стоя́щий</alias>
+        <alias framenet="" pos="j" verbnet="">постоя́вший</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English stand.01, but not in the causal sense.</note>
+      <roles>
+        <role descr="Thing standing" f="PPT" n="0"/>
+        <role descr="Location" f="LOC" n="1"/>
+	  </roles>
+      <example name="ARG0 and ARG1" src="Russian National Corpus" type="">
+        <text> В дверях стоял наш папа .</text>
+        <arg f="" n="0">папа</arg>
+        <rel f="">стоял</rel>
+	<arg f="" n="1">В дверях</arg>
+      </example>
+      <example name="ARG0 only." src="Russian National Corpus" type="">
+        <text>Родители невесты в качестве хозяев стояли и кланялись , угощая гостей .</text>
+        <arg f="" n="0">Родители</arg>
+        <rel f="">стояли</rel>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>
