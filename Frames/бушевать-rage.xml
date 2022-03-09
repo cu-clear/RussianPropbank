@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="бушевать">
+    <roleset id="бушевать.01" name="Rage, storm, billow.">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">бушевать</alias>
+        <alias framenet="" pos="j" verbnet="">бушующий</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English billow.01</note>
+      <roles>
+        <role descr="Entity storming" f="PPT" n="1"/>
+        <role descr="Location or Direction" f="LOC" n="2"/>
+	  </roles>
+      <example name="ARG1 and ARG2" src="south-sudan.ru (Russian Web 2010)" type="">
+        <text>Судан страдает от гражданских войн , которые бушуют на его территории , на протяжении более 40 лет . </text>
+        <arg f="" n="1">гражданских войн</arg>
+        <rel f="">бушуют</rel>
+	      <arg f="" n="2">на его территории</arg>
+      </example>
+      <example name="ARG1 only" src="kp.ru (Russian Web 2010)" type="">
+        <text>До конца недели будет бушевать мощная магнитная буря .</text>
+        <arg f="" n="1">мощная магнитная буря</arg>
+        <rel f="">бушевать</rel>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>
