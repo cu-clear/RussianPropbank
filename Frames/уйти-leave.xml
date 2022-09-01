@@ -1,12 +1,12 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿уйти">
+  <predicate lemma="уйти">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿уйти.01" name="to depart, go away from a place, leave to go elsewhere">
+    <roleset id="уйти.01" name="to depart, go away from a place, leave to go elsewhere">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">уходить</alias>
       </aliases>
-	  <note>﻿уйти.01 NOTES: Roleset based on English verb frame leave.11</note>
+	  <note>уйти.01 NOTES: Roleset based on English verb frame leave.11</note>
 	  <note>Corresponds to FrameBank senses </note>
       <roles>
         <role descr="entity in motion" f="PAG" n="0"/>
@@ -32,11 +32,11 @@
       </example>
     </roleset>
 	
-	<roleset id="﻿уйти.02" name="retire, quit, abandon something in exchange for another; permanently leave an association/relationship/way of living">
+	<roleset id="уйти.02" name="retire, quit, abandon something in exchange for another; permanently leave an association/relationship/way of living">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">уходить</alias>
       </aliases>
-	  <note>﻿уйти.02 NOTES: Roleset based on English verb frame leave.15</note>
+	  <note>уйти.02 NOTES: Roleset based on English verb frame leave.15</note>
       <roles>
         <role descr="abandoner, entity leaving the relationship/organization " f="PAG" n="0"/>
 		<role descr="person, thing abandoned" f="PPT" n="1"/>
@@ -73,11 +73,11 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿уйти.03" name="cease from, stop, die, escape">
+	<roleset id="уйти.03" name="cease from, stop, die, escape">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">уходить</alias>
 	  </aliases>
-	  <note>﻿уйти.03 NOTES: Roleset based on English verb frame cease.01</note>
+	  <note>уйти.03 NOTES: Roleset based on English verb frame cease.01</note>
 	  <roles>
 		<role descr="causer of ceasing, Agent (vnrole: 55.4-1-agent) " f="PAG" n="0"/>
 		<role descr="Theme (action or object being stopped)" f="PPT" n="1"/>
@@ -90,7 +90,6 @@
 	    <example name="example" src="Russian National Corpus [коллективный. Форум: 17 мгновений весны (2005-2010)]">
         <text>Считать, что от этой мутной игры можно уйти, мог считать только человек наивный. </text>
 		<rel f="">уйти</rel>
-		<arg f="" n="o">отец</arg>
 		<arg f="" n="1">этой мутной игры</arg>
 	  </example>
 	    <example name="example" src="Russian National Corpus [Ольга Бойцова. «Плейбой» чуть не раздел депутата (2002) // «Вечерняя Москва», 2002.02.07]">
@@ -105,12 +104,12 @@
 	  </example>
 	</roleset>
   
-	<roleset id="﻿уйти.04" name="go by, pass">
+	<roleset id="уйти.04" name="go by, pass">
 	 <aliases>
 	  <alias framenet="" pos="v" verbnet="">уходить</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank sense 2</note>
-	  <note>﻿уйти.04 NOTES: Roleset based on English verb frame pass.03</note>
+	  <note>уйти.04 NOTES: Roleset based on English verb frame pass.03</note>
       <roles>
 		<role descr="thing passing" f="PPT" n="1"/>
       </roles>
@@ -122,11 +121,11 @@
 	  </roleset>
 	  
 	  
-	  <roleset id="﻿уйти.05" name="to engage self wholly or deeply, be engulfed completely, enter deep into">
+	  <roleset id="уйти.05" name="to engage self wholly or deeply, be engulfed completely, enter deep into">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">уходить</alias>
 	  </aliases>
-	  <note>﻿уйти.05 NOTES: Roleset based on English verb frame immerse.01</note>
+	  <note>уйти.05 NOTES: Roleset based on English verb frame immerse.01</note>
 	  <roles>
 		<role descr="entity immersed " f="PTT" n="0"/>
 		<role descr="entity immersed into" f="PPT" n="1"/>
@@ -156,11 +155,11 @@
 	  </example>
 	  </roleset>
 	  
-	  <roleset id="﻿уйти.06" name="(clock) is fast">
+	  <roleset id="уйти.06" name="(clock) is fast">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">уходить</alias>
 	  </aliases>
-	  <note>﻿уйти.06 NOTES: Roleset based on English verb frame fast.02</note>
+	  <note>уйти.06 NOTES: Roleset based on English verb frame fast.02</note>
 	  <roles>
 		<role descr="fast entity/action" f="PTT" n="1"/>
 		<role descr="speed" f="EXT" n="2"/>
@@ -173,11 +172,11 @@
 	  </example>
 	  </roleset>
 	  
-	 <roleset id="﻿уйти.07" name="benefactive, be spent or needed for">
+	 <roleset id="уйти.07" name="benefactive, be spent or needed for">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">уходить</alias>
 	  </aliases>
-	  <note>﻿уйти.07 NOTES: Roleset based on English verb frame go.10</note>
+	  <note>уйти.07 NOTES: Roleset based on English verb frame go.10</note>
 	  <roles>
 		<role descr="thing going " f="PTT" n="1"/>
 		<role descr="receiver" f="GOL" n="2"/>
@@ -190,20 +189,20 @@
 	  </example>
 	  </roleset>
 	  
-	   <roleset id="﻿уйти.08" name="boil out, boil over">
+	   <roleset id="уйти.08" name="boil out, boil over">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">уходить</alias>
 	  </aliases>
-	  <note>﻿уйти.08 NOTES: Roleset based on English verb frame boil_over.02</note>
+	  <note>уйти.08 NOTES: Roleset based on English verb frame boil_over.02</note>
 	  <roles>
 		<role descr="thing boiling over (pot, etc)" f="PTT" n="1"/>
       </roles>
 	  </roleset>
 	  
-	   <roleset id="﻿уйти.09" name="cool off, calm down, recover from negative emotions">
+	   <roleset id="уйти.09" name="cool off, calm down, recover from negative emotions">
       <aliases>
 	  </aliases>
-	  <note>﻿уйти.09 NOTES: Roleset based on English verb frame calm_down.02</note>
+	  <note>уйти.09 NOTES: Roleset based on English verb frame calm_down.02</note>
 	  <roles>
 		<role descr="entity becoming calm (vnrole: 42.3-patient)" f="PTT" n="1"/>
 		<role descr=" instrument of calming" f="MNR" n="2"/>

@@ -97,7 +97,7 @@
 	   <example name="imperfective" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
 	   <text>Исследователь обращается к изучению рукописей XV века.</text>
 		<arg f="" n="0">Исследователь</arg>
-		<arg f="" v="1">к изучению рукописей XV века</arg>
+		<arg f="" n="1">к изучению рукописей XV века</arg>
 		<rel f="">обращается</rel>
       </example>
 	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
@@ -136,7 +136,7 @@
       </example>
 	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
 	   <text>Деньги омертвевают, если они не обращаются. </text>
-		<arg f="" v="2">омертвевают</arg>
+		<arg f="" n="2">омертвевают</arg>
 		<arg f="" n="3">Деньги</arg>
 		<rel f="">обращаются</rel>
       </example>

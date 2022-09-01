@@ -1,8 +1,8 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿бросить">
+  <predicate lemma="бросить">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿бросить.01" name="throw">
+    <roleset id="бросить.01" name="throw">
        <aliases>
 		<alias framenet="" pos="v" verbnet="">бросать</alias>
 		<alias framenet="" pos="v" verbnet="">броситься </alias>
@@ -11,7 +11,7 @@
 		<alias framenet="" pos="n" verbnet="">бросание</alias>
 		<alias framenet="" pos="v" verbnet="">забросить</alias>
       </aliases>
-	  <note>﻿бросить.01 NOTES: Roleset based on English verb frame throw.01</note>
+	  <note>бросить.01 NOTES: Roleset based on English verb frame throw.01</note>
 	  <note>Corresponds to FrameBank senses 1,2,3,4,5,8,9,10,11</note>
       <roles>
         <role descr="thrower" f="PAG" n="0"/>
@@ -48,11 +48,11 @@
       </example>
     </roleset>
  
-	<roleset id="﻿бросить.02" name="drop, leave, stop, let go, give up, dump">
+	<roleset id="бросить.02" name="drop, leave, stop, let go, give up, dump">
       <aliases>
 	   <alias framenet="" pos="v" verbnet="">бросать</alias>
       </aliases>
-	  <note>﻿бросить.02 NOTES: Roleset based on English verb frame drop.05</note>
+	  <note>бросить.02 NOTES: Roleset based on English verb frame drop.05</note>
 	  <note>Corresponds to FrameBank senses 6, 7</note>
       <roles>
         <role descr="remover" f="PAG" n="0"/>
@@ -63,7 +63,7 @@
         <text>Я брoсила курить, заработав астму. Не курю 6 лет.</text>
         <arg f="" n="0">Я</arg>
 		<rel f="">брoсила</rel>
-		<arg f="" v="1">курить</arg>
+		<arg f="" n="1">курить</arg>
 	  </example>
 	  <example name="nominal arg1" src="lingvolive" type="">
         <text>Алферонда оказался прав в одном: было бы полной глупостью бросать торговлю кофе.</text>
@@ -79,9 +79,9 @@
 	  <example name="abandon to their fate" src="Russian National Corpus [александр Марков, Елена Наймарк. Эволюция. Классические идеи в свете новых открытий (2014)]" type="">
         <text>однако мы за редчайшими исключениями везде наблюдаем одно и то же соотношение 1: 1 ― у моногамных и полигамных видов, у заботящихся о потомстве иу тех, кто бросает детей на произвол судьбы, у хищников и их жертв, у тех, кто организует коллективную оборону от хищников, и тех, кто этого не делает.</text>
         <arg f="" n="0">кто</arg>
-		<arg f="" v="1">детей</arg>
+		<arg f="" n="1">детей</arg>
 		<rel f="">бросает</rel>
-		<arg f="gol" v="m">на произвол судьбы</arg>
+		<arg f="gol" n="m">на произвол судьбы</arg>
 	  </example>
 	</roleset>
   </predicate>

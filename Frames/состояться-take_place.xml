@@ -48,7 +48,7 @@
 	</roleset>
   </predicate>
 	
-  <predicate>
+  <predicate lemma="состоять">
 	<roleset id="состоять.03" name="consist of, include, be made up of">
       <aliases>
       </aliases>
@@ -83,7 +83,7 @@
 		<role descr="player" f="PAG" n="0"/>
 		<role descr="role" f="PRD" n="1"/>
 	  </roles>
-	  <example name="be part of" src="" type="«Г. А. Зюганов: Спасение страны — в смене власти», 15 июня 2003 г.">
+	  <example name="be part of" type="" src="«Г. А. Зюганов: Спасение страны — в смене власти», 15 июня 2003 г.">
         <text>По закону чиновникам высшей категории нельзя состоять в партии.</text>
 		<arg f="adv" n="m">По закону</arg>
 		<arg f="" n="0">чиновникам высшей категории</arg>
@@ -91,7 +91,7 @@
 		<rel f="">состоять</rel>
 		<arg f="loc" n="m">в партии</arg>
 	  </example>
-	  <example name="serve as" src="" type="«Новости месяца», № 3 (6), 2002 г. // «Воздушно-космическая оборона»">
+	  <example name="serve as" type="" src="«Новости месяца», № 3 (6), 2002 г. // «Воздушно-космическая оборона»">
         <text>Ракета может состоять на вооружении сверхзвуковых самолётов фронтовой авиации, снаряд-самолётов, истребителей и истребителей-бомбардировщиков.</text>
 		<arg f="" n="0">Ракета</arg>
 		<rel f="">состоять</rel>

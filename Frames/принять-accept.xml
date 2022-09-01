@@ -1,12 +1,12 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿принять">
+  <predicate lemma="принять">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿принять.01" name="to take willingly, accept, receive, ingest, listen to positively">
+    <roleset id="принять.01" name="to take willingly, accept, receive, ingest, listen to positively">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">принимать</alias>
       </aliases>
-	  <note>﻿принять.01 NOTES: Roleset based on English verb frame accept.01</note>
+	  <note>принять.01 NOTES: Roleset based on English verb frame accept.01</note>
 	  <note>Corresponds to FrameBank senses </note>
       <roles>
         <role descr="acceptor" f="PAG" n="0"/>
@@ -27,8 +27,8 @@
       </example>
 	</roleset>
 	
-	<roleset id="﻿принять.02" name="to allow or receive or accept person for some purpose">
-	  <note>﻿принять.02 NOTES: Roleset based on English verb frame embrace.01</note>
+	<roleset id="принять.02" name="to allow or receive or accept person for some purpose">
+	  <note>принять.02 NOTES: Roleset based on English verb frame embrace.01</note>
       <roles>
         <role descr="includer, agent" f="PAG" n="0"/>
 		<role descr="entity embraced" f="PPT" n="1"/>
@@ -37,7 +37,7 @@
 	  <example name="" src="" type="">
         <text>Наш корреспондент Семён Ерёмин проследил хронологию тех событий : Кармадон сегодня принимает гостей.</text>
         <arg f="Кармадон" n="0"> </arg>
-		<arg f="принимает " v="1"></arg>
+		<arg f="принимает " n="1"></arg>
 		<rel f="гостей"></rel>
 	  </example>
 	  	<example name="" src="" type="">
@@ -74,13 +74,13 @@
 	  <example name="" src="Russian National Corpus[коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)]" type="">
         <text>Я повторюсь, с хорошим знанием «живого» языка и опытом работы Вас примут с распростёртыми объятиями в необразовательных учреждениях, где это (язык особенно) требуется. </text>
         <arg f="" n="2">с распростёртыми объятиями в необразовательных учреждениях</arg>
-		<arg f="" v="1">Вас</arg>
+		<arg f="" n="1">Вас</arg>
 		<rel f="">примут</rel>
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿принять.03" name="pass (e.g. law, resolution, etc), make official by voting">
-	  <note>﻿принять.03 NOTES: Roleset based on English verb frame pass.01 </note>
+	<roleset id="принять.03" name="pass (e.g. law, resolution, etc), make official by voting">
+	  <note>принять.03 NOTES: Roleset based on English verb frame pass.01 </note>
 	  <roles>
 		<role descr="legislative body " f="PAG" n="0"/>
 		<role descr="bill, state prior to passing" f="PPT" n="1"/>
@@ -99,9 +99,9 @@
 	  </example>
 	</roleset>
   
-	<roleset id="﻿принять.04" name="catch, receive (a signal)">
+	<roleset id="принять.04" name="catch, receive (a signal)">
 	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿принять.04 NOTES: No Frame match in English </note>
+	  <note>принять.04 NOTES: No Frame match in English </note>
       <roles>
 		<role descr="entity receiving signal " f="PAG" n="0"/>
 		<role descr="signal" f="PPT" n="1"/>
@@ -119,12 +119,12 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿принять.06" name="assist birth, be a midwife"> 
+	<roleset id="принять.06" name="assist birth, be a midwife"> 
 	    <aliases>
 		<alias framenet="" pos="v" verbnet="">принимать</alias>
       </aliases>
 	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿принять.04 NOTES: Roleset based on English verb frame assist.01</note>
+	  <note>принять.04 NOTES: Roleset based on English verb frame assist.01</note>
       <roles>
 		<role descr="midwife" f="PAG" n="0"/>
 		<role descr="assisted, pregnant" f="GOL" n="1"/>
@@ -141,9 +141,9 @@
   </predicate>
 
   <predicate lemma="приняться">
-	<roleset id="﻿приняться.07" name="undertake, tackle, start, begin">
+	<roleset id="приняться.07" name="undertake, tackle, start, begin">
 	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿принять.05 NOTES: Roleset based on English verb frame tackle.01</note>
+	  <note>принять.05 NOTES: Roleset based on English verb frame tackle.01</note>
 	  <aliases>
 		<alias framenet="" pos="v" verbnet="">приниматься</alias>
       </aliases> 
@@ -164,12 +164,12 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿приняться.08" name="(plant) take root, grow"> 
+	<roleset id="приняться.08" name="(plant) take root, grow"> 
 	    <aliases>
 		<alias framenet="" pos="v" verbnet="">приниматься</alias>
       </aliases>
 	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿принять.04 NOTES: Roleset based on English verb frame settle_down.05</note>
+	  <note>принять.04 NOTES: Roleset based on English verb frame settle_down.05</note>
       <roles>
 		<role descr="resident " f="PPT" n="0"/>
 		<role descr="location" f="LOC" n="1"/>
@@ -177,7 +177,7 @@
 	  <example name="" src="Russian National Corpus [М. Л. Гаспаров. Записи и выписки (2001)" type="">
         <text>"Садовник пришел сказать: Посаженные им деревья принялись хорошо.</text>
 		<rel f="">принялись</rel>
-		<arg f="">Посаженные им деревья J="1"></arg>
+		<arg f="" n="1">Посаженные им деревья</arg>
 	  </example>
 	</roleset>
   </predicate>

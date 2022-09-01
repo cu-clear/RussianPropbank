@@ -1,14 +1,14 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿читать">
+  <predicate lemma="читать">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿читать.01" name="read, interpret, understand (visually)">
+    <roleset id="читать.01" name="read, interpret, understand (visually)">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">прочесть</alias>
 		<alias framenet="" pos="v" verbnet="">прочитать</alias>
 		<alias framenet="" pos="v" verbnet="">читаться</alias>
       </aliases>
-	  <note>﻿читать.01 NOTES: Roleset based on English verb frame read.01</note>
+	  <note>читать.01 NOTES: Roleset based on English verb frame read.01</note>
 	  <note>Corresponds to FrameBank senses </note>
       <roles>
         <role descr="reader" f="PAG" n="0"/>
@@ -82,13 +82,13 @@
       </example>
     </roleset>
     
-	<roleset id="﻿читать.02" name="recite, declaim, give a lecture">
+	<roleset id="читать.02" name="recite, declaim, give a lecture">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">прочесть</alias>
 		<alias framenet="" pos="v" verbnet="">прочитать</alias>
 		<alias framenet="" pos="v" verbnet="">читывать</alias>
       </aliases>
-	  <note>﻿читать.02 NOTES: Roleset based on English verb frame recite.01</note>
+	  <note>читать.02 NOTES: Roleset based on English verb frame recite.01</note>
       <roles>
         <role descr="speaker" f="PAG" n="0"/>
 		<role descr="utterance" f="PPT" n="1"/>
@@ -103,13 +103,13 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿читать.03" name="deliver (lecture, etc.), speak">
+	<roleset id="читать.03" name="deliver (lecture, etc.), speak">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">прочесть</alias>
 		<alias framenet="" pos="v" verbnet="">прочитать</alias>
 		<alias framenet="" pos="v" verbnet="">прочтение</alias>
       </aliases>
-	  <note>﻿читать.03 NOTES: Roleset based on English verb frame </note>
+	  <note>читать.03 NOTES: Roleset based on English verb frame </note>
 	  <roles>
 		<role descr="speaker" f="PAG" n="0"/>
 		<role descr="lecture, lesson, etc." f="PPT" n="1"/>
@@ -123,17 +123,17 @@
 	  <example name="example" src="Russian National Corpus[Татьяна Владыкина. Мелодии и перепевы. Исторические хроники: 28 января ― 3 февраля (2003) // «Известия», 2003.01.27]" type="">
         <text> Я помню эти наезды на дачу летом с друзьями, с ящиком спиртного, бурное веселье, которое заканчивалось под утро, потому что ждала работа. ― Отец читал вам мораль? ― Никогда. </text>
 		<rel f="">читал</rel>
-		<arg f="" n="o">отец</arg>
+		<arg f="" n="0">отец</arg>
 		<arg f="" n="1">мораль</arg>
 		<arg f="" n="2">вам</arg>
 	  </example>
 	</roleset>
   
-	<roleset id="﻿читаться.04" name="want to read, read (middle voice)">
+	<roleset id="читаться.04" name="want to read, read (middle voice)">
       <aliases>
       </aliases>
 	  <note>Corresponds to FrameBank sense 2</note>
-	  <note>﻿читать.04 NOTES: No frame match in English.</note>
+	  <note>читать.04 NOTES: No frame match in English.</note>
       <roles>
 		<role descr="fast entity/action " f="PPT" n="1"/>
 		<role descr="speed, how many minutes ahead" f="EXT" n="2"/>

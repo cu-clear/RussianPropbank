@@ -98,14 +98,14 @@
 		<role descr="medium " f="MNR" n="1"/>
 	  </roles>
 	  <note>English Arg0-PAG has no match in Russian frame</note>
-	  <example name="quit acting" src="" type="Russian National Corpus[Я был когда-то странным... – беседа с национальным героем // «Пятое измерение», 2002]">
+	  <example name="quit acting" type="" src="Russian National Corpus[Я был когда-то странным... – беседа с национальным героем // «Пятое измерение», 2002]">
         <text>Когда я сошел с больших экранов, журналисты меня какое-то время доставали, пытались развести на скандал ― не получилось.</text>
 		<arg f="tmp" n="m">Когда</arg>
 		<arg f="" n="1">я</arg>
 		<rel f="">сошел</rel>
 		<arg f="" n="2">с больших экранов</arg>
 	  </example>
-	  <example name="stopped showing movies" src="" type="Russian National Corpus[Юрий Никулин. Мое любимое кино (1979)]">
+	  <example name="stopped showing movies" type="" src="Russian National Corpus[Юрий Никулин. Мое любимое кино (1979)]">
         <text>Ко времени моих самостоятельных посещений кино его ранние фильмы уже сошли с экрана.</text>
 		<arg f="tmp" n="m">Ко времени моих самостоятельных посещений кино</arg>
 		<arg f="" n="1">его ранние фильмы</arg>
@@ -125,7 +125,7 @@
 		<role descr="thing passing" f="PPT" n="1"/>
 		<role descr="attributive" f="PRD" n="2"/>
 		</roles>
-	  <example name="" src="" type="Russian National Corpus[Олег Павлов. Карагандинские девятины, или Повесть последних дней // «Октябрь», 2001]">
+	  <example name="" type="" src="Russian National Corpus[Олег Павлов. Карагандинские девятины, или Повесть последних дней // «Октябрь», 2001]">
         <text>Измученный и ограбленный вид арестанта, что сам бы мог сойти за жертву какого-нибудь преступления, нисколько её не смущал.</text>
 		<arg f="" n="1">сам</arg>
 		<rel f="">сойти</rel>
@@ -143,7 +143,7 @@
 		<role descr="thing seeming" f="PPT" n="1"/>
 		<role descr="attribute" f="PRD" n="2"/>
 	  </roles>
-	  <example name="come to nothing" src="" type="Russian National Corpus[Павел Иванов. Ключ к правовой экономике. Популярные хроники непопулярного закона // «Воздушно-космическая оборона», 2003]">
+	  <example name="come to nothing" type="" src="Russian National Corpus[Павел Иванов. Ключ к правовой экономике. Популярные хроники непопулярного закона // «Воздушно-космическая оборона», 2003]">
         <text>Правда, интерес к техническому регулированию сошёл на нет задолго до дня принятия закона ― 15 декабря 2002 г.</text>
 		<arg f="dis" n="m">Правда</arg>
 		<arg f="" n="1">интерес к техническому регулированию</arg>
@@ -167,7 +167,7 @@
 		<role descr="Other converger, converged-with" f="PPT" n="1"/>
 		<role descr="Thing converged-on, often a topic of agreement)" f="GOL" n="2"/>
 		</roles>
-	  <example name="arg 0 and 1" src="" type="Russian National Corpus[Наталья Игрунова. Падение по горизонтали. Журнальное обозрение (2002) // «Известия», 2002.04.09]">
+	  <example name="arg 0 and 1" type="" src="Russian National Corpus[Наталья Игрунова. Падение по горизонтали. Журнальное обозрение (2002) // «Известия», 2002.04.09]">
         <text>Отголоски темы ― в номере февральском, на страницах которого сошлись роман классический и современный.</text>
 		<arg f="loc" n="m">на страницах которого</arg>
 		<rel f="">сошлись</rel>

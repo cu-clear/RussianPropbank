@@ -1,14 +1,14 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿вызвать">
+  <predicate lemma="вызвать">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿вызвать.01" name="call, call out, summon">
+    <roleset id="вызвать.01" name="call, call out, summon">
        <aliases>
 		<alias framenet="" pos="v" verbnet="">вызывать</alias>
 		<alias framenet="" pos="v" verbnet="">вызваться</alias>
 		<alias framenet="" pos="v" verbnet="">вызываться</alias>
       </aliases>
-	  <note>﻿вызвать.01 NOTES: Roleset based on English PB frame вызываться.01</note>
+	  <note>вызвать.01 NOTES: Roleset based on English PB frame вызываться.01</note>
 	  <note>Corresponds to FrameBank senses 1-3</note>
       <roles>
         <role descr="inviter" f="PAG" n="0"/>
@@ -45,15 +45,15 @@
         <text>Его слова вызвали у меня улыбку</text>
 		<arg f="" n="0">Его слова</arg>
 		<rel f="">вызвали</rel>
-		<arg f="dir" v="m">у меня</arg>
-		<arg f="" v="1">улыбку</arg>
+		<arg f="dir" n="m">у меня</arg>
+		<arg f="" n="1">улыбку</arg>
 	  </example>
     </roleset>
  
-	<roleset id="﻿вызвать.02" name="cause to, cause a change">
+	<roleset id="вызвать.02" name="cause to, cause a change">
       <aliases>
       </aliases>
-	  <note>﻿вызвать.02 NOTES: Roleset based on English PB verb frame cause.01</note>
+	  <note>вызвать.02 NOTES: Roleset based on English PB verb frame cause.01</note>
       <roles>
         <role descr="forcer, causer" f="CAU" n="0"/>
 		<role descr="impelled action, event" f="PPT" n="1"/>
@@ -66,12 +66,12 @@
 	</roleset>
   </predicate>
 	
-  <predicate>
-	<roleset id="﻿вызваться.03" name="to volunteer, to offer">
+  <predicate lemma="вызваться">
+	<roleset id="вызваться.03" name="to volunteer, to offer">
       <aliases>
 	   <alias framenet="" pos="v" verbnet="">вызываться</alias>
       </aliases>
-	  <note>﻿вызваться.03 NOTES: Roleset based on English PB verb frame volunteer.01</note>
+	  <note>вызваться.03 NOTES: Roleset based on English PB verb frame volunteer.01</note>
       <roles>
         <role descr="entity volunteering, voluntary agent" f="PAG" n="0"/>
 		<role descr="thing offered" f="PPT" n="1"/>

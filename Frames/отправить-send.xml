@@ -1,14 +1,14 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿отправить">
+  <predicate lemma="отправить">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿отправить.01" name="send, transfer">
+    <roleset id="отправить.01" name="send, transfer">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">отправлять</alias>
 		<alias framenet="" pos="v" verbnet="">отправиться</alias>
 		<alias framenet="" pos="v" verbnet="">отправляться</alias>
       </aliases>
-	  <note>﻿отправить.01 NOTES: Roleset based on English verb frame send.01</note>
+	  <note>отправить.01 NOTES: Roleset based on English verb frame send.01</note>
 	  <note>Corresponds to FrameBank senses 1,2,3,4</note>
       <roles>
         <role descr="sender" f="PAG" n="0"/>
@@ -53,15 +53,15 @@
 		<arg f="" n="1">внучку</arg>
 		<arg f="gol" n="m">в Англию</arg>
 		<rel f="">отправили</rel>
-		<arg f="" v="2">учиться</arg>
+		<arg f="" n="2">учиться</arg>
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿отправить.02" name="fulfill, do">
+	<roleset id="отправить.02" name="fulfill, do">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">отправлять</alias>
       </aliases>
-	  <note>﻿отправить.03 NOTES: Roleset based on English verb frame fulfill.01</note>
+	  <note>отправить.03 NOTES: Roleset based on English verb frame fulfill.01</note>
 	  <roles>
 		<role descr="fulfiller" f="PAG" n="0"/>
 		<role descr="promise, contract, unresolved issue " f="PPT" n="1"/>
@@ -83,13 +83,13 @@
 	</roleset>
   </predicate>
   
-  <predicate>
-	<roleset id="﻿отправиться.03" name="depart, start off, begin a journey">
+  <predicate lemma="отправиться">
+	<roleset id="отправиться.03" name="depart, start off, begin a journey">
 	  <aliases>
 		<alias framenet="" pos="v" verbnet="">отправляться</alias>
 		<alias framenet="" pos="v" verbnet="">отправиться</alias>
       </aliases>
-	  <note>﻿отправиться.04 NOTES:Roleset based on English verb frame depart.01</note>
+	  <note>отправиться.04 NOTES:Roleset based on English verb frame depart.01</note>
 	  <note>Corresponds to FrameBank sense 1,2,3</note>
       <roles>
 		<role descr="entity leaving, agent" f="PAG" n="0"/>
@@ -106,7 +106,7 @@
 	  </example>
 	    <example name="transfered" src="" type="Russian National Corpus[Денежные переводы мигрантов -- фактор инновационного развития мировой финансовой инфраструктуры // «Вопросы статистики», 2004]">
         <text>Наибольшие объёмы переводов мигрантов отправляются ежегодно из США, Саудовской Аравии, Германии, Бельгии, Швейцарии.</text>
-		<arg f="" n="o">Наибольшие объёмы переводов мигрантов</arg>
+		<arg f="" n="0">Наибольшие объёмы переводов мигрантов</arg>
 		<rel f="">отправляются</rel>
 		<arg f="tmp" n="m">ежегодно</arg>
 		<arg f="" n="1">из США, Саудовской Аравии, Германии, Бельгии, Швейцарии</arg>

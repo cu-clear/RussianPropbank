@@ -1,14 +1,14 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿встречать">
+  <predicate lemma="встречать">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿встречать.01" name="encounter, notice">
+    <roleset id="встречать.01" name="encounter, notice">
        <aliases>
 		<alias framenet="" pos="v" verbnet="">встретить</alias>
 		<alias framenet="" pos="v" verbnet="">встречаться</alias>
 		<alias framenet="" pos="v" verbnet="">встретиться</alias>
       </aliases>
-	  <note>﻿встречать.01 NOTES: Roleset based on English PB frame encounter.01</note>
+	  <note>встречать.01 NOTES: Roleset based on English PB frame encounter.01</note>
 	  <note>Corresponds to FrameBank senses 4,5,6,11</note>
       <roles>
         <role descr="entity encountering something" f="PAG" n="0"/>
@@ -49,17 +49,17 @@
         <arg f="loc" n="m">В матчах полуфинала</arg>
 		<arg f="" n="0">команда, занявшая по итогам регулярного чемпионата более высокое место</arg>
 		<rel f="">встречается</rel>
-		<arg f="" v="1">с командой, занявшей по итогам чемпионата более низкое место.</arg>
+		<arg f="" n="1">с командой, занявшей по итогам чемпионата более низкое место.</arg>
 	  </example>
     </roleset>
  
-	<roleset id="﻿встречать.02" name="meet, get together">
+	<roleset id="встречать.02" name="meet, get together">
       <aliases>
 	   <alias framenet="" pos="v" verbnet="">встретить</alias>
 	   <alias framenet="" pos="v" verbnet="">встречаться</alias>
 	   <alias framenet="" pos="v" verbnet="">встретиться</alias>
       </aliases>
-	  <note>﻿встречать.02 NOTES: Roleset based on English PB verb frame meet.03</note>
+	  <note>встречать.02 NOTES: Roleset based on English PB verb frame meet.03</note>
 	  <note>Corresponds to FrameBank senses 1,2,7,8,9</note>
       <roles>
         <role descr="one party" f="PAG" n="0"/>
@@ -82,23 +82,23 @@
         <text>Мы встречали делегацию французских писателей в аэропорту.</text>
         <arg f="" n="0">Мы</arg>
 		<rel f="">встречали</rel>
-		<arg f="" v="1">делегацию французских писателей</arg>
-		<arg f="loc" v="m">в аэропорту</arg>
+		<arg f="" n="1">делегацию французских писателей</arg>
+		<arg f="loc" n="m">в аэропорту</arg>
 	  </example>
 	  <example name="reflexive as reciprocal" src="М. Ю. Лермонтов, «Герой нашего времени», 1839—1841 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Я встречаюсь с друзьями по вторникам</text>
         <arg f="" n="0">Я</arg>
 		<rel f="">встречаюсь</rel>
-		<arg f="" v="1">с друзьями</arg>
-		<arg f="tmp" v="m">в по вторникам</arg>
+		<arg f="" n="1">с друзьями</arg>
+		<arg f="tmp" n="m">в по вторникам</arg>
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿встречать.03" name="answer, respond to">
+	<roleset id="встречать.03" name="answer, respond to">
       <aliases>
 	   <alias framenet="" pos="v" verbnet="">встретить</alias>
       </aliases>
-	  <note>﻿встречать.03 NOTES: Roleset based on English PB verb frame meet.05</note>
+	  <note>встречать.03 NOTES: Roleset based on English PB verb frame meet.05</note>
 	  <note>Corresponds to FrameBank senses 3</note>
       <roles>
         <role descr="agentive answerer" f="PAG" n="0"/>
@@ -114,10 +114,10 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿встречать.04" name="date, a process of dating">
+	<roleset id="встречать.04" name="date, a process of dating">
       <aliases>
       </aliases>
-	  <note>﻿встречать.04 NOTES: Roleset based on English PB verb frame date.02</note>
+	  <note>встречать.04 NOTES: Roleset based on English PB verb frame date.02</note>
       <roles>
         <role descr="dater" f="PAG" n="0"/>
 		<role descr="dated" f="COM" n="1"/>

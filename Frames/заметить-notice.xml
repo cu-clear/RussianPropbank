@@ -1,14 +1,14 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿заметить">
+  <predicate lemma="заметить">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿заметить.01" name="note, notice, see, observe">
+    <roleset id="заметить.01" name="note, notice, see, observe">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">замечать</alias>
 		<alias framenet="" pos="v" verbnet="">замечаться</alias>
 		<alias framenet="" pos="v" verbnet="">заметиться</alias>
 	    </aliases>
-	  <note>﻿заметить.01 NOTES: Roleset based on English verb frame notice.01</note>
+	  <note>заметить.01 NOTES: Roleset based on English verb frame notice.01</note>
 	  <note>Corresponds to FrameBank senses 1, 2, 3, 6</note>
       <roles>
         <role descr="noticer" f="PAG" n="0"/>
@@ -27,11 +27,11 @@
       </example>
     </roleset>
 	
-	<roleset id="﻿заметить.02" name="take note, remember, note, make note of">
+	<roleset id="заметить.02" name="take note, remember, note, make note of">
       <aliases>
 	      <alias framenet="" pos="v" verbnet="">замечать</alias>
       </aliases>
-	  <note>﻿заметить.02 NOTES: Roleset based on English verb frame memorize.01</note>
+	  <note>заметить.02 NOTES: Roleset based on English verb frame memorize.01</note>
 	<note>Corresponds to FrameBank senses 5</note>    
 	<roles>
         <role descr="memorizer" f="PAG" n="0"/>
@@ -47,11 +47,11 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿заметить.03" name="remark, make note, say, mention">
+	<roleset id="заметить.03" name="remark, make note, say, mention">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">замечать</alias>
       </aliases>
-	  <note>﻿заметить.03 NOTES: Roleset based on English verb frame note.01</note>
+	  <note>заметить.03 NOTES: Roleset based on English verb frame note.01</note>
 	  <note>Corresponds to FrameBank senses 4</note>  
 	  <roles>
 		<role descr="noter" f="PAG" n="0"/>

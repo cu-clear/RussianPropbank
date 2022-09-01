@@ -137,7 +137,7 @@
 	</roleset>
   </predicate>
 
-  <predicate>
+  <predicate lemma="попасться">
 	<roleset id="попасться.05" name="be caught, snared">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">попадаться</alias>
@@ -153,18 +153,18 @@
         <text>В наши кулемки теперь белки начали попадаться: распяленные Захаром Васильевичем, на правилках сохли семнадцать шкурок.</text>
 		<arg f="" n="2">В наши кулемки</arg>
 		<arg f="tmp" n="m">теперь</arg>
-		<arg f="" v="1">белки</arg>
+		<arg f="" n="1">белки</arg>
 		<rel f="">попадаться</rel>
 	  </example>
 	  <example name="predators" src="Гаузе Г.Ф., «Борьба за существование», 1934 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
         <text>Наконец жертвы могут время от времени выходить из убежища и попадаться хищникам; в результате довольно долго будет существовать смешанная популяция, состоящая из жертв и хищников.</text>
 		<rel f="">попадаться</rel>
-		<arg f="" v="0">хищникам</arg>
+		<arg f="" n="0">хищникам</arg>
 	  </example>
 	</roleset>
   </predicate>
 
-  <predicate>
+  <predicate lemma="попало">
   	<roleset id="попало.06" name="(adverbial function) whoever/whatever/however happened along, do indiscriminately">
       <aliases>
       </aliases>

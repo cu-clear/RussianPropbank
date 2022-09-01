@@ -80,7 +80,7 @@
 	  <note>Corresponds to FrameBank sense 6</note>
 	  <note>работать.02 NOTE: Similar to "work.09"</note>
       <roles>
-        <role descr="thing functioning" f="WPPT" n="0"/>
+        <role descr="thing functioning" f="PPT" n="0"/>
         <role descr="beneficiary" f="GOL" n="1"/>
       </roles>
       <example name="work-v: machine" src="" type="">
@@ -109,7 +109,6 @@
         <role descr="Instrument" f="MNR" n="3"/>
       </roles>
       <example name="work-v:" src="" type="">
-        <inflection aspect="ns" form="ns" person="ns" tense="ns" voice="ns"/>
         <text>Часто меняют те которые работают с пирамидами фондами и держат свои рефсайты .</text>
         <arg f="" n="0">которые</arg>
         <rel f="">работают</rel>

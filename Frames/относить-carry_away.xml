@@ -14,26 +14,26 @@
 	  <role descr="removed to" f="GOL" n="3"/>
       </roles>
 	  <note>Russian Arg3-GOL has no match in English frame </note>
-      <example name="take away" src="" type="Russian National Corpus[Наши дети: Подростки (2004)]">
+      <example name="take away" type="" src="Russian National Corpus[Наши дети: Подростки (2004)]">
         <text>А в школе была проблема, поскольку там не разрешали тарелки с недоеденным в мойку относить.</text>
         <arg f="" n="1">тарелки с недоеденным</arg>
 		<arg f="" n="3">в мойку</arg>
 		<rel f="">относить</rel>
       </example>
-	  <example name="carried away" src="" type="Russian National Corpus[С. П. Капица. Мои воспоминания (2008)]">
+	  <example name="carried away" type="" src="Russian National Corpus[С. П. Капица. Мои воспоминания (2008)]">
         <text>Бывали случаи, когда мы попадали в сильные течения и нас относило далеко от места погружения.</text>
         <arg f="" n="1">нас</arg>
 		<rel f="">относило</rel>
 		<arg f="" n="2">далеко от места погружения</arg>
       </example>
-	  <example name="blow away" src="" type="Russian National Corpus[Никита Юрьевский, Евгений Джумаев. Лети-лети под облака… (2013.05.23) // «Новгородские ведомости», 2013]">
+	  <example name="blow away" type="" src="Russian National Corpus[Никита Юрьевский, Евгений Джумаев. Лети-лети под облака… (2013.05.23) // «Новгородские ведомости», 2013]">
         <text>…Юго-восточный ветерок относил шары на северо-запад и гнал параллельно автодороге Старая Русса — Шимск.</text>
 		<arg f="" n="0">Юго-восточный ветерок</arg>
 		<rel f="">относил</rel>
 		<arg f="" n="1">шары</arg>
 		<arg f="" n="3">на северо-запад</arg>
       </example>
-	  <example name="float away" src="" type="Russian National Corpus[Виктор Астафьев. Трофейная пушка // «Знамя», 2001]">
+	  <example name="float away" type="" src="Russian National Corpus[Виктор Астафьев. Трофейная пушка // «Знамя», 2001]">
         <text>Когда дым отнесло от дульного тормоза, Игнат сокрушенно развел руками:</text>
         <arg f="tmp" n="m">Когда</arg>
         <arg f="" n="1">дым</arg>
@@ -55,7 +55,7 @@
 		<role descr="original time " f="DIR" n="3"/>
 		 <role descr="new time" f="GOL" n="4"/>
       </roles>
-	  <example name="postpone" src="" type="Russian National Corpus[К. С. Бадигин. Секрет государственной важности (1974)]">
+	  <example name="postpone" type="" src="Russian National Corpus[К. С. Бадигин. Секрет государственной важности (1974)]">
         <text>Сначала я и это отнес к случайности… Относил до вчерашнего дня… Может быть, все же разрешите закурить?</text>
 		<arg f="tmp" n="m">Сначала</arg>
 		<arg f="" n="0">я</arg>
@@ -169,7 +169,7 @@
         </role>
 		<role descr="attribute" f="PRD" n="2"/>
       </roles>
-      <example name="participle" src="" type="Russian National Corpus[Г. И. Невельской. Подвиги русских морских офицеров на крайнем Востоке России (1878)]">
+      <example name="participle" type="" src="Russian National Corpus[Г. И. Невельской. Подвиги русских морских офицеров на крайнем Востоке России (1878)]">
         <text>Что же касается до присылки собственно для экспедиции парового судна из Кронштадта, то я отнёсся уже с просьбою к начальнику Главного морского штаба и с этою же почтою предлагаю к точному исполнению начальнику Аянского порта Кашеварову исполнять ваши требования и отправлять в Петровское зимовье товары, запасы и прочее и на компанейских судах, следующих из Аяна в Ситху».</text>
         <arg f="" n="0">я</arg>
 		<rel f="">отнёсся</rel>

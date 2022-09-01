@@ -85,7 +85,7 @@
 	</roleset>
   </predicate>
   
-  <predicate>
+  <predicate lemma="являть">
 	<roleset id="являть.04" name="display, make obvious, demonstrate, reveal, show">
 	  <aliases>
 		<alias framenet="" pos="v" verbnet="">явить</alias>
@@ -96,7 +96,7 @@
 		<role descr="thing demonstrated" f="PPT" n="1"/>
 		<role descr="watcher" f="GOL" n="2"/>
 		</roles>
-	  <example name="reveal" src="" type="Russian National Corpus[Иоанн Мейендорф. Духовное и культурное Возрождение XIV века и судьбы Восточной Европы (1992)]">
+	  <example name="reveal" type="" src="Russian National Corpus[Иоанн Мейендорф. Духовное и культурное Возрождение XIV века и судьбы Восточной Европы (1992)]">
         <text>Имя Божие как бы являет Его собственное присутствие.</text>
 		<arg f="" n="0">Имя Божие</arg>
 		<rel f="">являет</rel>
