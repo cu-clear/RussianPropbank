@@ -1,130 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
- <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
   <predicate lemma="обрушиться">
     <roleset id="обрушиться.01" name="collapse">
       <aliases>
         <alias framenet="" pos="j" verbnet="">обрушившийся</alias>
-		<alias framenet="" pos="v" verbnet="">обрушиваться</alias>
-		<alias framenet="" pos="j" verbnet="">обрушивающийся</alias>
-		<alias framenet="" pos="j" verbnet="">обрушивавшийся</alias>
-		<alias framenet="" pos="v" verbnet="">обрушивать</alias>
-		<alias framenet="" pos="j" verbnet="">обрушивающий</alias>
-		<alias framenet="" pos="j" verbnet="">обрушивавший</alias>
-		<alias framenet="" pos="v" verbnet="">обрушить</alias>
-		<alias framenet="" pos="j" verbnet="">обрушивший</alias>
-		<alias framenet="" pos="j" verbnet="">обрушенный</alias>
-		<alias framenet="" pos="v" verbnet="">обрушать</alias>
-		<alias framenet="" pos="j" verbnet="">обрушающий</alias>
-		<alias framenet="" pos="j" verbnet="">обрушавший</alias>
-		<alias framenet="" pos="j" verbnet="">обрушаемый</alias>
-		<alias framenet="" pos="v" verbnet="">рушить</alias>
-		<alias framenet="" pos="j" verbnet="">рушащий</alias>
-		<alias framenet="" pos="j" verbnet="">рушивший</alias>
-		<alias framenet="" pos="v" verbnet="">рушимый</alias>
-		<alias framenet="" pos="j" verbnet="">рушенный</alias>
-		<alias framenet="" pos="v" verbnet="">рушиться</alias>
-		<alias framenet="" pos="j" verbnet="">рушащийся</alias>
-		<alias framenet="" pos="j" verbnet="">рушившийся</alias>
+        <alias framenet="" pos="v" verbnet="">обрушиваться</alias>
+        <alias framenet="" pos="j" verbnet="">обрушивающийся</alias>
+        <alias framenet="" pos="j" verbnet="">обрушивавшийся</alias>
+        <alias framenet="" pos="v" verbnet="">обрушивать</alias>
+        <alias framenet="" pos="j" verbnet="">обрушивающий</alias>
+        <alias framenet="" pos="j" verbnet="">обрушивавший</alias>
+        <alias framenet="" pos="v" verbnet="">обрушить</alias>
+        <alias framenet="" pos="j" verbnet="">обрушивший</alias>
+        <alias framenet="" pos="j" verbnet="">обрушенный</alias>
+        <alias framenet="" pos="v" verbnet="">обрушать</alias>
+        <alias framenet="" pos="j" verbnet="">обрушающий</alias>
+        <alias framenet="" pos="j" verbnet="">обрушавший</alias>
+        <alias framenet="" pos="j" verbnet="">обрушаемый</alias>
+        <alias framenet="" pos="v" verbnet="">рушить</alias>
+        <alias framenet="" pos="j" verbnet="">рушащий</alias>
+        <alias framenet="" pos="j" verbnet="">рушивший</alias>
+        <alias framenet="" pos="v" verbnet="">рушимый</alias>
+        <alias framenet="" pos="j" verbnet="">рушенный</alias>
+        <alias framenet="" pos="v" verbnet="">рушиться</alias>
+        <alias framenet="" pos="j" verbnet="">рушащийся</alias>
+        <alias framenet="" pos="j" verbnet="">рушившийся</alias>
       </aliases>
-	  <note>обрушиться.01 NOTES: Based on English tear_down.05.</note>
+      <note>обрушиться.01 NOTES: Based on English tear_down.05.</note>
       <roles>
         <role descr="demolisher, agent " f="PAG" n="0">
         </role>
-        <role descr="entity torn" f="PPT" n="1" />
-      </roles>	  
-      <example name="collapsing wall" src="" type="">
+        <role descr="entity torn" f="PPT" n="1"/>
+      </roles>
+      <example name="collapsing wall" src="">
         <text>Старший лейтенант Иван Ушаков дежурил на одном из объектов Минобороны , когда на него обрушилась стена .</text>
-        <arg f="" n="2">на него</arg>
-		<rel f="">обрушилась</rel>
-		<arg f="" n="1">стена</arg>
+        <propbank>
+          <arg type="ARG2" start="12" end="13">на него</arg>
+          <rel relloc="14">обрушилась</rel>
+          <arg type="ARG1" start="15" end="15">стена</arg>
+        </propbank>
       </example>
-      <example name="buildings collapsing, arg1 only" src="" type="">
-        <text>По сообщению агентства Синьхуа , около 12 тысяч зданий обрушились в уезде Лудян , в котором проживает 439 тысяч человек , к северо-западу от столицы провинции Юньнань города Куньмин .</text>
-        <arg f="" n="1">около 12 тысяч зданий</arg>
-        <rel f="">обрушились</rel>
-        <arg f="loc" n="m">в уезде Лудян ,</arg>
+      <example name="buildings collapsing, arg1 only" src="">
+        <text>По сообщению агентства Синьхуа , около 12 тысяч зданий обрушились в уезде Лудян , в котором проживает 439 тысяч человек , к северо - западу от столицы провинции Юньнань города Куньмин .</text>
+        <propbank>
+          <arg type="ARG1" start="5" end="8">около 12 тысяч зданий</arg>
+          <rel relloc="9">обрушились</rel>
+          <arg type="ARGM-LOC" start="10" end="12">в уезде Лудян</arg>
+        </propbank>
       </example>
-      <example name="reflexive with inanimate causer" src="" type="">
-        <text>Сарай , крыша которого обрушилась под тяжестью осевшего пепла в деревне на берегу реки Лимай , в 50 км от Барилоче , в аргентинской провинции Рио-Негро .</text>
-        <arg f="" n="1">крыша</arg>
-		    <rel f="">обрушилась</rel>
-        <arg f="" n="0">под тяжестью осевшего пепла</arg>
-	     	<arg f="loc" n="m">в деревне на берегу реки Лимай , в 50 км от Барилоче , в аргентинской провинции Рио-Негро</arg>
+      <example name="reflexive with inanimate causer" src="">
+        <text>Сарай , крыша которого обрушилась под тяжестью осевшего пепла в деревне на берегу реки Лимай , в 50 км от Барилоче , в аргентинской провинции Рио - Негро .</text>
+        <propbank>
+          <arg type="ARG1" start="2" end="2">крыша</arg>
+          <rel relloc="4">обрушилась</rel>
+          <arg type="ARG0" start="5" end="8">под тяжестью осевшего пепла</arg>
+          <arg type="ARGM-LOC" start="9" end="27">в деревне на берегу реки Лимай , в 50 км от Барилоче , в аргентинской провинции Рио - Негро</arg>
+        </propbank>
       </example>
-	  <example name="reflexive imperfective" src="Игорь Лепин, «Мостопад», 1997 г. // «Столица» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Я не знаю , будут ли все эти мосты и эстакады обрушиваться по очереди или одновременно , но если апокалипсис начнется, бегите под Крымскую эстакаду .</text>
-        <arg f="" n="1">все эти мосты и эстакады</arg>
-    		<rel f="">обрушиваться</rel>
-    		<arg f="tmp" n="m">по очереди или одновременно</arg>
+      <example name="reflexive imperfective" src="Игорь Лепин, «Мостопад», 1997 г. // «Столица» (цитата из Национального корпуса русского языка, см. Список литературы)">
+        <text>Я не знаю , будут ли все эти мосты и эстакады обрушиваться по очереди или одновременно , но если апокалипсис начнется , бегите под Крымскую эстакаду .</text>
+        <propbank>
+          <arg type="ARG1" start="6" end="10">все эти мосты и эстакады</arg>
+          <rel relloc="11">обрушиваться</rel>
+          <arg type="ARGM-TMP" start="12" end="15">по очереди или одновременно</arg>
+        </propbank>
       </example>
-	  <example name="active perfective" src="А. Г. Волос, «Недвижимость», 2000 г. // «Новый Мир» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+      <example name="active perfective" src="А. Г. Волос, «Недвижимость», 2000 г. // «Новый Мир» (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Если Нина Михайловна и владела возможностями мимики , то никак этого не показывала ― лицо было неподвижным ; может быть , она боялась , невзначай улыбнувшись , обрушить на пол всю свою штукатурку .</text>
-        <arg f="" n="0">*trace-1*</arg>
-    		<rel f="">обрушить</rel>
-    		<arg f="" n="2">на пол</arg>
-    		<arg f="" n="1">всю свою штукатурку</arg>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">*trace-1*</arg>
+          <rel relloc="27">обрушить</rel>
+          <arg type="ARG2" start="?" end="?">на пол</arg>
+          <arg type="ARG1" start="?" end="?">всю свою штукатурку</arg>
+        </propbank>
       </example>
-	  <example name="active perfective figurative" src="Russian National Corpus. [Оборотни первой волны (2003) // «Завтра», 2003.08.06]" type="">
-        <text>Народ им верил, не подозревая, что за его спиной эти особы обговаривали уже, как обрушить рубль.</text>
-        <arg f="" n="0">*trace-1*</arg>
-    		<rel f="">обрушить</rel>
-    		<arg f="" n="1">рубль</arg>
+      <example name="active perfective figurative" src="Russian National Corpus. [Оборотни первой волны (2003) // «Завтра», 2003.08.06]">
+        <text>Народ им верил , не подозревая , что за его спиной эти особы обговаривали уже , как обрушить рубль .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">*trace-1*</arg>
+          <rel relloc="17">обрушить</rel>
+          <arg type="ARG1" start="?" end="?">рубль</arg>
+        </propbank>
       </example>
-	  <example name="noun" src="Russian National Corpus. [Александр Дейкин. Своя игра (2003) // «Время МН», 2003.08.02]" type="">
-        <text>Так что, если по теории, причин для "обрушивания ситуации" не имеется ― кроме, разумеется, классического случая: если её обрушат намеренно.</text>
-        <arg f="" n="0">*PRO*</arg>
-    		<rel f="">обрушивания</rel>
-    		<arg f="" n="1">ситуации</arg>
+      <example name="noun" src="Russian National Corpus. [Александр Дейкин. Своя игра (2003) // «Время МН», 2003.08.02]">
+        <text>Так что , если по теории , причин для " обрушивания ситуации " не имеется ― кроме , разумеется , классического случая : если её обрушат намеренно .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">*PRO*</arg>
+          <rel relloc="10">обрушивания</rel>
+          <arg type="ARG1" start="?" end="?">ситуации</arg>
+        </propbank>
       </example>
     </roleset>
-	
-	<roleset id="обрушиться.02" name="strike, throw oneself">
+    <roleset id="обрушиться.02" name="strike, throw oneself">
       <aliases>
         <alias framenet="" pos="j" verbnet="">обрушившийся</alias>
-	    <alias framenet="" pos="v" verbnet="">обрушиваться</alias>
-		<alias framenet="" pos="j" verbnet="">обрушивающийся</alias>
-		<alias framenet="" pos="j" verbnet="">обрушивавшийся</alias>
+        <alias framenet="" pos="v" verbnet="">обрушиваться</alias>
+        <alias framenet="" pos="j" verbnet="">обрушивающийся</alias>
+        <alias framenet="" pos="j" verbnet="">обрушивавшийся</alias>
       </aliases>
-	  <note>обрушиться.02: Based on English strike.01.</note>
+      <note>обрушиться.02: Based on English strike.01.</note>
       <roles>
         <role descr="animate, volitional hitter " f="PAG" n="0"/>
         <role descr="thing hit" f="PPT" n="1"/>
         <role descr="instrument, non-volitional hitter" f="GOL" n="2"/>
       </roles>
-      <example name="figurative reflexive - perfective only" src="" type="">
-        <text>Удар стихии обрушился на несколько деревень в провинции Панджшер на северо-востоке страны в среду .</text>
-        <arg f="" n="0">Удар стихии</arg>
-        <rel f="">обрушился</rel>
-		    <arg f="" n="1">на несколько деревень в провинции Панджшер на северо-востоке страны</arg>
-        <arg f="tmp" n="m">в среду</arg>
+      <example name="figurative reflexive - perfective only" src="">
+        <text>Удар стихии обрушился на несколько деревень в провинции Панджшер на северо - востоке страны в среду .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="1">Удар стихии</arg>
+          <rel relloc="2">обрушился</rel>
+          <arg type="ARG1" start="3" end="13">на несколько деревень в провинции Панджшер на северо - востоке страны</arg>
+          <arg type="ARGM-TMP" start="14" end="15">в среду</arg>
+        </propbank>
       </example>
-      <example name="arg1, adjectival participle reflexive" src="" type="">
+      <example name="arg1, adjectival participle reflexive" src="">
         <text>Жертвами обрушившегося ранее в сентябре на Мексику урагана " Карл " стали более 20 человек .</text>
-        <rel f="">обрушившегося</rel>
-        <arg f="tmp" n="m">ранее в сентябре</arg>
-		    <arg f="" n="1">на Мексику</arg>
-		    <arg f="" n="0">урагана " Карл "</arg>
+        <propbank>
+          <rel relloc="1">обрушившегося</rel>
+          <arg type="ARGM-TMP" start="2" end="4">ранее в сентябре</arg>
+          <arg type="ARG1" start="5" end="6">на Мексику</arg>
+          <arg type="ARG0" start="7" end="10">урагана " Карл "</arg>
+        </propbank>
       </example>
-	  <example name="рушиться" src="И. А. Бунин, «Осенью»" type="">
+      <example name="рушиться" src="И. А. Бунин, «Осенью»">
         <text>Высокие , долетающие до нас волны с грохотом пушечных выстрелов рушились на берег .</text>
-        <arg f="" n="0">Высокие , долетающие до нас волны с грохотом пушечных выстрелов</arg>
-		    <rel f="">рушились</rel>
-		    <arg f="" n="1">на берег</arg>
+        <propbank>
+          <arg type="ARG0" start="0" end="9">Высокие , долетающие до нас волны с грохотом пушечных выстрелов</arg>
+          <rel relloc="10">рушились</rel>
+          <arg type="ARG1" start="11" end="12">на берег</arg>
+        </propbank>
       </example>
-	  <example name="рушиться figurative" src="Лерм, «Menschen und Leidenschaften»" type="">
+      <example name="рушиться figurative" src="Лерм, «Menschen und Leidenschaften»">
         <text>зачем же всё это рушится на голову мою ?</text>
-        <arg f="pur" n="m">зачем</arg>
-		    <arg f="" n="0">всё это</arg>
-		    <rel f="">рушится</rel>
-		    <arg f="" n="1">на голову мою</arg>
+        <propbank>
+          <arg type="ARGM-PUR" start="0" end="0">зачем</arg>
+          <arg type="ARG0" start="2" end="3">всё это</arg>
+          <rel relloc="4">рушится</rel>
+          <arg type="ARG1" start="5" end="7">на голову мою</arg>
+        </propbank>
       </example>
-	  <example name="arg2" src="[Александр Солженицын. В круге первом, т.1, гл. 1-25 (1968) // «Новый Мир», 1990]" type="">
-        <text>Несколько лингвистов-марксистов-марристов обрушились на наглеца с обвинениями , после которых тому оставалось только ожидать ночного стука МГБ.</text>
-		    <arg f="" n="0">Несколько лингвистов-марксистов-марристов</arg>
-		    <rel f="">обрушились</rel>
-		    <arg f="" n="1">на наглеца</arg>
-		    <arg f="" n="1">с обвинениями</arg>
+      <example name="arg2" src="[Александр Солженицын. В круге первом, т.1, гл. 1-25 (1968) // «Новый Мир», 1990]">
+        <text>Несколько лингвистов - марксистов - марристов обрушились на наглеца с обвинениями , после которых тому оставалось только ожидать ночного стука МГБ .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="5">Несколько лингвистов - марксистов - марристов</arg>
+          <rel relloc="6">обрушились</rel>
+          <arg type="ARG1" start="7" end="8">на наглеца</arg>
+          <arg type="ARG1" start="9" end="10">с обвинениями</arg>
+        </propbank>
       </example>
     </roleset>
   </predicate>

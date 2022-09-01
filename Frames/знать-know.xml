@@ -1,190 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="знать">
-	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-	<roleset id="знать.01" name="know">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="знать.01" name="know">
       <aliases>
         <alias framenet="" pos="v" verbnet="">знать</alias>
-		<alias framenet="" pos="j" verbnet="">знающий</alias>
-		<alias framenet="" pos="j" verbnet="">знавший</alias>
-		<alias framenet="" pos="j" verbnet="">знаемый</alias>
-		<alias framenet="" pos="n" verbnet="">знание</alias>
-		<alias framenet="" pos="v" verbnet="">узнать</alias>
-		<alias framenet="" pos="j" verbnet="">узнающий</alias>
-		<alias framenet="" pos="j" verbnet="">узнавший</alias>
-		<alias framenet="" pos="j" verbnet="">узнаемый</alias>
-		<alias framenet="" pos="v" verbnet="">узнавать</alias>
-		<alias framenet="" pos="j" verbnet="">узнававший</alias>
-		<alias framenet="" pos="j" verbnet="">узнаваемый</alias>
-		<alias framenet="" pos="n" verbnet="">узнавание</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses 1,4,5</note>
-	  <note>знать.01 NOTES: Based on know.01.</note>
+        <alias framenet="" pos="j" verbnet="">знающий</alias>
+        <alias framenet="" pos="j" verbnet="">знавший</alias>
+        <alias framenet="" pos="j" verbnet="">знаемый</alias>
+        <alias framenet="" pos="n" verbnet="">знание</alias>
+        <alias framenet="" pos="v" verbnet="">узнать</alias>
+        <alias framenet="" pos="j" verbnet="">узнающий</alias>
+        <alias framenet="" pos="j" verbnet="">узнавший</alias>
+        <alias framenet="" pos="j" verbnet="">узнаемый</alias>
+        <alias framenet="" pos="v" verbnet="">узнавать</alias>
+        <alias framenet="" pos="j" verbnet="">узнававший</alias>
+        <alias framenet="" pos="j" verbnet="">узнаваемый</alias>
+        <alias framenet="" pos="n" verbnet="">узнавание</alias>
+      </aliases>
+      <note>Corresponds to FrameBank senses 1,4,5</note>
+      <note>знать.01 NOTES: Based on know.01.</note>
       <roles>
-	    <role descr="knower" f="PAG" n="0">
+        <role descr="knower" f="PAG" n="0">
         </role>
         <role descr="fact that is known" f="PPT" n="1">
         </role>
-		<role descr="entity that is known ABOUT" f="PRD" n="2">
+        <role descr="entity that is known ABOUT" f="PRD" n="2">
         </role>
-	  </roles>
-      <example name="all args" src="" type="">
-        <text>Из всего интервью видно , что Обама даже не знает про Россию элементарных вещей ( а еще говорят Америка страна разведчиков и шпионов , блин ).</text>
-        <arg f="" n="0">Обама</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">знает</rel>
-        <arg f="" n="2">про Россию</arg>
-		<arg f="" n="1">элементарных вещей</arg>
+      </roles>
+      <example name="all args" src="">
+        <text>Из всего интервью видно , что Обама даже не знает про Россию элементарных вещей ( а еще говорят Америка страна разведчиков и шпионов , блин ) .</text>
+        <propbank>
+          <arg type="ARG0" start="6" end="6">Обама</arg>
+          <arg type="ARGM-NEG" start="8" end="8">не</arg>
+          <rel relloc="9">знает</rel>
+          <arg type="ARG2" start="10" end="11">про Россию</arg>
+          <arg type="ARG1" start="12" end="13">элементарных вещей</arg>
+        </propbank>
       </example>
-	   <example name="know, understand" src="" type="">
+      <example name="know, understand" src="">
         <text>Надеюсь , ваши родные знают , что такое мобильные разводки .</text>
-        <arg f="" n="0">ваши родные</arg>
-		<rel f="">знают</rel>
-		<arg f="" n="1">что такое мобильные разводки</arg>
+        <propbank>
+          <arg type="ARG0" start="2" end="3">ваши родные</arg>
+          <rel relloc="4">знают</rel>
+          <arg type="ARG1" start="6" end="9">что такое мобильные разводки</arg>
+        </propbank>
       </example>
-	  <example name="learned, came to know" src="Л. Н. Толстой, «Анна Каренина»" type="">
-        <text>Жена узнала , что муж был в связи с бывшею в их доме француженкою-гувернанткой , и объявила мужу , что не может жить с ним в одном доме .</text>
-        <arg f="" n="0">Жена</arg>
-		<rel f="">узнала</rel>
-		<arg f="" n="1">что муж был в связи с бывшею в их доме француженкою-гувернанткой</arg>
+      <example name="learned, came to know" src="Л. Н. Толстой, «Анна Каренина»">
+        <text>Жена узнала , что муж был в связи с бывшею в их доме француженкою - гувернанткой , и объявила мужу , что не может жить с ним в одном доме .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Жена</arg>
+          <rel relloc="1">узнала</rel>
+          <arg type="ARG1" start="3" end="15">что муж был в связи с бывшею в их доме француженкою - гувернанткой</arg>
+        </propbank>
       </example>
-	</roleset>
-
-	<roleset id="знать.02" name="kennen, recognize">
+    </roleset>
+    <roleset id="знать.02" name="kennen, recognize">
       <aliases>
         <alias framenet="" pos="v" verbnet="">знать</alias>
-		<alias framenet="" pos="j" verbnet="">знающий</alias>
-		<alias framenet="" pos="j" verbnet="">знавший</alias>
-		<alias framenet="" pos="j" verbnet="">знаемый</alias>
-		<alias framenet="" pos="v" verbnet="">знаться</alias>
-		<alias framenet="" pos="j" verbnet="">знающийся</alias>
-		<alias framenet="" pos="j" verbnet="">знавшийся</alias>
-		<alias framenet="" pos="v" verbnet="">знавать</alias>
-		<alias framenet="" pos="j" verbnet="">знавающий</alias>
-		<alias framenet="" pos="j" verbnet="">знававший</alias>
-		<alias framenet="" pos="j" verbnet="">знаваемый</alias>
-		<alias framenet="" pos="v" verbnet="">узнать</alias>
-		<alias framenet="" pos="j" verbnet="">узнающий</alias>
-		<alias framenet="" pos="j" verbnet="">узнавший</alias>
-		<alias framenet="" pos="j" verbnet="">узнаемый</alias>
-		<alias framenet="" pos="v" verbnet="">узнавать</alias>
-		<alias framenet="" pos="j" verbnet="">узнававший</alias>
-		<alias framenet="" pos="j" verbnet="">узнаваемый</alias>
-		<alias framenet="" pos="n" verbnet="">узнавание</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank sense 3</note>
+        <alias framenet="" pos="j" verbnet="">знающий</alias>
+        <alias framenet="" pos="j" verbnet="">знавший</alias>
+        <alias framenet="" pos="j" verbnet="">знаемый</alias>
+        <alias framenet="" pos="v" verbnet="">знаться</alias>
+        <alias framenet="" pos="j" verbnet="">знающийся</alias>
+        <alias framenet="" pos="j" verbnet="">знавшийся</alias>
+        <alias framenet="" pos="v" verbnet="">знавать</alias>
+        <alias framenet="" pos="j" verbnet="">знавающий</alias>
+        <alias framenet="" pos="j" verbnet="">знававший</alias>
+        <alias framenet="" pos="j" verbnet="">знаваемый</alias>
+        <alias framenet="" pos="v" verbnet="">узнать</alias>
+        <alias framenet="" pos="j" verbnet="">узнающий</alias>
+        <alias framenet="" pos="j" verbnet="">узнавший</alias>
+        <alias framenet="" pos="j" verbnet="">узнаемый</alias>
+        <alias framenet="" pos="v" verbnet="">узнавать</alias>
+        <alias framenet="" pos="j" verbnet="">узнававший</alias>
+        <alias framenet="" pos="j" verbnet="">узнаваемый</alias>
+        <alias framenet="" pos="n" verbnet="">узнавание</alias>
+      </aliases>
+      <note>Corresponds to FrameBank sense 3</note>
       <note>знать.02 NOTES: Based on know.02.</note>
       <roles>
-	    <role descr="knower" f="PAG" n="0">
+        <role descr="knower" f="PAG" n="0">
         </role>
         <role descr="entity arg0 is familiar with" f="PPT" n="1">
         </role>
-	  </roles>
-      <example name="know of" src="" type="">
-        <text>Ты знаешь кого-нибудь , кто не умеет читать и писать ?</text>
-        <arg f="" n="0">Ты</arg>
-		<rel f="">знаешь</rel>
-		<arg f="" n="1">кого-нибудь</arg>
+      </roles>
+      <example name="know of" src="">
+        <text>Ты знаешь кого - нибудь , кто не умеет читать и писать ?</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Ты</arg>
+          <rel relloc="1">знаешь</rel>
+          <arg type="ARG1" start="2" end="4">кого - нибудь</arg>
+        </propbank>
       </example>
-	  <example name="be familiar with" src="" type="">
+      <example name="be familiar with" src="">
         <text>Чеченский народ , как никто другой знает вкус трагедии .</text>
-        <arg f="" n="0">Чеченский народ</arg>
-		<rel f="">знает</rel>
-		<arg f="" n="1">вкус трагедии</arg>
-		<arg f="adv" n="m">как никто другой знает вкус трагедии</arg>
+        <propbank>
+          <arg type="ARG0" start="0" end="1">Чеченский народ</arg>
+          <rel relloc="6">знает</rel>
+          <arg type="ARG1" start="7" end="8">вкус трагедии</arg>
+          <arg type="ARGM-ADV" start="3" end="8">как никто другой знает вкус трагедии</arg>
+        </propbank>
       </example>
-	  <example name="know, have a relationship" src="" type="">
+      <example name="know, have a relationship" src="">
         <text>Год назад ему казалось большим везением не знаться с заключенными .</text>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">знаться</rel>
-		<arg f="" n="1">с заключенными</arg>
+        <propbank>
+          <arg type="ARGM-NEG" start="6" end="6">не</arg>
+          <rel relloc="7">знаться</rel>
+          <arg type="ARG1" start="8" end="9">с заключенными</arg>
+        </propbank>
       </example>
-	  <example name="recognize" src="Л. Н. Толстой, «Крейцерова соната», 1890 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+      <example name="recognize" src="Л. Н. Толстой, «Крейцерова соната», 1890 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Бред продолжался всё время . Она не узнавала никого . В тот же день , к полдню , она померла .</text>
-		<arg f="" n="0">Она</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">узнавала</rel>
-		<arg f="" n="1">никого</arg>
+        <propbank>
+          <arg type="ARG0" start="5" end="5">Она</arg>
+          <arg type="ARGM-NEG" start="6" end="6">не</arg>
+          <rel relloc="7">узнавала</rel>
+          <arg type="ARG1" start="8" end="8">никого</arg>
+        </propbank>
       </example>
-	</roleset>
-
-	<roleset id="знать.03" name="know-how">
+    </roleset>
+    <roleset id="знать.03" name="know-how">
       <aliases>
         <alias framenet="" pos="v" verbnet="">знать</alias>
-		<alias framenet="" pos="j" verbnet="">знающий</alias>
-		<alias framenet="" pos="j" verbnet="">знавший</alias>
-		<alias framenet="" pos="j" verbnet="">знаемый</alias>
-		<alias framenet="" pos="v" verbnet="">узнать</alias>
-		<alias framenet="" pos="j" verbnet="">узнавший</alias>
-		<alias framenet="" pos="j" verbnet="">узнанный</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank sense 2</note>
+        <alias framenet="" pos="j" verbnet="">знающий</alias>
+        <alias framenet="" pos="j" verbnet="">знавший</alias>
+        <alias framenet="" pos="j" verbnet="">знаемый</alias>
+        <alias framenet="" pos="v" verbnet="">узнать</alias>
+        <alias framenet="" pos="j" verbnet="">узнавший</alias>
+        <alias framenet="" pos="j" verbnet="">узнанный</alias>
+      </aliases>
+      <note>Corresponds to FrameBank sense 2</note>
       <note>знать.03 NOTES: Based on know.03.</note>
       <roles>
-	    <role descr="knower, person with an ability/skill" f="PAG" n="0">
+        <role descr="knower, person with an ability/skill" f="PAG" n="0">
         </role>
         <role descr="ability or skill" f="PPT" n="1">
         </role>
-	  </roles>
-      <example name="know how" src="" type="">
+      </roles>
+      <example name="know how" src="">
         <text>Я не знаю , как добиться этого .</text>
-        <arg f="" n="0">Я</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">знаю</rel>
-		<arg f="" n="1">как добиться этого</arg>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <arg type="ARGM-NEG" start="1" end="1">не</arg>
+          <rel relloc="2">знаю</rel>
+          <arg type="ARG1" start="4" end="6">как добиться этого</arg>
+        </propbank>
       </example>
-	  <example name="know language" src="" type="">
+      <example name="know language" src="">
         <text>Nura , к сожалению , не знаю китайского и помочь не могу Хотя надо сходить в магазин и спросить .</text>
-		<arg f="dis" n="m">Nura</arg>
-		<arg f="dis" n="m">к сожалению</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">знаю</rel>
-		<arg f="" n="1">китайского</arg>
+        <propbank>
+          <arg type="ARGM-DIS" start="0" end="0">Nura</arg>
+          <arg type="ARGM-DIS" start="2" end="3">к сожалению</arg>
+          <arg type="ARGM-NEG" start="5" end="5">не</arg>
+          <rel relloc="6">знаю</rel>
+          <arg type="ARG1" start="7" end="7">китайского</arg>
+        </propbank>
       </example>
-	</roleset>
+    </roleset>
   </predicate>
-  
   <predicate lemma="узнать">
-	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-	<roleset id="узнать.04" name="inquire">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="узнать.04" name="inquire">
       <aliases>
         <alias framenet="" pos="v" verbnet="">узнать</alias>
-		<alias framenet="" pos="j" verbnet="">узнающий</alias>
-		<alias framenet="" pos="j" verbnet="">узнавший</alias>
-		<alias framenet="" pos="v" verbnet="">узная</alias>
-		<alias framenet="" pos="v" verbnet="">узнавши</alias>
-		<alias framenet="" pos="j" verbnet="">узнаемый</alias>
-		<alias framenet="" pos="v" verbnet="">узнавать</alias>
-		<alias framenet="" pos="j" verbnet="">узнававший</alias>
-		<alias framenet="" pos="j" verbnet="">узнаваемый</alias>
-		<alias framenet="" pos="n" verbnet="">узнавание</alias>
-	  </aliases>
-	  <note>знать.01 NOTES: Ожегов defn 3 https://dic.academic.ru/dic.nsf/ogegova/250150 </note>
+        <alias framenet="" pos="j" verbnet="">узнающий</alias>
+        <alias framenet="" pos="j" verbnet="">узнавший</alias>
+        <alias framenet="" pos="v" verbnet="">узная</alias>
+        <alias framenet="" pos="v" verbnet="">узнавши</alias>
+        <alias framenet="" pos="j" verbnet="">узнаемый</alias>
+        <alias framenet="" pos="v" verbnet="">узнавать</alias>
+        <alias framenet="" pos="j" verbnet="">узнававший</alias>
+        <alias framenet="" pos="j" verbnet="">узнаваемый</alias>
+        <alias framenet="" pos="n" verbnet="">узнавание</alias>
+      </aliases>
+      <note>знать.01 NOTES: Ожегов defn 3 https://dic.academic.ru/dic.nsf/ogegova/250150 </note>
       <roles>
-	    <role descr="inquirer" f="PAG" n="0">
+        <role descr="inquirer" f="PAG" n="0">
         </role>
         <role descr="subject that is inquired or learned about" f="PPT" n="1"/>
-		<role descr="one being inquired of, source of knowledge" f="DIR" n="2"/>
-	  </roles>
-      <example name="inquire about" src="И. А. Гончаров, «Превратность судьбы», 1891 г. (цитата из Национального корпуса русского языка, см. Список литературы) " type="">
+        <role descr="one being inquired of, source of knowledge" f="DIR" n="2"/>
+      </roles>
+      <example name="inquire about" src="И. А. Гончаров, «Превратность судьбы», 1891 г. (цитата из Национального корпуса русского языка, см. Список литературы) ">
         <text>Между тем Двор не оставлял его без осведомлении : почти каждый день курьер приезжал узнавать о его здоровье и наказывал хозяйке , что как только он выздоровеет , то чтоб явился к генералу Дибичу .</text>
-		<arg f="" n="0">*trace-1*</arg>
-		<rel f="">узнавать</rel>
-		<arg f="" n="1">о его здоровье</arg>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">*trace-1*</arg>
+          <rel relloc="14">узнавать</rel>
+          <arg type="ARG1" start="?" end="?">о его здоровье</arg>
+        </propbank>
       </example>
-	   <example name="find out" src=" П. Д. Боборыкин, «Поумнел», 1890 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
+      <example name="find out" src=" П. Д. Боборыкин, «Поумнел», 1890 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Куда он ехал , она не знала и не стала узнавать .</text>
-        <arg f="" n="0">*trace-2*</arg>
-		<rel f="">узнавать</rel>
-		<arg f="" n="1">*trace-1*</arg>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">*trace-2*</arg>
+          <rel relloc="10">узнавать</rel>
+          <arg type="ARG1" start="?" end="?">*trace-1*</arg>
+        </propbank>
       </example>
-	  <example name="learned" src="А. П. Чехов, «Из Сибири», 1890 г. (цитата из Национального корпуса русского языка, см. Список литературы)»" type="">
+      <example name="learned" src="А. П. Чехов, «Из Сибири», 1890 г. (цитата из Национального корпуса русского языка, см. Список литературы)»">
         <text>От скуки разговариваю я с дедом и узнаю от него , что женился он 16 лет , что у него было 18 детей , из которых умерло только трое , что у него живы ещё отец и мать …</text>
-        <arg f="" n="0">*trace-1*</arg>
-		<rel f="">узнаю</rel>
-		<arg f="" n="2">от него</arg>
-		<arg f="" n="1">что женился он 16 лет , что у него было 18 детей , из которых умерло только трое , что у него живы ещё отец и мать</arg>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">*trace-1*</arg>
+          <rel relloc="7">узнаю</rel>
+          <arg type="ARG2" start="?" end="?">от него</arg>
+          <arg type="ARG1" start="?" end="?">что женился он 16 лет , что у него было 18 детей , из которых умерло только трое , что у него живы ещё отец и мать</arg>
+        </propbank>
       </example>
-	</roleset>
+    </roleset>
   </predicate>
 </frameset>

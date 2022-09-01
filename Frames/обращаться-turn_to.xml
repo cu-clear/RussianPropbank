@@ -1,152 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="обращаться">
-  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="обращаться.01" name="circulate, orbit, turn around">
       <aliases>
 	  </aliases>
       <note>обращаться.01 NOTES: Based on orbit.01.</note>
       <roles>
-	    <role descr="revolving entity" f="PAG" n="0">
+        <role descr="revolving entity" f="PAG" n="0">
         </role>
         <role descr="point orbited" f="PPT" n="1">
         </role>
-	  </roles>
-      <example name="revolve around" src="Russian National Corpus [В. П. Катаев. Алмазный мой венец (1975-1977)]" type="">
-        <text>в хорошем романе (хотя я и не признаю деление прозы на жанры) герой должен быть неподвижен, а обращаться вокруг него должен весь физический мир, что и составит если не галактику, то, во всяком случае, солнечную систему художественного произведения.</text>
-		<rel f="">обращаться</rel>
-        <arg f="" n="1">вокруг него</arg>
+      </roles>
+      <example name="revolve around" src="Russian National Corpus [В. П. Катаев. Алмазный мой венец (1975-1977)]">
+        <text>в хорошем романе ( хотя я и не признаю деление прозы на жанры ) герой должен быть неподвижен , а обращаться вокруг него должен весь физический мир , что и составит если не галактику , то , во всяком случае , солнечную систему художественного произведения .</text>
+        <propbank>
+          <rel relloc="20">обращаться</rel>
+          <arg type="ARG1" start="21" end="22">вокруг него</arg>
+        </propbank>
       </example>
-	  <example name="circulate" src="Russian National Corpus [Ф. М. Достоевский. Записки из Мертвого дома (1862)]" type="">
-        <text>И уставали-то мы наконец, и легко в то же время становилось; щеки краснели, кровь обращалась быстрее.</text>
-        <arg f="" n="0">кровь</arg>
-		<rel f="">обращалась</rel>
-		<arg f="adv" n="m">быстрее</arg>
+      <example name="circulate" src="Russian National Corpus [Ф. М. Достоевский. Записки из Мертвого дома (1862)]">
+        <text>И уставали - то мы наконец , и легко в то же время становилось ; щеки краснели , кровь обращалась быстрее .</text>
+        <propbank>
+          <arg type="ARG0" start="18" end="18">кровь</arg>
+          <rel relloc="19">обращалась</rel>
+          <arg type="ARGM-ADV" start="20" end="20">быстрее</arg>
+        </propbank>
       </example>
-	</roleset>
-	
-	<roleset id="обращаться.02" name="treat, act, behave, use, handle">
+    </roleset>
+    <roleset id="обращаться.02" name="treat, act, behave, use, handle">
       <aliases>
 	  </aliases>
       <note>обращаться.02 NOTES: Based on treat.01.</note>
-	  <note>Corresponds to FrameBank senses 9</note>
+      <note>Corresponds to FrameBank senses 9</note>
       <roles>
-	    <role descr="assumer of attribute" f="PAG" n="0">
+        <role descr="assumer of attribute" f="PAG" n="0">
         </role>
         <role descr="entity treated" f="PPT" n="1">
         </role>
-		<role descr="attribute" f="PRD" n="2"/>
-	  </roles>
-      <example name="treat" src="" type="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
-        <text>Мачеха обращалась с ребенком плохо.</text>
-		<arg f="" n="0">Мачеха</arg>
-		<rel f="">обращалась</rel>
-		<arg f="" n="1">с ребенком</arg>
-		<arg f="" n="2">плохо</arg>
+        <role descr="attribute" f="PRD" n="2"/>
+      </roles>
+      <example name="treat" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+        <text>Мачеха обращалась с ребенком плохо .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Мачеха</arg>
+          <rel relloc="1">обращалась</rel>
+          <arg type="ARG1" start="2" end="3">с ребенком</arg>
+          <arg type="ARG2" start="4" end="4">плохо</arg>
+        </propbank>
       </example>
-	    <example name="handle" src="" type="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
-        <text>Мой сын с юных лет умеет обращаться с ружьем.</text>
-		<rel f="">обращаться</rel>
-		<arg f="" n="1">с ружьем</arg>
+      <example name="handle" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+        <text>Мой сын с юных лет умеет обращаться с ружьем .</text>
+        <propbank>
+          <rel relloc="6">обращаться</rel>
+          <arg type="ARG1" start="7" end="8">с ружьем</arg>
+        </propbank>
       </example>
-	</roleset>
-	
-	<roleset id="обращаться.03" name="turn to, face, direct, address">
+    </roleset>
+    <roleset id="обращаться.03" name="turn to, face, direct, address">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">обратить</alias>
-		<alias framenet="" pos="j" verbnet="">обращаться</alias>
-		<alias framenet="" pos="j" verbnet="">обратиться</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses 1,2,3,4,5</note>
+        <alias framenet="" pos="j" verbnet="">обратить</alias>
+        <alias framenet="" pos="j" verbnet="">обращаться</alias>
+        <alias framenet="" pos="j" verbnet="">обратиться</alias>
+      </aliases>
+      <note>Corresponds to FrameBank senses 1,2,3,4,5</note>
       <note>обращаться.03 NOTES: Based on turn.01</note>
-       <roles>
-	    <role descr="turner " f="PAG" n="0">
+      <roles>
+        <role descr="turner " f="PAG" n="0">
         </role>
         <role descr="direction, destination" f="PPT" n="1">
         </role>
-	  </roles>
-	    <note>English ARGM-LOC = Russian Arg3-GOL</note>
-      <example name="address as" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
-        <text>Он обращается ко мне на «вы», хотя я давно ему тыкаю.</text>
-		<arg f="" n="0">Он</arg>
-		<rel f="">обращается</rel>
-		<arg f="" n="1">ко мне</arg>
-		<arg f="mnr" n="m">на «вы»</arg>
+      </roles>
+      <note>English ARGM-LOC = Russian Arg3-GOL</note>
+      <example name="address as" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+        <text>Он обращается ко мне на « вы » , хотя я давно ему тыкаю .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Он</arg>
+          <rel relloc="1">обращается</rel>
+          <arg type="ARG1" start="2" end="3">ко мне</arg>
+          <arg type="ARGM-MNR" start="4" end="7">на « вы »</arg>
+        </propbank>
       </example>
-	   <example name="address with" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
-	   <text>Профессор обратился к первокурсникам с приветственной речью.</text>
-		<arg f="" n="0">Профессор</arg>
-		<rel f="">обратился</rel>
-		<arg f="" n="1">к первокурсникам</arg>
-		<arg f="mnr" n="m">с приветственной речью</arg>
+      <example name="address with" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+        <text>Профессор обратился к первокурсникам с приветственной речью .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Профессор</arg>
+          <rel relloc="1">обратился</rel>
+          <arg type="ARG1" start="2" end="3">к первокурсникам</arg>
+          <arg type="ARGM-MNR" start="4" end="6">с приветственной речью</arg>
+        </propbank>
       </example>
-	   <example name="turned to" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
-	   <text>Вдруг он обратился ко мне: «Вы не могли бы ему помочь?» </text>
-	   <arg f="dis" n="m">Вдруг</arg>
-		<arg f="" n="0">он</arg>
-		<rel f="">обратился</rel>
-		<arg f="" n="2">ко мне</arg>
-		<arg f="mnr" n="m">«Вы не могли бы ему помочь?»</arg>
+      <example name="turned to" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+        <text>Вдруг он обратился ко мне : « Вы не могли бы ему помочь ? »</text>
+        <propbank>
+          <arg type="ARGM-DIS" start="0" end="0">Вдруг</arg>
+          <arg type="ARG0" start="1" end="1">он</arg>
+          <rel relloc="2">обратился</rel>
+          <arg type="ARG2" start="3" end="4">ко мне</arg>
+          <arg type="ARGM-MNR" start="6" end="14">« Вы не могли бы ему помочь ? »</arg>
+        </propbank>
       </example>
-	   <example name="directed towards" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
-	   <text>Все взгляды обратились к ней.</text>
-		<arg f="" n="0">Все взгляды</arg>
-		<rel f="">обратились</rel>
-		<arg f="" n="1">к ней</arg>
+      <example name="directed towards" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+        <text>Все взгляды обратились к ней .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="1">Все взгляды</arg>
+          <rel relloc="2">обратились</rel>
+          <arg type="ARG1" start="3" end="4">к ней</arg>
+        </propbank>
       </example>
-	   <example name="imperfective" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
-	   <text>Исследователь обращается к изучению рукописей XV века.</text>
-		<arg f="" n="0">Исследователь</arg>
-		<arg f="" n="1">к изучению рукописей XV века</arg>
-		<rel f="">обращается</rel>
+      <example name="imperfective" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+        <text>Исследователь обращается к изучению рукописей XV века .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Исследователь</arg>
+          <arg type="ARG1" start="2" end="6">к изучению рукописей XV века</arg>
+          <rel relloc="1">обращается</rel>
+        </propbank>
       </example>
-	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
-	   <text>обратить оружие против кого-л.</text>
-		<arg f="" n="2">против кого-л</arg>
-		<arg f="" n="1">оружие</arg>
-		<rel f="">обратить</rel>
+      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+        <text>обратить оружие против кого - л .</text>
+        <propbank>
+          <arg type="ARG2" start="2" end="5">против кого - л</arg>
+          <arg type="ARG1" start="1" end="1">оружие</arg>
+          <rel relloc="0">обратить</rel>
+        </propbank>
       </example>
-	  </roleset>
-	 <roleset id="обращаться.04" name="turn into, transform, exchange, convert">
+    </roleset>
+    <roleset id="обращаться.04" name="turn into, transform, exchange, convert">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">обратить</alias>
-		<alias framenet="" pos="j" verbnet="">обращаться</alias>
-		<alias framenet="" pos="j" verbnet="">обратиться</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses 6,7,8,10</note>
+        <alias framenet="" pos="j" verbnet="">обратить</alias>
+        <alias framenet="" pos="j" verbnet="">обращаться</alias>
+        <alias framenet="" pos="j" verbnet="">обратиться</alias>
+      </aliases>
+      <note>Corresponds to FrameBank senses 6,7,8,10</note>
       <note>обращаться.03 NOTES: Based on convert.01</note>
-       <roles>
-	    <role descr="causer of transformation" f="PAG" n="0" />
-        <role descr="thing changing " f="PPT" n="1" />
-		  <role descr="end state" f="PRD" n="2" />
-		<role descr="start state" f="VSP" n="3" />
-	  </roles>
-      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращать" type="">
-        <text>Идеология расизма обращает человека в зверя. </text>
-		<arg f="" n="0">Идеология расизма</arg>
-		<arg f="" n="2">в зверя</arg>
-		<arg f="" n="3">человека</arg>
-		<rel f="">обращает </rel>
+      <roles>
+        <role descr="causer of transformation" f="PAG" n="0"/>
+        <role descr="thing changing " f="PPT" n="1"/>
+        <role descr="end state" f="PRD" n="2"/>
+        <role descr="start state" f="VSP" n="3"/>
+      </roles>
+      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращать">
+        <text>Идеология расизма обращает человека в зверя .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="1">Идеология расизма</arg>
+          <arg type="ARG2" start="4" end="5">в зверя</arg>
+          <arg type="ARG3" start="3" end="3">человека</arg>
+          <rel relloc="2">обращает</rel>
+        </propbank>
       </example>
-	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
-	   <text>Вода обратилась в лед.</text>
-		<arg f="" n="3">Вода</arg>
-		<arg f="" n="2">лед</arg>
-		<rel f="">обратился</rel>
+      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+        <text>Вода обратилась в лед .</text>
+        <propbank>
+          <arg type="ARG3" start="0" end="0">Вода</arg>
+          <arg type="ARG2" start="3" end="3">лед</arg>
+          <rel relloc="1">обратилась</rel>
+        </propbank>
       </example>
-	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться" type="">
-	   <text>Деньги омертвевают, если они не обращаются. </text>
-		<arg f="" n="2">омертвевают</arg>
-		<arg f="" n="3">Деньги</arg>
-		<rel f="">обращаются</rel>
+      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
+        <text>Деньги омертвевают , если они не обращаются .</text>
+        <propbank>
+          <arg type="ARG2" start="1" end="1">омертвевают</arg>
+          <arg type="ARG3" start="0" end="0">Деньги</arg>
+          <rel relloc="6">обращаются</rel>
+        </propbank>
       </example>
-	   <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращать" type="">
-	   <text>Туземцев обратили в христианство</text>
-		<arg f="" n="0">Все</arg>
-		<arg f="" n="3">Туземцев</arg>
-		<arg f="" n="2">христианство</arg>
-		<rel f="">обратили</rel>
+      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращать">
+        <text>Туземцев обратили в христианство</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Все</arg>
+          <arg type="ARG3" start="0" end="0">Туземцев</arg>
+          <arg type="ARG2" start="3" end="3">христианство</arg>
+          <rel relloc="1">обратили</rel>
+        </propbank>
       </example>
-		 </roleset>
-		</predicate>
-	  </frameset>
+    </roleset>
+  </predicate>
+</frameset>

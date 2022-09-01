@@ -1,103 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="состояться">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="состояться.01" name="take place">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">состаиваться</alias>
+        <alias framenet="" pos="v" verbnet="">состаиваться</alias>
       </aliases>
-	  <note>состояться.01 NOTES: Roleset based on English verb frame take.14</note>
-	  <note>Corresponds to FrameBank senses 1</note>
+      <note>состояться.01 NOTES: Roleset based on English verb frame take.14</note>
+      <note>Corresponds to FrameBank senses 1</note>
       <roles>
         <role descr="thing occurring" f="PPT" n="1"/>
-		<role descr="fixed place" f="LOC" n="2"/>
+        <role descr="fixed place" f="LOC" n="2"/>
       </roles>
-	  <note></note>
-      <example name="descend" src="Russian National Corpus[Сати Спивакова. Не всё (2002)] " type="">
-        <text>На прошлой неделе в актовом зале состоялось награждение лауреатов конкурса.</text>
-		<arg f="tmp" n="m">На прошлой неделе</arg>
-		<arg f="" n="2">в актовом зале</arg>
-		<rel f="">состоялось</rel>
-		<arg f="" n="1">награждение лауреатов конкурса</arg>
+      <note/>
+      <example name="descend" src="Russian National Corpus[Сати Спивакова. Не всё (2002)] ">
+        <text>На прошлой неделе в актовом зале состоялось награждение лауреатов конкурса .</text>
+        <propbank>
+          <arg type="ARGM-TMP" start="0" end="2">На прошлой неделе</arg>
+          <arg type="ARG2" start="3" end="5">в актовом зале</arg>
+          <rel relloc="6">состоялось</rel>
+          <arg type="ARG1" start="7" end="9">награждение лауреатов конкурса</arg>
+        </propbank>
       </example>
     </roleset>
-    
-	<roleset id="состояться.02" name="manage to be, succeed, be established or accepted as, take force">
+    <roleset id="состояться.02" name="manage to be, succeed, be established or accepted as, take force">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">состаиваться</alias>
+        <alias framenet="" pos="v" verbnet="">состаиваться</alias>
       </aliases>
-	  <note>состояться.02 NOTES: Roleset based on English verb frame come_about.06</note>
-	  <note>Corresponds to FrameBank senses 2</note>
+      <note>состояться.02 NOTES: Roleset based on English verb frame come_about.06</note>
+      <note>Corresponds to FrameBank senses 2</note>
       <roles>
-		<role descr="object" f="PPT" n="1"/>
-		<role descr="attribute on arg1" f="PRD" n="2"/>
+        <role descr="object" f="PPT" n="1"/>
+        <role descr="attribute on arg1" f="PRD" n="2"/>
       </roles>
-	  <example name="make it as" src="http://marker.framebank.ru/verbs_cx.php?lex=состояться" type="">
+      <example name="make it as" src="http://marker.framebank.ru/verbs_cx.php?lex=состояться">
         <text>Она не состоялась как актриса</text>
-		<arg f="" n="1">Она</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">состоялась</rel>
-		<arg f="" n="2">как актриса</arg>
-	  </example>
-	  <example name="come about, take off" src="http://marker.framebank.ru/verbs_cx.php?lex=состояться&amp;cxid=17371" type="">
-        <text>Автор статьи убежден : реальный социализм не состоялся.</text>
-		<arg f="" n="1">реальный социализм</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">состоялась</rel>
-	  </example>
-	</roleset>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">Она</arg>
+          <arg type="ARGM-NEG" start="1" end="1">не</arg>
+          <rel relloc="2">состоялась</rel>
+          <arg type="ARG2" start="3" end="4">как актриса</arg>
+        </propbank>
+      </example>
+      <example name="come about, take off" src="http://marker.framebank.ru/verbs_cx.php?lex=состояться&amp;cxid=17371">
+        <text>Автор статьи убежден : реальный социализм не состоялся .</text>
+        <propbank>
+          <arg type="ARG1" start="4" end="5">реальный социализм</arg>
+          <arg type="ARGM-NEG" start="6" end="6">не</arg>
+          <rel relloc="7">состоялся</rel>
+        </propbank>
+      </example>
+    </roleset>
   </predicate>
-	
   <predicate lemma="состоять">
-	<roleset id="состоять.03" name="consist of, include, be made up of">
+    <roleset id="состоять.03" name="consist of, include, be made up of">
       <aliases>
       </aliases>
-	  <note>состоять.03 NOTES: Roleset based on English verb frame consist.01</note>
-	  <note>Corresponds to FrameBank sense 1,2</note>
-	  <note>NO IMPERFECTIVE</note>
-	  <roles>
-		<role descr="whole" f="PPT" n="1"/>
-		<role descr="parts" f="VSP" n="2"/>
-      </roles>
-	  <example name="consist of" src="А. Ф. Писемский, «Масоны», 1880 г." type="">
-        <text>Услуга ваша будет для меня состоять в том, чтобы вы научили меня, в каком духе дать вам объяснение.</text>
-		<arg f="" n="1">Услуга ваша</arg>
-		<arg f="gol" n="m">для меня</arg>
-		<rel f="">состоять</rel>
-		<arg f="" n="2">в том, чтобы вы научили меня, в каком духе дать вам объяснение</arg>
-	  </example>
-	  <example name="made up of" src="И. Г. Иерусалимский, В. М. Антонов, Н. И. Епифановский, «Певчие птицы и волнистые попугайчики», 1977 г" type="">
-        <text>Его лечение: изменяется пищевой рацион, который должен состоять из зернового корма, льняного и салатного семени (мак); вместо воды для питья — чай.</text>
-		<arg f="" n="1">который</arg>
-		<rel f="">состоять</rel>
-		<arg f="" n="2">из зернового корма, льняного и салатного семени (мак)</arg>
-	  </example>
-	</roleset>
-  
-	<roleset id="состоять.04" name="act as, have responsibility or role">
-	  <aliases>
-      </aliases>
-	  <note>состоять.04 NOTES:Roleset based on English verb frame act.01</note>
-	  <note>Corresponds to FrameBank sense 3,4</note>
+      <note>состоять.03 NOTES: Roleset based on English verb frame consist.01</note>
+      <note>Corresponds to FrameBank sense 1,2</note>
+      <note>NO IMPERFECTIVE</note>
       <roles>
-		<role descr="player" f="PAG" n="0"/>
-		<role descr="role" f="PRD" n="1"/>
-	  </roles>
-	  <example name="be part of" type="" src="«Г. А. Зюганов: Спасение страны — в смене власти», 15 июня 2003 г.">
-        <text>По закону чиновникам высшей категории нельзя состоять в партии.</text>
-		<arg f="adv" n="m">По закону</arg>
-		<arg f="" n="0">чиновникам высшей категории</arg>
-		<arg f="neg" n="m">нельзя</arg>
-		<rel f="">состоять</rel>
-		<arg f="loc" n="m">в партии</arg>
-	  </example>
-	  <example name="serve as" type="" src="«Новости месяца», № 3 (6), 2002 г. // «Воздушно-космическая оборона»">
-        <text>Ракета может состоять на вооружении сверхзвуковых самолётов фронтовой авиации, снаряд-самолётов, истребителей и истребителей-бомбардировщиков.</text>
-		<arg f="" n="0">Ракета</arg>
-		<rel f="">состоять</rel>
-		<arg f="" n="1">на вооружении сверхзвуковых самолётов фронтовой авиации, снаряд-самолётов, истребителей и истребителей-бомбардировщиков</arg>
-	  </example>
-	</roleset>
+        <role descr="whole" f="PPT" n="1"/>
+        <role descr="parts" f="VSP" n="2"/>
+      </roles>
+      <example name="consist of" src="А. Ф. Писемский, «Масоны», 1880 г.">
+        <text>Услуга ваша будет для меня состоять в том , чтобы вы научили меня , в каком духе дать вам объяснение .</text>
+        <propbank>
+          <arg type="ARG1" start="0" end="1">Услуга ваша</arg>
+          <arg type="ARGM-GOL" start="3" end="4">для меня</arg>
+          <rel relloc="5">состоять</rel>
+          <arg type="ARG2" start="6" end="19">в том , чтобы вы научили меня , в каком духе дать вам объяснение</arg>
+        </propbank>
+      </example>
+      <example name="made up of" src="И. Г. Иерусалимский, В. М. Антонов, Н. И. Епифановский, «Певчие птицы и волнистые попугайчики», 1977 г">
+        <text>Его лечение : изменяется пищевой рацион , который должен состоять из зернового корма , льняного и салатного семени ( мак ) ; вместо воды для питья — чай .</text>
+        <propbank>
+          <arg type="ARG1" start="7" end="7">который</arg>
+          <rel relloc="9">состоять</rel>
+          <arg type="ARG2" start="10" end="20">из зернового корма , льняного и салатного семени ( мак )</arg>
+        </propbank>
+      </example>
+    </roleset>
+    <roleset id="состоять.04" name="act as, have responsibility or role">
+      <aliases>
+      </aliases>
+      <note>состоять.04 NOTES:Roleset based on English verb frame act.01</note>
+      <note>Corresponds to FrameBank sense 3,4</note>
+      <roles>
+        <role descr="player" f="PAG" n="0"/>
+        <role descr="role" f="PRD" n="1"/>
+      </roles>
+      <example name="be part of" src="«Г. А. Зюганов: Спасение страны — в смене власти», 15 июня 2003 г.">
+        <text>По закону чиновникам высшей категории нельзя состоять в партии .</text>
+        <propbank>
+          <arg type="ARGM-ADV" start="0" end="1">По закону</arg>
+          <arg type="ARG0" start="2" end="4">чиновникам высшей категории</arg>
+          <arg type="ARGM-NEG" start="5" end="5">нельзя</arg>
+          <rel relloc="6">состоять</rel>
+          <arg type="ARGM-LOC" start="7" end="8">в партии</arg>
+        </propbank>
+      </example>
+      <example name="serve as" src="«Новости месяца», № 3 (6), 2002 г. // «Воздушно-космическая оборона»">
+        <text>Ракета может состоять на вооружении сверхзвуковых самолётов фронтовой авиации , снаряд - самолётов , истребителей и истребителей - бомбардировщиков .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Ракета</arg>
+          <rel relloc="2">состоять</rel>
+          <arg type="ARG1" start="3" end="18">на вооружении сверхзвуковых самолётов фронтовой авиации , снаряд - самолётов , истребителей и истребителей - бомбардировщиков</arg>
+        </propbank>
+      </example>
+    </roleset>
   </predicate>
 </frameset>
-  

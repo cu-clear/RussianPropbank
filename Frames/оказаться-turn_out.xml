@@ -1,82 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="оказаться">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="оказаться.01" name="turn out to be, seem">
       <aliases>
-		<alias framenet="" pos="n" verbnet="">оказываться</alias>
+        <alias framenet="" pos="n" verbnet="">оказываться</alias>
       </aliases>
-	  <note>оказаться.01 NOTES: Roleset based on English verb frame turn_out.11 </note>
-	  <note>Corresponds to FrameBank senses 2, 4</note>
+      <note>оказаться.01 NOTES: Roleset based on English verb frame turn_out.11 </note>
+      <note>Corresponds to FrameBank senses 2, 4</note>
       <roles>
         <role descr="thing seeming" f="PPT" n="0"/>
-		<role descr="attribute" f="PRD" n="1"/>
+        <role descr="attribute" f="PRD" n="1"/>
       </roles>
-      <example name="arg0" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
-        <text>Увы, но этот блог оказался не очень интересным, умные мальчики разговоры закончили, а обеспокоенным девушкам наши глубочайшие извинения.</text>
-        <arg f="" n="0">этот блог</arg>
-		<rel f="">оказался</rel>
+      <example name="arg0" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
+        <text>Увы , но этот блог оказался не очень интересным , умные мальчики разговоры закончили , а обеспокоенным девушкам наши глубочайшие извинения .</text>
+        <propbank>
+          <arg type="ARG0" start="3" end="4">этот блог</arg>
+          <rel relloc="5">оказался</rel>
+        </propbank>
       </example>
-	  <example name="all args" src="" type="Russian National Corpus[коллективный. Форум: комментарии к фильму «Все будет хорошо» (2008-2011)]">
-        <text>А ведь не в папиных деньгах дело, просто мальчик с головой оказался, умничка.</text>
-		<arg f="adv" n="m">просто</arg>
-		<arg f="" n="0">мальчик</arg>
-        <arg f="" n="1">с головой</arg>
-		<rel f="">оказался</rel>
-	   </example>
-	  <example name="clausal complement" src="Russian National Corpus[коллективный. Форум: Блэйд (трилогия) Blade (2008-2010)]" type="">
-        <text>Извините за задержку, оказалось, что я случайно (хотя, вроде, все проверил) нажал в редакторе опрос «только опрос, без ответов».</text>
-        <rel f="">оказалось</rel>
-		<arg f="" n="1">что я случайно (хотя, вроде, все проверил) нажал в редакторе опрос «только опрос, без ответов»</arg>
-	   </example>
-	</roleset>
-	
-	<roleset id="оказаться.02" name="turn up, appear, be found">
-	  <note>оказаться.02 NOTES: Roleset based on English verb frame turn_up.15</note>
-	  <note>Corresponds to FrameBank senses 1, 3</note>
-	   <aliases>
-		<alias framenet="" pos="n" verbnet="">оказываться</alias>
+      <example name="all args" src="Russian National Corpus[коллективный. Форум: комментарии к фильму «Все будет хорошо» (2008-2011)]">
+        <text>А ведь не в папиных деньгах дело , просто мальчик с головой оказался , умничка .</text>
+        <propbank>
+          <arg type="ARGM-ADV" start="8" end="8">просто</arg>
+          <arg type="ARG0" start="9" end="9">мальчик</arg>
+          <arg type="ARG1" start="10" end="11">с головой</arg>
+          <rel relloc="12">оказался</rel>
+        </propbank>
+      </example>
+      <example name="clausal complement" src="Russian National Corpus[коллективный. Форум: Блэйд (трилогия) Blade (2008-2010)]">
+        <text>Извините за задержку , оказалось , что я случайно ( хотя , вроде , все проверил ) нажал в редакторе опрос « только опрос , без ответов » .</text>
+        <propbank>
+          <rel relloc="4">оказалось</rel>
+          <arg type="ARG1" start="6" end="27">что я случайно ( хотя , вроде , все проверил ) нажал в редакторе опрос « только опрос , без ответов »</arg>
+        </propbank>
+      </example>
+    </roleset>
+    <roleset id="оказаться.02" name="turn up, appear, be found">
+      <note>оказаться.02 NOTES: Roleset based on English verb frame turn_up.15</note>
+      <note>Corresponds to FrameBank senses 1, 3</note>
+      <aliases>
+        <alias framenet="" pos="n" verbnet="">оказываться</alias>
       </aliases>
       <roles>
         <role descr="agent, causer of appearance" f="PAG" n="0"/>
-		<role descr="thing appearing" f="PPT" n="1"/>
-		<role descr="where appearing" f="LOC" n="2"/>
+        <role descr="thing appearing" f="PPT" n="1"/>
+        <role descr="where appearing" f="LOC" n="2"/>
       </roles>
-	  <note>Russian Arg2-LOC has no match in English frame</note>
-	  <example name="arg 1 and arg2" src="Russian National Corpus[Рецепты национальных кухонь: Франция (2000-2005)]" type="">
-        <text>Решив в ожидании парохода устроить прощальный обед, Дюма оказался в затруднении: “Сначала меня занимал вопрос, как сделать бульон без говядины-её у меня не было.</text>
-        <arg f="" n="1">Дюма</arg>
-		<rel f="">оказался</rel>
-		<arg f="" n="2">в затруднении</arg>
-		</example>
-	<example name="" src="Russian National Corpus[Рецепты национальных кухонь: Франция (2000-2005)]" type="">
-        <text>А потом нагрянул кризис, и я оказалась в школе, так что с английский у меня на очень хорошем уровне, иногда во сне на нем говорю.</text>
-        <arg f="dis" n="m">и</arg>
-        <arg f="" n="1">я</arg>
-		<rel f="">оказался</rel>
-		<arg f="" n="2">в школе</arg>
-	  </example>
-	</roleset>
+      <note>Russian Arg2-LOC has no match in English frame</note>
+      <example name="arg 1 and arg2" src="Russian National Corpus[Рецепты национальных кухонь: Франция (2000-2005)]">
+        <text>Решив в ожидании парохода устроить прощальный обед , Дюма оказался в затруднении : “ Сначала меня занимал вопрос , как сделать бульон без говядины - её у меня не было .</text>
+        <propbank>
+          <arg type="ARG1" start="8" end="8">Дюма</arg>
+          <rel relloc="9">оказался</rel>
+          <arg type="ARG2" start="10" end="11">в затруднении</arg>
+        </propbank>
+      </example>
+      <example name="" src="Russian National Corpus[Рецепты национальных кухонь: Франция (2000-2005)]">
+        <text>А потом нагрянул кризис , и я оказалась в школе , так что с английский у меня на очень хорошем уровне , иногда во сне на нем говорю .</text>
+        <propbank>
+          <arg type="ARGM-DIS" start="5" end="5">и</arg>
+          <arg type="ARG1" start="6" end="6">я</arg>
+          <rel relloc="7">оказалась</rel>
+          <arg type="ARG2" start="8" end="9">в школе</arg>
+        </propbank>
+      </example>
+    </roleset>
   </predicate>
-  
   <predicate lemma="оказать">
-	<roleset id="оказать.03" name="show, demonstrate [archaic; formal]">
-	      <aliases>
-		<alias framenet="" pos="n" verbnet="">оказывать</alias>
+    <roleset id="оказать.03" name="show, demonstrate [archaic; formal]">
+      <aliases>
+        <alias framenet="" pos="n" verbnet="">оказывать</alias>
       </aliases>
-	  <note>оказать.03 NOTES: Roleset based on English verb frame demonstrate.01 </note>
-	  <roles>
-		<role descr="demonstrator" f="PAG" n="0"/>
-		<role descr="thing demonstrated" f="PPT" n="1"/>
-		<role descr="watcher" f="GOL" n="2"/>
+      <note>оказать.03 NOTES: Roleset based on English verb frame demonstrate.01 </note>
+      <roles>
+        <role descr="demonstrator" f="PAG" n="0"/>
+        <role descr="thing demonstrated" f="PPT" n="1"/>
+        <role descr="watcher" f="GOL" n="2"/>
       </roles>
-	  <example name="example" src="https://ru.wiktionary.org/wiki/оказывать" type="">
-        <text>Старшим должны оказывать уважение.</text>
-		<arg f="" n="2">Старшим</arg>
-		<rel f="">оказывать</rel>
-		<arg f="" n="1">уважение</arg>
-	  </example>
-	</roleset>
+      <example name="example" src="https://ru.wiktionary.org/wiki/оказывать">
+        <text>Старшим должны оказывать уважение .</text>
+        <propbank>
+          <arg type="ARG2" start="0" end="0">Старшим</arg>
+          <rel relloc="2">оказывать</rel>
+          <arg type="ARG1" start="3" end="3">уважение</arg>
+        </propbank>
+      </example>
+    </roleset>
   </predicate>
 </frameset>
-	

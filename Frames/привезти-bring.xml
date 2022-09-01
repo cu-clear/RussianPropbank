@@ -1,40 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="привезти">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="привезти.01" name="bring by vehicle in one-way directed motion, deliver">
       <aliases>
-	  <alias framenet="" pos="v" verbnet="">привозить</alias>
+        <alias framenet="" pos="v" verbnet="">привозить</alias>
       </aliases>
-	  <note>NO PERFECTIVE</note>
-	  <note>привезти.01 NOTES: Roleset based on English verb frame bring.01</note>
-	  <note>Corresponds to FrameBank senses 6</note>
+      <note>NO PERFECTIVE</note>
+      <note>привезти.01 NOTES: Roleset based on English verb frame bring.01</note>
+      <note>Corresponds to FrameBank senses 6</note>
       <roles>
         <role descr="bringer" f="PAG" n="0"/>
-		<role descr="thing brought " f="PPT" n="1"/>
-		<role descr="benefactive or destination brought-for, brought-to" f="GOL" n="2"/>
-		<role descr="attribute, state after bringing, secondary action " f="PRD" n="3"/>
-		<role descr="ablative, brought-from" f="DIR" n="4"/>
+        <role descr="thing brought " f="PPT" n="1"/>
+        <role descr="benefactive or destination brought-for, brought-to" f="GOL" n="2"/>
+        <role descr="attribute, state after bringing, secondary action " f="PRD" n="3"/>
+        <role descr="ablative, brought-from" f="DIR" n="4"/>
       </roles>
-      <example name="" src="Russian National Corpus[Николай Щербатов-Коломин. Березовое чудо // «Народное творчество», 2004]" type="">
-        <text>Из Нижегородской области я привез зарисовки различных вариантов глухой резьбы, из Костромской ― прорезных наличников, из Ярославской ― прорезных кокошников церквей, из Владимирской ― каменной резьбы соборов.</text>
-		<rel f="">привез</rel>
-		<arg f="" n="0">я</arg>
-		<arg f="" n="1">зарисовки различных вариантов глухой резьбы</arg>
-		<arg f="" n="4">Из Нижегородской области</arg>
+      <example name="" src="Russian National Corpus[Николай Щербатов-Коломин. Березовое чудо // «Народное творчество», 2004]">
+        <text>Из Нижегородской области я привез зарисовки различных вариантов глухой резьбы , из Костромской ― прорезных наличников , из Ярославской ― прорезных кокошников церквей , из Владимирской ― каменной резьбы соборов .</text>
+        <propbank>
+          <rel relloc="4">привез</rel>
+          <arg type="ARG0" start="3" end="3">я</arg>
+          <arg type="ARG1" start="5" end="9">зарисовки различных вариантов глухой резьбы</arg>
+          <arg type="ARG4" start="0" end="2">Из Нижегородской области</arg>
+        </propbank>
       </example>
-	  <example name="" src="Russian National Corpus[ Коллекция анекдотов: Вовочка (1970-2000)]" type="">
-        <text>Дети, меня долго не будет. Что вам привезти в подарок? Мальчика или девочку? Вовочка берет сестренку, уходит на совещание в комнату.</text>
-		<arg f="" n="1">в подарок</arg>
-		<arg f="" n="2">вам</arg>
-        <rel f="">привезти</rel>
+      <example name="" src="Russian National Corpus[ Коллекция анекдотов: Вовочка (1970-2000)]">
+        <text>Дети , меня долго не будет . Что вам привезти в подарок ? Мальчика или девочку ? Вовочка берет сестренку , уходит на совещание в комнату .</text>
+        <propbank>
+          <arg type="ARG1" start="10" end="11">в подарок</arg>
+          <arg type="ARG2" start="8" end="8">вам</arg>
+          <rel relloc="9">привезти</rel>
+        </propbank>
       </example>
-	    <example name="" src="Russian National Corpus[Владимир Маккавеев. Дух «гоночной долины» // «Формула», 2002.03.15]" type="">
-        <text>Еще в 1970 году в знак дружбы и расположения к Энцо Феррари владельцы трассы присвоили ей имя старшего сына Коммендаторе Дино (вообще-то его сына звали Альфредо, но друзья, называя его Альфредино, потом и вовсе сократили это уменьшительное имя до Дино), умершего в 1956 году от лейкемии в возрасте 24 лет. Феррари же, со своей стороны, как спортивный директор FOCA сделал все от него зависящее, чтобы привезти в Имолу этап чемпионата мира</text>
-		<arg f="" n="1">этап чемпионата мира</arg>
-		<arg f="" n="2">в Имолу</arg>
-        <rel f="">привезти</rel>
+      <example name="" src="Russian National Corpus[Владимир Маккавеев. Дух «гоночной долины» // «Формула», 2002.03.15]">
+        <text>Еще в 1970 году в знак дружбы и расположения к Энцо Феррари владельцы трассы присвоили ей имя старшего сына Коммендаторе Дино ( вообще - то его сына звали Альфредо , но друзья , называя его Альфредино , потом и вовсе сократили это уменьшительное имя до Дино ) , умершего в 1956 году от лейкемии в возрасте 24 лет . Феррари же , со своей стороны , как спортивный директор FOCA сделал все от него зависящее , чтобы привезти в Имолу этап чемпионата мира</text>
+        <propbank>
+          <arg type="ARG1" start="80" end="82">этап чемпионата мира</arg>
+          <arg type="ARG2" start="78" end="79">в Имолу</arg>
+          <rel relloc="77">привезти</rel>
+        </propbank>
       </example>
     </roleset>
-	</predicate>
-	</frameset>
+  </predicate>
+</frameset>

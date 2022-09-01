@@ -1,90 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="вызвать">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="вызвать.01" name="call, call out, summon">
-       <aliases>
-		<alias framenet="" pos="v" verbnet="">вызывать</alias>
-		<alias framenet="" pos="v" verbnet="">вызваться</alias>
-		<alias framenet="" pos="v" verbnet="">вызываться</alias>
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">вызывать</alias>
+        <alias framenet="" pos="v" verbnet="">вызваться</alias>
+        <alias framenet="" pos="v" verbnet="">вызываться</alias>
       </aliases>
-	  <note>вызвать.01 NOTES: Roleset based on English PB frame вызываться.01</note>
-	  <note>Corresponds to FrameBank senses 1-3</note>
+      <note>вызвать.01 NOTES: Roleset based on English PB frame вызываться.01</note>
+      <note>Corresponds to FrameBank senses 1-3</note>
       <roles>
         <role descr="inviter" f="PAG" n="0"/>
-		<role descr="invited" f="PPT" n="1"/>
-		<role descr="invited-to" f="LOC" n="2"/>
+        <role descr="invited" f="PPT" n="1"/>
+        <role descr="invited-to" f="LOC" n="2"/>
       </roles>
-      <example name="call the doctor" src="" type="">
-        <text>Мы вызвали врача.</text>
-		<arg f="" n="0">Мы</arg>
-		<rel f="">вызвали</rel>
-		<arg f="" n="1">врача</arg>
+      <example name="call the doctor" src="">
+        <text>Мы вызвали врача .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Мы</arg>
+          <rel relloc="1">вызвали</rel>
+          <arg type="ARG1" start="2" end="2">врача</arg>
+        </propbank>
       </example>
-	  <example name="all args" src="FrameBank" type="">
+      <example name="all args" src="FrameBank">
         <text>Преподаватель вызвал двух студентов к доске</text>
-		<arg f="" n="0">Преподаватель</arg>
-		<rel f="">вызвал</rel>
-		<arg f="" n="1">двух студентов</arg>
-		<arg f="" n="2">к доске</arg>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Преподаватель</arg>
+          <rel relloc="1">вызвал</rel>
+          <arg type="ARG1" start="2" end="3">двух студентов</arg>
+          <arg type="ARG2" start="4" end="5">к доске</arg>
+        </propbank>
       </example>
-	   <example name="figurative" src="" type="">
-        <text>Вызвать картины лета в памяти.</text>
-        <rel f="">Вызвать</rel>
-		<arg f="" n="1">картины лета</arg>
-		<arg f="loc" n="m">в памяти</arg>
+      <example name="figurative" src="">
+        <text>Вызвать картины лета в памяти .</text>
+        <propbank>
+          <rel relloc="0">Вызвать</rel>
+          <arg type="ARG1" start="1" end="2">картины лета</arg>
+          <arg type="ARGM-LOC" start="3" end="4">в памяти</arg>
+        </propbank>
       </example>
-	   <example name="challenge" src="framebank.ru" type="">
+      <example name="challenge" src="framebank.ru">
         <text>Он вызывает меня бороться</text>
-		<arg f="" n="0">Он</arg>
-        <rel f="">вызывает</rel>
-		<arg f="" n="1">меня</arg>
-		<arg f="" n="2">бороться</arg>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Он</arg>
+          <rel relloc="1">вызывает</rel>
+          <arg type="ARG1" start="2" end="2">меня</arg>
+          <arg type="ARG2" start="3" end="3">бороться</arg>
+        </propbank>
       </example>
-	  <example name="get a smile" src="" type="">
+      <example name="get a smile" src="">
         <text>Его слова вызвали у меня улыбку</text>
-		<arg f="" n="0">Его слова</arg>
-		<rel f="">вызвали</rel>
-		<arg f="dir" n="m">у меня</arg>
-		<arg f="" n="1">улыбку</arg>
-	  </example>
+        <propbank>
+          <arg type="ARG0" start="0" end="1">Его слова</arg>
+          <rel relloc="2">вызвали</rel>
+          <arg type="ARGM-DIR" start="3" end="4">у меня</arg>
+          <arg type="ARG1" start="5" end="5">улыбку</arg>
+        </propbank>
+      </example>
     </roleset>
- 
-	<roleset id="вызвать.02" name="cause to, cause a change">
+    <roleset id="вызвать.02" name="cause to, cause a change">
       <aliases>
       </aliases>
-	  <note>вызвать.02 NOTES: Roleset based on English PB verb frame cause.01</note>
+      <note>вызвать.02 NOTES: Roleset based on English PB verb frame cause.01</note>
       <roles>
         <role descr="forcer, causer" f="CAU" n="0"/>
-		<role descr="impelled action, event" f="PPT" n="1"/>
+        <role descr="impelled action, event" f="PPT" n="1"/>
       </roles>
-	  <example name="" src="lingvolive" type="">
-        <text>вызвать предубеждение присяжных в отношении подсудимого.</text>
-		<rel f="">вызвать</rel>
-		<arg f="" n="1">предубеждение присяжных в отношении подсудимого</arg>
-	  </example>
-	</roleset>
+      <example name="" src="lingvolive">
+        <text>вызвать предубеждение присяжных в отношении подсудимого .</text>
+        <propbank>
+          <rel relloc="0">вызвать</rel>
+          <arg type="ARG1" start="1" end="5">предубеждение присяжных в отношении подсудимого</arg>
+        </propbank>
+      </example>
+    </roleset>
   </predicate>
-	
   <predicate lemma="вызваться">
-	<roleset id="вызваться.03" name="to volunteer, to offer">
+    <roleset id="вызваться.03" name="to volunteer, to offer">
       <aliases>
-	   <alias framenet="" pos="v" verbnet="">вызываться</alias>
+        <alias framenet="" pos="v" verbnet="">вызываться</alias>
       </aliases>
-	  <note>вызваться.03 NOTES: Roleset based on English PB verb frame volunteer.01</note>
+      <note>вызваться.03 NOTES: Roleset based on English PB verb frame volunteer.01</note>
       <roles>
         <role descr="entity volunteering, voluntary agent" f="PAG" n="0"/>
-		<role descr="thing offered" f="PPT" n="1"/>
-		<role descr="recipient" f="GOL" n="2"/>
+        <role descr="thing offered" f="PPT" n="1"/>
+        <role descr="recipient" f="GOL" n="2"/>
       </roles>
-	  <example name="perfective" src="О. М. Сомов, «Юродивый», 1827 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Лекарь охотно вызвался навещать его, хотя и не предвидел никакой надежды его излечить.</text>
-		<arg f="" n="0">Лекарь</arg>
-		<arg f="adv" n="m">охотно</arg>
-		<rel f="">вызвался</rel>
-		<arg f="" n="1">навещать его</arg>
-		<arg f="adv" n="m">хотя и не предвидел никакой надежды его излечить</arg>
-	  </example>
-	</roleset>
+      <example name="perfective" src="О. М. Сомов, «Юродивый», 1827 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+        <text>Лекарь охотно вызвался навещать его , хотя и не предвидел никакой надежды его излечить .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Лекарь</arg>
+          <arg type="ARGM-ADV" start="1" end="1">охотно</arg>
+          <rel relloc="2">вызвался</rel>
+          <arg type="ARG1" start="3" end="4">навещать его</arg>
+          <arg type="ARGM-ADV" start="6" end="13">хотя и не предвидел никакой надежды его излечить</arg>
+        </propbank>
+      </example>
+    </roleset>
   </predicate>
 </frameset>

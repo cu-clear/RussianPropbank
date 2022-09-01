@@ -1,184 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="идти">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="идти.01" name="motion, progress, proceed, change, extend">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">идущий</alias>
-		<alias framenet="" pos="j" verbnet="">шедший</alias>
-		<alias framenet="" pos="v" verbnet="">пойти</alias>
-		<alias framenet="" pos="j" verbnet="">пошедший</alias>
+        <alias framenet="" pos="j" verbnet="">идущий</alias>
+        <alias framenet="" pos="j" verbnet="">шедший</alias>
+        <alias framenet="" pos="v" verbnet="">пойти</alias>
+        <alias framenet="" pos="j" verbnet="">пошедший</alias>
       </aliases>
       <note>идти.01 NOTES: based on go.01</note>
-	  <note>Corresponds to Framebank sense 5,6,9,13,17,18,19,20,22,24</note>
+      <note>Corresponds to Framebank sense 5,6,9,13,17,18,19,20,22,24</note>
       <roles>
         <role descr="entity in motion/goer" f="PPT" n="1">
         </role>
         <role descr="extent" f="LOC" n="2">
         </role>
         <role descr="start point" f="DIR" n="3"/>
-		<role descr="end point, end state of arg1" f="GOL" n="4"/>
+        <role descr="end point, end state of arg1" f="GOL" n="4"/>
       </roles>
-      <example name="arg1, 4" src="Russian National Corpus. [С. В. Лавров. Статья в газетах «Коммерсант» и «Уолл-стрит джорнал» // «Дипломатический вестник», 2004]" type="">
+      <example name="arg1, 4" src="Russian National Corpus. [С. В. Лавров. Статья в газетах «Коммерсант» и «Уолл-стрит джорнал» // «Дипломатический вестник», 2004]">
         <text>Уже не впервые за последние полтора десятилетия мировое общественное мнение задаётся вопросом , куда идёт Россия .</text>
-        <arg f="" n="4">куда</arg>
-        <rel f="">идёт</rel> 
-		<arg f="" n="1">Россия</arg>
+        <propbank>
+          <arg type="ARG4" start="13" end="13">куда</arg>
+          <rel relloc="14">идёт</rel>
+          <arg type="ARG1" start="15" end="15">Россия</arg>
+        </propbank>
       </example>
-	  <example name="arg1, 4" src="Russian National Corpus. [В. В. Путин. Выступление встречи с И.А. Каримовым // «Дипломатический вестник», 2004]" type="">
-        <text>а сейчас счёт уже идёт на миллиарды долларов.</text>
-        <arg f="dis" n="m">а</arg>
-		<arg f="tmp" n="m">сейчас</arg>
-		<arg f="" n="1">счёт</arg>
-		<arg f="adv" n="m">уже</arg>
-        <rel f="">идёт</rel> 
-		<arg f="" n="4">на миллиарды долларов</arg>
+      <example name="arg1, 4" src="Russian National Corpus. [В. В. Путин. Выступление встречи с И.А. Каримовым // «Дипломатический вестник», 2004]">
+        <text>а сейчас счёт уже идёт на миллиарды долларов .</text>
+        <propbank>
+          <arg type="ARGM-DIS" start="0" end="0">а</arg>
+          <arg type="ARGM-TMP" start="1" end="1">сейчас</arg>
+          <arg type="ARG1" start="2" end="2">счёт</arg>
+          <arg type="ARGM-ADV" start="3" end="3">уже</arg>
+          <rel relloc="4">идёт</rel>
+          <arg type="ARG4" start="5" end="7">на миллиарды долларов</arg>
+        </propbank>
       </example>
-	  <example name="arg2 in instrumental" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=11908" type="">
-        <text>А бизнес-элита понимает , что это эпизод , и мы по-прежнему идём верной дорогой ?</text>
-		<arg f="" n="0">мы</arg>
-		<rel f="">идём</rel>
-		<arg f="" n="1">верной дорогой</arg>
-	    </example>
-    </roleset>
-	
-	<roleset id="идти.02" name="self-directed motion, physical movement">
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">идущий</alias>
-		<alias framenet="" pos="j" verbnet="">шедший</alias>
-		<alias framenet="" pos="v" verbnet="">пойти</alias>
-		<alias framenet="" pos="j" verbnet="">пошедший</alias>
-      </aliases>
-      <note>идти.01 NOTES: based on go.02 but has path as argument</note>
-	  <note>Corresponds to Framebank sense 1,2,3,4,7,8,14,15,16</note>
-      <roles>
-        <role descr="goer" f="PAG" n="0"/>
-        <role descr="path" f="LOC" n="1"/>
-        <role descr="start point" f="DIR" n="2"/>
-        <role descr="destination" f="GOL" n="3"/>
-      </roles>
-      <example name="arg0" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3886" type="">
-        <text>Я иду , как мамонт .</text>
-        <arg f="" n="0">Я</arg>
-        <rel f="">иду</rel> 
-        <arg f="mnr" n="m">как мамонт</arg>
-      </example>
-	  <example name="arg0 and arg1" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3887" type="">
-        <text>если он шёл по улице и где-то раздавалась музыка, он должен был непременно прислушаться и объявить: "Ага, вот и товарищ Бах!"</text>
-        <arg f="dis" n="m">если</arg>
-		<arg f="" n="0">он</arg>
-		<rel f="">шёл</rel>
-		<arg f="" n="1">по улице</arg>
-      </example>>
-	  <example name="inanimate goer" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3895" type="">
-        <text>В девять тридцать , -- сказала моя жена, -- идёт первый автобус .</text>
-		<arg f="tmp" n="m">В девять тридцать</arg>
-		<rel f="">идёт</rel>
-		<arg f="" n="0">первый автобус</arg>
+      <example name="arg2 in instrumental" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=11908">
+        <text>А бизнес - элита понимает , что это эпизод , и мы по - прежнему идём верной дорогой ?</text>
+        <propbank>
+          <arg type="ARG0" start="11" end="11">мы</arg>
+          <rel relloc="15">идём</rel>
+          <arg type="ARG1" start="16" end="17">верной дорогой</arg>
+        </propbank>
       </example>
     </roleset>
-    
+    <roleset id="идти.02" name="self-directed motion, physical movement"><aliases><alias framenet="" pos="j" verbnet="">идущий</alias><alias framenet="" pos="j" verbnet="">шедший</alias><alias framenet="" pos="v" verbnet="">пойти</alias><alias framenet="" pos="j" verbnet="">пошедший</alias></aliases><note>идти.01 NOTES: based on go.02 but has path as argument</note><note>Corresponds to Framebank sense 1,2,3,4,7,8,14,15,16</note><roles><role descr="goer" f="PAG" n="0"/><role descr="path" f="LOC" n="1"/><role descr="start point" f="DIR" n="2"/><role descr="destination" f="GOL" n="3"/></roles><example name="arg0" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3886"><text>Я иду , как мамонт .</text><propbank><arg type="ARG0" start="0" end="0">Я</arg><rel relloc="1">иду</rel><arg type="ARGM-MNR" start="3" end="4">как мамонт</arg></propbank></example><example name="arg0 and arg1" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3887"><text>если он шёл по улице и где - то раздавалась музыка , он должен был непременно прислушаться и объявить : " Ага , вот и товарищ Бах ! "</text><propbank><arg type="ARGM-DIS" start="0" end="0">если</arg><arg type="ARG0" start="1" end="1">он</arg><rel relloc="2">шёл</rel><arg type="ARG1" start="3" end="4">по улице</arg></propbank></example>&gt;
+	  <example name="inanimate goer" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3895"><text>В девять тридцать , -- сказала моя жена , -- идёт первый автобус .</text><propbank><arg type="ARGM-TMP" start="0" end="2">В девять тридцать</arg><rel relloc="10">идёт</rel><arg type="ARG0" start="11" end="12">первый автобус</arg></propbank></example>
+    </roleset>
     <roleset id="идти.03" name="be happening">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">идущий</alias>
-		<alias framenet="" pos="j" verbnet="">шедший</alias>
+        <alias framenet="" pos="j" verbnet="">идущий</alias>
+        <alias framenet="" pos="j" verbnet="">шедший</alias>
       </aliases>
-	  <note>NOTES: based on go_on.15</note>
-	  <note>Corresponds to Framebank sense 5,21</note>
+      <note>NOTES: based on go_on.15</note>
+      <note>Corresponds to Framebank sense 5,21</note>
       <roles>
         <role descr="thing/entity continuing/occuring" f="PAG" n="1"/>
       </roles>
-      <example name="weather event" src="" type="">
+      <example name="weather event" src="">
         <text>Дождь идет .</text>
-        <arg f="" n="1">Дождь</arg>
-		<rel f="">идет</rel>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">Дождь</arg>
+          <rel relloc="1">идет</rel>
+        </propbank>
       </example>
-	  <example name="change of understanding" src="" type="">
+      <example name="change of understanding" src="">
         <text>Возможно идет подмена понятий : следовать стилю и слепо его копировать ?</text>
-		<arg f="mod" n="m">Возможно</arg>
-		<rel f="">идет</rel>
-		<arg f="" n="1">подмена понятий</arg>
+        <propbank>
+          <arg type="ARGM-MOD" start="0" end="0">Возможно</arg>
+          <rel relloc="1">идет</rel>
+          <arg type="ARG1" start="2" end="3">подмена понятий</arg>
+        </propbank>
       </example>
     </roleset>
-    
     <roleset id="идти.04" name="goes well with, fit, belong">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">идущий</alias>
-		<alias framenet="" pos="j" verbnet="">шедший</alias>
+        <alias framenet="" pos="j" verbnet="">идущий</alias>
+        <alias framenet="" pos="j" verbnet="">шедший</alias>
       </aliases>
       <note>идти.04 NOTES: same as suit.01</note>
-	  <note>Corresponds to Framebank sense 23</note>
-	  
+      <note>Corresponds to Framebank sense 23</note>
       <roles>
         <role descr="suitable thing" f="PPT" n="1"/>
         <role descr="suitable to/for" f="GOL" n="2"/>
       </roles>
-      <example name="ARG0 and ARG2" src="" type="">
-        <text>Очень странной показалась мысль о том , что выбрать определенный стиль который идет вам больше всего и совпадает с вашим внутренним представлением о себе - оказывается плохо </text>
-        <arg f="" n="1">который</arg>
-        <rel f="">идет</rel>
-		<arg f="" n="2">вам</arg>
-		<arg f="ext" n="m">больше всего</arg>
+      <example name="ARG0 and ARG2" src="">
+        <text>Очень странной показалась мысль о том , что выбрать определенный стиль который идет вам больше всего и совпадает с вашим внутренним представлением о себе - оказывается плохо</text>
+        <propbank>
+          <arg type="ARG1" start="11" end="11">который</arg>
+          <rel relloc="12">идет</rel>
+          <arg type="ARG2" start="13" end="13">вам</arg>
+          <arg type="ARGM-EXT" start="14" end="15">больше всего</arg>
+        </propbank>
       </example>
     </roleset>
-	
-	<roleset id="идти.05" name="belong, benefactive">
+    <roleset id="идти.05" name="belong, benefactive">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">идущий</alias>
-		<alias framenet="" pos="j" verbnet="">шедший</alias>
-		<alias framenet="" pos="v" verbnet="">пойти</alias>
-		<alias framenet="" pos="j" verbnet="">пошедший</alias>
+        <alias framenet="" pos="j" verbnet="">идущий</alias>
+        <alias framenet="" pos="j" verbnet="">шедший</alias>
+        <alias framenet="" pos="v" verbnet="">пойти</alias>
+        <alias framenet="" pos="j" verbnet="">пошедший</alias>
       </aliases>
       <note>идти.05 NOTES: same as go.10</note>
-	  <note>Corresponds to Framebank sense 10,11,12,26,27</note>
+      <note>Corresponds to Framebank sense 10,11,12,26,27</note>
       <roles>
         <role descr="thing going" f="PPT" n="1"/>
-		<role descr="receiver" f="GOL" n="2"/>
+        <role descr="receiver" f="GOL" n="2"/>
       </roles>
-      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=идти" type="">
-        <text>Картофель идет в ботву.</text>
-        <arg f="" n="1">Картофель</arg>
-        <rel f="">идет</rel>
-		<arg f="" n="2">в ботву</arg>
+      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=идти">
+        <text>Картофель идет в ботву .</text>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">Картофель</arg>
+          <rel relloc="1">идет</rel>
+          <arg type="ARG2" start="2" end="3">в ботву</arg>
+        </propbank>
       </example>
-	  <example name="goes into, goes with, belongs to" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=3912" type="">
-        <text>Туда же, в отбросы , шли овощи , гниющие на полях , на складах .</text>
-        <arg f="" n="2">Туда же, в отбросы ,</arg>
-        <rel f="">шли</rel>
-		<arg f="" n="1">овощи</arg>
+      <example name="goes into, goes with, belongs to" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=3912">
+        <text>Туда же , в отбросы , шли овощи , гниющие на полях , на складах .</text>
+        <propbank>
+          <arg type="ARG2" start="0" end="4">Туда же , в отбросы</arg>
+          <rel relloc="6">шли</rel>
+          <arg type="ARG1" start="7" end="7">овощи</arg>
+        </propbank>
       </example>
-	  <example name="goes for, benefactive" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=3913" type="">
+      <example name="goes for, benefactive" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=3913">
         <text>Подавляющая часть производимой в ЛПХ продукции шла на питание .</text>
-        <arg f="" n="1">Подавляющая часть производимой в ЛПХ продукции</arg>
-        <rel f="">шла</rel>
-		<arg f="" n="2">на питание</arg>
+        <propbank>
+          <arg type="ARG1" start="0" end="5">Подавляющая часть производимой в ЛПХ продукции</arg>
+          <rel relloc="6">шла</rel>
+          <arg type="ARG2" start="7" end="8">на питание</arg>
+        </propbank>
       </example>
-	  <example name="goes for, benefactive" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=14218" type="">
-        <text>Всё идёт в ход , чтобы вырваться на волю, то есть сдать предмет на тройку и снять с себя обвинение. </text>
-        <arg f="" n="1">Всё</arg>
-        <rel f="">идёт</rel>
-		<arg f="" n="2">в ход</arg>
+      <example name="goes for, benefactive" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=14218">
+        <text>Всё идёт в ход , чтобы вырваться на волю , то есть сдать предмет на тройку и снять с себя обвинение .</text>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">Всё</arg>
+          <rel relloc="1">идёт</rel>
+          <arg type="ARG2" start="2" end="3">в ход</arg>
+        </propbank>
       </example>
     </roleset>
-	
-	<roleset id="идти.06" name="talk about, be the topic or focus">
+    <roleset id="идти.06" name="talk about, be the topic or focus">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">идущий</alias>
-		<alias framenet="" pos="j" verbnet="">шедший</alias>
+        <alias framenet="" pos="j" verbnet="">идущий</alias>
+        <alias framenet="" pos="j" verbnet="">шедший</alias>
       </aliases>
       <note>идти.05 NOTES: same as be.01</note>
-	  <note>ARG1 is usually "речь"</note>
-	  <note>Corresponds to Framebank sense 24</note>
+      <note>ARG1 is usually "речь"</note>
+      <note>Corresponds to Framebank sense 24</note>
       <roles>
         <role descr="talk, speech, conversation" f="PPT" n="1"/>
-		<role descr="topic" f="PRD" n="2"/>
+        <role descr="topic" f="PRD" n="2"/>
       </roles>
-      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=11906" type="">
-        <text>Речь идёт прежде всего о своевременной выплате заработной платы . </text>
-        <arg f="" n="1">Речь</arg>
-        <rel f="">идёт</rel>
-		<arg f="adv" n="m">прежде всего</arg>
-		<arg f="" n="2">о своевременной выплате заработной платы</arg>
+      <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=идти&amp;cxid=11906">
+        <text>Речь идёт прежде всего о своевременной выплате заработной платы .</text>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">Речь</arg>
+          <rel relloc="1">идёт</rel>
+          <arg type="ARGM-ADV" start="2" end="3">прежде всего</arg>
+          <arg type="ARG2" start="4" end="8">о своевременной выплате заработной платы</arg>
+        </propbank>
       </example>
     </roleset>
   </predicate>

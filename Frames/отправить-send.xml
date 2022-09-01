@@ -1,116 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="отправить">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="отправить.01" name="send, transfer">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">отправлять</alias>
-		<alias framenet="" pos="v" verbnet="">отправиться</alias>
-		<alias framenet="" pos="v" verbnet="">отправляться</alias>
+        <alias framenet="" pos="v" verbnet="">отправлять</alias>
+        <alias framenet="" pos="v" verbnet="">отправиться</alias>
+        <alias framenet="" pos="v" verbnet="">отправляться</alias>
       </aliases>
-	  <note>отправить.01 NOTES: Roleset based on English verb frame send.01</note>
-	  <note>Corresponds to FrameBank senses 1,2,3,4</note>
+      <note>отправить.01 NOTES: Roleset based on English verb frame send.01</note>
+      <note>Corresponds to FrameBank senses 1,2,3,4</note>
       <roles>
         <role descr="sender" f="PAG" n="0"/>
-		<role descr="sent" f="PPT" n="1"/>
-		<role descr="sent-to, destination" f="GOL" n="2"/>
+        <role descr="sent" f="PPT" n="1"/>
+        <role descr="sent-to, destination" f="GOL" n="2"/>
       </roles>
-      <example name="shipped" src="А. П. Чехов, «Драма на охоте»" type="">
-        <text>Она, ещё не бывши его женой, собственными глазами видела, как он отправлял в город возы битых кур и гусей.</text>
-        <arg f="" n="0">он</arg>
-		<rel f="">отправлял</rel>
-		<arg f="" n="2">в город</arg>
-		<arg f="" n="1">возы битых кур и гусей</arg>
+      <example name="shipped" src="А. П. Чехов, «Драма на охоте»">
+        <text>Она , ещё не бывши его женой , собственными глазами видела , как он отправлял в город возы битых кур и гусей .</text>
+        <propbank>
+          <arg type="ARG0" start="13" end="13">он</arg>
+          <rel relloc="14">отправлял</rel>
+          <arg type="ARG2" start="15" end="16">в город</arg>
+          <arg type="ARG1" start="17" end="21">возы битых кур и гусей</arg>
+        </propbank>
       </example>
-	  <example name="put away" src="Ф. М. Достоевский, «Бесы»" type="">
-        <text>Он считал каждый кусок бифштекса, который тот отправлял в свой рот, ненавидел его за то, как он разевает его, как он жуёт, как он смакуя обсасывает кусок пожирнее, ненавидел самый бифштекс.</text>
-		<arg f="" n="1">который</arg>
-		<arg f="" n="0">тот</arg>
-        <rel f="">отправлял</rel>
-		<arg f="" n="2">в свой рот</arg>
+      <example name="put away" src="Ф. М. Достоевский, «Бесы»">
+        <text>Он считал каждый кусок бифштекса , который тот отправлял в свой рот , ненавидел его за то , как он разевает его , как он жуёт , как он смакуя обсасывает кусок пожирнее , ненавидел самый бифштекс .</text>
+        <propbank>
+          <arg type="ARG1" start="6" end="6">который</arg>
+          <arg type="ARG0" start="7" end="7">тот</arg>
+          <rel relloc="8">отправлял</rel>
+          <arg type="ARG2" start="9" end="11">в свой рот</arg>
+        </propbank>
       </example>
-	  <example name="reflexive as passive" src="" type="Russian National Corpus [Денежные переводы мигрантов -- фактор инновационного развития мировой финансовой инфраструктуры // «Вопросы статистики», 2004]">
-        <text>Классический банковский перевод денег на счёт, открытый в другом банке, осуществляется с использованием корреспондентской сети банков, а информация о переводе отправляется по банковским телекоммуникационным каналам, таким, как SWIFT.</text>
-		<arg f="" n="1">информация о переводе</arg>
-		<rel f="">отправляется</rel>
-		<arg f="mnr" n="m">по банковским телекоммуникационным каналам, таким, как SWIFT</arg>
-	  </example>
-	  <example name="sent to" src="И. А. Гончаров, «Обрыв»" type="">
-        <text>Татьяна Марковна велела позвать Меланхолиху, ту самую бабу-лекарку, к которой отправляли дворовых и других простых людей, на вылечку.</text>
-        <arg f="gol" n="m">к которой</arg>
-		<rel f="">отправляли</rel>
-		<arg f="" n="1">дворовых и других простых людей</arg>
-		<arg f="" n="2">на вылечку</arg>
-	  </example>
-	  <example name="sent off" src="http://marker.framebank.ru/verbs_ex.php?lex=отправить" type="">
-        <text>Начальник вокзала отправляет поезд.</text>
-        <arg f="" n="0">Начальник вокзала</arg>
-		<rel f="">отправляет</rel>
-		<arg f="" n="1">поезд</arg>
-	  </example>
-	  <example name="sent away" src="http://marker.framebank.ru/verbs_ex.php?lex=отправить&amp;18726" type="">
+      <example name="reflexive as passive" src="Russian National Corpus [Денежные переводы мигрантов -- фактор инновационного развития мировой финансовой инфраструктуры // «Вопросы статистики», 2004]">
+        <text>Классический банковский перевод денег на счёт , открытый в другом банке , осуществляется с использованием корреспондентской сети банков , а информация о переводе отправляется по банковским телекоммуникационным каналам , таким , как SWIFT .</text>
+        <propbank>
+          <arg type="ARG1" start="20" end="22">информация о переводе</arg>
+          <rel relloc="23">отправляется</rel>
+          <arg type="ARGM-MNR" start="24" end="32">по банковским телекоммуникационным каналам , таким , как SWIFT</arg>
+        </propbank>
+      </example>
+      <example name="sent to" src="И. А. Гончаров, «Обрыв»">
+        <text>Татьяна Марковна велела позвать Меланхолиху , ту самую бабу - лекарку , к которой отправляли дворовых и других простых людей , на вылечку .</text>
+        <propbank>
+          <arg type="ARGM-GOL" start="12" end="13">к которой</arg>
+          <rel relloc="14">отправляли</rel>
+          <arg type="ARG1" start="15" end="19">дворовых и других простых людей</arg>
+          <arg type="ARG2" start="21" end="22">на вылечку</arg>
+        </propbank>
+      </example>
+      <example name="sent off" src="http://marker.framebank.ru/verbs_ex.php?lex=отправить">
+        <text>Начальник вокзала отправляет поезд .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="1">Начальник вокзала</arg>
+          <rel relloc="2">отправляет</rel>
+          <arg type="ARG1" start="3" end="3">поезд</arg>
+        </propbank>
+      </example>
+      <example name="sent away" src="http://marker.framebank.ru/verbs_ex.php?lex=отправить&amp;18726">
         <text>А у самих-- три машины и два шофёра , да и внучку в Англию отправили учиться .</text>
-		<arg f="" n="1">внучку</arg>
-		<arg f="gol" n="m">в Англию</arg>
-		<rel f="">отправили</rel>
-		<arg f="" n="2">учиться</arg>
-	  </example>
-	</roleset>
-	
-	<roleset id="отправить.02" name="fulfill, do">
+        <propbank>
+          <arg type="ARG1" start="11" end="11">внучку</arg>
+          <arg type="ARGM-GOL" start="12" end="13">в Англию</arg>
+          <rel relloc="14">отправили</rel>
+          <arg type="ARG2" start="15" end="15">учиться</arg>
+        </propbank>
+      </example>
+    </roleset>
+    <roleset id="отправить.02" name="fulfill, do">
       <aliases>
-	  <alias framenet="" pos="v" verbnet="">отправлять</alias>
+        <alias framenet="" pos="v" verbnet="">отправлять</alias>
       </aliases>
-	  <note>отправить.03 NOTES: Roleset based on English verb frame fulfill.01</note>
-	  <roles>
-		<role descr="fulfiller" f="PAG" n="0"/>
-		<role descr="promise, contract, unresolved issue " f="PPT" n="1"/>
-      </roles>
-	  <example name="imperfective" src="Осип Дымов, «Государства, основанные германцами» " type="">
-        <text>Бароны отправляли военную службу, защищая от внешних врагов свои священные права собственности.</text>
-		<arg f="" n="0">Бароны</arg>
-		<rel f="">отправляли</rel>
-		<arg f="" n="1">военную службу</arg>
-	  </example>
-	  <example name="performed services" src="Н. В. Гоголь, «Тарас Бульба»" type="">
-        <text>И такие поминки по Остапу отправлял он в каждом селении, пока польское правительство не увидело, что поступки Тараса были побольше, чем обыкновенное разбойничество, и тому же самому Потоцкому поручено было с пятью полками поймать непременно Тараса. </text>
-		<arg f="dis" n="m">И</arg>
-		<arg f="" n="1">такие поминки по Остапу</arg>
-		<rel f="">отправлял</rel>
-		<arg f="" n="0">он</arg>
-		<arg f="loc" n="m">в каждом селении</arg>
-	  </example>
-	</roleset>
-  </predicate>
-  
-  <predicate lemma="отправиться">
-	<roleset id="отправиться.03" name="depart, start off, begin a journey">
-	  <aliases>
-		<alias framenet="" pos="v" verbnet="">отправляться</alias>
-		<alias framenet="" pos="v" verbnet="">отправиться</alias>
-      </aliases>
-	  <note>отправиться.04 NOTES:Roleset based on English verb frame depart.01</note>
-	  <note>Corresponds to FrameBank sense 1,2,3</note>
+      <note>отправить.03 NOTES: Roleset based on English verb frame fulfill.01</note>
       <roles>
-		<role descr="entity leaving, agent" f="PAG" n="0"/>
-		<role descr="departed from" f="DIR" n="1"/>
-		<role descr="departed for, destination" f="GOL" n="2"/>
+        <role descr="fulfiller" f="PAG" n="0"/>
+        <role descr="promise, contract, unresolved issue " f="PPT" n="1"/>
       </roles>
-	  <example name="set off for" src="" type="Russian National Corpus[коллективный. Форум: Поход в цирк (2010)]">
-        <text>На днях я в компании друзей отправился в цирк!</text>
-		<arg f="tmp" n="m">На днях</arg>
-		<arg f="" n="0">я</arg>
-		<arg f="com" n="m">в компании друзей </arg>
-		<rel f="">отправился</rel>
-		<arg f="" n="2">в цирк</arg>
-	  </example>
-	    <example name="transfered" src="" type="Russian National Corpus[Денежные переводы мигрантов -- фактор инновационного развития мировой финансовой инфраструктуры // «Вопросы статистики», 2004]">
-        <text>Наибольшие объёмы переводов мигрантов отправляются ежегодно из США, Саудовской Аравии, Германии, Бельгии, Швейцарии.</text>
-		<arg f="" n="0">Наибольшие объёмы переводов мигрантов</arg>
-		<rel f="">отправляются</rel>
-		<arg f="tmp" n="m">ежегодно</arg>
-		<arg f="" n="1">из США, Саудовской Аравии, Германии, Бельгии, Швейцарии</arg>
-	  </example>
-	</roleset>
+      <example name="imperfective" src="Осип Дымов, «Государства, основанные германцами» ">
+        <text>Бароны отправляли военную службу , защищая от внешних врагов свои священные права собственности .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Бароны</arg>
+          <rel relloc="1">отправляли</rel>
+          <arg type="ARG1" start="2" end="3">военную службу</arg>
+        </propbank>
+      </example>
+      <example name="performed services" src="Н. В. Гоголь, «Тарас Бульба»">
+        <text>И такие поминки по Остапу отправлял он в каждом селении , пока польское правительство не увидело , что поступки Тараса были побольше , чем обыкновенное разбойничество , и тому же самому Потоцкому поручено было с пятью полками поймать непременно Тараса .</text>
+        <propbank>
+          <arg type="ARGM-DIS" start="0" end="0">И</arg>
+          <arg type="ARG1" start="1" end="4">такие поминки по Остапу</arg>
+          <rel relloc="5">отправлял</rel>
+          <arg type="ARG0" start="6" end="6">он</arg>
+          <arg type="ARGM-LOC" start="7" end="9">в каждом селении</arg>
+        </propbank>
+      </example>
+    </roleset>
+  </predicate>
+  <predicate lemma="отправиться">
+    <roleset id="отправиться.03" name="depart, start off, begin a journey">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">отправляться</alias>
+        <alias framenet="" pos="v" verbnet="">отправиться</alias>
+      </aliases>
+      <note>отправиться.04 NOTES:Roleset based on English verb frame depart.01</note>
+      <note>Corresponds to FrameBank sense 1,2,3</note>
+      <roles>
+        <role descr="entity leaving, agent" f="PAG" n="0"/>
+        <role descr="departed from" f="DIR" n="1"/>
+        <role descr="departed for, destination" f="GOL" n="2"/>
+      </roles>
+      <example name="set off for" src="Russian National Corpus[коллективный. Форум: Поход в цирк (2010)]">
+        <text>На днях я в компании друзей отправился в цирк !</text>
+        <propbank>
+          <arg type="ARGM-TMP" start="0" end="1">На днях</arg>
+          <arg type="ARG0" start="2" end="2">я</arg>
+          <arg type="ARGM-COM" start="3" end="5">в компании друзей</arg>
+          <rel relloc="6">отправился</rel>
+          <arg type="ARG2" start="7" end="8">в цирк</arg>
+        </propbank>
+      </example>
+      <example name="transfered" src="Russian National Corpus[Денежные переводы мигрантов -- фактор инновационного развития мировой финансовой инфраструктуры // «Вопросы статистики», 2004]">
+        <text>Наибольшие объёмы переводов мигрантов отправляются ежегодно из США , Саудовской Аравии , Германии , Бельгии , Швейцарии .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="3">Наибольшие объёмы переводов мигрантов</arg>
+          <rel relloc="4">отправляются</rel>
+          <arg type="ARGM-TMP" start="5" end="5">ежегодно</arg>
+          <arg type="ARG1" start="6" end="16">из США , Саудовской Аравии , Германии , Бельгии , Швейцарии</arg>
+        </propbank>
+      </example>
+    </roleset>
   </predicate>
 </frameset>

@@ -1,27 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="нравиться">
-  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="нравиться.01" name="please">
-      <aliases>
-        <alias framenet="" pos="j" verbnet="">нравящийся</alias>
-        <alias framenet="" pos="v" verbnet="">нравившийся</alias>
-		<alias framenet="" pos="v" verbnet="">понравиться</alias>
-		<alias framenet="" pos="j" verbnet="">понравившийся</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank sense 1</note>
-	  <note>нравиться.01 NOTES: Based on please.01.</note>
-      <roles>
-        <role descr="thing liked, pleaser" f="PAG" n="0"/>
-        <role descr="liker, entity pleased" f="PPT" n="1"/>
-	  </roles>
-      <example name="all args" src="" type="">
-        <text>Ингрид Бергман мне нравится больше чем Изабелла .</text>
-        <arg f="" n="0">Ингрид Бергман</arg>
-		<arg f="" n="1">мне</arg>
-		<rel f="">нравится</rel>
-		<arg f="ext" n="m">больше чем Изабелла</arg>
-      </example>
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+    <roleset id="нравиться.01" name="please"><aliases><alias framenet="" pos="j" verbnet="">нравящийся</alias><alias framenet="" pos="v" verbnet="">нравившийся</alias><alias framenet="" pos="v" verbnet="">понравиться</alias><alias framenet="" pos="j" verbnet="">понравившийся</alias></aliases><note>Corresponds to FrameBank sense 1</note><note>нравиться.01 NOTES: Based on please.01.</note><roles><role descr="thing liked, pleaser" f="PAG" n="0"/><role descr="liker, entity pleased" f="PPT" n="1"/></roles><example name="all args" src=""><text>Ингрид Бергман мне нравится больше чем Изабелла .</text><propbank><arg type="ARG0" start="0" end="1">Ингрид Бергман</arg><arg type="ARG1" start="2" end="2">мне</arg><rel relloc="3">нравится</rel><arg type="ARGM-EXT" start="4" end="6">больше чем Изабелла</arg></propbank></example>
 	  ADD EXAMPLE она старалась ему понравиться.
 	</roleset>
   </predicate>

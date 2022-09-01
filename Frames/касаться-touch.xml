@@ -1,58 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="касаться">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="касаться.01" name="touch, be or come into contact with, literally or metpahorically">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">коснуться</alias>
-		<alias framenet="" pos="n" verbnet="">касание</alias>
+        <alias framenet="" pos="v" verbnet="">коснуться</alias>
+        <alias framenet="" pos="n" verbnet="">касание</alias>
       </aliases>
-	  <note>Corresponds to FrameBank senses 1</note>
+      <note>Corresponds to FrameBank senses 1</note>
       <note>касаться.01 NOTES: based on English touch.01</note>
       <roles>
         <role descr="toucher" f="PAG" n="0">
         </role>
         <role descr="thing touched" f="PPT" n="1">
         </role>
-		<role descr="touched with, if separate from agent" f="MNR" n="2"/>
+        <role descr="touched with, if separate from agent" f="MNR" n="2"/>
       </roles>
-      <example name="" src="Russian National Corpus[Владимир Лукашик, Елена Иванова. Сборник задач по физике. 7-9 кл. (2003)]" type="">
-        <text>Известно, что если коснуться заземлённой металлической проволокой конца B, то палочка приобретёт положительный заряд.</text>
-        <arg f="" n="2">заземлённой металлической проволокой </arg>
-		<rel f="">коснуться</rel>
-		<arg f="" n="1">конца B</arg>
+      <example name="" src="Russian National Corpus[Владимир Лукашик, Елена Иванова. Сборник задач по физике. 7-9 кл. (2003)]">
+        <text>Известно , что если коснуться заземлённой металлической проволокой конца B , то палочка приобретёт положительный заряд .</text>
+        <propbank>
+          <arg type="ARG2" start="5" end="7">заземлённой металлической проволокой</arg>
+          <rel relloc="4">коснуться</rel>
+          <arg type="ARG1" start="8" end="9">конца B</arg>
+        </propbank>
       </example>
-	  <example name="" src="Russian National Corpus[Иосиф Гальперин. Власть «делом» занимается (2003) // «Совершенно секретно», 2003.08.09]" type="">
-        <text>Этот вопрос многим моим коллегам был ясен заранее, и потому во втором докладе, опубликованном в феврале этого года, мы лишь слегка его коснулись.</text>
-		<arg f="" n="0">его</arg>
-		<arg f="" n="1">мы</arg>
-		<arg f="mnr" n="m">лишь слегка</arg>
-        <rel f="">коснулись</rel>
-			</example>
+      <example name="" src="Russian National Corpus[Иосиф Гальперин. Власть «делом» занимается (2003) // «Совершенно секретно», 2003.08.09]">
+        <text>Этот вопрос многим моим коллегам был ясен заранее , и потому во втором докладе , опубликованном в феврале этого года , мы лишь слегка его коснулись .</text>
+        <propbank>
+          <arg type="ARG0" start="24" end="24">его</arg>
+          <arg type="ARG1" start="21" end="21">мы</arg>
+          <arg type="ARGM-MNR" start="22" end="23">лишь слегка</arg>
+          <rel relloc="25">коснулись</rel>
+        </propbank>
+      </example>
     </roleset>
-    
-	<roleset id="касаться.02" name="concern, involve, relate, matter">
+    <roleset id="касаться.02" name="concern, involve, relate, matter">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">коснуться</alias>
+        <alias framenet="" pos="v" verbnet="">коснуться</alias>
       </aliases>
-	  <note>Corresponds to FrameBank sense 3</note>
-	  <note>касаться.02 NOTES: Roleset based on English verb frame concern.02</note>
+      <note>Corresponds to FrameBank sense 3</note>
+      <note>касаться.02 NOTES: Roleset based on English verb frame concern.02</note>
       <roles>
         <role descr="entity dealing with something " f="PPT" n="0"/>
-		<role descr="thing dealt with" f="PPT" n="1"/>
+        <role descr="thing dealt with" f="PPT" n="1"/>
       </roles>
-	  <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
-        <text>Да и потом, что касается воспитателей, то они работают по двое посменно.</text>
-        <arg f="" n="0">что</arg>
-		<rel f="">касается</rel>
-		<arg f="" n="1">воспитателей</arg>
-	  </example>
-	  <example name="" src="[коллективный. Форум: Моющие средства (альтернатива) (2010)] " type="">
-        <text>Вы можете подумать, что вас это не касается и даже рассмеяться, и сказать «какая разница, сколько водорослей в водоеме»!</text>
-        <arg f="" n="0">вас</arg>
-		<arg f="" n="1">это</arg>
-		<rel f="">не касается</rel>
-	  </example>
-	  </roleset>
-	</predicate>
+      <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
+        <text>Да и потом , что касается воспитателей , то они работают по двое посменно .</text>
+        <propbank>
+          <arg type="ARG0" start="4" end="4">что</arg>
+          <rel relloc="5">касается</rel>
+          <arg type="ARG1" start="6" end="6">воспитателей</arg>
+        </propbank>
+      </example>
+      <example name="" src="[коллективный. Форум: Моющие средства (альтернатива) (2010)] ">
+        <text>Вы можете подумать , что вас это не касается и даже рассмеяться , и сказать « какая разница , сколько водорослей в водоеме » !</text>
+        <propbank>
+          <arg type="ARG0" start="5" end="5">вас</arg>
+          <arg type="ARG1" start="6" end="6">это</arg>
+          <rel relloc="7 8">не касается</rel>
+        </propbank>
+      </example>
+    </roleset>
+  </predicate>
 </frameset>

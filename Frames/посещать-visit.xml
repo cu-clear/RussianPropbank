@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="посещать">
@@ -7,19 +8,21 @@
         <alias framenet="" pos="v" verbnet="">посетить</alias>
         <alias framenet="" pos="j" verbnet="">посещающий</alias>
         <alias framenet="" pos="j" verbnet="">посетивший</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	  <note>NOTES: based on English visit.01</note>
+      </aliases>
+      <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+      <note>NOTES: based on English visit.01</note>
       <roles>
         <role descr="Visitor" f="PAT" n="0"/>
         <role descr="Visited" f="COM" n="1"/>
-	  </roles>
-      <example name="Arg1 and Arg2" src="rodgor.ru" type="">
-        <text>Следователи	посетили	родину убийцы Кадина</text>
-        <arg f="" n="0">Следователи</arg>
-        <rel f="">посетили</rel>
-	      <arg f="" n="1">родину убийцы Кадина</arg>
+      </roles>
+      <example name="Arg1 and Arg2" src="rodgor.ru">
+        <text>Следователи 	 посетили 	 родину убийцы Кадина</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Следователи</arg>
+          <rel relloc="2">посетили</rel>
+          <arg type="ARG1" start="4" end="6">родину убийцы Кадина</arg>
+        </propbank>
       </example>
-	</roleset>
+    </roleset>
   </predicate>
 </frameset>

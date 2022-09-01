@@ -1,132 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="видеть">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="видеть.01" name="see; perceive by sight, understanding, or experience">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">видывать</alias>
-		<alias framenet="" pos="v" verbnet="">увидеть</alias>
-		<alias framenet="" pos="v" verbnet="">завидеть</alias>
-		<alias framenet="" pos="v" verbnet="">видеться</alias>
-		<alias framenet="" pos="v" verbnet="">увидеться</alias>
-		<alias framenet="" pos="v" verbnet="">привидеться</alias>
+        <alias framenet="" pos="v" verbnet="">видывать</alias>
+        <alias framenet="" pos="v" verbnet="">увидеть</alias>
+        <alias framenet="" pos="v" verbnet="">завидеть</alias>
+        <alias framenet="" pos="v" verbnet="">видеться</alias>
+        <alias framenet="" pos="v" verbnet="">увидеться</alias>
+        <alias framenet="" pos="v" verbnet="">привидеться</alias>
       </aliases>
-	  <note>Corresponds to FrameBank senses 1,2,4,5,6</note>
+      <note>Corresponds to FrameBank senses 1,2,4,5,6</note>
       <note>видеть.01 NOTES: based on English see.01</note>
       <roles>
         <role descr="viewer" f="PAG" n="0">
         </role>
         <role descr="thing viewed" f="PPT" n="1">
         </role>
-		<role descr="attribute of arg1, further description; viewed as" f="PRD" n="2"/>
+        <role descr="attribute of arg1, further description; viewed as" f="PRD" n="2"/>
       </roles>
-      <example name="able to see" src="" type="">
-        <text>Совы видят ночью.</text>
-        <arg f="" n="0">Совы</arg>
-		<rel f="">видят</rel>
-		<arg f="tmp" n="m">ночью</arg>
+      <example name="able to see" src="">
+        <text>Совы видят ночью .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Совы</arg>
+          <rel relloc="1">видят</rel>
+          <arg type="ARGM-TMP" start="2" end="2">ночью</arg>
+        </propbank>
       </example>
-	  <example name="saw/watch" src="" type="">
+      <example name="saw/watch" src="">
         <text>Я никогда раньше не видел этот эпизод .</text>
-		<arg f="" n="0">Я </arg>
-		<arg f="tmp" n="m">никогда раньше</arg>
-		<arg f="neg" n="m">не</arg>
-        <rel f="">видел</rel>
-		<arg f="" n="1">этот эпизод</arg>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <arg type="ARGM-TMP" start="1" end="2">никогда раньше</arg>
+          <arg type="ARGM-NEG" start="3" end="3">не</arg>
+          <rel relloc="4">видел</rel>
+          <arg type="ARG1" start="5" end="6">этот эпизод</arg>
+        </propbank>
       </example>
-	  <example name="clausal arg1" src="В. М. Гаршин, «Красный цветок», 1883 г." type="">
-        <text>Никто не видел, как он перескочил через грядку, схватил цветок и торопливо спрятал его на своей груди под рубашкой.</text>
-		<arg f="" n="0">Никто</arg>
-		<arg f="neg" n="m">не</arg>
-        <rel f="">видел</rel>
-		<arg f="" n="1">как он перескочил через грядку, схватил цветок и торопливо спрятал его на своей груди под рубашкой</arg>
+      <example name="clausal arg1" src="В. М. Гаршин, «Красный цветок», 1883 г.">
+        <text>Никто не видел , как он перескочил через грядку , схватил цветок и торопливо спрятал его на своей груди под рубашкой .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Никто</arg>
+          <arg type="ARGM-NEG" start="1" end="1">не</arg>
+          <rel relloc="2">видел</rel>
+          <arg type="ARG1" start="4" end="20">как он перескочил через грядку , схватил цветок и торопливо спрятал его на своей груди под рубашкой</arg>
+        </propbank>
       </example>
-	  <example name="comprehend" src="Л. Н. Толстой, «Разрушение ада и восстановление его», 1902" type="">
-        <text>Он ясно видел, что власть его над людьми кончится навсегда, если только Христос не отречётся от своей проповеди.</text>
-		<arg f="" n="0">Он</arg>
-		<arg f="adv" n="m">ясно</arg>
-        <rel f="">видел</rel>
-		<arg f="" n="1">что власть его над людьми кончится навсегда, если только Христос не отречётся от своей проповеди</arg>
+      <example name="comprehend" src="Л. Н. Толстой, «Разрушение ада и восстановление его», 1902">
+        <text>Он ясно видел , что власть его над людьми кончится навсегда , если только Христос не отречётся от своей проповеди .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Он</arg>
+          <arg type="ARGM-ADV" start="1" end="1">ясно</arg>
+          <rel relloc="2">видел</rel>
+          <arg type="ARG1" start="4" end="19">что власть его над людьми кончится навсегда , если только Христос не отречётся от своей проповеди</arg>
+        </propbank>
       </example>
-	  <example name="arg 1 and 2" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=видеть&amp;cxid=1601" type="">
-        <text>Так или иначе , существует вероятность , что человечество в обозримом будущем исправит одну из фатальных ошибок , совершённых на заре времён , когда , увлёкшись игрой в слова -- неоднозначные и неточные , обманчиво лёгкие в эксплуатации ,-- оно разучилось видеть мир таким , каков он есть на самом деле , и, извините за выражение , оглохло.</text>
-        <rel f="">видеть</rel>
-		<arg f="" n="1">мир</arg>
-		<arg f="" n="2">каков он есть на самом деле</arg>
+      <example name="arg 1 and 2" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=видеть&amp;cxid=1601">
+        <text>Так или иначе , существует вероятность , что человечество в обозримом будущем исправит одну из фатальных ошибок , совершённых на заре времён , когда , увлёкшись игрой в слова -- неоднозначные и неточные , обманчиво лёгкие в эксплуатации , -- оно разучилось видеть мир таким , каков он есть на самом деле , и , извините за выражение , оглохло .</text>
+        <propbank>
+          <rel relloc="42">видеть</rel>
+          <arg type="ARG1" start="43" end="43">мир</arg>
+          <arg type="ARG2" start="46" end="51">каков он есть на самом деле</arg>
+        </propbank>
       </example>
-	  <example name="reflexive as passive" src="Марина Дяченко, Сергей Дяченко, «Привратник», 1994 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>На секунду ему увиделось, как огромная, покрытая броней рептилия сносит с петель колдунову дверь, врывается вовнутрь, прижимает старикашку к полу, освобождает Гарру.</text>
-		<arg f="tmp" n="m">На секунду</arg>
-		<arg f="" n="0">ему</arg>
-        <rel f="">увиделось</rel>
-		<arg f="" n="1">как огромная, покрытая броней рептилия сносит с петель колдунову дверь, врывается вовнутрь, прижимает старикашку к полу, освобождает Гарру.</arg>
+      <example name="reflexive as passive" src="Марина Дяченко, Сергей Дяченко, «Привратник», 1994 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+        <text>На секунду ему увиделось , как огромная , покрытая броней рептилия сносит с петель колдунову дверь , врывается вовнутрь , прижимает старикашку к полу , освобождает Гарру .</text>
+        <propbank>
+          <arg type="ARGM-TMP" start="0" end="1">На секунду</arg>
+          <arg type="ARG0" start="2" end="2">ему</arg>
+          <rel relloc="3">увиделось</rel>
+          <arg type="ARG1" start="5" end="26">как огромная , покрытая броней рептилия сносит с петель колдунову дверь , врывается вовнутрь , прижимает старикашку к полу , освобождает Гарру</arg>
+        </propbank>
       </example>
-	  <example name="dream dreams" src="Russian National Corpus. [Запись LiveJournal с комментариями (2004)]" type="">
-        <text>Ричард Фрэнсис Бертон знал более 30 языков, на 16 он видел сны;)))</text>
-        <arg f="mnr" n="m">на 16</arg>
-		<arg f="" n="0">он</arg>
-		<rel f="">видел</rel>
-		<arg f="" n="1">сны</arg>
-	  </example>
-	  <example name="in a dream" src="Russian National Corpus. [Александр Дорофеев. Эле-Фантик // «Мурзилка», 2003]" type="">
-        <text>Эле-Фантик почувствовал себя сильным и взрослым дядькой, вроде того, что видел во сне.</text>
-		<arg f="" n="1">что</arg>
-		<rel f="">видел</rel>
-		<arg f="loc" n="m">во сне</arg>
-	  </example>
+      <example name="dream dreams" src="Russian National Corpus. [Запись LiveJournal с комментариями (2004)]">
+        <text>Ричард Фрэнсис Бертон знал более 30 языков , на 16 он видел сны ;) ) )</text>
+        <propbank>
+          <arg type="ARGM-MNR" start="8" end="9">на 16</arg>
+          <arg type="ARG0" start="10" end="10">он</arg>
+          <rel relloc="11">видел</rel>
+          <arg type="ARG1" start="12" end="12">сны</arg>
+        </propbank>
+      </example>
+      <example name="in a dream" src="Russian National Corpus. [Александр Дорофеев. Эле-Фантик // «Мурзилка», 2003]">
+        <text>Эле - Фантик почувствовал себя сильным и взрослым дядькой , вроде того , что видел во сне .</text>
+        <propbank>
+          <arg type="ARG1" start="13" end="13">что</arg>
+          <rel relloc="14">видел</rel>
+          <arg type="ARGM-LOC" start="15" end="16">во сне</arg>
+        </propbank>
+      </example>
     </roleset>
-    
-	<roleset id="видеть.02" name="see, meet, date">
+    <roleset id="видеть.02" name="see, meet, date">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">увидеть</alias>
-		<alias framenet="" pos="v" verbnet="">видеться</alias>
-		<alias framenet="" pos="v" verbnet="">увидеться</alias>
-		<alias framenet="" pos="v" verbnet="">свидеться</alias>
+        <alias framenet="" pos="v" verbnet="">увидеть</alias>
+        <alias framenet="" pos="v" verbnet="">видеться</alias>
+        <alias framenet="" pos="v" verbnet="">увидеться</alias>
+        <alias framenet="" pos="v" verbnet="">свидеться</alias>
       </aliases>
-	  <note>Corresponds to FrameBank sense 3</note>
-	  <note>видеть.02 NOTES: Roleset based on English verb frame see.05</note>
+      <note>Corresponds to FrameBank sense 3</note>
+      <note>видеть.02 NOTES: Roleset based on English verb frame see.05</note>
       <roles>
         <role descr="first entity" f="PAG" n="0"/>
-		<role descr="second entity, or 'each other' (or variant)" f="PPT" n="1"/>
+        <role descr="second entity, or 'each other' (or variant)" f="PPT" n="1"/>
       </roles>
-	  <example name="see or meet" src="А. П. Чехов, «Ионыч», 1898 г." type="">
-        <text>Я не видел вас целую неделю, я не слышал вас так долго.</text>
-        <arg f="" n="0">Я</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">видел</rel>
-		<arg f="" n="1">вас</arg>
-		<arg f="tmp" n="m">целую неделю</arg>
-	  </example>
-	  <example name="reflexive" src="М. Н. Загоскин, «Рославлев, или Русские в 1812 году», 1830 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Я ещё не виделся с моим другом.</text>
-        <arg f="" n="0">Я</arg>
-		<arg f="adv" n="m">ещё</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">виделся</rel>
-		<arg f="" n="1">с моим другом</arg>
-	  </example>
-	  <example name="perfective reflexive" src="В. С. Гроссман, «Все течет», 1955-1963 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Конечно, она уже будет старухой, совсем седой, у Юли будут дети, но всё же они увидятся, они не могут не увидеться.</text>
-        <arg f="adv" n="m">всё же</arg>
-		<arg f="" n="0">они</arg>
-		<rel f="">увидятся</rel>
-	  </example>
-	</roleset>	  
-	
-	<roleset id="видеть.03" name="discourse function">
+      <example name="see or meet" src="А. П. Чехов, «Ионыч», 1898 г.">
+        <text>Я не видел вас целую неделю , я не слышал вас так долго .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <arg type="ARGM-NEG" start="1" end="1">не</arg>
+          <rel relloc="2">видел</rel>
+          <arg type="ARG1" start="3" end="3">вас</arg>
+          <arg type="ARGM-TMP" start="4" end="5">целую неделю</arg>
+        </propbank>
+      </example>
+      <example name="reflexive" src="М. Н. Загоскин, «Рославлев, или Русские в 1812 году», 1830 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+        <text>Я ещё не виделся с моим другом .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <arg type="ARGM-ADV" start="1" end="1">ещё</arg>
+          <arg type="ARGM-NEG" start="2" end="2">не</arg>
+          <rel relloc="3">виделся</rel>
+          <arg type="ARG1" start="4" end="6">с моим другом</arg>
+        </propbank>
+      </example>
+      <example name="perfective reflexive" src="В. С. Гроссман, «Все течет», 1955-1963 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+        <text>Конечно , она уже будет старухой , совсем седой , у Юли будут дети , но всё же они увидятся , они не могут не увидеться .</text>
+        <propbank>
+          <arg type="ARGM-ADV" start="16" end="17">всё же</arg>
+          <arg type="ARG0" start="18" end="18">они</arg>
+          <rel relloc="19">увидятся</rel>
+        </propbank>
+      </example>
+    </roleset>
+    <roleset id="видеть.03" name="discourse function">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">видешь</alias>
-		<alias framenet="" pos="v" verbnet="">видите</alias>
+        <alias framenet="" pos="v" verbnet="">видешь</alias>
+        <alias framenet="" pos="v" verbnet="">видите</alias>
       </aliases>
-	  <note>Corresponds to FrameBank senses 7,8</note>
-	  <note>видеть.03 NOTES: based on English see.03</note>
-	  <roles>
-		<role descr="you" f="PAG" n="0" />
+      <note>Corresponds to FrameBank senses 7,8</note>
+      <note>видеть.03 NOTES: based on English see.03</note>
+      <roles>
+        <role descr="you" f="PAG" n="0"/>
       </roles>
-	  <example name="example" src="Russian National Corpus. [Евгений Гришковец. ОдноврЕмЕнно (2004)]" type="">
-        <text>То есть, видите, я сам не понимал, чего я хотел.</text>
-		<rel f="">видите</rel>
-	  </example>
-	</roleset>
+      <example name="example" src="Russian National Corpus. [Евгений Гришковец. ОдноврЕмЕнно (2004)]">
+        <text>То есть , видите , я сам не понимал , чего я хотел .</text>
+        <propbank>
+          <rel relloc="3">видите</rel>
+        </propbank>
+      </example>
+    </roleset>
   </predicate>
 </frameset>

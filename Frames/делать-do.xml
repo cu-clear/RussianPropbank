@@ -1,170 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
- <predicate lemma="делать">
-	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+  <predicate lemma="делать">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="делать.01" name="act, do">
-       <aliases>
-		<alias framenet="" pos="j" verbnet="">делающий</alias>
-		<alias framenet="" pos="j" verbnet="">делавший</alias>
-		<alias framenet="" pos="j" verbnet="">делаемый</alias>
-		<alias framenet="" pos="j" verbnet="">деланный</alias>
-		<alias framenet="" pos="v" verbnet="">сделать</alias>
-		<alias framenet="" pos="j" verbnet="">сделавший</alias>
-		<alias framenet="" pos="j" verbnet="">сделанный</alias>
-		<alias framenet="" pos="v" verbnet="">делаться</alias>
-		<alias framenet="" pos="j" verbnet="">делающийся</alias>
-		<alias framenet="" pos="j" verbnet="">делавшийся</alias>
-		<alias framenet="" pos="v" verbnet="">сделаться</alias>
-		<alias framenet="" pos="j" verbnet="">сделавшийся</alias>
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">делающий</alias>
+        <alias framenet="" pos="j" verbnet="">делавший</alias>
+        <alias framenet="" pos="j" verbnet="">делаемый</alias>
+        <alias framenet="" pos="j" verbnet="">деланный</alias>
+        <alias framenet="" pos="v" verbnet="">сделать</alias>
+        <alias framenet="" pos="j" verbnet="">сделавший</alias>
+        <alias framenet="" pos="j" verbnet="">сделанный</alias>
+        <alias framenet="" pos="v" verbnet="">делаться</alias>
+        <alias framenet="" pos="j" verbnet="">делающийся</alias>
+        <alias framenet="" pos="j" verbnet="">делавшийся</alias>
+        <alias framenet="" pos="v" verbnet="">сделаться</alias>
+        <alias framenet="" pos="j" verbnet="">сделавшийся</alias>
       </aliases>
-	  <note>Corresponds to FrameBank senses 1,2,3,5,10</note>
-	  <note>Based on "do.02"</note>
-	  <roles>
+      <note>Corresponds to FrameBank senses 1,2,3,5,10</note>
+      <note>Based on "do.02"</note>
+      <roles>
         <role descr="agent, doer" f="PAG" n="0"/>
         <role descr="thing done" f="PPT" n="1"/>
         <role descr="benefactive, done for or about" f="GOL" n="2"/>
         <role descr="instrumental" f="MNR" n="3"/>
         <role descr="comitative, companion while doing" f="COM" n="4"/>
       </roles>
-      <example name="do-v" src="" type="">
+      <example name="do-v" src="">
         <text>это полезно делать людям ЛЮБОГО возраста .</text>
-        <arg f="" n="1">это</arg>
-		<arg f="" n="0">людям</arg>
-        <rel f="">делать</rel>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">это</arg>
+          <arg type="ARG0" start="3" end="3">людям</arg>
+          <rel relloc="2">делать</rel>
+        </propbank>
       </example>
-      <example name="do-v" src="" type="">
+      <example name="do-v" src="">
         <text>Взялся за воспитание - делай это с любовью .</text>
-        <rel f="">делай</rel>
-        <arg f="" n="1">это</arg>
-        <arg f="" n="3">с любовью</arg>
+        <propbank>
+          <rel relloc="4">делай</rel>
+          <arg type="ARG1" start="5" end="5">это</arg>
+          <arg type="ARG3" start="6" end="7">с любовью</arg>
+        </propbank>
       </example>
-      <example name="do-v: with benefactive" src="with benefactive" type="with benefactive">
+      <example name="do-v: with benefactive" src="with benefactive">
         <text>Интересно стало , а девочкам они как делают ?</text>
-        <arg f="" n="2">девочкам</arg>
-        <arg f="" n="0">они</arg>
-		<arg f="adv" n="m">как</arg>
-        <rel f="">делают</rel>
+        <propbank>
+          <arg type="ARG2" start="4" end="4">девочкам</arg>
+          <arg type="ARG0" start="5" end="5">они</arg>
+          <arg type="ARGM-ADV" start="6" end="6">как</arg>
+          <rel relloc="7">делают</rel>
+        </propbank>
       </example>
-	  <example name="happen, reflexive" src="" type="">
+      <example name="happen, reflexive" src="">
         <text>Что во дворе делается ?</text>
-        <arg f="" n="1">Что</arg>
-		<arg f="loc" n="m">во дворе</arg>
-        <rel f="">делается</rel>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">Что</arg>
+          <arg type="ARGM-LOC" start="1" end="2">во дворе</arg>
+          <rel relloc="3">делается</rel>
+        </propbank>
       </example>
     </roleset>
-	
-	
-	<roleset id="делать.02" name="make">
-       <aliases>
-		<alias framenet="" pos="j" verbnet="">делающий</alias>
-		<alias framenet="" pos="j" verbnet="">делавший</alias>
-		<alias framenet="" pos="v" verbnet="">делая</alias>
-		<alias framenet="" pos="v" verbnet="">делавши</alias>
-		<alias framenet="" pos="v" verbnet="">делав</alias>
-		<alias framenet="" pos="j" verbnet="">делаемый</alias>
-		<alias framenet="" pos="j" verbnet="">деланный</alias>
-		<alias framenet="" pos="v" verbnet="">сделать</alias>
-		<alias framenet="" pos="j" verbnet="">сделавший</alias>
-		<alias framenet="" pos="v" verbnet="">сделав</alias>
-		<alias framenet="" pos="v" verbnet="">сделавши</alias>
-		<alias framenet="" pos="j" verbnet="">сделанный</alias>
-		<alias framenet="" pos="v" verbnet="">делаться</alias>
-		<alias framenet="" pos="j" verbnet="">делающийся</alias>
-		<alias framenet="" pos="j" verbnet="">делавшийся</alias>
-		<alias framenet="" pos="v" verbnet="">сделаться</alias>
-		<alias framenet="" pos="j" verbnet="">сделавшийся</alias>
+    <roleset id="делать.02" name="make">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">делающий</alias>
+        <alias framenet="" pos="j" verbnet="">делавший</alias>
+        <alias framenet="" pos="v" verbnet="">делая</alias>
+        <alias framenet="" pos="v" verbnet="">делавши</alias>
+        <alias framenet="" pos="v" verbnet="">делав</alias>
+        <alias framenet="" pos="j" verbnet="">делаемый</alias>
+        <alias framenet="" pos="j" verbnet="">деланный</alias>
+        <alias framenet="" pos="v" verbnet="">сделать</alias>
+        <alias framenet="" pos="j" verbnet="">сделавший</alias>
+        <alias framenet="" pos="v" verbnet="">сделав</alias>
+        <alias framenet="" pos="v" verbnet="">сделавши</alias>
+        <alias framenet="" pos="j" verbnet="">сделанный</alias>
+        <alias framenet="" pos="v" verbnet="">делаться</alias>
+        <alias framenet="" pos="j" verbnet="">делающийся</alias>
+        <alias framenet="" pos="j" verbnet="">делавшийся</alias>
+        <alias framenet="" pos="v" verbnet="">сделаться</alias>
+        <alias framenet="" pos="j" verbnet="">сделавшийся</alias>
       </aliases>
-	  <note>Corresponds to FrameBank senses 4,6,7,8,9</note>
-	  <roles>
+      <note>Corresponds to FrameBank senses 4,6,7,8,9</note>
+      <roles>
         <role descr="agent, doer" f="PAG" n="0"/>
         <role descr="entity made" f="PPT" n="1"/>
         <role descr="thing made from" f="DIR" n="2"/>
       </roles>
-      <example name="make out of" src="" type="">
+      <example name="make out of" src="">
         <text>Не надо делать из него посмешище .</text>
-        <arg f="neg" n="m">Не надо</arg>
-        <rel f="">делать</rel>
-		<arg f="" n="2">из него</arg>
-		<arg f="" n="1">посмешище</arg>
-      </example> 
-	  <example name="make" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=делать&amp;cxid=2795" type="">
+        <propbank>
+          <arg type="ARGM-NEG" start="0" end="1">Не надо</arg>
+          <rel relloc="2">делать</rel>
+          <arg type="ARG2" start="3" end="4">из него</arg>
+          <arg type="ARG1" start="5" end="5">посмешище</arg>
+        </propbank>
+      </example>
+      <example name="make" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=делать&amp;cxid=2795">
         <text>Хотя мы тоже делаем колготки в сеточку и корсеты , эстетика кабаре -- это too much , и это уже не наш бизнес .</text>
-        <arg f="dis" n="m">Хотя</arg>
-		<arg f="" n="0">мы</arg>
-        <rel f="">делаем</rel>
-		<arg f="" n="1">колготки в сеточку и корсеты</arg>
+        <propbank>
+          <arg type="ARGM-DIS" start="0" end="0">Хотя</arg>
+          <arg type="ARG0" start="1" end="1">мы</arg>
+          <rel relloc="3">делаем</rel>
+          <arg type="ARG1" start="4" end="8">колготки в сеточку и корсеты</arg>
+        </propbank>
       </example>
-	  <example name="be made" src="" type="">
+      <example name="be made" src="">
         <text>На ткани делается пятно .</text>
-        <arg f="loc" n="m">На ткани</arg>
-        <rel f="">делается</rel>
-		<arg f="" n="1">пятно</arg>
+        <propbank>
+          <arg type="ARGM-LOC" start="0" end="1">На ткани</arg>
+          <rel relloc="2">делается</rel>
+          <arg type="ARG1" start="3" end="3">пятно</arg>
+        </propbank>
       </example>
-	</roleset>
-	
-	<roleset id="делать.03" name="change state">
-       <aliases>
-		<alias framenet="" pos="j" verbnet="">делающий</alias>
-		<alias framenet="" pos="j" verbnet="">делавший</alias>
-		<alias framenet="" pos="j" verbnet="">делаемый</alias>
-		<alias framenet="" pos="j" verbnet="">деланный</alias>
-		<alias framenet="" pos="v" verbnet="">сделать</alias>
-		<alias framenet="" pos="j" verbnet="">сделавший</alias>
-		<alias framenet="" pos="j" verbnet="">сделанный</alias>
-		<alias framenet="" pos="v" verbnet="">делаться</alias>
-		<alias framenet="" pos="j" verbnet="">делающийся</alias>
-		<alias framenet="" pos="j" verbnet="">делавшийся</alias>
-		<alias framenet="" pos="v" verbnet="">сделаться</alias>
-		<alias framenet="" pos="j" verbnet="">сделавшийся</alias>
+    </roleset>
+    <roleset id="делать.03" name="change state">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">делающий</alias>
+        <alias framenet="" pos="j" verbnet="">делавший</alias>
+        <alias framenet="" pos="j" verbnet="">делаемый</alias>
+        <alias framenet="" pos="j" verbnet="">деланный</alias>
+        <alias framenet="" pos="v" verbnet="">сделать</alias>
+        <alias framenet="" pos="j" verbnet="">сделавший</alias>
+        <alias framenet="" pos="j" verbnet="">сделанный</alias>
+        <alias framenet="" pos="v" verbnet="">делаться</alias>
+        <alias framenet="" pos="j" verbnet="">делающийся</alias>
+        <alias framenet="" pos="j" verbnet="">делавшийся</alias>
+        <alias framenet="" pos="v" verbnet="">сделаться</alias>
+        <alias framenet="" pos="j" verbnet="">сделавшийся</alias>
       </aliases>
-	  <roles>
-        <role descr="agent, doer" f="PAG" n="0" />
-        <role descr="entity changed" f="PPT" n="1" />
-        <role descr="end state" f="PRD" n="2" />
+      <roles>
+        <role descr="agent, doer" f="PAG" n="0"/>
+        <role descr="entity changed" f="PPT" n="1"/>
+        <role descr="end state" f="PRD" n="2"/>
       </roles>
-      <example name="make as" src="" type="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=делать">
-        <text>Поэтому при отделке изделий с резьбой ( мебели, багета, рам для картин и зеркал ) обычно делали выпуклости полированными , а впадины-- матовыми.</text>
-        <arg f="dis" n="m">Поэтому</arg>
-		<arg f="adv" n="m">при отделке изделий с резьбой ( мебели, багета, рам для картин и зеркал )</arg>
-		<arg f="adv" n="m">обычно</arg>
-		<rel f="">делали</rel>
-		<arg f="" n="1">выпуклости</arg>
-		<arg f="" n="2">полированными</arg>
-      </example> 
-	  <example name="become, reflexive" src="" type="">
+      <example name="make as" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=делать">
+        <text>Поэтому при отделке изделий с резьбой ( мебели , багета , рам для картин и зеркал ) обычно делали выпуклости полированными , а впадины-- матовыми .</text>
+        <propbank>
+          <arg type="ARGM-DIS" start="0" end="0">Поэтому</arg>
+          <arg type="ARGM-ADV" start="1" end="16">при отделке изделий с резьбой ( мебели , багета , рам для картин и зеркал )</arg>
+          <arg type="ARGM-ADV" start="17" end="17">обычно</arg>
+          <rel relloc="18">делали</rel>
+          <arg type="ARG1" start="19" end="19">выпуклости</arg>
+          <arg type="ARG2" start="20" end="20">полированными</arg>
+        </propbank>
+      </example>
+      <example name="become, reflexive" src="">
         <text>Делается холодным ю</text>
-        <arg f="" n="1">PRO</arg>
-		<rel f="">Делается</rel>
-		<arg f="" n="2">холодным</arg>
+        <propbank>
+          <arg type="ARG1" start="?" end="?">PRO</arg>
+          <rel relloc="0">Делается</rel>
+          <arg type="ARG2" start="?" end="?">холодным</arg>
+        </propbank>
       </example>
     </roleset>
   </predicate>
-
-  <predicate lemma="делать_жизнь">	
-	<roleset id="делать_жизнь-m" name="choose a role model">
-       <aliases>
-		<alias framenet="" pos="j" verbnet="">делающий</alias>
-		<alias framenet="" pos="j" verbnet="">делавший</alias>
-		<alias framenet="" pos="v" verbnet="">делая</alias>
-		<alias framenet="" pos="v" verbnet="">делавши</alias>
-		<alias framenet="" pos="v" verbnet="">делав</alias>
-		<alias framenet="" pos="j" verbnet="">делаемый</alias>
-		<alias framenet="" pos="j" verbnet="">деланный</alias>
-		<alias framenet="" pos="v" verbnet="">сделать</alias>
-		<alias framenet="" pos="j" verbnet="">сделавший</alias>
-		<alias framenet="" pos="v" verbnet="">сделав</alias>
-		<alias framenet="" pos="v" verbnet="">сделавши</alias>
-		<alias framenet="" pos="j" verbnet="">сделанный</alias>
+  <predicate lemma="делать_жизнь">
+    <roleset id="делать_жизнь-m" name="choose a role model">
+      <aliases>
+        <alias framenet="" pos="j" verbnet="">делающий</alias>
+        <alias framenet="" pos="j" verbnet="">делавший</alias>
+        <alias framenet="" pos="v" verbnet="">делая</alias>
+        <alias framenet="" pos="v" verbnet="">делавши</alias>
+        <alias framenet="" pos="v" verbnet="">делав</alias>
+        <alias framenet="" pos="j" verbnet="">делаемый</alias>
+        <alias framenet="" pos="j" verbnet="">деланный</alias>
+        <alias framenet="" pos="v" verbnet="">сделать</alias>
+        <alias framenet="" pos="j" verbnet="">сделавший</alias>
+        <alias framenet="" pos="v" verbnet="">сделав</alias>
+        <alias framenet="" pos="v" verbnet="">сделавши</alias>
+        <alias framenet="" pos="j" verbnet="">сделанный</alias>
       </aliases>
-	  <roles>
+      <roles>
         <role descr="follower" f="PAG" n="0"/>
         <role descr="role model" f="PPT" n="1"/>
       </roles>
-      <example name="do-v" src="" type="">
+      <example name="do-v" src="">
         <text>Делать жизнь с кого</text>
-        <arg f="" n="1"></arg>
-		<arg f="" n="0"></arg>
-        <rel f=""></rel>
+        <propbank>
+          <arg type="ARG1" start="?" end="?"/>
+          <arg type="ARG0" start="?" end="?"/>
+          <rel relloc="?"/>
+        </propbank>
       </example>
     </roleset>
   </predicate>

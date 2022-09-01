@@ -1,18 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="купить">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="купить.01" name="purchase">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">купивший</alias>
-		<alias framenet="" pos="j" verbnet="">купленный</alias>
-		<alias framenet="" pos="v" verbnet="">покупать</alias>
-		<alias framenet="" pos="j" verbnet="">покупающий</alias>
-		<alias framenet="" pos="j" verbnet="">покупавший</alias>
-		<alias framenet="" pos="j" verbnet="">покупаемый</alias>
-		<alias framenet="" pos="n" verbnet="">покупка</alias>
+        <alias framenet="" pos="j" verbnet="">купивший</alias>
+        <alias framenet="" pos="j" verbnet="">купленный</alias>
+        <alias framenet="" pos="v" verbnet="">покупать</alias>
+        <alias framenet="" pos="j" verbnet="">покупающий</alias>
+        <alias framenet="" pos="j" verbnet="">покупавший</alias>
+        <alias framenet="" pos="j" verbnet="">покупаемый</alias>
+        <alias framenet="" pos="n" verbnet="">покупка</alias>
       </aliases>
-	  <note>Corresponds to FrameBank sense 1</note>
+      <note>Corresponds to FrameBank sense 1</note>
       <note>купить.01 NOTES: based on buy.01</note>
       <roles>
         <role descr="buyer" f="PAG" n="0">
@@ -21,79 +22,91 @@
         </role>
         <role descr="seller" f="DIR" n="2"/>
         <role descr="price paid" f="VSP" n="3"/>
-		<role descr="benefactive" f="GOL" n="4"/>
+        <role descr="benefactive" f="GOL" n="4"/>
       </roles>
-      <example name="ARG0" src="" type="">
+      <example name="ARG0" src="">
         <text>Я б купила .</text>
-        <arg f="" n="0">Я </arg>
-		<arg f="mod" n="m">б</arg>
-        <rel f="">купила</rel> 
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <arg type="ARGM-MOD" start="1" end="1">б</arg>
+          <rel relloc="2">купила</rel>
+        </propbank>
       </example>
     </roleset>
-    
-	<roleset id="купить.02" name="bribe">
+    <roleset id="купить.02" name="bribe">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">куплен</alias>
-		<alias framenet="" pos="v" verbnet="">подкупить</alias>
-		<alias framenet="" pos="j" verbnet="">подкупивший</alias>
+        <alias framenet="" pos="j" verbnet="">куплен</alias>
+        <alias framenet="" pos="v" verbnet="">подкупить</alias>
+        <alias framenet="" pos="j" verbnet="">подкупивший</alias>
       </aliases>
-	  <note>Corresponds to FrameBank senses 2,4</note>
+      <note>Corresponds to FrameBank senses 2,4</note>
       <note>купить.02 NOTES: based on bribe.01</note>
       <roles>
         <role descr="briber" f="PAG" n="0"/>
         <role descr="person being bribed" f="PPT" n="1"/>
-		<role descr="favor" f="PRD" n="2"/>
+        <role descr="favor" f="PRD" n="2"/>
         <role descr="amount exchanged" f="VSP" n="3"/>
       </roles>
-      <example name="arg 1 in NP" src="" type="">
+      <example name="arg 1 in NP" src="">
         <text>да лан , не все продажные ) я вот не продажная были ни разу ( щас просто этим не занимаюсь ) правда попытки купить меня были так дешевы что соблазна не возникало в принципе , но я вообще честная , да )</text>
-        <rel f="">купить</rel>
-		<arg f="" n="1">меня</arg>
+        <propbank>
+          <rel relloc="23">купить</rel>
+          <arg type="ARG1" start="24" end="24">меня</arg>
+        </propbank>
       </example>
-	  <example name="arg 1 passive" src="" type="">
+      <example name="arg 1 passive" src="">
         <text>Все куплены .</text>
-        <arg f="" n="1">Все</arg>
-		<rel f="">куплены</rel>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">Все</arg>
+          <rel relloc="1">куплены</rel>
+        </propbank>
       </example>
-	  <example name="arg 3" src="" type="">
-        <text>За деньги куплю судью, куплю следователя, куплю мать детишек, куплю десяток свидетелей, они подтвердят, все подтвердят - похитил!</text>
-        <arg f="" n="3">За деньги</arg>
-		<rel f="">куплю</rel>
-		<arg f="" n="1">судью</arg>
+      <example name="arg 3" src="">
+        <text>За деньги куплю судью , куплю следователя , куплю мать детишек , куплю десяток свидетелей , они подтвердят , все подтвердят - похитил !</text>
+        <propbank>
+          <arg type="ARG3" start="0" end="1">За деньги</arg>
+          <rel relloc="?">куплю</rel>
+          <arg type="ARG1" start="3" end="3">судью</arg>
+        </propbank>
       </example>
-	</roleset>
-	
+    </roleset>
     <roleset id="купить.03" name="fool, deceive">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">куплен</alias>
-		<alias framenet="" pos="j" verbnet="">купиться</alias>
+        <alias framenet="" pos="j" verbnet="">куплен</alias>
+        <alias framenet="" pos="j" verbnet="">купиться</alias>
       </aliases>
-	  <note>Corresponds to FrameBank sense 3</note>
+      <note>Corresponds to FrameBank sense 3</note>
       <note>купить.03 NOTES: based on fool.01</note>
       <roles>
-		<note>Russian Arg2-PRD has no match in English frame</note>
+        <note>Russian Arg2-PRD has no match in English frame</note>
         <role descr="trickster" f="PAG" n="0"/>
         <role descr="entity deceived" f="PPT" n="1"/>
-		<role descr="deception" f="PRD" n="2"/>
+        <role descr="deception" f="PRD" n="2"/>
       </roles>
-      <example name="fooled ya" src="" type="">
+      <example name="fooled ya" src="">
         <text>Здорово я тебя купил !</text>
-        <arg f="adv" n="m">Здорово</arg>
-		<arg f="" n="0">я</arg>
-        <arg f="" n="1">тебя</arg>
-		<rel f="">купил</rel>
+        <propbank>
+          <arg type="ARGM-ADV" start="0" end="0">Здорово</arg>
+          <arg type="ARG0" start="1" end="1">я</arg>
+          <arg type="ARG1" start="2" end="2">тебя</arg>
+          <rel relloc="3">купил</rel>
+        </propbank>
       </example>
-	  <example name="arg2, fooled by" src="" type="">
+      <example name="arg2, fooled by" src="">
         <text>Мать была куплена откровенностью сына .</text>
-        <arg f="" n="1">Мать</arg>
-		<rel f="">куплена</rel>
-		<arg f="" n="2">откровенностью сына</arg>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">Мать</arg>
+          <rel relloc="2">куплена</rel>
+          <arg type="ARG2" start="3" end="4">откровенностью сына</arg>
+        </propbank>
       </example>
-	  <example name="reflexive, fall for" src="news site: https://www.vrn.kp.ru/online/news/3608066/" type="">
+      <example name="reflexive, fall for" src="news site: https://www.vrn.kp.ru/online/news/3608066/">
         <text>жительница Воронежа купилась на уловку обманщика</text>
-        <arg f="" n="1">жительница Воронежа</arg>
-		<rel f="">купилась</rel>
-		<arg f="" n="2">на уловку обманщика</arg>
+        <propbank>
+          <arg type="ARG1" start="0" end="1">жительница Воронежа</arg>
+          <rel relloc="2">купилась</rel>
+          <arg type="ARG2" start="3" end="5">на уловку обманщика</arg>
+        </propbank>
       </example>
     </roleset>
   </predicate>

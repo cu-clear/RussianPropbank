@@ -1,15 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="начать">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="начать.01" name="start, begin something, initiate">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">начинать</alias>
-		<alias framenet="" pos="v" verbnet="">начаться</alias>
-		<alias framenet="" pos="v" verbnet="">начинаться</alias>
-		<alias framenet="" pos="n" verbnet="">начатие</alias>
+        <alias framenet="" pos="v" verbnet="">начинать</alias>
+        <alias framenet="" pos="v" verbnet="">начаться</alias>
+        <alias framenet="" pos="v" verbnet="">начинаться</alias>
+        <alias framenet="" pos="n" verbnet="">начатие</alias>
       </aliases>
-	  <note>Corresponds to FrameBank sense 1</note>
+      <note>Corresponds to FrameBank sense 1</note>
       <note>начать.01 NOTES: Roleset based on verb frame begin.01</note>
       <roles>
         <role descr="beginner, Agent" f="PAG" n="0">
@@ -18,59 +19,70 @@
         </role>
         <role descr="Instrument/beginning state" f="MNR" n="2"/>
       </roles>
-      <example name="all args" src="" type="">
+      <example name="all args" src="">
         <text>Вообще он поначалу действительно с энтузиазмом начал семейную жизнь , радовался рождению нашего ребенка .</text>
-        <arg f="adv" n="m">Вообще</arg>
-		<arg f="" n="0">он</arg>
-		<arg f="tmp" n="m">поначалу</arg>
-		<arg f="" n="2">действительно с энтузиазмом</arg>
-        <rel f="">начал</rel> 
-		<arg f="" n="1">семейную жизнь</arg>
+        <propbank>
+          <arg type="ARGM-ADV" start="0" end="0">Вообще</arg>
+          <arg type="ARG0" start="1" end="1">он</arg>
+          <arg type="ARGM-TMP" start="2" end="2">поначалу</arg>
+          <arg type="ARG2" start="3" end="5">действительно с энтузиазмом</arg>
+          <rel relloc="6">начал</rel>
+          <arg type="ARG1" start="7" end="8">семейную жизнь</arg>
+        </propbank>
       </example>
-      <example name="ARG0 and ARG2" src="" type="">
+      <example name="ARG0 and ARG2" src="">
         <text>и мы начали с окна</text>
-        <arg f="dis" n="m">и</arg>
-		<arg f="" n="0">мы</arg>
-        <rel f="">начали</rel>
-        <arg f="" n="2">с окна</arg>
+        <propbank>
+          <arg type="ARGM-DIS" start="0" end="0">и</arg>
+          <arg type="ARG0" start="1" end="1">мы</arg>
+          <rel relloc="2">начали</rel>
+          <arg type="ARG2" start="3" end="4">с окна</arg>
+        </propbank>
       </example>
-      <example name="reflexive as passive" src="Russian National Corpus. [коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
-        <text>Проекты начинаются уже сейчас, просто законодательство еще в сыром состоянии.</text>
-        <arg f="" n="1">Проекты</arg>
-        <rel f="">начинаются</rel>
-        <arg f="tmp" n="m">уже сейчас</arg>
+      <example name="reflexive as passive" src="Russian National Corpus. [коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
+        <text>Проекты начинаются уже сейчас , просто законодательство еще в сыром состоянии .</text>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">Проекты</arg>
+          <rel relloc="1">начинаются</rel>
+          <arg type="ARGM-TMP" start="2" end="3">уже сейчас</arg>
+        </propbank>
       </example>
-      <example name="reflexive with 2" src="Russian National Corpus. [коллективный. Форум: 17 мгновений весны (2005-2010)]" type="">
-        <text>В сериале, как ни странно, не семнадцать серий, и повествование начинается не сном Максима Максимыча, засыпающего в своей машине, превращаясь в фон Штирлица, уклоняющегося от хитроумных нападок проекций Мюллера и агентов гестапо, и переходящего на следующий уровень сна в кабачок для ожесточенной схватки интеллекта с Фрау Заурих, теребя в его руках личный тотем, символизирующий надежду на спасение (срыв сепаратных переговоров).</text>
-        <arg f="" n="1">повествование</arg>
-        <rel f="">начинается</rel>
-        <arg f="" n="2">не сном Максима Максимыча, засыпающего в своей машине, превращаясь в фон Штирлица, уклоняющегося от хитроумных нападок проекций Мюллера и агентов гестапо, и переходящего на следующий уровень сна в кабачок для ожесточенной схватки интеллекта с Фрау Заурих, теребя в его руках личный тотем, символизирующий надежду на спасение (срыв сепаратных переговоров)</arg>
+      <example name="reflexive with 2" src="Russian National Corpus. [коллективный. Форум: 17 мгновений весны (2005-2010)]">
+        <text>В сериале , как ни странно , не семнадцать серий , и повествование начинается не сном Максима Максимыча , засыпающего в своей машине , превращаясь в фон Штирлица , уклоняющегося от хитроумных нападок проекций Мюллера и агентов гестапо , и переходящего на следующий уровень сна в кабачок для ожесточенной схватки интеллекта с Фрау Заурих , теребя в его руках личный тотем , символизирующий надежду на спасение ( срыв сепаратных переговоров ) .</text>
+        <propbank>
+          <arg type="ARG1" start="12" end="12">повествование</arg>
+          <rel relloc="13">начинается</rel>
+          <arg type="ARG2" start="14" end="70">не сном Максима Максимыча , засыпающего в своей машине , превращаясь в фон Штирлица , уклоняющегося от хитроумных нападок проекций Мюллера и агентов гестапо , и переходящего на следующий уровень сна в кабачок для ожесточенной схватки интеллекта с Фрау Заурих , теребя в его руках личный тотем , символизирующий надежду на спасение ( срыв сепаратных переговоров )</arg>
+        </propbank>
       </example>
     </roleset>
-    
-	<roleset id="начать.02" name="aspectual, beginning of action">
+    <roleset id="начать.02" name="aspectual, beginning of action">
       <aliases>
-		<alias framenet="" pos="v" verbnet="">начинать</alias>
+        <alias framenet="" pos="v" verbnet="">начинать</alias>
       </aliases>
-	  <note>Corresponds to FrameBank sense 2</note>
+      <note>Corresponds to FrameBank sense 2</note>
       <note>NOTES: Roleset based on English propbank begin.02</note>
       <roles>
-        <role descr="thing beginning something" f="PAG" n="0" />
-		<role descr="Action begun - S-node!" f="PPT" n="1" />
+        <role descr="thing beginning something" f="PAG" n="0"/>
+        <role descr="Action begun - S-node!" f="PPT" n="1"/>
       </roles>
-      <example name="non agentive arg0" src="" type="">
+      <example name="non agentive arg0" src="">
         <text>Если нога начнет пухнуть - хорошо влажные повязки с фурацилином .</text>
-        <arg f="dis" n="m">Если</arg>
-		<arg f="" n="0">нога</arg>
-		<rel f="">начнет</rel>
-		<arg f="" n="1">пухнуть</arg>
+        <propbank>
+          <arg type="ARGM-DIS" start="0" end="0">Если</arg>
+          <arg type="ARG0" start="1" end="1">нога</arg>
+          <rel relloc="2">начнет</rel>
+          <arg type="ARG1" start="3" end="3">пухнуть</arg>
+        </propbank>
       </example>
-	  <example name="agentive" src="Russian National Corpus [коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)]" type="">
-        <text>Я только с января начну работать учителем и оооооочень боюсь!</text>
-        <arg f="" n="0">Я</arg>
-		<arg f="tmp" n="m">только с января</arg>
-        <rel f="">начну</rel>
-		<arg f="" n="1">работать учителем</arg>
+      <example name="agentive" src="Russian National Corpus [коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)]">
+        <text>Я только с января начну работать учителем и оооооочень боюсь !</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <arg type="ARGM-TMP" start="1" end="3">только с января</arg>
+          <rel relloc="4">начну</rel>
+          <arg type="ARG1" start="5" end="6">работать учителем</arg>
+        </propbank>
       </example>
     </roleset>
   </predicate>

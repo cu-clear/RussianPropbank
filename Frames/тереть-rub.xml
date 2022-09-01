@@ -1,161 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="тереть">
-	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless src otherwise noted.</note>
-	<roleset id="тереть.01" name="rub, wipe, cause blister (rub raw), annoy">
+    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless src otherwise noted.</note>
+    <roleset id="тереть.01" name="rub, wipe, cause blister (rub raw), annoy">
       <aliases>
         <alias framenet="" pos="j" verbnet="">трущий</alias>
-		<alias framenet="" pos="j" verbnet="">тёрший</alias>
-		<alias framenet="" pos="j" verbnet="">терший</alias>
-		<alias framenet="" pos="j" verbnet="">тёртый</alias>
-		<alias framenet="" pos="j" verbnet="">тертый</alias>
-		<alias framenet="" pos="v" verbnet="">тереться</alias>
-		<alias framenet="" pos="v" verbnet="">потереть</alias>
-		<alias framenet="" pos="j" verbnet="">потёрший</alias>
-		<alias framenet="" pos="j" verbnet="">потерший</alias>
-		<alias framenet="" pos="j" verbnet="">потёртый</alias>
-		<alias framenet="" pos="j" verbnet="">потертый</alias>
-		<alias framenet="" pos="v" verbnet="">стереть</alias>
-		<alias framenet="" pos="j" verbnet="">стёрший</alias>
-		<alias framenet="" pos="j" verbnet="">стерший</alias>
-		<alias framenet="" pos="j" verbnet="">стёртый</alias>
-		<alias framenet="" pos="j" verbnet="">стертый</alias>
-		<alias framenet="" pos="v" verbnet="">растереть</alias>
-		<alias framenet="" pos="j" verbnet="">растёрший</alias>
-		<alias framenet="" pos="j" verbnet="">растерший</alias>
-		<alias framenet="" pos="j" verbnet="">растёртый</alias>
-		<alias framenet="" pos="j" verbnet="">растертый</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses 1,3</note>
-	  <note>NOTES: Based on rub.01. No GOL</note>
+        <alias framenet="" pos="j" verbnet="">тёрший</alias>
+        <alias framenet="" pos="j" verbnet="">терший</alias>
+        <alias framenet="" pos="j" verbnet="">тёртый</alias>
+        <alias framenet="" pos="j" verbnet="">тертый</alias>
+        <alias framenet="" pos="v" verbnet="">тереться</alias>
+        <alias framenet="" pos="v" verbnet="">потереть</alias>
+        <alias framenet="" pos="j" verbnet="">потёрший</alias>
+        <alias framenet="" pos="j" verbnet="">потерший</alias>
+        <alias framenet="" pos="j" verbnet="">потёртый</alias>
+        <alias framenet="" pos="j" verbnet="">потертый</alias>
+        <alias framenet="" pos="v" verbnet="">стереть</alias>
+        <alias framenet="" pos="j" verbnet="">стёрший</alias>
+        <alias framenet="" pos="j" verbnet="">стерший</alias>
+        <alias framenet="" pos="j" verbnet="">стёртый</alias>
+        <alias framenet="" pos="j" verbnet="">стертый</alias>
+        <alias framenet="" pos="v" verbnet="">растереть</alias>
+        <alias framenet="" pos="j" verbnet="">растёрший</alias>
+        <alias framenet="" pos="j" verbnet="">растерший</alias>
+        <alias framenet="" pos="j" verbnet="">растёртый</alias>
+        <alias framenet="" pos="j" verbnet="">растертый</alias>
+      </aliases>
+      <note>Corresponds to FrameBank senses 1,3</note>
+      <note>NOTES: Based on rub.01. No GOL</note>
       <roles>
-	    <role descr="rubber, agent" f="pag" n="0" />
-        <role descr="thing rubbed" f="ppt" n="1" />
-		<role descr="rubbed with, if separate from agent" f="mnr" n="2" />
-	  </roles>
-      <example name="rub; all args" src="" type="">
+        <role descr="rubber, agent" f="pag" n="0"/>
+        <role descr="thing rubbed" f="ppt" n="1"/>
+        <role descr="rubbed with, if separate from agent" f="mnr" n="2"/>
+      </roles>
+      <example name="rub; all args" src="">
         <text>Парень сидел в трусах , испуганно тер кулаком красное от стыда лицо</text>
-        <arg f="" n="0">*Trace-1*</arg>
-		<arg f="adv" n="m">испуганно</arg>
-		<rel f="">тер</rel>
-		<arg f="" n="2">кулаком</arg>
-		<arg f="" n="1">красное от стыда лицо</arg>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
+          <arg type="ARGM-ADV" start="?" end="?">испуганно</arg>
+          <rel relloc="6">тер</rel>
+          <arg type="ARG2" start="?" end="?">кулаком</arg>
+          <arg type="ARG1" start="?" end="?">красное от стыда лицо</arg>
+        </propbank>
       </example>
-	   <example name="figurative - annoy" src="" type="">
+      <example name="figurative - annoy" src="">
         <text>Если что то начинает тереть , мешать или создавать неудобства - очень отвлекает .</text>
-		<arg f="" n="0">*Trace-1*</arg>
-		<rel f="">тереть</rel>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
+          <rel relloc="4">тереть</rel>
+        </propbank>
       </example>
-	  <example name="figurative - reach into, search" src="" type="">
+      <example name="figurative - reach into, search" src="">
         <text>Сначала в карманах трут , потом руками берут и суют в ухо .</text>
-		<arg f="tmp" n="m">Сначала</arg>
-		<arg f="" n="0">*PRO*</arg>
-		<arg f="loc" n="m">в карманах</arg>
-		<rel f="">трут</rel>
+        <propbank>
+          <arg type="ARGM-TMP" start="?" end="?">Сначала</arg>
+          <arg type="ARG0" start="?" end="?">*PRO*</arg>
+          <arg type="ARGM-LOC" start="?" end="?">в карманах</arg>
+          <rel relloc="3">трут</rel>
+        </propbank>
       </example>
-	  <example name="arg0 is also arg2" src="[Валентин Постников. Шапка-невидимка (1997)]" type="">
-        <text>Тигр Васька бросился к директору и начал ласкаться. Мрруу ― Мрруу, ― терся Васька о директора . ― Надо же, какой ласковый, порода, наверное, такая ласковая, ― гладя тигра, сказал директор зоопарка .</text>
-		<rel f="">терся</rel>
-		<arg f="" n="0">Васька</arg>
-		<arg f="" n="1">о директора</arg>
+      <example name="arg0 is also arg2" src="[Валентин Постников. Шапка-невидимка (1997)]">
+        <text>Тигр Васька бросился к директору и начал ласкаться . Мрруу ― Мрруу , ― терся Васька о директора . ― Надо же , какой ласковый , порода , наверное , такая ласковая , ― гладя тигра , сказал директор зоопарка .</text>
+        <propbank>
+          <rel relloc="14">терся</rel>
+          <arg type="ARG0" start="15" end="15">Васька</arg>
+          <arg type="ARG1" start="16" end="17">о директора</arg>
+        </propbank>
       </example>
-	</roleset>
-
-	<roleset id="тереть.02" name="grate">
+    </roleset>
+    <roleset id="тереть.02" name="grate">
       <aliases>
         <alias framenet="" pos="j" verbnet="">трущий</alias>
-		<alias framenet="" pos="j" verbnet="">тёрший</alias>
-		<alias framenet="" pos="j" verbnet="">терший</alias>
-		<alias framenet="" pos="j" verbnet="">тёртый</alias>
-		<alias framenet="" pos="j" verbnet="">тертый</alias>
-		<alias framenet="" pos="v" verbnet="">тереться</alias>
-		<alias framenet="" pos="v" verbnet="">потереть</alias>
-		<alias framenet="" pos="j" verbnet="">потёрший</alias>
-		<alias framenet="" pos="j" verbnet="">потерший</alias>
-		<alias framenet="" pos="j" verbnet="">потёртый</alias>
-		<alias framenet="" pos="j" verbnet="">потертый</alias>
-		<alias framenet="" pos="v" verbnet="">истереть</alias>
-		<alias framenet="" pos="j" verbnet="">истёрший</alias>
-		<alias framenet="" pos="j" verbnet="">истерший</alias>
-		<alias framenet="" pos="j" verbnet="">истёртый</alias>
-		<alias framenet="" pos="j" verbnet="">истертый</alias>
-		<alias framenet="" pos="v" verbnet="">растереть</alias>
-		<alias framenet="" pos="j" verbnet="">растёрший</alias>
-		<alias framenet="" pos="j" verbnet="">растерший</alias>
-		<alias framenet="" pos="j" verbnet="">растёртый</alias>
-		<alias framenet="" pos="j" verbnet="">растертый</alias>
-		<alias framenet="" pos="v" verbnet="">натереть</alias>
-		<alias framenet="" pos="j" verbnet="">натёрший</alias>
-		<alias framenet="" pos="j" verbnet="">натерший</alias>
-		<alias framenet="" pos="j" verbnet="">натёртый</alias>
-		<alias framenet="" pos="j" verbnet="">натертый</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank sense 2</note>
+        <alias framenet="" pos="j" verbnet="">тёрший</alias>
+        <alias framenet="" pos="j" verbnet="">терший</alias>
+        <alias framenet="" pos="j" verbnet="">тёртый</alias>
+        <alias framenet="" pos="j" verbnet="">тертый</alias>
+        <alias framenet="" pos="v" verbnet="">тереться</alias>
+        <alias framenet="" pos="v" verbnet="">потереть</alias>
+        <alias framenet="" pos="j" verbnet="">потёрший</alias>
+        <alias framenet="" pos="j" verbnet="">потерший</alias>
+        <alias framenet="" pos="j" verbnet="">потёртый</alias>
+        <alias framenet="" pos="j" verbnet="">потертый</alias>
+        <alias framenet="" pos="v" verbnet="">истереть</alias>
+        <alias framenet="" pos="j" verbnet="">истёрший</alias>
+        <alias framenet="" pos="j" verbnet="">истерший</alias>
+        <alias framenet="" pos="j" verbnet="">истёртый</alias>
+        <alias framenet="" pos="j" verbnet="">истертый</alias>
+        <alias framenet="" pos="v" verbnet="">растереть</alias>
+        <alias framenet="" pos="j" verbnet="">растёрший</alias>
+        <alias framenet="" pos="j" verbnet="">растерший</alias>
+        <alias framenet="" pos="j" verbnet="">растёртый</alias>
+        <alias framenet="" pos="j" verbnet="">растертый</alias>
+        <alias framenet="" pos="v" verbnet="">натереть</alias>
+        <alias framenet="" pos="j" verbnet="">натёрший</alias>
+        <alias framenet="" pos="j" verbnet="">натерший</alias>
+        <alias framenet="" pos="j" verbnet="">натёртый</alias>
+        <alias framenet="" pos="j" verbnet="">натертый</alias>
+      </aliases>
+      <note>Corresponds to FrameBank sense 2</note>
       <note>NOTES: Based on English grate.02.</note>
       <roles>
-	    <role descr="agent/cause of grating" f="pag" n="0">
+        <role descr="agent/cause of grating" f="pag" n="0">
         </role>
         <role descr="entity being grated" f="ppt" n="1"/>
         <role descr="instrument used" f="mnr" n="2"/>
-	  </roles>
-      <example name="adjectival participle" src="Russian National Corpus. [коллективный. Форум: Салаты (2011)]" type="">
-        <text>Можно добавить тертый сыр при желании.</text>
-		<rel f="">тертый</rel>
-		<arg f="" n="1">сыр</arg>
+      </roles>
+      <example name="adjectival participle" src="Russian National Corpus. [коллективный. Форум: Салаты (2011)]">
+        <text>Можно добавить тертый сыр при желании .</text>
+        <propbank>
+          <rel relloc="2">тертый</rel>
+          <arg type="ARG1" start="3" end="3">сыр</arg>
+        </propbank>
       </example>
-	  <example name="all args" src="Russian National Corpus. [Виктор Астафьев. Пролетный гусь (2000)]" type="">
-        <text>Обметало тебя, из ушек течёт, а ябоська сейчас мы натрём на тёрке , сейчас, сейчас, мой хороший, сейчас, мой маленький .</text>
-        <arg f="" n="1">ябоська</arg>
-		<arg f="tmp" n="m">сейчас</arg>
-		<arg f="" n="0">мы</arg>
-		<rel f="">натрём</rel>
-		<arg f="" n="2">на тёрке</arg>
+      <example name="all args" src="Russian National Corpus. [Виктор Астафьев. Пролетный гусь (2000)]">
+        <text>Обметало тебя , из ушек течёт , а ябоська сейчас мы натрём на тёрке , сейчас , сейчас , мой хороший , сейчас , мой маленький .</text>
+        <propbank>
+          <arg type="ARG1" start="8" end="8">ябоська</arg>
+          <arg type="ARGM-TMP" start="9" end="9">сейчас</arg>
+          <arg type="ARG0" start="10" end="10">мы</arg>
+          <rel relloc="11">натрём</rel>
+          <arg type="ARG2" start="12" end="13">на тёрке</arg>
+        </propbank>
       </example>
-	</roleset>
- 
-	<roleset id="тереть.03" name="say, judge (criminal slang)">
+    </roleset>
+    <roleset id="тереть.03" name="say, judge (criminal slang)">
       <aliases>
 	  </aliases>
       <note>NOTES: Based on talk.01</note>
       <roles>
-	    <role descr="talker" f="pag" n="0">
+        <role descr="talker" f="pag" n="0">
         </role>
         <role descr="subject" f="ppt" n="1">
         </role>
-		<role descr="hearer" f="gol" n="2"/>
-	  </roles>
-      <example name="all args" src="" type="">
-        <text>Что ты мне тут трёшь?</text>
-        <arg f="" n="1">Что</arg>
-		<arg f="" n="0">ты</arg>
-		<arg f="" n="2">мне</arg>
-		<rel f="">трёшь</rel>
+        <role descr="hearer" f="gol" n="2"/>
+      </roles>
+      <example name="all args" src="">
+        <text>Что ты мне тут трёшь ?</text>
+        <propbank>
+          <arg type="ARG1" start="0" end="0">Что</arg>
+          <arg type="ARG0" start="1" end="1">ты</arg>
+          <arg type="ARG2" start="2" end="2">мне</arg>
+          <rel relloc="4">трёшь</rel>
+        </propbank>
       </example>
-	</roleset>
+    </roleset>
   </predicate>
-  
   <predicate lemma="потереть">
-	<roleset id="потереть.04" name="go (criminal slang)">
+    <roleset id="потереть.04" name="go (criminal slang)">
       <aliases>
-		<alias framenet="" pos="j" verbnet="">потёрший</alias>
-		<alias framenet="" pos="j" verbnet="">потерший</alias>
-		<alias framenet="" pos="j" verbnet="">потёртый</alias>
-		<alias framenet="" pos="j" verbnet="">потертый</alias>
-	  </aliases>
+        <alias framenet="" pos="j" verbnet="">потёрший</alias>
+        <alias framenet="" pos="j" verbnet="">потерший</alias>
+        <alias framenet="" pos="j" verbnet="">потёртый</alias>
+        <alias framenet="" pos="j" verbnet="">потертый</alias>
+      </aliases>
       <note>NOTES: Based on walk.01, with destination instead of path</note>
       <roles>
-	    <role descr="walker, thing in motion" f="pag" n="0">
+        <role descr="walker, thing in motion" f="pag" n="0">
         </role>
         <role descr="destination" f="dir" n="1">
         </role>
-	  </roles>
-      <example name="arg1" src="" type="">
+      </roles>
+      <example name="arg1" src="">
         <text>В гости потёрли ?</text>
-        <arg f="" n="0">*PRO*</arg>
-		<arg f="" n="1">В гости</arg>
-		<rel f="">потёрли</rel>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">*PRO*</arg>
+          <arg type="ARG1" start="?" end="?">В гости</arg>
+          <rel relloc="2">потёрли</rel>
+        </propbank>
       </example>
-	</roleset>
+    </roleset>
   </predicate>
-  
 </frameset>

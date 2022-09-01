@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="сровнять">
@@ -6,27 +7,31 @@
         <alias framenet="" pos="v" verbnet="">сровнять</alias>
         <alias framenet="" pos="й" verbnet="">сровнявший</alias>
         <alias framenet="" pos="j" verbnet="">сровненный</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	  <note>NOTES: based on English level.01</note>
+      </aliases>
+      <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+      <note>NOTES: based on English level.01</note>
       <roles>
         <role descr="cause, agent" f="PAG" n="0"/>
         <role descr="thing becoming level" f="PPT" n="1"/>
         <role descr="thing leveled with, ground" f="GOL" n="2"/>
-	  </roles>
-      <example name="ARG1, ARG2, and ARG3" src="inopressa.ru" type="">
-        <text> Бомбы НАТО сровняли с землей комплекс Баб аль-Азизия .</text>
-        <arg f="" n="0">Бомбы НАТО</arg>
-        <rel f="">сровняли</rel>
-	      <arg f="" n="1">комплекс Баб аль-Азизия</arg>
-        <arg f="" n="2">землей</arg>
+      </roles>
+      <example name="ARG1, ARG2, and ARG3" src="inopressa.ru">
+        <text>Бомбы НАТО сровняли с землей комплекс Баб аль - Азизия .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="1">Бомбы НАТО</arg>
+          <rel relloc="2">сровняли</rel>
+          <arg type="ARG1" start="5" end="9">комплекс Баб аль - Азизия</arg>
+          <arg type="ARG2" start="4" end="4">землей</arg>
+        </propbank>
       </example>
-      <example name="Arg1 and Arg2" src="Source here" type="">
+      <example name="Arg1 and Arg2" src="Source here">
         <text>Природа все сровняет .</text>
-        <arg f="" n="0">Природа</arg>
-        <rel f="">сровняет</rel>
-	      <arg f="" n="1">все</arg>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Природа</arg>
+          <rel relloc="2">сровняет</rel>
+          <arg type="ARG1" start="1" end="1">все</arg>
+        </propbank>
       </example>
-	</roleset>
+    </roleset>
   </predicate>
 </frameset>
