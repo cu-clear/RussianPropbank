@@ -37,8 +37,6 @@
       </example>
       <example name="take it on someone's word">
         <text>Это ооочень длинная история , поверьте на слово .</text>
-        <arg f="" n="0">PRO</arg>
-        <arg f="" n="1">PRO</arg>
         <rel f="">поверьте</rel>
 		<arg f="mnr" n="m">на слово</arg>
       </example>

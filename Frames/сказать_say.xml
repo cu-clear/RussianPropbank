@@ -48,7 +48,7 @@
 	  <example name="imperfective, no arguments" src="И. С. Тургенев, «Новь», 1877 г. (цитата из Викитеки).">
         <text>― Ну что, ― начала она, ― сказывай скорей, чем вы решили.</text>
 		<rel f="">сказывай</rel>
-		<arg f="tmp" n="">скорей</arg>
+		<arg f="tmp" n="m">скорей</arg>
       </example>
 	   <example name="arg3" src="">
         <text>Если его нету , то скажите место , я могу скинуть.</text>
@@ -69,7 +69,7 @@
 	</roleset>
   </predicate>
 	
-  <predicate>
+  <predicate lemma="сказаться">
 	<roleset id="сказаться.03" name="become evident/apparent, tell">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">сказываться</alias>

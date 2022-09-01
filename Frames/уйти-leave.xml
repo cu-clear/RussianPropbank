@@ -43,10 +43,19 @@
 		<role descr="in exchange for; greener pastures" f="GOL" n="2"/>
       </roles>
 	  <example name="" src="" type="">
-        <text>Уходить из компании. ◆ Уходить от жены. ◆ Уходить от дел.</text>
-        <arg f="" n="0"> </arg>
-		<arg f="" n="1"></arg>
-		<rel f=""></rel>
+        <text>Уходить из компании.</text>
+        <arg f="" n="0">?</arg>
+		<rel f="">Уходить</rel>
+	  </example>
+	  <example name="" src="" type="">
+        <text>Уходить от жены.</text>
+        <arg f="" n="0">?</arg>
+		<rel f="">Уходить</rel>
+	  </example>
+	  <example name="" src="" type="">
+        <text> Уходить от дел.</text>
+        <arg f="" n="0">?</arg>
+		<rel f="">Уходить</rel>
 	  </example>
 	  <example name="" src="type=">
         <text>Так эти ж моторы на пенсию ушли.</text>

@@ -34,10 +34,9 @@
       </example>
       <example name="do-v" src="" type="">
         <text>Взялся за воспитание - делай это с любовью .</text>
-        <arg f="" n="0">*PRO*</arg>
         <rel f="">делай</rel>
         <arg f="" n="1">это</arg>
-        <arg f="MNR" n="3">с любовью</arg>
+        <arg f="" n="3">с любовью</arg>
       </example>
       <example name="do-v: with benefactive" src="with benefactive" type="with benefactive">
         <text>Интересно стало , а девочкам они как делают ?</text>
@@ -84,7 +83,6 @@
       <example name="make out of" src="" type="">
         <text>Не надо делать из него посмешище .</text>
         <arg f="neg" n="m">Не надо</arg>
-		<arg f="" n="0">PRO</arg>
         <rel f="">делать</rel>
 		<arg f="" n="2">из него</arg>
 		<arg f="" n="1">посмешище</arg>
@@ -142,7 +140,7 @@
     </roleset>
   </predicate>
 
-  <predicate>	
+  <predicate lemma="делать_жизнь">	
 	<roleset id="делать_жизнь-m" name="choose a role model">
        <aliases>
 		<alias framenet="" pos="j" verbnet="">делающий</alias>

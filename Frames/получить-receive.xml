@@ -29,7 +29,6 @@
       </roles>
       <example name="receive awards" src="Russian National Corpus. [коллективный. Форум: Рецензия на фильм «Поймай меня, если сможешь» (2006-2011)]" type="">
         <text>Фильм не зря входит в топы и получил в свое время массу наград .</text>
-        <arg f="" n="0">*PRO*</arg>
         <rel f="">получил</rel> 
 		<arg f="tmp" n="m">в свое время</arg>
         <arg f="" n="1">массу наград</arg>
@@ -44,7 +43,6 @@
 	  <example name="all arguments" src="" type="">
         <text>Возьмите любого режиссёра того времени ( эпохи ) - получите тот же самый так называемый гламур : те же глазки , бровки , тщательные причёсочки , выщпанные бровки - аля Грета Гарбо - и т . д . и т . п .</text>
 		<rel f="">получите</rel>
-		<arg f="" n="0">*PRO*</arg>
         <arg f="" n="1">тот же самый так называемый гламур</arg>
       </example>
 	  <example name="reflexive as passive" src="Russian National Corpus. [П. Н. Милюков. Воспоминания (1859—1917). Том второй (1940-1943)]" type="">
@@ -88,7 +86,6 @@
         <text>С людями мы вежливые , потому что можно получить *PRO* в зубы .</text>
         <arg f="mod" n="m">можно</arg>
         <rel f="">получить</rel>
-		<arg f="" n="0">*PRO*</arg>
 		<arg f="" n="2">в зубы</arg>
       </example>
 	  <example name="arg 1 and 2" src="" type="">
@@ -131,7 +128,6 @@
         <text>И в угле , и в нефти , из которой , как известно , получают бензин и другие моторные топлива , встречаются пять одних и тех же основных элементов : углерод , водород , кислород , азот , сера .</text>
 		<arg f="" n="2">из которой</arg>
 		<arg f="adv" n="m">как известно</arg>
-		<arg f="" n="0">*PRO*</arg>
 		<rel f="">получают</rel>
 		<arg f="" n="1">бензин и другие моторные топлива</arg>
       </example>
@@ -156,7 +152,7 @@
     </roleset>
   </predicate>
   
-  <predicate>
+  <predicate lemma="получиться">
 	<roleset id="получиться.04" name="succeed, happen">
       <aliases>
 		<alias framenet="" pos="j" verbnet="">получившийся</alias>

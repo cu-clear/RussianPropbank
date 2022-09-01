@@ -74,7 +74,7 @@
 	  <example name="reflexive as middle voice" src="" type="">
         <text>Фильм хорошо смотрится .</text>
 		<arg f="" n="1">Фильм</arg>
-		<arg f="mnr" n="1">хорошо</arg>
+		<arg f="mnr" n="m">хорошо</arg>
         <rel f="">смотрится</rel>
       </example>
 	</roleset>
