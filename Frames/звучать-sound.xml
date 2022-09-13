@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="звучать">
+    <roleset id="звучать.01" name="resound, to make sound, to ring">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">звучать</alias>
+        <alias framenet="" pos="v" verbnet="">прозвучать</alias>
+        <alias framenet="" pos="j" verbnet="">звучащий</alias>
+        <alias framenet="" pos="j" verbnet="">прозвучавший</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English sound.02</note>
+      <roles>
+        <role descr="Agent causing ARG1" f="PAG" n="0"/>
+        <role descr="noise-maker" f="PPT" n="1"/>
+        <role descr="the sound itself (the name of the sound/song, etc., not just a characteristic)" f="PPT" n="2"/>
+        <role descr="characteristic of the sound" f="ADJ" n="3"/>
+	  </roles>
+      <example name="ARG2 and 3" src="RNC, Болото 2001" type="">
+        <text>Выстрел прозвучал неожиданно звучно ...</text>
+        <arg f="" n="2">Выстрел</arg>
+        <rel f="">прозвучал</rel>
+	      <arg f="" n="3">звучно</arg>
+      </example>
+      <example name="ARG0 and 2" src="RNC, Фокс Малдер похож на свинью: Повесть, рассказы. — М.: ОГИ, 2001" type="">
+        <text>Голос Лидии Тимофеевны прозвучал откуда-то из угла .</text>
+        <arg f="" n="2">Голос</arg>
+        <arg f="" n="0">Лидии</arg>
+        <rel f="">прозвучал</rel>
+	    </example>
+      <example name="ARG1 and 3" src="RNC, В. Вересаев. Сочинения в четырех томах. Том I. Повести. В тупике: Роман. М.: Правда, 1990" type="">
+        <text>И грустно , уединенно звучал в тумане далекий колокол .</text>
+        <arg f="" n="3">грустно</arg>
+        <arg f="" n="3">уединенно</arg>
+        <rel f="">звучал</rel>
+	      <arg f="" n="1">колокол</arg>
+      </example>
+	</roleset>
+  <roleset id="звучать.02" name="to seem, to appear">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">звучать</alias>
+        <alias framenet="" pos="v" verbnet="">прозвучать</alias>
+        <alias framenet="" pos="j" verbnet="">звучащий</alias>
+        <alias framenet="" pos="j" verbnet="">прозвучавший</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English sound.01</note>
+      <roles>
+        <role descr="thing seeming" f="PAG" n="0"/>
+        <role descr="attribute of arg1" f="PRD" n="1"/>
+        <role descr="viewer" f="PPT" n="2"/>
+	  </roles>
+      <example name="ARG0, 1, and 2" src="RNC, «Коммерсантъ-Власть», 1998, № 12" type="">
+        <text>Для многих в Японии эта речь прозвучала как гром среди ясного неба .</text>
+        <arg f="" n="2">многих</arg>
+        <arg f="" n="0">речь</arg>
+        <rel f="">прозвучала</rel>
+	      <arg f="" n="1">гром</arg>
+      </example>
+      <example name="ARG0 and 1" src="RNC, Звезда, 2002 N11" type="">
+        <text>Умер " как раз перед первым толчком " ― эта фраза звучит как упрёк .</text>
+        <arg f="" n="0">фраза</arg>
+        <rel f="">звучит</rel>
+	      <arg f="" n="1">упрёк</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

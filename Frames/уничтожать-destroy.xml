@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="уничтожать">
@@ -8,22 +7,20 @@
         <alias framenet="" pos="v" verbnet="">уничтожить</alias>
         <alias framenet="" pos="j" verbnet="">уничтоженный</alias>
         <alias framenet="" pos="j" verbnet="">уничтожающий</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-      <note>NOTES: based on English destroy.01</note>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English destroy.01</note>
       <roles>
         <role descr="destroyer" f="PAT" n="0"/>
         <role descr="thing destroyed" f="PPT" n="1"/>
         <role descr="instrument of destruction" f="MNR" n="2"/>
-      </roles>
-      <example name="no instrument" src="Russian National Corpus">
-        <text>Не случайно организатор теракта уничтожал свободный город - космополит , как будто боясь полюбить его .</text>
-        <propbank>
-          <arg type="ARG0" start="2" end="3">организатор теракта</arg>
-          <rel relloc="4">уничтожал</rel>
-          <arg type="ARG1" start="5" end="8">свободный город - космополит</arg>
-        </propbank>
+	  </roles>
+      <example name="no instrument" src="Russian National Corpus" type="">
+        <text>Не случайно организатор теракта уничтожал свободный город-космополит , как будто боясь полюбить его .</text>
+        <arg f="" n="0">организатор теракта</arg>
+        <rel f="">уничтожал</rel>
+	<arg f="" n="1">свободный город-космополит</arg>
       </example>
-    </roleset>
+	</roleset>
   </predicate>
 </frameset>

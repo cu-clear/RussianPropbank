@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="закрывать">
+    <roleset id="закрывать.01" name="close, shut, cover">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">закрывать</alias>
+        <alias framenet="" pos="v" verbnet="">закрыть</alias>
+        <alias framenet="" pos="j" verbnet="">закрывающий</alias>
+        <alias framenet="" pos="j" verbnet="">закрывавший</alias>
+        <alias framenet="" pos="j" verbnet="">закрывший</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English close.01</note>
+      <roles>
+        <role descr="person doing the closing" f="PAG" n="0"/>
+        <role descr="thing closing" f="PPT" n="1"/>
+        <role descr="anti-beneficiary" f="GOL" n="2"/>
+	  </roles>
+      <example name="ARG0 and 1" src="RNC, http://murzilka.km.ru/ «Мурзилка», 2003, № 1-5" type="">
+        <text>Эле-Фантик закрыл глаза и сразу понял, что мысль проросла на славу .</text>
+        <arg f="" n="0">Эле-Фантик</arg>
+        <rel f="">закрыл</rel>
+	      <arg f="" n="1">глаза</arg>
+      </example>
+      <example name="ARG0, 1, and 2" src="RNS, Сати Спивакова. Не всё. «Вагриус», 2002" type="">
+        <text>Просто он закрыл для себя тему Максима Венгерова.</text>
+        <arg f="" n="0">он</arg>
+        <rel f="">закрыл</rel>
+	      <arg f="" n="2">себя</arg>
+        <arg f="" n="1">тему</arg>
+      </example>
+      <example name="ARG0, 1, and 2" src="RNS, 	«Известия», 19.06.2002" type="">
+        <text>В Турции всё смешалось: полиция от греха подальше закрыла улицы для автотранспорта ...</text>
+        <arg f="" n="0">полиция</arg>
+        <rel f="">закрыла</rel>
+        <arg f="" n="1">улицы</arg>
+	      <arg f="" n="2">автотранспортая</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

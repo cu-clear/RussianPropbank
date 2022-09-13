@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="бушевать">
@@ -6,28 +5,24 @@
       <aliases>
         <alias framenet="" pos="v" verbnet="">бушевать</alias>
         <alias framenet="" pos="j" verbnet="">бушующий</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-      <note>NOTES: based on English billow.01</note>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English billow.01</note>
       <roles>
         <role descr="Entity storming" f="PPT" n="1"/>
         <role descr="Location or Direction" f="LOC" n="2"/>
-      </roles>
-      <example name="ARG1 and ARG2" src="south-sudan.ru (Russian Web 2010)">
-        <text>Судан страдает от гражданских войн , которые бушуют на его территории , на протяжении более 40 лет .</text>
-        <propbank>
-          <arg type="ARG1" start="3" end="4">гражданских войн</arg>
-          <rel relloc="7">бушуют</rel>
-          <arg type="ARG2" start="8" end="10">на его территории</arg>
-        </propbank>
+	  </roles>
+      <example name="ARG1 and ARG2" src="south-sudan.ru (Russian Web 2010)" type="">
+        <text>Судан страдает от гражданских войн , которые бушуют на его территории , на протяжении более 40 лет . </text>
+        <arg f="" n="1">гражданских войн</arg>
+        <rel f="">бушуют</rel>
+	      <arg f="" n="2">на его территории</arg>
       </example>
-      <example name="ARG1 only" src="kp.ru (Russian Web 2010)">
+      <example name="ARG1 only" src="kp.ru (Russian Web 2010)" type="">
         <text>До конца недели будет бушевать мощная магнитная буря .</text>
-        <propbank>
-          <arg type="ARG1" start="5" end="7">мощная магнитная буря</arg>
-          <rel relloc="4">бушевать</rel>
-        </propbank>
+        <arg f="" n="1">мощная магнитная буря</arg>
+        <rel f="">бушевать</rel>
       </example>
-    </roleset>
+	</roleset>
   </predicate>
 </frameset>

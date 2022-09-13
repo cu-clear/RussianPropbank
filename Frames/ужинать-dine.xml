@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Ужинать">
+    <roleset id="ужинать.01" name="dine, eat dinner">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">ужинать</alias>
+        <alias framenet="" pos="v" verbnet="">поужинать</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English dine.01</note>
+      <roles>
+        <role descr="eater" f="PAT" n="0"/>
+        <role descr="meal" f="PPT" n="1"/>
+	  </roles>
+      <example name="Arg1 only" src="webweek.ru" type="">
+        <text>Состоятельная пара , Муж и жена , ужинали в дорогом ресторане</text>
+        <arg f="" n="0">Состоятельная пара</arg>
+        <rel f="">ужинали</rel>
+      </example>
+      <example name="Arg1 and Arg2" src="luncher.ru" type="">
+        <text> Однажды мне довелось попасть сюда на завтрак и поесть любимую кашу , в другой раз я ужинал «Цезарем» и сосисками на гриле .</text>
+        <arg f="" n="0">я</arg>
+        <rel f="">« Цезарем » и сосисками на гриле</rel>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

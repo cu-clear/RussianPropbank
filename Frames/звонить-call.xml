@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="звонить">
+    <roleset id="звонить.01" name="To call by phone">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">звонить</alias>
+        <alias framenet="" pos="v" verbnet="">позвонить</alias>
+        <alias framenet="" pos="j" verbnet="">звоняший</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English call.02</note>
+      <roles>
+        <role descr="Caller" f="PAG" n="0"/>
+        <role descr="Entity summoned" f="PPT" n="1"/>
+        <role descr="Medium or phone used" f="MNR" n="2"/>
+	  </roles>
+      <example name="ARG1, 2, and 3" src="ingalatory.ru" type="">
+        <text>Ирина , Вы можете позвонить нам по телефону ...</text>
+        <arg f="" n="0">Вы</arg>
+        <rel f="">позвонить</rel>
+        <arg f="" n="1">нам</rel>
+	      <arg f="" n="2">телефону</arg>
+      </example>
+      <example name="ARG0" src="wertblog.ru" type="">
+        <text>Он еще много раз тогда звонил , а она не отвечала, раз звонил значит все в порядке .</text>
+        <arg f="" n="1">Он</arg>
+        <rel f="">звонил</rel>
+      </example>
+      <example name="ARG1" src="up74.ru" type="">
+        <text>На днях позвонил двоюродный брат .</text>
+        <rel f="">позвонил</rel>
+	      <arg f="" n="1">брат</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

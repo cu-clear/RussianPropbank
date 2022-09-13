@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="смешить">
+    <roleset id="смешить.01" name="To make laugh, to amuse.">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">смешить</alias>
+        <alias framenet="" pos="v" verbnet="">рассмешить</alias>
+        <alias framenet="" pos="j" verbnet="">смешащий</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English amuse.01</note>
+      <roles>
+        <role descr="causer of mirth" f="PAG" n="0"/>
+        <role descr="mirthful entity" f="PPT" n="1"/>
+        <role descr="instrument" f="MNR" n="2"/>
+	  </roles>
+      <example name="ARG0 and 1" src="short-story.ru" type="">
+        <text>Они	рассмешили даже мать мою .</text>
+        <arg f="" n="0">Они</arg>
+        <rel f="">рассмешили</arg>
+        <arg f="" n="1">мать</arg>
+      </example>
+      <example name="ARG1 and 2" src="Russian National Corpus, Гюзель Яхина. Дети мои" type="">
+        <text>... копался в памяти ― искал , какой бы еще историей рассмешить Клару или заставить вздохнуть испуганно.</text>
+        <arg f="" n="2">историей</arg>
+        <rel f="">рассмешить</rel>
+	      <arg f="" n="1">Клару</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

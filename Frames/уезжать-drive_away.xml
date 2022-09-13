@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="уезжать">
+    <roleset id="уезжать.01" name="Drive away, drive off, leave via land-based vehicle or animal">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">уезжать</alias>
+        <alias framenet="" pos="v" verbnet="">уехать</alias>
+        <alias framenet="" pos="j" verbnet="">уезжающий</alias>
+        <alias framenet="" pos="j" verbnet="">уехавший</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English leave.11</note>
+      <roles>
+        <role descr="Entity in motion" f="PAG" n="0"/>
+        <role descr="Starting point, point of departure" f="DIR" n="1"/>
+        <role descr="Destination" f="GOL" n="2"/>
+        <role descr="Vehicle or Animal left upon" f="MNR" n="3"/>
+	  </roles>
+      <example name="Arg0, 1 and 2" src="Russian National Corpus, Computerworld 2004" type="">
+        <text>... они уехали из Иллинойса в Кремниевую Долину .</text>
+        <arg f="" n="0">они</arg>
+        <rel f="">уехали</rel>
+	      <arg f="" n="1">Иллинойса</arg>
+        <arg f="" n="2">Кремниевую Долину</arg>
+      </example>
+      <example name="Arg1 only" src="Russian National Corpus, Криминальная хроника 2003,06,10" type="">
+        <text>Англичане уехали</text>
+        <arg f="" n="0">Англичане</arg>
+        <rel f="">уехали</rel>
+      </example>
+      <example name="Arg0 and 3" src="s-pravdoy.ru" type="">
+        <text>... а сами бандиты уехали на его машине ...</text>
+        <arg f="" n="0">бандиты</arg>
+        <rel f="">уехали</rel>
+	      <arg f="" n="3">машине</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>
