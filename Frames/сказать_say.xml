@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="сказать.01" name="say">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сказывать</alias>
-        <alias framenet="" pos="v" verbnet="">сказаться</alias>
+        <alias pos="v">сказывать</alias>
+        <alias pos="v">сказаться</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 1</note>
       <note>NOTES: Based on say.01.</note>
@@ -86,7 +86,7 @@
   <predicate lemma="сказаться">
     <roleset id="сказаться.03" name="become evident/apparent, tell">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сказываться</alias>
+        <alias pos="v">сказываться</alias>
       </aliases>
       <note>NOTES: Based on tell.01.</note>
       <roles>

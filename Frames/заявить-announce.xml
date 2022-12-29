@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="заявить.01" name="say, declare, announce">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">заявлять</alias>
-        <alias framenet="" pos="j" verbnet="">заявляться</alias>
+        <alias pos="j">заявлять</alias>
+        <alias pos="j">заявляться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,6,7</note>
       <note>заявить.01 NOTES: Based on declare.01.</note>
@@ -66,9 +66,9 @@
     </roleset>
     <roleset id="заявить.02" name="accuse, tattle">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">заявлять</alias>
-        <alias framenet="" pos="j" verbnet="">заявиться</alias>
-        <alias framenet="" pos="v" verbnet="">заявляться</alias>
+        <alias pos="j">заявлять</alias>
+        <alias pos="j">заявиться</alias>
+        <alias pos="v">заявляться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 2,3,4,5</note>
       <note>заявить.02 NOTES: Based on register.02.</note>
@@ -125,7 +125,7 @@
     </roleset>
     <roleset id="заявить.03" name="appear, arrive suddenly and unexpectedly">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">заявляться</alias>
+        <alias pos="j">заявляться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses </note>
       <note>заявить.03 NOTES: Based on show_up.02.</note>

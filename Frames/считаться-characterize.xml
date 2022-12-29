@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="считаться.01" name="consider, be counted as">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">посчитать</alias>
-        <alias framenet="" pos="v" verbnet="">считать</alias>
-        <alias framenet="" pos="v" verbnet="">счесть</alias>
+        <alias pos="v">посчитать</alias>
+        <alias pos="v">считать</alias>
+        <alias pos="v">счесть</alias>
       </aliases>
       <note>считаться.01 NOTES: Based on English PB characterize.01 or deem.01.</note>
       <roles>
@@ -60,8 +60,8 @@
     </roleset>
     <roleset id="считаться.02" name="reckon with; take into consideration">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">посчитаться</alias>
-        <alias framenet="" pos="v" verbnet="">считать</alias>
+        <alias pos="v">посчитаться</alias>
+        <alias pos="v">считать</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 2</note>
       <note>считаться.02 NOTES: Based on reckon.02.</note>
@@ -97,7 +97,7 @@
     </roleset>
     <roleset id="считаться.04" name="settle accounts">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">cосчитаться</alias>
+        <alias pos="v">cосчитаться</alias>
       </aliases>
       <note>считаться.04 NOTES: Based on settle.02.</note>
       <roles>
@@ -119,7 +119,7 @@
   <predicate lemma="считай">
     <roleset id="считай.05" name="discourse marker">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">считайте</alias>
+        <alias pos="v">считайте</alias>
       </aliases>
       <note>считай.05 NOTES: No English PB equivalent.</note>
       <roles/>
@@ -128,7 +128,7 @@
   <predicate lemma="считать_ворон">
     <roleset id="считать_ворон.06" name="daydream, be lazy, bum around">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">считать_галок</alias>
+        <alias pos="m">считать_галок</alias>
         <mwe id="считать_ворон">
           <token slot="A" arg="" pos="" head="" dep="">считать</token>
           <token slot="B" arg="" pos="" head="A" dep="">ворон</token>

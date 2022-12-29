@@ -5,22 +5,22 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="вести.01" name="directed motion, be ahead of, lead">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">ведущий</alias>
-        <alias framenet="" pos="j" verbnet="">ведомый</alias>
-        <alias framenet="" pos="j" verbnet="">ведённый</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="v" verbnet="">водить</alias>
-        <alias framenet="" pos="j" verbnet="">водящий</alias>
-        <alias framenet="" pos="j" verbnet="">водивший</alias>
-        <alias framenet="" pos="j" verbnet="">водимый</alias>
-        <alias framenet="" pos="j" verbnet="">воженный</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="v" verbnet="">повести</alias>
-        <alias framenet="" pos="j" verbnet="">поведший</alias>
-        <alias framenet="" pos="j" verbnet="">поведённый</alias>
-        <alias framenet="" pos="j" verbnet="">поведенный</alias>
-        <alias framenet="" pos="n" verbnet="">вождение</alias>
-        <alias framenet="" pos="n" verbnet="">ведение</alias>
+        <alias pos="j">ведущий</alias>
+        <alias pos="j">ведомый</alias>
+        <alias pos="j">ведённый</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="v">водить</alias>
+        <alias pos="j">водящий</alias>
+        <alias pos="j">водивший</alias>
+        <alias pos="j">водимый</alias>
+        <alias pos="j">воженный</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="v">повести</alias>
+        <alias pos="j">поведший</alias>
+        <alias pos="j">поведённый</alias>
+        <alias pos="j">поведенный</alias>
+        <alias pos="n">вождение</alias>
+        <alias pos="n">ведение</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,14</note>
       <note>вести.01 NOTES: Based on English lead.01</note>
@@ -43,22 +43,22 @@
     </roleset>
     <roleset id="вести.02" name="guide, direct, accompany">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">ведущий</alias>
-        <alias framenet="" pos="j" verbnet="">ведший</alias>
-        <alias framenet="" pos="j" verbnet="">ведомый</alias>
-        <alias framenet="" pos="j" verbnet="">ведённый</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="v" verbnet="">водить</alias>
-        <alias framenet="" pos="j" verbnet="">водящий</alias>
-        <alias framenet="" pos="j" verbnet="">водивший</alias>
-        <alias framenet="" pos="j" verbnet="">водимый</alias>
-        <alias framenet="" pos="j" verbnet="">воженный</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="v" verbnet="">повести</alias>
-        <alias framenet="" pos="j" verbnet="">поведший</alias>
-        <alias framenet="" pos="j" verbnet="">поведённый</alias>
-        <alias framenet="" pos="j" verbnet="">поведенный</alias>
-        <alias framenet="" pos="n" verbnet="">вождение</alias>
+        <alias pos="j">ведущий</alias>
+        <alias pos="j">ведший</alias>
+        <alias pos="j">ведомый</alias>
+        <alias pos="j">ведённый</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="v">водить</alias>
+        <alias pos="j">водящий</alias>
+        <alias pos="j">водивший</alias>
+        <alias pos="j">водимый</alias>
+        <alias pos="j">воженный</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="v">повести</alias>
+        <alias pos="j">поведший</alias>
+        <alias pos="j">поведённый</alias>
+        <alias pos="j">поведенный</alias>
+        <alias pos="n">вождение</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 2</note>
       <note>вести.02 NOTES: Based on English guide.01</note>
@@ -107,23 +107,23 @@
     </roleset>
     <roleset id="вести.03" name="drive or operate a vehicle, or be driven">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">ведущий</alias>
-        <alias framenet="" pos="j" verbnet="">ведший</alias>
-        <alias framenet="" pos="j" verbnet="">ведомый</alias>
-        <alias framenet="" pos="j" verbnet="">ведённый</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="v" verbnet="">водить</alias>
-        <alias framenet="" pos="j" verbnet="">водящий</alias>
-        <alias framenet="" pos="j" verbnet="">водивший</alias>
-        <alias framenet="" pos="j" verbnet="">водимый</alias>
-        <alias framenet="" pos="j" verbnet="">воженный</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="v" verbnet="">повести</alias>
-        <alias framenet="" pos="j" verbnet="">поведший</alias>
-        <alias framenet="" pos="j" verbnet="">поведённый</alias>
-        <alias framenet="" pos="j" verbnet="">поведенный</alias>
-        <alias framenet="" pos="n" verbnet="">вождение</alias>
-        <alias framenet="" pos="n" verbnet="">ведение</alias>
+        <alias pos="j">ведущий</alias>
+        <alias pos="j">ведший</alias>
+        <alias pos="j">ведомый</alias>
+        <alias pos="j">ведённый</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="v">водить</alias>
+        <alias pos="j">водящий</alias>
+        <alias pos="j">водивший</alias>
+        <alias pos="j">водимый</alias>
+        <alias pos="j">воженный</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="v">повести</alias>
+        <alias pos="j">поведший</alias>
+        <alias pos="j">поведённый</alias>
+        <alias pos="j">поведенный</alias>
+        <alias pos="n">вождение</alias>
+        <alias pos="n">ведение</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 3</note>
       <note>вести.03 NOTES: Based on English drive.01</note>
@@ -143,16 +143,16 @@
     </roleset>
     <roleset id="вести.04" name="supervise, be a project leader or chair">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">ведущий</alias>
-        <alias framenet="" pos="j" verbnet="">ведший</alias>
-        <alias framenet="" pos="j" verbnet="">ведомый</alias>
-        <alias framenet="" pos="j" verbnet="">ведённый</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="v" verbnet="">повести</alias>
-        <alias framenet="" pos="j" verbnet="">поведший</alias>
-        <alias framenet="" pos="j" verbnet="">поведённый</alias>
-        <alias framenet="" pos="j" verbnet="">поведенный</alias>
-        <alias framenet="" pos="n" verbnet="">ведение</alias>
+        <alias pos="j">ведущий</alias>
+        <alias pos="j">ведший</alias>
+        <alias pos="j">ведомый</alias>
+        <alias pos="j">ведённый</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="v">повести</alias>
+        <alias pos="j">поведший</alias>
+        <alias pos="j">поведённый</alias>
+        <alias pos="j">поведенный</alias>
+        <alias pos="n">ведение</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 8,10</note>
       <note>вести.04 NOTES: Based on lead.02</note>
@@ -186,23 +186,23 @@
     </roleset>
     <roleset id="вести.05" name="move something along a surface">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">ведущий</alias>
-        <alias framenet="" pos="j" verbnet="">ведший</alias>
-        <alias framenet="" pos="j" verbnet="">ведомый</alias>
-        <alias framenet="" pos="j" verbnet="">ведённый</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="v" verbnet="">водить</alias>
-        <alias framenet="" pos="j" verbnet="">водящий</alias>
-        <alias framenet="" pos="j" verbnet="">водивший</alias>
-        <alias framenet="" pos="j" verbnet="">водимый</alias>
-        <alias framenet="" pos="j" verbnet="">воженный</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="v" verbnet="">повести</alias>
-        <alias framenet="" pos="j" verbnet="">поведший</alias>
-        <alias framenet="" pos="j" verbnet="">поведённый</alias>
-        <alias framenet="" pos="j" verbnet="">поведенный</alias>
-        <alias framenet="" pos="n" verbnet="">вождение</alias>
-        <alias framenet="" pos="n" verbnet="">ведение</alias>
+        <alias pos="j">ведущий</alias>
+        <alias pos="j">ведший</alias>
+        <alias pos="j">ведомый</alias>
+        <alias pos="j">ведённый</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="v">водить</alias>
+        <alias pos="j">водящий</alias>
+        <alias pos="j">водивший</alias>
+        <alias pos="j">водимый</alias>
+        <alias pos="j">воженный</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="v">повести</alias>
+        <alias pos="j">поведший</alias>
+        <alias pos="j">поведённый</alias>
+        <alias pos="j">поведенный</alias>
+        <alias pos="n">вождение</alias>
+        <alias pos="n">ведение</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 5</note>
       <note>вести.05 NOTES: Based on English walk.01, but figurative, ergative sense only</note>
@@ -231,17 +231,17 @@
     </roleset>
     <roleset id="вести.06" name="lead to, cause a result, have terminus">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">ведущий</alias>
-        <alias framenet="" pos="j" verbnet="">ведший</alias>
-        <alias framenet="" pos="j" verbnet="">ведомый</alias>
-        <alias framenet="" pos="j" verbnet="">ведённый</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="j" verbnet="">веденный</alias>
-        <alias framenet="" pos="v" verbnet="">повести</alias>
-        <alias framenet="" pos="j" verbnet="">поведший</alias>
-        <alias framenet="" pos="j" verbnet="">поведённый</alias>
-        <alias framenet="" pos="j" verbnet="">поведенный</alias>
-        <alias framenet="" pos="n" verbnet="">ведение</alias>
+        <alias pos="j">ведущий</alias>
+        <alias pos="j">ведший</alias>
+        <alias pos="j">ведомый</alias>
+        <alias pos="j">ведённый</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="j">веденный</alias>
+        <alias pos="v">повести</alias>
+        <alias pos="j">поведший</alias>
+        <alias pos="j">поведённый</alias>
+        <alias pos="j">поведенный</alias>
+        <alias pos="n">ведение</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 4,6,7</note>
       <note>вести.06 NOTES: somewhat based on lead.03. See also VerbNet "terminus" class.</note>

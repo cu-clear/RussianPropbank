@@ -33,7 +33,7 @@
     </roleset>
     <roleset id="представлять.02" name="represent">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">представить</alias>
+        <alias pos="v">представить</alias>
       </aliases>
       <note>представлять.02 NOTES: Roleset based on English verb frame represent.01 </note>
       <note>Corresponds to FrameBank sense 7</note>
@@ -53,9 +53,9 @@
     </roleset>
     <roleset id="представлять.03" name="depict, present, show to be, appear as">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">представить</alias>
-        <alias framenet="" pos="v" verbnet="">представиться</alias>
-        <alias framenet="" pos="v" verbnet="">представляться</alias>
+        <alias pos="v">представить</alias>
+        <alias pos="v">представиться</alias>
+        <alias pos="v">представляться</alias>
       </aliases>
       <note>представлять.03 NOTES: Roleset based on English verb frame depict.01</note>
       <note>Corresponds to FrameBank sense 4,9; -ся 5</note>
@@ -93,9 +93,9 @@
     </roleset>
     <roleset id="представлять.04" name="present, hand, turn in, offer, give, cause">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">представить</alias>
-        <alias framenet="" pos="v" verbnet="">представиться</alias>
-        <alias framenet="" pos="v" verbnet="">представляться</alias>
+        <alias pos="v">представить</alias>
+        <alias pos="v">представиться</alias>
+        <alias pos="v">представляться</alias>
       </aliases>
       <note>представлять.04 NOTES:Roleset based on English verb frame present.01</note>
       <note>Corresponds to FrameBank sense 1, 2; -ся 2</note>
@@ -173,10 +173,10 @@
     </roleset>
     <roleset id="представлять.05" name="introduce">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">представить</alias>
-        <alias framenet="" pos="v" verbnet="">представиться</alias>
-        <alias framenet="" pos="v" verbnet="">представляться</alias>
-        <alias framenet="" pos="n" verbnet="">представление</alias>
+        <alias pos="v">представить</alias>
+        <alias pos="v">представиться</alias>
+        <alias pos="v">представляться</alias>
+        <alias pos="n">представление</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 3,8; -ся 1</note>
       <note>представлять.05 NOTES:Roleset based on English verb frame introduce.01</note>
@@ -208,9 +208,9 @@
     </roleset>
     <roleset id="представлять.06" name="imagine, picture">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">представить</alias>
-        <alias framenet="" pos="v" verbnet="">представиться</alias>
-        <alias framenet="" pos="v" verbnet="">представляться</alias>
+        <alias pos="v">представить</alias>
+        <alias pos="v">представиться</alias>
+        <alias pos="v">представляться</alias>
       </aliases>
       <note>представлять.06 NOTES:Roleset based on English verb frame picture.01</note>
       <note>Corresponds to FrameBank sense 5; -ся 3</note>
@@ -254,7 +254,7 @@
   <predicate>
     <roleset id="представляться.07" name="pretend to be, present self as, appear to be">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">представиться</alias>
+        <alias pos="v">представиться</alias>
       </aliases>
       <note>представляться.07 NOTES:Roleset based on English verb frame pretend.01</note>
       <note>Corresponds to FrameBank sense -ся 4</note>

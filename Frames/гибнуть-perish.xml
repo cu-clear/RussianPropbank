@@ -4,16 +4,16 @@
   <predicate lemma="гибнуть">
     <roleset id="гибнуть.01" name="perish">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">гибнуть</alias>
-        <alias framenet="" pos="j" verbnet="">гибнущий</alias>
-        <alias framenet="" pos="j" verbnet="">гибнувший</alias>
-        <alias framenet="" pos="v" verbnet="">сгибнуть</alias>
-        <alias framenet="" pos="j" verbnet="">сгибший</alias>
-        <alias framenet="" pos="v" verbnet="">погибнуть</alias>
-        <alias framenet="" pos="j" verbnet="">погибший</alias>
-        <alias framenet="" pos="v" verbnet="">погибать</alias>
-        <alias framenet="" pos="j" verbnet="">погибающий</alias>
-        <alias framenet="" pos="j" verbnet="">погибавший</alias>
+        <alias pos="v">гибнуть</alias>
+        <alias pos="j">гибнущий</alias>
+        <alias pos="j">гибнувший</alias>
+        <alias pos="v">сгибнуть</alias>
+        <alias pos="j">сгибший</alias>
+        <alias pos="v">погибнуть</alias>
+        <alias pos="j">погибший</alias>
+        <alias pos="v">погибать</alias>
+        <alias pos="j">погибающий</alias>
+        <alias pos="j">погибавший</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2</note>
       <note>NOTES: based on English perish.01</note>

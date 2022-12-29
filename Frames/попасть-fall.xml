@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="попасть.01" name="hit target, achieve, reach">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">попадать</alias>
-        <alias framenet="" pos="n" verbnet="">попадание</alias>
+        <alias pos="v">попадать</alias>
+        <alias pos="n">попадание</alias>
       </aliases>
       <note>попасть.01 NOTES: Roleset based on English verb frame hit.01 </note>
       <note>Corresponds to FrameBank senses 2</note>
@@ -32,9 +32,9 @@
     </roleset>
     <roleset id="попасть.02" name="fall upon, in or on, end up, get into, find self, become (often unexpectedly or suddenly)">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">попадать</alias>
-        <alias framenet="" pos="v" verbnet="">попасться </alias>
-        <alias framenet="" pos="v" verbnet="">попадаться</alias>
+        <alias pos="v">попадать</alias>
+        <alias pos="v">попасться </alias>
+        <alias pos="v">попадаться</alias>
       </aliases>
       <note>попасть.02 NOTES: Roleset based on English verb frame end_up.03</note>
       <note>Corresponds to FrameBank senses 1, 3-6; -ся 1</note>
@@ -96,9 +96,9 @@
     </roleset>
     <roleset id="попасть.03" name="find, encounter, run into (usually unexpectedly)">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">попадать</alias>
-        <alias framenet="" pos="v" verbnet="">попасться </alias>
-        <alias framenet="" pos="v" verbnet="">попадаться</alias>
+        <alias pos="v">попадать</alias>
+        <alias pos="v">попасться </alias>
+        <alias pos="v">попадаться</alias>
       </aliases>
       <note>попасть.03 NOTES: Roleset based on English verb frame encounter.01</note>
       <note>Corresponds to FrameBank sense 7 *FrameBank -ся 3, 4</note>
@@ -127,7 +127,7 @@
     </roleset>
     <roleset id="попасть.04" name="gonna get it, get in trouble, receive punishment">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">попадать</alias>
+        <alias pos="v">попадать</alias>
       </aliases>
       <note>попасть.04 NOTES: Roleset based on English verb frame punish.01</note>
       <note>Corresponds to FrameBank sense </note>
@@ -161,7 +161,7 @@
   <predicate lemma="попасться">
     <roleset id="попасться.05" name="be caught, snared">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">попадаться</alias>
+        <alias pos="v">попадаться</alias>
       </aliases>
       <note>попасться.05 NOTES: Roleset based on English verb frame snare.01</note>
       <note>Corresponds to FrameBank sense 2</note>

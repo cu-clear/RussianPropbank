@@ -93,8 +93,8 @@
     </roleset>
     <roleset id="бежать.03" name="run away, escape">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сбежать</alias>
-        <alias framenet="" pos="n" verbnet="">побег </alias>
+        <alias pos="v">сбежать</alias>
+        <alias pos="n">побег</alias>
       </aliases>
       <note>бежать.03 NOTES:No Frame match in English.</note>
       <note>Corresponds to FrameBank sense 2</note>
@@ -114,7 +114,7 @@
         <text>Это бежат сотни и тысячи испуганных рыб , спасающихся от преследования прожорливого хищника .</text>
         <propbank>
           <rel relloc="1">бежат</rel>
-          <arg type="ARGo" start="2" end="6">сотни и тысячи испуганных рыб</arg>
+          <arg type="ARG0" start="2" end="6">сотни и тысячи испуганных рыб</arg>
         </propbank>
       </example>
       <example name="runs away" src="нар. песня на основе стихотворения; А. С. Пушкина, «Как ныне сбирается вещий Олег...», 1910-е г">

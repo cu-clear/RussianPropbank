@@ -5,11 +5,11 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="пострадать.01" name="suffer, endure">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">страдать</alias>
-        <alias framenet="" pos="j" verbnet="">страдающий</alias>
-        <alias framenet="" pos="j" verbnet="">страдавший</alias>
-        <alias framenet="" pos="v" verbnet="">пострадать</alias>
-        <alias framenet="" pos="j" verbnet="">пострадавший</alias>
+        <alias pos="v">страдать</alias>
+        <alias pos="j">страдающий</alias>
+        <alias pos="j">страдавший</alias>
+        <alias pos="v">пострадать</alias>
+        <alias pos="j">пострадавший</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,4,5</note>
       <note>ПОСТРАДАТЬ.01 NOTES: Based on English suffer.01</note>

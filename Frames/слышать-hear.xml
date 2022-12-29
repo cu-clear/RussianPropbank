@@ -5,18 +5,18 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="слышать.01" name="sense, hear, smell">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">слышащий</alias>
-        <alias framenet="" pos="j" verbnet="">слышавший</alias>
-        <alias framenet="" pos="j" verbnet="">слышимый</alias>
-        <alias framenet="" pos="j" verbnet="">слышанный</alias>
-        <alias framenet="" pos="v" verbnet="">услышать</alias>
-        <alias framenet="" pos="j" verbnet="">услышавший</alias>
-        <alias framenet="" pos="j" verbnet="">услышанный</alias>
-        <alias framenet="" pos="v" verbnet="">послышаться</alias>
-        <alias framenet="" pos="j" verbnet="">слышащийся</alias>
-        <alias framenet="" pos="j" verbnet="">слышавшийся</alias>
-        <alias framenet="" pos="j" verbnet="">услышаться</alias>
-        <alias framenet="" pos="j" verbnet="">услышавшийся</alias>
+        <alias pos="j">слышащий</alias>
+        <alias pos="j">слышавший</alias>
+        <alias pos="j">слышимый</alias>
+        <alias pos="j">слышанный</alias>
+        <alias pos="v">услышать</alias>
+        <alias pos="j">услышавший</alias>
+        <alias pos="j">услышанный</alias>
+        <alias pos="v">послышаться</alias>
+        <alias pos="j">слышащийся</alias>
+        <alias pos="j">слышавшийся</alias>
+        <alias pos="j">услышаться</alias>
+        <alias pos="j">услышавшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,4,5</note>
       <note>слышать.01 NOTES: Based on hear.01.</note>

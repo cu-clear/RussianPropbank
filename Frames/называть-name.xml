@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="называть.01" name="name, entitle, label, characterize by a name/title/nickname/etc.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">назвать</alias>
-        <alias framenet="" pos="v" verbnet="">называться</alias>
-        <alias framenet="" pos="v" verbnet="">назваться</alias>
+        <alias pos="v">назвать</alias>
+        <alias pos="v">называться</alias>
+        <alias pos="v">назваться</alias>
       </aliases>
       <note>называть.01 NOTES: based on English name.01</note>
       <note>Corresponds to FrameBank senses 1,2</note>
@@ -47,9 +47,9 @@
     </roleset>
     <roleset id="называть.02" name="identify (by name), pronounce, call">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">назвать </alias>
-        <alias framenet="" pos="v" verbnet="">называться</alias>
-        <alias framenet="" pos="v" verbnet="">назваться</alias>
+        <alias pos="v">назвать </alias>
+        <alias pos="v">называться</alias>
+        <alias pos="v">назваться</alias>
       </aliases>
       <note>называть.02 NOTES: Roleset based on English verb frame identify.01</note>
       <note>Corresponds to FrameBank sense 3, 4</note>
@@ -77,10 +77,10 @@
     </roleset>
     <roleset id="называть.03" name="invite a lot of people">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">назвать </alias>
-        <alias framenet="" pos="v" verbnet="">называться</alias>
-        <alias framenet="" pos="v" verbnet="">назваться</alias>
-        <alias framenet="" pos="v" verbnet="">звать</alias>
+        <alias pos="v">назвать </alias>
+        <alias pos="v">называться</alias>
+        <alias pos="v">назваться</alias>
+        <alias pos="v">звать</alias>
       </aliases>
       <note>называть.03 NOTES: based on English invite.01</note>
       <roles>

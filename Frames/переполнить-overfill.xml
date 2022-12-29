@@ -5,18 +5,18 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="переполнить.01" name="overfill">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">переполнен</alias>
-        <alias framenet="" pos="j" verbnet="">переполненный</alias>
-        <alias framenet="" pos="j" verbnet="">переполнивший</alias>
-        <alias framenet="" pos="v" verbnet="">переполнять</alias>
-        <alias framenet="" pos="j" verbnet="">переполняющий</alias>
-        <alias framenet="" pos="j" verbnet="">переполнявший</alias>
-        <alias framenet="" pos="j" verbnet="">переполняемый</alias>
-        <alias framenet="" pos="v" verbnet="">переполниться</alias>
-        <alias framenet="" pos="j" verbnet="">переполнившийся</alias>
-        <alias framenet="" pos="v" verbnet="">переполняться</alias>
-        <alias framenet="" pos="j" verbnet="">переполняющийся</alias>
-        <alias framenet="" pos="j" verbnet="">переполнявшийся</alias>
+        <alias pos="j">переполнен</alias>
+        <alias pos="j">переполненный</alias>
+        <alias pos="j">переполнивший</alias>
+        <alias pos="v">переполнять</alias>
+        <alias pos="j">переполняющий</alias>
+        <alias pos="j">переполнявший</alias>
+        <alias pos="j">переполняемый</alias>
+        <alias pos="v">переполниться</alias>
+        <alias pos="j">переполнившийся</alias>
+        <alias pos="v">переполняться</alias>
+        <alias pos="j">переполняющийся</alias>
+        <alias pos="j">переполнявшийся</alias>
       </aliases>
       <note>переполнить.01 NOTES: Roleset based on English verb frame fill.01</note>
       <roles>

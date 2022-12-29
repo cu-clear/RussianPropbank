@@ -3,10 +3,10 @@
   <predicate lemma="уничтожать">
     <roleset id="уничтожить.01" name="destroy">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уничтожать</alias>
-        <alias framenet="" pos="v" verbnet="">уничтожить</alias>
-        <alias framenet="" pos="j" verbnet="">уничтоженный</alias>
-        <alias framenet="" pos="j" verbnet="">уничтожающий</alias>
+        <alias pos="v">уничтожать</alias>
+        <alias pos="v">уничтожить</alias>
+        <alias pos="j">уничтоженный</alias>
+        <alias pos="j">уничтожающий</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English destroy.01</note>

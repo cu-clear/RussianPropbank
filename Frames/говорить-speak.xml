@@ -6,8 +6,8 @@
     <note>говорить.01 NOTES: NO PERFECTIVE.</note>
     <roleset id="говорить.01" name="speak, say, (be able to) talk, pronounce">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">говориться</alias>
-        <alias framenet="" pos="v" verbnet="">поговорить</alias>
+        <alias pos="v">говориться</alias>
+        <alias pos="v">поговорить</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,4,5,8,9</note>
       <note>говорить.01 NOTES: Based on say.01.</note>

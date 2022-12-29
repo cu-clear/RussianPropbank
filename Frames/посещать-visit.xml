@@ -4,10 +4,10 @@
   <predicate lemma="посещать">
     <roleset id="посещать.01" name="Visit, travel to see, attend.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">посещать</alias>
-        <alias framenet="" pos="v" verbnet="">посетить</alias>
-        <alias framenet="" pos="j" verbnet="">посещающий</alias>
-        <alias framenet="" pos="j" verbnet="">посетивший</alias>
+        <alias pos="v">посещать</alias>
+        <alias pos="v">посетить</alias>
+        <alias pos="j">посещающий</alias>
+        <alias pos="j">посетивший</alias>
       </aliases>
       <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
       <note>NOTES: based on English visit.01</note>

@@ -59,10 +59,10 @@
     </roleset>
     <roleset id="утверждать.02" name="confirm, establish, certify, approve, appoint">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">утвердить</alias>
-        <alias framenet="" pos="v" verbnet="">утвердиться</alias>
-        <alias framenet="" pos="v" verbnet="">утверждаться</alias>
-        <alias framenet="" pos="n" verbnet="">утверждение</alias>
+        <alias pos="v">утвердить</alias>
+        <alias pos="v">утвердиться</alias>
+        <alias pos="v">утверждаться</alias>
+        <alias pos="n">утверждение</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3</note>
       <note>NOTES: Based on expansion of English confirm.02.</note>
@@ -102,12 +102,12 @@
   <predicate lemma="утвердить">
     <roleset id="утвердить.03" name="reinforce, strengthen, maintain">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">утвердить</alias>
-        <alias framenet="" pos="j" verbnet="">утвердивший</alias>
-        <alias framenet="" pos="j" verbnet="">утверждённый</alias>
-        <alias framenet="" pos="j" verbnet="">утвержденный</alias>
-        <alias framenet="" pos="v" verbnet="">утвердиться</alias>
-        <alias framenet="" pos="j" verbnet="">утвердившийся</alias>
+        <alias pos="v">утвердить</alias>
+        <alias pos="j">утвердивший</alias>
+        <alias pos="j">утверждённый</alias>
+        <alias pos="j">утвержденный</alias>
+        <alias pos="v">утвердиться</alias>
+        <alias pos="j">утвердившийся</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 4</note>
       <note>NOTES: Based on reinforce.03.</note>

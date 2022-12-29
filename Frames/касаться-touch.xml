@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="касаться.01" name="touch, be or come into contact with, literally or metpahorically">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">коснуться</alias>
-        <alias framenet="" pos="n" verbnet="">касание</alias>
+        <alias pos="v">коснуться</alias>
+        <alias pos="n">касание</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1</note>
       <note>касаться.01 NOTES: based on English touch.01</note>
@@ -37,7 +37,7 @@
     </roleset>
     <roleset id="касаться.02" name="concern, involve, relate, matter">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">коснуться</alias>
+        <alias pos="v">коснуться</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 3</note>
       <note>касаться.02 NOTES: Roleset based on English verb frame concern.02</note>

@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="числиться.01" name="listed, counted among, included">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">числящийся</alias>
-        <alias framenet="" pos="v" verbnet="">числить</alias>
-        <alias framenet="" pos="j" verbnet="">числящий</alias>
+        <alias pos="j">числящийся</alias>
+        <alias pos="v">числить</alias>
+        <alias pos="j">числящий</alias>
       </aliases>
       <note>числиться.01 NOTES: Based on find.01.</note>
       <roles>

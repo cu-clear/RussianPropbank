@@ -5,20 +5,20 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="понять.01" name="understand">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">понявший</alias>
-        <alias framenet="" pos="v" verbnet="">понявши</alias>
-        <alias framenet="" pos="v" verbnet="">поняв</alias>
-        <alias framenet="" pos="v" verbnet="">понимать</alias>
-        <alias framenet="" pos="j" verbnet="">понимающий</alias>
-        <alias framenet="" pos="j" verbnet="">понимавший</alias>
-        <alias framenet="" pos="v" verbnet="">понимавши</alias>
-        <alias framenet="" pos="v" verbnet="">понимав</alias>
-        <alias framenet="" pos="j" verbnet="">понимаемый</alias>
-        <alias framenet="" pos="v" verbnet="">пониматься</alias>
-        <alias framenet="" pos="j" verbnet="">понимающийся</alias>
-        <alias framenet="" pos="v" verbnet="">понимаясь</alias>
-        <alias framenet="" pos="v" verbnet="">понимавшись</alias>
-        <alias framenet="" pos="j" verbnet="">понимавшийся</alias>
+        <alias pos="j">понявший</alias>
+        <alias pos="v">понявши</alias>
+        <alias pos="v">поняв</alias>
+        <alias pos="v">понимать</alias>
+        <alias pos="j">понимающий</alias>
+        <alias pos="j">понимавший</alias>
+        <alias pos="v">понимавши</alias>
+        <alias pos="v">понимав</alias>
+        <alias pos="j">понимаемый</alias>
+        <alias pos="v">пониматься</alias>
+        <alias pos="j">понимающийся</alias>
+        <alias pos="v">понимаясь</alias>
+        <alias pos="v">понимавшись</alias>
+        <alias pos="j">понимавшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,4</note>
       <note>понять.01 NOTES: Based on understand.01.</note>

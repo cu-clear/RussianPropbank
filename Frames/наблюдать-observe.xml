@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="наблюдать.01" name="observe, look at, mark, watch over">
       <aliases>
-        <alias framenet="" pos="n" verbnet="">понаблюдать</alias>
-        <alias framenet="" pos="n" verbnet="">наблюдаться</alias>
+        <alias pos="n">понаблюдать</alias>
+        <alias pos="n">наблюдаться</alias>
       </aliases>
       <note>наблюдать.01 NOTES: Roleset based on English verb frame observe.01</note>
       <note>Corresponds to FrameBank senses 1,2,3</note>

@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="иметь.01" name="have">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">заиметь</alias>
-        <alias framenet="" pos="v" verbnet="">иметься</alias>
+        <alias pos="v">заиметь</alias>
+        <alias pos="v">иметься</alias>
       </aliases>
       <note>иметь.01 NOTES: Based on have.03.</note>
       <roles>
@@ -99,7 +99,7 @@
   <predicate lemma="иметь_ввиду">
     <roleset id="иметь_ввиду.04" name="mean, have in mind">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">иметь_в_виду</alias>
+        <alias pos="m">иметь_в_виду</alias>
         <mwe id="иметь_ввиду">
           <token slot="A" arg="" pos="" head="" dep="">иметь</token>
           <token slot="B" arg="" pos="" head="A" dep="">ввиду</token>
@@ -126,7 +126,7 @@
   <predicate lemma="иметь_место">
     <roleset id="иметь_место.05" name="have/take place">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">иметься_место</alias>
+        <alias pos="m">иметься_место</alias>
         <mwe id="иметь_место">
           <token slot="A" arg="" pos="" head="" dep="">иметь</token>
           <token slot="A" arg="" pos="" head="" dep="">иметься</token>

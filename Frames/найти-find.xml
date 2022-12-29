@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="найти.01" name="find">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">находить</alias>
-        <alias framenet="" pos="v" verbnet="">находиться</alias>
+        <alias pos="v">находить</alias>
+        <alias pos="v">находиться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3</note>
       <note>найти.01 NOTES: based on English find.01</note>
@@ -77,8 +77,8 @@
     </roleset>
     <roleset id="найти.02" name="discover, find out">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">находить</alias>
-        <alias framenet="" pos="v" verbnet="">находиться</alias>
+        <alias pos="v">находить</alias>
+        <alias pos="v">находиться</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 4</note>
       <note>найти.02 NOTES: based on English discover.01</note>
@@ -99,8 +99,8 @@
     </roleset>
     <roleset id="найти.03" name="adjudge">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">находить</alias>
-        <alias framenet="" pos="v" verbnet="">находиться</alias>
+        <alias pos="v">находить</alias>
+        <alias pos="v">находиться</alias>
       </aliases>
       <note>найти.03 NOTES based on English find.02</note>
       <roles>
@@ -130,7 +130,7 @@
     </roleset>
     <roleset id="найти.04" name="be located, find one's place or position">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">находиться</alias>
+        <alias pos="v">находиться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 5,6,7,8</note>
       <note>найти.04 NOTES: Roleset based on English verb frame locate.01</note>

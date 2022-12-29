@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="вызвать.01" name="call, call out, summon">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">вызывать</alias>
-        <alias framenet="" pos="v" verbnet="">вызваться</alias>
-        <alias framenet="" pos="v" verbnet="">вызываться</alias>
+        <alias pos="v">вызывать</alias>
+        <alias pos="v">вызваться</alias>
+        <alias pos="v">вызываться</alias>
       </aliases>
       <note>вызвать.01 NOTES: Roleset based on English PB frame вызываться.01</note>
       <note>Corresponds to FrameBank senses 1-3</note>
@@ -80,7 +80,7 @@
   <predicate lemma="вызваться">
     <roleset id="вызваться.03" name="to volunteer, to offer">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">вызываться</alias>
+        <alias pos="v">вызываться</alias>
       </aliases>
       <note>вызваться.03 NOTES: Roleset based on English PB verb frame volunteer.01</note>
       <roles>

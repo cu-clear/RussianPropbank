@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="взять.01" name="take, hold, get">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">брать</alias>
-        <alias framenet="" pos="v" verbnet="">взяться</alias>
-        <alias framenet="" pos="v" verbnet="">браться</alias>
+        <alias pos="v">брать</alias>
+        <alias pos="v">взяться</alias>
+        <alias pos="v">браться</alias>
       </aliases>
       <note>взять.01 NOTES: based on English PropBank take.01</note>
       <roles>
@@ -91,9 +91,9 @@
     </roleset>
     <roleset id="взять.02" name="to gain control of, achieve, conquer, possess, arrest, rape">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">брать</alias>
-        <alias framenet="" pos="v" verbnet="">взяться</alias>
-        <alias framenet="" pos="v" verbnet="">взятие</alias>
+        <alias pos="v">брать</alias>
+        <alias pos="v">взяться</alias>
+        <alias pos="v">взятие</alias>
       </aliases>
       <note>взять.02 NOTES: Roleset based on English conquer.01</note>
       <roles>
@@ -140,7 +140,7 @@
     </roleset>
     <roleset id="взять.03" name="middle voice; shave, cut, shoot, etc.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">брать</alias>
+        <alias pos="v">брать</alias>
       </aliases>
       <note>взять.03 NOTES: no parallel English frame</note>
       <roles>
@@ -169,7 +169,7 @@
     </roleset>
     <roleset id="взять.04" name="hang or take a direction (a left, etc.), move self">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">брать</alias>
+        <alias pos="v">брать</alias>
       </aliases>
       <note>взять.04 NOTES: based on English turn.01</note>
       <roles>
@@ -320,7 +320,7 @@
   <predicate lemma="взять_себя_в_руки">
     <roleset id="взять_себя_в_руки.10" name="calm down, restrain self, stop and think">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">брать_себя_в_руки</alias>
+        <alias pos="m">брать_себя_в_руки</alias>
         <mwe id="взять_себя_в_руки">
           <token slot="A" arg="" pos="" head="" dep="">взять</token>
           <token slot="A" arg="" pos="" head="" dep="">брать</token>

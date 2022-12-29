@@ -5,14 +5,14 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="помочь.01" name="help">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">помогший</alias>
-        <alias framenet="" pos="v" verbnet="">помогши</alias>
-        <alias framenet="" pos="v" verbnet="">помогать</alias>
-        <alias framenet="" pos="j" verbnet="">помогающий</alias>
-        <alias framenet="" pos="j" verbnet="">помогавший</alias>
-        <alias framenet="" pos="v" verbnet="">помогая</alias>
-        <alias framenet="" pos="v" verbnet="">помогав</alias>
-        <alias framenet="" pos="v" verbnet="">помогавши</alias>
+        <alias pos="j">помогший</alias>
+        <alias pos="v">помогши</alias>
+        <alias pos="v">помогать</alias>
+        <alias pos="j">помогающий</alias>
+        <alias pos="j">помогавший</alias>
+        <alias pos="v">помогая</alias>
+        <alias pos="v">помогав</alias>
+        <alias pos="v">помогавши</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2</note>
       <note>помочь.01 NOTES: Based on help.01</note>
@@ -52,8 +52,8 @@
     </roleset>
     <roleset id="помочь.02" name="heal">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">помогший</alias>
-        <alias framenet="" pos="v" verbnet="">помогши</alias>
+        <alias pos="j">помогший</alias>
+        <alias pos="v">помогши</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 3</note>
       <roles>

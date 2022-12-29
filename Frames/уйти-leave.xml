@@ -5,7 +5,7 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="уйти.01" name="to depart, go away from a place, leave to go elsewhere">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уходить</alias>
+        <alias pos="v">уходить</alias>
       </aliases>
       <note>уйти.01 NOTES: Roleset based on English verb frame leave.11</note>
       <note>Corresponds to FrameBank senses </note>
@@ -40,7 +40,7 @@
     </roleset>
     <roleset id="уйти.02" name="retire, quit, abandon something in exchange for another; permanently leave an association/relationship/way of living">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уходить</alias>
+        <alias pos="v">уходить</alias>
       </aliases>
       <note>уйти.02 NOTES: Roleset based on English verb frame leave.15</note>
       <roles>
@@ -103,7 +103,7 @@
     </roleset>
     <roleset id="уйти.03" name="cease from, stop, die, escape">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уходить</alias>
+        <alias pos="v">уходить</alias>
       </aliases>
       <note>уйти.03 NOTES: Roleset based on English verb frame cease.01</note>
       <roles>
@@ -141,7 +141,7 @@
     </roleset>
     <roleset id="уйти.04" name="go by, pass">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уходить</alias>
+        <alias pos="v">уходить</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 2</note>
       <note>уйти.04 NOTES: Roleset based on English verb frame pass.03</note>
@@ -158,7 +158,7 @@
     </roleset>
     <roleset id="уйти.05" name="to engage self wholly or deeply, be engulfed completely, enter deep into">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уходить</alias>
+        <alias pos="v">уходить</alias>
       </aliases>
       <note>уйти.05 NOTES: Roleset based on English verb frame immerse.01</note>
       <roles>
@@ -199,7 +199,7 @@
     </roleset>
     <roleset id="уйти.06" name="(clock) is fast">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уходить</alias>
+        <alias pos="v">уходить</alias>
       </aliases>
       <note>уйти.06 NOTES: Roleset based on English verb frame fast.02</note>
       <roles>
@@ -217,7 +217,7 @@
     </roleset>
     <roleset id="уйти.07" name="benefactive, be spent or needed for">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уходить</alias>
+        <alias pos="v">уходить</alias>
       </aliases>
       <note>уйти.07 NOTES: Roleset based on English verb frame go.10</note>
       <roles>
@@ -235,7 +235,7 @@
     </roleset>
     <roleset id="уйти.08" name="boil out, boil over">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уходить</alias>
+        <alias pos="v">уходить</alias>
       </aliases>
       <note>уйти.08 NOTES: Roleset based on English verb frame boil_over.02</note>
       <roles>
@@ -270,7 +270,7 @@
   <predicate lemma="уйти_из_рук">
     <roleset id="уйти_из_рук.10" name="lose control">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">уходить_из_рук</alias>
+        <alias pos="m">уходить_из_рук</alias>
         <mwe id="уйти_из_рук">
           <token slot="A" arg="" pos="" head="" dep="">уйти</token>
           <token slot="A" arg="" pos="" head="" dep="">уходить</token>

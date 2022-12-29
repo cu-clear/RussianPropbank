@@ -3,11 +3,11 @@
   <predicate lemma="закрывать">
     <roleset id="закрывать.01" name="close, shut, cover">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">закрывать</alias>
-        <alias framenet="" pos="v" verbnet="">закрыть</alias>
-        <alias framenet="" pos="j" verbnet="">закрывающий</alias>
-        <alias framenet="" pos="j" verbnet="">закрывавший</alias>
-        <alias framenet="" pos="j" verbnet="">закрывший</alias>
+        <alias pos="v">закрывать</alias>
+        <alias pos="v">закрыть</alias>
+        <alias pos="j">закрывающий</alias>
+        <alias pos="j">закрывавший</alias>
+        <alias pos="j">закрывший</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English close.01</note>

@@ -5,23 +5,23 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="терять.01" name="lose, not have any longer in possession/sight etc.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">утерять</alias>
-        <alias framenet="" pos="v" verbnet="">потерять</alias>
-        <alias framenet="" pos="j" verbnet="">потерявший</alias>
-        <alias framenet="" pos="j" verbnet="">потерянный</alias>
-        <alias framenet="" pos="v" verbnet="">потеряться</alias>
-        <alias framenet="" pos="j" verbnet="">потерявшийся</alias>
-        <alias framenet="" pos="v" verbnet="">теряться</alias>
-        <alias framenet="" pos="j" verbnet="">теряющийся</alias>
-        <alias framenet="" pos="j" verbnet="">терявшийся</alias>
-        <alias framenet="" pos="v" verbnet="">затеряться</alias>
-        <alias framenet="" pos="j" verbnet="">затерявшийся</alias>
-        <alias framenet="" pos="v" verbnet="">затериваться</alias>
-        <alias framenet="" pos="j" verbnet="">затеривающийся</alias>
-        <alias framenet="" pos="j" verbnet="">затеривавшийся</alias>
-        <alias framenet="" pos="v" verbnet="">перетерять</alias>
-        <alias framenet="" pos="v" verbnet="">растерять</alias>
-        <alias framenet="" pos="v" verbnet="">растеривать</alias>
+        <alias pos="v">утерять</alias>
+        <alias pos="v">потерять</alias>
+        <alias pos="j">потерявший</alias>
+        <alias pos="j">потерянный</alias>
+        <alias pos="v">потеряться</alias>
+        <alias pos="j">потерявшийся</alias>
+        <alias pos="v">теряться</alias>
+        <alias pos="j">теряющийся</alias>
+        <alias pos="j">терявшийся</alias>
+        <alias pos="v">затеряться</alias>
+        <alias pos="j">затерявшийся</alias>
+        <alias pos="v">затериваться</alias>
+        <alias pos="j">затеривающийся</alias>
+        <alias pos="j">затеривавшийся</alias>
+        <alias pos="v">перетерять</alias>
+        <alias pos="v">растерять</alias>
+        <alias pos="v">растеривать</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 1</note>
       <note>терять.01 NOTES: Based on lose.02.</note>
@@ -79,7 +79,7 @@
     </roleset>
     <roleset id="терять.02" name="lose out, suffer">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">потерять</alias>
+        <alias pos="v">потерять</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 2,3,4,5,6,7</note>
       <note>терять.02 NOTES: Based on lose_out.06.</note>
@@ -112,15 +112,15 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="теряться.03" name="be confused, baffled, unsure">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">потеряться</alias>
-        <alias framenet="" pos="j" verbnet="">потерявшийся</alias>
-        <alias framenet="" pos="j" verbnet="">теряющийся</alias>
-        <alias framenet="" pos="j" verbnet="">терявшийся</alias>
-        <alias framenet="" pos="v" verbnet="">растеряться</alias>
-        <alias framenet="" pos="j" verbnet="">растерявшийся</alias>
-        <alias framenet="" pos="v" verbnet="">растериваться</alias>
-        <alias framenet="" pos="j" verbnet="">растеривающийся</alias>
-        <alias framenet="" pos="j" verbnet="">растеривавшийся</alias>
+        <alias pos="v">потеряться</alias>
+        <alias pos="j">потерявшийся</alias>
+        <alias pos="j">теряющийся</alias>
+        <alias pos="j">терявшийся</alias>
+        <alias pos="v">растеряться</alias>
+        <alias pos="j">растерявшийся</alias>
+        <alias pos="v">растериваться</alias>
+        <alias pos="j">растеривающийся</alias>
+        <alias pos="j">растеривавшийся</alias>
       </aliases>
       <note>теряться.01 NOTES: Based on confuse.01.</note>
       <roles>

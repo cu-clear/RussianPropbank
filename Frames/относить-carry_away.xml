@@ -5,7 +5,7 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="относить.01" name="carry or move away/off">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отнести</alias>
+        <alias pos="v">отнести</alias>
       </aliases>
       <note>относить.01 NOTES: based on English remove.01</note>
       <roles>
@@ -52,8 +52,8 @@
     </roleset>
     <roleset id="относить.02" name="postpone">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отнести</alias>
-        <alias framenet="" pos="n" verbnet="">отнесение</alias>
+        <alias pos="v">отнести</alias>
+        <alias pos="n">отнесение</alias>
       </aliases>
       <note>относить.02 NOTES: Roleset based on English verb frame postpone.01</note>
       <roles>
@@ -77,11 +77,11 @@
     </roleset>
     <roleset id="относить.03" name="include as, assign to, count among, account as, consider as part of">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отнести</alias>
-        <alias framenet="" pos="v" verbnet="">относиться</alias>
-        <alias framenet="" pos="v" verbnet="">отнестись</alias>
-        <alias framenet="" pos="n" verbnet="">отношение</alias>
-        <alias framenet="" pos="n" verbnet="">отнесение</alias>
+        <alias pos="v">отнести</alias>
+        <alias pos="v">относиться</alias>
+        <alias pos="v">отнестись</alias>
+        <alias pos="n">отношение</alias>
+        <alias pos="n">отнесение</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 3</note>
       <note>относить.03 NOTES: based on English include.01</note>
@@ -150,8 +150,8 @@
   <predicate>
     <roleset id="относиться.04" name="relate, have attitude, treat">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отнестись</alias>
-        <alias framenet="" pos="n" verbnet="">отношение</alias>
+        <alias pos="v">отнестись</alias>
+        <alias pos="n">отношение</alias>
       </aliases>
       <note>относить.04 NOTES: based on English treat.01</note>
       <note>Corresponds to FrameBank senses 1,2,4</note>

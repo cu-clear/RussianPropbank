@@ -5,13 +5,13 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="смотреть.01" name="look">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">смотрящий</alias>
-        <alias framenet="" pos="j" verbnet="">смотревший</alias>
-        <alias framenet="" pos="v" verbnet="">посмотреть</alias>
-        <alias framenet="" pos="j" verbnet="">посмотревший</alias>
-        <alias framenet="" pos="j" verbnet="">посмотренный</alias>
-        <alias framenet="" pos="v" verbnet="">посмотреться</alias>
-        <alias framenet="" pos="v" verbnet="">смотреться</alias>
+        <alias pos="j">смотрящий</alias>
+        <alias pos="j">смотревший</alias>
+        <alias pos="v">посмотреть</alias>
+        <alias pos="j">посмотревший</alias>
+        <alias pos="j">посмотренный</alias>
+        <alias pos="v">посмотреться</alias>
+        <alias pos="v">смотреться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,5,8,15,19</note>
       <note>смотреть.01 NOTES: Based on look.01.</note>
@@ -56,14 +56,14 @@
     </roleset>
     <roleset id="смотреть.02" name="watch">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">смотрящий</alias>
-        <alias framenet="" pos="j" verbnet="">смотревший</alias>
-        <alias framenet="" pos="v" verbnet="">посмотреть</alias>
-        <alias framenet="" pos="j" verbnet="">посмотревший</alias>
-        <alias framenet="" pos="j" verbnet="">посмотренный</alias>
-        <alias framenet="" pos="v" verbnet="">смотреться</alias>
-        <alias framenet="" pos="j" verbnet="">смотрящийся</alias>
-        <alias framenet="" pos="j" verbnet="">смотревшийся</alias>
+        <alias pos="j">смотрящий</alias>
+        <alias pos="j">смотревший</alias>
+        <alias pos="v">посмотреть</alias>
+        <alias pos="j">посмотревший</alias>
+        <alias pos="j">посмотренный</alias>
+        <alias pos="v">смотреться</alias>
+        <alias pos="j">смотрящийся</alias>
+        <alias pos="j">смотревшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 2,3,4,7,10,17,18</note>
       <note>Based on watch.01.</note>
@@ -92,11 +92,11 @@
     </roleset>
     <roleset id="смотреть.03" name="examine">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">смотрящий</alias>
-        <alias framenet="" pos="j" verbnet="">смотревший</alias>
-        <alias framenet="" pos="v" verbnet="">посмотреть</alias>
-        <alias framenet="" pos="j" verbnet="">посмотревший</alias>
-        <alias framenet="" pos="j" verbnet="">посмотренный</alias>
+        <alias pos="j">смотрящий</alias>
+        <alias pos="j">смотревший</alias>
+        <alias pos="v">посмотреть</alias>
+        <alias pos="j">посмотревший</alias>
+        <alias pos="j">посмотренный</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 6,11</note>
       <note>Based on examine.01.</note>
@@ -124,7 +124,7 @@
       </example>
     </roleset>
     <roleset id="смотреть.04" name="look after">
-      <aliases><alias framenet="" pos="j" verbnet="">смотрящий</alias><alias framenet="" pos="j" verbnet="">смотревший</alias><alias framenet="" pos="v" verbnet="">посмотреть</alias><alias framenet="" pos="j" verbnet="">посмотревший</alias><alias framenet="" pos="j" verbnet="">посмотренный</alias>&gt;
+      <aliases><alias pos="j">смотрящий</alias><alias pos="j">смотревший</alias><alias pos="v">посмотреть</alias><alias pos="j">посмотревший</alias><alias pos="j">посмотренный</alias>&gt;
 	  </aliases>
       <note>Based on look_after.07.</note>
       <roles>
@@ -144,11 +144,11 @@
     </roleset>
     <roleset id="смотреть.05" name="seem">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">смотрящий</alias>
-        <alias framenet="" pos="j" verbnet="">смотревший</alias>
-        <alias framenet="" pos="v" verbnet="">смотреться</alias>
-        <alias framenet="" pos="j" verbnet="">смотрящийся</alias>
-        <alias framenet="" pos="j" verbnet="">смотревшийся</alias>
+        <alias pos="j">смотрящий</alias>
+        <alias pos="j">смотревший</alias>
+        <alias pos="v">смотреться</alias>
+        <alias pos="j">смотрящийся</alias>
+        <alias pos="j">смотревшийся</alias>
       </aliases>
       <note>Based on look.02.</note>
       <roles>
@@ -179,8 +179,8 @@
   <predicate lemma="посмотреть">
     <roleset id="посмотреть.06" name="search">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">посмотрящий</alias>
-        <alias framenet="" pos="j" verbnet="">посмотревший</alias>
+        <alias pos="j">посмотрящий</alias>
+        <alias pos="j">посмотревший</alias>
       </aliases>
       <note>NOTES: Based on search.01.</note>
       <roles>
@@ -226,10 +226,10 @@
   <predicate lemma="смотреть_в_рот">
     <roleset id="смотреть_в_рот_кому.09" name="hang on every word">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">смотреть_в_рот</alias>
-        <alias framenet="" pos="m" verbnet="">глядеть_в_рот</alias>
-        <alias framenet="" pos="m" verbnet="">смотреть_в_глаза</alias>
-        <alias framenet="" pos="m" verbnet="">глядеть_в_глаза</alias>
+        <alias pos="m">смотреть_в_рот</alias>
+        <alias pos="m">глядеть_в_рот</alias>
+        <alias pos="m">смотреть_в_глаза</alias>
+        <alias pos="m">глядеть_в_глаза</alias>
         <note>Corresponds to FrameBank senses 13,14,16</note>
         <mwe id="смотреть_в_рот">
           <token slot="A" arg="" pos="" head="" dep="">смотреть</token>

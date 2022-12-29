@@ -3,8 +3,8 @@
   <predicate lemma="Ужинать">
     <roleset id="ужинать.01" name="dine, eat dinner">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">ужинать</alias>
-        <alias framenet="" pos="v" verbnet="">поужинать</alias>
+        <alias pos="v">ужинать</alias>
+        <alias pos="v">поужинать</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English dine.01</note>

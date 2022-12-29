@@ -5,18 +5,18 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data provided by Skatje Myers unless otherwise noted.</note>
     <roleset id="открыть.01" name="(cause to) become open; change of state; free for passage/entry; unlock; uncover">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">открывший</alias>
-        <alias framenet="" pos="j" verbnet="">открытый</alias>
-        <alias framenet="" pos="v" verbnet="">открывать</alias>
-        <alias framenet="" pos="j" verbnet="">открывающий</alias>
-        <alias framenet="" pos="j" verbnet="">открывавший</alias>
-        <alias framenet="" pos="j" verbnet="">открываемый</alias>
-        <alias framenet="" pos="v" verbnet="">открыться</alias>
-        <alias framenet="" pos="j" verbnet="">открывшийся</alias>
-        <alias framenet="" pos="v" verbnet="">открываться</alias>
-        <alias framenet="" pos="j" verbnet="">открывающийся</alias>
-        <alias framenet="" pos="j" verbnet="">открывавшийся</alias>
-        <alias framenet="" pos="n" verbnet="">открытие</alias>
+        <alias pos="j">открывший</alias>
+        <alias pos="j">открытый</alias>
+        <alias pos="v">открывать</alias>
+        <alias pos="j">открывающий</alias>
+        <alias pos="j">открывавший</alias>
+        <alias pos="j">открываемый</alias>
+        <alias pos="v">открыться</alias>
+        <alias pos="j">открывшийся</alias>
+        <alias pos="v">открываться</alias>
+        <alias pos="j">открывающийся</alias>
+        <alias pos="j">открывавшийся</alias>
+        <alias pos="n">открытие</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,5</note>
       <note>NOTES: Roleset based on English verb frame open.01</note>
@@ -93,18 +93,18 @@
     </roleset>
     <roleset id="открыть.02" name="begin">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">открывший</alias>
-        <alias framenet="" pos="j" verbnet="">открытый</alias>
-        <alias framenet="" pos="v" verbnet="">открывать</alias>
-        <alias framenet="" pos="j" verbnet="">открывающий</alias>
-        <alias framenet="" pos="j" verbnet="">открывавший</alias>
-        <alias framenet="" pos="j" verbnet="">открываемый</alias>
-        <alias framenet="" pos="v" verbnet="">открыться</alias>
-        <alias framenet="" pos="j" verbnet="">открывшийся</alias>
-        <alias framenet="" pos="v" verbnet="">открываться</alias>
-        <alias framenet="" pos="j" verbnet="">открывающийся</alias>
-        <alias framenet="" pos="j" verbnet="">открывавшийся</alias>
-        <alias framenet="" pos="n" verbnet="">открытие</alias>
+        <alias pos="j">открывший</alias>
+        <alias pos="j">открытый</alias>
+        <alias pos="v">открывать</alias>
+        <alias pos="j">открывающий</alias>
+        <alias pos="j">открывавший</alias>
+        <alias pos="j">открываемый</alias>
+        <alias pos="v">открыться</alias>
+        <alias pos="j">открывшийся</alias>
+        <alias pos="v">открываться</alias>
+        <alias pos="j">открывающийся</alias>
+        <alias pos="j">открывавшийся</alias>
+        <alias pos="n">открытие</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 9</note>
       <note>NOTES: Roleset based on English verb frame open.02</note>
@@ -158,18 +158,18 @@
     </roleset>
     <roleset id="открыть.03" name="make visible, discover">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">открывший</alias>
-        <alias framenet="" pos="j" verbnet="">открытый</alias>
-        <alias framenet="" pos="v" verbnet="">открывать</alias>
-        <alias framenet="" pos="j" verbnet="">открывающий</alias>
-        <alias framenet="" pos="j" verbnet="">открывавший</alias>
-        <alias framenet="" pos="j" verbnet="">открываемый</alias>
-        <alias framenet="" pos="v" verbnet="">открыться</alias>
-        <alias framenet="" pos="j" verbnet="">открывшийся</alias>
-        <alias framenet="" pos="v" verbnet="">открываться</alias>
-        <alias framenet="" pos="j" verbnet="">открывающийся</alias>
-        <alias framenet="" pos="j" verbnet="">открывавшийся</alias>
-        <alias framenet="" pos="n" verbnet="">открытие</alias>
+        <alias pos="j">открывший</alias>
+        <alias pos="j">открытый</alias>
+        <alias pos="v">открывать</alias>
+        <alias pos="j">открывающий</alias>
+        <alias pos="j">открывавший</alias>
+        <alias pos="j">открываемый</alias>
+        <alias pos="v">открыться</alias>
+        <alias pos="j">открывшийся</alias>
+        <alias pos="v">открываться</alias>
+        <alias pos="j">открывающийся</alias>
+        <alias pos="j">открывавшийся</alias>
+        <alias pos="n">открытие</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 2,4,6,7</note>
       <note>NOTES: Roleset based on English verb frame display.01</note>
@@ -203,12 +203,12 @@
   <predicate lemma="открыться">
     <roleset id="открыться.04" name="tell, share feelings">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">открывшийся</alias>
-        <alias framenet="" pos="v" verbnet="">открываться</alias>
-        <alias framenet="" pos="j" verbnet="">открывающийся</alias>
-        <alias framenet="" pos="j" verbnet="">открывавшийся</alias>
-        <alias framenet="" pos="n" verbnet="">открытие</alias>
-        <alias framenet="" pos="n" verbnet="">откровение</alias>
+        <alias pos="j">открывшийся</alias>
+        <alias pos="v">открываться</alias>
+        <alias pos="j">открывающийся</alias>
+        <alias pos="j">открывавшийся</alias>
+        <alias pos="n">открытие</alias>
+        <alias pos="n">откровение</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 8</note>
       <note>NOTES: Roleset based on English verb frame open.04</note>
@@ -235,8 +235,8 @@
   <predicate lemma="открыть свои карты перед">
     <roleset id="открыть_карты.05" name="share thoughts and intentions, put one's cards on the table">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">открыть_карты</alias>
-        <alias framenet="" pos="m" verbnet="">открывать_карты</alias>
+        <alias pos="m">открыть_карты</alias>
+        <alias pos="m">открывать_карты</alias>
         <mwe id="открыть_карты">
           <token slot="A" arg="" pos="" head="" dep="">открыть</token>
           <token slot="A" arg="" pos="" head="" dep="">открывать</token>

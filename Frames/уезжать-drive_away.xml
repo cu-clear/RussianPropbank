@@ -3,10 +3,10 @@
   <predicate lemma="уезжать">
     <roleset id="уезжать.01" name="Drive away, drive off, leave via land-based vehicle or animal">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уезжать</alias>
-        <alias framenet="" pos="v" verbnet="">уехать</alias>
-        <alias framenet="" pos="j" verbnet="">уезжающий</alias>
-        <alias framenet="" pos="j" verbnet="">уехавший</alias>
+        <alias pos="v">уезжать</alias>
+        <alias pos="v">уехать</alias>
+        <alias pos="j">уезжающий</alias>
+        <alias pos="j">уехавший</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English leave.11</note>

@@ -5,10 +5,10 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="пропасть.01" name="lose, disappear">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">пропавший</alias>
-        <alias framenet="" pos="v" verbnet="">пропадать</alias>
-        <alias framenet="" pos="j" verbnet="">пропадающий</alias>
-        <alias framenet="" pos="j" verbnet="">пропадавший</alias>
+        <alias pos="j">пропавший</alias>
+        <alias pos="v">пропадать</alias>
+        <alias pos="j">пропадающий</alias>
+        <alias pos="j">пропадавший</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,4</note>
       <note>NOTES: Frame based on expansion of English disappear.01</note>
@@ -74,12 +74,12 @@
   <predicate lemma="пропасть_пропадом-m">
     <roleset id="пропасть_пропадом.03" name="be damned, may the earth swallow up">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">пропасть_пропадом</alias>
-        <alias framenet="" pos="m" verbnet="">пропадать_пропадом</alias>
-        <alias framenet="" pos="m" verbnet="">провалиться_пропадом</alias>
-        <alias framenet="" pos="m" verbnet="">пропасть_пропастью</alias>
-        <alias framenet="" pos="m" verbnet="">пропадать_пропастью</alias>
-        <alias framenet="" pos="m" verbnet="">провалиться_пропастью</alias>
+        <alias pos="m">пропасть_пропадом</alias>
+        <alias pos="m">пропадать_пропадом</alias>
+        <alias pos="m">провалиться_пропадом</alias>
+        <alias pos="m">пропасть_пропастью</alias>
+        <alias pos="m">пропадать_пропастью</alias>
+        <alias pos="m">провалиться_пропастью</alias>
         <mwe id="пропасть_пропадом">
           <token slot="A" arg="" pos="" head="" dep="">пропасть</token>
           <token slot="A" arg="" pos="" head="" dep="">пропадать</token>

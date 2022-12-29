@@ -5,7 +5,7 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="удаться.01" name="turn out, manage to">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">удаваться</alias>
+        <alias pos="v">удаваться</alias>
       </aliases>
       <note>удаться.01 NOTES: Roleset based on English verb frame manage.02</note>
       <note>Corresponds to FrameBank senses 1,2</note>
@@ -34,7 +34,7 @@
     </roleset>
     <roleset id="удаться.02" name="be similar to somebody, to take after">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">удаваться</alias>
+        <alias pos="v">удаваться</alias>
       </aliases>
       <note>удаться.02 NOTES: Roleset based on English verb frame take.32</note>
       <note>Corresponds to FrameBank senses 3</note>

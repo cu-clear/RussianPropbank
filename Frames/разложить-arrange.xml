@@ -5,18 +5,18 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless src otherwise noted.</note>
     <roleset id="разложить.01" name="spread or lay out, arrange, systematize">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">разложивший</alias>
-        <alias framenet="" pos="j" verbnet="">разложенный</alias>
-        <alias framenet="" pos="j" verbnet="">раскладывать</alias>
-        <alias framenet="" pos="j" verbnet="">раскладывающий</alias>
-        <alias framenet="" pos="j" verbnet="">раскладывавший</alias>
-        <alias framenet="" pos="j" verbnet="">раскладываемый</alias>
-        <alias framenet="" pos="v" verbnet="">разложиться</alias>
-        <alias framenet="" pos="j" verbnet="">разложившийся</alias>
-        <alias framenet="" pos="v" verbnet="">раскладываться</alias>
-        <alias framenet="" pos="j" verbnet="">раскладывающийся</alias>
-        <alias framenet="" pos="j" verbnet="">раскладывавшийся</alias>
-        <alias framenet="" pos="n" verbnet="">раскладка</alias>
+        <alias pos="j">разложивший</alias>
+        <alias pos="j">разложенный</alias>
+        <alias pos="j">раскладывать</alias>
+        <alias pos="j">раскладывающий</alias>
+        <alias pos="j">раскладывавший</alias>
+        <alias pos="j">раскладываемый</alias>
+        <alias pos="v">разложиться</alias>
+        <alias pos="j">разложившийся</alias>
+        <alias pos="v">раскладываться</alias>
+        <alias pos="j">раскладывающийся</alias>
+        <alias pos="j">раскладывавшийся</alias>
+        <alias pos="n">раскладка</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3</note>
       <note>разложить.01 NOTES: Based on arrange.01. No start or beneficiary</note>
@@ -68,12 +68,12 @@
     </roleset>
     <roleset id="разложить.02" name="ignite">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">разложивший</alias>
-        <alias framenet="" pos="j" verbnet="">разложенный</alias>
-        <alias framenet="" pos="j" verbnet="">раскладывать</alias>
-        <alias framenet="" pos="j" verbnet="">раскладывающий</alias>
-        <alias framenet="" pos="j" verbnet="">раскладывавший</alias>
-        <alias framenet="" pos="j" verbnet="">раскладываемый</alias>
+        <alias pos="j">разложивший</alias>
+        <alias pos="j">разложенный</alias>
+        <alias pos="j">раскладывать</alias>
+        <alias pos="j">раскладывающий</alias>
+        <alias pos="j">раскладывавший</alias>
+        <alias pos="j">раскладываемый</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 4</note>
       <note>NOTES: Based on English ignite.01.</note>
@@ -94,11 +94,11 @@
     </roleset>
     <roleset id="разложить.03" name="break or fall apart, dissolve">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">разложиться</alias>
-        <alias framenet="" pos="j" verbnet="">разложившийся</alias>
-        <alias framenet="" pos="v" verbnet="">раскладываться</alias>
-        <alias framenet="" pos="j" verbnet="">раскладывающийся</alias>
-        <alias framenet="" pos="j" verbnet="">раскладывавшийся</alias>
+        <alias pos="v">разложиться</alias>
+        <alias pos="j">разложившийся</alias>
+        <alias pos="v">раскладываться</alias>
+        <alias pos="j">раскладывающийся</alias>
+        <alias pos="j">раскладывавшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 5,6</note>
       <note>разложить.03 NOTES: Based on fall_apart.09</note>

@@ -5,7 +5,7 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="привезти.01" name="bring by vehicle in one-way directed motion, deliver">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">привозить</alias>
+        <alias pos="v">привозить</alias>
       </aliases>
       <note>NO PERFECTIVE</note>
       <note>привезти.01 NOTES: Roleset based on English verb frame bring.01</note>

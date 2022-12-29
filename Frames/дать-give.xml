@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="дать.01" name="give, transfer, present, sell">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">давать</alias>
-        <alias framenet="" pos="v" verbnet="">давывать</alias>
+        <alias pos="v">давать</alias>
+        <alias pos="v">давывать</alias>
       </aliases>
       <note>дать.01 NOTES: Roleset based on English verb frame give.01</note>
       <note>Corresponds to FrameBank senses </note>
@@ -175,7 +175,7 @@
     </roleset>
     <roleset id="дать.05" name="give in, yield">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">даваться</alias>
+        <alias pos="v">даваться</alias>
       </aliases>
       <note>Corresponds to FrameBank sense </note>
       <note>дать.05 NOTES: Roleset based on English verb frame give_in.09</note>
@@ -194,7 +194,7 @@
     </roleset>
     <roleset id="дать.06" name="catch on, master">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">даваться</alias>
+        <alias pos="v">даваться</alias>
       </aliases>
       <note>Corresponds to FrameBank sense </note>
       <note>дать.06 NOTES: Roleset based on English verb frame catch_on.06</note>

@@ -5,11 +5,11 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="произойти.01" name="happen">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">произошедший</alias>
-        <alias framenet="" pos="j" verbnet="">происшедший</alias>
-        <alias framenet="" pos="v" verbnet="">происходить</alias>
-        <alias framenet="" pos="j" verbnet="">происходящий</alias>
-        <alias framenet="" pos="j" verbnet="">происходивший</alias>
+        <alias pos="j">произошедший</alias>
+        <alias pos="j">происшедший</alias>
+        <alias pos="v">происходить</alias>
+        <alias pos="j">происходящий</alias>
+        <alias pos="j">происходивший</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 2</note>
       <note>произойти.01 NOTES: Based on happen.01.</note>
@@ -35,7 +35,7 @@
     </roleset>
     <roleset id="произойти.02" name="originate">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">произошедший</alias>
+        <alias pos="j">произошедший</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1</note>
       <note>произойти.02 NOTES: Based on descend.01.</note>

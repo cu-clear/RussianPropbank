@@ -5,7 +5,7 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="уметь.01" name="know how">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">суметь </alias>
+        <alias pos="v">суметь </alias>
       </aliases>
       <note>уметь.01 NOTES: Roleset based on English verb frame know.03</note>
       <note>Corresponds to FrameBank senses 1</note>

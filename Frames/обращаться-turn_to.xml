@@ -60,9 +60,9 @@
     </roleset>
     <roleset id="обращаться.03" name="turn to, face, direct, address">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">обратить</alias>
-        <alias framenet="" pos="j" verbnet="">обращаться</alias>
-        <alias framenet="" pos="j" verbnet="">обратиться</alias>
+        <alias pos="j">обратить</alias>
+        <alias pos="j">обращаться</alias>
+        <alias pos="j">обратиться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,4,5</note>
       <note>обращаться.03 NOTES: Based on turn.01</note>
@@ -128,9 +128,9 @@
     </roleset>
     <roleset id="обращаться.04" name="turn into, transform, exchange, convert">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">обратить</alias>
-        <alias framenet="" pos="j" verbnet="">обращаться</alias>
-        <alias framenet="" pos="j" verbnet="">обратиться</alias>
+        <alias pos="j">обратить</alias>
+        <alias pos="j">обращаться</alias>
+        <alias pos="j">обратиться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 6,7,8,10</note>
       <note>обращаться.03 NOTES: Based on convert.01</note>

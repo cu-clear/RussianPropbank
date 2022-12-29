@@ -5,17 +5,17 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="чувствовать.01" name="feel">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">чувствующий</alias>
-        <alias framenet="" pos="j" verbnet="">чувствовавший</alias>
-        <alias framenet="" pos="j" verbnet="">чувствуемый</alias>
-        <alias framenet="" pos="j" verbnet="">чувствованный</alias>
-        <alias framenet="" pos="v" verbnet="">почувствовать</alias>
-        <alias framenet="" pos="j" verbnet="">почувствовавший</alias>
-        <alias framenet="" pos="j" verbnet="">почувствованный</alias>
-        <alias framenet="" pos="j" verbnet="">чувствующийся</alias>
-        <alias framenet="" pos="j" verbnet="">чувствовавшийся</alias>
-        <alias framenet="" pos="v" verbnet="">почувствоваться</alias>
-        <alias framenet="" pos="j" verbnet="">почувствовавшийся</alias>
+        <alias pos="j">чувствующий</alias>
+        <alias pos="j">чувствовавший</alias>
+        <alias pos="j">чувствуемый</alias>
+        <alias pos="j">чувствованный</alias>
+        <alias pos="v">почувствовать</alias>
+        <alias pos="j">почувствовавший</alias>
+        <alias pos="j">почувствованный</alias>
+        <alias pos="j">чувствующийся</alias>
+        <alias pos="j">чувствовавшийся</alias>
+        <alias pos="v">почувствоваться</alias>
+        <alias pos="j">почувствовавшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,4,5</note>
       <note>чувствовать.01 NOTES: Based on feel.02.</note>

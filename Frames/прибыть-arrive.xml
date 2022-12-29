@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="прибыть.01" name="arrive, move, come to">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">прибывать</alias>
-        <alias framenet="" pos="n" verbnet="">прибытие</alias>
+        <alias pos="v">прибывать</alias>
+        <alias pos="n">прибытие</alias>
       </aliases>
       <note>прибыть.01 NOTES: Roleset based on English verb frame arrive.01</note>
       <note>Corresponds to FrameBank senses 1</note>
@@ -46,8 +46,8 @@
     </roleset>
     <roleset id="прибыть.02" name="increase">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">прибывать</alias>
-        <alias framenet="" pos="n" verbnet="">прибывание</alias>
+        <alias pos="v">прибывать</alias>
+        <alias pos="n">прибывание</alias>
       </aliases>
       <note>прибыть.02 NOTES: Roleset based on English verb frame increase.01 </note>
       <note>Corresponds to FrameBank sense 2</note>

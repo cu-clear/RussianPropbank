@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="отметить.01" name="make a mark">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отмечать</alias>
-        <alias framenet="" pos="n" verbnet="">отметка</alias>
+        <alias pos="v">отмечать</alias>
+        <alias pos="n">отметка</alias>
       </aliases>
       <note>отметить.01 NOTES: based on English mark.02</note>
       <note>Corresponds to FrameBank senses 1,2</note>
@@ -29,9 +29,9 @@
     </roleset>
     <roleset id="отметить.02" name="mark, signify, distinguish, celebrate">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отмечать</alias>
-        <alias framenet="" pos="v" verbnet="">отметиться</alias>
-        <alias framenet="" pos="v" verbnet="">отмечаться</alias>
+        <alias pos="v">отмечать</alias>
+        <alias pos="v">отметиться</alias>
+        <alias pos="v">отмечаться</alias>
       </aliases>
       <note>отметить.02 NOTES: Roleset based on English verb frame mark.01</note>
       <note>Corresponds to FrameBank sense 5,6</note>
@@ -76,8 +76,8 @@
     </roleset>
     <roleset id="отметить.03" name="note, notice, point out">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отмечать</alias>
-        <alias framenet="" pos="v" verbnet="">отмечаться</alias>
+        <alias pos="v">отмечать</alias>
+        <alias pos="v">отмечаться</alias>
       </aliases>
       <note>отметить.03 NOTES: based on English note.01</note>
       <note>Corresponds to FrameBank senses 3,4</note>
@@ -126,7 +126,7 @@
   <predicate>
     <roleset id="отметиться.04" name="sign in, check in, register">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отмечаться</alias>
+        <alias pos="v">отмечаться</alias>
       </aliases>
       <note>отметиться.04 NOTES: based on English sign_in.06</note>
       <roles>

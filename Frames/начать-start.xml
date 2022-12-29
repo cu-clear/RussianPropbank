@@ -5,10 +5,10 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="начать.01" name="start, begin something, initiate">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">начинать</alias>
-        <alias framenet="" pos="v" verbnet="">начаться</alias>
-        <alias framenet="" pos="v" verbnet="">начинаться</alias>
-        <alias framenet="" pos="n" verbnet="">начатие</alias>
+        <alias pos="v">начинать</alias>
+        <alias pos="v">начаться</alias>
+        <alias pos="v">начинаться</alias>
+        <alias pos="n">начатие</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 1</note>
       <note>начать.01 NOTES: Roleset based on verb frame begin.01</note>
@@ -58,7 +58,7 @@
     </roleset>
     <roleset id="начать.02" name="aspectual, beginning of action">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">начинать</alias>
+        <alias pos="v">начинать</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 2</note>
       <note>NOTES: Roleset based on English propbank begin.02</note>

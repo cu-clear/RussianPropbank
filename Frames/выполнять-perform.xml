@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="выполнять.01" name="perform, execute, fulfill">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">выполнить</alias>
-        <alias framenet="" pos="v" verbnet="">выполниться</alias>
-        <alias framenet="" pos="v" verbnet="">выполняться</alias>
+        <alias pos="v">выполнить</alias>
+        <alias pos="v">выполниться</alias>
+        <alias pos="v">выполняться</alias>
       </aliases>
       <note>выполнять.01 NOTES: Roleset based on English verb frame perform.02</note>
       <note>Corresponds to FrameBank senses 1</note>
@@ -35,9 +35,9 @@
     </roleset>
     <roleset id="выполнять.02" name="build, produce, create, make">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">выполнить</alias>
-        <alias framenet="" pos="v" verbnet="">выполниться</alias>
-        <alias framenet="" pos="v" verbnet="">выполняться</alias>
+        <alias pos="v">выполнить</alias>
+        <alias pos="v">выполниться</alias>
+        <alias pos="v">выполняться</alias>
       </aliases>
       <note>выполнять.02 NOTES: Roleset based on English verb frame manufacture.01</note>
       <note>Corresponds to FrameBank senses 2</note>

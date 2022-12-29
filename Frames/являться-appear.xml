@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="являться.01" name="be (formal), become, appear to be">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">явиться</alias>
-        <alias framenet="" pos="v" verbnet="">являть собой</alias>
-        <alias framenet="" pos="v" verbnet="">являть из себя</alias>
+        <alias pos="v">явиться</alias>
+        <alias pos="v">являть собой</alias>
+        <alias pos="v">являть из себя</alias>
       </aliases>
       <note>являться.01 NOTES: Roleset based on English verb frame be.01</note>
       <note>Corresponds to FrameBank senses 2</note>
@@ -34,8 +34,8 @@
     </roleset>
     <roleset id="являться.02" name="appear, come to be, show up, become visible">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">явиться</alias>
-        <alias framenet="" pos="n" verbnet="">явление</alias>
+        <alias pos="v">явиться</alias>
+        <alias pos="n">явление</alias>
       </aliases>
       <note>являться.02 NOTES: Roleset based on English verb frame appear.01</note>
       <note>Corresponds to FrameBank senses 1, 3, 4</note>
@@ -55,8 +55,8 @@
     </roleset>
     <roleset id="являться.03" name="present self, show up to an official function, report">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">явиться</alias>
-        <alias framenet="" pos="n" verbnet="">явка</alias>
+        <alias pos="v">явиться</alias>
+        <alias pos="n">явка</alias>
       </aliases>
       <note>являться.03 NOTES: Roleset based on English verb frame present.02</note>
       <note>Corresponds to FrameBank sense 5</note>
@@ -98,7 +98,7 @@
   <predicate lemma="являть">
     <roleset id="являть.04" name="display, make obvious, demonstrate, reveal, show">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">явить</alias>
+        <alias pos="v">явить</alias>
       </aliases>
       <note>являться.04 NOTES:Roleset based on English verb frame demonstrate.01</note>
       <roles>

@@ -3,9 +3,9 @@
   <predicate lemma="смешить">
     <roleset id="смешить.01" name="To make laugh, to amuse.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">смешить</alias>
-        <alias framenet="" pos="v" verbnet="">рассмешить</alias>
-        <alias framenet="" pos="j" verbnet="">смешащий</alias>
+        <alias pos="v">смешить</alias>
+        <alias pos="v">рассмешить</alias>
+        <alias pos="j">смешащий</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English amuse.01</note>

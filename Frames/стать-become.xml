@@ -5,14 +5,14 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="стать.01" name="become">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">cтановиться</alias>
-        <alias framenet="" pos="j" verbnet="">становящийся</alias>
-        <alias framenet="" pos="j" verbnet="">становившийся</alias>
-        <alias framenet="" pos="v" verbnet="">становясь</alias>
-        <alias framenet="" pos="j" verbnet="">становившись</alias>
-        <alias framenet="" pos="j" verbnet="">ставший</alias>
-        <alias framenet="" pos="v" verbnet="">став</alias>
-        <alias framenet="" pos="v" verbnet="">ставши</alias>
+        <alias pos="v">cтановиться</alias>
+        <alias pos="j">становящийся</alias>
+        <alias pos="j">становившийся</alias>
+        <alias pos="v">становясь</alias>
+        <alias pos="j">становившись</alias>
+        <alias pos="j">ставший</alias>
+        <alias pos="v">став</alias>
+        <alias pos="v">ставши</alias>
       </aliases>
       <note>стать.01 NOTES: Based on English become.01</note>
       <roles>
@@ -47,9 +47,9 @@
     </roleset>
     <roleset id="стать.02" name="begin">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">ставший</alias>
-        <alias framenet="" pos="v" verbnet="">став</alias>
-        <alias framenet="" pos="v" verbnet="">ставши</alias>
+        <alias pos="j">ставший</alias>
+        <alias pos="v">став</alias>
+        <alias pos="v">ставши</alias>
       </aliases>
       <note>стать.02 NOTES: Based on English begin.01</note>
       <roles>
@@ -69,9 +69,9 @@
     </roleset>
     <roleset id="стать.03" name="freeze">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">ставший</alias>
-        <alias framenet="" pos="v" verbnet="">став</alias>
-        <alias framenet="" pos="v" verbnet="">ставши</alias>
+        <alias pos="j">ставший</alias>
+        <alias pos="v">став</alias>
+        <alias pos="v">ставши</alias>
       </aliases>
       <note>стать.03 NOTES: Based on English freeze_over.03</note>
       <roles>
@@ -95,14 +95,14 @@
     </roleset>
     <roleset id="стать.04" name="stand, stand up">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">cтановиться</alias>
-        <alias framenet="" pos="j" verbnet="">становящийся</alias>
-        <alias framenet="" pos="j" verbnet="">становившийся</alias>
-        <alias framenet="" pos="v" verbnet="">становясь</alias>
-        <alias framenet="" pos="j" verbnet="">становившись</alias>
-        <alias framenet="" pos="j" verbnet="">ставший</alias>
-        <alias framenet="" pos="v" verbnet="">став</alias>
-        <alias framenet="" pos="v" verbnet="">ставши</alias>
+        <alias pos="v">cтановиться</alias>
+        <alias pos="j">становящийся</alias>
+        <alias pos="j">становившийся</alias>
+        <alias pos="v">становясь</alias>
+        <alias pos="j">становившись</alias>
+        <alias pos="j">ставший</alias>
+        <alias pos="v">став</alias>
+        <alias pos="v">ставши</alias>
       </aliases>
       <note>стать.04 NOTES: Based on English stand.01</note>
       <roles>
@@ -144,14 +144,14 @@
     </roleset>
     <roleset id="стать.05" name="cost">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">cтановиться</alias>
-        <alias framenet="" pos="j" verbnet="">становящийся</alias>
-        <alias framenet="" pos="j" verbnet="">становившийся</alias>
-        <alias framenet="" pos="v" verbnet="">становясь</alias>
-        <alias framenet="" pos="j" verbnet="">становившись</alias>
-        <alias framenet="" pos="j" verbnet="">ставший</alias>
-        <alias framenet="" pos="v" verbnet="">став</alias>
-        <alias framenet="" pos="v" verbnet="">ставши</alias>
+        <alias pos="v">cтановиться</alias>
+        <alias pos="j">становящийся</alias>
+        <alias pos="j">становившийся</alias>
+        <alias pos="v">становясь</alias>
+        <alias pos="j">становившись</alias>
+        <alias pos="j">ставший</alias>
+        <alias pos="v">став</alias>
+        <alias pos="v">ставши</alias>
       </aliases>
       <roles>
         <role descr="commodity " f="PPT" n="1"/>
@@ -171,9 +171,9 @@
     </roleset>
     <roleset id="стать.06" name="last">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">ставший</alias>
-        <alias framenet="" pos="v" verbnet="">став</alias>
-        <alias framenet="" pos="v" verbnet="">ставши</alias>
+        <alias pos="j">ставший</alias>
+        <alias pos="v">став</alias>
+        <alias pos="v">ставши</alias>
       </aliases>
       <roles>
         <role descr="hing that lasts" f="PPT" n="1"/>
@@ -212,7 +212,7 @@
   <predicate lemma="стать">
     <roleset id="не_стало.08" name="die, disappear">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">не_стало</alias>
+        <alias pos="m">не_стало</alias>
         <mwe id="не_стало">
           <token slot="A" arg="" pos="" head="B" dep="">не</token>
           <token slot="B" arg="" pos="" head="" dep="">стало</token>
@@ -244,7 +244,7 @@
   <predicate lemma="стало_быть">
     <roleset id="стало_быть.09" name="therefore, hence, thus">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">стало_быть</alias>
+        <alias pos="m">стало_быть</alias>
         <mwe id="стало_быть">
           <token slot="A" arg="" pos="" head="" dep="">стало</token>
           <token slot="B" arg="" pos="" head="A" dep="">быть</token>

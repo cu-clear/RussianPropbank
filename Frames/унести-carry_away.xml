@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="унести.01" name="carry away">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уносить</alias>
-        <alias framenet="" pos="v" verbnet="">уноситься</alias>
-        <alias framenet="" pos="j" verbnet="">унестись</alias>
+        <alias pos="v">уносить</alias>
+        <alias pos="v">уноситься</alias>
+        <alias pos="j">унестись</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 1</note>
       <note>NOTES: Based on carry.01.</note>
@@ -75,16 +75,16 @@
     </roleset>
     <roleset id="унести.02" name="steal, remove, kill">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">унёсший</alias>
-        <alias framenet="" pos="j" verbnet="">унесший</alias>
-        <alias framenet="" pos="j" verbnet="">унесённый</alias>
-        <alias framenet="" pos="j" verbnet="">унесенный</alias>
-        <alias framenet="" pos="j" verbnet="">унесший</alias>
-        <alias framenet="" pos="j" verbnet="">унесенный</alias>
-        <alias framenet="" pos="v" verbnet="">уносить</alias>
-        <alias framenet="" pos="j" verbnet="">уносящий</alias>
-        <alias framenet="" pos="j" verbnet="">уносивший</alias>
-        <alias framenet="" pos="j" verbnet="">уносимый</alias>
+        <alias pos="j">унёсший</alias>
+        <alias pos="j">унесший</alias>
+        <alias pos="j">унесённый</alias>
+        <alias pos="j">унесенный</alias>
+        <alias pos="j">унесший</alias>
+        <alias pos="j">унесенный</alias>
+        <alias pos="v">уносить</alias>
+        <alias pos="j">уносящий</alias>
+        <alias pos="j">уносивший</alias>
+        <alias pos="j">уносимый</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 2,4,6</note>
       <note>NOTES: Based on steal.01.</note>
@@ -123,16 +123,16 @@
     </roleset>
     <roleset id="унести.03" name="disappear">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">унёсший</alias>
-        <alias framenet="" pos="j" verbnet="">унесший</alias>
-        <alias framenet="" pos="j" verbnet="">унесённый</alias>
-        <alias framenet="" pos="j" verbnet="">унесенный</alias>
-        <alias framenet="" pos="j" verbnet="">унесший</alias>
-        <alias framenet="" pos="j" verbnet="">унесенный</alias>
-        <alias framenet="" pos="v" verbnet="">уносить</alias>
-        <alias framenet="" pos="j" verbnet="">уносящий</alias>
-        <alias framenet="" pos="j" verbnet="">уносивший</alias>
-        <alias framenet="" pos="j" verbnet="">уносимый</alias>
+        <alias pos="j">унёсший</alias>
+        <alias pos="j">унесший</alias>
+        <alias pos="j">унесённый</alias>
+        <alias pos="j">унесенный</alias>
+        <alias pos="j">унесший</alias>
+        <alias pos="j">унесенный</alias>
+        <alias pos="v">уносить</alias>
+        <alias pos="j">уносящий</alias>
+        <alias pos="j">уносивший</alias>
+        <alias pos="j">уносимый</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 3</note>
       <note>NOTES: Based on disappear.01.</note>
@@ -150,7 +150,7 @@
     </roleset>
     <roleset id="унести_ноги-m" name="escape">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">уносить_ноги</alias>
+        <alias pos="v">уносить_ноги</alias>
         <mwe id="унести_ноги">
           <token slot="A" arg="" pos="" head="" dep="">уносить</token>
           <token slot="A" arg="" pos="" head="" dep="">унести</token>

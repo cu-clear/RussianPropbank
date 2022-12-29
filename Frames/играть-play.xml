@@ -5,19 +5,19 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="играть.01" name="engage in activity for enjoyment, entertainment, and competition">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">играющий</alias>
-        <alias framenet="" pos="j" verbnet="">игравший</alias>
-        <alias framenet="" pos="j" verbnet="">играемый</alias>
-        <alias framenet="" pos="j" verbnet="">игранный</alias>
-        <alias framenet="" pos="v" verbnet="">сыграть</alias>
-        <alias framenet="" pos="j" verbnet="">сыгравший</alias>
-        <alias framenet="" pos="j" verbnet="">сыгранный</alias>
-        <alias framenet="" pos="v" verbnet="">сыграться</alias>
-        <alias framenet="" pos="j" verbnet="">сыгравшийся</alias>
-        <alias framenet="" pos="v" verbnet="">играться</alias>
-        <alias framenet="" pos="j" verbnet="">играющийся</alias>
-        <alias framenet="" pos="j" verbnet="">игравшийся</alias>
-        <alias framenet="" pos="v" verbnet="">игрывать</alias>
+        <alias pos="j">играющий</alias>
+        <alias pos="j">игравший</alias>
+        <alias pos="j">играемый</alias>
+        <alias pos="j">игранный</alias>
+        <alias pos="v">сыграть</alias>
+        <alias pos="j">сыгравший</alias>
+        <alias pos="j">сыгранный</alias>
+        <alias pos="v">сыграться</alias>
+        <alias pos="j">сыгравшийся</alias>
+        <alias pos="v">играться</alias>
+        <alias pos="j">играющийся</alias>
+        <alias pos="j">игравшийся</alias>
+        <alias pos="v">игрывать</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3?,7,8,9,12</note>
       <note>играть.01 NOTES: Roleset based on English play.01</note>
@@ -101,18 +101,18 @@
     </roleset>
     <roleset id="играть.02" name="perform/play music">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">играющий</alias>
-        <alias framenet="" pos="j" verbnet="">игравший</alias>
-        <alias framenet="" pos="j" verbnet="">играемый</alias>
-        <alias framenet="" pos="j" verbnet="">игранный</alias>
-        <alias framenet="" pos="v" verbnet="">сыграть</alias>
-        <alias framenet="" pos="j" verbnet="">сыгравший</alias>
-        <alias framenet="" pos="j" verbnet="">сыгранный</alias>
-        <alias framenet="" pos="j" verbnet="">сыгравшийся</alias>
-        <alias framenet="" pos="v" verbnet="">играться</alias>
-        <alias framenet="" pos="j" verbnet="">играющийся</alias>
-        <alias framenet="" pos="j" verbnet="">игравшийся</alias>
-        <alias framenet="" pos="v" verbnet="">игрывать</alias>
+        <alias pos="j">играющий</alias>
+        <alias pos="j">игравший</alias>
+        <alias pos="j">играемый</alias>
+        <alias pos="j">игранный</alias>
+        <alias pos="v">сыграть</alias>
+        <alias pos="j">сыгравший</alias>
+        <alias pos="j">сыгранный</alias>
+        <alias pos="j">сыгравшийся</alias>
+        <alias pos="v">играться</alias>
+        <alias pos="j">играющийся</alias>
+        <alias pos="j">игравшийся</alias>
+        <alias pos="v">игрывать</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 4,5</note>
       <note>играть.02 NOTES: based on English play.11</note>
@@ -158,18 +158,18 @@
     </roleset>
     <roleset id="играть.03" name="represent a character in a performance, play a role">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">играющий</alias>
-        <alias framenet="" pos="j" verbnet="">игравший</alias>
-        <alias framenet="" pos="j" verbnet="">играемый</alias>
-        <alias framenet="" pos="j" verbnet="">игранный</alias>
-        <alias framenet="" pos="v" verbnet="">сыграть</alias>
-        <alias framenet="" pos="j" verbnet="">сыгравший</alias>
-        <alias framenet="" pos="j" verbnet="">сыгранный</alias>
-        <alias framenet="" pos="v" verbnet="">игрывать</alias>
-        <alias framenet="" pos="j" verbnet="">сыгравшийся</alias>
-        <alias framenet="" pos="v" verbnet="">играться</alias>
-        <alias framenet="" pos="j" verbnet="">играющийся</alias>
-        <alias framenet="" pos="j" verbnet="">игравшийся</alias>
+        <alias pos="j">играющий</alias>
+        <alias pos="j">игравший</alias>
+        <alias pos="j">играемый</alias>
+        <alias pos="j">игранный</alias>
+        <alias pos="v">сыграть</alias>
+        <alias pos="j">сыгравший</alias>
+        <alias pos="j">сыгранный</alias>
+        <alias pos="v">игрывать</alias>
+        <alias pos="j">сыгравшийся</alias>
+        <alias pos="v">играться</alias>
+        <alias pos="j">играющийся</alias>
+        <alias pos="j">игравшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 6,10</note>
       <note>играть.03 NOTES: based on play.02</note>
@@ -242,17 +242,17 @@
     </roleset>
     <roleset id="играть.04" name="have a wedding, get married">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">играющий</alias>
-        <alias framenet="" pos="j" verbnet="">игравший</alias>
-        <alias framenet="" pos="j" verbnet="">играемый</alias>
-        <alias framenet="" pos="j" verbnet="">игранный</alias>
-        <alias framenet="" pos="v" verbnet="">сыграть</alias>
-        <alias framenet="" pos="j" verbnet="">сыгравший</alias>
-        <alias framenet="" pos="j" verbnet="">сыгранный</alias>
-        <alias framenet="" pos="j" verbnet="">сыгравшийся</alias>
-        <alias framenet="" pos="v" verbnet="">играться</alias>
-        <alias framenet="" pos="j" verbnet="">играющийся</alias>
-        <alias framenet="" pos="j" verbnet="">игравшийся</alias>
+        <alias pos="j">играющий</alias>
+        <alias pos="j">игравший</alias>
+        <alias pos="j">играемый</alias>
+        <alias pos="j">игранный</alias>
+        <alias pos="v">сыграть</alias>
+        <alias pos="j">сыгравший</alias>
+        <alias pos="j">сыгранный</alias>
+        <alias pos="j">сыгравшийся</alias>
+        <alias pos="v">играться</alias>
+        <alias pos="j">играющийся</alias>
+        <alias pos="j">игравшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 13</note>
       <note>NOTES: based on English host.04</note>
@@ -284,10 +284,10 @@
   <predicate>
     <roleset id="играть_на_руку.05" name="play into one's hands">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">сыграть_на_руку</alias>
-        <alias framenet="" pos="m" verbnet="">играть_на_руку</alias>
-        <alias framenet="" pos="m" verbnet="">играться_на_руку</alias>
-        <alias framenet="" pos="m" verbnet="">сыграться_на_руку</alias>
+        <alias pos="m">сыграть_на_руку</alias>
+        <alias pos="m">играть_на_руку</alias>
+        <alias pos="m">играться_на_руку</alias>
+        <alias pos="m">сыграться_на_руку</alias>
         <mwe id="играть_на_руку">
           <token slot="A" arg="" pos="" head="" dep="">сыграть</token>
           <token slot="A" arg="" pos="" head="" dep="">играть</token>
@@ -319,7 +319,7 @@
   <predicate>
     <roleset id="сыграть_в_ящик.06" name="die, kick the bucket">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">сыграть_в_ящик</alias>
+        <alias pos="m">сыграть_в_ящик</alias>
         <mwe id="сыграть_в_ящик">
           <token slot="A" arg="" pos="" head="" dep="">сыграть</token>
           <token slot="B" arg="" pos="" head="С" dep="">в</token>

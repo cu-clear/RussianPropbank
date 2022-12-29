@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="отправить.01" name="send, transfer">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отправлять</alias>
-        <alias framenet="" pos="v" verbnet="">отправиться</alias>
-        <alias framenet="" pos="v" verbnet="">отправляться</alias>
+        <alias pos="v">отправлять</alias>
+        <alias pos="v">отправиться</alias>
+        <alias pos="v">отправляться</alias>
       </aliases>
       <note>отправить.01 NOTES: Roleset based on English verb frame send.01</note>
       <note>Corresponds to FrameBank senses 1,2,3,4</note>
@@ -71,7 +71,7 @@
     </roleset>
     <roleset id="отправить.02" name="fulfill, do">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отправлять</alias>
+        <alias pos="v">отправлять</alias>
       </aliases>
       <note>отправить.03 NOTES: Roleset based on English verb frame fulfill.01</note>
       <roles>
@@ -101,8 +101,8 @@
   <predicate lemma="отправиться">
     <roleset id="отправиться.03" name="depart, start off, begin a journey">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">отправляться</alias>
-        <alias framenet="" pos="v" verbnet="">отправиться</alias>
+        <alias pos="v">отправляться</alias>
+        <alias pos="v">отправиться</alias>
       </aliases>
       <note>отправиться.04 NOTES:Roleset based on English verb frame depart.01</note>
       <note>Corresponds to FrameBank sense 1,2,3</note>

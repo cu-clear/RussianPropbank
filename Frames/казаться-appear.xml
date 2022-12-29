@@ -5,7 +5,7 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="казаться.01" name="seem, appear to be">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">показаться</alias>
+        <alias pos="v">показаться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,4</note>
       <note>казаться.01 NOTES: Adjusted from English PB seem.01.</note>
@@ -56,11 +56,11 @@
   <predicate lemma="казаться_на_глаза">
     <roleset id="казаться_на_глаза.02" name="appear, show up">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">показаться_на_глаза</alias>
-        <alias framenet="" pos="j" verbnet="">показаться_на_глазах</alias>
-        <alias framenet="" pos="j" verbnet="">казаться_на_глазах</alias>
-        <alias framenet="" pos="j" verbnet="">казать_глаз</alias>
-        <alias framenet="" pos="j" verbnet="">показать_глаз</alias>
+        <alias pos="j">показаться_на_глаза</alias>
+        <alias pos="j">показаться_на_глазах</alias>
+        <alias pos="j">казаться_на_глазах</alias>
+        <alias pos="j">казать_глаз</alias>
+        <alias pos="j">показать_глаз</alias>
         <mwe id="казаться_на_глаза">
           <token slot="A" arg="" pos="" head="" dep="">показаться</token>
           <token slot="A" arg="" pos="" head="" dep="">казаться</token>

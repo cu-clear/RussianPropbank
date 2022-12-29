@@ -3,9 +3,9 @@
   <predicate lemma="сровнять">
     <roleset id="сровнять.01" name="Word">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сровнять</alias>
-        <alias framenet="" pos="й" verbnet="">сровнявший</alias>
-        <alias framenet="" pos="j" verbnet="">сровненный</alias>
+        <alias pos="v">сровнять</alias>
+        <alias pos="й">сровнявший</alias>
+        <alias pos="j">сровненный</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English level.01</note>

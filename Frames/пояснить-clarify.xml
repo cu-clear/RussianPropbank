@@ -3,10 +3,10 @@
   <predicate lemma="пояснять">
     <roleset id="пояснять.01" name="Explaain, Clarify.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">пояснять</alias>
-        <alias framenet="" pos="v" verbnet="">пояснить</alias>
-        <alias framenet="" pos="j" verbnet="">поясняющий</alias>
-        <alias framenet="" pos="j" verbnet="">пояснивший</alias>
+        <alias pos="v">пояснять</alias>
+        <alias pos="v">пояснить</alias>
+        <alias pos="j">поясняющий</alias>
+        <alias pos="j">пояснивший</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English explain.01</note>

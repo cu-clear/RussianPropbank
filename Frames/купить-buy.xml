@@ -5,13 +5,13 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="купить.01" name="purchase">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">купивший</alias>
-        <alias framenet="" pos="j" verbnet="">купленный</alias>
-        <alias framenet="" pos="v" verbnet="">покупать</alias>
-        <alias framenet="" pos="j" verbnet="">покупающий</alias>
-        <alias framenet="" pos="j" verbnet="">покупавший</alias>
-        <alias framenet="" pos="j" verbnet="">покупаемый</alias>
-        <alias framenet="" pos="n" verbnet="">покупка</alias>
+        <alias pos="j">купивший</alias>
+        <alias pos="j">купленный</alias>
+        <alias pos="v">покупать</alias>
+        <alias pos="j">покупающий</alias>
+        <alias pos="j">покупавший</alias>
+        <alias pos="j">покупаемый</alias>
+        <alias pos="n">покупка</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 1</note>
       <note>купить.01 NOTES: based on buy.01</note>
@@ -35,9 +35,9 @@
     </roleset>
     <roleset id="купить.02" name="bribe">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">куплен</alias>
-        <alias framenet="" pos="v" verbnet="">подкупить</alias>
-        <alias framenet="" pos="j" verbnet="">подкупивший</alias>
+        <alias pos="j">куплен</alias>
+        <alias pos="v">подкупить</alias>
+        <alias pos="j">подкупивший</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 2,4</note>
       <note>купить.02 NOTES: based on bribe.01</note>
@@ -72,8 +72,8 @@
     </roleset>
     <roleset id="купить.03" name="fool, deceive">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">куплен</alias>
-        <alias framenet="" pos="j" verbnet="">купиться</alias>
+        <alias pos="j">куплен</alias>
+        <alias pos="j">купиться</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 3</note>
       <note>купить.03 NOTES: based on fool.01</note>

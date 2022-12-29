@@ -5,12 +5,12 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="бросить.01" name="throw">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">бросать</alias>
-        <alias framenet="" pos="v" verbnet="">броситься </alias>
-        <alias framenet="" pos="v" verbnet="">бросаться </alias>
-        <alias framenet="" pos="v" verbnet="">побросать </alias>
-        <alias framenet="" pos="n" verbnet="">бросание</alias>
-        <alias framenet="" pos="v" verbnet="">забросить</alias>
+        <alias pos="v">бросать</alias>
+        <alias pos="v">броситься </alias>
+        <alias pos="v">бросаться </alias>
+        <alias pos="v">побросать </alias>
+        <alias pos="n">бросание</alias>
+        <alias pos="v">забросить</alias>
       </aliases>
       <note>бросить.01 NOTES: Roleset based on English verb frame throw.01</note>
       <note>Corresponds to FrameBank senses 1,2,3,4,5,8,9,10,11</note>
@@ -58,7 +58,7 @@
     </roleset>
     <roleset id="бросить.02" name="drop, leave, stop, let go, give up, dump">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">бросать</alias>
+        <alias pos="v">бросать</alias>
       </aliases>
       <note>бросить.02 NOTES: Roleset based on English verb frame drop.05</note>
       <note>Corresponds to FrameBank senses 6, 7</note>

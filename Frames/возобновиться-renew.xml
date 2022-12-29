@@ -5,18 +5,18 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="возобновиться.01" name="renew, restart">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">возобновившийся</alias>
-        <alias framenet="" pos="v" verbnet="">возобновляться</alias>
-        <alias framenet="" pos="j" verbnet="">возобновляющийся</alias>
-        <alias framenet="" pos="j" verbnet="">возобновлявшийся</alias>
-        <alias framenet="" pos="v" verbnet="">возобновить</alias>
-        <alias framenet="" pos="j" verbnet="">возобновивший</alias>
-        <alias framenet="" pos="j" verbnet="">возобновлённый</alias>
-        <alias framenet="" pos="j" verbnet="">возобновленный</alias>
-        <alias framenet="" pos="v" verbnet="">возобновлять</alias>
-        <alias framenet="" pos="j" verbnet="">возобновляющий</alias>
-        <alias framenet="" pos="j" verbnet="">возобновлявший</alias>
-        <alias framenet="" pos="j" verbnet="">возобновляемый</alias>
+        <alias pos="j">возобновившийся</alias>
+        <alias pos="v">возобновляться</alias>
+        <alias pos="j">возобновляющийся</alias>
+        <alias pos="j">возобновлявшийся</alias>
+        <alias pos="v">возобновить</alias>
+        <alias pos="j">возобновивший</alias>
+        <alias pos="j">возобновлённый</alias>
+        <alias pos="j">возобновленный</alias>
+        <alias pos="v">возобновлять</alias>
+        <alias pos="j">возобновляющий</alias>
+        <alias pos="j">возобновлявший</alias>
+        <alias pos="j">возобновляемый</alias>
       </aliases>
       <note>NOTES: based on renew.01</note>
       <roles>
@@ -61,18 +61,18 @@
     <roleset id="возобновиться.02" name="repair">
       <note>возобновиться.02 NOTES: The syntactic structure does not change from возобновиться.01 but the semantic entailments should be different.</note>
       <aliases>
-        <alias framenet="" pos="j" verbnet="">возобновившийся</alias>
-        <alias framenet="" pos="v" verbnet="">возобновляться</alias>
-        <alias framenet="" pos="j" verbnet="">возобновляющийся</alias>
-        <alias framenet="" pos="j" verbnet="">возобновлявшийся</alias>
-        <alias framenet="" pos="v" verbnet="">возобновить</alias>
-        <alias framenet="" pos="j" verbnet="">возобновивший</alias>
-        <alias framenet="" pos="j" verbnet="">возобновлённый</alias>
-        <alias framenet="" pos="j" verbnet="">возобновленный</alias>
-        <alias framenet="" pos="v" verbnet="">возобновлять</alias>
-        <alias framenet="" pos="j" verbnet="">возобновляющий</alias>
-        <alias framenet="" pos="j" verbnet="">возобновлявший</alias>
-        <alias framenet="" pos="j" verbnet="">возобновляемый</alias>
+        <alias pos="j">возобновившийся</alias>
+        <alias pos="v">возобновляться</alias>
+        <alias pos="j">возобновляющийся</alias>
+        <alias pos="j">возобновлявшийся</alias>
+        <alias pos="v">возобновить</alias>
+        <alias pos="j">возобновивший</alias>
+        <alias pos="j">возобновлённый</alias>
+        <alias pos="j">возобновленный</alias>
+        <alias pos="v">возобновлять</alias>
+        <alias pos="j">возобновляющий</alias>
+        <alias pos="j">возобновлявший</alias>
+        <alias pos="j">возобновляемый</alias>
       </aliases>
       <note>NOTES: based on repair.01</note>
       <roles>

@@ -5,18 +5,18 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="прекратиться.01" name="cease">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">прекратившийся</alias>
-        <alias framenet="" pos="v" verbnet="">прекращаться</alias>
-        <alias framenet="" pos="j" verbnet="">прекращающийся</alias>
-        <alias framenet="" pos="j" verbnet="">прекращавшийся</alias>
-        <alias framenet="" pos="j" verbnet="">прекращать</alias>
-        <alias framenet="" pos="j" verbnet="">прекращающий</alias>
-        <alias framenet="" pos="j" verbnet="">прекращавший</alias>
-        <alias framenet="" pos="j" verbnet="">прекращаемый</alias>
-        <alias framenet="" pos="v" verbnet="">прекратить</alias>
-        <alias framenet="" pos="j" verbnet="">прекративший</alias>
-        <alias framenet="" pos="j" verbnet="">прекращённый</alias>
-        <alias framenet="" pos="j" verbnet="">прекращенный</alias>
+        <alias pos="j">прекратившийся</alias>
+        <alias pos="v">прекращаться</alias>
+        <alias pos="j">прекращающийся</alias>
+        <alias pos="j">прекращавшийся</alias>
+        <alias pos="j">прекращать</alias>
+        <alias pos="j">прекращающий</alias>
+        <alias pos="j">прекращавший</alias>
+        <alias pos="j">прекращаемый</alias>
+        <alias pos="v">прекратить</alias>
+        <alias pos="j">прекративший</alias>
+        <alias pos="j">прекращённый</alias>
+        <alias pos="j">прекращенный</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1</note>
       <note>прекратиться.01 NOTES: Frame based on adjustment of English cease.01</note>

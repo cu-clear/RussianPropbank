@@ -5,13 +5,13 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="поверить.01" name="believe">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">поверивший</alias>
-        <alias framenet="" pos="v" verbnet="">верить</alias>
-        <alias framenet="" pos="j" verbnet="">верящий</alias>
-        <alias framenet="" pos="j" verbnet="">веривший</alias>
-        <alias framenet="" pos="v" verbnet="">вериться</alias>
-        <alias framenet="" pos="v" verbnet="">повериться</alias>
-        <alias framenet="" pos="j" verbnet="">поверившийся</alias>
+        <alias pos="j">поверивший</alias>
+        <alias pos="v">верить</alias>
+        <alias pos="j">верящий</alias>
+        <alias pos="j">веривший</alias>
+        <alias pos="v">вериться</alias>
+        <alias pos="v">повериться</alias>
+        <alias pos="j">поверившийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,4,5,6</note>
       <note>Adjusted from English "believe.01"</note>

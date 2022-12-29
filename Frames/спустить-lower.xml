@@ -5,11 +5,11 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="спустить.01" name="lower, send down, let down, put down, pull down, downriver, lose pounds/weight, fall (dark/night)">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">спускать</alias>
-        <alias framenet="" pos="v" verbnet="">спуститься</alias>
-        <alias framenet="" pos="v" verbnet="">спускаться</alias>
-        <alias framenet="" pos="n" verbnet="">спускание</alias>
-        <alias framenet="" pos="n" verbnet="">спуск</alias>
+        <alias pos="v">спускать</alias>
+        <alias pos="v">спуститься</alias>
+        <alias pos="v">спускаться</alias>
+        <alias pos="n">спускание</alias>
+        <alias pos="n">спуск</alias>
       </aliases>
       <note>спустить.01 NOTES: Roleset based on English verb frame lower.05</note>
       <note>Corresponds to FrameBank senses 1,2,3,8; -ся 1,2,3</note>
@@ -62,8 +62,8 @@
     </roleset>
     <roleset id="спустить.02" name="launch">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">спускать</alias>
-        <alias framenet="" pos="n" verbnet="">спуск</alias>
+        <alias pos="v">спускать</alias>
+        <alias pos="n">спуск</alias>
       </aliases>
       <note>спустить.02 NOTES: Roleset based on English verb frame launch.01</note>
       <note>Corresponds to FrameBank senses 6</note>
@@ -92,10 +92,10 @@
     </roleset>
     <roleset id="спустить.03" name="let go, unchain, release, undo (in knitting)">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">спускать</alias>
-        <alias framenet="" pos="v" verbnet="">спуститься</alias>
-        <alias framenet="" pos="v" verbnet="">спускаться</alias>
-        <alias framenet="" pos="n" verbnet="">спуск</alias>
+        <alias pos="v">спускать</alias>
+        <alias pos="v">спуститься</alias>
+        <alias pos="v">спускаться</alias>
+        <alias pos="n">спуск</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 5</note>
       <note>спустить.03 NOTES: Roleset based on English verb frame release.01</note>
@@ -122,8 +122,8 @@
     </roleset>
     <roleset id="спуститьсь.04" name="stop a run (of a show, movie, act), stop showing, lose popularity, not 'in'.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">спускать</alias>
-        <alias framenet="" pos="v" verbnet="">спуск</alias>
+        <alias pos="v">спускать</alias>
+        <alias pos="v">спуск</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 4</note>
       <note>спустить.04 NOTES:Roleset has NO ENGLISH FRAME</note>
@@ -142,8 +142,8 @@
     </roleset>
     <roleset id="спустить.05" name="deflate, let off steam, gas, water, etc.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">спускать</alias>
-        <alias framenet="" pos="n" verbnet="">спуск</alias>
+        <alias pos="v">спускать</alias>
+        <alias pos="n">спуск</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 7</note>
       <note>спустить.05 NOTES:Roleset based on English verb frame deflate.01</note>
@@ -172,7 +172,7 @@
     </roleset>
     <roleset id="спустить.06" name="gamble away, lose through recklessnes, completely waste, spend recklessly">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">спускать</alias>
+        <alias pos="v">спускать</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 10,11</note>
       <note>спустить.06 NOTES:Roleset based on English verb frame lose.02</note>
@@ -200,7 +200,7 @@
     </roleset>
     <roleset id="спуститьсь.07" name="let off without punishment, forgive, overlook">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">спускать</alias>
+        <alias pos="v">спускать</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 9</note>
       <note>спустить.04 NOTES:Roleset based on English verb frame spare.01</note>

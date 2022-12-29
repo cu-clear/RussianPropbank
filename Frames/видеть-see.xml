@@ -5,12 +5,12 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="видеть.01" name="see; perceive by sight, understanding, or experience">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">видывать</alias>
-        <alias framenet="" pos="v" verbnet="">увидеть</alias>
-        <alias framenet="" pos="v" verbnet="">завидеть</alias>
-        <alias framenet="" pos="v" verbnet="">видеться</alias>
-        <alias framenet="" pos="v" verbnet="">увидеться</alias>
-        <alias framenet="" pos="v" verbnet="">привидеться</alias>
+        <alias pos="v">видывать</alias>
+        <alias pos="v">увидеть</alias>
+        <alias pos="v">завидеть</alias>
+        <alias pos="v">видеться</alias>
+        <alias pos="v">увидеться</alias>
+        <alias pos="v">привидеться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,4,5,6</note>
       <note>видеть.01 NOTES: based on English see.01</note>
@@ -94,10 +94,10 @@
     </roleset>
     <roleset id="видеть.02" name="see, meet, date">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">увидеть</alias>
-        <alias framenet="" pos="v" verbnet="">видеться</alias>
-        <alias framenet="" pos="v" verbnet="">увидеться</alias>
-        <alias framenet="" pos="v" verbnet="">свидеться</alias>
+        <alias pos="v">увидеть</alias>
+        <alias pos="v">видеться</alias>
+        <alias pos="v">увидеться</alias>
+        <alias pos="v">свидеться</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 3</note>
       <note>видеть.02 NOTES: Roleset based on English verb frame see.05</note>
@@ -136,8 +136,8 @@
     </roleset>
     <roleset id="видеть.03" name="discourse function">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">видешь</alias>
-        <alias framenet="" pos="v" verbnet="">видите</alias>
+        <alias pos="v">видешь</alias>
+        <alias pos="v">видите</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 7,8</note>
       <note>видеть.03 NOTES: based on English see.03</note>

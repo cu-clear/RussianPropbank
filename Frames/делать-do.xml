@@ -5,18 +5,18 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="делать.01" name="act, do">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">делающий</alias>
-        <alias framenet="" pos="j" verbnet="">делавший</alias>
-        <alias framenet="" pos="j" verbnet="">делаемый</alias>
-        <alias framenet="" pos="j" verbnet="">деланный</alias>
-        <alias framenet="" pos="v" verbnet="">сделать</alias>
-        <alias framenet="" pos="j" verbnet="">сделавший</alias>
-        <alias framenet="" pos="j" verbnet="">сделанный</alias>
-        <alias framenet="" pos="v" verbnet="">делаться</alias>
-        <alias framenet="" pos="j" verbnet="">делающийся</alias>
-        <alias framenet="" pos="j" verbnet="">делавшийся</alias>
-        <alias framenet="" pos="v" verbnet="">сделаться</alias>
-        <alias framenet="" pos="j" verbnet="">сделавшийся</alias>
+        <alias pos="j">делающий</alias>
+        <alias pos="j">делавший</alias>
+        <alias pos="j">делаемый</alias>
+        <alias pos="j">деланный</alias>
+        <alias pos="v">сделать</alias>
+        <alias pos="j">сделавший</alias>
+        <alias pos="j">сделанный</alias>
+        <alias pos="v">делаться</alias>
+        <alias pos="j">делающийся</alias>
+        <alias pos="j">делавшийся</alias>
+        <alias pos="v">сделаться</alias>
+        <alias pos="j">сделавшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,5,10</note>
       <note>Based on "do.02"</note>
@@ -63,23 +63,23 @@
     </roleset>
     <roleset id="делать.02" name="make">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">делающий</alias>
-        <alias framenet="" pos="j" verbnet="">делавший</alias>
-        <alias framenet="" pos="v" verbnet="">делая</alias>
-        <alias framenet="" pos="v" verbnet="">делавши</alias>
-        <alias framenet="" pos="v" verbnet="">делав</alias>
-        <alias framenet="" pos="j" verbnet="">делаемый</alias>
-        <alias framenet="" pos="j" verbnet="">деланный</alias>
-        <alias framenet="" pos="v" verbnet="">сделать</alias>
-        <alias framenet="" pos="j" verbnet="">сделавший</alias>
-        <alias framenet="" pos="v" verbnet="">сделав</alias>
-        <alias framenet="" pos="v" verbnet="">сделавши</alias>
-        <alias framenet="" pos="j" verbnet="">сделанный</alias>
-        <alias framenet="" pos="v" verbnet="">делаться</alias>
-        <alias framenet="" pos="j" verbnet="">делающийся</alias>
-        <alias framenet="" pos="j" verbnet="">делавшийся</alias>
-        <alias framenet="" pos="v" verbnet="">сделаться</alias>
-        <alias framenet="" pos="j" verbnet="">сделавшийся</alias>
+        <alias pos="j">делающий</alias>
+        <alias pos="j">делавший</alias>
+        <alias pos="v">делая</alias>
+        <alias pos="v">делавши</alias>
+        <alias pos="v">делав</alias>
+        <alias pos="j">делаемый</alias>
+        <alias pos="j">деланный</alias>
+        <alias pos="v">сделать</alias>
+        <alias pos="j">сделавший</alias>
+        <alias pos="v">сделав</alias>
+        <alias pos="v">сделавши</alias>
+        <alias pos="j">сделанный</alias>
+        <alias pos="v">делаться</alias>
+        <alias pos="j">делающийся</alias>
+        <alias pos="j">делавшийся</alias>
+        <alias pos="v">сделаться</alias>
+        <alias pos="j">сделавшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 4,6,7,8,9</note>
       <roles>
@@ -116,18 +116,18 @@
     </roleset>
     <roleset id="делать.03" name="change state">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">делающий</alias>
-        <alias framenet="" pos="j" verbnet="">делавший</alias>
-        <alias framenet="" pos="j" verbnet="">делаемый</alias>
-        <alias framenet="" pos="j" verbnet="">деланный</alias>
-        <alias framenet="" pos="v" verbnet="">сделать</alias>
-        <alias framenet="" pos="j" verbnet="">сделавший</alias>
-        <alias framenet="" pos="j" verbnet="">сделанный</alias>
-        <alias framenet="" pos="v" verbnet="">делаться</alias>
-        <alias framenet="" pos="j" verbnet="">делающийся</alias>
-        <alias framenet="" pos="j" verbnet="">делавшийся</alias>
-        <alias framenet="" pos="v" verbnet="">сделаться</alias>
-        <alias framenet="" pos="j" verbnet="">сделавшийся</alias>
+        <alias pos="j">делающий</alias>
+        <alias pos="j">делавший</alias>
+        <alias pos="j">делаемый</alias>
+        <alias pos="j">деланный</alias>
+        <alias pos="v">сделать</alias>
+        <alias pos="j">сделавший</alias>
+        <alias pos="j">сделанный</alias>
+        <alias pos="v">делаться</alias>
+        <alias pos="j">делающийся</alias>
+        <alias pos="j">делавшийся</alias>
+        <alias pos="v">сделаться</alias>
+        <alias pos="j">сделавшийся</alias>
       </aliases>
       <roles>
         <role descr="agent, doer" f="PAG" n="0"/>
@@ -158,18 +158,18 @@
   <predicate lemma="делать_жизнь">
     <roleset id="делать_жизнь-m" name="choose a role model">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">делающий</alias>
-        <alias framenet="" pos="j" verbnet="">делавший</alias>
-        <alias framenet="" pos="v" verbnet="">делая</alias>
-        <alias framenet="" pos="v" verbnet="">делавши</alias>
-        <alias framenet="" pos="v" verbnet="">делав</alias>
-        <alias framenet="" pos="j" verbnet="">делаемый</alias>
-        <alias framenet="" pos="j" verbnet="">деланный</alias>
-        <alias framenet="" pos="v" verbnet="">сделать</alias>
-        <alias framenet="" pos="j" verbnet="">сделавший</alias>
-        <alias framenet="" pos="v" verbnet="">сделав</alias>
-        <alias framenet="" pos="v" verbnet="">сделавши</alias>
-        <alias framenet="" pos="j" verbnet="">сделанный</alias>
+        <alias pos="j">делающий</alias>
+        <alias pos="j">делавший</alias>
+        <alias pos="v">делая</alias>
+        <alias pos="v">делавши</alias>
+        <alias pos="v">делав</alias>
+        <alias pos="j">делаемый</alias>
+        <alias pos="j">деланный</alias>
+        <alias pos="v">сделать</alias>
+        <alias pos="j">сделавший</alias>
+        <alias pos="v">сделав</alias>
+        <alias pos="v">сделавши</alias>
+        <alias pos="j">сделанный</alias>
       </aliases>
       <roles>
         <role descr="follower" f="PAG" n="0"/>

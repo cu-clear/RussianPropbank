@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="достать.01" name="get, fetch, achieve">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">доставать</alias>
-        <alias framenet="" pos="v" verbnet="">достаться</alias>
-        <alias framenet="" pos="v" verbnet="">доставаться</alias>
+        <alias pos="v">доставать</alias>
+        <alias pos="v">достаться</alias>
+        <alias pos="v">доставаться</alias>
       </aliases>
       <note>достать.01 NOTES: Roleset based on English verb frame fetch.01 </note>
       <note>Corresponds to FrameBank senses 1,2; -ся 1,2,4</note>
@@ -61,7 +61,7 @@
     </roleset>
     <roleset id="достать.02" name="reach for, touch, reach, catch up with">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">доставать</alias>
+        <alias pos="v">доставать</alias>
       </aliases>
       <note>достать.02 NOTES: Roleset based on English verb frame reach.01</note>
       <note>Corresponds to FrameBank senses 3</note>
@@ -106,7 +106,7 @@
     </roleset>
     <roleset id="достать.04" name="annoy, feed up with, drive crazy, get to">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">доставать</alias>
+        <alias pos="v">доставать</alias>
       </aliases>
       <note>Corresponds to FrameBank sense </note>
       <note>достать.04 NOTES: Roleset based on English verb frame get.06</note>
@@ -124,7 +124,7 @@
     </roleset>
     <roleset id="достать.05" name="get to, have to">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">доставаться</alias>
+        <alias pos="v">доставаться</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 3</note>
       <note>достать.04 NOTES: Roleset based on English verb frame get.06</note>
@@ -143,7 +143,7 @@
     </roleset>
     <roleset id="достать.06" name="gonna get it, be in trouble">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">доставаться</alias>
+        <alias pos="v">доставаться</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 5</note>
       <note>достать.04 NOTES: Roleset based on English verb frame punish.01</note>
@@ -174,7 +174,7 @@
   <predicate lemma="достаться_на_орехи">
     <roleset id="достаться_на_орехи.7" name="punish, cause trouble for, call on the carpet">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">доставаться_на_орехи</alias>
+        <alias pos="m">доставаться_на_орехи</alias>
         <mwe id="достаться_на_орехи">
           <token slot="A" arg="" pos="" head="" dep="">достаться</token>
           <token slot="A" arg="" pos="" head="" dep="">доставаться</token>

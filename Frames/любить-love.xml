@@ -5,18 +5,18 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="любить.01" name="have affection, prefer">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">любив</alias>
-        <alias framenet="" pos="j" verbnet="">любящий</alias>
-        <alias framenet="" pos="j" verbnet="">любивший</alias>
-        <alias framenet="" pos="v" verbnet="">любивши</alias>
-        <alias framenet="" pos="v" verbnet="">любя</alias>
-        <alias framenet="" pos="j" verbnet="">любимый</alias>
-        <alias framenet="" pos="j" verbnet="">любленный</alias>
-        <alias framenet="" pos="v" verbnet="">полюбить</alias>
-        <alias framenet="" pos="j" verbnet="">полюбивший</alias>
-        <alias framenet="" pos="j" verbnet="">полюбленный</alias>
-        <alias framenet="" pos="v" verbnet="">полюбивши</alias>
-        <alias framenet="" pos="v" verbnet="">полюбив</alias>
+        <alias pos="v">любив</alias>
+        <alias pos="j">любящий</alias>
+        <alias pos="j">любивший</alias>
+        <alias pos="v">любивши</alias>
+        <alias pos="v">любя</alias>
+        <alias pos="j">любимый</alias>
+        <alias pos="j">любленный</alias>
+        <alias pos="v">полюбить</alias>
+        <alias pos="j">полюбивший</alias>
+        <alias pos="j">полюбленный</alias>
+        <alias pos="v">полюбивши</alias>
+        <alias pos="v">полюбив</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 2,3,4</note>
       <note>любить.01 NOTES: Based on "love.01"</note>
@@ -66,10 +66,10 @@
   <predicate lemma="любиться">
     <roleset id="любиться.02" name="be in love">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">любився</alias>
-        <alias framenet="" pos="j" verbnet="">любящийся</alias>
-        <alias framenet="" pos="j" verbnet="">любившийся</alias>
-        <alias framenet="" pos="v" verbnet="">любившись</alias>
+        <alias pos="v">любився</alias>
+        <alias pos="j">любящийся</alias>
+        <alias pos="j">любившийся</alias>
+        <alias pos="v">любившись</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 1</note>
       <roles>
@@ -99,10 +99,10 @@
     </roleset>
     <roleset id="любиться.03" name="want to love, requit or return love">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">любився</alias>
-        <alias framenet="" pos="j" verbnet="">любящийся</alias>
-        <alias framenet="" pos="j" verbnet="">любившийся</alias>
-        <alias framenet="" pos="v" verbnet="">любившись</alias>
+        <alias pos="v">любився</alias>
+        <alias pos="j">любящийся</alias>
+        <alias pos="j">любившийся</alias>
+        <alias pos="v">любившись</alias>
       </aliases>
       <roles>
         <role descr="lover(s)" f="PAG" n="0">
@@ -131,14 +131,14 @@
   <predicate lemma="влюбиться">
     <roleset id="влюбиться.04" name="fall in love">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">влюбившийся</alias>
-        <alias framenet="" pos="j" verbnet="">влюбленный</alias>
-        <alias framenet="" pos="j" verbnet="">влюблённый</alias>
-        <alias framenet="" pos="j" verbnet="">влюблён</alias>
-        <alias framenet="" pos="j" verbnet="">влюблен</alias>
-        <alias framenet="" pos="v" verbnet="">влюбляться</alias>
-        <alias framenet="" pos="v" verbnet="">влюбляющийся</alias>
-        <alias framenet="" pos="v" verbnet="">влюблявшийся</alias>
+        <alias pos="j">влюбившийся</alias>
+        <alias pos="j">влюбленный</alias>
+        <alias pos="j">влюблённый</alias>
+        <alias pos="j">влюблён</alias>
+        <alias pos="j">влюблен</alias>
+        <alias pos="v">влюбляться</alias>
+        <alias pos="v">влюбляющийся</alias>
+        <alias pos="v">влюблявшийся</alias>
       </aliases>
       <roles>
         <role descr="lover(s)" f="PAG" n="0">

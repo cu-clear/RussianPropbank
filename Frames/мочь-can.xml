@@ -5,10 +5,10 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="мочь.01" name="able">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">смогший</alias>
-        <alias framenet="" pos="v" verbnet="">смочь</alias>
-        <alias framenet="" pos="j" verbnet="">могущий</alias>
-        <alias framenet="" pos="j" verbnet="">могший</alias>
+        <alias pos="j">смогший</alias>
+        <alias pos="v">смочь</alias>
+        <alias pos="j">могущий</alias>
+        <alias pos="j">могший</alias>
       </aliases>
       <note>мочь.01 NOTES: Based on able.01.</note>
       <note>Corresponds to FrameBank senses 1,2,3</note>

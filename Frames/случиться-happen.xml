@@ -32,7 +32,7 @@
     </roleset>
     <roleset id="случиться.02" name="happen to be, find self (middle or passive voice)">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">случаться</alias>
+        <alias pos="v">случаться</alias>
       </aliases>
       <note>случиться.02 NOTES: Roleset based on English verb frame find.03</note>
       <roles>
@@ -58,9 +58,9 @@
     </roleset>
     <roleset id="случиться.03" name="mate animals">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">случаться</alias>
-        <alias framenet="" pos="v" verbnet="">случиться</alias>
-        <alias framenet="" pos="v" verbnet="">случать</alias>
+        <alias pos="v">случаться</alias>
+        <alias pos="v">случиться</alias>
+        <alias pos="v">случать</alias>
       </aliases>
       <note>Corresponds to FrameBank sense</note>
       <note>случиться.03 NOTES: Roleset based on English verb frame mate.02</note>
@@ -81,7 +81,7 @@
     </roleset>
     <roleset id="случить.04" name="call or gather hunting dogs">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">случать</alias>
+        <alias pos="v">случать</alias>
       </aliases>
       <note>Rare, specialized. Perhaps archaic.</note>
       <roles>

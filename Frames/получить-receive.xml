@@ -5,18 +5,18 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="получить.01" name="get, receive">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">получивший</alias>
-        <alias framenet="" pos="j" verbnet="">полученный</alias>
-        <alias framenet="" pos="v" verbnet="">получать</alias>
-        <alias framenet="" pos="j" verbnet="">получающий</alias>
-        <alias framenet="" pos="j" verbnet="">получавший</alias>
-        <alias framenet="" pos="j" verbnet="">получаемый</alias>
-        <alias framenet="" pos="v" verbnet="">получиться</alias>
-        <alias framenet="" pos="j" verbnet="">получившийся</alias>
-        <alias framenet="" pos="v" verbnet="">получаться</alias>
-        <alias framenet="" pos="j" verbnet="">получающийся</alias>
-        <alias framenet="" pos="j" verbnet="">получавшийся</alias>
-        <alias framenet="" pos="n" verbnet="">получение</alias>
+        <alias pos="j">получивший</alias>
+        <alias pos="j">полученный</alias>
+        <alias pos="v">получать</alias>
+        <alias pos="j">получающий</alias>
+        <alias pos="j">получавший</alias>
+        <alias pos="j">получаемый</alias>
+        <alias pos="v">получиться</alias>
+        <alias pos="j">получившийся</alias>
+        <alias pos="v">получаться</alias>
+        <alias pos="j">получающийся</alias>
+        <alias pos="j">получавшийся</alias>
+        <alias pos="n">получение</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2,3,5</note>
       <note>получить.01 NOTES: Roleset based on verb frame get.01</note>
@@ -63,15 +63,15 @@
     </roleset>
     <roleset id="получить.02" name="get hit/punched/punished">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">получать</alias>
-        <alias framenet="" pos="j" verbnet="">получающий</alias>
-        <alias framenet="" pos="j" verbnet="">получавший</alias>
-        <alias framenet="" pos="j" verbnet="">получаемый</alias>
-        <alias framenet="" pos="v" verbnet="">получиться</alias>
-        <alias framenet="" pos="j" verbnet="">получившийся</alias>
-        <alias framenet="" pos="v" verbnet="">получаться</alias>
-        <alias framenet="" pos="j" verbnet="">получающийся</alias>
-        <alias framenet="" pos="j" verbnet="">получавшийся</alias>
+        <alias pos="v">получать</alias>
+        <alias pos="j">получающий</alias>
+        <alias pos="j">получавший</alias>
+        <alias pos="j">получаемый</alias>
+        <alias pos="v">получиться</alias>
+        <alias pos="j">получившийся</alias>
+        <alias pos="v">получаться</alias>
+        <alias pos="j">получающийся</alias>
+        <alias pos="j">получавшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 4,7</note>
       <note>получить.02 NOTES: based on injure.01 but there is usually no agent causing injury</note>
@@ -112,17 +112,17 @@
     </roleset>
     <roleset id="получить.03" name="get, extract, produce, manufacture">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">получать</alias>
-        <alias framenet="" pos="j" verbnet="">получивший</alias>
-        <alias framenet="" pos="j" verbnet="">полученный</alias>
-        <alias framenet="" pos="j" verbnet="">получающий</alias>
-        <alias framenet="" pos="j" verbnet="">получавший</alias>
-        <alias framenet="" pos="j" verbnet="">получаемый</alias>
-        <alias framenet="" pos="v" verbnet="">получиться</alias>
-        <alias framenet="" pos="j" verbnet="">получившийся</alias>
-        <alias framenet="" pos="v" verbnet="">получаться</alias>
-        <alias framenet="" pos="j" verbnet="">получающийся</alias>
-        <alias framenet="" pos="j" verbnet="">получавшийся</alias>
+        <alias pos="v">получать</alias>
+        <alias pos="j">получивший</alias>
+        <alias pos="j">полученный</alias>
+        <alias pos="j">получающий</alias>
+        <alias pos="j">получавший</alias>
+        <alias pos="j">получаемый</alias>
+        <alias pos="v">получиться</alias>
+        <alias pos="j">получившийся</alias>
+        <alias pos="v">получаться</alias>
+        <alias pos="j">получающийся</alias>
+        <alias pos="j">получавшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 6</note>
       <note>NOTES: based on extract.01 but it has a different meaning</note>
@@ -160,7 +160,7 @@
     </roleset>
     <roleset id="получить.LV" name="light verb">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">получать</alias>
+        <alias pos="v">получать</alias>
       </aliases>
       <roles>
       </roles>
@@ -173,10 +173,10 @@
   <predicate lemma="получиться">
     <roleset id="получиться.04" name="succeed, happen">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">получившийся</alias>
-        <alias framenet="" pos="v" verbnet="">получаться</alias>
-        <alias framenet="" pos="j" verbnet="">получающийся</alias>
-        <alias framenet="" pos="j" verbnet="">получавшийся</alias>
+        <alias pos="j">получившийся</alias>
+        <alias pos="v">получаться</alias>
+        <alias pos="j">получающийся</alias>
+        <alias pos="j">получавшийся</alias>
       </aliases>
       <note>NOTES: based on succeed.01 but no agent</note>
       <roles>
@@ -218,10 +218,10 @@
     </roleset>
     <roleset id="получиться.05" name="turn out (to be)">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">получившийся</alias>
-        <alias framenet="" pos="v" verbnet="">получаться</alias>
-        <alias framenet="" pos="j" verbnet="">получающийся</alias>
-        <alias framenet="" pos="j" verbnet="">получавшийся</alias>
+        <alias pos="j">получившийся</alias>
+        <alias pos="v">получаться</alias>
+        <alias pos="j">получающийся</alias>
+        <alias pos="j">получавшийся</alias>
       </aliases>
       <note>NOTES: based on turn_out.11 but no benefactive?</note>
       <roles>

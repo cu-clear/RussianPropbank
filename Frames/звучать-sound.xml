@@ -3,10 +3,10 @@
   <predicate lemma="звучать">
     <roleset id="звучать.01" name="resound, to make sound, to ring">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">звучать</alias>
-        <alias framenet="" pos="v" verbnet="">прозвучать</alias>
-        <alias framenet="" pos="j" verbnet="">звучащий</alias>
-        <alias framenet="" pos="j" verbnet="">прозвучавший</alias>
+        <alias pos="v">звучать</alias>
+        <alias pos="v">прозвучать</alias>
+        <alias pos="j">звучащий</alias>
+        <alias pos="j">прозвучавший</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English sound.02</note>
@@ -38,10 +38,10 @@
 	</roleset>
   <roleset id="звучать.02" name="to seem, to appear">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">звучать</alias>
-        <alias framenet="" pos="v" verbnet="">прозвучать</alias>
-        <alias framenet="" pos="j" verbnet="">звучащий</alias>
-        <alias framenet="" pos="j" verbnet="">прозвучавший</alias>
+        <alias pos="v">звучать</alias>
+        <alias pos="v">прозвучать</alias>
+        <alias pos="j">звучащий</alias>
+        <alias pos="j">прозвучавший</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English sound.01</note>

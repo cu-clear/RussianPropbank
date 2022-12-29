@@ -5,19 +5,19 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="знать.01" name="know">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">знать</alias>
-        <alias framenet="" pos="j" verbnet="">знающий</alias>
-        <alias framenet="" pos="j" verbnet="">знавший</alias>
-        <alias framenet="" pos="j" verbnet="">знаемый</alias>
-        <alias framenet="" pos="n" verbnet="">знание</alias>
-        <alias framenet="" pos="v" verbnet="">узнать</alias>
-        <alias framenet="" pos="j" verbnet="">узнающий</alias>
-        <alias framenet="" pos="j" verbnet="">узнавший</alias>
-        <alias framenet="" pos="j" verbnet="">узнаемый</alias>
-        <alias framenet="" pos="v" verbnet="">узнавать</alias>
-        <alias framenet="" pos="j" verbnet="">узнававший</alias>
-        <alias framenet="" pos="j" verbnet="">узнаваемый</alias>
-        <alias framenet="" pos="n" verbnet="">узнавание</alias>
+        <alias pos="v">знать</alias>
+        <alias pos="j">знающий</alias>
+        <alias pos="j">знавший</alias>
+        <alias pos="j">знаемый</alias>
+        <alias pos="n">знание</alias>
+        <alias pos="v">узнать</alias>
+        <alias pos="j">узнающий</alias>
+        <alias pos="j">узнавший</alias>
+        <alias pos="j">узнаемый</alias>
+        <alias pos="v">узнавать</alias>
+        <alias pos="j">узнававший</alias>
+        <alias pos="j">узнаваемый</alias>
+        <alias pos="n">узнавание</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,4,5</note>
       <note>знать.01 NOTES: Based on know.01.</note>
@@ -58,25 +58,25 @@
     </roleset>
     <roleset id="знать.02" name="kennen, recognize">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">знать</alias>
-        <alias framenet="" pos="j" verbnet="">знающий</alias>
-        <alias framenet="" pos="j" verbnet="">знавший</alias>
-        <alias framenet="" pos="j" verbnet="">знаемый</alias>
-        <alias framenet="" pos="v" verbnet="">знаться</alias>
-        <alias framenet="" pos="j" verbnet="">знающийся</alias>
-        <alias framenet="" pos="j" verbnet="">знавшийся</alias>
-        <alias framenet="" pos="v" verbnet="">знавать</alias>
-        <alias framenet="" pos="j" verbnet="">знавающий</alias>
-        <alias framenet="" pos="j" verbnet="">знававший</alias>
-        <alias framenet="" pos="j" verbnet="">знаваемый</alias>
-        <alias framenet="" pos="v" verbnet="">узнать</alias>
-        <alias framenet="" pos="j" verbnet="">узнающий</alias>
-        <alias framenet="" pos="j" verbnet="">узнавший</alias>
-        <alias framenet="" pos="j" verbnet="">узнаемый</alias>
-        <alias framenet="" pos="v" verbnet="">узнавать</alias>
-        <alias framenet="" pos="j" verbnet="">узнававший</alias>
-        <alias framenet="" pos="j" verbnet="">узнаваемый</alias>
-        <alias framenet="" pos="n" verbnet="">узнавание</alias>
+        <alias pos="v">знать</alias>
+        <alias pos="j">знающий</alias>
+        <alias pos="j">знавший</alias>
+        <alias pos="j">знаемый</alias>
+        <alias pos="v">знаться</alias>
+        <alias pos="j">знающийся</alias>
+        <alias pos="j">знавшийся</alias>
+        <alias pos="v">знавать</alias>
+        <alias pos="j">знавающий</alias>
+        <alias pos="j">знававший</alias>
+        <alias pos="j">знаваемый</alias>
+        <alias pos="v">узнать</alias>
+        <alias pos="j">узнающий</alias>
+        <alias pos="j">узнавший</alias>
+        <alias pos="j">узнаемый</alias>
+        <alias pos="v">узнавать</alias>
+        <alias pos="j">узнававший</alias>
+        <alias pos="j">узнаваемый</alias>
+        <alias pos="n">узнавание</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 3</note>
       <note>знать.02 NOTES: Based on know.02.</note>
@@ -123,13 +123,13 @@
     </roleset>
     <roleset id="знать.03" name="know-how">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">знать</alias>
-        <alias framenet="" pos="j" verbnet="">знающий</alias>
-        <alias framenet="" pos="j" verbnet="">знавший</alias>
-        <alias framenet="" pos="j" verbnet="">знаемый</alias>
-        <alias framenet="" pos="v" verbnet="">узнать</alias>
-        <alias framenet="" pos="j" verbnet="">узнавший</alias>
-        <alias framenet="" pos="j" verbnet="">узнанный</alias>
+        <alias pos="v">знать</alias>
+        <alias pos="j">знающий</alias>
+        <alias pos="j">знавший</alias>
+        <alias pos="j">знаемый</alias>
+        <alias pos="v">узнать</alias>
+        <alias pos="j">узнавший</alias>
+        <alias pos="j">узнанный</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 2</note>
       <note>знать.03 NOTES: Based on know.03.</note>
@@ -164,16 +164,16 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="узнать.04" name="inquire">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">узнать</alias>
-        <alias framenet="" pos="j" verbnet="">узнающий</alias>
-        <alias framenet="" pos="j" verbnet="">узнавший</alias>
-        <alias framenet="" pos="v" verbnet="">узная</alias>
-        <alias framenet="" pos="v" verbnet="">узнавши</alias>
-        <alias framenet="" pos="j" verbnet="">узнаемый</alias>
-        <alias framenet="" pos="v" verbnet="">узнавать</alias>
-        <alias framenet="" pos="j" verbnet="">узнававший</alias>
-        <alias framenet="" pos="j" verbnet="">узнаваемый</alias>
-        <alias framenet="" pos="n" verbnet="">узнавание</alias>
+        <alias pos="v">узнать</alias>
+        <alias pos="j">узнающий</alias>
+        <alias pos="j">узнавший</alias>
+        <alias pos="v">узная</alias>
+        <alias pos="v">узнавши</alias>
+        <alias pos="j">узнаемый</alias>
+        <alias pos="v">узнавать</alias>
+        <alias pos="j">узнававший</alias>
+        <alias pos="j">узнаваемый</alias>
+        <alias pos="n">узнавание</alias>
       </aliases>
       <note>знать.01 NOTES: Ожегов defn 3 https://dic.academic.ru/dic.nsf/ogegova/250150 </note>
       <roles>

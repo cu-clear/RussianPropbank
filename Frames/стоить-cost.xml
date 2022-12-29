@@ -5,10 +5,10 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="стоить.01" name="cost">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">стоящий</alias>
-        <alias framenet="" pos="j" verbnet="">стоивший</alias>
-        <alias framenet="" pos="v" verbnet="">стоивши</alias>
-        <alias framenet="" pos="v" verbnet="">стоив</alias>
+        <alias pos="j">стоящий</alias>
+        <alias pos="j">стоивший</alias>
+        <alias pos="v">стоивши</alias>
+        <alias pos="v">стоив</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2</note>
       <note>стоить.01 NOTES: Based on cost.01</note>
@@ -28,10 +28,10 @@
     </roleset>
     <roleset id="стоить.02" name="be worth">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">стоящий</alias>
-        <alias framenet="" pos="j" verbnet="">стоивший</alias>
-        <alias framenet="" pos="v" verbnet="">стоивши</alias>
-        <alias framenet="" pos="v" verbnet="">стоив</alias>
+        <alias pos="j">стоящий</alias>
+        <alias pos="j">стоивший</alias>
+        <alias pos="v">стоивши</alias>
+        <alias pos="v">стоив</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 3,4,5</note>
       <note>стоить.02 NOTES: Based on worth.01</note>

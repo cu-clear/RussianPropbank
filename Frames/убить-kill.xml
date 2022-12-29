@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="убить.01" name="kill, put to death">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">убивать</alias>
-        <alias framenet="" pos="v" verbnet="">убиваться</alias>
-        <alias framenet="" pos="v" verbnet="">убиться</alias>
+        <alias pos="v">убивать</alias>
+        <alias pos="v">убиваться</alias>
+        <alias pos="v">убиться</alias>
       </aliases>
       <note>убить.01 NOTES: Roleset based on English verb frame kill.01</note>
       <note>Corresponds to FrameBank senses 1,2</note>
@@ -46,10 +46,10 @@
     </roleset>
     <roleset id="убить.02" name="eradicate, destroy, delete, remove">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">убивать</alias>
-        <alias framenet="" pos="v" verbnet="">убиваться</alias>
-        <alias framenet="" pos="v" verbnet="">убиться</alias>
-        <alias framenet="" pos="v" verbnet="">убивание</alias>
+        <alias pos="v">убивать</alias>
+        <alias pos="v">убиваться</alias>
+        <alias pos="v">убиться</alias>
+        <alias pos="v">убивание</alias>
       </aliases>
       <note>убить.02 NOTES: Roleset based on English verb frame eradicate.01</note>
       <note>Corresponds to FrameBank senses 3</note>
@@ -89,10 +89,10 @@
     </roleset>
     <roleset id="убить.03" name="waste, spend, consume">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">убивать</alias>
-        <alias framenet="" pos="v" verbnet="">убиваться</alias>
-        <alias framenet="" pos="v" verbnet="">убиться</alias>
-        <alias framenet="" pos="v" verbnet="">убивание</alias>
+        <alias pos="v">убивать</alias>
+        <alias pos="v">убиваться</alias>
+        <alias pos="v">убиться</alias>
+        <alias pos="v">убивание</alias>
       </aliases>
       <note>убить.03 NOTES: Roleset based on English verb frame kill.04</note>
       <roles>
@@ -145,7 +145,7 @@
     </roleset>
     <roleset id="убить.05" name="injure, hurt">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">убивать</alias>
+        <alias pos="v">убивать</alias>
       </aliases>
       <note>убить.03 NOTES: Roleset based on English verb frame injure.01</note>
       <roles>
@@ -170,8 +170,8 @@
     </roleset>
     <roleset id="убить.06" name="compact, compact, tamp">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">убивать</alias>
-        <alias framenet="" pos="v" verbnet="">убиваться</alias>
+        <alias pos="v">убивать</alias>
+        <alias pos="v">убиваться</alias>
       </aliases>
       <note>убить.03 NOTES: Roleset based on English verb frame compact.01</note>
       <roles>

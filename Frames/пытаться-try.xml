@@ -5,7 +5,7 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="пытаться.01" name="try, attempt">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">попытаться</alias>
+        <alias pos="v">попытаться</alias>
       </aliases>
       <note>NOTES: based on try.01</note>
       <roles>

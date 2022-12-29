@@ -3,9 +3,9 @@
   <predicate lemma="звонить">
     <roleset id="звонить.01" name="To call by phone">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">звонить</alias>
-        <alias framenet="" pos="v" verbnet="">позвонить</alias>
-        <alias framenet="" pos="j" verbnet="">звоняший</alias>
+        <alias pos="v">звонить</alias>
+        <alias pos="v">позвонить</alias>
+        <alias pos="j">звоняший</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English call.02</note>

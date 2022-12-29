@@ -5,11 +5,11 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="смываться.01" name="wash off, dissipate">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">смыться</alias>
-        <alias framenet="" pos="v" verbnet="">смывать</alias>
-        <alias framenet="" pos="v" verbnet="">смыть</alias>
-        <alias framenet="" pos="n" verbnet="">смывание</alias>
-        <alias framenet="" pos="n" verbnet="">смывка</alias>
+        <alias pos="v">смыться</alias>
+        <alias pos="v">смывать</alias>
+        <alias pos="v">смыть</alias>
+        <alias pos="n">смывание</alias>
+        <alias pos="n">смывка</alias>
       </aliases>
       <note>смыть.01 NOTES: based on wash.01</note>
       <roles>
@@ -77,9 +77,9 @@
     </roleset>
     <roleset id="смываться.02" name="wash away, move by water">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">смыться</alias>
-        <alias framenet="" pos="v" verbnet="">смывать</alias>
-        <alias framenet="" pos="v" verbnet="">смыть</alias>
+        <alias pos="v">смыться</alias>
+        <alias pos="v">смывать</alias>
+        <alias pos="v">смыть</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2</note>
       <note>смываться.02 NOTES: based on wash.01</note>
@@ -129,9 +129,9 @@
     </roleset>
     <roleset id="смываться.03" name="sneak out">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">смывающийся</alias>
-        <alias framenet="" pos="j" verbnet="">смывавшийся</alias>
-        <alias framenet="" pos="j" verbnet="">смыться</alias>
+        <alias pos="v">смывающийся</alias>
+        <alias pos="j">смывавшийся</alias>
+        <alias pos="j">смыться</alias>
       </aliases>
       <note>смываться.03 NOTES: based on sneak.01</note>
       <roles>

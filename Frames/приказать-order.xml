@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="приказать.01" name="order, advise, command, demand">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">приказывать</alias>
-        <alias framenet="" pos="v" verbnet="">приказываться</alias>
-        <alias framenet="" pos="v" verbnet="">приказаться</alias>
+        <alias pos="v">приказывать</alias>
+        <alias pos="v">приказываться</alias>
+        <alias pos="v">приказаться</alias>
       </aliases>
       <note>приказать.01 NOTES: Roleset based on English verb frame order.01</note>
       <note>Corresponds to FrameBank senses 1</note>
@@ -44,7 +44,7 @@
     </roleset>
     <roleset id="приказать.02" name="entrust, bequeath">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">приказывать</alias>
+        <alias pos="v">приказывать</alias>
       </aliases>
       <note>приказать.02 NOTES: Roleset based on English verb frame entrust.01</note>
       <note>Somewhat archaic.</note>

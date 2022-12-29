@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="читать.01" name="read, interpret, understand (visually)">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">прочесть</alias>
-        <alias framenet="" pos="v" verbnet="">прочитать</alias>
-        <alias framenet="" pos="v" verbnet="">читаться</alias>
+        <alias pos="v">прочесть</alias>
+        <alias pos="v">прочитать</alias>
+        <alias pos="v">читаться</alias>
       </aliases>
       <note>читать.01 NOTES: Roleset based on English verb frame read.01</note>
       <note>Corresponds to FrameBank senses </note>
@@ -106,9 +106,9 @@
     </roleset>
     <roleset id="читать.02" name="recite, declaim, give a lecture">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">прочесть</alias>
-        <alias framenet="" pos="v" verbnet="">прочитать</alias>
-        <alias framenet="" pos="v" verbnet="">читывать</alias>
+        <alias pos="v">прочесть</alias>
+        <alias pos="v">прочитать</alias>
+        <alias pos="v">читывать</alias>
       </aliases>
       <note>читать.02 NOTES: Roleset based on English verb frame recite.01</note>
       <roles>
@@ -127,9 +127,9 @@
     </roleset>
     <roleset id="читать.03" name="deliver (lecture, etc.), speak">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">прочесть</alias>
-        <alias framenet="" pos="v" verbnet="">прочитать</alias>
-        <alias framenet="" pos="v" verbnet="">прочтение</alias>
+        <alias pos="v">прочесть</alias>
+        <alias pos="v">прочитать</alias>
+        <alias pos="v">прочтение</alias>
       </aliases>
       <note>читать.03 NOTES: Roleset based on English verb frame </note>
       <roles>

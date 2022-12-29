@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="добавить.01" name="do sums, add">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">добавлять</alias>
-        <alias framenet="" pos="j" verbnet="">добавляться</alias>
-        <alias framenet="" pos="v" verbnet="">добавиться</alias>
+        <alias pos="j">добавлять</alias>
+        <alias pos="j">добавляться</alias>
+        <alias pos="v">добавиться</alias>
       </aliases>
       <note>Corresponds to FrameBank sense </note>
       <note>добавить.01 NOTES: Roleset based on English verb frame inhabit.01</note>
@@ -50,8 +50,8 @@
     </roleset>
     <roleset id="добавить.02" name="say, add">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">добавлять</alias>
-        <alias framenet="" pos="j" verbnet="">живший</alias>
+        <alias pos="j">добавлять</alias>
+        <alias pos="j">живший</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 2</note>
       <note>добавить.01 NOTES: Roleset based on English verb frame add.01</note>

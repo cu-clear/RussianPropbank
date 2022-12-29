@@ -3,8 +3,8 @@
   <predicate lemma="бушевать">
     <roleset id="бушевать.01" name="Rage, storm, billow.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">бушевать</alias>
-        <alias framenet="" pos="j" verbnet="">бушующий</alias>
+        <alias pos="v">бушевать</alias>
+        <alias pos="j">бушующий</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English billow.01</note>

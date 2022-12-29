@@ -5,17 +5,17 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="закончить.01" name="end, run out">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">закончиться</alias>
-        <alias framenet="" pos="j" verbnet="">закончившийся</alias>
-        <alias framenet="" pos="v" verbnet="">заканчиваться</alias>
-        <alias framenet="" pos="j" verbnet="">заканчивающийся</alias>
-        <alias framenet="" pos="j" verbnet="">заканчивавшийся</alias>
-        <alias framenet="" pos="j" verbnet="">закончивший</alias>
-        <alias framenet="" pos="j" verbnet="">законченный</alias>
-        <alias framenet="" pos="v" verbnet="">заканчивать</alias>
-        <alias framenet="" pos="j" verbnet="">заканчивавший</alias>
-        <alias framenet="" pos="j" verbnet="">заканчивающий</alias>
-        <alias framenet="" pos="j" verbnet="">заканчиваемый</alias>
+        <alias pos="j">закончиться</alias>
+        <alias pos="j">закончившийся</alias>
+        <alias pos="v">заканчиваться</alias>
+        <alias pos="j">заканчивающийся</alias>
+        <alias pos="j">заканчивавшийся</alias>
+        <alias pos="j">закончивший</alias>
+        <alias pos="j">законченный</alias>
+        <alias pos="v">заканчивать</alias>
+        <alias pos="j">заканчивавший</alias>
+        <alias pos="j">заканчивающий</alias>
+        <alias pos="j">заканчиваемый</alias>
       </aliases>
       <note>NOTES: Based on "end.01"</note>
       <roles>
@@ -55,22 +55,22 @@
     </roleset>
     <roleset id="закончить.02" name="complete, graduate">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">закончивший</alias>
-        <alias framenet="" pos="j" verbnet="">законченный</alias>
-        <alias framenet="" pos="v" verbnet="">окончить</alias>
-        <alias framenet="" pos="j" verbnet="">окончивший</alias>
-        <alias framenet="" pos="j" verbnet="">оконченный</alias>
-        <alias framenet="" pos="v" verbnet="">оканчивать</alias>
-        <alias framenet="" pos="j" verbnet="">оканчивающий</alias>
-        <alias framenet="" pos="j" verbnet="">оканчивавший</alias>
-        <alias framenet="" pos="j" verbnet="">оканчиваемый</alias>
-        <alias framenet="" pos="v" verbnet="">кончить</alias>
-        <alias framenet="" pos="j" verbnet="">кончивший</alias>
-        <alias framenet="" pos="j" verbnet="">конченный</alias>
-        <alias framenet="" pos="v" verbnet="">кончать</alias>
-        <alias framenet="" pos="j" verbnet="">кончающий</alias>
-        <alias framenet="" pos="j" verbnet="">кончавший</alias>
-        <alias framenet="" pos="j" verbnet="">кончаемый</alias>
+        <alias pos="j">закончивший</alias>
+        <alias pos="j">законченный</alias>
+        <alias pos="v">окончить</alias>
+        <alias pos="j">окончивший</alias>
+        <alias pos="j">оконченный</alias>
+        <alias pos="v">оканчивать</alias>
+        <alias pos="j">оканчивающий</alias>
+        <alias pos="j">оканчивавший</alias>
+        <alias pos="j">оканчиваемый</alias>
+        <alias pos="v">кончить</alias>
+        <alias pos="j">кончивший</alias>
+        <alias pos="j">конченный</alias>
+        <alias pos="v">кончать</alias>
+        <alias pos="j">кончающий</alias>
+        <alias pos="j">кончавший</alias>
+        <alias pos="j">кончаемый</alias>
       </aliases>
       <note>NOTES: Based on adjustment to "graduate.01"</note>
       <roles>

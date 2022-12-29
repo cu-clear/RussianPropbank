@@ -5,13 +5,13 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="жить.01" name="reside">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">живущий</alias>
-        <alias framenet="" pos="j" verbnet="">живший</alias>
-        <alias framenet="" pos="v" verbnet="">прожить</alias>
-        <alias framenet="" pos="j" verbnet="">проживший</alias>
-        <alias framenet="" pos="j" verbnet="">прожитый</alias>
-        <alias framenet="" pos="v" verbnet="">живать</alias>
-        <alias framenet="" pos="v" verbnet="">проживать</alias>
+        <alias pos="j">живущий</alias>
+        <alias pos="j">живший</alias>
+        <alias pos="v">прожить</alias>
+        <alias pos="j">проживший</alias>
+        <alias pos="j">прожитый</alias>
+        <alias pos="v">живать</alias>
+        <alias pos="v">проживать</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 4</note>
       <note>жить.01 NOTES: Roleset based on English verb frame inhabit.01</note>
@@ -32,14 +32,14 @@
     </roleset>
     <roleset id="жить.02" name="live life, exist, survive, be not dead, how do you do">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">живущий</alias>
-        <alias framenet="" pos="j" verbnet="">живший</alias>
-        <alias framenet="" pos="v" verbnet="">прожить</alias>
-        <alias framenet="" pos="j" verbnet="">проживший</alias>
-        <alias framenet="" pos="j" verbnet="">прожитый</alias>
-        <alias framenet="" pos="v" verbnet="">житься</alias>
-        <alias framenet="" pos="j" verbnet="">живущийся</alias>
-        <alias framenet="" pos="v" verbnet="">поживать</alias>
+        <alias pos="j">живущий</alias>
+        <alias pos="j">живший</alias>
+        <alias pos="v">прожить</alias>
+        <alias pos="j">проживший</alias>
+        <alias pos="j">прожитый</alias>
+        <alias pos="v">житься</alias>
+        <alias pos="j">живущийся</alias>
+        <alias pos="v">поживать</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 1</note>
       <note>жить.01 NOTES: Roleset based on English verb frame live.01</note>
@@ -137,9 +137,9 @@
     </roleset>
     <roleset id="жить.04" name="make a living, support oneself">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">живущий</alias>
-        <alias framenet="" pos="j" verbnet="">живший</alias>
-        <alias framenet="" pos="v" verbnet="">живать</alias>
+        <alias pos="j">живущий</alias>
+        <alias pos="j">живший</alias>
+        <alias pos="v">живать</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 2</note>
       <roles>
@@ -166,8 +166,8 @@
     </roleset>
     <roleset id="жить.05" name="be all caught up in, live by/in, emotionally depend on">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">живущий</alias>
-        <alias framenet="" pos="j" verbnet="">живший</alias>
+        <alias pos="j">живущий</alias>
+        <alias pos="j">живший</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 3,6</note>
       <note>жить.05 NOTES: Roleset based on English verb frame </note>
@@ -191,7 +191,7 @@
   <predicate lemma="житься">
     <roleset id="житься.06" name="(not) want to live somewhere, be settled somewhere">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">ужиться</alias>
+        <alias pos="j">ужиться</alias>
       </aliases>
       <note>житься.06 NOTES: Roleset based on English verb frame inhabit.01</note>
       <note>житься.06 NOTES: Always negative.</note>
@@ -223,7 +223,7 @@
   <predicate lemma="долго_жить">
     <roleset id="долго_жить.07" name="die, cease to exist">
       <aliases>
-        <alias framenet="" pos="m" verbnet="">приказать_долго_жить</alias>
+        <alias pos="m">приказать_долго_жить</alias>
         <mwe id="терять_счет">
           <token slot="A" arg="" pos="" head="" dep="">приказать</token>
           <token slot="A" arg="" pos="" head="" dep="">велеть</token>

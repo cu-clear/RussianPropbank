@@ -5,27 +5,27 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless src otherwise noted.</note>
     <roleset id="тереть.01" name="rub, wipe, cause blister (rub raw), annoy">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">трущий</alias>
-        <alias framenet="" pos="j" verbnet="">тёрший</alias>
-        <alias framenet="" pos="j" verbnet="">терший</alias>
-        <alias framenet="" pos="j" verbnet="">тёртый</alias>
-        <alias framenet="" pos="j" verbnet="">тертый</alias>
-        <alias framenet="" pos="v" verbnet="">тереться</alias>
-        <alias framenet="" pos="v" verbnet="">потереть</alias>
-        <alias framenet="" pos="j" verbnet="">потёрший</alias>
-        <alias framenet="" pos="j" verbnet="">потерший</alias>
-        <alias framenet="" pos="j" verbnet="">потёртый</alias>
-        <alias framenet="" pos="j" verbnet="">потертый</alias>
-        <alias framenet="" pos="v" verbnet="">стереть</alias>
-        <alias framenet="" pos="j" verbnet="">стёрший</alias>
-        <alias framenet="" pos="j" verbnet="">стерший</alias>
-        <alias framenet="" pos="j" verbnet="">стёртый</alias>
-        <alias framenet="" pos="j" verbnet="">стертый</alias>
-        <alias framenet="" pos="v" verbnet="">растереть</alias>
-        <alias framenet="" pos="j" verbnet="">растёрший</alias>
-        <alias framenet="" pos="j" verbnet="">растерший</alias>
-        <alias framenet="" pos="j" verbnet="">растёртый</alias>
-        <alias framenet="" pos="j" verbnet="">растертый</alias>
+        <alias pos="j">трущий</alias>
+        <alias pos="j">тёрший</alias>
+        <alias pos="j">терший</alias>
+        <alias pos="j">тёртый</alias>
+        <alias pos="j">тертый</alias>
+        <alias pos="v">тереться</alias>
+        <alias pos="v">потереть</alias>
+        <alias pos="j">потёрший</alias>
+        <alias pos="j">потерший</alias>
+        <alias pos="j">потёртый</alias>
+        <alias pos="j">потертый</alias>
+        <alias pos="v">стереть</alias>
+        <alias pos="j">стёрший</alias>
+        <alias pos="j">стерший</alias>
+        <alias pos="j">стёртый</alias>
+        <alias pos="j">стертый</alias>
+        <alias pos="v">растереть</alias>
+        <alias pos="j">растёрший</alias>
+        <alias pos="j">растерший</alias>
+        <alias pos="j">растёртый</alias>
+        <alias pos="j">растертый</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,3</note>
       <note>NOTES: Based on rub.01. No GOL</note>
@@ -71,32 +71,32 @@
     </roleset>
     <roleset id="тереть.02" name="grate">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">трущий</alias>
-        <alias framenet="" pos="j" verbnet="">тёрший</alias>
-        <alias framenet="" pos="j" verbnet="">терший</alias>
-        <alias framenet="" pos="j" verbnet="">тёртый</alias>
-        <alias framenet="" pos="j" verbnet="">тертый</alias>
-        <alias framenet="" pos="v" verbnet="">тереться</alias>
-        <alias framenet="" pos="v" verbnet="">потереть</alias>
-        <alias framenet="" pos="j" verbnet="">потёрший</alias>
-        <alias framenet="" pos="j" verbnet="">потерший</alias>
-        <alias framenet="" pos="j" verbnet="">потёртый</alias>
-        <alias framenet="" pos="j" verbnet="">потертый</alias>
-        <alias framenet="" pos="v" verbnet="">истереть</alias>
-        <alias framenet="" pos="j" verbnet="">истёрший</alias>
-        <alias framenet="" pos="j" verbnet="">истерший</alias>
-        <alias framenet="" pos="j" verbnet="">истёртый</alias>
-        <alias framenet="" pos="j" verbnet="">истертый</alias>
-        <alias framenet="" pos="v" verbnet="">растереть</alias>
-        <alias framenet="" pos="j" verbnet="">растёрший</alias>
-        <alias framenet="" pos="j" verbnet="">растерший</alias>
-        <alias framenet="" pos="j" verbnet="">растёртый</alias>
-        <alias framenet="" pos="j" verbnet="">растертый</alias>
-        <alias framenet="" pos="v" verbnet="">натереть</alias>
-        <alias framenet="" pos="j" verbnet="">натёрший</alias>
-        <alias framenet="" pos="j" verbnet="">натерший</alias>
-        <alias framenet="" pos="j" verbnet="">натёртый</alias>
-        <alias framenet="" pos="j" verbnet="">натертый</alias>
+        <alias pos="j">трущий</alias>
+        <alias pos="j">тёрший</alias>
+        <alias pos="j">терший</alias>
+        <alias pos="j">тёртый</alias>
+        <alias pos="j">тертый</alias>
+        <alias pos="v">тереться</alias>
+        <alias pos="v">потереть</alias>
+        <alias pos="j">потёрший</alias>
+        <alias pos="j">потерший</alias>
+        <alias pos="j">потёртый</alias>
+        <alias pos="j">потертый</alias>
+        <alias pos="v">истереть</alias>
+        <alias pos="j">истёрший</alias>
+        <alias pos="j">истерший</alias>
+        <alias pos="j">истёртый</alias>
+        <alias pos="j">истертый</alias>
+        <alias pos="v">растереть</alias>
+        <alias pos="j">растёрший</alias>
+        <alias pos="j">растерший</alias>
+        <alias pos="j">растёртый</alias>
+        <alias pos="j">растертый</alias>
+        <alias pos="v">натереть</alias>
+        <alias pos="j">натёрший</alias>
+        <alias pos="j">натерший</alias>
+        <alias pos="j">натёртый</alias>
+        <alias pos="j">натертый</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 2</note>
       <note>NOTES: Based on English grate.02.</note>
@@ -149,10 +149,10 @@
   <predicate lemma="потереть">
     <roleset id="потереть.04" name="go (criminal slang)">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">потёрший</alias>
-        <alias framenet="" pos="j" verbnet="">потерший</alias>
-        <alias framenet="" pos="j" verbnet="">потёртый</alias>
-        <alias framenet="" pos="j" verbnet="">потертый</alias>
+        <alias pos="j">потёрший</alias>
+        <alias pos="j">потерший</alias>
+        <alias pos="j">потёртый</alias>
+        <alias pos="j">потертый</alias>
       </aliases>
       <note>NOTES: Based on walk.01, with destination instead of path</note>
       <roles>

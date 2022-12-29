@@ -5,9 +5,9 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="сойти.01" name="go down, step down, come down, get down, dismount, descend  ">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сходить</alias>
-        <alias framenet="" pos="n" verbnet="">схождение</alias>
-        <alias framenet="" pos="n" verbnet="">сход</alias>
+        <alias pos="v">сходить</alias>
+        <alias pos="n">схождение</alias>
+        <alias pos="n">сход</alias>
       </aliases>
       <note>сойти.01 NOTES: Roleset based on English verb frame descend.01</note>
       <note>Corresponds to FrameBank senses 1,3,4</note>
@@ -46,7 +46,7 @@
     </roleset>
     <roleset id="сойти.02" name="step off, move off, come off, turn off from, derail, disappear, melt off, peel off">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сходить</alias>
+        <alias pos="v">сходить</alias>
       </aliases>
       <note>сойти.02 NOTES: Roleset based on English verb frame go.01</note>
       <note>Corresponds to FrameBank senses 5,6,9</note>
@@ -83,7 +83,7 @@
     </roleset>
     <roleset id="сойти.03" name="disembark, get off at a transport stop">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сходить</alias>
+        <alias pos="v">сходить</alias>
       </aliases>
       <note>сойти.03 NOTES: Roleset based on English verb frame disembark.01</note>
       <note>Corresponds to FrameBank sense 2</note>
@@ -101,7 +101,7 @@
     </roleset>
     <roleset id="сойти.04" name="stop a run (of a show, movie, act), stop showing, lose popularity, be not 'in'">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сходить</alias>
+        <alias pos="v">сходить</alias>
       </aliases>
       <note>сойти.04 NOTES:Roleset based on English verb frame ran.09</note>
       <note>ran.09-only negative or past, completive aspect!</note>
@@ -132,7 +132,7 @@
     </roleset>
     <roleset id="сойти.05" name="pass as, be accepted as">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сходить</alias>
+        <alias pos="v">сходить</alias>
       </aliases>
       <note>сойти.05 NOTES: Roleset based on English verb frame pass.06</note>
       <note>Corresponds to FrameBank sense 8</note>
@@ -151,7 +151,7 @@
     </roleset>
     <roleset id="сойти.06" name="come to, turn out, pass, end up as.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сходить</alias>
+        <alias pos="v">сходить</alias>
       </aliases>
       <note>сойти.06 NOTES:Roleset based on English verb frame turn_out.11</note>
       <note>Corresponds to FrameBank sense 7</note>
@@ -174,8 +174,8 @@
   <predicate>
     <roleset id="сойтись.07" name="meet, run into each other, come together, physically converge, meet, intersect, join for battle, approach mathematical limit for an integral, agree, be united, be similar, be consistent, concur, coincide, jibe.">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сходиться</alias>
-        <alias framenet="" pos="v" verbnet="">схождение</alias>
+        <alias pos="v">сходиться</alias>
+        <alias pos="v">схождение</alias>
       </aliases>
       <note>Corresponds to FrameBank sense -ся 1,2,3-6; -ся 9-10</note>
       <note>сойти.04 NOTES:Roleset based on English verb frame converge.01</note>
@@ -244,7 +244,7 @@
     </roleset>
     <roleset id="сойтись.08" name="get close with someone, befriend, shack up">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сходиться</alias>
+        <alias pos="v">сходиться</alias>
       </aliases>
       <note>сойти.04 NOTES:Roleset based on English verb frame close.13</note>
       <note>Corresponds to FrameBank sense -ся 7</note>

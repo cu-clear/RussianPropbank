@@ -5,7 +5,7 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="добраться.01" name="get to, arrive at, make it to, achieve">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">добираться</alias>
+        <alias pos="v">добираться</alias>
       </aliases>
       <note>добраться.01 NOTES: Roleset based on English reach.1</note>
       <roles>

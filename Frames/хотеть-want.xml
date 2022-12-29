@@ -5,13 +5,13 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="хотеть.01" name="have a desire">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">хотящий</alias>
-        <alias framenet="" pos="j" verbnet="">хотевший</alias>
-        <alias framenet="" pos="j" verbnet="">хотимый</alias>
-        <alias framenet="" pos="v" verbnet="">захотеть</alias>
-        <alias framenet="" pos="j" verbnet="">захотевший</alias>
-        <alias framenet="" pos="v" verbnet="">хотеться</alias>
-        <alias framenet="" pos="v" verbnet="">захотеться</alias>
+        <alias pos="j">хотящий</alias>
+        <alias pos="j">хотевший</alias>
+        <alias pos="j">хотимый</alias>
+        <alias pos="v">захотеть</alias>
+        <alias pos="j">захотевший</alias>
+        <alias pos="v">хотеться</alias>
+        <alias pos="v">захотеться</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1-7</note>
       <note>хотеть.01 NOTES: Based on English want.01.</note>
@@ -63,12 +63,12 @@
   <predicate lemma="расхотеть">
     <roleset id="расхотеть.02" name="stop wanting, lose desire">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">расхотящий</alias>
-        <alias framenet="" pos="j" verbnet="">расхотевший</alias>
-        <alias framenet="" pos="j" verbnet="">расхотимый</alias>
-        <alias framenet="" pos="v" verbnet="">расхотеться</alias>
-        <alias framenet="" pos="v" verbnet="">перехотеть</alias>
-        <alias framenet="" pos="j" verbnet="">перехотевший</alias>
+        <alias pos="j">расхотящий</alias>
+        <alias pos="j">расхотевший</alias>
+        <alias pos="j">расхотимый</alias>
+        <alias pos="v">расхотеться</alias>
+        <alias pos="v">перехотеть</alias>
+        <alias pos="j">перехотевший</alias>
       </aliases>
       <note>расхотеть.01 NOTES: Based on English want.01.</note>
       <roles>

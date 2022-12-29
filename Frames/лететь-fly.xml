@@ -5,8 +5,8 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
     <roleset id="лететь.01" name="fly, travel via air in (one-way) directed motion, move or change very quickly">
       <aliases>
-        <alias framenet="" pos="n" verbnet="">летание</alias>
-        <alias framenet="" pos="n" verbnet="">лёт</alias>
+        <alias pos="n">летание</alias>
+        <alias pos="n">лёт</alias>
       </aliases>
       <note>лететь.01 NOTES: Roleset based on English verb frame fly.01</note>
       <note>Corresponds to FrameBank senses 1-3, 5-8</note>
@@ -78,7 +78,7 @@
     </roleset>
     <roleset id="лететь.02" name="fall, fly off">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">полететь</alias>
+        <alias pos="v">полететь</alias>
       </aliases>
       <note>лететь.02 NOTES: Roleset based on English verb frame fall.01</note>
       <note>Corresponds to FrameBank senses 4</note>
@@ -99,7 +99,7 @@
     </roleset>
     <roleset id="лететь.03" name="be ruined or upset">
       <aliases>
-        <alias framenet="" pos="n" verbnet="">полететь</alias>
+        <alias pos="n">полететь</alias>
       </aliases>
       <note>лететь.03 NOTES: Roleset based on English verb frame ruin.01 </note>
       <note>Corresponds to FrameBank sense 9</note>
@@ -119,7 +119,7 @@
     </roleset>
     <roleset id="лететь.04" name="read, catch, receive (a signal)">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">пролeтеть</alias>
+        <alias pos="v">пролeтеть</alias>
       </aliases>
       <note>лететь.04 NOTES: Based on English PB frame fall.05</note>
       <note>Corresponds to FrameBank sense 9</note>

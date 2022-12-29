@@ -5,10 +5,10 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="остаться.01" name="stay, visit">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">оставаться</alias>
-        <alias framenet="" pos="j" verbnet="">оставшийся</alias>
-        <alias framenet="" pos="j" verbnet="">остающийся</alias>
-        <alias framenet="" pos="j" verbnet="">остававшийся</alias>
+        <alias pos="v">оставаться</alias>
+        <alias pos="j">оставшийся</alias>
+        <alias pos="j">остающийся</alias>
+        <alias pos="j">остававшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 1</note>
       <note>остаться.01 NOTES: Based on stay.01</note>
@@ -63,11 +63,11 @@
     </roleset>
     <roleset id="остаться.02" name="leave, remain, resulting from an event or situation">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">оставаться</alias>
-        <alias framenet="" pos="j" verbnet="">оставшийся</alias>
-        <alias framenet="" pos="j" verbnet="">остающийся</alias>
-        <alias framenet="" pos="j" verbnet="">остававшийся</alias>
-        <alias framenet="" pos="v" verbnet="">оставить</alias>
+        <alias pos="v">оставаться</alias>
+        <alias pos="j">оставшийся</alias>
+        <alias pos="j">остающийся</alias>
+        <alias pos="j">остававшийся</alias>
+        <alias pos="v">оставить</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 2,5,6</note>
       <note>остаться.02 NOTES: Based on leave.13</note>
@@ -129,10 +129,10 @@
     </roleset>
     <roleset id="остаться.03" name="exist or remain (potentially after others were removed">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">оставаться</alias>
-        <alias framenet="" pos="j" verbnet="">оставшийся</alias>
-        <alias framenet="" pos="j" verbnet="">остающийся</alias>
-        <alias framenet="" pos="j" verbnet="">остававшийся</alias>
+        <alias pos="v">оставаться</alias>
+        <alias pos="j">оставшийся</alias>
+        <alias pos="j">остающийся</alias>
+        <alias pos="j">остававшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 3,4</note>
       <note>остаться.03 NOTES: Based on leave.17</note>
@@ -185,13 +185,13 @@
     </roleset>
     <roleset id="остаться.04" name="be in debt, owe">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">оставаться</alias>
-        <alias framenet="" pos="j" verbnet="">оставшийся</alias>
-        <alias framenet="" pos="v" verbnet="">оставшись</alias>
-        <alias framenet="" pos="j" verbnet="">остающийся</alias>
-        <alias framenet="" pos="j" verbnet="">остававшийся</alias>
-        <alias framenet="" pos="v" verbnet="">оставаясь</alias>
-        <alias framenet="" pos="v" verbnet="">остававшись</alias>
+        <alias pos="v">оставаться</alias>
+        <alias pos="j">оставшийся</alias>
+        <alias pos="v">оставшись</alias>
+        <alias pos="j">остающийся</alias>
+        <alias pos="j">остававшийся</alias>
+        <alias pos="v">оставаясь</alias>
+        <alias pos="v">остававшись</alias>
       </aliases>
       <roles>
         <role descr="debtor" f="pag" n="0">

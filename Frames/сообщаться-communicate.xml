@@ -5,17 +5,17 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="сообщаться.01" name="inform, announce, broadcast, report">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">сообщиться</alias>
-        <alias framenet="" pos="j" verbnet="">сообщившийся</alias>
-        <alias framenet="" pos="j" verbnet="">сообщающийся</alias>
-        <alias framenet="" pos="j" verbnet="">сообщавшийся</alias>
-        <alias framenet="" pos="v" verbnet="">сообщить</alias>
-        <alias framenet="" pos="j" verbnet="">сообщивший</alias>
-        <alias framenet="" pos="j" verbnet="">сообщённый</alias>
-        <alias framenet="" pos="j" verbnet="">сообщенный</alias>
-        <alias framenet="" pos="v" verbnet="">сообщать</alias>
-        <alias framenet="" pos="j" verbnet="">сообщающий</alias>
-        <alias framenet="" pos="j" verbnet="">сообщавший</alias>
+        <alias pos="v">сообщиться</alias>
+        <alias pos="j">сообщившийся</alias>
+        <alias pos="j">сообщающийся</alias>
+        <alias pos="j">сообщавшийся</alias>
+        <alias pos="v">сообщить</alias>
+        <alias pos="j">сообщивший</alias>
+        <alias pos="j">сообщённый</alias>
+        <alias pos="j">сообщенный</alias>
+        <alias pos="v">сообщать</alias>
+        <alias pos="j">сообщающий</alias>
+        <alias pos="j">сообщавший</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,2</note>
       <note>сообщаться.01 NOTES: Based on inform.01</note>
@@ -64,8 +64,8 @@
     </roleset>
     <roleset id="сообщаться.02" name="correspond, connect with">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">сообщающийся</alias>
-        <alias framenet="" pos="j" verbnet="">сообщавшийся</alias>
+        <alias pos="j">сообщающийся</alias>
+        <alias pos="j">сообщавшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 4</note>
       <note>сообщаться.02 NOTES: NO PERFECTIVE PAIR</note>

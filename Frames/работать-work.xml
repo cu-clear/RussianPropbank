@@ -5,12 +5,12 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="работать.01" name="work, being employed, acts, deeds (no physical parts or gov't departments!)">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">работающий</alias>
-        <alias framenet="" pos="j" verbnet="">работавший</alias>
-        <alias framenet="" pos="j" verbnet="">работаемый</alias>
-        <alias framenet="" pos="j" verbnet="">работанный</alias>
-        <alias framenet="" pos="v" verbnet="">поработать</alias>
-        <alias framenet="" pos="j" verbnet="">поработавший</alias>
+        <alias pos="j">работающий</alias>
+        <alias pos="j">работавший</alias>
+        <alias pos="j">работаемый</alias>
+        <alias pos="j">работанный</alias>
+        <alias pos="v">поработать</alias>
+        <alias pos="j">поработавший</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 1</note>
       <roles>
@@ -84,12 +84,12 @@
     </roleset>
     <roleset id="работать.02" name="function, operate">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">работающий</alias>
-        <alias framenet="" pos="j" verbnet="">работавший</alias>
-        <alias framenet="" pos="j" verbnet="">работаемый</alias>
-        <alias framenet="" pos="j" verbnet="">работанный</alias>
-        <alias framenet="" pos="v" verbnet="">сработать</alias>
-        <alias framenet="" pos="j" verbnet="">сработавший</alias>
+        <alias pos="j">работающий</alias>
+        <alias pos="j">работавший</alias>
+        <alias pos="j">работаемый</alias>
+        <alias pos="j">работанный</alias>
+        <alias pos="v">сработать</alias>
+        <alias pos="j">сработавший</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 6</note>
       <note>работать.02 NOTE: Similar to "work.09"</note>
@@ -158,8 +158,8 @@
     <roleset id="работаться.05" name="want to work">
       <note>NOTE: Modal meaning added/changed from работать.01</note>
       <aliases>
-        <alias framenet="" pos="j" verbnet="">работающийся</alias>
-        <alias framenet="" pos="j" verbnet="">работавшийся</alias>
+        <alias pos="j">работающийся</alias>
+        <alias pos="j">работавшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank sense 7</note>
       <roles>

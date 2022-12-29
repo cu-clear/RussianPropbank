@@ -5,18 +5,18 @@
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="объединить.01" name="unite, join together, combine">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">объединенный</alias>
-        <alias framenet="" pos="j" verbnet="">объединивший</alias>
-        <alias framenet="" pos="j" verbnet="">объединённый</alias>
-        <alias framenet="" pos="v" verbnet="">объединять</alias>
-        <alias framenet="" pos="j" verbnet="">объединяющий</alias>
-        <alias framenet="" pos="j" verbnet="">объединявший</alias>
-        <alias framenet="" pos="j" verbnet="">объединяемый</alias>
-        <alias framenet="" pos="v" verbnet="">объединиться</alias>
-        <alias framenet="" pos="j" verbnet="">объединившийся</alias>
-        <alias framenet="" pos="v" verbnet="">объединяться</alias>
-        <alias framenet="" pos="j" verbnet="">объединяющийся</alias>
-        <alias framenet="" pos="j" verbnet="">объединявшийся</alias>
+        <alias pos="j">объединенный</alias>
+        <alias pos="j">объединивший</alias>
+        <alias pos="j">объединённый</alias>
+        <alias pos="v">объединять</alias>
+        <alias pos="j">объединяющий</alias>
+        <alias pos="j">объединявший</alias>
+        <alias pos="j">объединяемый</alias>
+        <alias pos="v">объединиться</alias>
+        <alias pos="j">объединившийся</alias>
+        <alias pos="v">объединяться</alias>
+        <alias pos="j">объединяющийся</alias>
+        <alias pos="j">объединявшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 1,4,5</note>
       <note>объединить.01 NOTES: Frame based on adjustment of English unite.01</note>
@@ -56,18 +56,18 @@
     </roleset>
     <roleset id="объединить.02" name="solidify, strengthen, unite">
       <aliases>
-        <alias framenet="" pos="j" verbnet="">объединенный</alias>
-        <alias framenet="" pos="j" verbnet="">объединивший</alias>
-        <alias framenet="" pos="j" verbnet="">объединённый</alias>
-        <alias framenet="" pos="v" verbnet="">объединять</alias>
-        <alias framenet="" pos="j" verbnet="">объединяющий</alias>
-        <alias framenet="" pos="j" verbnet="">объединявший</alias>
-        <alias framenet="" pos="j" verbnet="">объединяемый</alias>
-        <alias framenet="" pos="v" verbnet="">объединиться</alias>
-        <alias framenet="" pos="j" verbnet="">объединившийся</alias>
-        <alias framenet="" pos="v" verbnet="">объединяться</alias>
-        <alias framenet="" pos="j" verbnet="">объединяющийся</alias>
-        <alias framenet="" pos="j" verbnet="">объединявшийся</alias>
+        <alias pos="j">объединенный</alias>
+        <alias pos="j">объединивший</alias>
+        <alias pos="j">объединённый</alias>
+        <alias pos="v">объединять</alias>
+        <alias pos="j">объединяющий</alias>
+        <alias pos="j">объединявший</alias>
+        <alias pos="j">объединяемый</alias>
+        <alias pos="v">объединиться</alias>
+        <alias pos="j">объединившийся</alias>
+        <alias pos="v">объединяться</alias>
+        <alias pos="j">объединяющийся</alias>
+        <alias pos="j">объединявшийся</alias>
       </aliases>
       <note>Corresponds to FrameBank senses 2,3</note>
       <note>объединить.02 NOTES: Frame based on adjustment of English solidify.01</note>
