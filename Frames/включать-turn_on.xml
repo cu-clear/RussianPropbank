@@ -1,14 +1,14 @@
 	<!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿включать">
+  <predicate lemma="включать">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿включать.01" name="include">
+    <roleset id="включать.01" name="include">
 	<aliases>
 	    <alias framenet="" pos="v" verbnet="">включить</alias>
 		<alias framenet="" pos="v" verbnet="">включаться</alias>
 		<alias framenet="" pos="v" verbnet="">включиться</alias>
       </aliases>
-	  <note>﻿включать.01 NOTES: Roleset based on English verb frame include.01 </note>
+	  <note>включать.01 NOTES: Roleset based on English verb frame include.01 </note>
 	  <note>Corresponds to FrameBank senses </note>
       <roles>
         <role descr="agent, entity causing some inclusion" f="PAG" n="0"/>
@@ -36,11 +36,11 @@
       </example>
     </roleset>
  
-	<roleset id="﻿включать.02" name="connect, plug in">
+	<roleset id="включать.02" name="connect, plug in">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">включить</alias>
       </aliases>
-	  <note>﻿включать.02 NOTES: Roleset based on English verb frame plug.04</note>
+	  <note>включать.02 NOTES: Roleset based on English verb frame plug.04</note>
 	  <note>Corresponds to FrameBank senses </note>
       <roles>
         <role descr="plugger" f="PAG" n="0"/>
@@ -55,14 +55,14 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿включать.03" name="turn on, start">
+	<roleset id="включать.03" name="turn on, start">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">включить</alias>
 		<alias framenet="" pos="v" verbnet="">включаться</alias>
 		<alias framenet="" pos="v" verbnet="">включиться</alias>
       </aliases>
 	    <note>Corresponds to FrameBank sense </note>
-	  <note>﻿включать.03 NOTES:Roleset based on English verb frame turn_on.13</note>
+	  <note>включать.03 NOTES:Roleset based on English verb frame turn_on.13</note>
 	  <roles>
 		<role descr="cause of on-ness" f="PAG" n="0"/>
 		<role descr="lamp, etc" f="PPT" n="1"/>

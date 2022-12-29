@@ -1,13 +1,13 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿просить">
+  <predicate lemma="просить">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿просить.01" name="request, ask a favor, petition, ask for, beg, ask permission for inclusion or to be excused from, ask for it, invite">
+    <roleset id="просить.01" name="request, ask a favor, petition, ask for, beg, ask permission for inclusion or to be excused from, ask for it, invite">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">попросить</alias>
 		<alias framenet="" pos="v" verbnet="">попроситься</alias>
       </aliases>
-	  <note>﻿просить.01 NOTES: Roleset based on English verb frame request.01</note>
+	  <note>просить.01 NOTES: Roleset based on English verb frame request.01</note>
 	  <note>Corresponds to FrameBank senses 1,2,3</note>
       <roles>
         <role descr="asker" f="PAG" n="0"/>
@@ -64,11 +64,11 @@
       </example>
 	</roleset>
 	
-	<roleset id="﻿просить.02" name="intercede, sue, ask on behalf of, intervene">
+	<roleset id="просить.02" name="intercede, sue, ask on behalf of, intervene">
 	  <aliases>
 		<alias framenet="" pos="v" verbnet="">попросить</alias>
       </aliases>
-	  <note>﻿приказать.02 NOTES: Roleset based on English verb frame intercede.01</note>
+	  <note>приказать.02 NOTES: Roleset based on English verb frame intercede.01</note>
 	  <note>Corresponds to FrameBank senses 5</note>
       <roles>
         <role descr="intercessor" f="PAG" n="0"/>
@@ -97,11 +97,11 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿просить.03" name="buying and selling, ask for">
+	<roleset id="просить.03" name="buying and selling, ask for">
 	  <aliases>
 		<alias framenet="" pos="v" verbnet="">попросить</alias>
       </aliases>
-	  <note>﻿просить.02 NOTES: Roleset based on English verb frame ask.03</note>
+	  <note>просить.02 NOTES: Roleset based on English verb frame ask.03</note>
 	  <note>Corresponds to FrameBank senses 4</note>
       <roles>
         <role descr="seller" f="PAG" n="0"/>
@@ -120,11 +120,11 @@
   </predicate>
   
   <predicate>
-	<roleset id="﻿проситься.04" name="ask permission to go potty">
+	<roleset id="проситься.04" name="ask permission to go potty">
 	  <aliases>
 		<alias framenet="" pos="v" verbnet="">попроситься</alias>
       </aliases>
-	  <note>﻿просить.02 NOTES: Roleset based on English verb frame go.29</note>
+	  <note>просить.02 NOTES: Roleset based on English verb frame go.29</note>
 	  <note>Corresponds to FrameBank senses 4</note>
       <roles>
         <role descr="potty-er" f="PAG" n="0"/>
@@ -147,15 +147,15 @@
 	</roleset>
   </predicate>
   
-  <predicate lemma="﻿милости_просим">
-	<roleset id="﻿милости_просим-m" name="welcome, greet, invite in">
+  <predicate lemma="милости_просим">
+	<roleset id="милости_просим-m" name="welcome, greet, invite in">
 	  <aliases>
 		<mwe id="милости_просим">
 			<token slot="A" arg="" pos="" head="B" dep="">милости</token>
 			<token slot="B" arg="" pos="" head="" dep="">просим</token>
 		</mwe>
       </aliases>
-	  <note>﻿милости_просим NOTES: Roleset based on English verb frame welcome.01</note>
+	  <note>милости_просим NOTES: Roleset based on English verb frame welcome.01</note>
       <roles>
         <role descr="welcomer" f="PAG" n="0"/>
         <role descr="thing welcomed" f="PPT" n="1"/>

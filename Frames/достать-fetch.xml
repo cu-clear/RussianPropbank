@@ -1,14 +1,14 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿достать">
+  <predicate lemma="достать">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿достать.01" name="get, fetch, achieve">
+    <roleset id="достать.01" name="get, fetch, achieve">
       <aliases>
 	   <alias framenet="" pos="v" verbnet="">доставать</alias>
 	    <alias framenet="" pos="v" verbnet="">достаться</alias>
 		 <alias framenet="" pos="v" verbnet="">доставаться</alias>
       </aliases>
-	  <note>﻿достать.01 NOTES: Roleset based on English verb frame fetch.01 </note>
+	  <note>достать.01 NOTES: Roleset based on English verb frame fetch.01 </note>
 	  <note>Corresponds to FrameBank senses 1,2; -ся 1,2,4</note>
       <roles>
         <role descr="bringer" f="PPT" n="0"/>
@@ -49,11 +49,11 @@
       </example>
     </roleset>
  
-	<roleset id="﻿достать.02" name="reach for, touch, reach, catch up with">
+	<roleset id="достать.02" name="reach for, touch, reach, catch up with">
       <aliases>
 	   <alias framenet="" pos="v" verbnet="">доставать</alias>
       </aliases>
-	  <note>﻿достать.02 NOTES: Roleset based on English verb frame reach.01</note>
+	  <note>достать.02 NOTES: Roleset based on English verb frame reach.01</note>
 	  	  <note>Corresponds to FrameBank senses 3</note>
       <roles>
         <role descr="thing striving" f="PAG" n="0"/>
@@ -66,11 +66,11 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿достать.03" name="last, have/be enough, reach until">
+	<roleset id="достать.03" name="last, have/be enough, reach until">
       <aliases>
       </aliases>
 	    <note>Corresponds to FrameBank sense 4</note>
-	  <note>﻿достать.03 NOTES: Roleset based on English verb frame last.03.</note>
+	  <note>достать.03 NOTES: Roleset based on English verb frame last.03.</note>
 	  <roles>
 		<role descr="supplies, resources" f="PPT" n="1"/>
 		<role descr="how long the supplies/resources will last" f="VSP" n="2"/>
@@ -90,13 +90,13 @@
 	  </example>
 	</roleset>
  
-	<roleset id="﻿достать.04" name="annoy, feed up with, drive crazy, get to">
+	<roleset id="достать.04" name="annoy, feed up with, drive crazy, get to">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">доставать</alias>
       </aliases>
     
 	  <note>Corresponds to FrameBank sense </note>
-	  <note>﻿достать.04 NOTES: Roleset based on English verb frame get.06</note>
+	  <note>достать.04 NOTES: Roleset based on English verb frame get.06</note>
       <roles>
 		<role descr="aggravator " f="PAG" n="0"/>
 		<role descr="aggravated" f="PPT" n="1"/>
@@ -108,12 +108,12 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿достать.05" name="get to, have to">
+	<roleset id="достать.05" name="get to, have to">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">доставаться</alias>
       </aliases>
 	  <note>Corresponds to FrameBank sense 3</note>
-	  <note>﻿достать.04 NOTES: Roleset based on English verb frame get.06</note>
+	  <note>достать.04 NOTES: Roleset based on English verb frame get.06</note>
       <roles>
 		<role descr="Subject" f="PAG" n="0"/>
 		<role descr="Complement" f="PRD" n="1"/>
@@ -126,12 +126,12 @@
 	  </example>
 	</roleset>
 	
-	<roleset id="﻿достать.06" name="gonna get it, be in trouble">
+	<roleset id="достать.06" name="gonna get it, be in trouble">
       <aliases>
 	  <alias framenet="" pos="v" verbnet="">доставаться</alias>
       </aliases>
 	  <note>Corresponds to FrameBank sense 5</note>
-	  <note>﻿достать.04 NOTES: Roleset based on English verb frame punish.01</note>
+	  <note>достать.04 NOTES: Roleset based on English verb frame punish.01</note>
       <note>English Arg0-PAG has no match in Russian frame</note>
 	  <roles>
 		<role descr="punished" f="PPT" n="1"/>

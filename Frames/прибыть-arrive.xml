@@ -38,7 +38,7 @@
       </example>
     </roleset>
     
-	<roleset id="﻿прибыть.02" name="increase">
+	<roleset id="прибыть.02" name="increase">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">прибывать</alias>
 		<alias framenet="" pos="n" verbnet="">прибывание</alias>

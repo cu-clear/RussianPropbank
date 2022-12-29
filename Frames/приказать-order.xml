@@ -1,14 +1,14 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="﻿приказать">
+  <predicate lemma="приказать">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="﻿приказать.01" name="order, advise, command, demand">
+    <roleset id="приказать.01" name="order, advise, command, demand">
       <aliases>
 		<alias framenet="" pos="v" verbnet="">приказывать</alias>
 		<alias framenet="" pos="v" verbnet="">приказываться</alias>
 		<alias framenet="" pos="v" verbnet="">приказаться</alias>
       </aliases>
-	  <note>﻿приказать.01 NOTES: Roleset based on English verb frame order.01</note>
+	  <note>приказать.01 NOTES: Roleset based on English verb frame order.01</note>
 	  <note>Corresponds to FrameBank senses 1</note>
       <roles>
         <role descr="forcer" f="PAG" n="0"/>
@@ -20,11 +20,11 @@
 		<arg f="" n="2">что</arg>
 		<rel f="">прикажешь</rel>
 		<arg f="" n="1">мне</arg>
-		<arg f="" v="2">делать</arg>
+		<arg f="" n="2">делать</arg>
       </example>
       <example name="command, direct" src="http://marker.framebank.ru/verbs_ex.php?lex=приказать&amp;cxid=7688" type="">
         <text>А в Думе руководимая ими " Единая Россия " голосует так , как прикажет правительство .</text>
-		<arg f="" v="2">голосует так как</arg>
+		<arg f="" n="2">голосует так как</arg>
 		<rel f="">прикажет</rel>
 		<arg f="" n="0">правительство</arg>
       </example>
@@ -32,15 +32,15 @@
         <text>Приказывалось за час до выступления отправить с обоих корпусов 400 рабочих , с нужным числом фронтовых офицеров и двумя дивизионными квартирмистрами для исправления мостов и дороги</text>
 		<rel f="">Приказывалось</rel>
 		<arg f="tmp" n="m">за час до выступления</arg>
-		<arg f="" v="2">отправить с обоих корпусов 400 рабочих , с нужным числом фронтовых офицеров и двумя дивизионными квартирмистрами для исправления мостов и дороги</arg>
+		<arg f="" n="2">отправить с обоих корпусов 400 рабочих , с нужным числом фронтовых офицеров и двумя дивизионными квартирмистрами для исправления мостов и дороги</arg>
       </example>
 	</roleset>
 	
-	<roleset id="﻿приказать.02" name="entrust, bequeath">
+	<roleset id="приказать.02" name="entrust, bequeath">
 	  <aliases>
 		<alias framenet="" pos="v" verbnet="">приказывать</alias>
       </aliases>
-	  <note>﻿приказать.02 NOTES: Roleset based on English verb frame entrust.01</note>
+	  <note>приказать.02 NOTES: Roleset based on English verb frame entrust.01</note>
 	  <note>Somewhat archaic.</note>
 	  <note>Corresponds to FrameBank senses</note>
       <roles>
