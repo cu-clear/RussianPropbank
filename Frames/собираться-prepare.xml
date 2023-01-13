@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Собираться">
+    <roleset id="Собираться.01" name="To prepare, to make ready, to gather onse self up.">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">собираться</alias>
+        <alias framenet="" pos="v" verbnet="">собраться</alias>
+        <alias framenet="" pos="j" verbnet="">собиравшийся</alias>
+        <alias framenet="" pos="j" verbnet="">собравшийся</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English prepare.02</note>
+      <roles>
+        <role descr="Preparer" f="PAG" n="0"/>
+        <role descr="Thing made ready" f="PPT" n="1"/>
+	  </roles>
+      <example name="ARG0 and ARG 1" src="RNC, 	Левицкий Л. А. Термос времени. Дневник, 1978-1997" type="">
+        <text>Если это не было обдуманным шагом и он не собирается уйти.</text>
+        <arg f="" n="0">он</arg>
+        <rel f="">собирается</rel>
+	      <arg f="" n="1">уйти</arg>
+      </example>
+      <example name="ARG0 and ARG 1" src="RNC, 	Наши дети: Малыши до года (форум) (2004)" type="">
+        <text> Уже 7 утра, а я спать собираюсь.</text>
+        <arg f="" n="0">я</arg>
+        <rel f="">собираюсь</rel>
+	      <arg f="" n="1">спать</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

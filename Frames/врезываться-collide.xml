@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="врезываться">
+    <roleset id="врезываться.01" name="collide, crash into">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">врезываться</alias>
+        <alias framenet="" pos="v" verbnet="">врезаться</alias>
+        <alias framenet="" pos="j" verbnet="">врезывающийся</alias>
+        <alias framenet="" pos="j" verbnet="">врезающийся</alias>
+        <alias framenet="" pos="j" verbnet="">врезавшийся</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English collide.01</note>
+      <roles>
+        <role descr="theme, thing in motion, 1st colliders or all colliders in one constituent" f="PPT" n="0"/>
+        <role descr="thing hit, 2nd collider where separate mention" f="PPT" n="1"/>
+	  </roles>
+      <example name="ARG0 and 1" src="RNC, Слаповский А. День денег. -- М.: Вагриус, 2000" type="">
+        <text>Возможно , они врежутся в столб и оба погибнут .</text>
+        <arg f="" n="0">они/arg>
+        <rel f="">врежутся</rel>
+	      <arg f="" n="1">столб</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

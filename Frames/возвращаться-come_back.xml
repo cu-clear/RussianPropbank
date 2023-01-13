@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Слово">
+    <roleset id="возвращаться.01" name="To come back, to return">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">возвращаться</alias>
+        <alias framenet="" pos="v" verbnet="">вернуться</alias>
+        <alias framenet="" pos="j" verbnet="">	возвращающий</alias>
+        <alias framenet="" pos="j" verbnet="">вернувший</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English return.01</note>
+      <roles>
+        <role descr="Entity in motion" f="PPT" n="0"/>
+        <role descr="(Extent -- rare)" f="EXT" n="1"/>
+        <role descr="Start Point" f="DIR" n="2"/>
+        <role descr="End Point" f="GOL" n="3"/>
+        <role descr="Medium" f="LOC" n="M"/>
+	  </roles>
+      <example name="ARG0 and ARG2" src="RNC, И. С. Соколов-Микитов. Муравьи (1923-1928)" type="">
+        <text>Вечером мы возвращались с охоты.</text>
+        <arg f="" n="0">мы</arg>
+        <rel f="">возвращались</rel>
+	      <arg f="" n="2">с охоты</arg>
+      </example>
+      <example name="ARG0, ARG3, and ARGM-LOC" src="RNC, 	Масальский К. Стрельцы. Исторический роман. М., «Новая книга», 1996." type="">
+        <text>Солнце давно уже закатилось, когда Бурмистров возвращался домой по опустевшим улицам.</text>
+        <arg f="" n="0">Бурмистров</arg>
+        <rel f="">возвращался</rel>
+	      <arg f="" n="3">домой</arg>
+        <arg f="" n="M">по опустевшим улицам</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

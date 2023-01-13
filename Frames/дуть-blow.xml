@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Дуть">
+    <roleset id="дуть.01" name="like the wind, literal action of the wind">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">дуть</alias>
+        <alias framenet="" pos="v" verbnet="">дунуть</alias>
+        <alias framenet="" pos="v" verbnet="">подуть</alias>
+        <alias framenet="" pos="j" verbnet="">дующий</alias>
+        <alias framenet="" pos="j" verbnet="">подувший</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English blow.04</note>
+      <roles>
+        <role descr="Wind, or wind-like entity" f="PPT" n="1"/>
+        <role descr="Source of Wind, starting point or direction" f="DIR" n="2"/>
+        <role descr="Direction of Wind, where it blows or into what body part" f="GOL" n="3"/>
+	  </roles>
+      <example name="ARG0 and ARG1" src="Russian Web 2011, http://www.1kessay.ru/read/1140/" type="">
+        <text>Из моря опять дул холодный ветер ...</text>
+        <arg f="" n="1">холодный ветер</arg>
+        <rel f="">дул</rel>
+	      <arg f="" n="2">Из моря</arg>
+      </example>
+      <example name="ARG1 and ARG3" src="RNC, 	Николай Дубов. На краю земли.― М.: Детская литература, 1950" type="">
+        <text>Если бы еще он дул в спину , а то ведь , как нарочно , прямо в лицо !</text>
+        <arg f="" n="1">он</arg>
+        <rel f="">дул</rel>
+	      <arg f="" n="3">спину</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>
