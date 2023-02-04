@@ -3,11 +3,11 @@
   <predicate lemma="врезываться">
     <roleset id="врезываться.01" name="collide, crash into">
       <aliases>
-        <alias framenet="" pos="v" verbnet="">врезываться</alias>
-        <alias framenet="" pos="v" verbnet="">врезаться</alias>
-        <alias framenet="" pos="j" verbnet="">врезывающийся</alias>
-        <alias framenet="" pos="j" verbnet="">врезающийся</alias>
-        <alias framenet="" pos="j" verbnet="">врезавшийся</alias>
+        <alias pos="v">врезываться</alias>
+        <alias pos="v">врезаться</alias>
+        <alias pos="j">врезывающийся</alias>
+        <alias pos="j">врезающийся</alias>
+        <alias pos="j">врезавшийся</alias>
 	  </aliases>
 	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	  <note>NOTES: based on English collide.01</note>
@@ -15,11 +15,13 @@
         <role descr="theme, thing in motion, 1st colliders or all colliders in one constituent" f="PPT" n="0"/>
         <role descr="thing hit, 2nd collider where separate mention" f="PPT" n="1"/>
 	  </roles>
-      <example name="ARG0 and 1" src="RNC, Слаповский А. День денег. -- М.: Вагриус, 2000" type="">
+      <example name="ARG0 and 1" src="RNC, Слаповский А. День денег. -- М.: Вагриус, 2000">
         <text>Возможно , они врежутся в столб и оба погибнут .</text>
-        <arg f="" n="0">они/arg>
-        <rel f="">врежутся</rel>
-	      <arg f="" n="1">столб</arg>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">они</arg>
+          <rel relloc="?">врежутся</rel>
+	      <arg type="ARG1" start="?" end="?">столб</arg>
+        </propbank>
       </example>
 	</roleset>
   </predicate>

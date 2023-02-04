@@ -6,26 +6,30 @@
         <alias pos="v">смешить</alias>
         <alias pos="v">рассмешить</alias>
         <alias pos="j">смешащий</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	  <note>NOTES: based on English amuse.01</note>
+      </aliases>
+      <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+      <note>NOTES: based on English amuse.01</note>
       <roles>
         <role descr="causer of mirth" f="PAG" n="0"/>
         <role descr="mirthful entity" f="PPT" n="1"/>
         <role descr="instrument" f="MNR" n="2"/>
-	  </roles>
-      <example name="ARG0 and 1" src="short-story.ru" type="">
-        <text>Они	рассмешили даже мать мою .</text>
-        <arg f="" n="0">Они</arg>
-        <rel f="">рассмешили</arg>
-        <arg f="" n="1">мать</arg>
+      </roles>
+      <example name="ARG0 and 1" src="short-story.ru">
+        <text>Они рассмешили даже мать мою .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Они</arg>
+          <rel relloc="?">рассмешили</rel>
+          <arg type="ARG1" start="?" end="?">мать</arg>
+        </propbank>
       </example>
-      <example name="ARG1 and 2" src="Russian National Corpus, Гюзель Яхина. Дети мои" type="">
+      <example name="ARG1 and 2" src="Russian National Corpus, Гюзель Яхина. Дети мои">
         <text>... копался в памяти ― искал , какой бы еще историей рассмешить Клару или заставить вздохнуть испуганно.</text>
-        <arg f="" n="2">историей</arg>
-        <rel f="">рассмешить</rel>
-	      <arg f="" n="1">Клару</arg>
+        <propbank>
+          <arg type="ARG2" start="?" end="?">историей</arg>
+          <rel relloc="?">рассмешить</rel>
+          <arg type="ARG1" start="?" end="?">Клару</arg>
+        </propbank>
       </example>
-	</roleset>
+    </roleset>
   </predicate>
 </frameset>

@@ -1,36 +1,41 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="звонить">
-    <roleset id="звонить.01" name="To call by phone">
-      <aliases>
-        <alias pos="v">звонить</alias>
-        <alias pos="v">позвонить</alias>
-        <alias pos="j">звоняший</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	  <note>NOTES: based on English call.02</note>
-      <roles>
-        <role descr="Caller" f="PAG" n="0"/>
-        <role descr="Entity summoned" f="PPT" n="1"/>
-        <role descr="Medium or phone used" f="MNR" n="2"/>
-	  </roles>
-      <example name="ARG1, 2, and 3" src="ingalatory.ru" type="">
-        <text>Ирина , Вы можете позвонить нам по телефону ...</text>
-        <arg f="" n="0">Вы</arg>
-        <rel f="">позвонить</rel>
-        <arg f="" n="1">нам</rel>
-	      <arg f="" n="2">телефону</arg>
-      </example>
-      <example name="ARG0" src="wertblog.ru" type="">
-        <text>Он еще много раз тогда звонил , а она не отвечала, раз звонил значит все в порядке .</text>
-        <arg f="" n="1">Он</arg>
-        <rel f="">звонил</rel>
-      </example>
-      <example name="ARG1" src="up74.ru" type="">
-        <text>На днях позвонил двоюродный брат .</text>
-        <rel f="">позвонил</rel>
-	      <arg f="" n="1">брат</arg>
-      </example>
-	</roleset>
-  </predicate>
+    <predicate lemma="звонить">
+        <roleset id="звонить.01" name="To call by phone">
+            <aliases>
+                <alias pos="v">звонить</alias>
+                <alias pos="v">позвонить</alias>
+                <alias pos="j">звоняший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English call.02</note>
+            <roles>
+                <role descr="Caller" f="PAG" n="0"/>
+                <role descr="Entity summoned" f="PPT" n="1"/>
+                <role descr="Medium or phone used" f="MNR" n="2"/>
+            </roles>
+            <example name="ARG1, 2, and 3" src="ingalatory.ru" >
+                <text>Ирина , Вы можете позвонить нам по телефону ...</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">Вы</arg>
+                    <rel relloc="?">позвонить</rel>
+                    <arg type="ARG1" start="?" end="?">нам</arg>
+                    <arg type="ARG2" start="?" end="?">телефону</arg>
+                </propbank>
+            </example>
+            <example name="ARG0" src="wertblog.ru">
+                <text>Он еще много раз тогда звонил , а она не отвечала, раз звонил значит все в порядке .</text>
+                <propbank>
+                    <arg type="ARG1" start="?" end="?">Он</arg>
+                    <rel relloc="?">звонил</rel></propbank>
+            </example>
+            <example name="ARG1" src="up74.ru">
+                <text>На днях позвонил двоюродный брат .</text>
+                <propbank>
+                    <rel relloc="?">позвонил</rel>
+                    <arg type="ARG1" start="?" end="?">брат</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>
