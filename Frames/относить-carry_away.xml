@@ -147,7 +147,7 @@
       </example>
     </roleset>
   </predicate>
-  <predicate>
+  <predicate lemma="относиться">
     <roleset id="относиться.04" name="relate, have attitude, treat">
       <aliases>
         <alias pos="v">отнестись</alias>
@@ -179,11 +179,11 @@
       </example>
     </roleset>
   </predicate>
-  <predicate>
+  <predicate lemma="отнестись">
     <roleset id="отнестись.05" name="approach officially">
-      <note>NO IMPERFECTIVE</note>
       <aliases>
     </aliases>
+      <note>NO IMPERFECTIVE</note>
       <note>отнестись.05 NOTES: based on English approach.02</note>
       <roles>
         <role descr="treater, dealer, agent" f="PAG" n="0">

@@ -1,28 +1,32 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="бушевать">
-    <roleset id="бушевать.01" name="Rage, storm, billow.">
-      <aliases>
-        <alias pos="v">бушевать</alias>
-        <alias pos="j">бушующий</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	  <note>NOTES: based on English billow.01</note>
-      <roles>
-        <role descr="Entity storming" f="PPT" n="1"/>
-        <role descr="Location or Direction" f="LOC" n="2"/>
-	  </roles>
-      <example name="ARG1 and ARG2" src="south-sudan.ru (Russian Web 2010)" type="">
-        <text>Судан страдает от гражданских войн , которые бушуют на его территории , на протяжении более 40 лет . </text>
-        <arg f="" n="1">гражданских войн</arg>
-        <rel f="">бушуют</rel>
-	      <arg f="" n="2">на его территории</arg>
-      </example>
-      <example name="ARG1 only" src="kp.ru (Russian Web 2010)" type="">
-        <text>До конца недели будет бушевать мощная магнитная буря .</text>
-        <arg f="" n="1">мощная магнитная буря</arg>
-        <rel f="">бушевать</rel>
-      </example>
-	</roleset>
-  </predicate>
+    <predicate lemma="бушевать">
+        <roleset id="бушевать.01" name="Rage, storm, billow.">
+            <aliases>
+                <alias pos="v">бушевать</alias>
+                <alias pos="j">бушующий</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English billow.01</note>
+            <roles>
+                <role descr="Entity storming" f="PPT" n="1"/>
+                <role descr="Location or Direction" f="LOC" n="2"/>
+            </roles>
+            <example name="ARG1 and ARG2" src="south-sudan.ru (Russian Web 2010)">
+                <text>Судан страдает от гражданских войн , которые бушуют на его территории , на протяжении более 40 лет . </text>
+                <propbank>
+                    <arg type="ARG1" start="?" end="?">гражданских войн</arg>
+                    <rel relloc="?">бушуют</rel>
+                    <arg type="ARG2" start="?" end="?">на его территории</arg>
+                </propbank>
+            </example>
+            <example name="ARG1 only" src="kp.ru (Russian Web 2010)">
+                <text>До конца недели будет бушевать мощная магнитная буря .</text>
+                <propbank>
+                    <arg type="ARG1" start="?" end="?">мощная магнитная буря</arg>
+                    <rel relloc="?">бушевать</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

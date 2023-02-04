@@ -7,33 +7,39 @@
         <alias pos="v">уехать</alias>
         <alias pos="j">уезжающий</alias>
         <alias pos="j">уехавший</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	  <note>NOTES: based on English leave.11</note>
+      </aliases>
+      <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+      <note>NOTES: based on English leave.11</note>
       <roles>
         <role descr="Entity in motion" f="PAG" n="0"/>
         <role descr="Starting point, point of departure" f="DIR" n="1"/>
         <role descr="Destination" f="GOL" n="2"/>
         <role descr="Vehicle or Animal left upon" f="MNR" n="3"/>
-	  </roles>
-      <example name="Arg0, 1 and 2" src="Russian National Corpus, Computerworld 2004" type="">
+      </roles>
+      <example name="Arg0, 1 and 2" src="Russian National Corpus, Computerworld 2004">
         <text>... они уехали из Иллинойса в Кремниевую Долину .</text>
-        <arg f="" n="0">они</arg>
-        <rel f="">уехали</rel>
-	      <arg f="" n="1">Иллинойса</arg>
-        <arg f="" n="2">Кремниевую Долину</arg>
+        <propbank>
+          <arg type="ARG0" start="1" end="1">они</arg>
+          <rel relloc="2">уехали</rel>
+          <arg type="ARG1" start="4" end="4">Иллинойса</arg>
+          <arg type="ARG2" start="6" end="7">Кремниевую Долину</arg>
+        </propbank>
       </example>
-      <example name="Arg1 only" src="Russian National Corpus, Криминальная хроника 2003,06,10" type="">
+      <example name="Arg1 only" src="Russian National Corpus, Криминальная хроника 2003,06,10">
         <text>Англичане уехали</text>
-        <arg f="" n="0">Англичане</arg>
-        <rel f="">уехали</rel>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Англичане</arg>
+          <rel relloc="1">уехали</rel>
+        </propbank>
       </example>
-      <example name="Arg0 and 3" src="s-pravdoy.ru" type="">
+      <example name="Arg0 and 3" src="s-pravdoy.ru">
         <text>... а сами бандиты уехали на его машине ...</text>
-        <arg f="" n="0">бандиты</arg>
-        <rel f="">уехали</rel>
-	      <arg f="" n="3">машине</arg>
+        <propbank>
+          <arg type="ARG0" start="3" end="3">бандиты</arg>
+          <rel relloc="4">уехали</rel>
+          <arg type="ARG3" start="7" end="7">машине</arg>
+        </propbank>
       </example>
-	</roleset>
+    </roleset>
   </predicate>
 </frameset>

@@ -156,20 +156,9 @@
     </roleset>
   </predicate>
   <predicate lemma="делать_жизнь">
-    <roleset id="делать_жизнь-m" name="choose a role model">
+    <roleset id="делать_жизнь.04" name="choose a role model">
       <aliases>
-        <alias pos="j">делающий</alias>
-        <alias pos="j">делавший</alias>
-        <alias pos="v">делая</alias>
-        <alias pos="v">делавши</alias>
-        <alias pos="v">делав</alias>
-        <alias pos="j">делаемый</alias>
-        <alias pos="j">деланный</alias>
-        <alias pos="v">сделать</alias>
-        <alias pos="j">сделавший</alias>
-        <alias pos="v">сделав</alias>
-        <alias pos="v">сделавши</alias>
-        <alias pos="j">сделанный</alias>
+        <alias pos="m">делать_жизнь</alias>
       </aliases>
       <roles>
         <role descr="follower" f="PAG" n="0"/>
@@ -178,9 +167,8 @@
       <example name="do-v" src="">
         <text>Делать жизнь с кого</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?"/>
-          <arg type="ARG0" start="?" end="?"/>
-          <rel relloc="?"/>
+          <arg type="ARG1" start="3" end="3">кого</arg>
+          <rel relloc="0 1">Делать жизнь</rel>
         </propbank>
       </example>
     </roleset>

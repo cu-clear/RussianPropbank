@@ -59,7 +59,6 @@
       </example>
     </roleset>
     <roleset id="возобновиться.02" name="repair">
-      <note>возобновиться.02 NOTES: The syntactic structure does not change from возобновиться.01 but the semantic entailments should be different.</note>
       <aliases>
         <alias pos="j">возобновившийся</alias>
         <alias pos="v">возобновляться</alias>
@@ -74,6 +73,7 @@
         <alias pos="j">возобновлявший</alias>
         <alias pos="j">возобновляемый</alias>
       </aliases>
+      <note>возобновиться.02 NOTES: The syntactic structure does not change from возобновиться.01 but the semantic entailments should be different.</note>
       <note>NOTES: based on repair.01</note>
       <roles>
         <role descr="repairer" f="PAG" n="0"/>

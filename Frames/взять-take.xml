@@ -300,10 +300,13 @@
   <predicate lemma="взять_да">
     <roleset id="взять_да.09" name="emphatic, sudden action, to up and X">
       <aliases>
-        <mwe id="взять_да">
+        <alias pos="m">взять_да</alias>
+        <mwp-descriptions id="взять_да">
+          <syntaxdesc slots="A B">
           <token slot="A" arg="" pos="" head="" dep="">взять</token>
           <token slot="B" arg="" pos="" head="A" dep="">да</token>
-        </mwe>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>взять_да.09 NOTES: No equivalent English PB frame</note>
       <roles>
@@ -321,13 +324,15 @@
     <roleset id="взять_себя_в_руки.10" name="calm down, restrain self, stop and think">
       <aliases>
         <alias pos="m">брать_себя_в_руки</alias>
-        <mwe id="взять_себя_в_руки">
+        <mwp-descriptions id="взять_себя_в_руки">
+          <syntaxdesc slots="A B C D">
           <token slot="A" arg="" pos="" head="" dep="">взять</token>
           <token slot="A" arg="" pos="" head="" dep="">брать</token>
           <token slot="B" arg="" pos="" head="A" dep="">себя</token>
           <token slot="C" arg="" pos="" head="C" dep="">в</token>
           <token slot="D" arg="" pos="" head="B" dep="">руки</token>
-        </mwe>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>взять_себя_в_руки.10 NOTES: No equivalent English PB frame</note>
       <roles>

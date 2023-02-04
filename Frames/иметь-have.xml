@@ -13,7 +13,7 @@
         <role descr="owner" f="PAG" n="0">
         </role>
         <role descr="possession, thing had as" f="PPT" n="1">
-		</role>
+        </role>
       </roles>
       <example name="all args" src="">
         <text>Кражей это становится тогда , когда человек полагает , что то , что он имеет - действительно принадлежит ему .</text>
@@ -53,13 +53,13 @@
     </roleset>
     <roleset id="иметь.02" name="have sex with">
       <aliases>
-	  </aliases>
+      </aliases>
       <note>иметь.02 NOTES: Based on have.09.</note>
       <roles>
         <role descr="agent, aggressor" f="PAG" n="0">
         </role>
         <role descr="victim/patient" f="PPT" n="1">
-		</role>
+        </role>
       </roles>
       <note>*English Arg1-VSP has no match in Russian frame</note>
       <example name="all args" src="Владимир Шахиджанян, «1001 вопрос про ЭТО (№ 1–500)», 1999 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
@@ -75,12 +75,12 @@
     </roleset>
     <roleset id="иметь.03" name="have something against/for/towards">
       <aliases>
-	  </aliases>
+      </aliases>
       <note>иметь.03 NOTES: Based on hold.01.</note>
       <roles>
         <role descr="holder" f="PAG" n="0"/>
         <role descr="thing held" f="PPT" n="1">
-		</role>
+        </role>
         <role descr="benefactive" f="GOL" n="2"/>
         <role descr="secondary attribute of arg1" f="PAG" n="3"/>
       </roles>
@@ -100,12 +100,14 @@
     <roleset id="иметь_ввиду.04" name="mean, have in mind">
       <aliases>
         <alias pos="m">иметь_в_виду</alias>
-        <mwe id="иметь_ввиду">
-          <token slot="A" arg="" pos="" head="" dep="">иметь</token>
-          <token slot="B" arg="" pos="" head="A" dep="">ввиду</token>
-          <token slot="B" arg="" pos="" head="C" dep="">в</token>
-          <token slot="C" arg="" pos="" head="A" dep="">виду</token>
-        </mwe>
+        <mwp-descriptions id="иметь_ввиду">
+          <syntaxdesc slots="A B C">
+            <token slot="A" arg="" pos="" head="" dep="">иметь</token>
+            <token slot="B" arg="" pos="" head="A" dep="">ввиду</token>
+            <token slot="B" arg="" pos="" head="C" dep="">в</token>
+            <token slot="C" arg="" pos="" head="A" dep="">виду</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>иметь_ввиду NOTES: Based on English mean.02</note>
       <roles>
@@ -127,11 +129,13 @@
     <roleset id="иметь_место.05" name="have/take place">
       <aliases>
         <alias pos="m">иметься_место</alias>
-        <mwe id="иметь_место">
-          <token slot="A" arg="" pos="" head="" dep="">иметь</token>
-          <token slot="A" arg="" pos="" head="" dep="">иметься</token>
-          <token slot="B" arg="" pos="" head="A" dep="">место</token>
-        </mwe>
+        <mwp-descriptions id="иметь_место">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">иметь</token>
+            <token slot="A" arg="" pos="" head="" dep="">иметься</token>
+            <token slot="B" arg="" pos="" head="A" dep="">место</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>иметь_место NOTES: Based on English happen.01</note>
       <roles>
@@ -152,10 +156,13 @@
   <predicate lemma="иметь_дело">
     <roleset id="иметь_дело.06" name="have ought to do with, do business with">
       <aliases>
-        <mwe id="иметь_дело">
-          <token slot="A" arg="" pos="" head="" dep="">иметь</token>
-          <token slot="B" arg="" pos="" head="A" dep="">дело</token>
-        </mwe>
+        <alias pos="m">иметь_дело</alias>
+        <mwp-descriptions id="иметь_дело">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">иметь</token>
+            <token slot="B" arg="" pos="" head="A" dep="">дело</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>иметь_дело NOTES: Based on English interact.01</note>
       <roles>
@@ -178,10 +185,13 @@
   <predicate lemma="иметь_руку">
     <roleset id="иметь_руку.06" name="be protected, have connections">
       <aliases>
-        <mwe id="иметь_руку">
-          <token slot="A" arg="" pos="" head="" dep="">иметь</token>
-          <token slot="B" arg="" pos="" head="A" dep="">руку</token>
-        </mwe>
+        <alias pos="m">иметь_руку</alias>
+        <mwp-descriptions id="иметь_руку">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">иметь</token>
+            <token slot="B" arg="" pos="" head="A" dep="">руку</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>иметь_руку NOTES: Based on English patronize.01</note>
       <roles>

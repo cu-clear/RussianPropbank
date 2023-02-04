@@ -131,7 +131,7 @@
       <note>бежать.04 NOTES: Roleset based on English verb frame fast.02</note>
       <note>Corresponds to FrameBank sense 9</note>
       <roles>
-        <role descr="fast entity/action" f="PPT" n="10"/>
+        <role descr="fast entity/action" f="PPT" n="1"/>
         <role descr="speed, how many minutes ahead" f="EXT" n="2"/>
       </roles>
       <example name="example" src="Russian National Corpus[И. Грекова. На испытаниях (1967)]">

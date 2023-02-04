@@ -138,10 +138,10 @@
     </roleset>
     <roleset id="быть.08" name="auxiliary; will/was/were">
       <aliases>
-    </aliases>
+      </aliases>
       <note>быть.08 NOTES: Roleset based on English verb frame be.03f</note>
       <roles>
-    </roles>
+      </roles>
       <example name="aux" src="">
         <text>мы будем есть .</text>
         <propbank>
@@ -159,10 +159,13 @@
   <predicate lemma="стало_быть">
     <roleset id="стало_быть.06" name="that means, therefore, consequently">
       <aliases>
-        <mwe id="стало_быть">
-          <token slot="A" arg="" pos="" head="" dep="">стало</token>
-          <token slot="B" arg="" pos="" head="A" dep="">быть</token>
-        </mwe>
+        <alias pos="m">стало_быть</alias>
+        <mwp-descriptions id="стало_быть">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">стало</token>
+            <token slot="B" arg="" pos="" head="A" dep="">быть</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <roles>
       </roles>
@@ -178,20 +181,21 @@
   <predicate lemma="была_не_была">
     <roleset id="была_не_была.07" name="let's risk it!">
       <aliases>
-        <mwe id="была_не_была">
-          <token slot="A" arg="" pos="" head="" dep="">была</token>
-          <token slot="B" arg="" pos="" head="B" dep="">не</token>
-          <token slot="C" arg="" pos="" head="" dep="">была</token>
-        </mwe>
+        <alias pos="m">была_не_была</alias>
+        <mwp-descriptions id="была_не_была">
+          <syntaxdesc slots="A B C">
+            <token slot="A" arg="" pos="" head="" dep="">была</token>
+            <token slot="B" arg="" pos="" head="B" dep="">не</token>
+            <token slot="C" arg="" pos="" head="" dep="">была</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <roles>
       </roles>
       <example name="example" src="Russian National Corpus [Юрий Макаров. Про зайца // «Мурзилка», 2001]">
         <text>" А - а , была не была ! " - подумал косой и рванул вперёд . А там , впереди - то , был не кто иной , как Дед Мороз .</text>
         <propbank>
-          <rel relloc="?">была</rel>
-          <rel relloc="?">не</rel>
-          <rel relloc="?">была</rel>
+          <rel relloc="5 6 7">была не была</rel>
         </propbank>
       </example>
     </roleset>

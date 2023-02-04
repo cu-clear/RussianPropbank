@@ -123,7 +123,7 @@
       </example>
     </roleset>
   </predicate>
-  <predicate>
+  <predicate lemma="отметиться">
     <roleset id="отметиться.04" name="sign in, check in, register">
       <aliases>
         <alias pos="v">отмечаться</alias>

@@ -56,12 +56,13 @@
   <predicate lemma="казаться_на_глаза">
     <roleset id="казаться_на_глаза.02" name="appear, show up">
       <aliases>
-        <alias pos="j">показаться_на_глаза</alias>
-        <alias pos="j">показаться_на_глазах</alias>
-        <alias pos="j">казаться_на_глазах</alias>
-        <alias pos="j">казать_глаз</alias>
-        <alias pos="j">показать_глаз</alias>
-        <mwe id="казаться_на_глаза">
+        <alias pos="m">показаться_на_глаза</alias>
+        <alias pos="m">показаться_на_глазах</alias>
+        <alias pos="m">казаться_на_глазах</alias>
+        <alias pos="m">казать_глаз</alias>
+        <alias pos="m">показать_глаз</alias>
+        <mwp-descriptions id="казаться_на_глаза">
+          <syntaxdesc slots="A B C">
           <token slot="A" arg="" pos="" head="" dep="">показаться</token>
           <token slot="A" arg="" pos="" head="" dep="">казаться</token>
           <token slot="A" arg="" pos="" head="" dep="">казать</token>
@@ -70,7 +71,8 @@
           <token slot="С" arg="" pos="" head="A" dep="">глаза</token>
           <token slot="С" arg="" pos="" head="A" dep="">глаз</token>
           <token slot="С" arg="" pos="" head="A" dep="">глазах</token>
-        </mwe>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>казаться_на_глаза NOTES: Based on English PB appear.02 but semantically closer to appear.01.</note>
       <roles>

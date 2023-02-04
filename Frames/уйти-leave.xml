@@ -162,7 +162,7 @@
       </aliases>
       <note>уйти.05 NOTES: Roleset based on English verb frame immerse.01</note>
       <roles>
-        <role descr="entity immersed " f="PTT" n="0"/>
+        <role descr="entity immersed " f="PAG" n="0"/>
         <role descr="entity immersed into" f="PPT" n="1"/>
       </roles>
       <example name="example" src="Russian National Corpus[Вячеслав Пьецух. Шкаф (1997)]">
@@ -177,7 +177,7 @@
         <text>А ты , кстати , собираешься серьезно уйти в профессионалы ?</text>
         <propbank>
           <rel relloc="7">уйти</rel>
-          <arg type="ARGo" start="1" end="1">ты</arg>
+          <arg type="ARG0" start="1" end="1">ты</arg>
           <arg type="ARG1" start="8" end="9">в профессионалы</arg>
         </propbank>
       </example>
@@ -203,7 +203,7 @@
       </aliases>
       <note>уйти.06 NOTES: Roleset based on English verb frame fast.02</note>
       <roles>
-        <role descr="fast entity/action" f="PTT" n="1"/>
+        <role descr="fast entity/action" f="PPT" n="1"/>
         <role descr="speed" f="EXT" n="2"/>
       </roles>
       <example name="example" src="Russian National Corpus[С. Д. Мстиславский. Грач ― птица весенняя (1937)]">
@@ -221,7 +221,7 @@
       </aliases>
       <note>уйти.07 NOTES: Roleset based on English verb frame go.10</note>
       <roles>
-        <role descr="thing going " f="PTT" n="1"/>
+        <role descr="thing going " f="PPT" n="1"/>
         <role descr="receiver" f="GOL" n="2"/>
       </roles>
       <example name="example" src="Russian National Corpus[Наталья Дубова. Вокруг ITSM // «Computerworld», 2004]">
@@ -239,15 +239,15 @@
       </aliases>
       <note>уйти.08 NOTES: Roleset based on English verb frame boil_over.02</note>
       <roles>
-        <role descr="thing boiling over (pot, etc)" f="PTT" n="1"/>
+        <role descr="thing boiling over (pot, etc)" f="PPT" n="1"/>
       </roles>
     </roleset>
     <roleset id="уйти.09" name="cool off, calm down, recover from negative emotions">
       <aliases>
-	  </aliases>
+      </aliases>
       <note>уйти.09 NOTES: Roleset based on English verb frame calm_down.02</note>
       <roles>
-        <role descr="entity becoming calm (vnrole: 42.3-patient)" f="PTT" n="1"/>
+        <role descr="entity becoming calm (vnrole: 42.3-patient)" f="PPT" n="1"/>
         <role descr=" instrument of calming" f="MNR" n="2"/>
       </roles>
       <example name="example" src="Russian National Corpus[А. Н. Островский. Гроза (1860)]">
@@ -271,12 +271,14 @@
     <roleset id="уйти_из_рук.10" name="lose control">
       <aliases>
         <alias pos="m">уходить_из_рук</alias>
-        <mwe id="уйти_из_рук">
-          <token slot="A" arg="" pos="" head="" dep="">уйти</token>
-          <token slot="A" arg="" pos="" head="" dep="">уходить</token>
-          <token slot="B" arg="" pos="" head="C" dep="">из</token>
-          <token slot="C" arg="" pos="" head="A" dep="">рук</token>
-        </mwe>
+        <mwp-descriptions id="уйти_из_рук">
+          <syntaxdesc slots="A B C">
+            <token slot="A" arg="" pos="" head="" dep="">уйти</token>
+            <token slot="A" arg="" pos="" head="" dep="">уходить</token>
+            <token slot="B" arg="" pos="" head="C" dep="">из</token>
+            <token slot="C" arg="" pos="" head="A" dep="">рук</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>No English frame match</note>
       <roles>

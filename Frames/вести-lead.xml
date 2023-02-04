@@ -293,16 +293,16 @@
     </roleset>
     <roleset id="вести.07" name="remain unmoved, don't pay attention, be unaffected emotionally or cognitively">
       <aliases>
-	  </aliases>
+      </aliases>
       <note>Corresponds to FrameBank sense 15</note>
       <note>вести.07 NOTES: based on move.05</note>
       <roles>
         <role descr="(non) attender" f="PAG" n="0">
         </role>
         <role descr="(non) experiencer of emotion or attention" f="PPT" n="1">
-		</role>
+        </role>
         <role descr="indicator of emotion or attention" f="MNR" n="2">
-		</role>
+        </role>
       </roles>
       <example name="бровью не ведёт" src="Russian National Corpus. [Булат Окуджава. Новенький как с иголочки (1962)]">
         <text>А Саша Абношкин , как самый неумолимый судья , и бровью не ведёт .</text>
@@ -331,13 +331,13 @@
   <predicate lemma="вестись">
     <roleset id="вестись.08" name="be influenced, usually with negative outcomes; deceived; led astray">
       <aliases>
-	  </aliases>
+      </aliases>
       <note>вестись.08 NOTES: based on misguide.01</note>
       <roles>
         <role descr="agent, causer of misdirection" f="PAG" n="0">
         </role>
         <role descr="misguided one" f="PPT" n="1">
-		</role>
+        </role>
         <role descr="misguided actions" f="PPT" n="2"/>
       </roles>
       <example name="influenced by other's opinion" src="Russian National Corpus">
@@ -370,17 +370,20 @@
   <predicate lemma="вести_себя-m">
     <roleset id="вести_себя.09" name="behave">
       <aliases>
-        <mwe id="вести_себя">
-          <token slot="A" arg="" pos="" head="" dep="">вести</token>
-          <token slot="B" arg="" pos="" head="A" dep="">себя</token>
-        </mwe>
+        <alias pos="m">вести_себя</alias>
+        <mwp-descriptions id="вести_себя">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">вести</token>
+            <token slot="B" arg="" pos="" head="A" dep="">себя</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>вести_себя.09 NOTES: based on behave.01</note>
       <roles>
         <role descr="agent, entity behaving" f="PAG" n="0">
         </role>
         <role descr="manner" f="PRD" n="1">
-		</role>
+        </role>
       </roles>
       <example name="" src="">
         <text>- Один из мужчин – тот , который подозревается в убийстве , вел себя агрессивно , поэтому медикам ничего не оставалось , как привязать буйного пациента к кровати , – говорит Александр Владимирович .</text>

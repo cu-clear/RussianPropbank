@@ -171,7 +171,7 @@
       </example>
     </roleset>
   </predicate>
-  <predicate>
+  <predicate lemma="сойтись">
     <roleset id="сойтись.07" name="meet, run into each other, come together, physically converge, meet, intersect, join for battle, approach mathematical limit for an integral, agree, be united, be similar, be consistent, concur, coincide, jibe.">
       <aliases>
         <alias pos="v">сходиться</alias>
@@ -211,7 +211,7 @@
       <example name="agree" src="Russian National Corpus [Александр Волков. Одеться с иголочки и без ниточки // «Знание -- сила», 2003] ">
         <text>Специалисты сходятся во мнении , что в " одежду будущего " должны быть встроены три жизненно важных прибора - мобильный телефон , навигационная система и компьютер .</text>
         <propbank>
-          <arg type="ARGo" start="0" end="0">Специалисты</arg>
+          <arg type="ARG0" start="0" end="0">Специалисты</arg>
           <rel relloc="1">сходятся</rel>
           <arg type="ARG2" start="2" end="25">во мнении , что в " одежду будущего " должны быть встроены три жизненно важных прибора - мобильный телефон , навигационная система и компьютер</arg>
         </propbank>
@@ -220,7 +220,7 @@
         <text>Чтобы всё " сходилось " , нефтяники делают их " невидимыми " .</text>
         <propbank>
           <rel relloc="3">сходилось</rel>
-          <arg type="ARGo" start="1" end="1">всё</arg>
+          <arg type="ARG0" start="1" end="1">всё</arg>
         </propbank>
       </example>
       <example name="jibe well" src="Russian National Corpus [Дмитрий Кувичка. Нет больше сил смотреть на солнце. Раскрыт секрет успеха отечественных «пляжников» (2001) // «Известия», 2001.09.30]">
@@ -238,7 +238,7 @@
           <arg type="ARGM-LOC" start="2" end="6">в деревне Луначарка Горномарийского района</arg>
           <rel relloc="7">сошлись</rel>
           <arg type="ARG2" start="8" end="10">в смертной драке</arg>
-          <arg type="ARGo" start="11" end="12">два брата</arg>
+          <arg type="ARG0" start="11" end="12">два брата</arg>
         </propbank>
       </example>
     </roleset>
@@ -272,13 +272,16 @@
     </roleset>
   </predicate>
   <predicate lemma="сойти_с_ума">
-    <roleset id="сойти_с_ума-m" name="be/go crazy, out of one's mind">
+    <roleset id="сойти_с_ума.09" name="be/go crazy, out of one's mind">
       <aliases>
-        <mwe id="сойти_с_ума">
+        <alias pos="m">сойти_с_ума</alias>
+        <mwp-descriptions id="сойти_с_ума">
+          <syntaxdesc slots="A B C">
           <token slot="A" arg="" pos="" head="" dep="">сойти</token>
           <token slot="B" arg="" pos="" head="C" dep="">с</token>
           <token slot="C" arg="" pos="" head="A" dep="">ума</token>
-        </mwe>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>сойти_с_ума NOTES: Based on English frame suspect.01</note>
       <roles>

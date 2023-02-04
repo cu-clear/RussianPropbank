@@ -313,15 +313,18 @@
       </example>
     </roleset>
   </predicate>
-  <predicate lemma="Ни_дать_ни_взять">
-    <roleset id="Ни_дать_ни_взять-m" name="nothing less than">
+  <predicate lemma="ни_дать_ни_взять">
+    <roleset id="ни_дать_ни_взять.10" name="nothing less than">
       <aliases>
-        <mwe id="Ни_дать_ни_взять">
-          <token slot="A" arg="" pos="" head="B" dep="">Ни</token>
-          <token slot="B" arg="" pos="" head="" dep="">дать</token>
-          <token slot="C" arg="" pos="" head="D" dep="">ни</token>
-          <token slot="D" arg="" pos="" head="" dep="">взять</token>
-        </mwe>
+        <alias pos="m">ни_дать_ни_взять</alias>
+        <mwp-descriptions id="ни_дать_ни_взять">
+          <syntaxdesc slots="A B C D">
+            <token slot="A" arg="" pos="" head="B" dep="">ни</token>
+            <token slot="B" arg="" pos="" head="" dep="">дать</token>
+            <token slot="C" arg="" pos="" head="D" dep="">ни</token>
+            <token slot="D" arg="" pos="" head="" dep="">взять</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <roles>
         <role descr="thing that is compared" f="PAG" n="0"/>
@@ -332,25 +335,25 @@
         <propbank>
           <arg type="ARGM-DIS" start="0" end="0">Ну</arg>
           <arg type="ARGM-ADV" start="1" end="1">просто</arg>
-          <rel relloc="?">ни</rel>
-          <rel relloc="?">дать</rel>
-          <rel relloc="?">ни</rel>
-          <rel relloc="?">взять</rel>
+          <rel relloc="2 3 4 5">ни дать ни взять</rel>
           <arg type="ARG1" start="6" end="9">копия правления Ивана III</arg>
         </propbank>
       </example>
     </roleset>
   </predicate>
   <predicate lemma="дать_на_чай">
-    <roleset id="дать_на_чай-m" name="tip, leave a gratuity">
-      <note>дать_на_чай NOTES: Roleset based on English verb frame tip.02</note>
+    <roleset id="дать_на_чай.11" name="tip, leave a gratuity">
       <aliases>
-        <mwe id="дать_на_чай">
-          <token slot="A" arg="" pos="" head="" dep="">дать</token>
-          <token slot="B" arg="" pos="" head="C" dep="">на</token>
-          <token slot="C" arg="" pos="" head="B" dep="">чай</token>
-        </mwe>
+        <alias pos="m">дать_на_чай</alias>
+        <mwp-descriptions id="дать_на_чай">
+          <syntaxdesc slots="A B C">
+            <token slot="A" arg="" pos="" head="" dep="">дать</token>
+            <token slot="B" arg="" pos="" head="C" dep="">на</token>
+            <token slot="C" arg="" pos="" head="B" dep="">чай</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
+      <note>дать_на_чай NOTES: Roleset based on English verb frame tip.02</note>
       <roles>
         <role descr="tipper" f="PAG" n="0"/>
         <role descr="gratuity" f="PPT" n="1"/>
@@ -360,44 +363,46 @@
         <text>Я протянул Хелле сотню , а сдачу , не считая , сунул в карман . Швейцару я дал " на чай " пятёрку . На улице я взял такси .</text>
         <propbank>
           <arg type="ARG2" start="15" end="15">Швейцару</arg>
-          <arg type="ARG0" start="?" end="?">я</arg>
-          <rel relloc="?">дал</rel>
-          <rel relloc="?">на</rel>
-          <rel relloc="?">чай</rel>
-          <rel relloc="?">взять</rel>
+          <arg type="ARG0" start="16" end="16">я</arg>
+          <rel relloc="17 18 19 20 21">дал " на чай "</rel>
           <arg type="ARG1" start="22" end="22">пятёрку</arg>
         </propbank>
       </example>
     </roleset>
   </predicate>
   <predicate lemma="дать_стрекача">
-    <roleset id="дать_стрекача-m" name="make an escape">
-      <note>дать_стрекача NOTES: Roleset based on English verb frame escape.01</note>
+    <roleset id="дать_стрекача.12" name="make an escape">
       <aliases>
-        <mwe id="дать_на_чай">
-          <token slot="A" arg="" pos="" head="" dep="">дать</token>
-          <token slot="A" arg="" pos="" head="" dep="">давать</token>
-          <token slot="B" arg="" pos="" head="A" dep="">стрекача</token>
-          <token slot="B" arg="" pos="" head="A" dep="">тягу</token>
-          <token slot="B" arg="" pos="" head="A" dep="">ходу</token>
-        </mwe>
+        <alias pos="m">дать_стрекача</alias>
+        <alias pos="m">дать_тягу</alias>
+        <alias pos="m">дать_ходу</alias>
+        <mwp-descriptions id="дать_стрекача">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">дать</token>
+            <token slot="A" arg="" pos="" head="" dep="">давать</token>
+            <token slot="B" arg="" pos="" head="A" dep="">стрекача</token>
+          </syntaxdesc>
+        </mwp-descriptions>
+        <mwp-descriptions id="дать_тягу">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">дать</token>
+            <token slot="A" arg="" pos="" head="" dep="">давать</token>
+            <token slot="B" arg="" pos="" head="A" dep="">тягу</token>
+          </syntaxdesc>
+        </mwp-descriptions>
+        <mwp-descriptions id="дать_ходу">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">дать</token>
+            <token slot="A" arg="" pos="" head="" dep="">давать</token>
+            <token slot="B" arg="" pos="" head="A" dep="">ходу</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
+      <note>дать_стрекача NOTES: Roleset based on English verb frame escape.01</note>
       <roles>
         <role descr="entity escaping" f="PAG" n="0"/>
         <role descr="place or thing escaped" f="LOC" n="1"/>
       </roles>
-      <example name="example" src="Russian National Corpus: [Василий Аксенов. Звездный билет // «Юность», 1961]">
-        <text>Я протянул Хелле сотню , а сдачу , не считая , сунул в карман . Швейцару я дал " на чай " пятёрку . На улице я взял такси .</text>
-        <propbank>
-          <arg type="ARG2" start="15" end="15">Швейцару</arg>
-          <arg type="ARG0" start="?" end="?">я</arg>
-          <rel relloc="?">дал</rel>
-          <rel relloc="?">на</rel>
-          <rel relloc="?">чай</rel>
-          <rel relloc="?">взять</rel>
-          <arg type="ARG1" start="22" end="22">пятёрку</arg>
-        </propbank>
-      </example>
     </roleset>
   </predicate>
 </frameset>
