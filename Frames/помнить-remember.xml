@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Помнить">
+    <roleset id="помнить.01" name="Remember, keep in mind">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">помнить</alias>
+        <alias framenet="" pos="v" verbnet="">помни</alias>
+        <alias framenet="" pos="j" verbnet="">помнящий</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English remember.01</note>
+      <roles>
+        <role descr="Rememberer" f="PAG" n="0"/>
+        <role descr="Memory" f="PPT" n="1"/>
+        <role descr="Secondary attribute" f="PRD" n="2"/>
+	    </roles>
+      <example name="ARG0 and ARG1" src="Source here" type="">
+        <text>Дальше помнил он один страшный , черный день .</text>
+        <arg f="" n="0">он</arg>
+        <rel f="">помнил</rel>
+	      <arg f="" n="1">один страшный , черный день</arg>
+      </example>
+      <example name="ARG0, ARG1, and ARG3" src="ruTenTen11, http://victory.mil.ru/lib/books/memo/kozhedub1/02.html" type="">
+        <text>Ведь я вас помню старшим сержантом ...</text>
+        <arg f="" n="0">я</arg>
+        <rel f="">помню</rel>
+	      <arg f="" n="1">вас</arg>
+        <arg f="" n="2">старшим сержантом</arg>
+      </example>
+      <example name="ARG0, ARG1, and ARG3" src="RNC, 	http://fanread.ru/book/8456509/" type="">
+        <text>Помню первое впечатление : какое-то удивительное изящество в жестах , в манере держаться .</text>
+        <rel f="">Помню</rel>
+	      <arg f="" n="1">первое впечатление</arg>
+        <arg f="" n="2">какое-то удивительное изящество в жестах , в манере держаться</arg>
+	  </roleset>
+  </predicate>
+</frameset>

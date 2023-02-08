@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Ломаться">
+    <roleset id="ломаться.01" name="break down, stop working, become damaged">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">ломаться</alias>
+        <alias framenet="" pos="v" verbnet="">сломаться</alias>
+        <alias framenet="" pos="v" verbnet="">поломаться</alias>
+        <alias framenet="" pos="j" verbnet="">ломающийся</alias>
+        <alias framenet="" pos="j" verbnet="">сломавшийся</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English break_down.12</note>
+      <roles>
+        <role descr="Cause of breaking" f="PRD" n="0"/>
+        <role descr="Thing broken" f="PPT" n="1"/>
+	    </roles>
+      <example name="ARG1 only" src="RNC, Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001" type="">
+        <text> У ребенка жизнь ломается ― им хоть бы хны !</text>
+        <arg f="" n="1">жизнь</arg>
+        <rel f="">ломается</rel>
+      </example>
+      <example name="ARG1 and ARG0" src="RNC, Фазиль Искандер. Сандро из Чегема (Книга 3) (1989)" type="">
+        <text> Наконец даже палка , как показалось Широколобому, сломалась от стыда .</text>
+        <arg f="" n="1">палка</arg>
+        <rel f="">сломалась</rel>
+	      <arg f="" n="0">от стыда</arg>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>
