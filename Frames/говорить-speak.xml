@@ -12,14 +12,10 @@
       <note>Corresponds to FrameBank senses 1,2,3,4,5,8,9</note>
       <note>говорить.01 NOTES: Based on say.01.</note>
       <roles>
-        <role descr="sayer " f="PAG" n="0">
-        </role>
-        <role descr="utterance" f="PPT" n="1">
-        </role>
-        <role descr="hearer, conversationalist" f="GOL" n="2">
-        </role>
-        <role descr="attributive, language" f="ADV" n="3">
-        </role>
+        <role descr="sayer " f="PAG" n="0"/>
+        <role descr="utterance" f="PPT" n="1"/>
+        <role descr="hearer, conversationalist" f="GOL" n="2"/>
+        <role descr="attributive, language" f="ADV" n="3"/>
       </roles>
       <example name="say" src="">
         <text>Я слышал , что вы говорили обо мне .</text>
@@ -74,17 +70,14 @@
     </roleset>
     <roleset id="говорить.02" name="accuse, tattle">
       <aliases>
-	  </aliases>
+      </aliases>
       <note>говорить.02 NOTES: Based on accuse.01 but different role numbers and types. More like "tattle on" which is not in English PropBank.</note>
+      <note>English ARG2-PRD = Russian ARG1-PPT</note>
+      <note>English ARG1-PPT = Russian ARG2-GOL</note>
       <roles>
-        <role descr="accuser" f="PAG" n="0">
-        </role>
-        <role descr="crime" f="PPT" n="1">
-          <note>English ARG2-PRD = Russian ARG1-PPT</note>
-        </role>
-        <role descr="accused" f="GOL" n="2">
-          <note>English ARG1-PPT = Russian ARG2-GOL</note>
-        </role>
+        <role descr="accuser" f="PAG" n="0"/>
+        <role descr="crime" f="PPT" n="1"/>
+        <role descr="accused" f="GOL" n="2"/>
       </roles>
       <example name="all args" src="Russian National Corpus: [Ф. М. Достоевский. Братья Карамазовы (1880)]">
         <text>И что бы ты ни говорил на меня на суде , что бы ты ни свидетельствовал ― принимаю и не боюсь тебя ; сам все подтвержу !</text>
@@ -101,7 +94,7 @@
     </roleset>
     <roleset id="говорить.03" name="reveal">
       <aliases>
-	  </aliases>
+      </aliases>
       <note>Corresponds to FrameBank senses 6,7</note>
       <note>говорить.03 NOTES: Based on reveal.01.</note>
       <roles>
@@ -126,7 +119,7 @@
   <predicate lemma="говориться">
     <roleset id="говориться.04" name="(not) want to speak">
       <aliases>
-	  </aliases>
+      </aliases>
       <note>IMPERSONAL; usually negative</note>
       <roles>
         <role descr="entity (not) wanting to speak" f="PPT" n="1">
@@ -147,10 +140,12 @@
   <predicate lemma="не_говори">
     <roleset id="не_говори.05" name="no way">
       <aliases>
-        <mwe id="не_говори">
-          <token slot="A" arg="" pos="" head="B" dep="">не</token>
-          <token slot="B" arg="" pos="" head="" dep="">говори</token>
-        </mwe>
+        <mwp-descriptions id="не_говори">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="B" dep="">не</token>
+            <token slot="B" arg="" pos="" head="" dep="">говори</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <roles>
       </roles>
@@ -158,8 +153,7 @@
         <text>И не говори ! Все такие крутые аграрии ! !</text>
         <propbank>
           <arg type="ARGM-DIS" start="0" end="0">И</arg>
-          <rel relloc="?">не</rel>
-          <rel relloc="?">говори</rel>
+          <rel relloc="1 2">не говори</rel>
         </propbank>
       </example>
     </roleset>
@@ -167,10 +161,12 @@
   <predicate lemma="кто_говорит">
     <roleset id="кто_говорит.06" name="of course, be self-evident, undoubtedly">
       <aliases>
-        <mwe id="кто_говорит">
-          <token slot="A" arg="" pos="" head="B" dep="">кто</token>
-          <token slot="B" arg="" pos="" head="" dep="">говорит</token>
-        </mwe>
+        <mwp-descriptions id="кто_говорит">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="B" dep="">кто</token>
+            <token slot="B" arg="" pos="" head="" dep="">говорит</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <roles>
         <role descr="thing that is self-evident" f="PPT" n="1"/>
@@ -179,8 +175,7 @@
         <text>Нелегко , кто говорит ! .</text>
         <propbank>
           <arg type="ARG1" start="0" end="0">Нелегко</arg>
-          <rel relloc="?">кто</rel>
-          <rel relloc="?">говорит</rel>
+          <rel relloc="2 3">кто говорит</rel>
         </propbank>
       </example>
     </roleset>

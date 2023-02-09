@@ -1,27 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Советовать">
-    <roleset id="советовать.01" name="To give advice, to recommend">
-      <aliases>
-        <alias framenet="" pos="v" verbnet="">советовать</alias>
-        <alias framenet="" pos="v" verbnet="">посоветовать</alias>
-        <alias framenet="" pos="j" verbnet="">советующий</alias>
-        <alias framenet="" pos="j" verbnet="">посоветовав</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	  <note>NOTES: based on English advise.01</note>
-      <roles>
-        <role descr="Entity giving advice" f="PAG" n="0"/>
-        <role descr="Entity getting advice, impelled agent" f="GOL" n="1"/>
-        <role descr="Advice, impelled action" f="PPT" n="2"/>
-	  </roles>
-      <example name="ARG0, ARG1, and ARG2" src="RNC, Е. В. Топильская. Танцы с ментами: Авторский сборник. Спб.: Нева, 2005" type="">
-        <text>Я рассказал всю правду следователю и вам советую это сделать</text>
-        <arg f="" n="0">Я</arg>
-	      <arg f="" n="1">вам</arg>
-        <rel f="">советую</rel>
-        <arg f="" n="2">это сделать</arg>
-      </example>
-	</roleset>
-  </predicate>
+    <predicate lemma="Советовать">
+        <roleset id="советовать.01" name="To give advice, to recommend">
+            <aliases>
+                <alias pos="v">советовать</alias>
+                <alias pos="v">посоветовать</alias>
+                <alias pos="j">советующий</alias>
+                <alias pos="j">посоветовав</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English advise.01</note>
+            <roles>
+                <role descr="Entity giving advice" f="PAG" n="0"/>
+                <role descr="Entity getting advice, impelled agent" f="GOL" n="1"/>
+                <role descr="Advice, impelled action" f="PPT" n="2"/>
+            </roles>
+            <example name="ARG0, ARG1, and ARG2" src="RNC, Е. В. Топильская. Танцы с ментами: Авторский сборник. Спб.: Нева, 2005">
+                <text>Я рассказал всю правду следователю и вам советую это сделать</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARG1" start="6" end="6">вам</arg>
+                    <rel relloc="7">советую</rel>
+                    <arg type="ARG2" start="8" end="9">это сделать</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

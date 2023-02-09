@@ -34,7 +34,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="1">играть</rel>
-          <arg type="ARG1" start="?" end="?">в несколько известных во всем мире игр</arg>
+          <arg type="ARG1" start="2" end="8">в несколько известных во всем мире игр</arg>
         </propbank>
       </example>
       <example name="specific game" src="">
@@ -50,33 +50,33 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="2">играть</rel>
-          <arg type="ARG1" start="?" end="?">в футбол</arg>
+          <arg type="ARG1" start="3" end="4">в футбол</arg>
         </propbank>
       </example>
       <example name="with secondary predication" src="">
         <text>Но играли с братом знатно - и корабль и дом и многое придумывали ) ) )</text>
         <propbank>
-          <arg type="ARGM-DIS" start="?" end="?">Но</arg>
+          <arg type="ARGM-DIS" start="0" end="0">Но</arg>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="1">играли</rel>
-          <arg type="ARGM-COM" start="?" end="?">с братом</arg>
-          <arg type="ARGM-ADV" start="?" end="?">знатно</arg>
+          <arg type="ARGM-COM" start="2" end="3">с братом</arg>
+          <arg type="ARGM-ADV" start="4" end="4">знатно</arg>
         </propbank>
       </example>
       <example name="With reciprocal" src="web">
         <text>Сама не играю вообще , муж очень - очень изредка .</text>
         <propbank>
-          <arg type="ARGM-REC" start="?" end="?">Сама</arg>
+          <arg type="ARGM-REC" start="0" end="0">Сама</arg>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <arg type="ARGM-NEG" start="?" end="?">не</arg>
+          <arg type="ARGM-NEG" start="1" end="1">не</arg>
           <rel relloc="2">играю</rel>
-          <arg type="ARGM-ADV" start="?" end="?">вообще</arg>
+          <arg type="ARGM-ADV" start="3" end="3">вообще</arg>
         </propbank>
       </example>
       <example name="With game" src="">
         <text>В кээс и дотку не играю ... ЯРусскостью не увлекаюсь , репчик не слушаю ...</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">В кээс и дотку</arg>
+          <arg type="ARG1" start="0" end="3">В кээс и дотку</arg>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <arg type="ARGM-NEG" start="?" end="?">не</arg>
           <rel relloc="5">играю</rel>
@@ -87,7 +87,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="3">играла</rel>
-          <arg type="ARG2" start="?" end="?">вилкой</arg>
+          <arg type="ARG2" start="4" end="4">вилкой</arg>
         </propbank>
       </example>
       <example name="play with" src="">
@@ -95,7 +95,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="3">играла</rel>
-          <arg type="ARG2" start="?" end="?">вилкой</arg>
+          <arg type="ARG2" start="4" end="4">вилкой</arg>
         </propbank>
       </example>
     </roleset>
@@ -281,21 +281,23 @@
       </example>
     </roleset>
   </predicate>
-  <predicate>
+  <predicate lemma="играть_на_руку">
     <roleset id="играть_на_руку.05" name="play into one's hands">
       <aliases>
         <alias pos="m">сыграть_на_руку</alias>
         <alias pos="m">играть_на_руку</alias>
         <alias pos="m">играться_на_руку</alias>
         <alias pos="m">сыграться_на_руку</alias>
-        <mwe id="играть_на_руку">
+        <mwp-descriptions id="играть_на_руку">
+          <syntaxdesc slots="A B C">
           <token slot="A" arg="" pos="" head="" dep="">сыграть</token>
           <token slot="A" arg="" pos="" head="" dep="">играть</token>
           <token slot="A" arg="" pos="" head="" dep="">играться</token>
           <token slot="A" arg="" pos="" head="" dep="">сыграться</token>
           <token slot="B" arg="" pos="" head="С" dep="">на</token>
           <token slot="С" arg="" pos="" head="A" dep="">руку</token>
-        </mwe>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>Corresponds to FrameBank senses 11</note>
       <note>NOTES: based on English play.08</note>
@@ -308,23 +310,23 @@
         <propbank>
           <arg type="ARG0" start="14" end="18">эта кампания англо - американцев</arg>
           <arg type="ARGM-ADV" start="19" end="19">прямо</arg>
-          <rel relloc="?">играет</rel>
-          <rel relloc="?">на</rel>
-          <rel relloc="?">руку</rel>
+          <rel relloc="20 21 22">играет на руку</rel>
           <arg type="ARG1" start="23" end="23">фашистам</arg>
         </propbank>
       </example>
     </roleset>
   </predicate>
-  <predicate>
+  <predicate lemma="сыграть_в_ящик">
     <roleset id="сыграть_в_ящик.06" name="die, kick the bucket">
       <aliases>
         <alias pos="m">сыграть_в_ящик</alias>
-        <mwe id="сыграть_в_ящик">
+        <mwp-descriptions id="сыграть_в_ящик">
+          <syntaxdesc slots="A B C">
           <token slot="A" arg="" pos="" head="" dep="">сыграть</token>
           <token slot="B" arg="" pos="" head="С" dep="">в</token>
           <token slot="С" arg="" pos="" head="A" dep="">ящик</token>
-        </mwe>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>Corresponds to FrameBank senses 11</note>
       <note>NOTES: based on English die.01</note>
@@ -336,10 +338,7 @@
         <text>Шло время . Сталин сыграл в ящик . После XX съезда Тима ночью пересказывал закрытое письмо о Сталине ( только для партийных !</text>
         <propbank>
           <arg type="ARG1" start="3" end="3">Сталин</arg>
-          <arg type="ARGM-ADV" start="?" end="?">прямо</arg>
-          <rel relloc="?">сыграл</rel>
-          <rel relloc="?">в</rel>
-          <rel relloc="?">ящик</rel>
+          <rel relloc="4 5 6">сыграл в ящик</rel>
         </propbank>
       </example>
     </roleset>

@@ -2,85 +2,85 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="включать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="включать.01" name="include">
-      <aliases>
-        <alias pos="v">включить</alias>
-        <alias pos="v">включаться</alias>
-        <alias pos="v">включиться</alias>
-      </aliases>
-      <note>включать.01 NOTES: Roleset based on English verb frame include.01 </note>
-      <note>Corresponds to FrameBank senses </note>
-      <roles>
-        <role descr="agent, entity causing some inclusion" f="PAG" n="0"/>
-        <role descr="theme, thing being included" f="PPT" n="1"/>
-        <role descr="group" f="GOL" n="2"/>
-      </roles>
-      <example name="" src="Максим Горький, «Жизнь Клима Самгина. Часть 3», 1928 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Поэтому я — чужой среди людей , которые включают себя в партии , группы , ― вообще ― включают , заключают …</text>
-        <propbank>
-          <arg type="ARG0" start="9" end="9">себя</arg>
-          <arg type="ARG2" start="11" end="13">партии , группы</arg>
-          <rel relloc="?">включают</rel>
-        </propbank>
-      </example>
-      <example name="" src="Л. Н. Толстой, «К духовенству», 1902 г. (цитата из Национального корпуса русского языка, см. Список литературы">
-        <text>Неверие , хотя бы в один из догматов , включает в себя неверие в непогрешимость церкви , установившей тот догмат , в который вы не верите . "</text>
-        <propbank>
-          <arg type="ARG0" start="2" end="7">хотя бы в один из догматов</arg>
-          <arg type="ARG1" start="12" end="14">неверие в непогрешимость</arg>
-          <arg type="ARG2" start="15" end="15">церкви</arg>
-          <rel relloc="9">включает</rel>
-        </propbank>
-      </example>
-      <example name="" src="Д. Н. Медведев, «Сильные духом (Это было под Ровно)», 1948 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Так , согласно « географии » , выпущенной Бандерой , Украина включала в себя Кавказ , Поволжье , Урал и даже … Среднюю Азию .</text>
-        <propbank>
-          <arg type="ARG0" start="10" end="10">Украина</arg>
-          <arg type="ARG1" start="14" end="23">Кавказ , Поволжье , Урал и даже … Среднюю Азию</arg>
-          <rel relloc="11">включала</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="включать.02" name="connect, plug in">
-      <aliases>
-        <alias pos="v">включить</alias>
-      </aliases>
-      <note>включать.02 NOTES: Roleset based on English verb frame plug.04</note>
-      <note>Corresponds to FrameBank senses </note>
-      <roles>
-        <role descr="plugger" f="PAG" n="0"/>
-        <role descr="(thing with) plug " f="PPT" n="1"/>
-        <role descr="socket" f="GOL" n="2"/>
-      </roles>
-      <example name="" src="«Консультация», 1927 г. // «Радио Всем» (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Если телефоны низкоомные , то их нужно включать последовательно ; при высокоомных телефонах применяется параллельное включение .</text>
-        <propbank>
-          <arg type="ARG1" start="5" end="5">их</arg>
-          <rel relloc="7">включать</rel>
-          <arg type="ARGM-MNR" start="8" end="8">последовательно</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="включать.03" name="turn on, start">
-      <aliases>
-        <alias pos="v">включить</alias>
-        <alias pos="v">включаться</alias>
-        <alias pos="v">включиться</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense </note>
-      <note>включать.03 NOTES:Roleset based on English verb frame turn_on.13</note>
-      <roles>
-        <role descr="cause of on-ness" f="PAG" n="0"/>
-        <role descr="lamp, etc" f="PPT" n="1"/>
-      </roles>
-      <example name="" src="Ю. С. Семёнов, «Семнадцать мгновений весны», 1968 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Он отпер дверь , потянулся к выключателю , но услышал голос , очень знакомый и тихий : — Не надо включать свет .</text>
-        <propbank>
-          <rel relloc="20">включать</rel>
-          <arg type="ARG1" start="21" end="21">свет</arg>
-        </propbank>
-      </example>
-    </roleset>
+	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
+	<roleset id="включать.01" name="include">
+	  <aliases>
+		<alias pos="v">включить</alias>
+		<alias pos="v">включаться</alias>
+		<alias pos="v">включиться</alias>
+	  </aliases>
+	  <note>включать.01 NOTES: Roleset based on English verb frame include.01 </note>
+	  <note>Corresponds to FrameBank senses </note>
+	  <roles>
+		<role descr="agent, entity causing some inclusion" f="PAG" n="0"/>
+		<role descr="theme, thing being included" f="PPT" n="1"/>
+		<role descr="group" f="GOL" n="2"/>
+	  </roles>
+	  <example name="" src="Максим Горький, «Жизнь Клима Самгина. Часть 3», 1928 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+		<text>Поэтому я — чужой среди людей , которые включают себя в партии , группы , ― вообще ― включают , заключают …</text>
+		<propbank>
+		  <arg type="ARG0" start="9" end="9">себя</arg>
+		  <arg type="ARG2" start="11" end="13">партии , группы</arg>
+		  <rel relloc="8">включают</rel>
+		</propbank>
+	  </example>
+	  <example name="" src="Л. Н. Толстой, «К духовенству», 1902 г. (цитата из Национального корпуса русского языка, см. Список литературы">
+		<text>Неверие , хотя бы в один из догматов , включает в себя неверие в непогрешимость церкви , установившей тот догмат , в который вы не верите . "</text>
+		<propbank>
+		  <arg type="ARG0" start="2" end="7">хотя бы в один из догматов</arg>
+		  <arg type="ARG1" start="12" end="14">неверие в непогрешимость</arg>
+		  <arg type="ARG2" start="15" end="15">церкви</arg>
+		  <rel relloc="9">включает</rel>
+		</propbank>
+	  </example>
+	  <example name="" src="Д. Н. Медведев, «Сильные духом (Это было под Ровно)», 1948 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+		<text>Так , согласно « географии » , выпущенной Бандерой , Украина включала в себя Кавказ , Поволжье , Урал и даже … Среднюю Азию .</text>
+		<propbank>
+		  <arg type="ARG0" start="10" end="10">Украина</arg>
+		  <arg type="ARG1" start="14" end="23">Кавказ , Поволжье , Урал и даже … Среднюю Азию</arg>
+		  <rel relloc="11">включала</rel>
+		</propbank>
+	  </example>
+	</roleset>
+	<roleset id="включать.02" name="connect, plug in">
+	  <aliases>
+		<alias pos="v">включить</alias>
+	  </aliases>
+	  <note>включать.02 NOTES: Roleset based on English verb frame plug.04</note>
+	  <note>Corresponds to FrameBank senses </note>
+	  <roles>
+		<role descr="plugger" f="PAG" n="0"/>
+		<role descr="(thing with) plug " f="PPT" n="1"/>
+		<role descr="socket" f="GOL" n="2"/>
+	  </roles>
+	  <example name="" src="«Консультация», 1927 г. // «Радио Всем» (цитата из Национального корпуса русского языка, см. Список литературы)">
+		<text>Если телефоны низкоомные , то их нужно включать последовательно ; при высокоомных телефонах применяется параллельное включение .</text>
+		<propbank>
+		  <arg type="ARG1" start="5" end="5">их</arg>
+		  <rel relloc="7">включать</rel>
+		  <arg type="ARGM-MNR" start="8" end="8">последовательно</arg>
+		</propbank>
+	  </example>
+	</roleset>
+	<roleset id="включать.03" name="turn on, start">
+	  <aliases>
+		<alias pos="v">включить</alias>
+		<alias pos="v">включаться</alias>
+		<alias pos="v">включиться</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank sense </note>
+	  <note>включать.03 NOTES:Roleset based on English verb frame turn_on.13</note>
+	  <roles>
+		<role descr="cause of on-ness" f="PAG" n="0"/>
+		<role descr="lamp, etc" f="PPT" n="1"/>
+	  </roles>
+	  <example name="" src="Ю. С. Семёнов, «Семнадцать мгновений весны», 1968 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+		<text>Он отпер дверь , потянулся к выключателю , но услышал голос , очень знакомый и тихий : — Не надо включать свет .</text>
+		<propbank>
+		  <rel relloc="20">включать</rel>
+		  <arg type="ARG1" start="21" end="21">свет</arg>
+		</propbank>
+	  </example>
+	</roleset>
   </predicate>
 </frameset>

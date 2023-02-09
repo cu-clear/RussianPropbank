@@ -38,7 +38,7 @@
       <example name="intransitive" src="">
         <text>меня не тошнит , но да с детства не люблю</text>
         <propbank>
-          <arg type="ARGM-TMP" start="?" end="?">с детства</arg>
+          <arg type="ARGM-TMP" start="6" end="7">с детства</arg>
           <rel relloc="9">люблю</rel>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
         </propbank>
@@ -113,7 +113,7 @@
       <example name="requite love" src="Ф. М. Решетников, «Горнозаводские люди», 1863 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Не любилась ему жена , хотя и молодая была баба , красавица , на коей он в третий раз женился , потому , значит , что она лесничему просто прислуживала .</text>
         <propbank>
-          <arg type="ARGM-NE" start="0" end="0">Не</arg>
+          <arg type="ARGM-NEG" start="0" end="0">Не</arg>
           <rel relloc="1">любилась</rel>
           <arg type="ARG0" start="2" end="2">ему</arg>
           <arg type="ARG1" start="3" end="3">жена</arg>

@@ -237,28 +237,28 @@
       <aliases>
         <alias pos="m">открыть_карты</alias>
         <alias pos="m">открывать_карты</alias>
-        <mwe id="открыть_карты">
-          <token slot="A" arg="" pos="" head="" dep="">открыть</token>
-          <token slot="A" arg="" pos="" head="" dep="">открывать</token>
-          <token slot="B" arg="" pos="" head="A" dep="">карты</token>
-        </mwe>
+        <mwp-descriptions id="открыть_карты">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">открыть</token>
+            <token slot="A" arg="" pos="" head="" dep="">открывать</token>
+            <token slot="B" arg="" pos="" head="A" dep="">карты</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>No parallel English frame.</note>
       <roles>
         <role descr="candid person" f="PAG" n="0">
         </role>
         <role descr="revealed to" f="GOL" n="1">
-		</role>
+        </role>
       </roles>
       <example name="открыть_карты-m" src="Russian National Corpus. [Александр Савельев. Аркан для букмекера (2000)]">
         <text>На этот раз постараюсь быть честным . Открою ему все свои карты . Вместе обсудим .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <rel relloc="?">Открою</rel>
-          <arg type="ARG1" start="?" end="?">ему</arg>
-          <arg type="ARGM-EXT" start="?" end="?">все</arg>
-          <arg type="ARGM-GOL" start="?" end="?">свои</arg>
-          <rel relloc="?">карты</rel>
+          <rel relloc="7 11">Открою карты</rel>
+          <arg type="ARG1" start="8" end="8">ему</arg>
+          <arg type="ARGM-EXT" start="9" end="9">все</arg>
+          <arg type="ARGM-GOL" start="10" end="10">свои</arg>
         </propbank>
       </example>
     </roleset>

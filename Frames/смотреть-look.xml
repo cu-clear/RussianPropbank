@@ -19,7 +19,7 @@
         <role descr="observer, searcher" f="PAG" n="0">
         </role>
         <role descr="at what or where arg0 looked" f="GOL" n="1">
-		</role>
+        </role>
       </roles>
       <example name="look somewhere" src="">
         <text>А ты посмотрел под кроватью ?</text>
@@ -71,14 +71,14 @@
         <role descr="observer" f="PAG" n="0">
         </role>
         <role descr="thing being watched" f="PPT" n="1">
-		</role>
+        </role>
       </roles>
       <example name="perfective, watch film" src="">
         <text>Я хочу посмотреть фильм .</text>
         <propbank>
           <arg type="ARG0" start="?" end="?">PRO</arg>
           <rel relloc="2">посмотреть</rel>
-          <arg type="ARG1" start="?" end="?">фильм</arg>
+          <arg type="ARG1" start="3" end="3">фильм</arg>
         </propbank>
       </example>
       <example name="reflexive as middle voice" src="">
@@ -104,7 +104,7 @@
         <role descr="examiner" f="PAG" n="0">
         </role>
         <role descr="examined" f="PPT" n="1">
-		</role>
+        </role>
       </roles>
       <example name="examine; impersonal construction" src="">
         <text>Не , меня посмотрели и в операционную сразу .</text>
@@ -125,13 +125,13 @@
     </roleset>
     <roleset id="смотреть.04" name="look after">
       <aliases><alias pos="j">смотрящий</alias><alias pos="j">смотревший</alias><alias pos="v">посмотреть</alias><alias pos="j">посмотревший</alias><alias pos="j">посмотренный</alias>&gt;
-	  </aliases>
+      </aliases>
       <note>Based on look_after.07.</note>
       <roles>
         <role descr="minder, watcher" f="PAG" n="0">
         </role>
         <role descr="entity minded, taken care of" f="PPT" n="1">
-		</role>
+        </role>
       </roles>
       <example name="look after someone" src="В. В. Измайлов, «Прекрасная Татьяна, живущая у подошвы Воробьевых гор», 1804 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Мельтон , не довольный сею помочью , остался сам смотреть за больною и успокаивать огорченного старца .</text>
@@ -155,7 +155,7 @@
         <role descr="seemer" f="PAG" n="1">
         </role>
         <role descr="attribute" f="PRD" n="2">
-		</role>
+        </role>
       </roles>
       <example name="perfective, watch film" src="">
         <text>Он смотрет молодцом .</text>
@@ -168,10 +168,10 @@
       <example name="appears to be" src="Russian National Corpus [коллективный. Форум: 17 мгновений весны (2005-2010)]">
         <text>А смотрится полнее достойно , особенно по сравнению с современными сериалами .</text>
         <propbank>
-          <arg type="ARGM-DIS" start="?" end="?">А</arg>
+          <arg type="ARGM-DIS" start="0" end="0">А</arg>
           <arg type="ARG1" start="?" end="?">PRO</arg>
           <rel relloc="1">смотрится</rel>
-          <arg type="ARG2" start="?" end="?">полнее достойно</arg>
+          <arg type="ARG2" start="2" end="3">полнее достойно</arg>
         </propbank>
       </example>
     </roleset>
@@ -186,15 +186,15 @@
       <roles>
         <role descr="searcher " f="PAG" n="0"/>
         <role descr="searched for" f="PPT" n="1">
-		</role>
+        </role>
       </roles>
       <example name="perfective, watch film" src="">
         <text>Посмотрите рубль , пожалуйста .</text>
         <propbank>
           <arg type="ARG0" start="?" end="?">PRO</arg>
           <rel relloc="0">Посмотрите</rel>
-          <arg type="ARG1" start="?" end="?">рубль</arg>
-          <arg type="ARGM-DIS" start="?" end="?">пожалуйста</arg>
+          <arg type="ARG1" start="1" end="1">рубль</arg>
+          <arg type="ARGM-DIS" start="3" end="3">пожалуйста</arg>
         </propbank>
       </example>
     </roleset>
@@ -202,7 +202,7 @@
   <predicate lemma="смотря">
     <roleset id="смотря.08" name="depends">
       <aliases>
-	  </aliases>
+      </aliases>
       <roles>
         <role descr="deciding factor" f="PPT" n="1">
         </role>
@@ -230,30 +230,30 @@
         <alias pos="m">глядеть_в_рот</alias>
         <alias pos="m">смотреть_в_глаза</alias>
         <alias pos="m">глядеть_в_глаза</alias>
-        <note>Corresponds to FrameBank senses 13,14,16</note>
-        <mwe id="смотреть_в_рот">
-          <token slot="A" arg="" pos="" head="" dep="">смотреть</token>
-          <token slot="A" arg="" pos="" head="" dep="">глядеть</token>
-          <token slot="B" arg="" pos="" head="C" dep="">в</token>
-          <token slot="C" arg="" pos="" head="A" dep="">рот</token>
-          <token slot="C" arg="" pos="" head="A" dep="">глаза</token>
-        </mwe>
+        <mwp-descriptions id="смотреть_в_рот">
+          <syntaxdesc slots="A B C">
+            <token slot="A" arg="" pos="" head="" dep="">смотреть</token>
+            <token slot="A" arg="" pos="" head="" dep="">глядеть</token>
+            <token slot="B" arg="" pos="" head="C" dep="">в</token>
+            <token slot="C" arg="" pos="" head="A" dep="">рот</token>
+            <token slot="C" arg="" pos="" head="A" dep="">глаза</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>смотреть_в_рот NOTES: Based on flatter.01.</note>
+      <note>Corresponds to FrameBank senses 13,14,16</note>
       <roles>
         <role descr="gratifier" f="PAG" n="0">
         </role>
         <role descr="target of gratification" f="PPT" n="1">
-		</role>
+        </role>
       </roles>
       <example name="example" src="Russian National Corpus. [И. Э. Кио. Иллюзии без иллюзий (1995-1999)]">
         <text>Бардиан считался настолько авторитарным и серьёзным начальником , что едва ли не все смотрели ему в рот , ― и уж по линии личных удовольствий он , будь половчее и смелее , мог бы добиться всего , чего только пожелал бы .</text>
         <propbank>
           <arg type="ARG0" start="9" end="12">едва ли не все</arg>
-          <rel relloc="?">смотрели</rel>
+          <rel relloc="13 15 16">смотрели в рот</rel>
           <arg type="ARG1" start="14" end="14">ему</arg>
-          <rel relloc="?">в</rel>
-          <rel relloc="?">рот</rel>
         </propbank>
       </example>
     </roleset>

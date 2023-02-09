@@ -54,8 +54,8 @@
         <text>Что - то не слышала о колонне , жаль бабушек нет , что бы уточнить , но не слышала от них такой истории , а историй разные были</text>
         <propbank>
           <arg type="ARGM-ADV" start="0" end="2">Что - то</arg>
-          <arg type="ARGM-NEG" start="?" end="?">не</arg>
-          <rel relloc="?">слышала</rel>
+          <arg type="ARGM-NEG" start="3" end="3">не</arg>
+          <rel relloc="4">слышала</rel>
           <arg type="ARG1" start="5" end="6">о колонне</arg>
         </propbank>
       </example>

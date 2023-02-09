@@ -38,7 +38,7 @@
         <text>Досаду и отчаяние чувствовал .</text>
         <propbank>
           <arg type="ARG0" start="?" end="?">PRO</arg>
-          <arg type="ARG1" start="?" end="?">Досаду и отчаяние</arg>
+          <arg type="ARG1" start="0" end="2">Досаду и отчаяние</arg>
           <rel relloc="3">чувствовал</rel>
         </propbank>
       </example>
@@ -63,19 +63,17 @@
       <example name="physical sensation arg1" src="">
         <text>З.Ы. 3 - х бальное землетрясения не чувствовал</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">PRO</arg>
-          <arg type="ARG1" start="?" end="?">3-х бальное землетрясения</arg>
-          <arg type="ARGM-NEG" start="?" end="?">не</arg>
+          <arg type="ARG1" start="1" end="5">3 - х бальное землетрясения</arg>
+          <arg type="ARGM-NEG" start="6" end="6">не</arg>
           <rel relloc="7">чувствовал</rel>
         </propbank>
       </example>
       <example name="make yourself (at home, like a queen)" src="">
         <text>Не стесняйся , чувствуй себя королевой : заводи себе с десяток фаворитов и периодически давай чуть больше привилегий кому - то из них .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">PRO</arg>
           <rel relloc="3">чувствуй</rel>
-          <arg type="ARG1" start="?" end="?">себя</arg>
-          <arg type="ARG3" start="?" end="?">королевой</arg>
+          <arg type="ARG1" start="4" end="4">себя</arg>
+          <arg type="ARG3" start="5" end="5">королевой</arg>
         </propbank>
       </example>
       <example name="reflexive, sensing that" src="">

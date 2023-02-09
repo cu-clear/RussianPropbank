@@ -144,7 +144,7 @@
         <text>у меня тож походу останется один флаер ... если останется - на входе кому - нить подарю ... какой - нибудь симпатишной девушке</text>
         <propbank>
           <arg type="ARGM-GOL" start="0" end="1">у меня</arg>
-          <rel relloc="?">останется</rel>
+          <rel relloc="4">останется</rel>
           <arg type="ARG1" start="5" end="6">один флаер</arg>
         </propbank>
       </example>

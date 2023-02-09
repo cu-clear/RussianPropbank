@@ -39,9 +39,9 @@
         <text>А тут случайно данный сайт , который как обычно переполнен скепсисом и негативом .</text>
         <propbank>
           <arg type="ARG1" start="?" end="?">*PRO*</arg>
-          <arg type="ARGM-ADV" start="?" end="?">как обычно</arg>
+          <arg type="ARGM-ADV" start="7" end="8">как обычно</arg>
           <rel relloc="9">переполнен</rel>
-          <arg type="ARG2" start="?" end="?">скепсисом и негативом</arg>
+          <arg type="ARG2" start="10" end="12">скепсисом и негативом</arg>
         </propbank>
       </example>
       <example name="active participle, arg 1 only" src="">
@@ -49,7 +49,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="5">переполнившие</rel>
-          <arg type="ARG1" start="?" end="?">регион</arg>
+          <arg type="ARG1" start="6" end="6">регион</arg>
         </propbank>
       </example>
       <example name="adjective form" src="">

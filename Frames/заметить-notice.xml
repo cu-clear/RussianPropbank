@@ -76,17 +76,19 @@
   </predicate>
   <predicate lemma="ни_в_чем_не_замечен">
     <roleset id="ни_в_чем_не_замечен.04" name="not suspected">
-      <note>PASSIVE ONLY. NEGATIVE ONLY.</note>
       <aliases>
-        <mwe id="ни_в_чем_не_замечен">
+        <mwp-descriptions id="ни_в_чем_не_замечен">
+          <syntaxdesc slots="A B C D E">
           <token slot="A" arg="" pos="" head="C" dep="">ни</token>
           <token slot="B" arg="" pos="" head="C" dep="">в</token>
           <token slot="C" arg="" pos="" head="A" dep="">чем</token>
           <token slot="D" arg="" pos="" head="A" dep="">не</token>
           <token slot="E" arg="" pos="" head="" dep="">замечен</token>
-        </mwe>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>Based on English frame suspect.01</note>
+      <note>PASSIVE ONLY. NEGATIVE ONLY.</note>
       <roles>
         <role descr="suspecter" f="PAG" n="0"/>
         <role descr="suspicion: what arg0 thinks" f="PPT" n="1"/>
@@ -95,13 +97,9 @@
       <example name="example" src="Russian National Corpus [М. А. Булгаков. Мастер и Маргарита, часть 2 (1929-1940)]">
         <text>Она дала самые лестные рекомендации коту , объяснила , что знает его пять лет с тех пор , как он был котёнком , ручается за него , как за самоё себя , доказала , что он ни в чём плохом не замечен и никогда не ездил в Москву .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">он</arg>
-          <rel relloc="?">ни</rel>
-          <rel relloc="?">в</rel>
-          <rel relloc="?">чём</rel>
+          <arg type="ARG0" start="35" end="35">он</arg>
+          <rel relloc="36 37 38 40 41">ни в чём не замечен</rel>
           <arg type="ARG1" start="39" end="39">плохом</arg>
-          <rel relloc="?">не</rel>
-          <rel relloc="?">замечен</rel>
         </propbank>
       </example>
     </roleset>

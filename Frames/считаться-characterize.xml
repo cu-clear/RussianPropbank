@@ -80,7 +80,7 @@
     </roleset>
     <roleset id="считаться.03" name="count">
       <aliases>
-	  </aliases>
+      </aliases>
       <note>Corresponds to FrameBank sense 1</note>
       <note>считаться.01 NOTES: Based on count.04.</note>
       <roles>
@@ -129,11 +129,13 @@
     <roleset id="считать_ворон.06" name="daydream, be lazy, bum around">
       <aliases>
         <alias pos="m">считать_галок</alias>
-        <mwe id="считать_ворон">
-          <token slot="A" arg="" pos="" head="" dep="">считать</token>
-          <token slot="B" arg="" pos="" head="A" dep="">ворон</token>
-          <token slot="B" arg="" pos="" head="A" dep="">галок</token>
-        </mwe>
+        <mwp-descriptions id="считать_ворон">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">считать</token>
+            <token slot="B" arg="" pos="" head="A" dep="">ворон</token>
+            <token slot="B" arg="" pos="" head="A" dep="">галок</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>считать_ворон NOTES: No English PB equivalent</note>
       <roles>
@@ -143,8 +145,7 @@
       <example name="all args" src="Russian National Corpus [Р. Б. Ахмедов. Промельки (2011) // «Бельские Просторы», ]">
         <text>Тупо смотреть в окно и « считать ворон » , как любили выражаться учителя ?</text>
         <propbank>
-          <rel relloc="?">считать</rel>
-          <rel relloc="?">ворон</rel>
+          <rel relloc="6 7">считать ворон</rel>
         </propbank>
       </example>
     </roleset>

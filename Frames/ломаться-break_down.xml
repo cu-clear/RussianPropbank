@@ -13,21 +13,21 @@
             <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
             <note>NOTES: based on English break_down.12</note>
             <roles>
-                <role descr="Cause of breaking" f="PRD" n="0"/>
-                <role descr="Thing broken" f="PPT" n="1"/>
+                <role descr="Cause of breaking" f="PRD" n="0" />
+                <role descr="Thing broken" f="PPT" n="1" />
             </roles>
             <example name="ARG1 only" src="RNC, Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001">
                 <text> У ребенка жизнь ломается ― им хоть бы хны !</text>
                 <propbank>
                     <arg type="ARG1" start="3" end="3">жизнь</arg>
-                    <rel relloc="?">ломается</rel>
+                    <rel relloc="4">ломается</rel>
                 </propbank>
             </example>
             <example name="ARG1 and ARG0" src="RNC, Фазиль Искандер. Сандро из Чегема (Книга 3) (1989)">
                 <text> Наконец даже палка , как показалось Широколобому, сломалась от стыда .</text>
                 <propbank>
                     <arg type="ARG1" start="3" end="3">палка</arg>
-                    <rel relloc="?">сломалась</rel>
+                    <rel relloc="8">сломалась</rel>
                     <arg type="ARG0" start="9" end="10">от стыда</arg>
                 </propbank>
             </example>

@@ -193,7 +193,7 @@
     </roleset>
     <roleset id="стать.07" name="expect something">
       <aliases>
-	  </aliases>
+      </aliases>
       <roles>
         <role descr="entity one may expect something from" f="PPT" n="1"/>
       </roles>
@@ -202,9 +202,8 @@
       <example name="stand" src="">
         <text>С него станет , этот праведник на всё способен , – испуганно сказал Дима , – а от тебя такого предательства я не ожидал .</text>
         <propbank>
-          <rel relloc="?">С</rel>
           <arg type="ARG1" start="1" end="1">него</arg>
-          <rel relloc="?">станет</rel>
+          <rel relloc="2">станет</rel>
         </propbank>
       </example>
     </roleset>
@@ -213,10 +212,12 @@
     <roleset id="не_стало.08" name="die, disappear">
       <aliases>
         <alias pos="m">не_стало</alias>
-        <mwe id="не_стало">
-          <token slot="A" arg="" pos="" head="B" dep="">не</token>
-          <token slot="B" arg="" pos="" head="" dep="">стало</token>
-        </mwe>
+        <mwp-descriptions id="не_стало">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="B" dep="">не</token>
+            <token slot="B" arg="" pos="" head="" dep="">стало</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <roles>
         <role descr="entity dying" f="PPT" n="1"/>
@@ -227,15 +228,13 @@
         <propbank>
           <arg type="ARGM-DIS" start="0" end="0">И</arg>
           <arg type="ARG1" start="1" end="1">её</arg>
-          <rel relloc="?">не</rel>
-          <rel relloc="?">стало</rel>
+          <rel relloc="3 4">не стало</rel>
         </propbank>
       </example>
       <example name="end, finish" src="">
         <text>Не стало средств , запасов .</text>
         <propbank>
-          <rel relloc="?">Не</rel>
-          <rel relloc="?">стало</rel>
+          <rel relloc="0 1">Не стало</rel>
           <arg type="ARG1" start="2" end="4">средств , запасов</arg>
         </propbank>
       </example>
@@ -245,19 +244,20 @@
     <roleset id="стало_быть.09" name="therefore, hence, thus">
       <aliases>
         <alias pos="m">стало_быть</alias>
-        <mwe id="стало_быть">
-          <token slot="A" arg="" pos="" head="" dep="">стало</token>
-          <token slot="B" arg="" pos="" head="A" dep="">быть</token>
-        </mwe>
+        <mwp-descriptions id="стало_быть">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">стало</token>
+            <token slot="B" arg="" pos="" head="A" dep="">быть</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <roles>
-	  </roles>
+      </roles>
       <note>стало_быть.09 NOTES: No parallel English frame.</note>
       <example name="example" src="">
         <text>А чтоб и в Огайо с помидорами в августе завязывали ... жаль коли так ... не суждено стало быть ... Фермеры на рынке судачили , что у них еще и баклажны " не отколосились " , как следует</text>
         <propbank>
-          <rel relloc="?">стало</rel>
-          <rel relloc="?">быть</rel>
+          <rel relloc="17 18">стало быть</rel>
         </propbank>
       </example>
     </roleset>

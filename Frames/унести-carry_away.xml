@@ -151,11 +151,13 @@
     <roleset id="унести_ноги-m" name="escape">
       <aliases>
         <alias pos="v">уносить_ноги</alias>
-        <mwe id="унести_ноги">
-          <token slot="A" arg="" pos="" head="" dep="">уносить</token>
-          <token slot="A" arg="" pos="" head="" dep="">унести</token>
-          <token slot="B" arg="" pos="" head="A" dep="dobj">ноги</token>
-        </mwe>
+        <mwp-descriptions id="унести_ноги">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">уносить</token>
+            <token slot="A" arg="" pos="" head="" dep="">унести</token>
+            <token slot="B" arg="" pos="" head="A" dep="dobj">ноги</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>Corresponds to FrameBank sense 5</note>
       <note>NOTES: Based on escape.01</note>
@@ -169,8 +171,7 @@
           <arg type="ARG0" start="14" end="14">Я</arg>
           <arg type="ARG1" start="15" end="15">оттуда</arg>
           <arg type="ARGM-ADV" start="16" end="16">едва</arg>
-          <rel relloc="?">ноги</rel>
-          <rel relloc="?">унес</rel>
+          <rel relloc="17 18">ноги унес</rel>
         </propbank>
       </example>
       <example name="уносить ноги" src="Russian National Corpus. [Евгений Лукин. Катали мы ваше солнце (1997)]">
@@ -178,8 +179,7 @@
         <propbank>
           <arg type="ARG0" start="6" end="6">вы</arg>
           <arg type="ARG1" start="7" end="10">с речки со Сволочи</arg>
-          <rel relloc="?">ноги</rel>
-          <rel relloc="?">уносили</rel>
+          <rel relloc="11 12">ноги уносили</rel>
         </propbank>
       </example>
     </roleset>

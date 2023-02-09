@@ -52,13 +52,13 @@
     </roleset>
     <roleset id="пропасть.02" name="be lost on">
       <aliases>
-		  </aliases>
+      </aliases>
       <note>пропасть.02 NOTES: based on lose.07. Usually in the negative.</note>
       <roles>
         <role descr="what you're not aware of" f="PPT" n="1">
-			</role>
+        </role>
         <role descr="unaware entity" f="GOL" n="2">
-			</role>
+        </role>
       </roles>
       <example name="" src="Russian National Corpus. [Юрий Давыдов. Синие тюльпаны (1988-1989)]">
         <text>Подполковник ( да - да , уже подполковник ) Германн хотел , чтобы эта история , сохранившись в роду , как предания у эскимосов , свидетельствовала о том , что за царём служба не пропадёт .</text>
@@ -80,13 +80,15 @@
         <alias pos="m">пропасть_пропастью</alias>
         <alias pos="m">пропадать_пропастью</alias>
         <alias pos="m">провалиться_пропастью</alias>
-        <mwe id="пропасть_пропадом">
-          <token slot="A" arg="" pos="" head="" dep="">пропасть</token>
-          <token slot="A" arg="" pos="" head="" dep="">пропадать</token>
-          <token slot="A" arg="" pos="" head="" dep="">провалиться</token>
-          <token slot="B" arg="" pos="" head="A" dep="">пропадом</token>
-          <token slot="B" arg="" pos="" head="A" dep="">пропастью</token>
-        </mwe>
+        <mwp-descriptions id="пропасть_пропадом">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="" dep="">пропасть</token>
+            <token slot="A" arg="" pos="" head="" dep="">пропадать</token>
+            <token slot="A" arg="" pos="" head="" dep="">провалиться</token>
+            <token slot="B" arg="" pos="" head="A" dep="">пропадом</token>
+            <token slot="B" arg="" pos="" head="A" dep="">пропастью</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>Corresponds to FrameBank sense 5</note>
       <note>пропасть_пропадом-m NOTES: based on damn.01. Usually with imperative verb</note>
@@ -97,17 +99,15 @@
       <example name="пропасть_пропадом" src="Russian National Corpus. [Виктор Астафьев. Последний поклон (1968-1991)]">
         <text>Пропади пропадом эти переметы , гальяны , налимы , Енисей и дед вместе с ними !</text>
         <propbank>
-          <rel relloc="?">Пропади</rel>
-          <rel relloc="?">пропадом</rel>
+          <rel relloc="0 1">Пропади пропадом</rel>
           <arg type="ARG1" start="2" end="14">эти переметы , гальяны , налимы , Енисей и дед вместе с ними</arg>
         </propbank>
       </example>
       <example name="провалиться_пропадом" src="Russian National Corpus. [Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001]">
         <text>Ну мне чего ? ― плюнул , открыл места … сервис купил , чтобы отвязались , провались он пропадом .</text>
         <propbank>
-          <rel relloc="?">провались</rel>
+          <rel relloc="16 18">провались пропадом</rel>
           <arg type="ARG1" start="17" end="17">он</arg>
-          <rel relloc="?">пропадом</rel>
         </propbank>
       </example>
     </roleset>

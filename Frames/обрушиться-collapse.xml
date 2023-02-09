@@ -72,8 +72,8 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*trace-1*</arg>
           <rel relloc="27">обрушить</rel>
-          <arg type="ARG2" start="?" end="?">на пол</arg>
-          <arg type="ARG1" start="?" end="?">всю свою штукатурку</arg>
+          <arg type="ARG2" start="28" end="29">на пол</arg>
+          <arg type="ARG1" start="30" end="32">всю свою штукатурку</arg>
         </propbank>
       </example>
       <example name="active perfective figurative" src="Russian National Corpus. [Оборотни первой волны (2003) // «Завтра», 2003.08.06]">
@@ -81,7 +81,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*trace-1*</arg>
           <rel relloc="17">обрушить</rel>
-          <arg type="ARG1" start="?" end="?">рубль</arg>
+          <arg type="ARG1" start="18" end="18">рубль</arg>
         </propbank>
       </example>
       <example name="noun" src="Russian National Corpus. [Александр Дейкин. Своя игра (2003) // «Время МН», 2003.08.02]">
@@ -89,7 +89,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="10">обрушивания</rel>
-          <arg type="ARG1" start="?" end="?">ситуации</arg>
+          <arg type="ARG1" start="11" end="11">ситуации</arg>
         </propbank>
       </example>
     </roleset>
@@ -135,7 +135,7 @@
       <example name="рушиться figurative" src="Лерм, «Menschen und Leidenschaften»">
         <text>зачем же всё это рушится на голову мою ?</text>
         <propbank>
-          <arg type="ARGM-PUR" start="0" end="0">зачем</arg>
+          <arg type="ARGM-PRP" start="0" end="0">зачем</arg>
           <arg type="ARG0" start="2" end="3">всё это</arg>
           <rel relloc="4">рушится</rel>
           <arg type="ARG1" start="5" end="7">на голову мою</arg>

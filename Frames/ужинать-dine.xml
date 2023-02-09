@@ -10,8 +10,8 @@
             <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
             <note>NOTES: based on English dine.01</note>
             <roles>
-                <role descr="eater" f="PAG" n="0"/>
-                <role descr="meal" f="PPT" n="1"/>
+                <role descr="eater" f="PAG" n="0" />
+                <role descr="meal" f="PPT" n="1" />
             </roles>
             <example name="Arg1 only" src="webweek.ru">
                 <text>Состоятельная пара , Муж и жена , ужинали в дорогом ресторане</text>
@@ -24,7 +24,7 @@
                 <text> Однажды мне довелось попасть сюда на завтрак и поесть любимую кашу , в другой раз я ужинал «Цезарем» и сосисками на гриле .</text>
                 <propbank>
                     <arg type="ARG0" start="16" end="16">я</arg>
-                    <rel relloc="?">« Цезарем » и сосисками на гриле</rel>
+                    <rel relloc="18 22">«Цезарем» гриле</rel>
                 </propbank>
             </example>
         </roleset>

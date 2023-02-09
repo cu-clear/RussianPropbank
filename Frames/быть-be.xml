@@ -139,7 +139,7 @@
     <roleset id="быть.08" name="auxiliary; will/was/were">
       <aliases>
       </aliases>
-      <note>быть.08 NOTES: Roleset based on English verb frame be.03f</note>
+      <note>быть.08 NOTES: Roleset based on English verb frame be.03</note>
       <roles>
       </roles>
       <example name="aux" src="">
@@ -172,8 +172,7 @@
       <example name="example" src="Russian National Corpus [Светлана Сухова. Конституция и революция (2003) // «Итоги», 2003.03.04]">
         <text>Конституционный суд не может действовать в такой революционной , а стало быть , неконституционной обстановке .</text>
         <propbank>
-          <rel relloc="?">стало</rel>
-          <rel relloc="?">быть</rel>
+          <rel relloc="10 11">стало быть</rel>
         </propbank>
       </example>
     </roleset>

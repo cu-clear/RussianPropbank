@@ -20,13 +20,13 @@
                 <text>Воины хакана тоже спали в отведённых им гостевых керку .</text>
                 <propbank>
                     <arg type="ARG0" start="0" end="1">Воины хакана</arg>
-                    <rel relloc="?">спали</rel>
+                    <rel relloc="3">спали</rel>
                 </propbank>
             </example>
             <example name="ARG1, ARG0 is implied 1st person." src="RNC, И. П. Ювачев. Дневник (1894)">
                 <text> С трудом заснул , спал мало и худо .</text>
                 <propbank>
-                    <rel relloc="?">спал</rel>
+                    <rel relloc="4">спал</rel>
                     <arg type="ARG1" start="6" end="8">мало и худо</arg>
                 </propbank>
             </example>
@@ -34,7 +34,7 @@
                 <text>... а я спал до 10 утра .</text>
                 <propbank>
                     <arg type="ARG0" start="2" end="2">я</arg>
-                    <rel relloc="?">спал</rel>
+                    <rel relloc="3">спал</rel>
                     <arg type="ARG1" start="4" end="6">до 10 утра</arg>
                 </propbank>
             </example>

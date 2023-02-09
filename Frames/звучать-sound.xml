@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="звучать">
@@ -16,24 +17,30 @@
         <role descr="the sound itself (the name of the sound/song, etc., not just a characteristic)" f="PPT" n="2"/>
         <role descr="characteristic of the sound" f="ADJ" n="3"/>
 	  </roles>
-      <example name="ARG2 and 3" src="RNC, Болото 2001" type="">
+      <example name="ARG2 and 3" src="RNC, Болото 2001">
         <text>Выстрел прозвучал неожиданно звучно ...</text>
-        <arg f="" n="2">Выстрел</arg>
-        <rel f="">прозвучал</rel>
-	      <arg f="" n="3">звучно</arg>
+          <propbank>
+        <arg type="ARG2" start="0" end="0">Выстрел</arg>
+        <rel relloc="1">прозвучал</rel>
+	      <arg type="ARG3" start="3" end="3">звучно</arg>
+          </propbank>
       </example>
-      <example name="ARG0 and 2" src="RNC, Фокс Малдер похож на свинью: Повесть, рассказы. — М.: ОГИ, 2001" type="">
+      <example name="ARG0 and 2" src="RNC, Фокс Малдер похож на свинью: Повесть, рассказы. — М.: ОГИ, 2001">
         <text>Голос Лидии Тимофеевны прозвучал откуда-то из угла .</text>
-        <arg f="" n="2">Голос</arg>
-        <arg f="" n="0">Лидии</arg>
-        <rel f="">прозвучал</rel>
+          <propbank>
+        <arg type="ARG2" start="0" end="0">Голос</arg>
+        <arg type="ARG0" start="1" end="1">Лидии</arg>
+        <rel relloc="3">прозвучал</rel>
+          </propbank>
 	    </example>
-      <example name="ARG1 and 3" src="RNC, В. Вересаев. Сочинения в четырех томах. Том I. Повести. В тупике: Роман. М.: Правда, 1990" type="">
+      <example name="ARG1 and 3" src="RNC, В. Вересаев. Сочинения в четырех томах. Том I. Повести. В тупике: Роман. М.: Правда, 1990">
         <text>И грустно , уединенно звучал в тумане далекий колокол .</text>
-        <arg f="" n="3">грустно</arg>
-        <arg f="" n="3">уединенно</arg>
-        <rel f="">звучал</rel>
-	      <arg f="" n="1">колокол</arg>
+          <propbank>
+        <arg type="ARG3" start="1" end="1">грустно</arg>
+        <arg type="ARG3" start="3" end="3">уединенно</arg>
+        <rel relloc="4">звучал</rel>
+	      <arg type="ARG1" start="8" end="8">колокол</arg>
+          </propbank>
       </example>
 	</roleset>
   <roleset id="звучать.02" name="to seem, to appear">
@@ -50,18 +57,22 @@
         <role descr="attribute of arg1" f="PRD" n="1"/>
         <role descr="viewer" f="PPT" n="2"/>
 	  </roles>
-      <example name="ARG0, 1, and 2" src="RNC, «Коммерсантъ-Власть», 1998, № 12" type="">
+      <example name="ARG0, 1, and 2" src="RNC, «Коммерсантъ-Власть», 1998, № 12">
         <text>Для многих в Японии эта речь прозвучала как гром среди ясного неба .</text>
-        <arg f="" n="2">многих</arg>
-        <arg f="" n="0">речь</arg>
-        <rel f="">прозвучала</rel>
-	      <arg f="" n="1">гром</arg>
+          <propbank>
+        <arg type="ARG2" start="1" end="1">многих</arg>
+        <arg type="ARG0" start="5" end="5">речь</arg>
+        <rel relloc="6">прозвучала</rel>
+	      <arg type="ARG1" start="8" end="8">гром</arg>
+          </propbank>
       </example>
-      <example name="ARG0 and 1" src="RNC, Звезда, 2002 N11" type="">
+      <example name="ARG0 and 1" src="RNC, Звезда, 2002 N11">
         <text>Умер " как раз перед первым толчком " ― эта фраза звучит как упрёк .</text>
-        <arg f="" n="0">фраза</arg>
-        <rel f="">звучит</rel>
-	      <arg f="" n="1">упрёк</arg>
+          <propbank>
+        <arg type="ARG0" start="10" end="10">фраза</arg>
+        <rel relloc="11">звучит</rel>
+	      <arg type="ARG1" start="13" end="13">упрёк</arg>
+          </propbank>
       </example>
 	</roleset>
   </predicate>

@@ -20,9 +20,9 @@
         </role>
         <role descr="thing bought" f="PPT" n="1">
         </role>
-        <role descr="seller" f="DIR" n="2"/>
-        <role descr="price paid" f="VSP" n="3"/>
-        <role descr="benefactive" f="GOL" n="4"/>
+        <role descr="seller" f="DIR" n="2" />
+        <role descr="price paid" f="VSP" n="3" />
+        <role descr="benefactive" f="GOL" n="4" />
       </roles>
       <example name="ARG0" src="">
         <text>Я б купила .</text>
@@ -42,10 +42,10 @@
       <note>Corresponds to FrameBank senses 2,4</note>
       <note>купить.02 NOTES: based on bribe.01</note>
       <roles>
-        <role descr="briber" f="PAG" n="0"/>
-        <role descr="person being bribed" f="PPT" n="1"/>
-        <role descr="favor" f="PRD" n="2"/>
-        <role descr="amount exchanged" f="VSP" n="3"/>
+        <role descr="briber" f="PAG" n="0" />
+        <role descr="person being bribed" f="PPT" n="1" />
+        <role descr="favor" f="PRD" n="2" />
+        <role descr="amount exchanged" f="VSP" n="3" />
       </roles>
       <example name="arg 1 in NP" src="">
         <text>да лан , не все продажные ) я вот не продажная были ни разу ( щас просто этим не занимаюсь ) правда попытки купить меня были так дешевы что соблазна не возникало в принципе , но я вообще честная , да )</text>
@@ -65,7 +65,7 @@
         <text>За деньги куплю судью , куплю следователя , куплю мать детишек , куплю десяток свидетелей , они подтвердят , все подтвердят - похитил !</text>
         <propbank>
           <arg type="ARG3" start="0" end="1">За деньги</arg>
-          <rel relloc="?">куплю</rel>
+          <rel relloc="2">куплю</rel>
           <arg type="ARG1" start="3" end="3">судью</arg>
         </propbank>
       </example>
@@ -79,9 +79,9 @@
       <note>купить.03 NOTES: based on fool.01</note>
       <roles>
         <note>Russian Arg2-PRD has no match in English frame</note>
-        <role descr="trickster" f="PAG" n="0"/>
-        <role descr="entity deceived" f="PPT" n="1"/>
-        <role descr="deception" f="PRD" n="2"/>
+        <role descr="trickster" f="PAG" n="0" />
+        <role descr="entity deceived" f="PPT" n="1" />
+        <role descr="deception" f="PRD" n="2" />
       </roles>
       <example name="fooled ya" src="">
         <text>Здорово я тебя купил !</text>

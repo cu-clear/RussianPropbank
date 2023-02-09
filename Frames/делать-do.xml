@@ -148,9 +148,8 @@
       <example name="become, reflexive" src="">
         <text>Делается холодным ю</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">PRO</arg>
           <rel relloc="0">Делается</rel>
-          <arg type="ARG2" start="?" end="?">холодным</arg>
+          <arg type="ARG2" start="1" end="1">холодным</arg>
         </propbank>
       </example>
     </roleset>

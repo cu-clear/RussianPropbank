@@ -11,14 +11,10 @@
       <note>Corresponds to FrameBank senses 1,6,7</note>
       <note>заявить.01 NOTES: Based on declare.01.</note>
       <roles>
-        <role descr="announcer" f="PAG" n="0">
-        </role>
-        <role descr="utterance" f="PPT" n="1">
-        </role>
-        <role descr="hearer" f="GOL" n="2">
-        </role>
-        <role descr="attributive" f="PRD" n="3">
-        </role>
+        <role descr="announcer" f="PAG" n="0"/>
+        <role descr="utterance" f="PPT" n="1"/>
+        <role descr="hearer" f="GOL" n="2"/>
+        <role descr="attributive" f="PRD" n="3"/>
       </roles>
       <example name="" src="А. И. Куприн, «Поединок», 1905 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>В таком случае заявляю , что ни на один из вопросов капитана Петерсона я отвечать не буду , — сказал Ромашов .</text>

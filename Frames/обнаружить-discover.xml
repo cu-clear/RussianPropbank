@@ -89,7 +89,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="16">обнаружив</rel>
-          <arg type="ARG1" start="?" end="?">что одно из высохших озер на красной планете могло быть хранителем жизни более 3 миллиардов лет назад</arg>
+          <arg type="ARG1" start="18" end="34">что одно из высохших озер на красной планете могло быть хранителем жизни более 3 миллиардов лет назад</arg>
         </propbank>
       </example>
       <example name="reflexive" src="https://dic.academic.ru/dic.nsf/ogegova/132054">
@@ -129,7 +129,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
           <rel relloc="3">обнаружили</rel>
-          <arg type="ARG0" start="?" end="?">стиснутые зубы</arg>
+          <arg type="ARG0" start="4" end="5">стиснутые зубы</arg>
         </propbank>
       </example>
       <example name="make obvious" src="Чехов">
@@ -137,7 +137,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">PRO</arg>
           <rel relloc="3">обнаружить</rel>
-          <arg type="ARG1" start="?" end="?">свою радость</arg>
+          <arg type="ARG1" start="4" end="5">свою радость</arg>
         </propbank>
       </example>
     </roleset>

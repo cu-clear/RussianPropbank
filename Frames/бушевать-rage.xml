@@ -17,7 +17,7 @@
                 <text>Судан страдает от гражданских войн , которые бушуют на его территории , на протяжении более 40 лет . </text>
                 <propbank>
                     <arg type="ARG1" start="3" end="4">гражданских войн</arg>
-                    <rel relloc="?">бушуют</rel>
+                    <rel relloc="7">бушуют</rel>
                     <arg type="ARG2" start="8" end="10">на его территории</arg>
                 </propbank>
             </example>
@@ -25,7 +25,7 @@
                 <text>До конца недели будет бушевать мощная магнитная буря .</text>
                 <propbank>
                     <arg type="ARG1" start="5" end="7">мощная магнитная буря</arg>
-                    <rel relloc="?">бушевать</rel>
+                    <rel relloc="4">бушевать</rel>
                 </propbank>
             </example>
         </roleset>

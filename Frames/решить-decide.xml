@@ -62,8 +62,8 @@
         <propbank>
           <arg type="ARG0" start="14" end="14">они</arg>
           <arg type="ARGM-NEG" start="16" end="16">не</arg>
-          <rel relloc="?">решились</rel>
-          <rel relloc="?">на открытое выступление</rel>
+          <rel relloc="17">решились</rel>
+          <arg type="ARG1" start="18" end="20">на открытое выступление</arg>
         </propbank>
       </example>
       <example name="reflexive, arg 0" src="Russian National Corpus. [Анна Варшавская. Дар не случайный (2002) // «Домовой», 2002.02.04]">
@@ -101,7 +101,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="8">решить</rel>
-          <arg type="ARG1" start="?" end="?">основной вопрос : а тому ли я учусь ?</arg>
+          <arg type="ARG1" start="12" end="20">основной вопрос : а тому ли я учусь ?</arg>
         </propbank>
       </example>
       <example name="solves nothing; arg0, 1, and 3" src="">

@@ -48,7 +48,7 @@
       <example name="work-v, study" src="">
         <text>Поэтому врачи и все , кто работает с инфицированными , должны иметь специальную защиту , вплоть до маски , закрывающей всё лицо .</text>
         <propbank>
-          <arg type="ARGM-" start="0" end="0">Поэтому</arg>
+          <arg type="ARGM-PRP" start="0" end="0">Поэтому</arg>
           <arg type="ARG0" start="5" end="5">кто</arg>
           <rel relloc="6">работает</rel>
           <arg type="ARG1" start="7" end="8">с инфицированными</arg>

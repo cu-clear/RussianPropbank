@@ -173,10 +173,12 @@
   <predicate lemma="милости_просим">
     <roleset id="милости_просим-m" name="welcome, greet, invite in">
       <aliases>
-        <mwe id="милости_просим">
-          <token slot="A" arg="" pos="" head="B" dep="">милости</token>
-          <token slot="B" arg="" pos="" head="" dep="">просим</token>
-        </mwe>
+        <mwp-descriptions id="милости_просим">
+          <syntaxdesc slots="A B">
+            <token slot="A" arg="" pos="" head="B" dep="">милости</token>
+            <token slot="B" arg="" pos="" head="" dep="">просим</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>милости_просим NOTES: Roleset based on English verb frame welcome.01</note>
       <roles>
@@ -187,8 +189,7 @@
       <example name="example" src="Russian National Corpus: [И. Грекова. Перелом (1987)]">
         <text>Милости просим в наше отделение .</text>
         <propbank>
-          <rel relloc="?">Милости</rel>
-          <rel relloc="?">просим</rel>
+          <rel relloc="0 1">Милости просим</rel>
           <arg type="ARG2" start="2" end="4">в наше отделение</arg>
         </propbank>
       </example>

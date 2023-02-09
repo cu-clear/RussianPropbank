@@ -11,15 +11,15 @@
             <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
             <note>NOTES: based on English call.02</note>
             <roles>
-                <role descr="Caller" f="PAG" n="0"/>
-                <role descr="Entity summoned" f="PPT" n="1"/>
-                <role descr="Medium or phone used" f="MNR" n="2"/>
+                <role descr="Caller" f="PAG" n="0" />
+                <role descr="Entity summoned" f="PPT" n="1" />
+                <role descr="Medium or phone used" f="MNR" n="2" />
             </roles>
             <example name="ARG1, 2, and 3" src="ingalatory.ru">
                 <text>Ирина , Вы можете позвонить нам по телефону ...</text>
                 <propbank>
                     <arg type="ARG0" start="2" end="2">Вы</arg>
-                    <rel relloc="?">позвонить</rel>
+                    <rel relloc="4">позвонить</rel>
                     <arg type="ARG1" start="5" end="5">нам</arg>
                     <arg type="ARG2" start="7" end="7">телефону</arg>
                 </propbank>
@@ -28,12 +28,12 @@
                 <text>Он еще много раз тогда звонил , а она не отвечала, раз звонил значит все в порядке .</text>
                 <propbank>
                     <arg type="ARG1" start="0" end="0">Он</arg>
-                    <rel relloc="?">звонил</rel></propbank>
+                    <rel relloc="5">звонил</rel></propbank>
             </example>
             <example name="ARG1" src="up74.ru">
                 <text>На днях позвонил двоюродный брат .</text>
                 <propbank>
-                    <rel relloc="?">позвонил</rel>
+                    <rel relloc="2">позвонил</rel>
                     <arg type="ARG1" start="4" end="4">брат</arg>
                 </propbank>
             </example>

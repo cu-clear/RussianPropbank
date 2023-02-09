@@ -2,9 +2,7 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="думать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="думать.01" name="think">
-      <note>думать.01 NOTES:Corresponds to FrameBank senses 1,2,4</note>
       <aliases>
         <alias pos="j">думающий</alias>
         <alias pos="j">думавший</alias>
@@ -15,6 +13,7 @@
         <alias pos="v">думаться</alias>
         <alias pos="v">подуматься</alias>
       </aliases>
+      <note>думать.01 NOTES:Corresponds to FrameBank senses 1,2,4</note>
       <note>думать.01 NOTES: Based on think.01</note>
       <roles>
         <role descr="Thinker" f="PAG" n="0">

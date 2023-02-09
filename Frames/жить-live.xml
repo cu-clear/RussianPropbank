@@ -50,9 +50,8 @@
       <example name="arg0" src="">
         <text>Что - то после прочтения подобных новостей мне уже совсем не кажется абсурдной мысль , что живем в " последние времена "</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="16">живем</rel>
-          <arg type="ARGM-TMP" start="?" end="?">в " последние времена "</arg>
+          <arg type="ARGM-TMP" start="17" end="21">в " последние времена "</arg>
         </propbank>
       </example>
       <example name="leave alone" src="">
@@ -101,10 +100,9 @@
       <example name="all args" src="Л. Н. Толстой, «Анна Каренина»">
         <text>Жена узнала , что муж был в связи с бывшею в их доме француженкою - гувернанткой , и объявила мужу , что не может жить с ним в одном доме .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
           <rel relloc="24">жить</rel>
-          <arg type="ARG1" start="?" end="?">с ним</arg>
-          <arg type="ARGM-LOC" start="?" end="?">одном доме</arg>
+          <arg type="ARG1" start="25" end="26">с ним</arg>
+          <arg type="ARGM-LOC" start="28" end="29">одном доме</arg>
         </propbank>
       </example>
       <example name="live with" src="">
@@ -151,8 +149,8 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="4">жить</rel>
-          <arg type="ARG1" start="?" end="?">на эти деньги</arg>
-          <arg type="ARGM-NEG" start="?" end="?">нельзя</arg>
+          <arg type="ARG1" start="5" end="7">на эти деньги</arg>
+          <arg type="ARGM-NEG" start="8" end="8">нельзя</arg>
         </propbank>
       </example>
       <example name="live by" src="Russian National Corpus [А. Я. Гуревич. Популярное богословие и народная религиозность средних веков (1976)]">
@@ -160,7 +158,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="14">живут</rel>
-          <arg type="ARG1" start="?" end="?">грабежом, откуда и все их богатства</arg>
+          <arg type="ARG1" start="15" end="21">грабежом , откуда и все их богатства</arg>
         </propbank>
       </example>
     </roleset>
@@ -224,12 +222,14 @@
     <roleset id="долго_жить.07" name="die, cease to exist">
       <aliases>
         <alias pos="m">приказать_долго_жить</alias>
-        <mwe id="терять_счет">
-          <token slot="A" arg="" pos="" head="" dep="">приказать</token>
-          <token slot="A" arg="" pos="" head="" dep="">велеть</token>
-          <token slot="B" arg="" pos="" head="C" dep="">долго</token>
-          <token slot="C" arg="" pos="" head="A" dep="">жить</token>
-        </mwe>
+        <mwp-descriptions id="терять_счет">
+          <syntaxdesc slots="A B C">
+            <token slot="A" arg="" pos="" head="" dep="">приказать</token>
+            <token slot="A" arg="" pos="" head="" dep="">велеть</token>
+            <token slot="B" arg="" pos="" head="C" dep="">долго</token>
+            <token slot="C" arg="" pos="" head="A" dep="">жить</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>долго_жить NOTES: Roleset based on English verb frame die.01</note>
       <roles>
@@ -239,10 +239,7 @@
       <example name="all args" src="Russian National Corpus [С. Т. Григорьев. Александр Суворов (1939)]">
         <text>А ты кланяйся товарищам . Вели долго жить . Да еще погожу умирать .</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">*PRO*</arg>
-          <rel relloc="?">Вели</rel>
-          <rel relloc="?">долго</rel>
-          <rel relloc="?">жить</rel>
+          <rel relloc="5 6 7">Вели долго жить</rel>
         </propbank>
       </example>
       <example name="cease to exist" src="Russian National Corpus [[Анастасия Гулина. Правый десант продолжается (2003) // «Богатей» (Саратов), 2003.04.17]">
@@ -251,9 +248,7 @@
           <arg type="ARGM-TMP" start="8" end="8">когда</arg>
           <arg type="ARGM-TMP" start="9" end="11">в 1991 году</arg>
           <arg type="ARG1" start="12" end="12">СССР</arg>
-          <rel relloc="?">приказал</rel>
-          <rel relloc="?">долго</rel>
-          <rel relloc="?">жить</rel>
+          <rel relloc="13 14 15">приказал долго жить</rel>
         </propbank>
       </example>
     </roleset>

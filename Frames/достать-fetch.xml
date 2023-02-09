@@ -175,12 +175,14 @@
     <roleset id="достаться_на_орехи.7" name="punish, cause trouble for, call on the carpet">
       <aliases>
         <alias pos="m">доставаться_на_орехи</alias>
-        <mwe id="достаться_на_орехи">
-          <token slot="A" arg="" pos="" head="" dep="">достаться</token>
-          <token slot="A" arg="" pos="" head="" dep="">доставаться</token>
-          <token slot="B" arg="" pos="" head="C" dep="">на</token>
-          <token slot="C" arg="" pos="" head="A" dep="">орехи</token>
-        </mwe>
+        <mwp-descriptions id="достаться_на_орехи">
+          <syntaxdesc slots="A B C">
+            <token slot="A" arg="" pos="" head="" dep="">достаться</token>
+            <token slot="A" arg="" pos="" head="" dep="">доставаться</token>
+            <token slot="B" arg="" pos="" head="C" dep="">на</token>
+            <token slot="C" arg="" pos="" head="A" dep="">орехи</token>
+          </syntaxdesc>
+        </mwp-descriptions>
       </aliases>
       <note>No English frame match</note>
       <roles>
@@ -194,9 +196,7 @@
         <propbank>
           <arg type="ARG1" start="2" end="2">мне</arg>
           <arg type="ARG0" start="3" end="4">от нее</arg>
-          <rel relloc="?">доставалось</rel>
-          <rel relloc="?">на</rel>
-          <rel relloc="?">орехи</rel>
+          <rel relloc="6 7 8">доставалось на орехи</rel>
         </propbank>
       </example>
     </roleset>

@@ -109,7 +109,7 @@
         <text>а я хочу всегда и везде , и дай чтобы и фигурка была , и личиком вышла , прям дай вот и все .</text>
         <propbank>
           <arg type="ARG1" start="20" end="22">вот и все</arg>
-          <rel relloc="?">дай</rel>
+          <rel relloc="19">дай</rel>
         </propbank>
       </example>
       <example name="" src="Russian National Corpus[коллективный. Форум: 17 мгновений весны (2005-2010)]">

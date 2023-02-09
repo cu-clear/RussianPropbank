@@ -93,7 +93,7 @@
       <aliases>
         <alias pos="v">брать</alias>
         <alias pos="v">взяться</alias>
-        <alias pos="v">взятие</alias>
+        <alias pos="n">взятие</alias>
       </aliases>
       <note>взять.02 NOTES: Roleset based on English conquer.01</note>
       <roles>
@@ -314,8 +314,7 @@
       <example name="example" src="Ю. И. Коваль, «Сиротская зима», 1980—1993 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>А медведь нашёл их , взял да и съел .</text>
         <propbank>
-          <rel relloc="?">взял</rel>
-          <rel relloc="?">да</rel>
+          <rel relloc="5 6">взял да</rel>
         </propbank>
       </example>
     </roleset>
@@ -342,10 +341,7 @@
         <text>Фантомчик возьми себя в руки .</text>
         <propbank>
           <arg type="ARG0" start="0" end="0">Фантомчик</arg>
-          <rel relloc="?">возьми</rel>
-          <rel relloc="?">себя</rel>
-          <rel relloc="?">в</rel>
-          <rel relloc="?">руки</rel>
+          <rel relloc="1 2 3 4">возьми себя в руки</rel>
         </propbank>
       </example>
     </roleset>

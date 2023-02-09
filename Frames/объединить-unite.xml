@@ -39,8 +39,8 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
           <rel relloc="4">объедините</rel>
-          <arg type="ARG1" start="?" end="?">темки Страхование путешественников в Путешествиях и отдыхе</arg>
-          <arg type="ARGM-LOC" start="?" end="?">в Путешествиях и отдыхе</arg>
+          <arg type="ARG1" start="7" end="13">темки Страхование путешественников в Путешествиях и отдыхе</arg>
+          <arg type="ARGM-LOC" start="10" end="13">в Путешествиях и отдыхе</arg>
         </propbank>
       </example>
       <example name="reflexive perfective" src="Александр Новиков, Дмитрий Гронский, «Записки врача», 15 декабря 2002 г. // «Автопилот» (цитата из Национального корпуса русского языка, см. Список литературы)">

@@ -20,14 +20,14 @@
                 <text>Он замечательный парень , и у нас сложились отличные отношения .</text>
                 <propbank>
                     <arg type="ARG1" start="8" end="9">отличные отношения</arg>
-                    <rel relloc="?">сложились</rel>
+                    <rel relloc="7">сложились</rel>
                 </propbank>
             </example>
             <example name="ARG1 and ARG2" src="RNC, «Даша», №10. -- ИД «Бурда»">
                 <text>После таких приятных упражнений долгожданные выходные наверняка сложатся удачно .</text>
                 <propbank>
                     <arg type="ARG1" start="4" end="5">долгожданные выходные</arg>
-                    <rel relloc="?">сложатся</rel>
+                    <rel relloc="7">сложатся</rel>
                     <arg type="ARG2" start="8" end="8">удачно</arg>
                 </propbank>
             </example>
@@ -46,18 +46,18 @@
                 <role descr="components" f="PPT" n="2"/>
             </roles>
             <example name="ARG1 and ARG2" src="RNC,  «Наука и жизнь», № 9, 1947">
-                <text>Содержание ее складывается из двух неравных частей: ...</text>
+                <text>Содержание ее складывается из двух неравных частей : ...</text>
                 <propbank>
                     <arg type="ARG1" start="0" end="0">Содержание</arg>
-                    <rel relloc="?">складывается</rel>
-                    <arg type="ARG3" start="?" end="?">из двух неравных частей</arg>
+                    <rel relloc="2">складывается</rel>
+                    <arg type="ARG3" start="3" end="6">из двух неравных частей</arg>
                 </propbank>
             </example>
             <example name="ARG1 and ARG2" src="ruTenTen11, clipso-russia.ru">
                 <text>Домашний уют складывается из тысячи деталей</text>
                 <propbank>
                     <arg type="ARG1" start="0" end="1">Домашний уют</arg>
-                    <rel relloc="?">складывается</rel>
+                    <rel relloc="2">складывается</rel>
                     <arg type="ARG2" start="3" end="5">из тысячи деталей</arg>
                 </propbank>
             </example>

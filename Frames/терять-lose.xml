@@ -103,7 +103,7 @@
           <arg type="ARGM-ADV" start="8" end="8">как</arg>
           <arg type="ARG0" start="9" end="9">мы</arg>
           <rel relloc="10">теряем</rel>
-          <arg type="ARGM-1" start="11" end="13">во мнении Европы</arg>
+          <arg type="ARG1" start="11" end="13">во мнении Европы</arg>
         </propbank>
       </example>
     </roleset>

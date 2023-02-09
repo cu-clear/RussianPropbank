@@ -121,7 +121,7 @@
         <text>Так громче , музыка , играй победу , // Мы победили , и враг бежит , бежит , бежит ! "</text>
         <propbank>
           <arg type="ARG0" start="13" end="13">враг</arg>
-          <rel relloc="?">бежит</rel>
+          <rel relloc="14">бежит</rel>
         </propbank>
       </example>
     </roleset>

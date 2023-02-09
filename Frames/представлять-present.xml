@@ -251,7 +251,7 @@
       </example>
     </roleset>
   </predicate>
-  <predicate>
+  <predicate lemma="представляться">
     <roleset id="представляться.07" name="pretend to be, present self as, appear to be">
       <aliases>
         <alias pos="v">представиться</alias>

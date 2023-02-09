@@ -136,7 +136,7 @@
         <propbank>
           <rel relloc="6">полученный</rel>
           <arg type="ARG1" start="?" end="?">*PRO*</arg>
-          <arg type="ARGM-MNR" start="?" end="?">без кокса</arg>
+          <arg type="ARGM-MNR" start="7" end="8">без кокса</arg>
         </propbank>
       </example>
       <example name="imperfective impersonal" src="Russian National Corpus. [Борис Розен. На подступах к синтетическому горючему // «Техника - молодежи», 1987]">
@@ -166,7 +166,9 @@
       </roles>
       <example name="receive an injury" src="">
         <text>800 человек получили ранения</text>
-        <propbank/>
+        <propbank>
+          <rel relloc="2">получили</rel>
+        </propbank>
       </example>
     </roleset>
   </predicate>

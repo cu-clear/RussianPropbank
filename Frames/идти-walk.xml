@@ -48,8 +48,40 @@
         </propbank>
       </example>
     </roleset>
-    <roleset id="идти.02" name="self-directed motion, physical movement"><aliases><alias pos="j">идущий</alias><alias pos="j">шедший</alias><alias pos="v">пойти</alias><alias pos="j">пошедший</alias></aliases><note>идти.01 NOTES: based on go.02 but has path as argument</note><note>Corresponds to Framebank sense 1,2,3,4,7,8,14,15,16</note><roles><role descr="goer" f="PAG" n="0"/><role descr="path" f="LOC" n="1"/><role descr="start point" f="DIR" n="2"/><role descr="destination" f="GOL" n="3"/></roles><example name="arg0" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3886"><text>Я иду , как мамонт .</text><propbank><arg type="ARG0" start="0" end="0">Я</arg><rel relloc="1">иду</rel><arg type="ARGM-MNR" start="3" end="4">как мамонт</arg></propbank></example><example name="arg0 and arg1" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3887"><text>если он шёл по улице и где - то раздавалась музыка , он должен был непременно прислушаться и объявить : " Ага , вот и товарищ Бах ! "</text><propbank><arg type="ARGM-DIS" start="0" end="0">если</arg><arg type="ARG0" start="1" end="1">он</arg><rel relloc="2">шёл</rel><arg type="ARG1" start="3" end="4">по улице</arg></propbank></example>&gt;
-	  <example name="inanimate goer" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3895"><text>В девять тридцать , -- сказала моя жена , -- идёт первый автобус .</text><propbank><arg type="ARGM-TMP" start="0" end="2">В девять тридцать</arg><rel relloc="10">идёт</rel><arg type="ARG0" start="11" end="12">первый автобус</arg></propbank></example>
+    <roleset id="идти.02" name="self-directed motion, physical movement">
+      <aliases>
+        <alias pos="j">идущий</alias>
+        <alias pos="j">шедший</alias>
+        <alias pos="v">пойти</alias>
+        <alias pos="j">пошедший</alias>
+      </aliases>
+      <note>идти.01 NOTES: based on go.02 but has path as argument</note>
+      <note>Corresponds to Framebank sense 1,2,3,4,7,8,14,15,16</note>
+      <roles>
+        <role descr="goer" f="PAG" n="0"/>
+        <role descr="path" f="LOC" n="1"/>
+        <role descr="start point" f="DIR" n="2"/>
+        <role descr="destination" f="GOL" n="3"/>
+      </roles>
+      <example name="arg0" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3886">
+        <text>Я иду , как мамонт .</text>
+        <propbank>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <rel relloc="1">иду</rel>
+          <arg type="ARGM-MNR" start="3" end="4">как мамонт</arg>
+        </propbank>
+      </example>
+      <example name="arg0 and arg1" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3887">
+        <text>если он шёл по улице и где - то раздавалась музыка , он должен был непременно прислушаться и объявить : " Ага , вот и товарищ Бах ! "</text>
+        <propbank>
+          <arg type="ARGM-DIS" start="0" end="0">если</arg>
+          <arg type="ARG0" start="1" end="1">он</arg>
+          <rel relloc="2">шёл</rel>
+          <arg type="ARG1" start="3" end="4">по улице</arg>
+        </propbank>
+      </example>
+      <example name="inanimate goer" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3895">
+        <text>В девять тридцать , -- сказала моя жена , -- идёт первый автобус .</text><propbank><arg type="ARGM-TMP" start="0" end="2">В девять тридцать</arg><rel relloc="10">идёт</rel><arg type="ARG0" start="11" end="12">первый автобус</arg></propbank></example>
     </roleset>
     <roleset id="идти.03" name="be happening">
       <aliases>

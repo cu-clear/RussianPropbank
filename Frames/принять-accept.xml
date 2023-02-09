@@ -57,7 +57,7 @@
       <example name="" src="">
         <text>Раньше в " Лана " принимали * pro * деток с 1,5 годика</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Лана</arg>
+          <arg type="ARG0" start="3" end="3">Лана</arg>
           <arg type="ARG1" start="?" end="?">*pro* деток с 1,5 годика</arg>
           <rel relloc="5">принимали</rel>
         </propbank>
@@ -166,8 +166,6 @@
   </predicate>
   <predicate lemma="приняться">
     <roleset id="приняться.07" name="undertake, tackle, start, begin">
-      <note>Corresponds to FrameBank sense </note>
-      <note>принять.05 NOTES: Roleset based on English verb frame tackle.01</note>
       <aliases>
         <alias pos="v">приниматься</alias>
       </aliases>
@@ -176,6 +174,8 @@
         <role descr="thing tackled" f="PPT" n="1"/>
         <role descr="means, strategy" f="MNR" n="2"/>
       </roles>
+      <note>Corresponds to FrameBank sense </note>
+      <note>принять.05 NOTES: Roleset based on English verb frame tackle.01</note>
       <example name="" src="Russian National Corpus[Александр Рыклин. Спор правительствующих субъектов (2003) // «Еженедельный журнал», 2003.03.24]">
         <text>" Премьер покритиковал , покритикованные сделали выводы и принялись за работу . " .</text>
         <propbank>

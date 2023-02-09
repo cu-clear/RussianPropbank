@@ -81,7 +81,7 @@
         <text>Стоить только сказать слово * улица * и моя собачка уже тут как тут .</text>
         <propbank>
           <rel relloc="0">Стоить</rel>
-          <arg type="ARGM-ADV" start="?" end="?">только</arg>
+          <arg type="ARGM-ADV" start="1" end="1">только</arg>
           <arg type="ARG1" start="?" end="?">сказать слово *улица*</arg>
         </propbank>
       </example>

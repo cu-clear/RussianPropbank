@@ -38,7 +38,7 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
           <rel relloc="6">находишь</rel>
-          <arg type="ARG1" start="?" end="?">время для отдыха</arg>
+          <arg type="ARG1" start="7" end="9">время для отдыха</arg>
         </propbank>
       </example>
       <example name="have something in common" src="Russian National Corpus. [коллективный. Форум: комментарии к фильму «Все будет хорошо» (2008-2011)]">

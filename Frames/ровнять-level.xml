@@ -1,32 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="сровнять">
-    <roleset id="сровнять.01" name="Word">
-      <aliases>
-        <alias pos="v">сровнять</alias>
-        <alias pos="й">сровнявший</alias>
-        <alias pos="j">сровненный</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	  <note>NOTES: based on English level.01</note>
-      <roles>
-        <role descr="cause, agent" f="PAG" n="0"/>
-        <role descr="thing becoming level" f="PPT" n="1"/>
-        <role descr="thing leveled with, ground" f="GOL" n="2"/>
-	  </roles>
-      <example name="ARG1, ARG2, and ARG3" src="inopressa.ru" type="">
-        <text> Бомбы НАТО сровняли с землей комплекс Баб аль-Азизия .</text>
-        <arg f="" n="0">Бомбы НАТО</arg>
-        <rel f="">сровняли</rel>
-	      <arg f="" n="1">комплекс Баб аль-Азизия</arg>
-        <arg f="" n="2">землей</arg>
-      </example>
-      <example name="Arg1 and Arg2" src="Source here" type="">
-        <text>Природа все сровняет .</text>
-        <arg f="" n="0">Природа</arg>
-        <rel f="">сровняет</rel>
-	      <arg f="" n="1">все</arg>
-      </example>
-	</roleset>
-  </predicate>
+    <predicate lemma="сровнять">
+        <roleset id="сровнять.01" name="Word">
+            <aliases>
+                <alias pos="v">сровнять</alias>
+                <alias pos="j">сровнявший</alias>
+                <alias pos="j">сровненный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English level.01</note>
+            <roles>
+                <role descr="cause, agent" f="PAG" n="0"/>
+                <role descr="thing becoming level" f="PPT" n="1"/>
+                <role descr="thing leveled with, ground" f="GOL" n="2"/>
+            </roles>
+            <example name="ARG1, ARG2, and ARG3" src="inopressa.ru">
+                <text> Бомбы НАТО сровняли с землей комплекс Баб аль-Азизия .</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="2">Бомбы НАТО</arg>
+                    <rel relloc="3">сровняли</rel>
+                    <arg type="ARG1" start="6" end="8">комплекс Баб аль-Азизия</arg>
+                    <arg type="ARG2" start="5" end="5">землей</arg>
+                </propbank>
+            </example>
+            <example name="Arg1 and Arg2" src="Source here">
+                <text>Природа все сровняет .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Природа</arg>
+                    <rel relloc="2">сровняет</rel>
+                    <arg type="ARG1" start="1" end="1">все</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

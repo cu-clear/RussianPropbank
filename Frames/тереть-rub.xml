@@ -38,10 +38,10 @@
         <text>Парень сидел в трусах , испуганно тер кулаком красное от стыда лицо</text>
         <propbank>
           <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
-          <arg type="ARGM-ADV" start="?" end="?">испуганно</arg>
+          <arg type="ARGM-ADV" start="5" end="5">испуганно</arg>
           <rel relloc="6">тер</rel>
-          <arg type="ARG2" start="?" end="?">кулаком</arg>
-          <arg type="ARG1" start="?" end="?">красное от стыда лицо</arg>
+          <arg type="ARG2" start="7" end="7">кулаком</arg>
+          <arg type="ARG1" start="8" end="11">красное от стыда лицо</arg>
         </propbank>
       </example>
       <example name="figurative - annoy" src="">
@@ -54,9 +54,9 @@
       <example name="figurative - reach into, search" src="">
         <text>Сначала в карманах трут , потом руками берут и суют в ухо .</text>
         <propbank>
-          <arg type="ARGM-TMP" start="?" end="?">Сначала</arg>
+          <arg type="ARGM-TMP" start="0" end="0">Сначала</arg>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <arg type="ARGM-LOC" start="?" end="?">в карманах</arg>
+          <arg type="ARGM-LOC" start="1" end="2">в карманах</arg>
           <rel relloc="3">трут</rel>
         </propbank>
       </example>
@@ -165,7 +165,7 @@
         <text>В гости потёрли ?</text>
         <propbank>
           <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <arg type="ARG1" start="?" end="?">В гости</arg>
+          <arg type="ARG1" start="0" end="1">В гости</arg>
           <rel relloc="2">потёрли</rel>
         </propbank>
       </example>

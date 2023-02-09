@@ -85,18 +85,15 @@
         <text>Софье Андреевне казалось просто оскорбительным , что ее любовник не кажет глаз и не является просить прощения и благословения даже накануне ее ― тут она резко поворачивалась на живот ― безвременной кончины .</text>
         <propbank>
           <arg type="ARG1" start="7" end="8">ее любовник</arg>
-          <arg type="ARGM-NEG" start="?" end="?">не</arg>
-          <rel relloc="?">кажет</rel>
-          <rel relloc="?">глаз</rel>
+          <arg type="ARGM-NEG" start="9" end="9">не</arg>
+          <rel relloc="10 11">кажет глаз</rel>
         </propbank>
       </example>
       <example name="perfective reflexive, all args" src="Russian National Corpus. [Валентин Иванов. Свободу олигархам! (2003) // Интернет-альманах «Лебедь», 2003.12.14]">
         <text>Он показался на глазах аудитории , включая Путина , без галстука .</text>
         <propbank>
           <arg type="ARG1" start="0" end="0">Он</arg>
-          <rel relloc="?">показался</rel>
-          <rel relloc="?">на</rel>
-          <rel relloc="?">глазах</rel>
+          <rel relloc="1 2 3">показался на глазах</rel>
           <arg type="ARG2" start="4" end="7">аудитории , включая Путина</arg>
           <arg type="ARGM-PRD" start="9" end="10">без галстука</arg>
         </propbank>
@@ -104,10 +101,8 @@
       <example name="perfective reflexive, dative arg2" src="Russian National Corpus. [Ирина Краева. Тим и Дан, или Тайна «Разбитой коленки»: сказочная повесть (2007)]">
         <text>Как они осмелились показаться вам на глаза ?</text>
         <propbank>
-          <rel relloc="?">показаться</rel>
           <arg type="ARG2" start="4" end="4">вам</arg>
-          <rel relloc="?">на</rel>
-          <rel relloc="?">глаза</rel>
+          <rel relloc="3 5 6">показаться на глаза</rel>
         </propbank>
       </example>
     </roleset>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="смешить">
     <roleset id="смешить.01" name="To make laugh, to amuse.">
@@ -11,15 +10,15 @@
       <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
       <note>NOTES: based on English amuse.01</note>
       <roles>
-        <role descr="causer of mirth" f="PAG" n="0"/>
-        <role descr="mirthful entity" f="PPT" n="1"/>
-        <role descr="instrument" f="MNR" n="2"/>
+        <role descr="causer of mirth" f="PAG" n="0" />
+        <role descr="mirthful entity" f="PPT" n="1" />
+        <role descr="instrument" f="MNR" n="2" />
       </roles>
       <example name="ARG0 and 1" src="short-story.ru">
         <text>Они рассмешили даже мать мою .</text>
         <propbank>
           <arg type="ARG0" start="0" end="0">Они</arg>
-          <rel relloc="?">рассмешили</rel>
+          <rel relloc="1">рассмешили</rel>
           <arg type="ARG1" start="3" end="3">мать</arg>
         </propbank>
       </example>
@@ -27,7 +26,7 @@
         <text>... копался в памяти ― искал , какой бы еще историей рассмешить Клару или заставить вздохнуть испуганно.</text>
         <propbank>
           <arg type="ARG2" start="10" end="10">историей</arg>
-          <rel relloc="?">рассмешить</rel>
+          <rel relloc="11">рассмешить</rel>
           <arg type="ARG1" start="12" end="12">Клару</arg>
         </propbank>
       </example>

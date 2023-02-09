@@ -12,7 +12,7 @@
       <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
       <note>NOTES: based on English visit.01</note>
       <roles>
-        <role descr="Visitor" f="PAT" n="0"/>
+        <role descr="Visitor" f="PAG" n="0"/>
         <role descr="Visited" f="COM" n="1"/>
       </roles>
       <example name="Arg1 and Arg2" src="rodgor.ru">

@@ -118,8 +118,7 @@
         <text>Да не , я имела ввиду не отражение Ваших проблем , а отражение ВАШЕГО ОТНОШЕНИЯ К НЕЙ .</text>
         <propbank>
           <arg type="ARG0" start="3" end="3">я</arg>
-          <rel relloc="?">имела</rel>
-          <rel relloc="?">ввиду</rel>
+          <rel relloc="4 5">имела ввиду</rel>
           <arg type="ARG1" start="6" end="16">не отражение Ваших проблем , а отражение ВАШЕГО ОТНОШЕНИЯ К НЕЙ</arg>
         </propbank>
       </example>
@@ -146,8 +145,7 @@
         <text>По одной из гипотез , в ходе глубоких землетрясений имеет место фазовый переход между минералами в земной коре .</text>
         <propbank>
           <arg type="ARG1" start="5" end="8">в ходе глубоких землетрясений</arg>
-          <rel relloc="?">имеет</rel>
-          <rel relloc="?">место</rel>
+          <rel relloc="9 10">имеет место</rel>
           <arg type="ARG0" start="11" end="17">фазовый переход между минералами в земной коре</arg>
         </propbank>
       </example>
@@ -174,10 +172,9 @@
         <text>Для начала пойду к гинекологу ( последний раз имела с ними дело в роддоме ) .</text>
         <propbank>
           <arg type="ARGM-TMP" start="6" end="7">последний раз</arg>
-          <rel relloc="?">имела</rel>
+          <rel relloc="8 11">имела дело</rel>
           <arg type="ARG1" start="9" end="10">с ними</arg>
-          <rel relloc="?">дело</rel>
-          <arg type="ARGM-LOC" start="?" end="?">в роддом</arg>
+          <arg type="ARGM-LOC" start="12" end="13">в роддоме</arg>
         </propbank>
       </example>
     </roleset>
@@ -203,8 +200,7 @@
         <propbank>
           <arg type="ARGM-ADV" start="6" end="6">поскольку</arg>
           <arg type="ARGM-LOC" start="7" end="7">везде</arg>
-          <rel relloc="?">имел</rel>
-          <rel relloc="?">руку</rel>
+          <rel relloc="8 9">имел руку</rel>
         </propbank>
       </example>
     </roleset>
