@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
     <predicate lemma="Слово">
@@ -20,17 +21,17 @@
             <example name="ARG0 and ARG2" src="RNC, И. С. Соколов-Микитов. Муравьи (1923-1928)">
                 <text>Вечером мы возвращались с охоты.</text>
                 <propbank>
-                    <arg type="ARG0" start="?" end="?">мы</arg>
+                    <arg type="ARG0" start="1" end="1">мы</arg>
                     <rel relloc="?">возвращались</rel>
                     <arg type="ARG2" start="?" end="?">с охоты</arg>
                 </propbank>
             </example>
-            <example name="ARG0, ARG3, and ARGM-LOC" src="RNC, 	Масальский К. Стрельцы. Исторический роман. М., «Новая книга», 1996.">
+            <example name="ARG0, ARG3, and ARGM-LOC" src="RNC,  Масальский К. Стрельцы. Исторический роман. М., «Новая книга», 1996.">
                 <text>Солнце давно уже закатилось, когда Бурмистров возвращался домой по опустевшим улицам.</text>
                 <propbank>
-                    <arg type="ARG0" start="?" end="?">Бурмистров</arg>
+                    <arg type="ARG0" start="5" end="5">Бурмистров</arg>
                     <rel relloc="?">возвращался</rel>
-                    <arg type="ARG3" start="?" end="?">домой</arg>
+                    <arg type="ARG3" start="7" end="7">домой</arg>
                     <arg type="ARGM-LOC" start="?" end="?">по опустевшим улицам</arg>
                 </propbank>
             </example>

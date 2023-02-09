@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
     <predicate lemma="звонить">
@@ -14,26 +15,26 @@
                 <role descr="Entity summoned" f="PPT" n="1"/>
                 <role descr="Medium or phone used" f="MNR" n="2"/>
             </roles>
-            <example name="ARG1, 2, and 3" src="ingalatory.ru" >
+            <example name="ARG1, 2, and 3" src="ingalatory.ru">
                 <text>Ирина , Вы можете позвонить нам по телефону ...</text>
                 <propbank>
-                    <arg type="ARG0" start="?" end="?">Вы</arg>
+                    <arg type="ARG0" start="2" end="2">Вы</arg>
                     <rel relloc="?">позвонить</rel>
-                    <arg type="ARG1" start="?" end="?">нам</arg>
-                    <arg type="ARG2" start="?" end="?">телефону</arg>
+                    <arg type="ARG1" start="5" end="5">нам</arg>
+                    <arg type="ARG2" start="7" end="7">телефону</arg>
                 </propbank>
             </example>
             <example name="ARG0" src="wertblog.ru">
                 <text>Он еще много раз тогда звонил , а она не отвечала, раз звонил значит все в порядке .</text>
                 <propbank>
-                    <arg type="ARG1" start="?" end="?">Он</arg>
+                    <arg type="ARG1" start="0" end="0">Он</arg>
                     <rel relloc="?">звонил</rel></propbank>
             </example>
             <example name="ARG1" src="up74.ru">
                 <text>На днях позвонил двоюродный брат .</text>
                 <propbank>
                     <rel relloc="?">позвонил</rel>
-                    <arg type="ARG1" start="?" end="?">брат</arg>
+                    <arg type="ARG1" start="4" end="4">брат</arg>
                 </propbank>
             </example>
         </roleset>

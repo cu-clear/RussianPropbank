@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
     <predicate lemma="Ужинать">
@@ -22,7 +23,7 @@
             <example name="Arg1 and Arg2" src="luncher.ru">
                 <text> Однажды мне довелось попасть сюда на завтрак и поесть любимую кашу , в другой раз я ужинал «Цезарем» и сосисками на гриле .</text>
                 <propbank>
-                    <arg type="ARG0" start="?" end="?">я</arg>
+                    <arg type="ARG0" start="16" end="16">я</arg>
                     <rel relloc="?">« Цезарем » и сосисками на гриле</rel>
                 </propbank>
             </example>

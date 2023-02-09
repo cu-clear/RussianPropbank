@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
     <predicate lemma="врезываться">
@@ -18,9 +19,9 @@
             <example name="ARG0 and 1" src="RNC, Слаповский А. День денег. -- М.: Вагриус, 2000">
                 <text>Возможно , они врежутся в столб и оба погибнут .</text>
                 <propbank>
-                    <arg type="ARG0" start="?" end="?">они</arg>
+                    <arg type="ARG0" start="2" end="2">они</arg>
                     <rel relloc="?">врежутся</rel>
-                    <arg type="ARG1" start="?" end="?">столб</arg>
+                    <arg type="ARG1" start="5" end="5">столб</arg>
                 </propbank>
             </example>
         </roleset>

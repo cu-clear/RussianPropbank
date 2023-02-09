@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
     <predicate lemma="искажать">
@@ -17,16 +18,16 @@
             <example name="ARG0 only" src="RNC, Ф. М. Достоевский. Братья Карамазовы (1880)">
                 <text> Но он не искажал и не уменьшал .</text>
                 <propbank>
-                    <arg type="ARG0" start="?" end="?">он</arg>
+                    <arg type="ARG0" start="2" end="2">он</arg>
                     <rel relloc="?">искажал</rel>
                 </propbank>
             </example>
             <example name="ARG0 and ARG1" src="RNC, ">
                 <text> Каждое волнение радости и горя искажает отражение .</text>
                 <propbank>
-                    <arg type="ARG0" start="?" end="?">Каждое волнение радости и горя</arg>
+                    <arg type="ARG0" start="1" end="5">Каждое волнение радости и горя</arg>
                     <rel relloc="?">искажает</rel>
-                    <arg type="ARG1" start="?" end="?">отражение</arg>
+                    <arg type="ARG1" start="7" end="7">отражение</arg>
                 </propbank>
             </example>
         </roleset>

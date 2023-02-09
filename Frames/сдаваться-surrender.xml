@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
     <predicate lemma="сдаваться">
@@ -24,9 +25,9 @@
             <example name="ARG0 and ARG1" src="RNC, Виктор Шереметьев. Путешествие в «забытый край» // «Дальний Восток», 2019">
                 <text> Он в тридцатых годах сдался властям и покончил с собой в КПЗ поселка Певек .</text>
                 <propbank>
-                    <arg type="ARG0" start="?" end="?">Он</arg>
+                    <arg type="ARG0" start="1" end="1">Он</arg>
                     <rel relloc="?">сдался</rel>
-                    <arg type="ARG1" start="?" end="?">властям</arg>
+                    <arg type="ARG1" start="6" end="6">властям</arg>
                 </propbank>
             </example>
         </roleset>

@@ -51,21 +51,18 @@
       <example name="" src="">
         <text>Уходить из компании .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">?</arg>
           <rel relloc="0">Уходить</rel>
         </propbank>
       </example>
       <example name="" src="">
         <text>Уходить от жены .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">?</arg>
           <rel relloc="0">Уходить</rel>
         </propbank>
       </example>
       <example name="" src="">
         <text>Уходить от дел .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">?</arg>
           <rel relloc="0">Уходить</rel>
         </propbank>
       </example>

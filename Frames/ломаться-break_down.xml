@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
     <predicate lemma="Ломаться">
@@ -18,16 +19,16 @@
             <example name="ARG1 only" src="RNC, Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001">
                 <text> У ребенка жизнь ломается ― им хоть бы хны !</text>
                 <propbank>
-                    <arg type="ARG1" start="?" end="?">жизнь</arg>
+                    <arg type="ARG1" start="3" end="3">жизнь</arg>
                     <rel relloc="?">ломается</rel>
                 </propbank>
             </example>
             <example name="ARG1 and ARG0" src="RNC, Фазиль Искандер. Сандро из Чегема (Книга 3) (1989)">
                 <text> Наконец даже палка , как показалось Широколобому, сломалась от стыда .</text>
                 <propbank>
-                    <arg type="ARG1" start="?" end="?">палка</arg>
+                    <arg type="ARG1" start="3" end="3">палка</arg>
                     <rel relloc="?">сломалась</rel>
-                    <arg type="ARG0" start="?" end="?">от стыда</arg>
+                    <arg type="ARG0" start="9" end="10">от стыда</arg>
                 </propbank>
             </example>
         </roleset>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
     <predicate lemma="спать">
@@ -18,7 +19,7 @@
             <example name="ARG0 only" src="RNC, Алексей Иванов. Сердце Пармы (2000)">
                 <text>Воины хакана тоже спали в отведённых им гостевых керку .</text>
                 <propbank>
-                    <arg type="ARG0" start="?" end="?">Воины хакана</arg>
+                    <arg type="ARG0" start="0" end="1">Воины хакана</arg>
                     <rel relloc="?">спали</rel>
                 </propbank>
             </example>
@@ -26,15 +27,15 @@
                 <text> С трудом заснул , спал мало и худо .</text>
                 <propbank>
                     <rel relloc="?">спал</rel>
-                    <arg type="ARG1" start="?" end="?">мало и худо</arg>
+                    <arg type="ARG1" start="6" end="8">мало и худо</arg>
                 </propbank>
             </example>
             <example name="Arg0 and ARG2" src="RNC, С. Д. Грамматин. Дневник (1952)">
                 <text>... а я спал до 10 утра .</text>
                 <propbank>
-                    <arg type="ARG0" start="?" end="?">я</arg>
+                    <arg type="ARG0" start="2" end="2">я</arg>
                     <rel relloc="?">спал</rel>
-                    <arg type="ARG1" start="?" end="?">до 10 утра</arg>
+                    <arg type="ARG1" start="4" end="6">до 10 утра</arg>
                 </propbank>
             </example>
         </roleset>
