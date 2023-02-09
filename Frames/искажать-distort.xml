@@ -1,30 +1,34 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Искажать">
-    <roleset id="искажать.01" name="distort, disfigure">
-      <aliases>
-        <alias framenet="" pos="v" verbnet="">искажать</alias>
-        <alias framenet="" pos="v" verbnet="">исказить</alias>
-        <alias framenet="" pos="j" verbnet="">искажающий</alias>
-        <alias framenet="" pos="j" verbnet="">искажённый</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English distort.01</note>
-      <roles>
-        <role descr="Alterer, agent" f="PAG" n="0"/>
-        <role descr="Thing distorted" f="PPT" n="1"/>
-	    </roles>
-      <example name="ARG0 only" src="RNC, Ф. М. Достоевский. Братья Карамазовы (1880)" type="">
-        <text> Но он не искажал и не уменьшал .</text>
-        <arg f="" n="0">он</arg>
-        <rel f="">искажал</rel>
-      </example>
-      <example name="ARG0 and ARG1" src="RNC, " type="">
-        <text> Каждое волнение радости и горя искажает отражение .</text>
-        <arg f="" n="0">Каждое волнение радости и горя</arg>
-        <rel f="">искажает</rel>
-	      <arg f="" n="1">отражение</arg>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="искажать">
+        <roleset id="искажать.01" name="distort, disfigure">
+            <aliases>
+                <alias pos="v">искажать</alias>
+                <alias pos="v">исказить</alias>
+                <alias pos="j">искажающий</alias>
+                <alias pos="j">искажённый</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English distort.01</note>
+            <roles>
+                <role descr="Alterer, agent" f="PAG" n="0"/>
+                <role descr="Thing distorted" f="PPT" n="1"/>
+            </roles>
+            <example name="ARG0 only" src="RNC, Ф. М. Достоевский. Братья Карамазовы (1880)">
+                <text> Но он не искажал и не уменьшал .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">он</arg>
+                    <rel relloc="?">искажал</rel>
+                </propbank>
+            </example>
+            <example name="ARG0 and ARG1" src="RNC, ">
+                <text> Каждое волнение радости и горя искажает отражение .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">Каждое волнение радости и горя</arg>
+                    <rel relloc="?">искажает</rel>
+                    <arg type="ARG1" start="?" end="?">отражение</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

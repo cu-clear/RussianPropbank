@@ -1,36 +1,42 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Спать">
-    <roleset id="спать.01" name="sleep">
-      <aliases>
-        <alias framenet="" pos="v" verbnet="">спать</alias>
-        <alias framenet="" pos="v" verbnet="">поспать</alias>
-        <alias framenet="" pos="j" verbnet="">спящий</alias>
-        <alias framenet="" pos="j" verbnet="">поспавший</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English sleep.01</note>
-      <roles>
-        <role descr="Sleeper" f="PAG" n="0"/>
-        <role descr="cognate object" f="PPT" n="1"/>
-        <role descr="expected terminus of sleep" f="TMP" n="2"/>
-	    </roles>
-      <example name="ARG0 only" src="RNC, Алексей Иванов. Сердце Пармы (2000)" type="">
-        <text>Воины хакана тоже спали в отведённых им гостевых керку .</text>
-        <arg f="" n="0">Воины хакана</arg>
-        <rel f="">спали</rel>
-      </example>
-      <example name="ARG1, ARG0 is implied 1st person." src="RNC, И. П. Ювачев. Дневник (1894)" type="">
-        <text> С трудом заснул , спал мало и худо .</text>
-        <rel f="">спал</rel>
-	      <arg f="" n="1">мало и худо</arg>
-      </example>
-      <example name="Arg0 and ARG2" src="RNC, С. Д. Грамматин. Дневник (1952)" type="">
-        <text>... а я спал до 10 утра .</text>
-        <arg f="" n="0">я</arg>
-        <rel f="">спал</rel>
-	      <arg f="" n="1">до 10 утра</arg>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="спать">
+        <roleset id="спать.01" name="sleep">
+            <aliases>
+                <alias pos="v">спать</alias>
+                <alias pos="v">поспать</alias>
+                <alias pos="j">спящий</alias>
+                <alias pos="j">поспавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English sleep.01</note>
+            <roles>
+                <role descr="Sleeper" f="PAG" n="0"/>
+                <role descr="cognate object" f="PPT" n="1"/>
+                <role descr="expected terminus of sleep" f="TMP" n="2"/>
+            </roles>
+            <example name="ARG0 only" src="RNC, Алексей Иванов. Сердце Пармы (2000)">
+                <text>Воины хакана тоже спали в отведённых им гостевых керку .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">Воины хакана</arg>
+                    <rel relloc="?">спали</rel>
+                </propbank>
+            </example>
+            <example name="ARG1, ARG0 is implied 1st person." src="RNC, И. П. Ювачев. Дневник (1894)">
+                <text> С трудом заснул , спал мало и худо .</text>
+                <propbank>
+                    <rel relloc="?">спал</rel>
+                    <arg type="ARG1" start="?" end="?">мало и худо</arg>
+                </propbank>
+            </example>
+            <example name="Arg0 and ARG2" src="RNC, С. Д. Грамматин. Дневник (1952)">
+                <text>... а я спал до 10 утра .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">я</arg>
+                    <rel relloc="?">спал</rel>
+                    <arg type="ARG1" start="?" end="?">до 10 утра</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

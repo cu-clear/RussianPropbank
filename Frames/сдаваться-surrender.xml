@@ -1,29 +1,34 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Сдаваться">
-    <roleset id="сдаваться.01" name="Surrender, give up">
-      <aliases>
-        <alias framenet="" pos="v" verbnet="">сдаваться</alias>
-        <alias framenet="" pos="v" verbnet="">сдаться</alias>
-        <alias framenet="" pos="j" verbnet="">сдающийся</alias>
-        <alias framenet="" pos="j" verbnet="">сдавшийся</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English surrender.01</note>
-      <roles>
-        <role descr="One surrendering" f="PAG" n="0"/>
-        <role descr="Opponent to which one surrenders, victor" f="PPT" n="1"/>
-	    </roles>
-      <example name="ARG0" src="RNC, Война (09.03.1915) // «Русское слово», 1915" type="">
-        <text> Один батальон из ее состава сдался полностью .</text>
-        <arg f="" n="0">SОдин батальон из ее состава</arg>
-        <rel f="">сдался</rel>
-        <example name="ARG0 and ARG1" src="RNC, Виктор Шереметьев. Путешествие в «забытый край» // «Дальний Восток», 2019" type="">
-        <text> Он в тридцатых годах сдался властям и покончил с собой в КПЗ поселка Певек .</text>
-        <arg f="" n="0">Он</arg>
-        <rel f="">сдался</rel>
-	      <arg f="" n="1">властям</arg>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="сдаваться">
+        <roleset id="сдаваться.01" name="Surrender, give up">
+            <aliases>
+                <alias pos="v">сдаваться</alias>
+                <alias pos="v">сдаться</alias>
+                <alias pos="j">сдающийся</alias>
+                <alias pos="j">сдавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English surrender.01</note>
+            <roles>
+                <role descr="One surrendering" f="PAG" n="0"/>
+                <role descr="Opponent to which one surrenders, victor" f="PPT" n="1"/>
+            </roles>
+            <example name="ARG0" src="RNC, Война (09.03.1915) // «Русское слово», 1915">
+                <text> Один батальон из ее состава сдался полностью .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">SОдин батальон из ее состава</arg>
+                    <rel relloc="?">сдался</rel>
+                </propbank>
+            </example>
+            <example name="ARG0 and ARG1" src="RNC, Виктор Шереметьев. Путешествие в «забытый край» // «Дальний Восток», 2019">
+                <text> Он в тридцатых годах сдался властям и покончил с собой в КПЗ поселка Певек .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">Он</arg>
+                    <rel relloc="?">сдался</rel>
+                    <arg type="ARG1" start="?" end="?">властям</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>
