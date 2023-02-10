@@ -107,7 +107,7 @@
       <example name="" src="">
         <text>Не пытай старого , а пытай бывалого .</text>
         <propbank>
-          <rel relloc="?"/>
+          <rel relloc="1">пытай</rel>
         </propbank>
       </example>
     </roleset>

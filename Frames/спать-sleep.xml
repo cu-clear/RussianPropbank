@@ -24,7 +24,7 @@
                 </propbank>
             </example>
             <example name="ARG1, ARG0 is implied 1st person." src="RNC, И. П. Ювачев. Дневник (1894)">
-                <text> С трудом заснул , спал мало и худо .</text>
+                <text>С трудом заснул , спал мало и худо .</text>
                 <propbank>
                     <rel relloc="4">спал</rel>
                     <arg type="ARG1" start="6" end="8">мало и худо</arg>

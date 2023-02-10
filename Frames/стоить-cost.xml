@@ -82,7 +82,7 @@
         <propbank>
           <rel relloc="0">Стоить</rel>
           <arg type="ARGM-ADV" start="1" end="1">только</arg>
-          <arg type="ARG1" start="?" end="?">сказать слово *улица*</arg>
+          <arg type="ARG1" start="2" end="6">сказать слово * улица *</arg>
         </propbank>
       </example>
     </roleset>

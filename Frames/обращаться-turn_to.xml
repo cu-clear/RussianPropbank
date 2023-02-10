@@ -168,7 +168,6 @@
       <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращать">
         <text>Туземцев обратили в христианство</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Все</arg>
           <arg type="ARG3" start="0" end="0">Туземцев</arg>
           <arg type="ARG2" start="3" end="3">христианство</arg>
           <rel relloc="1">обратили</rel>
