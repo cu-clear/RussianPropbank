@@ -16,7 +16,6 @@
         <role descr="corpse" f="PPT" n="1"/>
         <role descr="instrument" f="MNR" n="2"/>
       </roles>
-      <note/>
       <example name="killed by" src="Russian National Corpus: Алла Глебова, «Матрёшка Ханны Шигуллы» // «Домовой», 04 августа 2002 г. RNC">
         <text>Фассбиндера убила гремучая смесь кокаина , барбитуратов и алкоголя , а также непрерывная работа на износ .</text>
         <propbank>

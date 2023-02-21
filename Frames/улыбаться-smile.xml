@@ -13,7 +13,6 @@
         <role descr="knower, person with an ability/skill" f="PAG" n="0"/>
         <role descr="ability or skill" f="PPT" n="1"/>
       </roles>
-      <note/>
       <example name="smile" src="Oksana Melnyk">
         <text>Большинство коллег умели хорошо одеваться .</text>
         <propbank>

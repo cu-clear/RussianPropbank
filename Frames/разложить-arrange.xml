@@ -105,7 +105,6 @@
       <roles>
         <note>Russian Arg0-PAG has not match in English frame</note>
         <note>Russian Arg2-PRD has not match in English frame</note>
-        <note/>
         <role descr="breaker" f="PAG" n="0">
         </role>
         <role descr="thing in pieces" f="PPT" n="1">

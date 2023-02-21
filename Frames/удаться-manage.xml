@@ -13,7 +13,6 @@
         <role descr="manager" f="PAG" n="0"/>
         <role descr="deed accomplished" f="PPT" n="1"/>
       </roles>
-      <note/>
       <example name="succeed" src="http://marker.framebank.ru/verbs_cx.php?lex=удаться&amp;cxid=10746">
         <text>Репетиция золотого матча у них удалась .</text>
         <propbank>
