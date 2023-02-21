@@ -199,9 +199,7 @@ resource CDATA #REQUIRED
 <!ATTLIST lexlink
   resource CDATA #REQUIRED
   version CDATA #REQUIRED
-    class  CDATA #REQUIRED
-        confidence  CDATA #REQUIRED
-            src  CDATA #REQUIRED>
+    class  CDATA #REQUIRED>
 <!--
   examples may contain inflectional information and notes notes
   After that, they contain the text of an example followed by
