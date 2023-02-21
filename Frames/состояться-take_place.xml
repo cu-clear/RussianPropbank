@@ -13,7 +13,6 @@
         <role descr="thing occurring" f="PPT" n="1"/>
         <role descr="fixed place" f="LOC" n="2"/>
       </roles>
-      <note/>
       <example name="descend" src="Russian National Corpus[Сати Спивакова. Не всё (2002)] ">
         <text>На прошлой неделе в актовом зале состоялось награждение лауреатов конкурса .</text>
         <propbank>
