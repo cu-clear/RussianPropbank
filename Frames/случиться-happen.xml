@@ -12,6 +12,9 @@
         <role descr="event" f="PPT" n="1"/>
         <role descr="benefactive" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="happen.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Russian National Corpus[Евгений Гришковец. ОдноврЕмЕнно (2004)]">
         <text>Папа , что это с тётей случилось ?</text>
         <propbank>
@@ -38,6 +41,9 @@
       <roles>
         <role descr="thing found " f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="find.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>NOTES: English Arg0-PAG has no match in Russian frame</note>
       <example name="" src="Russian National Corpus[М. В. Сушков. Российский Вертер (1801)]">
         <text>Однако ж не огорчайся много моею участию , но ты рассудителен , и слова сии будут излишни ; а ежели когда - нибудь ты случишься в подобном положении , то последуй за мною .</text>
@@ -69,6 +75,9 @@
         <role descr="first party (or all parties)" f="PAG" n="1"/>
         <role descr="second party" f="COM" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="mate.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="[Алексей Варламов. Купавна // «Новый Мир», 2000]">
         <text>Однажды кошку случили с громадным сиамским котом , и у неё родилось беленькое потомство .</text>
         <propbank>

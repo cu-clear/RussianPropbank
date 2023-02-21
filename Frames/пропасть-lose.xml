@@ -15,6 +15,9 @@
       <roles>
         <role descr="the disappeared" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="disappear.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg0-PAG has no match in Russian frame.</note>
       <example name="all args" src="">
         <text>В Бразилии десятки человек пропали без вести в затопленном ядовитыми отходами районе . Две дамбы , сдерживавшие воду с отходами металлургической промышленности , рухнули 5 ноября .</text>
@@ -60,6 +63,9 @@
         <role descr="unaware entity" f="GOL" n="2">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="lose.07" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Russian National Corpus. [Юрий Давыдов. Синие тюльпаны (1988-1989)]">
         <text>Подполковник ( да - да , уже подполковник ) Германн хотел , чтобы эта история , сохранившись в роду , как предания у эскимосов , свидетельствовала о том , что за царём служба не пропадёт .</text>
         <propbank>
@@ -96,6 +102,9 @@
         <role descr="damner, God" f="PAG" n="0"/>
         <role descr="damned" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="damn.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="пропасть_пропадом" src="Russian National Corpus. [Виктор Астафьев. Последний поклон (1968-1991)]">
         <text>Пропади пропадом эти переметы , гальяны , налимы , Енисей и дед вместе с ними !</text>
         <propbank>

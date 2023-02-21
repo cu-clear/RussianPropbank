@@ -31,6 +31,9 @@
         <role descr="start point" f="DIR" n="3"/>
         <role descr="end point" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="lead.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="top candidate" src="">
         <text>В качестве ведущих кандидатов на пост президента его страны в следующем году выборов , Марио Варгас как неизменяющиеся часто отражают реакционные политические стратегии должны быть в завидном положении .</text>
         <propbank>
@@ -69,6 +72,9 @@
         <role descr="guided to/in/through" f="LOC" n="2"/>
         <role descr="manner of guiding, e.g. под руку" f="MNR" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="guide.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1 and arg2" src="Russian National Corpus. [В. П. Катаев. Алмазный мой венец (1975-1977)]">
         <text>― Тогда ладно , ― сказал королевич , ― не хочешь вести меня к Командору , так веди меня к его соратнику , а уж он меня наверняка подружит с самим .</text>
         <propbank>
@@ -129,6 +135,9 @@
         <role descr="driver" f="PAG" n="0"/>
         <role descr="vehicle or path" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="drive.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="drive a car" src="">
         <text>У нас у знакомых так девушку " развели на деньги " за то , что она вела машину в туфлях на каблуке .</text>
         <propbank>
@@ -159,6 +168,9 @@
         <role descr="entity led" f="PPT" n="1"/>
         <role descr="proposition" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="lead.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1" src="">
         <text>На небольших четырех комнате дома Элиас минстр здравоохранения ЮАР , ведущим АНК юнионистов и бывший командир группы вооруженного крыла , Умконто ве Сизве доброжелателей и заклинило в открытом положении мало АНК флаги в их волосы и мужчина tooted на звуковой сигнал антилоп завернутые в АНК ленточек .</text>
         <propbank>
@@ -208,6 +220,9 @@
         <role descr="entity being moved" f="PPT" n="1"/>
         <role descr="path/ underspecified location" f="LOC" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="walk.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="move eyes along lines" src="Russian National Corpus.  [В. Т. Шаламов. Колымские рассказы (1954-1961)]">
         <text>Строчки прыгают перед глазами , когда я вслушиваюсь в радиопередачу , хотя автоматизм чтения сохраняется , я веду глазами по строчкам , и вдруг обнаруживается , что из только что прочитанного я не помню ничего .</text>
         <propbank>
@@ -250,6 +265,9 @@
         <role descr="destination, result, action or attribute on arg1" f="GOL" n="2"/>
         <role descr="source" f="DIR" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="lead.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1 and arg2" src="">
         <text>Пограничная полиция и спасатели Аргентины убирают покрытые пеплом деревья из реки , ведущей к озеру во избежании затора воды в Вилла Ла Ангостура , южная Аргентина .</text>
         <propbank>
@@ -301,6 +319,9 @@
         <role descr="indicator of emotion or attention" f="MNR" n="2">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="move.05" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="бровью не ведёт" src="Russian National Corpus. [Булат Окуджава. Новенький как с иголочки (1962)]">
         <text>А Саша Абношкин , как самый неумолимый судья , и бровью не ведёт .</text>
         <propbank>
@@ -337,6 +358,9 @@
         </role>
         <role descr="misguided actions" f="PPT" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="misguide.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="influenced by other's opinion" src="Russian National Corpus">
         <text>Думал , что выиграю при любых раскладах . Повелся на мнение людей , которые думали так же</text>
         <propbank>
@@ -382,6 +406,9 @@
         <role descr="manner" f="PRD" n="1">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="behave.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="">
         <text>- Один из мужчин – тот , который подозревается в убийстве , вел себя агрессивно , поэтому медикам ничего не оставалось , как привязать буйного пациента к кровати , – говорит Александр Владимирович .</text>
         <propbank>

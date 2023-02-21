@@ -25,6 +25,9 @@
         <role descr="conduit of the feeling" f="SRC" n="2"/>
         <role descr="attribute of emotion or sensation (if different from arg1)" f="PRD" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="feel.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="feel bad, reflexive arg1" src="">
         <text>Я плохо себя чувствую .</text>
         <propbank>

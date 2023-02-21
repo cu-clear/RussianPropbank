@@ -13,6 +13,9 @@
         <role descr="thing seeming" f="PPT" n="0"/>
         <role descr="attribute" f="PRD" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="turn_out.11" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg0" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
         <text>Увы , но этот блог оказался не очень интересным , умные мальчики разговоры закончили , а обеспокоенным девушкам наши глубочайшие извинения .</text>
         <propbank>
@@ -46,6 +49,9 @@
         <role descr="thing appearing" f="PPT" n="1"/>
         <role descr="where appearing" f="LOC" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="turn_up.15" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>оказаться.02 NOTES: Roleset based on English verb frame turn_up.15</note>
       <note>Corresponds to FrameBank senses 1, 3</note>
       <note>Russian Arg2-LOC has no match in English frame</note>
@@ -79,6 +85,9 @@
         <role descr="thing demonstrated" f="PPT" n="1"/>
         <role descr="watcher" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="demonstrate.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="https://ru.wiktionary.org/wiki/оказывать">
         <text>Старшим должны оказывать уважение .</text>
         <propbank>

@@ -29,6 +29,9 @@
         <role descr="instrument/equipment used to play game" f="MNR" n="2"/>
         <role descr="opponent, play against whom" f="COM" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="play.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="ARG0" src="">
         <text>Будем играть в несколько известных во всем мире игр .</text>
         <propbank>
@@ -123,6 +126,9 @@
         </role>
         <role descr="instrument or equipment on which the music is played" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="play.11" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="play a piece" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=3874">
         <text>Если ты " Аппассионату " играешь , то с этой музыкой как - нибудь справишься .</text>
         <propbank>
@@ -178,6 +184,9 @@
         <role descr="role/music/song/performance" f="PPT" n="1"/>
         <role descr="production/theater/performance, if different from arg1" f="LOC" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="play.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>Russian Arg2-LOC has no match in English frame</note>
       <example name="arg0 actor" src="">
         <text>Там , кажется , играет Франко Неро ?</text>
@@ -262,6 +271,9 @@
         <role descr="thing held - wedding" f="PPT" n="1"/>
         <role descr="with whom" f="COM" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="host.04" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="have a wedding" src="Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть">
         <text>Они сыграли свадьбу в июле</text>
         <propbank>
@@ -305,6 +317,9 @@
         <role descr="thing factoring in, subject in active clauses" f="PAG" n="0"/>
         <role descr="thing being factored into" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="play.08" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="into the hands of enemies" src="Russian National Corpus. [Василий Гроссман. Жизнь и судьба, часть 3 (1960)]">
         <text>― Виктор Павлович , ― сказал он , ― надо вам сказать , что эта кампания англо - американцев прямо играет на руку фашистам .</text>
         <propbank>
@@ -333,6 +348,9 @@
       <roles>
         <role descr="the deceased" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="die.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg2-PRD has no match in Russian frame</note>
       <example name="die" src="Russian National Corpus. [Василий Катанян. Прикосновение к идолам (1998)]">
         <text>Шло время . Сталин сыграл в ящик . После XX съезда Тима ночью пересказывал закрытое письмо о Сталине ( только для партийных !</text>

@@ -16,6 +16,9 @@
                 <role descr="theme, thing in motion, 1st colliders or all colliders in one constituent" f="PPT" n="0"/>
                 <role descr="thing hit, 2nd collider where separate mention" f="PPT" n="1"/>
             </roles>
+            <lexlinks>
+                <lexlink class="collide.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG0 and 1" src="RNC, Слаповский А. День денег. -- М.: Вагриус, 2000">
                 <text>Возможно , они врежутся в столб и оба погибнут .</text>
                 <propbank>

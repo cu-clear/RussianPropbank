@@ -29,6 +29,9 @@
         <role descr="entity that is known ABOUT" f="PRD" n="2">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="know.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="">
         <text>Из всего интервью видно , что Обама даже не знает про Россию элементарных вещей ( а еще говорят Америка страна разведчиков и шпионов , блин ) .</text>
         <propbank>
@@ -86,6 +89,9 @@
         <role descr="entity arg0 is familiar with" f="PPT" n="1">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="know.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="know of" src="">
         <text>Ты знаешь кого - нибудь , кто не умеет читать и писать ?</text>
         <propbank>
@@ -139,6 +145,9 @@
         <role descr="ability or skill" f="PPT" n="1">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="know.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="know how" src="">
         <text>Я не знаю , как добиться этого .</text>
         <propbank>

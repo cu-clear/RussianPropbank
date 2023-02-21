@@ -13,6 +13,9 @@
         <role descr="focus" f="PPT" n="1"/>
         <role descr="ground" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="amount.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="without reflexive pronoun" src="Russian National Corpus[коллективный. Форум: Мужчина в школе (Взгляд на Мужчину в школе снаружи и изнутри) (2011)] ">
         <text>Высшую нравственную ценность представляет именно отличие каждого человека от других людей ( мужчин , женщин ) и их отличие от меня .</text>
         <propbank>
@@ -42,6 +45,9 @@
         <role descr="entity stood in for" f="PPT" n="1"/>
         <role descr="domain in which arg0 stands for arg1 " f="ADV" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="represent.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Russian National Corpus[Александр Гамаюн. Северокавказский приговор (2003) // «Завтра», 2003.08.06]">
         <text>В мирном Кремле готовятся к выборам , считают голоса на референдуме , предлагают Кадырову представлять страну в международных гуманитарных организациях .</text>
         <propbank>
@@ -64,6 +70,9 @@
         <role descr="thing described" f="PPT" n="1"/>
         <role descr="attribute" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="depict.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="with modal, try to seem" src="Татьяна Алеева, 1990 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Плохой человек никогда не сможет до конца представиться добрым .</text>
         <propbank>
@@ -105,6 +114,9 @@
         <role descr="given to" f="GOL" n="2"/>
         <role descr="secondary attribute of thing given" f="PRD" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="present.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="make a debut" src="Russian National Corpus [Мария Кувшинова. Алексей Мурадов и Сельма Хайек встретятся на «Сандэнсе» (2003) // «Известия», 2003.01.16]">
         <text>Другой актёр , Мэтт Диллон , также представит свой полнометражный режиссёрский дебют ― триллер " Город призраков " , в котором сыграли Жерар Депардье , Джеймс Каан и Наташа МакЭллон .</text>
         <propbank>
@@ -186,6 +198,9 @@
         <role descr="entity being introduced TO" f="GOL" n="2"/>
         <role descr="introduced as" f="PRD" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="introduce.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>Russian Arg3-PRD has no match in English frame</note>
       <example name="introduce someone else" src="Russian National Corpus [Р. М. Зотов. Два брата, или Москва в 1812 году. Часть II (1850)]">
         <text>Государыня позволила ему представить меня во время большого вечернего собрания .</text>
@@ -219,6 +234,9 @@
         <role descr="thing pictured" f="PPT" n="1"/>
         <role descr="imaginer (reflexive)" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="picture.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>Russian Arg2-GOL has no match in English frame</note>
       <example name="with reflexive pronoun" src="Russian National Corpus[коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)] .">
         <text>Да , есть объявления со строками « о предоставлении жилья » , но , по - моему , это все - таки не везде , а самое главное ― я не представляю себе это « жилье » .</text>
@@ -262,6 +280,9 @@
         <role descr="pretender" f="PAG" n="0"/>
         <role descr="premise" f="PRD" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="pretend.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>Russian ARG1-PRD == English Arg1-PPT</note>
       <example name="malingering" src="Russian National Corpus[А. П. Гайдар. Судьба барабанщика (1938)]">
         <text>Конечно , если только человек этот не такой тип , как злобный Яков , вся жизнь которого , вероятно , только в том и заключается , чтобы охать , ахать , представляться больным и тянуть у доверчивых пассажиров их вещи .</text>

@@ -31,6 +31,9 @@
         <role descr="benefactive" f="GOL" n="3"/>
         <role descr="end state" f="PRD" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="arrange.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="args 1 and 2" src="Russian National Corpus. [Запись LiveJournal (2004)]">
         <text>Делайте всё заново ― разложите карточки по алфавиту .</text>
         <propbank>
@@ -82,6 +85,9 @@
         </role>
         <role descr="thing now burning" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="ignite.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="Russian National Corpus. [Юрий Коваль. Сиротская зима (1980-1993)]">
         <text>Человек с яблоком в кармане редко раскладывал костёр ― и то на опушке или у реки , а в глубине - то леса кому нужен огонь ?</text>
         <propbank>
@@ -111,6 +117,9 @@
         </role>
         <role descr="resulting parts" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="fall_apart.09" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="active adjectival participle" src="Russian National Corpus. [Анна Маева. Дар на всю жизнь (1999) // «Здоровье», 1999.03.15]">
         <text>Это механический аппарат с живыми гепатоцитами ― рабочими клетками печени , разлагающими токсичные вещества до безвредных.― Но радикальное решение проблемы дефицита донорских органов ― пересадка органов от животных человеку , считает Валерий Иванович Шумаков .</text>
         <propbank>

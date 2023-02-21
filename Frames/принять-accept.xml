@@ -15,6 +15,9 @@
         <role descr="dir accepted from" f="DIR" n="2"/>
         <role descr="attribute, accepted as/for" f="PRD" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="accept.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="">
         <text>Вы принимаете кредитные карты ?</text>
         <propbank>
@@ -38,6 +41,9 @@
         <role descr="entity embraced" f="PPT" n="1"/>
         <role descr="embraced as" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="embrace.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="">
         <text>Наш корреспондент Семён Ерёмин проследил хронологию тех событий : Кармадон сегодня принимает гостей .</text>
         <propbank>
@@ -103,6 +109,9 @@
         <role descr="bill, state prior to passing" f="PPT" n="1"/>
         <role descr="law, state after passing" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="pass.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus[Светлана Бабаева, Екатерина Григорьева. Слоеный пирог. Владимир Путин начал раздачу власти (2003) // «Известия», 2003.02.18]">
         <text>Но практика наша российская такова : был в своё время принят закон о финансовых основах МСУ , в нём были записаны совершенно правильные вещи , но он не заработал .</text>
         <propbank>
@@ -153,6 +162,9 @@
         <role descr="assisted, pregnant" f="GOL" n="1"/>
         <role descr="birth" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="assist.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src=" Russian National Corpus [Татьяна Соломатина. Девять месяцев, или «Комедия женских положений»(2010)]">
         <text>" Беременная врач принимает роды у беременного следователя …</text>
         <propbank>
@@ -174,6 +186,9 @@
         <role descr="thing tackled" f="PPT" n="1"/>
         <role descr="means, strategy" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="tackle.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>Corresponds to FrameBank sense </note>
       <note>принять.05 NOTES: Roleset based on English verb frame tackle.01</note>
       <example name="" src="Russian National Corpus[Александр Рыклин. Спор правительствующих субъектов (2003) // «Еженедельный журнал», 2003.03.24]">
@@ -201,6 +216,9 @@
         <role descr="resident " f="PPT" n="0"/>
         <role descr="location" f="LOC" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="settle_down.05" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Russian National Corpus [М. Л. Гаспаров. Записи и выписки (2001)">
         <text>" Садовник пришел сказать : Посаженные им деревья принялись хорошо .</text>
         <propbank>

@@ -21,15 +21,14 @@
       <note>Corresponds to FrameBank senses 1,2,3,5</note>
       <note>NOTES: Roleset based on English verb frame open.01</note>
       <roles>
-        <role descr="opener" f="PAG" n="0">
-        </role>
-        <role descr="thing opening" f="PPT" n="1">
-        </role>
-        <role descr="instrument" f="MNR" n="2">
-        </role>
-        <role descr="benefactive" f="GOL" n="3">
-        </role>
+        <role descr="opener" f="PAG" n="0"/>
+        <role descr="thing opening" f="PPT" n="1"/>
+        <role descr="instrument" f="MNR" n="2"/>
+        <role descr="benefactive" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="open.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="open eyes" src="Russian National Corpus. [Наши дети: Подростки (2004)]">
         <text>Там у подружки кошка окотилась , так моя девица мне ежедневно названивает , консультируется ― когда у котят глазки открыться должны ?</text>
         <propbank>
@@ -109,13 +108,14 @@
       <note>Corresponds to FrameBank sense 9</note>
       <note>NOTES: Roleset based on English verb frame open.02</note>
       <roles>
-        <role descr="agent, causer of opening" f="PAG" n="0">
-        </role>
-        <role descr="thing opening" f="PPT" n="1">
-        </role>
+        <role descr="agent, causer of opening" f="PAG" n="0"/>
+        <role descr="thing opening" f="PPT" n="1"/>
         <role descr="instrument" f="MNR" n="m"/>
         <role descr="start point" f="EXT" n="m"/>
       </roles>
+      <lexlinks>
+        <lexlink class="open.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="stock market, reflexive as passive" src="">
         <text>В понедельник утром торги единой европейской валютой открылись резким снижением к доллару — почти на 1,5 % .</text>
         <propbank>
@@ -174,13 +174,14 @@
       <note>Corresponds to FrameBank senses 2,4,6,7</note>
       <note>NOTES: Roleset based on English verb frame display.01</note>
       <roles>
-        <role descr="displayer, discoverer" f="PAG" n="0">
-        </role>
-        <role descr="entity displayed, discovered" f="PPT" n="1">
-        </role>
+        <role descr="displayer, discoverer" f="PAG" n="0"/>
+        <role descr="entity displayed, discovered" f="PPT" n="1"/>
         <role descr="location, possessor of arg1" f="LOC" n="2"/>
         <role descr="displayed to whom? Seer of thing displayed" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="display.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1 and arg2, reflexive as passive" src="Russian National Corpus. [Артем Тарасов. Миллионер (2004)]">
         <text>В нем неожиданно открылся талант , и Николай стал писать стихи , пародии , пьесы , сам подбирал музыку и сам рисовал эскизы декораций .</text>
         <propbank>
@@ -213,13 +214,13 @@
       <note>Corresponds to FrameBank sense 8</note>
       <note>NOTES: Roleset based on English verb frame open.04</note>
       <roles>
-        <role descr="giver, open one" f="PAG" n="0">
-        </role>
-        <role descr="info, feelings, etc." f="PPT" n="1">
-        </role>
-        <role descr="recipient" f="GOL" n="2">
-        </role>
+        <role descr="giver, open one" f="PAG" n="0"/>
+        <role descr="info, feelings, etc." f="PPT" n="1"/>
+        <role descr="recipient" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="open.04" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus. [Александр Снегирев. Вера (2015)]">
         <text>И тогда он открылся жене .</text>
         <propbank>

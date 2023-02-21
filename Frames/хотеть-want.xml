@@ -17,13 +17,14 @@
       <note>хотеть.01 NOTES: Based on English want.01.</note>
       <roles>
         <role descr="Wanter" f="PAG" n="0"/>
-        <role descr="thing wanted" f="PPT" n="1">
-        </role>
-        <role descr="beneficiary" f="GOL" n="2">
-        </role>
+        <role descr="thing wanted" f="PPT" n="1"/>
+        <role descr="beneficiary" f="GOL" n="2"/>
         <role descr="in-exchange-for" f="PPT" n="3"/>
         <role descr="from" f="DIR" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="want.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="nominal arg1" src="">
         <text>Я хочу кофе без кофеина .</text>
         <propbank>
@@ -73,13 +74,14 @@
       <note>расхотеть.01 NOTES: Based on English want.01.</note>
       <roles>
         <role descr="Wanter" f="PAG" n="0"/>
-        <role descr="thing wanted" f="PPT" n="1">
-        </role>
-        <role descr="beneficiary" f="GOL" n="2">
-        </role>
+        <role descr="thing wanted" f="PPT" n="1"/>
+        <role descr="beneficiary" f="GOL" n="2"/>
         <role descr="in-exchange-for" f="PPT" n="3"/>
         <role descr="from" f="DIR" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="want.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg0 and arg1" src="Russian National Corpus. [Маша Трауб. Нам выходить на следующей (2011)]">
         <text>Все засмеялись , а Алла вообще расхотела есть от страха .</text>
         <propbank>

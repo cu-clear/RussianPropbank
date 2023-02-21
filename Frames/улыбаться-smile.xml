@@ -13,6 +13,9 @@
         <role descr="knower, person with an ability/skill" f="PAG" n="0"/>
         <role descr="ability or skill" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="know.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="smile" src="Oksana Melnyk">
         <text>Большинство коллег умели хорошо одеваться .</text>
         <propbank>

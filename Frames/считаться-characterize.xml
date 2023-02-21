@@ -15,6 +15,10 @@
         <role descr="described" f="PPT" n="1"/>
         <role descr="secondardy attribute, described-as" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="characterize.01" resource="English PropBank" version="3.4"/>
+        <lexlink class="deem.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="is considered, counted" src="">
         <text>В столице Парагвая наводнение вынудило 72 тысячи жителей покинуть свои жилища , кроме этого 30 тысяч считаются пострадавшими по всей стране .</text>
         <propbank>
@@ -70,6 +74,9 @@
         <role descr="thing to be reckoned with" f="PPT" n="1">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="reckon.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="take into consideration, reckon with" src="">
         <text>Если правило основано на здравом смысле , с ним нужно считаться .</text>
         <propbank>
@@ -86,6 +93,9 @@
       <roles>
         <role descr="important thing" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="count.04" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="matter" src="">
         <text>Все остальное не считается .</text>
         <propbank>
@@ -106,6 +116,9 @@
         <role descr="thing being resolved" f="GOL" n="2"/>
         <role descr="what the settlement is (value or decision)" f="PRD" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="settle.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus: [А. И. Деникин. Очерки русской смуты. Том I. Крушение власти и армии (1921)">
         <text>Погоди , с . с ― мы с тобой сосчитаемся !</text>
         <propbank>

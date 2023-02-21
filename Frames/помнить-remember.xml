@@ -10,10 +10,13 @@
             <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
             <note>NOTES: based on English remember.01</note>
             <roles>
-                <role descr="Rememberer" f="PAG" n="0" />
-                <role descr="Memory" f="PPT" n="1" />
-                <role descr="Secondary attribute" f="PRD" n="2" />
+                <role descr="Rememberer" f="PAG" n="0"/>
+                <role descr="Memory" f="PPT" n="1"/>
+                <role descr="Secondary attribute" f="PRD" n="2"/>
             </roles>
+            <lexlinks>
+                <lexlink class="remember.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG0 and ARG1" src="Source here">
                 <text>Дальше помнил он один страшный , черный день .</text>
                 <propbank>

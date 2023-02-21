@@ -11,10 +11,13 @@
             <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
             <note>NOTES: based on English call.02</note>
             <roles>
-                <role descr="Caller" f="PAG" n="0" />
-                <role descr="Entity summoned" f="PPT" n="1" />
-                <role descr="Medium or phone used" f="MNR" n="2" />
+                <role descr="Caller" f="PAG" n="0"/>
+                <role descr="Entity summoned" f="PPT" n="1"/>
+                <role descr="Medium or phone used" f="MNR" n="2"/>
             </roles>
+            <lexlinks>
+                <lexlink class="call.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG1, 2, and 3" src="ingalatory.ru">
                 <text>Ирина , Вы можете позвонить нам по телефону ...</text>
                 <propbank>

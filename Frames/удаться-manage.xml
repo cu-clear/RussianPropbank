@@ -13,6 +13,9 @@
         <role descr="manager" f="PAG" n="0"/>
         <role descr="deed accomplished" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="manage.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="succeed" src="http://marker.framebank.ru/verbs_cx.php?lex=удаться&amp;cxid=10746">
         <text>Репетиция золотого матча у них удалась .</text>
         <propbank>
@@ -41,6 +44,9 @@
         <role descr="similar entity" f="PAG" n="0"/>
         <role descr="entity taken after" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="take.32" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="take after" src="http://marker.framebank.ru/verbs_cx.php?lex=удаться">
         <text>Ты удался в отца .</text>
         <propbank>

@@ -13,6 +13,9 @@
         <role descr="thing protruding" f="PPT" n="1"/>
         <role descr="source, sticking out/into of what" f="LOC" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="protrude.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="FrameBank">
         <text>Мыс выступает в море .</text>
         <propbank>
@@ -34,6 +37,9 @@
         <role descr="traveller" f="PAG" n="0"/>
         <role descr="destination" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="set_off.04" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1, 2" src="П. К. Козлов, «Географический дневник Тибетской экспедиции 1923–1926 гг. № 4», 1925–1926) г.">
         <text>Вы выступаете завтра вверх по Орхону , я тоже поеду проводить вас до места водопада или даже в Бургусутай , до палатки или подотделения Монценкопа .</text>
         <propbank>
@@ -56,6 +62,9 @@
         <role descr="performance, thing performed" f="PPT" n="1"/>
         <role descr="instrument" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="perform.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Sarah Moeller">
         <text>Он выступает в театре .</text>
         <propbank>
@@ -76,6 +85,9 @@
         <role descr="strider, entity in motion" f="PAG" n="0"/>
         <role descr="domain, field in which advances are made" f="VSP" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="stride.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg1-VSP has no equivalent in Russian frame</note>
       <example name="arg0" src="Пушкин">
         <text>« А сама - то величава , выступает , будто пава . »</text>
@@ -98,6 +110,9 @@
         <role descr="suggestion" f="PPT" n="1"/>
         <role descr="recipient of advice" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="advocate.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="">
         <text>Он выступает в защиту Терентьева на собрании .</text>
         <propbank>
@@ -115,6 +130,9 @@
       <roles>
         <role descr="thing appearing" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="appear.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="В. Г. Короленко, «Последний луч», 1900 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Группы деревьев , казалось , перебегали с места на место , скалы выступали вперед и опять тонули во мгле , полянки светились и гасли …</text>
         <propbank>

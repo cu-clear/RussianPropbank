@@ -13,6 +13,9 @@
         <role descr="thing occurring" f="PPT" n="1"/>
         <role descr="fixed place" f="LOC" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="take.14" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="descend" src="Russian National Corpus[Сати Спивакова. Не всё (2002)] ">
         <text>На прошлой неделе в актовом зале состоялось награждение лауреатов конкурса .</text>
         <propbank>
@@ -33,6 +36,9 @@
         <role descr="object" f="PPT" n="1"/>
         <role descr="attribute on arg1" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="come_about.06" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="make it as" src="http://marker.framebank.ru/verbs_cx.php?lex=состояться">
         <text>Она не состоялась как актриса</text>
         <propbank>
@@ -63,6 +69,9 @@
         <role descr="whole" f="PPT" n="1"/>
         <role descr="parts" f="VSP" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="consist.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="consist of" src="А. Ф. Писемский, «Масоны», 1880 г.">
         <text>Услуга ваша будет для меня состоять в том , чтобы вы научили меня , в каком духе дать вам объяснение .</text>
         <propbank>
@@ -90,6 +99,9 @@
         <role descr="player" f="PAG" n="0"/>
         <role descr="role" f="PRD" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="act.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="be part of" src="«Г. А. Зюганов: Спасение страны — в смене власти», 15 июня 2003 г.">
         <text>По закону чиновникам высшей категории нельзя состоять в партии .</text>
         <propbank>

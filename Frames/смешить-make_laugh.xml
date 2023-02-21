@@ -10,10 +10,13 @@
       <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
       <note>NOTES: based on English amuse.01</note>
       <roles>
-        <role descr="causer of mirth" f="PAG" n="0" />
-        <role descr="mirthful entity" f="PPT" n="1" />
-        <role descr="instrument" f="MNR" n="2" />
+        <role descr="causer of mirth" f="PAG" n="0"/>
+        <role descr="mirthful entity" f="PPT" n="1"/>
+        <role descr="instrument" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="amuse.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="ARG0 and 1" src="short-story.ru">
         <text>Они рассмешили даже мать мою .</text>
         <propbank>

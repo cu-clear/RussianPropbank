@@ -21,6 +21,9 @@
         <role descr="place of residence" f="PPT" n="1">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="inhabit.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="">
         <text>В каком городе ты живешь ?</text>
         <propbank>
@@ -47,6 +50,9 @@
         <role descr="alive entity" f="PAG" n="0"/>
         <role descr="life, cognate" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="live.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg0" src="">
         <text>Что - то после прочтения подобных новостей мне уже совсем не кажется абсурдной мысль , что живем в " последние времена "</text>
         <propbank>
@@ -97,6 +103,9 @@
         <role descr="dater (agent)" f="PAG" n="0"/>
         <role descr="dated (co-inhabitor)" f="COM" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="date.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="Л. Н. Толстой, «Анна Каренина»">
         <text>Жена узнала , что муж был в связи с бывшею в их доме француженкою - гувернанткой , и объявила мужу , что не может жить с ним в одном доме .</text>
         <propbank>
@@ -199,6 +208,9 @@
         <role descr="how or where one lives" f="PPT" n="1">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="inhabit.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="Russian National Corpus [А. В. Дружинин. Русские в Японии в конце 1853 и в начале 1854 годов (1855)]">
         <text>В ней найдём мы вместо туристов по призванию , вместо бурных деятелей , которым не живётся дома , людей из всех сословий общества , людей , развившихся под одинаковой с нами звездою , одушевлённых страстями , нам близко знакомыми .</text>
         <propbank>
@@ -236,6 +248,9 @@
         <role descr="the deceased" f="PPT" n="1">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="die.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="Russian National Corpus [С. Т. Григорьев. Александр Суворов (1939)]">
         <text>А ты кланяйся товарищам . Вели долго жить . Да еще погожу умирать .</text>
         <propbank>

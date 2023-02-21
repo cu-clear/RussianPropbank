@@ -13,12 +13,13 @@
       <note>Corresponds to FrameBank sense 1</note>
       <note>начать.01 NOTES: Roleset based on verb frame begin.01</note>
       <roles>
-        <role descr="beginner, Agent" f="PAG" n="0">
-        </role>
-        <role descr="Thing begun - NP, not S-node!" f="PPT" n="1">
-        </role>
+        <role descr="beginner, Agent" f="PAG" n="0"/>
+        <role descr="Thing begun - NP, not S-node!" f="PPT" n="1"/>
         <role descr="Instrument/beginning state" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="begin.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="">
         <text>Вообще он поначалу действительно с энтузиазмом начал семейную жизнь , радовался рождению нашего ребенка .</text>
         <propbank>
@@ -66,6 +67,9 @@
         <role descr="thing beginning something" f="PAG" n="0"/>
         <role descr="Action begun - S-node!" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="begin.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="non agentive arg0" src="">
         <text>Если нога начнет пухнуть - хорошо влажные повязки с фурацилином .</text>
         <propbank>

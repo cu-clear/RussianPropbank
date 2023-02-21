@@ -20,6 +20,9 @@
       <roles>
         <role descr="expiring entity" f="PPT" n="0"/>
       </roles>
+      <lexlinks>
+        <lexlink class="perish.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="die, croak, kick the bucket" src="">
         <text>В Северной Америке снова массово гибнут птицы .</text>
         <propbank>

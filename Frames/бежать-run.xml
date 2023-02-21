@@ -15,6 +15,9 @@
         <role descr="start point" f="DIR" n="3"/>
         <role descr="end point" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="run.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>NOTES:Russian Arg3-DIR has no match in English Frame </note>
       <note>NOTES:Russian Arg4-GOL has no match in English Frame</note>
       <example name="chases" src="И. П. Горелов, «Витенька», 1952 г. // «Крокодил»">
@@ -72,6 +75,9 @@
         <role descr="end point" f="GOL" n="4"/>
         <role descr="location, surface" f="LOC" n="5"/>
       </roles>
+      <lexlinks>
+        <lexlink class="run.04" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>NOTES:Russian Arg5-LOC has no match in English Frame </note>
       <example name="cracks run along" src="">
         <text>Перед зеркалом , по которому веером бежали трещины , он брил моряка в полосатой тельняшке .</text>
@@ -134,6 +140,9 @@
         <role descr="fast entity/action" f="PPT" n="1"/>
         <role descr="speed, how many minutes ahead" f="EXT" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="fast.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus[И. Грекова. На испытаниях (1967)]">
         <text>Часы на 10 минут бегут .</text>
         <propbank>

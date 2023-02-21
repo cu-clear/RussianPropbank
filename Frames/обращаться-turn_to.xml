@@ -8,11 +8,12 @@
 	  </aliases>
       <note>обращаться.01 NOTES: Based on orbit.01.</note>
       <roles>
-        <role descr="revolving entity" f="PAG" n="0">
-        </role>
-        <role descr="point orbited" f="PPT" n="1">
-        </role>
+        <role descr="revolving entity" f="PAG" n="0"/>
+        <role descr="point orbited" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="orbit.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="revolve around" src="Russian National Corpus [В. П. Катаев. Алмазный мой венец (1975-1977)]">
         <text>в хорошем романе ( хотя я и не признаю деление прозы на жанры ) герой должен быть неподвижен , а обращаться вокруг него должен весь физический мир , что и составит если не галактику , то , во всяком случае , солнечную систему художественного произведения .</text>
         <propbank>
@@ -35,12 +36,13 @@
       <note>обращаться.02 NOTES: Based on treat.01.</note>
       <note>Corresponds to FrameBank senses 9</note>
       <roles>
-        <role descr="assumer of attribute" f="PAG" n="0">
-        </role>
-        <role descr="entity treated" f="PPT" n="1">
-        </role>
+        <role descr="assumer of attribute" f="PAG" n="0"/>
+        <role descr="entity treated" f="PPT" n="1"/>
         <role descr="attribute" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="treat.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="treat" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
         <text>Мачеха обращалась с ребенком плохо .</text>
         <propbank>
@@ -67,11 +69,12 @@
       <note>Corresponds to FrameBank senses 1,2,3,4,5</note>
       <note>обращаться.03 NOTES: Based on turn.01</note>
       <roles>
-        <role descr="turner " f="PAG" n="0">
-        </role>
-        <role descr="direction, destination" f="PPT" n="1">
-        </role>
+        <role descr="turner " f="PAG" n="0"/>
+        <role descr="direction, destination" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="turn.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English ARGM-LOC = Russian Arg3-GOL</note>
       <example name="address as" src="http://marker.framebank.ru/verbs_cx.php?lex=обращаться">
         <text>Он обращается ко мне на « вы » , хотя я давно ему тыкаю .</text>
@@ -140,6 +143,9 @@
         <role descr="end state" f="PRD" n="2"/>
         <role descr="start state" f="VSP" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="convert.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="http://marker.framebank.ru/verbs_cx.php?lex=обращать">
         <text>Идеология расизма обращает человека в зверя .</text>
         <propbank>

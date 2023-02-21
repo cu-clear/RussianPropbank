@@ -23,6 +23,9 @@
         <role descr="agent, causer of renewal" f="PAG" n="0"/>
         <role descr="thing becoming newish" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="renew.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="restart work" src="">
         <text>С выходом США из договора по ПРО возобновились и работы по размещению электромагнитных пушек на орбите .</text>
         <propbank>
@@ -79,6 +82,9 @@
         <role descr="repairer" f="PAG" n="0"/>
         <role descr="entity repaired" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="repair.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="active, perfective, physical objects, repair/remodel" src="Л. Н. Толстой, «Анна Каренина», 1873—1877 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Это дома служащих , завод , конюшни , — отвечала Анна . — А это парк начинается . Всё это было запущено , но Алексей всё возобновил .</text>
         <propbank>

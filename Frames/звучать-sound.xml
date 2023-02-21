@@ -17,6 +17,9 @@
         <role descr="the sound itself (the name of the sound/song, etc., not just a characteristic)" f="PPT" n="2"/>
         <role descr="characteristic of the sound" f="ADJ" n="3"/>
 	  </roles>
+      <lexlinks>
+        <lexlink class="sound.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="ARG2 and 3" src="RNC, Болото 2001">
         <text>Выстрел прозвучал неожиданно звучно ...</text>
           <propbank>
@@ -57,6 +60,9 @@
         <role descr="attribute of arg1" f="PRD" n="1"/>
         <role descr="viewer" f="PPT" n="2"/>
 	  </roles>
+      <lexlinks>
+        <lexlink class="sound.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="ARG0, 1, and 2" src="RNC, «Коммерсантъ-Власть», 1998, № 12">
         <text>Для многих в Японии эта речь прозвучала как гром среди ясного неба .</text>
           <propbank>

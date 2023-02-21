@@ -27,6 +27,9 @@
 		</role>
         <role descr="speaker, source" f="DIR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="hear.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="can hear where" src="">
         <text>Я могу слышать тебя дальше по коридору .</text>
         <propbank>

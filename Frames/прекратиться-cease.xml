@@ -24,6 +24,9 @@
         <role descr="causer of ceasing, Agent" f="pag" n="0"/>
         <role descr="Theme (action or object being stopped)" f="ppt" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="cease.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1 only" src="">
         <text>В субботу осадки прекратились , выглянуло солнце и движение в столице возобновилось .</text>
         <propbank>

@@ -14,6 +14,9 @@
         <role descr="observer" f="PAG" n="0"/>
         <role descr="thing looked at " f="PAG" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="observe.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="С. Т. Аксаков, «Детские годы Багрова-внука, служащие продолжением семейной хроники», 1858 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Я внимательно наблюдал , как она обдавала миндаль кипятком ,</text>
         <propbank>
@@ -68,6 +71,9 @@
         <role descr="obeyer" f="PAG" n="0"/>
         <role descr="rule" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="obey.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="А. С. Пушкин, «Пиковая дама», 1833 г. (цитата из Русской виртуальной библиотеки)">
         <text>У себя принимала она весь город , наблюдая строгий этикет .</text>
         <propbank>

@@ -34,6 +34,9 @@
         <role descr="thing rubbed" f="ppt" n="1"/>
         <role descr="rubbed with, if separate from agent" f="mnr" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="rub.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="rub; all args" src="">
         <text>Парень сидел в трусах , испуганно тер кулаком красное от стыда лицо</text>
         <propbank>
@@ -106,6 +109,9 @@
         <role descr="entity being grated" f="ppt" n="1"/>
         <role descr="instrument used" f="mnr" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="grate.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="adjectival participle" src="Russian National Corpus. [коллективный. Форум: Салаты (2011)]">
         <text>Можно добавить тертый сыр при желании .</text>
         <propbank>
@@ -135,6 +141,9 @@
         </role>
         <role descr="hearer" f="gol" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="talk.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="">
         <text>Что ты мне тут трёшь ?</text>
         <propbank>
@@ -161,6 +170,9 @@
         <role descr="destination" f="dir" n="1">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="walk.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1" src="">
         <text>В гости потёрли ?</text>
         <propbank>

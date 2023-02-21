@@ -17,6 +17,9 @@
         <role descr="text, content, topic" f="DIR" n="2"/>
         <role descr="audience or listener" f="PPT" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="read.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="read a book" src="">
         <text>Ты читал мою Книгу ? !</text>
         <propbank>
@@ -116,6 +119,9 @@
         <role descr="utterance" f="PPT" n="1"/>
         <role descr="audience or listener " f="PPT" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="recite.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="">
         <text>У меня еще с детства воспоминание - она очень хрупкая , читала по телевизору такое красивое " Екатерина и Анна , Анна и Екатерина .. " И это было как - то через чур изысканно для Советского Союза .</text>
         <propbank>

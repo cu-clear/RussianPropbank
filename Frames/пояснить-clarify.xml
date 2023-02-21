@@ -16,6 +16,9 @@
                 <role descr="Thing explained" f="PPT" n="1"/>
                 <role descr="Explained to" f="GOL" n="2"/>
             </roles>
+            <lexlinks>
+                <lexlink class="explain.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="Arg1 and Arg2" src="lib.ru">
                 <text>Я пояснил очевидную вещь : люди не могут обойтись без информации и вынуждены держать глаза открытыми . </text>
                 <propbank>

@@ -9,11 +9,12 @@
       <note>Corresponds to FrameBank sense 5</note>
       <note>NOTES: Based on insist.01.</note>
       <roles>
-        <role descr="insister" f="PAG" n="0">
-        </role>
-        <role descr="thing insisted" f="PPT" n="1">
-        </role>
+        <role descr="insister" f="PAG" n="0"/>
+        <role descr="thing insisted" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="insist.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="active participle" src="">
         <text>Несмотря на заверения специалистов , утверждавших , что эта идея обречена и в тоннеле никто бы не смог выжить , родственники погибших настояли на том , чтобы в тоннель пробурили скважины .</text>
         <propbank>
@@ -72,6 +73,9 @@
         <role descr="benefactive, hearer" f="GOL" n="2"/>
         <role descr="confirmed in what" f="LOC" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="confirm.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="confirm, certify, approve; all args" src="">
         <text>Гуль будет оставаться в качестве временного премьер - министра , пока президент Ахмет Фернандо де ла Руа утверждает Турции в кабинет , что может произойти как в среду .</text>
         <propbank>
@@ -112,12 +116,13 @@
       <note>Corresponds to FrameBank sense 4</note>
       <note>NOTES: Based on reinforce.03.</note>
       <roles>
-        <role descr="strengthener or maintainer" f="PAG" n="0">
-        </role>
-        <role descr="thing reinforced" f="PPT" n="1">
-        </role>
+        <role descr="strengthener or maintainer" f="PAG" n="0"/>
+        <role descr="thing reinforced" f="PPT" n="1"/>
         <role descr="where strengthened" f="LOC" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="reinforce.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg2-MNR = Russian Arg2-LOC</note>
       <example name="set, strengthen; adjectival participle" src="Russian National Corpus. [Дина Рубина. Белая голубка Кордовы (2008-2009)]">
         <text>Сел , утвердив пятку на перекладине под сиденьем , опер на колено гитару , и слова не говоря , принялся перебирать струны …</text>

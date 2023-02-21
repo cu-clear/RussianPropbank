@@ -10,9 +10,12 @@
             <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
             <note>NOTES: based on English dine.01</note>
             <roles>
-                <role descr="eater" f="PAG" n="0" />
-                <role descr="meal" f="PPT" n="1" />
+                <role descr="eater" f="PAG" n="0"/>
+                <role descr="meal" f="PPT" n="1"/>
             </roles>
+            <lexlinks>
+                <lexlink class="dine.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="Arg1 only" src="webweek.ru">
                 <text>Состоятельная пара , Муж и жена , ужинали в дорогом ресторане</text>
                 <propbank>

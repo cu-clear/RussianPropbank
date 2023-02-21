@@ -15,6 +15,9 @@
                 <role descr="Preparer" f="PAG" n="0"/>
                 <role descr="Thing made ready" f="PPT" n="1"/>
             </roles>
+            <lexlinks>
+                <lexlink class="prepare.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG0 and ARG 1" src="RNC,  Левицкий Л. А. Термос времени. Дневник, 1978-1997">
                 <text>Если это не было обдуманным шагом и он не собирается уйти .</text>
                 <propbank>

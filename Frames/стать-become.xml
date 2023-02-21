@@ -19,6 +19,9 @@
         <role descr="entity changing, gaining attribute" f="PPT" n="1"/>
         <role descr="new state, attribute" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="become.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="become as something" src="">
         <text>Жертвами землетрясения стал 31 человек , еще 800 получили ранения .</text>
         <propbank>
@@ -57,6 +60,9 @@
         <role descr="Thing begun" f="PPT" n="1"/>
         <role descr="Instrument, starting point" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="begin.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="begin, start" src="">
         <text>После 7 часов утра уровень воды стал резко понижаться .</text>
         <propbank>
@@ -77,6 +83,9 @@
       <roles>
         <role descr="Thing freezing over" f="PAG" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="freeze_over.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="freeze" src="Аксаков, «Детские годы Багрова-внука, служащие продолжением семейной хроники», 1858 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Наконец получили известие , что Волга стала и что через нее потянулись обозы .</text>
         <propbank>
@@ -109,6 +118,9 @@
         <role descr="thing standing" f="PPT" n="1"/>
         <role descr="location, position" f="LOC" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="stand.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg0-PAG has no match in Russian frame</note>
       <example name="be at a standstill" src="">
         <text>троллейбус , там , по ходу , Кнорина около Севастопольского или Химреактивов затопило , вот и машины стали .</text>
@@ -158,6 +170,9 @@
         <role descr="price" f="VSP" n="2"/>
         <role descr="buyer" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="cost.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>стать.04 NOTES: Based on English cost.01</note>
       <example name="cost" src="https://dic.academic.ru/dic.nsf/ogegova/278800">
         <text>Пальто мне стало в кругленькую сумму .</text>
@@ -179,6 +194,9 @@
         <role descr="hing that lasts" f="PPT" n="1"/>
         <role descr="period of time" f="VSP" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="last.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>стать.06 NOTES: based on English last.01</note>
       <example name="arg2" src="М. Е. Салтыков-Щедрин, «Господа Головлёвы», 1875 г. (цитата из Викитеки)">
         <text>Одним словом , Степан Владимирыч проводил братьев дружелюбно и не без самодовольства показал Якову - земскому две двадцатипятирублёвые бумажки , очутившиеся в его руке после прощания . — Теперь , брат , мне надолго станет ! — сказал он .</text>
@@ -197,6 +215,9 @@
       <roles>
         <role descr="entity one may expect something from" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="expect.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg0-PAG has no match in Russian frame</note>
       <note>стать.07 NOTES: based on English expect.01</note>
       <example name="stand" src="">
@@ -222,6 +243,9 @@
       <roles>
         <role descr="entity dying" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="pass.20" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>не_стало.08 NOTES: Based on English pass.20</note>
       <example name="pass on" src="">
         <text>И её тоже не стало .</text>

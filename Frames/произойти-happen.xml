@@ -17,6 +17,9 @@
         <role descr="event" f="PPT" n="1"/>
         <role descr="benefactive" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="happen.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="happen, occur" src="">
         <text>Произошла авария</text>
         <propbank>
@@ -43,6 +46,9 @@
         <role descr="entity descended" f="PPT" n="1"/>
         <role descr="source, ancestor" f="DIR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="descend.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="descend, originate" src="">
         <text>Мужчины произошли от других обезьян .</text>
         <propbank>

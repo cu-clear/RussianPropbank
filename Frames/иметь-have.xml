@@ -15,6 +15,9 @@
         <role descr="possession, thing had as" f="PPT" n="1">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="have.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="">
         <text>Кражей это становится тогда , когда человек полагает , что то , что он имеет - действительно принадлежит ему .</text>
         <propbank>
@@ -61,6 +64,9 @@
         <role descr="victim/patient" f="PPT" n="1">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="have.09" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>*English Arg1-VSP has no match in Russian frame</note>
       <example name="all args" src="Владимир Шахиджанян, «1001 вопрос про ЭТО (№ 1–500)», 1999 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Один из персонажей знаменитой книги « Тысяча и одна ночь » за ночь овладевал сорока женщинами и имел их по тридцать раз .</text>
@@ -84,6 +90,9 @@
         <role descr="benefactive" f="GOL" n="2"/>
         <role descr="secondary attribute of arg1" f="PAG" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="hold.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="Russian National Corpus [Александра Маринина. Последний рассвет (2013)]">
         <text>Илюша имеет на тебя зуб из - за дочери , которой ты морочишь голову уже десять лет , Олег Цырков тоже на тебя заковырял , хоть и не доказано ничего , но подозрения остались , да и по отношению ко мне у тебя непреходящее чувство вины за то , что ты натворил .</text>
         <propbank>
@@ -114,6 +123,9 @@
         <role descr="agent" f="PAG" n="0"/>
         <role descr="thing intended" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="mean.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="">
         <text>Да не , я имела ввиду не отражение Ваших проблем , а отражение ВАШЕГО ОТНОШЕНИЯ К НЕЙ .</text>
         <propbank>
@@ -141,6 +153,9 @@
         <role descr="event" f="PPT" n="1"/>
         <role descr="benefactive, location" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="happen.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="">
         <text>По одной из гипотез , в ходе глубоких землетрясений имеет место фазовый переход между минералами в земной коре .</text>
         <propbank>
@@ -168,6 +183,9 @@
         <role descr="other participant(s)" f="COM" n="1"/>
         <role descr="domain of the interaction" f="PPT" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="interact.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="">
         <text>Для начала пойду к гинекологу ( последний раз имела с ними дело в роддоме ) .</text>
         <propbank>
@@ -195,6 +213,9 @@
         <role descr="patron, agent" f="PAG" n="0"/>
         <role descr="entity patronized " f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="patronize.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus: [Семен Ицкович. Шила в мешке не утаишь, или крах «шолоховедения» (2003) // «Вестник США», 2003.07.23]">
         <text>За деньги или за протекции , поскольку везде имел руку и в самых верхах поддержку .</text>
         <propbank>

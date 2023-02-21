@@ -16,6 +16,9 @@
 		<role descr="theme, thing being included" f="PPT" n="1"/>
 		<role descr="group" f="GOL" n="2"/>
 	  </roles>
+      <lexlinks>
+        <lexlink class="include.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
 	  <example name="" src="Максим Горький, «Жизнь Клима Самгина. Часть 3», 1928 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
 		<text>Поэтому я — чужой среди людей , которые включают себя в партии , группы , ― вообще ― включают , заключают …</text>
 		<propbank>
@@ -53,6 +56,9 @@
 		<role descr="(thing with) plug " f="PPT" n="1"/>
 		<role descr="socket" f="GOL" n="2"/>
 	  </roles>
+      <lexlinks>
+        <lexlink class="plug.04" resource="English PropBank" version="3.4"/>
+      </lexlinks>
 	  <example name="" src="«Консультация», 1927 г. // «Радио Всем» (цитата из Национального корпуса русского языка, см. Список литературы)">
 		<text>Если телефоны низкоомные , то их нужно включать последовательно ; при высокоомных телефонах применяется параллельное включение .</text>
 		<propbank>
@@ -74,6 +80,9 @@
 		<role descr="cause of on-ness" f="PAG" n="0"/>
 		<role descr="lamp, etc" f="PPT" n="1"/>
 	  </roles>
+      <lexlinks>
+        <lexlink class="turn_on.13" resource="English PropBank" version="3.4"/>
+      </lexlinks>
 	  <example name="" src="Ю. С. Семёнов, «Семнадцать мгновений весны», 1968 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
 		<text>Он отпер дверь , потянулся к выключателю , но услышал голос , очень знакомый и тихий : — Не надо включать свет .</text>
 		<propbank>

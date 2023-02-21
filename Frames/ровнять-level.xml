@@ -15,6 +15,9 @@
                 <role descr="thing becoming level" f="PPT" n="1"/>
                 <role descr="thing leveled with, ground" f="GOL" n="2"/>
             </roles>
+            <lexlinks>
+                <lexlink class="level.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG1, ARG2, and ARG3" src="inopressa.ru">
                 <text> Бомбы НАТО сровняли с землей комплекс Баб аль-Азизия .</text>
                 <propbank>

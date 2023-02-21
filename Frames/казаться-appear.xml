@@ -81,6 +81,10 @@
         <role descr="viewer, to whom does it seem like that?" f="GOL" n="2">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="appear.02" resource="English PropBank" version="3.4"/>
+        <lexlink class="appear.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1" src="Russian National Corpus. [Ольга Славникова. Стрекоза, увеличенная до размеров собаки (1995-1999)]">
         <text>Софье Андреевне казалось просто оскорбительным , что ее любовник не кажет глаз и не является просить прощения и благословения даже накануне ее ― тут она резко поворачивалась на живот ― безвременной кончины .</text>
         <propbank>

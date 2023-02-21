@@ -21,6 +21,9 @@
         </role>
         <role descr="attribute of arg1, further description; viewed as" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="see.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="able to see" src="">
         <text>Совы видят ночью .</text>
         <propbank>
@@ -105,6 +108,9 @@
         <role descr="first entity" f="PAG" n="0"/>
         <role descr="second entity, or 'each other' (or variant)" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="see.05" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="see or meet" src="А. П. Чехов, «Ионыч», 1898 г.">
         <text>Я не видел вас целую неделю , я не слышал вас так долго .</text>
         <propbank>
@@ -144,6 +150,9 @@
       <roles>
         <role descr="you" f="PAG" n="0"/>
       </roles>
+      <lexlinks>
+        <lexlink class="see.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus. [Евгений Гришковец. ОдноврЕмЕнно (2004)]">
         <text>То есть , видите , я сам не понимал , чего я хотел .</text>
         <propbank>

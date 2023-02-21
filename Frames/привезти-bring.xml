@@ -17,6 +17,9 @@
         <role descr="attribute, state after bringing, secondary action " f="PRD" n="3"/>
         <role descr="ablative, brought-from" f="DIR" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="bring.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Russian National Corpus[Николай Щербатов-Коломин. Березовое чудо // «Народное творчество», 2004]">
         <text>Из Нижегородской области я привез зарисовки различных вариантов глухой резьбы , из Костромской ― прорезных наличников , из Ярославской ― прорезных кокошников церквей , из Владимирской ― каменной резьбы соборов .</text>
         <propbank>

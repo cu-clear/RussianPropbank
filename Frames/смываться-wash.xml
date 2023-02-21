@@ -18,6 +18,9 @@
         <role descr="washing liquid" f="MNR" n="2"/>
         <role descr="location of stain or thing being washed off" f="DIR" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="wash.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg4-GOL has no match in Russian frame</note>
       <example name="all args, imperfective" src="">
         <text>Мы смывали чернильные пятна со стола .</text>
@@ -89,6 +92,9 @@
         <role descr="location of stain or thing being washed off" f="DIR" n="2"/>
         <role descr="end state or location of arg1" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="wash.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg2-MNR has no match in Russian frame</note>
       <note>English Arg3-DIR = Russian Arg2-DIR</note>
       <note>English Arg4-GOL = Russian Arg3-GOL</note>
@@ -139,6 +145,9 @@
         <role descr="destination " f="GOL" n="1"/>
         <role descr="source " f="DIR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="sneak.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg3-PPT has no match in Russian frame</note>
       <example name="all args, imperfective" src="">
         <text>Надо нам отсюда смываться .</text>

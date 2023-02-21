@@ -20,6 +20,9 @@
         <role descr="start point" f="DIR" n="3"/>
         <role descr="end point, end state of arg1" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="go.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1, 4" src="Russian National Corpus. [С. В. Лавров. Статья в газетах «Коммерсант» и «Уолл-стрит джорнал» // «Дипломатический вестник», 2004]">
         <text>Уже не впервые за последние полтора десятилетия мировое общественное мнение задаётся вопросом , куда идёт Россия .</text>
         <propbank>
@@ -63,6 +66,9 @@
         <role descr="start point" f="DIR" n="2"/>
         <role descr="destination" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="go.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg0" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=идти&amp;cxid=3886">
         <text>Я иду , как мамонт .</text>
         <propbank>
@@ -93,6 +99,9 @@
       <roles>
         <role descr="thing/entity continuing/occuring" f="PAG" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="go_on.15" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="weather event" src="">
         <text>Дождь идет .</text>
         <propbank>

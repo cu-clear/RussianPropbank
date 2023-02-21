@@ -15,6 +15,9 @@
         <role descr="favor" f="PPT" n="1"/>
         <role descr="hearer" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="request.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="request" src="Russian National Corpus [Алексей Варламов. Купавна // «Новый Мир», 2000]">
         <text>Соседка просила бабушку , чтобы она повлияла на Колюню и он заступился за бедного мальчугана , который от отчаяния не хотел жить на даче и просился домой , но у Гоши был слишком противный характер , и все уставали от его нытья .</text>
         <propbank>
@@ -89,6 +92,9 @@
         <role descr="resolution between/among/with whom" f="PPT" n="1"/>
         <role descr="on behalf of" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="intercede.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="args 0 and 2" src="http://marker.framebank.ru/verbs_ex.php?lex=просить&amp;cxid=8073">
         <text>Он за тебя просил .</text>
         <propbank>
@@ -128,6 +134,9 @@
         <role descr="buyer" f="GOL" n="2"/>
         <role descr="asking price" f="VSP" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="ask.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="args 0 and 2" src="http://marker.framebank.ru/verbs_ex.php?lex=просить&amp;cxid=8072">
         <text>Сколько же ты за свою курицу просишь ?</text>
         <propbank>
@@ -150,6 +159,9 @@
         <role descr="potty-er" f="PAG" n="0"/>
         <role descr="potty place" f="GOL" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="go.29" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg1-PPT == Russian Arg1-GOL</note>
       <example name="example" src="">
         <text>cобака просится на улицу</text>
@@ -186,6 +198,9 @@
         <role descr="thing welcomed" f="PPT" n="1"/>
         <role descr="welcomed to" f="LOC" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="welcome.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus: [И. Грекова. Перелом (1987)]">
         <text>Милости просим в наше отделение .</text>
         <propbank>

@@ -16,14 +16,15 @@
       <note>Corresponds to FrameBank sense 1</note>
       <note>купить.01 NOTES: based on buy.01</note>
       <roles>
-        <role descr="buyer" f="PAG" n="0">
-        </role>
-        <role descr="thing bought" f="PPT" n="1">
-        </role>
-        <role descr="seller" f="DIR" n="2" />
-        <role descr="price paid" f="VSP" n="3" />
-        <role descr="benefactive" f="GOL" n="4" />
+        <role descr="buyer" f="PAG" n="0"/>
+        <role descr="thing bought" f="PPT" n="1"/>
+        <role descr="seller" f="DIR" n="2"/>
+        <role descr="price paid" f="VSP" n="3"/>
+        <role descr="benefactive" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="buy.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="ARG0" src="">
         <text>Я б купила .</text>
         <propbank>
@@ -42,11 +43,14 @@
       <note>Corresponds to FrameBank senses 2,4</note>
       <note>купить.02 NOTES: based on bribe.01</note>
       <roles>
-        <role descr="briber" f="PAG" n="0" />
-        <role descr="person being bribed" f="PPT" n="1" />
-        <role descr="favor" f="PRD" n="2" />
-        <role descr="amount exchanged" f="VSP" n="3" />
+        <role descr="briber" f="PAG" n="0"/>
+        <role descr="person being bribed" f="PPT" n="1"/>
+        <role descr="favor" f="PRD" n="2"/>
+        <role descr="amount exchanged" f="VSP" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="bribe.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg 1 in NP" src="">
         <text>да лан , не все продажные ) я вот не продажная были ни разу ( щас просто этим не занимаюсь ) правда попытки купить меня были так дешевы что соблазна не возникало в принципе , но я вообще честная , да )</text>
         <propbank>
@@ -79,10 +83,13 @@
       <note>купить.03 NOTES: based on fool.01</note>
       <roles>
         <note>Russian Arg2-PRD has no match in English frame</note>
-        <role descr="trickster" f="PAG" n="0" />
-        <role descr="entity deceived" f="PPT" n="1" />
-        <role descr="deception" f="PRD" n="2" />
+        <role descr="trickster" f="PAG" n="0"/>
+        <role descr="entity deceived" f="PPT" n="1"/>
+        <role descr="deception" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="fool.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="fooled ya" src="">
         <text>Здорово я тебя купил !</text>
         <propbank>

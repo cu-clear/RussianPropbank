@@ -15,6 +15,9 @@
         <role descr="thing hit" f="GOL" n="1"/>
         <role descr="instrument, thing hit by or with" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="hit.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="hit with ball" src="А. Н. Варламов, «Купавна», 2000 г. // «Новый Мир» (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Гоша шатался от усталости и из последних сил кидал мяч , стараясь попасть в развалившихся на траве ребят .</text>
         <propbank>
@@ -42,6 +45,9 @@
         <role descr="entity ending up" f="PPT" n="1"/>
         <role descr="new state" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="end_up.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="come here" src="Ирина Авереннова, «Геленджик», 15 июня 2000 г. // «Туризм и образование» (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Не все могут приехать в Геленджик летом , кому - то выпадает попасть сюда в такое время , когда море становится прохладным .</text>
         <propbank>
@@ -106,6 +112,9 @@
         <role descr="entity encountering something" f="PAG" n="1"/>
         <role descr="entity encountered" f="PPT" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="encounter.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Russian National Corpus Олег Зайончковский. Счастье возможно: роман нашего времени (2008)">
         <text>Вам повезло , что вы попали на меня , ― сейчас , знаете , в Москве кавказцы таксуют .</text>
         <propbank>
@@ -137,6 +146,9 @@
         <role descr="punished-for" f="CAU" n="2"/>
         <role descr="mention of punishment itself" f="MNR" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="punish.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="punished" src="Russian National Corpus Ю. М. Даниэль, «Письма из заключения», 1966—1970 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>На этот раз мне попало за всякие ругательства , адресованные вам , москвичам .</text>
         <propbank>
@@ -170,6 +182,9 @@
         <role descr="captured entity" f="PPT" n="1"/>
         <role descr="explicit mention of snare" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="snare.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="catch squirrels" src="Н. И. Дубов, «На краю земли», 1950 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>В наши кулемки теперь белки начали попадаться : распяленные Захаром Васильевичем , на правилках сохли семнадцать шкурок .</text>
         <propbank>
@@ -198,6 +213,9 @@
         <role descr="how it happens" f="MNR" n="2"/>
         <role descr="mention of punishment itself" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="happen.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>Russian Arg2-MNR is equal to English Arg2-GOL</note>
       <example name="" src="Russian National Corpus [Иваново. Детство (2004) // «Экран и сцена», 2004.05.06]">
         <text>Большая , в полстены , фотография , где на полу , среди груды лежащих как попало книг , сидит маленький Андрей , а рядом на чёрном фоне автопортрет режиссёра Андрея Тарковского .</text>

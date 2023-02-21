@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="уезжать">
@@ -16,6 +17,9 @@
         <role descr="Destination" f="GOL" n="2"/>
         <role descr="Vehicle or Animal left upon" f="MNR" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="leave.11" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="Arg0, 1 and 2" src="Russian National Corpus, Computerworld 2004">
         <text>... они уехали из Иллинойса в Кремниевую Долину .</text>
         <propbank>

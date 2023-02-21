@@ -15,6 +15,9 @@
         <role descr="thing found" f="PPT" n="1"/>
         <role descr="benefactive, found for" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="find.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="">
         <text>замуж вышла , а мама нашла себе друзей собутыльников и пошло - поехало .</text>
         <propbank>
@@ -88,6 +91,9 @@
         <role descr="benefactive, found for" f="GOL" n="2"/>
         <role descr="attribute on arg1 (found out to be/as what)" f="PRD" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="discover.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="scientific discovery" src="">
         <text>Ученые нашли возможность однополого зачатия</text>
         <propbank>
@@ -108,6 +114,9 @@
         <role descr="thing found, discovery" f="PPT" n="1"/>
         <role descr="attribute on arg1 (found out to be/as what)" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="find.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="find necessary" src="Russian National Corpus. [В. Г. Распутин. Нова професси (1998)]">
         <text>Но если бы они нашли нужным снова начать с этих дести капель …</text>
         <propbank>
@@ -138,6 +147,9 @@
         <role descr="institution, thing located" f="PPT" n="1"/>
         <role descr="location" f="LOC" n="M"/>
       </roles>
+      <lexlinks>
+        <lexlink class="locate.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg0-PAG has no match in Russian frame.</note>
       <example name="non-reflexive" src="">
         <text>Опорную цену евра нашла на 3062 , это ниже моего осторожного прогноза 3102 .</text>

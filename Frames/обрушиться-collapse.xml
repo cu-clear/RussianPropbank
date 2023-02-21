@@ -30,10 +30,12 @@
       </aliases>
       <note>обрушиться.01 NOTES: Based on English tear_down.05.</note>
       <roles>
-        <role descr="demolisher, agent " f="PAG" n="0">
-        </role>
+        <role descr="demolisher, agent " f="PAG" n="0"/>
         <role descr="entity torn" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="tear_down.05" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="collapsing wall" src="">
         <text>Старший лейтенант Иван Ушаков дежурил на одном из объектов Минобороны , когда на него обрушилась стена .</text>
         <propbank>
@@ -106,6 +108,9 @@
         <role descr="thing hit" f="PPT" n="1"/>
         <role descr="instrument, non-volitional hitter" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="strike.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="figurative reflexive - perfective only" src="">
         <text>Удар стихии обрушился на несколько деревень в провинции Панджшер на северо - востоке страны в среду .</text>
         <propbank>

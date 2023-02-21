@@ -15,6 +15,9 @@
                 <role descr="One surrendering" f="PAG" n="0"/>
                 <role descr="Opponent to which one surrenders, victor" f="PPT" n="1"/>
             </roles>
+            <lexlinks>
+                <lexlink class="surrender.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG0" src="RNC, Война (09.03.1915) // «Русское слово», 1915">
                 <text> Один батальон из ее состава сдался полностью .</text>
                 <propbank>

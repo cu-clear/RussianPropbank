@@ -15,6 +15,9 @@
         <role descr="item" f="PPT" n="1"/>
         <role descr="list" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="find.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="counted among" src="">
         <text>Обратите внимание , где наступил коллапс : Притыцкого , Пушкина , Матусевича ( эти улицы никогда не числились среди затапливаемых ) и даже МКАД ( тут затопить не могло по определению ) .</text>
         <propbank>

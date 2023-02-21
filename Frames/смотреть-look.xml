@@ -16,11 +16,12 @@
       <note>Corresponds to FrameBank senses 1,5,8,15,19</note>
       <note>смотреть.01 NOTES: Based on look.01.</note>
       <roles>
-        <role descr="observer, searcher" f="PAG" n="0">
-        </role>
-        <role descr="at what or where arg0 looked" f="GOL" n="1">
-        </role>
+        <role descr="observer, searcher" f="PAG" n="0"/>
+        <role descr="at what or where arg0 looked" f="GOL" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="look.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="look somewhere" src="">
         <text>А ты посмотрел под кроватью ?</text>
         <propbank>
@@ -68,11 +69,12 @@
       <note>Corresponds to FrameBank senses 2,3,4,7,10,17,18</note>
       <note>Based on watch.01.</note>
       <roles>
-        <role descr="observer" f="PAG" n="0">
-        </role>
-        <role descr="thing being watched" f="PPT" n="1">
-        </role>
+        <role descr="observer" f="PAG" n="0"/>
+        <role descr="thing being watched" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="watch.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="perfective, watch film" src="">
         <text>Я хочу посмотреть фильм .</text>
         <propbank>
@@ -101,11 +103,12 @@
       <note>Corresponds to FrameBank senses 6,11</note>
       <note>Based on examine.01.</note>
       <roles>
-        <role descr="examiner" f="PAG" n="0">
-        </role>
-        <role descr="examined" f="PPT" n="1">
-        </role>
+        <role descr="examiner" f="PAG" n="0"/>
+        <role descr="examined" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="examine.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="examine; impersonal construction" src="">
         <text>Не , меня посмотрели и в операционную сразу .</text>
         <propbank>
@@ -124,15 +127,21 @@
       </example>
     </roleset>
     <roleset id="смотреть.04" name="look after">
-      <aliases><alias pos="j">смотрящий</alias><alias pos="j">смотревший</alias><alias pos="v">посмотреть</alias><alias pos="j">посмотревший</alias><alias pos="j">посмотренный</alias>&gt;
+      <aliases>
+        <alias pos="j">смотрящий</alias>
+        <alias pos="j">смотревший</alias>
+        <alias pos="v">посмотреть</alias>
+        <alias pos="j">посмотревший</alias>
+        <alias pos="j">посмотренный</alias>
       </aliases>
       <note>Based on look_after.07.</note>
       <roles>
-        <role descr="minder, watcher" f="PAG" n="0">
-        </role>
-        <role descr="entity minded, taken care of" f="PPT" n="1">
-        </role>
+        <role descr="minder, watcher" f="PAG" n="0"/>
+        <role descr="entity minded, taken care of" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="look_after.07" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="look after someone" src="В. В. Измайлов, «Прекрасная Татьяна, живущая у подошвы Воробьевых гор», 1804 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Мельтон , не довольный сею помочью , остался сам смотреть за больною и успокаивать огорченного старца .</text>
         <propbank>
@@ -152,11 +161,12 @@
       </aliases>
       <note>Based on look.02.</note>
       <roles>
-        <role descr="seemer" f="PAG" n="1">
-        </role>
-        <role descr="attribute" f="PRD" n="2">
-        </role>
+        <role descr="seemer" f="PAG" n="1"/>
+        <role descr="attribute" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="look.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="perfective, watch film" src="">
         <text>Он смотрет молодцом .</text>
         <propbank>
@@ -185,9 +195,11 @@
       <note>NOTES: Based on search.01.</note>
       <roles>
         <role descr="searcher " f="PAG" n="0"/>
-        <role descr="searched for" f="PPT" n="1">
-        </role>
+        <role descr="searched for" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="search.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="perfective, watch film" src="">
         <text>Посмотрите рубль , пожалуйста .</text>
         <propbank>
@@ -243,11 +255,12 @@
       <note>смотреть_в_рот NOTES: Based on flatter.01.</note>
       <note>Corresponds to FrameBank senses 13,14,16</note>
       <roles>
-        <role descr="gratifier" f="PAG" n="0">
-        </role>
-        <role descr="target of gratification" f="PPT" n="1">
-        </role>
+        <role descr="gratifier" f="PAG" n="0"/>
+        <role descr="target of gratification" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="flatter.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus. [И. Э. Кио. Иллюзии без иллюзий (1995-1999)]">
         <text>Бардиан считался настолько авторитарным и серьёзным начальником , что едва ли не все смотрели ему в рот , ― и уж по линии личных удовольствий он , будь половчее и смелее , мог бы добиться всего , чего только пожелал бы .</text>
         <propbank>

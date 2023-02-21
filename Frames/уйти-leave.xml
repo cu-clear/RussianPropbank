@@ -14,6 +14,9 @@
         <role descr="starting point" f="DIR" n="1"/>
         <role descr="destination" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="leave.11" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="went away" src="">
         <text>Я его выловила , заперла в душе , дочка ушла .</text>
         <propbank>
@@ -48,6 +51,9 @@
         <role descr="person, thing abandoned" f="PPT" n="1"/>
         <role descr="in exchange for; greener pastures" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="leave.15" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="">
         <text>Уходить из компании .</text>
         <propbank>
@@ -107,6 +113,9 @@
         <role descr="causer of ceasing, Agent (vnrole: 55.4-1-agent) " f="PAG" n="0"/>
         <role descr="Theme (action or object being stopped)" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="cease.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Б. А. Ахмадулина.">
         <text>По улице моей который год // звучат шаги - мои друзья уходят .</text>
         <propbank>
@@ -145,6 +154,9 @@
       <roles>
         <role descr="thing passing" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="pass.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus[Юлия Рахаева. Как стать успешным черным котом (2003) // «Известия», 2003.02.06]">
         <text>То время ушло , увы , поторопила свой уход вслед за ним и Юлия Друнина …</text>
         <propbank>
@@ -162,6 +174,9 @@
         <role descr="entity immersed " f="PAG" n="0"/>
         <role descr="entity immersed into" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="immerse.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus[Вячеслав Пьецух. Шкаф (1997)]">
         <text>― Чему быть , того не миновать , ― сказала Ольга и как - то ушла в себя .</text>
         <propbank>
@@ -203,6 +218,9 @@
         <role descr="fast entity/action" f="PPT" n="1"/>
         <role descr="speed" f="EXT" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="fast.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus[С. Д. Мстиславский. Грач ― птица весенняя (1937)]">
         <text>Коридорные часы уходили на десять минут вперед .</text>
         <propbank>
@@ -221,6 +239,9 @@
         <role descr="thing going " f="PPT" n="1"/>
         <role descr="receiver" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="go.10" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus[Наталья Дубова. Вокруг ITSM // «Computerworld», 2004]">
         <text>Однако сколько времени уйдёт на это , и каких усилий может это стоить ИТ - отделу , не имеющему реального опыта подобных проектов ?</text>
         <propbank>
@@ -238,6 +259,9 @@
       <roles>
         <role descr="thing boiling over (pot, etc)" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="boil_over.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
     </roleset>
     <roleset id="уйти.09" name="cool off, calm down, recover from negative emotions">
       <aliases>
@@ -247,6 +271,9 @@
         <role descr="entity becoming calm (vnrole: 42.3-patient)" f="PPT" n="1"/>
         <role descr=" instrument of calming" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="calm_down.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus[А. Н. Островский. Гроза (1860)]">
         <text>Молоду тебя замуж - то отдали , погулять - то тебе в девках не пришлось : вот у тебя сердце - то и не уходилось ещё .</text>
         <propbank>

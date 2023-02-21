@@ -23,11 +23,12 @@
       <note>Corresponds to FrameBank senses 1,2,3,4</note>
       <note>понять.01 NOTES: Based on understand.01.</note>
       <roles>
-        <role descr="understander" f="PAG" n="0">
-        </role>
-        <role descr="thing understood" f="PPT" n="1">
-		</role>
+        <role descr="understander" f="PAG" n="0"/>
+        <role descr="thing understood" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="understand.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="as I understood" src="">
         <text>вообщем как я понял люди не могут отличить " ЖУЖЖАЛКУ " от предмета разговора</text>
         <propbank>

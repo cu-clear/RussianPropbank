@@ -24,6 +24,9 @@
         <role descr="beneficiary" f="GOL" n="2"/>
         <role descr="subject-matter of a decision " f="VSP" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="decide.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg0 and 1" src="">
         <text>Хорошо , скажи мне , что ты решишь .</text>
         <propbank>
@@ -96,6 +99,9 @@
         <role descr="manner" f="mnr" n="2"/>
         <role descr="beneficiary [new, not in ENG]" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="solve.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="find an answer to the question" src="">
         <text>Так , что если учиться , то надо решить * PRO * основной вопрос : а тому ли я учусь ?</text>
         <propbank>

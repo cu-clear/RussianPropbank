@@ -16,6 +16,9 @@
         <role descr="invited" f="PPT" n="1"/>
         <role descr="invited-to" f="LOC" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="вызываться.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="call the doctor" src="">
         <text>Мы вызвали врача .</text>
         <propbank>
@@ -68,6 +71,9 @@
         <role descr="forcer, causer" f="CAU" n="0"/>
         <role descr="impelled action, event" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="cause.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="lingvolive">
         <text>вызвать предубеждение присяжных в отношении подсудимого .</text>
         <propbank>
@@ -88,6 +94,9 @@
         <role descr="thing offered" f="PPT" n="1"/>
         <role descr="recipient" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="volunteer.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="perfective" src="О. М. Сомов, «Юродивый», 1827 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Лекарь охотно вызвался навещать его , хотя и не предвидел никакой надежды его излечить .</text>
         <propbank>

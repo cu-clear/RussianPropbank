@@ -16,6 +16,9 @@
         <role descr="corpse" f="PPT" n="1"/>
         <role descr="instrument" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="kill.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="killed by" src="Russian National Corpus: Алла Глебова, «Матрёшка Ханны Шигуллы» // «Домовой», 04 августа 2002 г. RNC">
         <text>Фассбиндера убила гремучая смесь кокаина , барбитуратов и алкоголя , а также непрерывная работа на износ .</text>
         <propbank>
@@ -56,6 +59,9 @@
         <role descr="eliminator, agent " f="PPT" n="0"/>
         <role descr="thing eliminated " f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="eradicate.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="trump the card" src="">
         <text>Убить карту .</text>
         <propbank>
@@ -99,6 +105,9 @@
         <role descr="time, money, etc." f="PPT" n="1"/>
         <role descr="activity, waster" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="kill.04" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="squander" src="Russian National Corpus: [Вас. И. Немирович-Данченко. Цари биржи (Каиново племя в наши дни) (1886)]">
         <text>Я очень много убил денег на « Старгородку » .</text>
         <propbank>
@@ -129,6 +138,9 @@
         <role descr="entity smitten" f="PPT" n="1"/>
         <role descr="with what" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="smite.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English ARG2-GOL = Russian ARG1-PPT</note>
       <note>English ARG3-MNR = Russian ARG2-MNR</note>
       <note>English ARG1-PPT has no match in Russian frame</note>
@@ -152,6 +164,9 @@
         <role descr="injured entity (body part if arg0 is possessor)" f="PPT" n="1"/>
         <role descr="instrument, injured doing what" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="injure.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="hurt limb" src="Russian National Corpus: [Л. М. Леонов. Гибель Егорушки (1922)]">
         <text>Лев облизал ему убившую руку , а птица стратон поклонилась ему .</text>
         <propbank>
@@ -177,6 +192,9 @@
         <role descr="causer of compaction" f="PAG" n="0"/>
         <role descr="thing getting compacted" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="compact.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="well beaten road" src="Russian National Corpus:  [А. И. Эртель. Записки Степняка (1883)] ">
         <text>Немного погодя бойкий топот Копчика по твердо убитой дороге дал нам знать , что Михайло действительно скатает « духом » в Березовку .</text>
         <propbank>

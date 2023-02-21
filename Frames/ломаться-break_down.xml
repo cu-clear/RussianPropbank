@@ -13,9 +13,12 @@
             <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
             <note>NOTES: based on English break_down.12</note>
             <roles>
-                <role descr="Cause of breaking" f="PRD" n="0" />
-                <role descr="Thing broken" f="PPT" n="1" />
+                <role descr="Cause of breaking" f="PRD" n="0"/>
+                <role descr="Thing broken" f="PPT" n="1"/>
             </roles>
+            <lexlinks>
+                <lexlink class="break_down.12" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG1 only" src="RNC, Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001">
                 <text> У ребенка жизнь ломается ― им хоть бы хны !</text>
                 <propbank>

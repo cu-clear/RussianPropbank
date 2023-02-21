@@ -15,6 +15,9 @@
         <role descr="topic" f="PPT" n="1"/>
         <role descr="comment" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="be.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="«Дышащие мембраны», 2003 г. // «Текстиль» (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Одной из самых известных мембран такого типа является Gore - Tex .</text>
         <propbank>
@@ -42,6 +45,9 @@
       <roles>
         <role descr="thing appearing" f="PAG" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="appear.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="appear" src="Уильям Шекспир, «Король Лир»">
         <text>Хотя этот сорванец явился на свет без приглашения , мать его была красавица .</text>
         <propbank>
@@ -64,6 +70,9 @@
         <role descr="entity present" f="PAG" n="0"/>
         <role descr="where" f="LOC" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="present.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="appeared as" src="А. С. Пушкин, «Барышня-крестьянка», 1830 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Он первый перед ними явился мрачным и разочарованным , первый говорил им об утраченных радостях и об увядшей своей юности ; сверх того носил он чёрное кольцо с изображением мёртвой головы .</text>
         <propbank>
@@ -106,6 +115,9 @@
         <role descr="thing demonstrated" f="PPT" n="1"/>
         <role descr="watcher" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="demonstrate.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="reveal" src="Russian National Corpus[Иоанн Мейендорф. Духовное и культурное Возрождение XIV века и судьбы Восточной Европы (1992)]">
         <text>Имя Божие как бы являет Его собственное присутствие .</text>
         <propbank>

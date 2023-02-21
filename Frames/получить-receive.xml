@@ -21,13 +21,15 @@
       <note>Corresponds to FrameBank senses 1,2,3,5</note>
       <note>получить.01 NOTES: Roleset based on verb frame get.01</note>
       <roles>
-        <role descr="receiver" f="PAG" n="0">
-        </role>
+        <role descr="receiver" f="PAG" n="0"/>
         <role descr="thing gotten" f="PPT" n="1"/>
         <role descr="giver" f="DIR" n="2"/>
         <role descr="price paid/exchange for" f="vsp" n="3"/>
         <role descr="beneficiary" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="get.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="receive awards" src="Russian National Corpus. [коллективный. Форум: Рецензия на фильм «Поймай меня, если сможешь» (2006-2011)]">
         <text>Фильм не зря входит в топы и получил в свое время массу наград .</text>
         <propbank>
@@ -81,6 +83,9 @@
         <role descr="thing hit or injured" f="PPT" n="2"/>
         <role descr="instrument" f="mnr" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="injure.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all arguments" src="">
         <text>от девушки он получил по морде книгой за оскорбления .</text>
         <propbank>
@@ -131,6 +136,9 @@
         <role descr="thing actively gotten" f="PPT" n="1"/>
         <role descr="entity arg1 is got from" f="DIR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="extract.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="adjectival form" src="Russian National Corpus. [Герман Дмитриев. Домна, не требующая кокса // «Техника - молодежи», 1987]">
         <text>Остается добавить , что чугун , полученный без кокса , превосходно переделывается в сталь в мартенах , конвертерах и дуговых электропечах .</text>
         <propbank>
@@ -185,6 +193,9 @@
         <role descr="task, goal succeeding" f="PPT" n="1"/>
         <role descr="benefactive" f="PPT" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="succeed.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="eventive arg1" src="Эльвира Савкина, «Если нужно, могу выпустить когти», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Человек может быть счастлив от общения с другим человеком , оттого , что у него выздоровел друг или получилось сделать то , о чем он давно мечтал .</text>
         <propbank>
@@ -230,6 +241,9 @@
         <role descr="thing seeming, changing" f="PPT" n="1"/>
         <role descr="attribute" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="turn_out.11" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="Владимир Лукашик, Елена Иванова, «Сборник задач по физике. 7-9 кл.», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>При заполнении цилиндрического сосуда жидкостью менее плотной , чем вода , высота столба получилась бы больше .</text>
         <propbank>

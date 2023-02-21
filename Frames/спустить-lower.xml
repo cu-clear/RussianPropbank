@@ -20,6 +20,9 @@
         <role descr="start point" f="DIR" n="4"/>
         <role descr="end point, end state of arg1" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="lower.05" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="И. С. Тургенев, «Накануне», 1859 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Она развязала ленты шляпы , сбросила её , спустила с плеч мантилью , поправила волосы и села на маленький , старенький диванчик .</text>
         <propbank>
@@ -71,6 +74,9 @@
         <role descr="starter, agent" f="PAG" n="0"/>
         <role descr="thing being launched" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="launch.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Василий Ян, «Чингиз-хан», 1939 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Наделав плотов и нагрузив их катапультами и круглыми камнями , годными для метания , монголы спустили плоты вниз по реке Синду и прибыли к городу Мультану . " .</text>
         <propbank>
@@ -104,6 +110,9 @@
         <role descr="thing released (vnrole: 80-1-Theme)" f="PPT" n="1"/>
         <role descr="released from" f="DIR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="release.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="М. А. Шолохов, «Тихий Дон», Книга четвёртая, 1928–1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Вас , стариков , стало быть , спустили по домам ?</text>
         <propbank>
@@ -152,6 +161,9 @@
         <role descr="balloon, tire, etc" f="PPT" n="1"/>
         <role descr="gas, water, etc." f="PPT" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="deflate.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>Russian Arg2-PPT has no match in English Frame</note>
       <example name="" src="Г. М. Марков, «Строговы», 1936–1948 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Пароход с шумом спустил пары .</text>
@@ -182,6 +194,9 @@
         <role descr="benefactive, entity gaining thing lost (vnrole: 13.2-recipient) " f="GOL" n="2"/>
         <role descr="source of loss" f="DIR" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="lose.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="В. В. Крестовский, «Панургово стадо», 1869 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Ведь так - то и тысячи спустишь в один вечер !</text>
         <propbank>
@@ -209,6 +224,9 @@
         <role descr="entity spared" f="PPT" n="1"/>
         <role descr="entity spared from" f="VSP" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="spare.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="П. И. Мельников-Печерский, «В лесах», Книга первая, 1871–1874 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Ну что ж , думаю , пущай его потешится … Другому ― не спущу , а крестному как не спустить ?</text>
         <propbank>

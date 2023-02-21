@@ -26,6 +26,9 @@
         <role descr="loved" f="PPT" n="1">
 		</role>
       </roles>
+      <lexlinks>
+        <lexlink class="love.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="active transitive" src="">
         <text>Я вообще люблю воду ту , которая без вкуса вообще , ну , или где - то рядом .</text>
         <propbank>

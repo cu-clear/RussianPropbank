@@ -16,6 +16,9 @@
                 <role descr="Entity getting advice, impelled agent" f="GOL" n="1"/>
                 <role descr="Advice, impelled action" f="PPT" n="2"/>
             </roles>
+            <lexlinks>
+                <lexlink class="advise.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG0, ARG1, and ARG2" src="RNC, Е. В. Топильская. Танцы с ментами: Авторский сборник. Спб.: Нева, 2005">
                 <text>Я рассказал всю правду следователю и вам советую это сделать</text>
                 <propbank>

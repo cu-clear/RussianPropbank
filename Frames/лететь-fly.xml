@@ -18,6 +18,9 @@
         <role descr="airline, end point, direction of flight" f="GOL" n="4"/>
         <role descr="start point, originating location" f="DIR" n="5"/>
       </roles>
+      <lexlinks>
+        <lexlink class="fly.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>Russian Arg5-DIR has no match in English frame</note>
       <example name="arg 0" src="http://marker.framebank.ru/verbs_ex.php?lex=лететь&amp;cxid=4494">
         <text>Птица летела с головокружительной быстротою , поднимаясь всё выше и выше .</text>
@@ -88,6 +91,9 @@
         <role descr="start point" f="DIR" n="3"/>
         <role descr="end point, end state of arg1" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="fall.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=лететь&amp;cxid=4517">
         <text>У меня , как я ни старался , он подскакивал раз пять или шесть , а « дядя Володя » пошепчет над ним какое - то волшебное слово , разбежится и так зашвырнёт его в воду своей сильной , короткой рукой , что тот , словно и впрямь заколдованный , летит рикошетом и ни за что не хочет погружаться на дно .</text>
         <propbank>
@@ -108,6 +114,9 @@
         <role descr="ruined thing" f="PPT" n="1"/>
         <role descr="attribute of arg1 that is being ruined (if in addition to arg1)" f="VSP" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="ruin.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg0-PAG has no match in Russian frame </note>
       <example name="example" src="Russian National Corpus[Светлана Бабаева, Екатерина Григорьева. Слоеный пирог. Владимир Путин начал раздачу власти (2003) // «Известия», 2003.02.18]">
         <text>Новоиспечённым родителям часто кажется , что всё вокруг рушится , летит в тартарары .</text>
@@ -127,6 +136,9 @@
         <role descr="loser" f="PPT" n="1"/>
         <role descr="winner or instrument of destruction" f="GOL" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="fall.05" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="perfective" src="">
         <text>Мы пролeтели в этом деле .</text>
         <propbank>

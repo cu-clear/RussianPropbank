@@ -13,12 +13,13 @@
       <note>Corresponds to FrameBank sense 1</note>
       <note>остаться.01 NOTES: Based on stay.01</note>
       <roles>
-        <role descr="thing remaining" f="PPT" n="1">
-		</role>
-        <role descr="benefactive, rare" f="GOL" n="2">
-		</role>
+        <role descr="thing remaining" f="PPT" n="1"/>
+        <role descr="benefactive, rare" f="GOL" n="2"/>
         <role descr="attribute of arg1: state, location stayed in" f="PRD" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="stay.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="visit, stay with" src="">
         <text>Я остался с родителями .</text>
         <propbank>
@@ -76,6 +77,9 @@
         <role descr="entity in state" f="PPT" n="1"/>
         <role descr="new state (may involve concatenation)" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="leave.13" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English ARG1 = Russian ARG2</note>
       <note>Russian ARG1 has no match in English frame</note>
       <example name="left with nothing" src="">
@@ -140,6 +144,9 @@
         <role descr="enity remaining" f="PPT" n="1"/>
         <role descr="larger original set of which a part is remaining" f="dir" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="leave.17" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="is left" src="">
         <text>у меня тож походу останется один флаер ... если останется - на входе кому - нить подарю ... какой - нибудь симпатишной девушке</text>
         <propbank>

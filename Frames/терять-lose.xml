@@ -26,13 +26,14 @@
       <note>Corresponds to FrameBank sense 1</note>
       <note>терять.01 NOTES: Based on lose.02.</note>
       <roles>
-        <role descr="entity losing sth" f="PAG" n="0">
-        </role>
-        <role descr="thing lost" f="PPT" n="1">
-		</role>
+        <role descr="entity losing sth" f="PAG" n="0"/>
+        <role descr="thing lost" f="PPT" n="1"/>
         <role descr="benefactive, entity gaining thing lost" f="GOL" n="2"/>
         <role descr="source of loss" f="DIR" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="lose.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1" src="">
         <text>вот смысл сказки , худ литературы не улавливает .. вернее теряет его через 3 - 4 предложения .</text>
         <propbank>
@@ -84,11 +85,12 @@
       <note>Corresponds to FrameBank senses 2,3,4,5,6,7</note>
       <note>терять.02 NOTES: Based on lose_out.06.</note>
       <roles>
-        <role descr="entity losing something" f="PAG" n="0">
-        </role>
-        <role descr="thing lost" f="PPT" n="1">
-		</role>
+        <role descr="entity losing something" f="PAG" n="0"/>
+        <role descr="thing lost" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="lose_out.06" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg2-GOL has no match in Russian frame</note>
       <example name="lose (out), suffer" src="">
         <text>САмое грустное , что когда растет доллар , те , кто взял в рублях кредиты тоже теряют - их уровень жизни падает .</text>
@@ -124,11 +126,12 @@
       </aliases>
       <note>теряться.01 NOTES: Based on confuse.01.</note>
       <roles>
-        <role descr="entity experiencing confusion" f="PPT" n="1">
-		</role>
-        <role descr="confused about or over what? (first or all things)" f="VSP" n="2">
-		</role>
+        <role descr="entity experiencing confusion" f="PPT" n="1"/>
+        <role descr="confused about or over what? (first or all things)" f="VSP" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="confuse.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg0-PAG has no match in Russian frame</note>
       <note>English Arg3-VSP has no match in Russian frame</note>
       <example name="all args" src="Russian National Corpus. [Людмила Улицкая. Казус Кукоцкого [Путешествие в седьмую сторону света]">

@@ -16,6 +16,9 @@
         <role descr="sent" f="PPT" n="1"/>
         <role descr="sent-to, destination" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="send.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="shipped" src="А. П. Чехов, «Драма на охоте»">
         <text>Она , ещё не бывши его женой , собственными глазами видела , как он отправлял в город возы битых кур и гусей .</text>
         <propbank>
@@ -78,6 +81,9 @@
         <role descr="fulfiller" f="PAG" n="0"/>
         <role descr="promise, contract, unresolved issue " f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="fulfill.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="imperfective" src="Осип Дымов, «Государства, основанные германцами» ">
         <text>Бароны отправляли военную службу , защищая от внешних врагов свои священные права собственности .</text>
         <propbank>
@@ -111,6 +117,9 @@
         <role descr="departed from" f="DIR" n="1"/>
         <role descr="departed for, destination" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="depart.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="set off for" src="Russian National Corpus[коллективный. Форум: Поход в цирк (2010)]">
         <text>На днях я в компании друзей отправился в цирк !</text>
         <propbank>

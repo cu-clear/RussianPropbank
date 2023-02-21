@@ -23,6 +23,9 @@
         <role descr="subject" f="PRD" n="2">
         </role>
       </roles>
+      <lexlinks>
+        <lexlink class="think.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="think something about someone" src="">
         <text>Что вы думаете о нем ?</text>
         <propbank>
@@ -75,6 +78,9 @@
         <role descr="action under consideration. S-node infinitive only!" f="PPT" n="1"/>
         <note>English Arg2-PRD has no match in Russian frame</note>
       </roles>
+      <lexlinks>
+        <lexlink class="consider.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="think about doing something" src="">
         <text>Поначалу я думала выкупить у Литфонда нашу дачу .</text>
         <propbank>
@@ -109,6 +115,9 @@
         </role>
         <note>English Arg2-PRD = Russian Arg1-PPT</note>
       </roles>
+      <lexlinks>
+        <lexlink class="suspect.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1" src="https://dic.academic.ru/dic.nsf/ogegova/53526">
         <text>Опять поломка : думают на новичка .</text>
         <propbank>

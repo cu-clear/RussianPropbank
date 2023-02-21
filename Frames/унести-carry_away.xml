@@ -18,6 +18,9 @@
         <role descr="source" f="SRC" n="3"/>
         <role descr="goal, recipient" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="carry.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg3-VSP = Russian Arg3-SRC</note>
       <example name="passive adjectival particple, arg1 and arg2" src="">
         <text>Счёт подтопленных , унесённых потоками воды или просто брошенных автомобилей шёл на тысячи .</text>
@@ -93,6 +96,9 @@
         <role descr="thing stolen" f="PPT" n="1"/>
         <role descr="stolen from" f="DIR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="steal.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="take a life" src="">
         <text>С середины мая , Индия шатается из - за периодов сильной жары , которая унесла жизни 1,403 человек .</text>
         <propbank>
@@ -140,6 +146,9 @@
         <role descr="causal agent" f="PAG" n="0"/>
         <role descr="the disappeared" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="disappear.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="take a life" src="Russian National Corpus. [Еремей Парнов. Александрийская гемма (1990)]">
         <text>Маг - чернокнижник забыл заклинание и был унесен дьяволом .</text>
         <propbank>
@@ -165,6 +174,9 @@
         <role descr="entity escaping" f="PAG" n="0"/>
         <role descr="place escaped" f="DIR" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="escape.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="унести ноги" src="Russian National Corpus. [Николай Дежнев. Принцип неопределенности (2009)]">
         <text>Ну уж нет , ― покачал головой Мокей , ― с меня достаточно ! Я оттуда едва ноги унес .</text>
         <propbank>

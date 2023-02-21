@@ -18,6 +18,9 @@
         <role descr="taken FROM, SOURCE of thing taken" f="DIR" n="2"/>
         <role descr="destination" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="take.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg0 and arg1" src="">
         <text>Хорошо , я его возьму .</text>
         <propbank>
@@ -104,6 +107,9 @@
         <role descr="purpose or benefactive (or agent if in addition to arg0))" f="GOL" n="3"/>
         <role descr="how taken(e.g. взаймы, штурмом)" f="MNR" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="conquer.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="made the summit" src="И. А. Ефремов, «Лезвие бритвы», 1959—1963 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Только отчаянным порывом , с безмерным напряжением сил храбрые шерпы и австрийцы взяли вершину .</text>
         <propbank>
@@ -177,6 +183,9 @@
         <role descr="thing turning" f="PPT" n="1"/>
         <role descr="direction, location, destination" f="LOC" n="m"/>
       </roles>
+      <lexlinks>
+        <lexlink class="turn.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="go left" src="Василий Белов, «Привычное дело», 1967 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Иван Африканович взял левее , в надежде опять выбраться на тропу .</text>
         <propbank>
@@ -206,6 +215,9 @@
         <role descr="thing" f="PPT" n="1"/>
         <role descr="attribute" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="take.04" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="take the question" src="Андрей Андреев, «Будущее принадлежит нам!», 22 августа 2003 г. // «Завтра» (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Взять хотя бы вопрос о необходимости службы в армии …</text>
         <propbank>
@@ -242,6 +254,9 @@
         <role descr="new employee" f="PPT" n="1"/>
         <role descr="job" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="hire.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="Д. Донцова, «Микстура от косоглазия», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Его взяли шофёром , едва ли месяц поездил и ушёл .</text>
         <propbank>
@@ -261,6 +276,9 @@
         <role descr="thing being covered" f="PPT" n="1"/>
         <role descr="the cover itself" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="cover_over.05" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="А. И. Солженицын, «В круге первом», 1968 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Куда тёк ручей — почти нельзя было понять : он не тёк вовсе , его поверхность была готова взяться ледком .</text>
         <propbank>
@@ -278,6 +296,9 @@
         <role descr="entity taking on the endeavor" f="PPT" n="0"/>
         <role descr="the endeavor" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="undertake.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="thing" src="Russian National Corpus: [Александра Маринина. Последний рассвет (2013)]">
         <text>Но все же экономическая хватка у Алексея Юрьевича была недюжинной , и , поостыв , он взялся за перо и бумагу и принялся считать .</text>
         <propbank>

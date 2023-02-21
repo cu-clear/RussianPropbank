@@ -15,6 +15,9 @@
         <role descr="noticer" f="PAG" n="0"/>
         <role descr="noticed" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="notice.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="Татьяна Труфанова, «Не/друг», 2016 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Славик дёрнулся , как от электроразряда . Заметила ли она ручку ? ! — Поехали , — сказала Катерина . Саврасов нервно сглотнул и тронулся с места .</text>
         <propbank>
@@ -41,6 +44,9 @@
         <role descr="memorizer" f="PAG" n="0"/>
         <role descr="thing memorized" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="memorize.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus[Е. Л. Шварц. Сказка о потерянном времени (1940-1950)]">
         <text>Я вчера не заметил дороги обратно к домику ― боялся время потерять .</text>
         <propbank>
@@ -64,6 +70,9 @@
         <role descr="hearer" f="GOL" n="2"/>
         <role descr="attribute of arg1" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="note.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="perfective" src="Russian National Corpus[Наталья Дубова. Вокруг ITSM // «Computerworld», 2004]">
         <text>" У нас уже есть примеры , когда при наличии определённой воли у бизнес - подразделений ИТ - департаменты начинают предоставлять и даже продавать именно услуги " , ― заметил он .</text>
         <propbank>
@@ -94,6 +103,9 @@
         <role descr="suspicion: what arg0 thinks" f="PPT" n="1"/>
         <role descr="suspect; entity inspring suspicion in arg0" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="suspect.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus [М. А. Булгаков. Мастер и Маргарита, часть 2 (1929-1940)]">
         <text>Она дала самые лестные рекомендации коту , объяснила , что знает его пять лет с тех пор , как он был котёнком , ручается за него , как за самоё себя , доказала , что он ни в чём плохом не замечен и никогда не ездил в Москву .</text>
         <propbank>

@@ -17,6 +17,9 @@
         </role>
         <role descr="touched with, if separate from agent" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="touch.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Russian National Corpus[Владимир Лукашик, Елена Иванова. Сборник задач по физике. 7-9 кл. (2003)]">
         <text>Известно , что если коснуться заземлённой металлической проволокой конца B , то палочка приобретёт положительный заряд .</text>
         <propbank>
@@ -45,6 +48,9 @@
         <role descr="entity dealing with something " f="PPT" n="0"/>
         <role descr="thing dealt with" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="concern.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
         <text>Да и потом , что касается воспитателей , то они работают по двое посменно .</text>
         <propbank>

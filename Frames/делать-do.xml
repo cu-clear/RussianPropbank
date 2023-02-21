@@ -27,6 +27,9 @@
         <role descr="instrumental" f="MNR" n="3"/>
         <role descr="comitative, companion while doing" f="COM" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="do.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="do-v" src="">
         <text>это полезно делать людям ЛЮБОГО возраста .</text>
         <propbank>

@@ -16,6 +16,9 @@
         <role descr="start point -- also rare" f="DIR" n="3"/>
         <role descr="end point, destination " f="LOC" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="arrive.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="will land" src="А. Р. Беляев, «Остров погибших кораблей», 1926 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>В порыве великодушия и умиления собственным геройством он обещал Гатлингу перед тем , как взойти на пароход , сохранить тайну его личности и предложил бежать , как только пароход прибудет в ближайшую гавань .</text>
         <propbank>
@@ -57,6 +60,9 @@
         <role descr="start point" f="DIR" n="3"/>
         <role descr="end point" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="increase.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg0-PAG has no match in Russian frame</note>
       <example name="args 1 and 4" src="П. И. Мельников-Печерский, «В лесах», 1871—1874 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Тебя не убудет , а мне радости прибудет .</text>

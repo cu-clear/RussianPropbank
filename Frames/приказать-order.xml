@@ -16,6 +16,9 @@
         <role descr="impelled agent" f="GOL" n="1"/>
         <role descr="impelled action" f="PPT" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="order.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="split arg2" src="М. А. Булгаков, «Мастер и Маргарита, часть 2», 1929-1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>У вас праздник , а что же прикажешь делать мне ?</text>
         <propbank>
@@ -54,6 +57,9 @@
         <role descr="entity entrusted" f="PPT" n="1"/>
         <role descr="entity entrusted to" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="entrust.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="entrust" src="Л. Н. Толстой, «Отрывки из деревенской жизни»">
         <text>Накануне хозяин к начальству за деньгами в город ездил , а ребят Лизуну приказал .</text>
         <propbank>

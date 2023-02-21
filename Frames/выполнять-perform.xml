@@ -16,6 +16,9 @@
         <role descr="performance, thing performed" f="PPT" n="1"/>
         <role descr="instrument" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="perform.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg2-MNR has no equivalent in Russian frame</note>
       <example name="arg1 and arg2" src="FrameBank">
         <text>Космонавты выполнили ряд монтажных операций .</text>
@@ -47,6 +50,9 @@
         <role descr="created-from, thing changed" f="VSP" n="2"/>
         <role descr="benefactive " f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="manufacture.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1, 2" src="">
         <text>Электромотор был выполнен целиком из отечественных материалов .</text>
         <propbank>

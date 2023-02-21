@@ -16,6 +16,9 @@
         <role descr="commodity" f="PPT" n="1"/>
         <role descr="price" f="vsp" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="cost.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="cost" src="">
         <text>Фигово ей ) Щетка стоит примерно 4 тысячи , если она реально лучше обычной , то обязательно возьму . Лучше предотвратить кариес , чем лечить его</text>
         <propbank>
@@ -40,6 +43,9 @@
         <role descr="worthy of what" f="PPT" n="2"/>
         <role descr="entity recognizing value" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="worth.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="worth it" src="">
         <text>Но разве оно того стоило ?</text>
         <propbank>
@@ -69,6 +75,9 @@
         <role descr="Action (barely) begun" f="PPT" n="1"/>
         <role descr="Instrument, starting point" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="begin.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="only begin" src="М. А. Булгаков, «Мастер и Маргарита, часть 1», 1929-1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Ну , а колдовству , как известно , стоит только начаться , а там уж его ничем не остановишь .</text>
         <propbank>

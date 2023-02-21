@@ -14,6 +14,9 @@
         <role descr="removed from" f="DIR" n="2"/>
         <role descr="removed to" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="remove.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>Russian Arg3-GOL has no match in English frame </note>
       <example name="take away" src="Russian National Corpus[Наши дети: Подростки (2004)]">
         <text>А в школе была проблема , поскольку там не разрешали тарелки с недоеденным в мойку относить .</text>
@@ -63,6 +66,9 @@
         <role descr="original time " f="DIR" n="3"/>
         <role descr="new time" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="postpone.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="postpone" src="Russian National Corpus[К. С. Бадигин. Секрет государственной важности (1974)]">
         <text>Сначала я и это отнес к случайности … Относил до вчерашнего дня … Может быть , все же разрешите закурить ?</text>
         <propbank>
@@ -90,6 +96,9 @@
         <role descr="theme, thing being included in some group " f="PPT" n="1"/>
         <role descr="group" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="include.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="a type of" src="А. Л. Калуцкий, «Отряд Жуки», 2003 г. // «Биология» (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>К хищным жукам относятся и плавунцы .</text>
         <propbank>
@@ -160,6 +169,9 @@
         <role descr="entity treated" f="PPT" n="1"/>
         <role descr="attitude or manner of relating" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="treat.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg2-PRD = Russian Arg2-MNR</note>
       <example name="have a good sense of humor" src="«Вы над собой смеяться не боитесь?», 2002 г. // «Дело (Самара)» (цитата из Национального корпуса русского языка, см. Список литературы">
         <text>Я ко всему такому отношусь с юмором и радуюсь , если ко мне так же относятся мои друзья , знакомые .</text>
@@ -192,6 +204,9 @@
         </role>
         <role descr="attribute" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="approach.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="participle" src="Russian National Corpus[Г. И. Невельской. Подвиги русских морских офицеров на крайнем Востоке России (1878)]">
         <text>Что же касается до присылки собственно для экспедиции парового судна из Кронштадта , то я отнёсся уже с просьбою к начальнику Главного морского штаба и с этою же почтою предлагаю к точному исполнению начальнику Аянского порта Кашеварову исполнять ваши требования и отправлять в Петровское зимовье товары , запасы и прочее и на компанейских судах , следующих из Аяна в Ситху » .</text>
         <propbank>

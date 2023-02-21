@@ -16,6 +16,9 @@
                 <role descr="causer of tiredness, sleepiness" f="PAG" n="0"/>
                 <role descr="tired entity" f="PPT" n="1"/>
             </roles>
+            <lexlinks>
+                <lexlink class="tire.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG 1 only" src="RNC, Новый Мир, 2002 N9">
                 <text>Ирина вначале уставала , потом привыкла .</text>
                 <propbank>
@@ -46,6 +49,9 @@
                 <role descr="tired entity" f="PAG" n="0"/>
                 <role descr="what arg0 doesn't want to put up with anymore" f="PPT" n="1"/>
             </roles>
+            <lexlinks>
+                <lexlink class="tire.03" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG0 and 1" src="RNC, Запись LiveJournal">
                 <text>... но видимо просто я слишком устала стучать .</text>
                 <propbank>

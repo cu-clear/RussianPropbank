@@ -11,13 +11,14 @@
       <note>отметить.01 NOTES: based on English mark.02</note>
       <note>Corresponds to FrameBank senses 1,2</note>
       <roles>
-        <role descr="agent, marker" f="PAG" n="0">
-        </role>
-        <role descr="mark" f="PPT" n="1">
-        </role>
+        <role descr="agent, marker" f="PAG" n="0"/>
+        <role descr="mark" f="PPT" n="1"/>
         <role descr="surface, marked-on " f="GOL" n="2"/>
         <role descr="instrument, marker" f="MNR" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="mark.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1 and arg 2" src="">
         <text>в паспорте отметили « постоянно проживающий за границей » .</text>
         <propbank>
@@ -39,6 +40,9 @@
         <role descr="signifier" f="PAG" n="0"/>
         <role descr="signified" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="mark.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="commemorate" src="Russian National Corpus[Взрыв и хаос к юбилею (2003) // «Поиск», 2003.09.12]">
         <text>Именно так отметили в Институте ядерной физики СО РАН 75 - летний юбилей академика Бориса Чирикова , основателя физической теории динамического хаоса .</text>
         <propbank>
@@ -87,6 +91,9 @@
         <role descr="hearer" f="GOL" n="2"/>
         <role descr="attribute of arg1" f="PRD" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="note.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="noted" src="Russian National Corpus[Мария Козлова. Свобода совести и светскость государства: проблемы и решения (1 часть) (2004) // «Адвокат», 2004.12.01]">
         <text>В начале своего выступления он отметил : " Во всех мировых религиях в священных текстах встречаются сцены насилия , самобичевания как способ вероисповедания . "</text>
         <propbank>
@@ -133,6 +140,9 @@
         <role descr="entity being checked in" f="PPT" n="1"/>
         <role descr="checked in to" f="LOC" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="sign_in.06" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="checked in" src="Ю. В. Никулин, «Семь долгих лет», 1979 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Я вошёл в помещение призывного пункта , отметился у дежурного и , положив в угол рюкзак , сел на скамейку . "</text>
         <propbank>

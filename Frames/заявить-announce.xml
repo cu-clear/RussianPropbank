@@ -16,6 +16,9 @@
         <role descr="hearer" f="GOL" n="2"/>
         <role descr="attributive" f="PRD" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="declare.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="А. И. Куприн, «Поединок», 1905 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>В таком случае заявляю , что ни на один из вопросов капитана Петерсона я отвечать не буду , — сказал Ромашов .</text>
         <propbank>
@@ -76,6 +79,9 @@
         <role descr="registered with or for" f="GOL" n="2"/>
         <role descr="secondary predication" f="PRD" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="register.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=14184">
         <text>Но если его приходилось заявлять на матч , то об этом ему полагалось объявлять буквально за минуту до начала -- в противном случае он просто « рассыпался »</text>
         <propbank>
@@ -128,6 +134,9 @@
       <roles>
         <role descr="thing appearing, showing up" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="show_up.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="">
         <text>Заявился в гости в 3 ч . ночи .</text>
         <propbank>

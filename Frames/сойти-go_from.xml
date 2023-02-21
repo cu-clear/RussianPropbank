@@ -17,6 +17,9 @@
         <role descr="start point, high point" f="DIR" n="3"/>
         <role descr="end point, low point" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="descend.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="descend" src="Russian National Corpus[Сати Спивакова. Не всё (2002)] ">
         <text>Папа тогда ответил : " Вот и оставайтесь на небесах , а я сойду на землю " .</text>
         <propbank>
@@ -56,6 +59,9 @@
         <role descr="start point" f="DIR" n="3"/>
         <role descr="end point, end state of arg1" f="GOL" n="4"/>
       </roles>
+      <lexlinks>
+        <lexlink class="go.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="melt" src="Russian National Corpus[Весенний призыв (2004) // «Экран и сцена», 2004.05.06]">
         <text>Пройдут дожди , сойдут снега … " .</text>
         <propbank>
@@ -91,6 +97,9 @@
         <role descr="passenger(s)" f="PPT" n="0"/>
         <role descr="vehicle(s)" f="LOC" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="disembark.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="debark" src="Russian National Corpus [Героиновый тюремщик (2003) // «Криминальная хроника», 2003.07.24] ">
         <text>Сойдя с поезда , Юрий прогулялся по вокзалу , а затем двинул в автоматическую камеру хранения .</text>
         <propbank>
@@ -109,6 +118,9 @@
         <role descr="advertisement, series, etc" f="PPT" n="0"/>
         <role descr="medium " f="MNR" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="ran.09" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg0-PAG has no match in Russian frame</note>
       <example name="quit acting" src="Russian National Corpus[Я был когда-то странным... – беседа с национальным героем // «Пятое измерение», 2002]">
         <text>Когда я сошел с больших экранов , журналисты меня какое - то время доставали , пытались развести на скандал ― не получилось .</text>
@@ -140,6 +152,9 @@
         <role descr="thing passing" f="PPT" n="1"/>
         <role descr="attributive" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="pass.06" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Russian National Corpus[Олег Павлов. Карагандинские девятины, или Повесть последних дней // «Октябрь», 2001]">
         <text>Измученный и ограбленный вид арестанта , что сам бы мог сойти за жертву какого - нибудь преступления , нисколько её не смущал .</text>
         <propbank>
@@ -159,6 +174,9 @@
         <role descr="thing seeming" f="PPT" n="1"/>
         <role descr="attribute" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="turn_out.11" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="come to nothing" src="Russian National Corpus[Павел Иванов. Ключ к правовой экономике. Популярные хроники непопулярного закона // «Воздушно-космическая оборона», 2003]">
         <text>Правда , интерес к техническому регулированию сошёл на нет задолго до дня принятия закона ― 15 декабря 2002 г .</text>
         <propbank>
@@ -184,6 +202,9 @@
         <role descr="Other converger, converged-with" f="PPT" n="1"/>
         <role descr="Thing converged-on, often a topic of agreement)" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="converge.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg 0 and 1" src="Russian National Corpus[Наталья Игрунова. Падение по горизонтали. Журнальное обозрение (2002) // «Известия», 2002.04.09]">
         <text>Отголоски темы ― в номере февральском , на страницах которого сошлись роман классический и современный .</text>
         <propbank>
@@ -252,6 +273,9 @@
         <role descr="affectionate entity/ies" f="PAG" n="1"/>
         <role descr="affectionate with whom?" f="COM" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="close.13" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="" src="Russian National Corpus [Василий Катанян. Лиля Брик. Жизнь (1999)]">
         <text>Еще до революции молодой Маяковский близко сошелся с Осипом Бриком .</text>
         <propbank>
@@ -287,6 +311,9 @@
       <roles>
         <role descr="lunatic" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="suspect.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="Russian National Corpus [Наши дети: Подростки (2004)]">
         <text>Девченки по нему с ума сойдут : - )</text>
         <propbank>

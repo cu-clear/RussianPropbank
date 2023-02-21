@@ -20,13 +20,13 @@
       <note>Corresponds to FrameBank senses 1,2</note>
       <note>сообщаться.01 NOTES: Based on inform.01</note>
       <roles>
-        <role descr="informer" f="PAG" n="0">
-        </role>
-        <role descr="information, quality or attribute" f="PPT" n="1">
-		</role>
-        <role descr="recipient of information, quality or attribute" f="GOL" n="2">
-		</role>
+        <role descr="informer" f="PAG" n="0"/>
+        <role descr="information, quality or attribute" f="PPT" n="1"/>
+        <role descr="recipient of information, quality or attribute" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="inform.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="say, report" src="">
         <text>Как сообщает правительство , Министерство продовольствия и Управление по ликвидации последствий стихийных бедствий уже отправили пострадавшим предметы первой необходимости , включая рис , печенье и строительные материалы .</text>
         <propbank>
@@ -71,13 +71,13 @@
       <note>сообщаться.02 NOTES: NO PERFECTIVE PAIR</note>
       <note>сообщаться.02 based on English correspond.01</note>
       <roles>
-        <role descr="first (or all) correspondent(s)" f="PAG" n="0">
-        </role>
-        <role descr="additional correspondent" f="PPT" n="1">
-		</role>
-        <role descr="additional correspondent" f="VSP" n="2">
-		</role>
+        <role descr="first (or all) correspondent(s)" f="PAG" n="0"/>
+        <role descr="additional correspondent" f="PPT" n="1"/>
+        <role descr="additional correspondent" f="VSP" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="correspond.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1 and arg2" src="[А. В. Амфитеатров. Чудодей (1932)] (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>Был ещё историк ― Атлантиды , по подлинным летописям её жрецов , сообщавшихся с автором в сонных видениях .</text>
         <propbank>

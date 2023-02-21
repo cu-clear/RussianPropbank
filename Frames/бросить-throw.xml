@@ -19,6 +19,9 @@
         <role descr="thing thrown" f="PPT" n="1"/>
         <role descr="thrown at, to, over, etc." f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="throw.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="throw where" src="wiki">
         <text>Oн бросил камушек в воду .</text>
         <propbank>
@@ -66,6 +69,9 @@
         <role descr="remover" f="PAG" n="0"/>
         <role descr="removed" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="drop.05" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <note>English Arg2-DIR has no match in Russian Frame</note>
       <example name="stop smoking!" src="Russian National Corpus [Наши дети: Подростки (2004)]">
         <text>Я брoсила курить , заработав астму . Не курю 6 лет .</text>

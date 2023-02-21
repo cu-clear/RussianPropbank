@@ -12,9 +12,12 @@
             <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
             <note>NOTES: based on English distort.01</note>
             <roles>
-                <role descr="Alterer, agent" f="PAG" n="0" />
-                <role descr="Thing distorted" f="PPT" n="1" />
+                <role descr="Alterer, agent" f="PAG" n="0"/>
+                <role descr="Thing distorted" f="PPT" n="1"/>
             </roles>
+            <lexlinks>
+                <lexlink class="distort.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG0 only" src="RNC, Ф. М. Достоевский. Братья Карамазовы (1880)">
                 <text> Но он не искажал и не уменьшал .</text>
                 <propbank>

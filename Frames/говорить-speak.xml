@@ -17,6 +17,9 @@
         <role descr="hearer, conversationalist" f="GOL" n="2"/>
         <role descr="attributive, language" f="ADV" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="say.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="say" src="">
         <text>Я слышал , что вы говорили обо мне .</text>
         <propbank>
@@ -79,6 +82,9 @@
         <role descr="crime" f="PPT" n="1"/>
         <role descr="accused" f="GOL" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="accuse.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="Russian National Corpus: [Ф. М. Достоевский. Братья Карамазовы (1880)]">
         <text>И что бы ты ни говорил на меня на суде , что бы ты ни свидетельствовал ― принимаю и не боюсь тебя ; сам все подтвержу !</text>
         <propbank>
@@ -105,6 +111,9 @@
         <role descr="entity possession or demonstrating arg1" f="PRD" n="2"/>
         <note>English ARG2-GOL has no match in Russian frame</note>
       </roles>
+      <lexlinks>
+        <lexlink class="reveal.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="Ю. М. Нагибин, «Бунташный остров», 1994 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
         <text>А может , это говорило в нём законопослушание : раз тебе полагается , должен получить .</text>
         <propbank>

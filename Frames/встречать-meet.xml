@@ -15,6 +15,9 @@
         <role descr="entity encountering something" f="PAG" n="0"/>
         <role descr="entity encountered" f="PPT" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="encounter.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="met someone" src="">
         <text>А я вчера своего бывшего в автобусе встретила .</text>
         <propbank>
@@ -75,6 +78,9 @@
         <role descr="one party" f="PAG" n="0"/>
         <role descr="other party" f="COM" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="meet.03" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="perfective" src="lingvolive">
         <text>Они меня встретят на остановке и привезут домой .</text>
         <propbank>
@@ -122,6 +128,9 @@
         <role descr="thing met/answered" f="PPT" n="1"/>
         <role descr="with what" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="meet.05" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="perfective" src="lingvolive">
         <text>Бойцы встретили неприятеля огнем .</text>
         <propbank>
@@ -140,6 +149,9 @@
         <role descr="dater" f="PAG" n="0"/>
         <role descr="dated" f="COM" n="1"/>
       </roles>
+      <lexlinks>
+        <lexlink class="date.02" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="example" src="">
         <text>Я встречаюсь с девушкой</text>
         <propbank>

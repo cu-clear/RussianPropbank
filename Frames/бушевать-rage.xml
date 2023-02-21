@@ -13,6 +13,9 @@
                 <role descr="Entity storming" f="PPT" n="1"/>
                 <role descr="Location or Direction" f="LOC" n="2"/>
             </roles>
+            <lexlinks>
+                <lexlink class="billow.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG1 and ARG2" src="south-sudan.ru (Russian Web 2010)">
                 <text>Судан страдает от гражданских войн , которые бушуют на его территории , на протяжении более 40 лет . </text>
                 <propbank>

@@ -20,13 +20,13 @@
       </aliases>
       <note>переполнить.01 NOTES: Roleset based on English verb frame fill.01</note>
       <roles>
-        <role descr="agent, causer" f="PAG" n="0">
-        </role>
-        <role descr="container which has been filled beyond capacity" f="GOL" n="1">
-        </role>
-        <role descr="substance" f="PPT" n="2">
-        </role>
+        <role descr="agent, causer" f="PAG" n="0"/>
+        <role descr="container which has been filled beyond capacity" f="GOL" n="1"/>
+        <role descr="substance" f="PPT" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="fill.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg 0 and 1, inanimate causer" src="">
         <text>Стекающая с речных водосборов вода переполнила русла основных рек .</text>
         <propbank>

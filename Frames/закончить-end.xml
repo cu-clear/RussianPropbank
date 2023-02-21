@@ -26,6 +26,9 @@
         <role descr="Explicit instrument, thing ended with, end portion" f="MNR" n="2"/>
         <role descr="Benefactive, possessor, location of ending" f="GOL" n="3"/>
       </roles>
+      <lexlinks>
+        <lexlink class="end.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="arg1" src="">
         <text>Он скоро закончится .</text>
         <propbank>
@@ -80,6 +83,9 @@
         </role>
         <role descr="grade or manner of graduation" f="MNR" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="graduate.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="закончить" src="">
         <text>Он закончил Московский государственный университет .</text>
         <propbank>

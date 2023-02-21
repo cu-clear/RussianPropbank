@@ -16,6 +16,9 @@
         <role descr="entity with ability " f="PPT" n="1"/>
         <role descr="ability itself, what is arg1 able to do?" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="able.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="all args" src="">
         <text>Я уверен , мы сможем что - нибудь придумать .</text>
         <propbank>
@@ -41,6 +44,9 @@
         <role descr="alive entity" f="PPT" n="1"/>
         <role descr="health or life" f="PRD" n="2"/>
       </roles>
+      <lexlinks>
+        <lexlink class="live.01" resource="English PropBank" version="3.4"/>
+      </lexlinks>
       <example name="greeting" src="">
         <text>Он вгляделся в их лица , успокоенно улыбнулся , в знак доверия перекинул автомат на спину , и сказал : ― Здорово , мужики ! Как живете - можете ? Это вы на Рижскую ? [ Дмитрий Глуховский . Метро 2033 ( 2005 ) ]</text>
         <propbank>

@@ -16,6 +16,9 @@
                 <role descr="thing liked, pleaser" f="PAG" n="0"/>
                 <role descr="liker, entity pleased" f="PPT" n="1"/>
             </roles>
+            <lexlinks>
+                <lexlink class="please.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="all args" src="">
                 <text>Ингрид Бергман мне нравится больше чем Изабелла .</text>
                 <propbank>
