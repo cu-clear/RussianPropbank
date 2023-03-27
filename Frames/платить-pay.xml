@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Платить">
+    <roleset id="платить.01" name="Pay">
+      <aliases>
+        <alias pos="v">платить</alias>
+        <alias pos="v">заплатить</alias>
+        <alias pos="v">оплатить</alias>
+        <alias pos="v">оплачивать</alias>
+        <alias pos="j">платящий</alias>
+        <alias pos="j">заплативший</alias>
+        <alias pos="j">оплаченный</alias>
+        <alias pos="j">оплачивавший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here, but also complain about the subtle difference on all the aliases that people refuse to elobarote on whne talking about the difference, focusing on grammatical difference vs sematinc differences.]</note>
+	    <note>NOTES: based on English pay.01</note>
+      <roles>
+        <role descr="Payer or Buyer" f="PAG" n="0"/>
+        <role descr="Money or form of payment" f="VSP" n="1"/>
+        <role descr="Entity being paid" f="GOL" n="2"/>
+        <role descr="Commodity, paid for what" f="ГОЛ" n="3"/>
+	    </roles>
+      <example name="Arg0, Arg1 and Arg3" src="RNC, Е. Ахматова [перевод романа Э. Булвер-Литтона с английского]. Кенелм Чиллингли, его приключения и взгляды на жизнь (1873)" type="">
+        <text>― Да, миссис Ботри платит за него восемь фунтов аренды, но доходов с лавки на это вполне хватает .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">миссис Ботри</arg>
+          <rel relloc="?">платит</rel>
+	        <arg tpye="ARG3" start="?" end="?">за него</arg>
+          <arg tpye="ARG1" start="?" end="?">восемь фунтов аренды</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1 only" src="RNC, Нина Федорова. Семья [автоперевод] (1952)" type="">
+        <text>Я здесь заплачу 25 долларов ― и это все .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Я</arg>
+          <rel relloc="?">заплачу</rel>
+	        <arg tpye="ARG1" start="?" end="?">25 долларов</arg>
+        </propbank>
+        <example name="Arg0, Арг2, and Arg3" src="RNC, В. И. Максимов. Дневник научного сотрудника (2003)" type="">
+        <text>Так Ковалевский оплатил мне мой труд по написанию раздела в его НИР .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Ковалевский</arg>
+          <rel relloc="?">оплатил</rel>
+	        <arg tpye="ARG2" start="?" end="?">мне</arg>
+          <arg tpye="ARG3" start="?" end="?">мой труд</arg>
+        </propbank>
+        <example name="Arg2 and Arg3 only" src="RNC, Н. Н. Никулин. Воспоминания о войне (1975)" type="">
+        <text>На войне те же дела оплачивались солдатскими жизнями .</text>
+        <propbank>
+          <arg tpye="ARG3" start="?" end="?">те же дела</arg>
+          <rel relloc="?">оплачивались</rel>
+	        <arg tpye="ARG1" start="?" end="?">солдатскими жизнями</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

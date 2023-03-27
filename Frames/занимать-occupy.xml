@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Занимать">
+    <roleset id="занимать.01" name="take up time, occupy time">
+      <aliases>
+        <alias pos="v">занимать</alias>
+        <alias pos="v">занить</alias>
+        <alias pos="j">занимающий</alias>
+        <alias pos="j">занятый</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English occupy.01</note>
+      <roles>
+        <role descr="Agent doing acitivty" f="PPT" n="0"/>
+        <role descr="Time needed for activity" f="PPT" n="1"/>
+        <role descr="Activity" f="PRD" n="2"/>
+	    </roles>
+      <example name="ARG1 and ARG2 only" src="RNC, Владислав Кулаков. Уральский САПФИР // «Computerworld», 2004" type="">
+        <text> Много времени занимает подготовка аналитических , сводных таблиц .</text>
+        <propbank>
+          <arg tpye="ARG1" start="0" end="1">Много времени</arg>
+          <rel relloc="2">занимает</rel>
+	        <arg tpye="ARG1" start="3" end="8">подготовка аналитических , сводных таблиц .</arg>
+        </propbank>
+      </example>
+      <example name="ARG0, ARG1, and ARG2" src="Еремей Парнов. Третий глаз Шивы (1985)" type="">
+        <text> Бритье и туалет заняли у него не больше десяти минут .</text>
+        <propbank>
+          <arg tpye="ARG2" start="0" end="2">Бритье и туалет</arg>
+          <rel relloc="3">заняли</rel>
+	        <arg tpye="ARG0" start="4" end="5">у него</arg>
+          <arg tpye="ARG1" start="6" end="9">не больше десяти минут .</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Подсказывать">
+    <roleset id="подсказывать.01" name="hint, prompt, give a clue">
+      <aliases>
+        <alias pos="v">подсказывать</alias>
+        <alias pos="v">подсказать</alias>
+        <alias pos="j">подсказывающий</alias>
+        <alias pos="j">Eподсказавший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English hint.01</note>
+      <roles>
+        <role descr="Sayer" f="PAG" n="0"/>
+        <role descr="Utterance (hint)" f="PPT" n="1"/>
+        <role descr="Hearer" f="GOL" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="_" type="">
+        <text>Он подсказал как наийти ответ .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Он</arg>
+          <rel relloc="?">подсказал</rel>
+	        <arg tpye="ARG1" start="?" end="?">как наийти ответ</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, Arg2" src="_" type="">
+        <text>Филип всегда ему подсказывает куда вкладывать деньги .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Филип</arg>
+          <arg tpye="ARG1" start="?" end="?">ему</arg>
+          <rel relloc="?">подсказывает</rel>
+	        <arg tpye="ARG1" start="?" end="?">куда вкладывать деньги</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="прощать">
+    <roleset id="прощать.01" name="Forgive, pardon">
+      <aliases>
+        <alias pos="v">прощать</alias>
+        <alias pos="v">простить</alias>
+        <alias pos="j">прощающий</alias>
+        <alias pos="j">простивший</alias>
+        <alias pos="j">	прощённый</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English forgive.01</note>
+      <roles>
+        <role descr="Forgiver" f="PAG" n="0"/>
+        <role descr="Entity forgiven" f="PPT" n="1"/>
+        <role descr="Offense Forgiven" f="CAU" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="_" type="">
+        <text>Он простил своего соседа .</text>
+        <propbank>
+          <arg tpye="ARG0" start="0" end="0">Он</arg>
+          <rel relloc="1">простил</rel>
+	        <arg tpye="ARG1" start="2" end="3">своего соседа</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="_" type="">
+        <text>Маша за всё маму прощала .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Маша</arg>
+	        <arg tpye="ARG2" start="?" end="?">за всё</arg>
+          <arg tpye="ARG1" start="?" end="?">маму</arg>
+          <rel relloc="?">прощала</rel>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Выпускать">
+    <roleset id="выпускать.01" name="Release, let out, let go">
+      <aliases>
+        <alias pos="v">выпускать</alias>
+        <alias pos="v">выпустить</alias>
+        <alias pos="j">выпускающий</alias>
+        <alias pos="j">выпустивший</alias>
+        <alias pos="j">выпущенный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English release.01</note>
+      <roles>
+        <role descr="Releaser" f="PAG" n="0"/>
+        <role descr="Thing released" f="PPT" n="1"/>
+        <role descr="Place releassed to" f="GOL" n="2"/>
+        <role descr="Place released from" f="DIR" n="3"/>
+	    </roles>
+      <example name="Arg0, Arg1, Arg2" src="_" type="">
+        <text>Вы выпустили собаку на улицу?</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Вы</arg>
+          <rel relloc="?">выпустили</rel>
+	        <arg tpye="ARG1" start="?" end="?">собаку</arg>
+          <arg tpye="ARG2" start="?" end="?">на улицу</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, Arg3" src="_" type="">
+        <text>Когда вы выпустите меня отсюда ?</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">вы</arg>
+          <rel relloc="?">выпустите</rel>
+	        <arg tpye="ARG1" start="?" end="?">меня</arg>
+          <arg tpye="ARG3" start="?" end="?">отсюда</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>
