@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Истощать">
+  <predicate lemma="истощать">
     <roleset id="истощать.01" name="Exhaust, deplete, wear out">
       <aliases>
         <alias pos="v">истощать</alias>
@@ -14,18 +14,18 @@
         <role descr="Agent/cause of depletion" f="PAG" n="0"/>
         <role descr="Entity or thing exhausted" f="PPT" n="1"/>
 	    </roles>
-      <example name="Arg0 and Arg1" src="_" type="">
+      <example name="Arg0 and Arg1" src="_">
         <text>Она истощает свои силы .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Она</arg>
+          <arg type="ARG0" start="?" end="?">Она</arg>
           <rel relloc="?">истощает</rel>
-	        <arg tpye="ARG1" start="?" end="?">свои силы</arg>
+	        <arg type="ARG1" start="?" end="?">свои силы</arg>
         </propbank>
       </example>
-      <example name="Arg1 only" src="_" type="">
+      <example name="Arg1 only" src="_">
         <text>Я полностью истощен.</text>
         <propbank>
-          <arg tpye="ARG1" start="?" end="?">Я</arg>
+          <arg type="ARG1" start="?" end="?">Я</arg>
           <rel relloc="?">истощен</rel>
         </propbank>
       </example>

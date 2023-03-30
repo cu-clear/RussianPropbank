@@ -17,22 +17,22 @@
         <role descr="Place releassed to" f="GOL" n="2"/>
         <role descr="Place released from" f="DIR" n="3"/>
 	    </roles>
-      <example name="Arg0, Arg1, Arg2" src="_" type="">
+      <example name="Arg0, Arg1, Arg2" src="_">
         <text>Вы выпустили собаку на улицу?</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Вы</arg>
+          <arg type="ARG0" start="?" end="?">Вы</arg>
           <rel relloc="?">выпустили</rel>
-	        <arg tpye="ARG1" start="?" end="?">собаку</arg>
-          <arg tpye="ARG2" start="?" end="?">на улицу</arg>
+	        <arg type="ARG1" start="?" end="?">собаку</arg>
+          <arg type="ARG2" start="?" end="?">на улицу</arg>
         </propbank>
       </example>
-      <example name="Arg0, Arg1, Arg3" src="_" type="">
+      <example name="Arg0, Arg1, Arg3" src="_">
         <text>Когда вы выпустите меня отсюда ?</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">вы</arg>
+          <arg type="ARG0" start="?" end="?">вы</arg>
           <rel relloc="?">выпустите</rel>
-	        <arg tpye="ARG1" start="?" end="?">меня</arg>
-          <arg tpye="ARG3" start="?" end="?">отсюда</arg>
+	        <arg type="ARG1" start="?" end="?">меня</arg>
+          <arg type="ARG3" start="?" end="?">отсюда</arg>
         </propbank>
       </example>
 	  </roleset>

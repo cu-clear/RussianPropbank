@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Требоваться">
+  <predicate lemma="требоваться">
     <roleset id="требоваться.01" name="be required, be needed">
       <aliases>
         <alias pos="v">требоваться</alias>
@@ -14,19 +14,19 @@
         <role descr="Needer" f="PAG" n="0"/>
         <role descr="Thing Needed" f="PPT" n="1"/>
 	    </roles>
-      <example name="Arg0 and Arg1" src="_" type="">
+      <example name="Arg0 and Arg1" src="_">
         <text>Вам требуется подождать .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Вам</arg>
+          <arg type="ARG0" start="?" end="?">Вам</arg>
           <rel relloc="?">требуется</rel>
-	        <arg tpye="ARG1" start="?" end="?">подождать</arg>
+	        <arg type="ARG1" start="?" end="?">подождать</arg>
         </propbank>
       </example>
-      <example name="Arg1 only" src="RNC, Аркадий Львов. Двор. М.: Захаров, 2003" type="">
+      <example name="Arg1 only" src="RNC, Аркадий Львов. Двор. М.: Захаров, 2003">
         <text>Требуются только щипцы .</text>
         <propbank>
           <rel relloc="?">Требуются</rel>
-          <arg tpye="ARG1" start="?" end="?">только щипцы</arg>
+          <arg type="ARG1" start="?" end="?">только щипцы</arg>
         </propbank>
       </example>
 	  </roleset>

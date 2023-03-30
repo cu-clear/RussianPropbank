@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Кормить">
+  <predicate lemma="кормить">
     <roleset id="кормить.01" name="feed">
       <aliases>
         <alias pos="v">кормить</alias>
@@ -16,21 +16,21 @@
         <role descr="Eater" f="GOL" n="1"/>
         <role descr="Food" f="PPT" n="2"/>
 	    </roles>
-      <example name="Arg0 and Arg1" src="_" type="">
+      <example name="Arg0 and Arg1" src="_">
         <text>Ваня часто его кормит </text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Ваня</arg>
-	        <arg tpye="ARG1" start="?" end="?">его</arg>
+          <arg type="ARG0" start="?" end="?">Ваня</arg>
+	        <arg type="ARG1" start="?" end="?">его</arg>
           <rel relloc="?">кормит</rel>
         </propbank>
       </example>
-      <example name="Arg0, Arg1, and Arg2" src="_" type="">
+      <example name="Arg0, Arg1, and Arg2" src="_">
         <text>Сударь накормил его кашей . </text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Сударь</arg>
+          <arg type="ARG0" start="?" end="?">Сударь</arg>
           <rel relloc="?">накормил</rel>
-	        <arg tpye="ARG1" start="?" end="?">его</arg>
-          <arg tpye="ARG1" start="?" end="?">кашей</arg>
+	        <arg type="ARG1" start="?" end="?">его</arg>
+          <arg type="ARG1" start="?" end="?">кашей</arg>
         </propbank>
       </example>
 	  </roleset>

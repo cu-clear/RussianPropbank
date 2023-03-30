@@ -16,20 +16,20 @@
         <role descr="Entity forgiven" f="PPT" n="1"/>
         <role descr="Offense Forgiven" f="CAU" n="2"/>
 	    </roles>
-      <example name="Arg0 and Arg1" src="_" type="">
+      <example name="Arg0 and Arg1" src="_">
         <text>Он простил своего соседа .</text>
         <propbank>
-          <arg tpye="ARG0" start="0" end="0">Он</arg>
+          <arg type="ARG0" start="0" end="0">Он</arg>
           <rel relloc="1">простил</rel>
-	        <arg tpye="ARG1" start="2" end="3">своего соседа</arg>
+	        <arg type="ARG1" start="2" end="3">своего соседа</arg>
         </propbank>
       </example>
-      <example name="Arg0, Arg1, and Arg2" src="_" type="">
+      <example name="Arg0, Arg1, and Arg2" src="_">
         <text>Маша за всё маму прощала .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Маша</arg>
-	        <arg tpye="ARG2" start="?" end="?">за всё</arg>
-          <arg tpye="ARG1" start="?" end="?">маму</arg>
+          <arg type="ARG0" start="?" end="?">Маша</arg>
+	        <arg type="ARG2" start="?" end="?">за всё</arg>
+          <arg type="ARG1" start="?" end="?">маму</arg>
           <rel relloc="?">прощала</rel>
         </propbank>
       </example>
