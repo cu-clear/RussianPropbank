@@ -14,12 +14,12 @@
         <role descr="Rememberer" f="PAG" n="0"/>
         <role descr="Memory" f="PPT" n="1"/>
 	    </roles>
-      <example name="ARG0 and ARG1" src="RNC, Л. П. Гроссман. Записки Д'Аршиака (1931)" type="">
+      <example name="ARG0 and ARG1" src="RNC, Л. П. Гроссман. Записки Д'Аршиака (1931)">
         <text>Впоследствии я не раз вспоминал эти слова поэта .</text>
         <propbank>
-          <arg tpye="ARG0" start="1" end="1">я</arg>
+          <arg type="ARG0" start="1" end="1">я</arg>
           <rel relloc="5">вспоминал</rel>
-	        <arg tpye="ARG1" start="6" end="8">эти слова поэта</arg>
+	        <arg type="ARG1" start="6" end="8">эти слова поэта</arg>
         </propbank>
       </example>
 	  </roleset>
