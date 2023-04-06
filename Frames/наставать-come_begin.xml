@@ -18,15 +18,15 @@
         <text>Настал декабрь , а снегу не было ― озимые вымерзали .</text>
         <propbank>
           <rel relloc="?">Настал</rel>
-	        <arg type="ARG1" start="?" end="?">декабрь</arg>
+	        <arg type="ARG1" start="1" end="1">декабрь</arg>
         </propbank>
       </example>
       <example name="Аrg1 and Arg2" src="RNC, Николай II. Дневники (1913-1916)">
         <text>К 5 час. разъяснилось , и вечер настал тихий и более прохладный .</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">вечер</arg>
+          <arg type="ARG1" start="6" end="6">вечер</arg>
           <rel relloc="?">настал</rel>
-	        <arg type="ARG2" start="?" end="?">тихий и более прохладный</arg>
+	        <arg type="ARG2" start="8" end="11">тихий и более прохладный</arg>
         </propbank>
       </example>
 	  </roleset>

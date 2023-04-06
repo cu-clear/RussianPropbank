@@ -17,26 +17,26 @@
       <example name="Arg1 and Arg2" src="RNC, Советы бывалых (2003) // «За рулем», 15.05.2003">
         <text>Нижний (отводящий) шланг радиатора остается заполненным жидкостью , поэтому его нужно отогнуть вверх и подвязать к ближайшим деталям .</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">его</arg>
+          <arg type="ARG1" start="9" end="9">его</arg>
           <rel relloc="?">отогнуть</rel>
-	        <arg type="ARG2" start="?" end="?">вверх</arg>
+	        <arg type="ARG2" start="12" end="12">вверх</arg>
         </propbank>
       </example>
-      <example name="Arg0 and Arg1" src="RNC, Владислав Крапивин. Трое с площади Карронад (1979)" >
+      <example name="Arg0 and Arg1" src="RNC, Владислав Крапивин. Трое с площади Карронад (1979)">
         <text>Он лохматил волосы и упруго отгибал Славкины ресницы .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Он</arg>
+          <arg type="ARG0" start="0" end="0">Он</arg>
           <rel relloc="?">отгибал</rel>
-	        <arg type="ARG1" start="?" end="?">Славкины ресницы</arg>
+	        <arg type="ARG1" start="6" end="7">Славкины ресницы</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, К. Г. Паустовский. Книга о жизни. Далекие годы (1946)">
         <text>Ветер отгибал его в сторону и старался задуть .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Ветер</arg>
+          <arg type="ARG0" start="0" end="0">Ветер</arg>
           <rel relloc="?">отгибал</rel>
-	        <arg type="ARG1" start="?" end="?">его</arg>
-          <arg type="ARG2" start="?" end="?">в сторону</arg>
+	        <arg type="ARG1" start="2" end="2">его</arg>
+          <arg type="ARG2" start="3" end="4">в сторону</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg3" src="RNC, А. П. Чапыгин. Гулящие люди (1937)">
@@ -44,8 +44,8 @@
         <propbank>
           <arg type="ARG0" start="?" end="?">все</arg>
           <rel relloc="?">отгибая</rel>
-	        <arg type="ARG3" start="?" end="?">от земли</arg>
-          <arg type="ARG1" start="?" end="?">свисавшие колючие ветки густого ельника</arg>
+	        <arg type="ARG3" start="5" end="6">от земли</arg>
+          <arg type="ARG1" start="7" end="11">свисавшие колючие ветки густого ельника</arg>
         </propbank>
       </example>
 	  </roleset>

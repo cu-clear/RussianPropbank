@@ -20,19 +20,19 @@
       <example name="Arg0, Arg1, Arg2" src="_">
         <text>Вы выпустили собаку на улицу?</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Вы</arg>
+          <arg type="ARG0" start="0" end="0">Вы</arg>
           <rel relloc="?">выпустили</rel>
-	        <arg type="ARG1" start="?" end="?">собаку</arg>
+	        <arg type="ARG1" start="2" end="2">собаку</arg>
           <arg type="ARG2" start="?" end="?">на улицу</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, Arg3" src="_">
         <text>Когда вы выпустите меня отсюда ?</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">вы</arg>
+          <arg type="ARG0" start="1" end="1">вы</arg>
           <rel relloc="?">выпустите</rel>
-	        <arg type="ARG1" start="?" end="?">меня</arg>
-          <arg type="ARG3" start="?" end="?">отсюда</arg>
+	        <arg type="ARG1" start="3" end="3">меня</arg>
+          <arg type="ARG3" start="4" end="4">отсюда</arg>
         </propbank>
       </example>
 	  </roleset>

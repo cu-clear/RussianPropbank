@@ -19,18 +19,18 @@
       <example name="Arg0 and Arg1" src="_">
         <text>Ваня часто его кормит </text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Ваня</arg>
-	        <arg type="ARG1" start="?" end="?">его</arg>
+          <arg type="ARG0" start="0" end="0">Ваня</arg>
+	        <arg type="ARG1" start="2" end="2">его</arg>
           <rel relloc="?">кормит</rel>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="_">
         <text>Сударь накормил его кашей . </text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Сударь</arg>
+          <arg type="ARG0" start="0" end="0">Сударь</arg>
           <rel relloc="?">накормил</rel>
-	        <arg type="ARG1" start="?" end="?">его</arg>
-          <arg type="ARG1" start="?" end="?">кашей</arg>
+	        <arg type="ARG1" start="2" end="2">его</arg>
+          <arg type="ARG1" start="3" end="3">кашей</arg>
         </propbank>
       </example>
 	  </roleset>

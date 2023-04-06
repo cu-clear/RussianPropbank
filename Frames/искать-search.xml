@@ -18,17 +18,17 @@
       <example name="Arg0 and Arg1" src="_">
         <text>Фёдор искал свою собаку всю ночь</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Фёдор</arg>
+          <arg type="ARG0" start="0" end="0">Фёдор</arg>
           <rel relloc="?">искал</rel>
-	        <arg type="ARG1" start="?" end="?">свою собаку</arg>
+	        <arg type="ARG1" start="2" end="3">свою собаку</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="_">
         <text>Мы тебя по всему лесу искали !</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Мы</arg>
-          <arg type="ARG1" start="?" end="?">тебя</arg>
-          <arg type="ARG2" start="?" end="?">по всему лесу</arg>
+          <arg type="ARG0" start="0" end="0">Мы</arg>
+          <arg type="ARG1" start="1" end="1">тебя</arg>
+          <arg type="ARG2" start="2" end="4">по всему лесу</arg>
           <rel relloc="?">искали</rel>
         </propbank>
       </example>

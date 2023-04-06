@@ -23,35 +23,35 @@
       <example name="Arg0, Arg1 and Arg3" src="RNC, Е. Ахматова [перевод романа Э. Булвер-Литтона с английского]. Кенелм Чиллингли, его приключения и взгляды на жизнь (1873)">
         <text>― Да, миссис Ботри платит за него восемь фунтов аренды, но доходов с лавки на это вполне хватает .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">миссис Ботри</arg>
+          <arg type="ARG0" start="2" end="3">миссис Ботри</arg>
           <rel relloc="?">платит</rel>
-	        <arg type="ARG3" start="?" end="?">за него</arg>
+	        <arg type="ARG3" start="5" end="6">за него</arg>
           <arg type="ARG1" start="?" end="?">восемь фунтов аренды</arg>
         </propbank>
       </example>
       <example name="Arg0 and Arg1 only" src="RNC, Нина Федорова. Семья [автоперевод] (1952)">
         <text>Я здесь заплачу 25 долларов ― и это все .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Я</arg>
+          <arg type="ARG0" start="0" end="0">Я</arg>
           <rel relloc="?">заплачу</rel>
-	        <arg type="ARG1" start="?" end="?">25 долларов</arg>
+	        <arg type="ARG1" start="3" end="4">25 долларов</arg>
         </propbank>
       </example>
         <example name="Arg0, Арг2, and Arg3" src="RNC, В. И. Максимов. Дневник научного сотрудника (2003)">
         <text>Так Ковалевский оплатил мне мой труд по написанию раздела в его НИР .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Ковалевский</arg>
+          <arg type="ARG0" start="1" end="1">Ковалевский</arg>
           <rel relloc="?">оплатил</rel>
-	        <arg type="ARG2" start="?" end="?">мне</arg>
-          <arg type="ARG3" start="?" end="?">мой труд</arg>
+	        <arg type="ARG2" start="3" end="3">мне</arg>
+          <arg type="ARG3" start="4" end="5">мой труд</arg>
         </propbank>
         </example>
         <example name="Arg2 and Arg3 only" src="RNC, Н. Н. Никулин. Воспоминания о войне (1975)">
         <text>На войне те же дела оплачивались солдатскими жизнями .</text>
         <propbank>
-          <arg type="ARG3" start="?" end="?">те же дела</arg>
+          <arg type="ARG3" start="2" end="4">те же дела</arg>
           <rel relloc="?">оплачивались</rel>
-	        <arg type="ARG1" start="?" end="?">солдатскими жизнями</arg>
+	        <arg type="ARG1" start="6" end="7">солдатскими жизнями</arg>
         </propbank>
       </example>
 	  </roleset>

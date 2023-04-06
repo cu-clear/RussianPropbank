@@ -17,16 +17,16 @@
       <example name="Arg0 and Arg1" src="_">
         <text>Вам требуется подождать .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Вам</arg>
+          <arg type="ARG0" start="0" end="0">Вам</arg>
           <rel relloc="?">требуется</rel>
-	        <arg type="ARG1" start="?" end="?">подождать</arg>
+	        <arg type="ARG1" start="2" end="2">подождать</arg>
         </propbank>
       </example>
       <example name="Arg1 only" src="RNC, Аркадий Львов. Двор. М.: Захаров, 2003">
         <text>Требуются только щипцы .</text>
         <propbank>
           <rel relloc="?">Требуются</rel>
-          <arg type="ARG1" start="?" end="?">только щипцы</arg>
+          <arg type="ARG1" start="1" end="2">только щипцы</arg>
         </propbank>
       </example>
 	  </roleset>

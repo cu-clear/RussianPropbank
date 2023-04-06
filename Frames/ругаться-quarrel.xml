@@ -18,25 +18,25 @@
       <example name="Arg0 only" src="_">
         <text>Мои родители никогда не ругаются</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Мои родители</arg>
+          <arg type="ARG0" start="0" end="1">Мои родители</arg>
           <rel relloc="?">ругаются</rel>
         </propbank>
       </example>
       <example name="Arg0  and Arg1" src="_">
         <text>Веня часто ругается с Ваней</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Веня</arg>
+          <arg type="ARG0" start="0" end="0">Веня</arg>
           <rel relloc="?">ругается</rel>
-	        <arg type="ARG1" start="?" end="?">Ваней</arg>
+	        <arg type="ARG1" start="4" end="4">Ваней</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="_">
         <text>Лариса поругалась с учительницей насчёт задания</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Лариса</arg>
+          <arg type="ARG0" start="0" end="0">Лариса</arg>
           <rel relloc="?">поругалась</rel>
-	        <arg type="ARG1" start="?" end="?">с учительницей</arg>
-          <arg type="ARG2" start="?" end="?">насчёт задания</arg>
+	        <arg type="ARG1" start="2" end="3">с учительницей</arg>
+          <arg type="ARG2" start="4" end="5">насчёт задания</arg>
         </propbank>
       </example>
 	  </roleset>

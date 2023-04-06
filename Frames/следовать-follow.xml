@@ -18,21 +18,21 @@
         <text>Следовала синяя машина .</text>
         <propbank>
           <rel relloc="?">Следовала</rel>
-	        <arg type="ARG1" start="?" end="?">синяя машина</arg>
+	        <arg type="ARG1" start="1" end="2">синяя машина</arg>
         </propbank>
       </example>
       <example name="Аrg1 and Arg2" src="_">
         <text>За завтраком следует обед .</text>
         <propbank>
-          <arg type="ARG2" start="?" end="?">обед</arg>
+          <arg type="ARG2" start="3" end="3">обед</arg>
           <rel relloc="?">следует</rel>
-	        <arg type="ARG1" start="?" end="?">За завтраком</arg>
+	        <arg type="ARG1" start="0" end="1">За завтраком</arg>
         </propbank>
       </example>
       <example name="Аrg1 and Arg2" src="_">
         <text>За ним последовали братия общежития, желая утешить его и возвратить в общежитие ; но пришедши , начали обличать его , говоря : ты сделал то и то .</text>
         <propbank>
-          <arg type="ARG2" start="?" end="?">За ним</arg>
+          <arg type="ARG2" start="0" end="1">За ним</arg>
           <rel relloc="?">последовали</rel>
 	        <arg type="ARG1" start="?" end="?">братия общежития</arg>
         </propbank>

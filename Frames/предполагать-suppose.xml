@@ -18,16 +18,16 @@
       <example name="Arg0 and Arg1" src="_">
         <text>Дед предполагал что денег нет .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Дед</arg>
+          <arg type="ARG0" start="0" end="0">Дед</arg>
           <rel relloc="?">предполагал</rel>
-	        <arg type="ARG1" start="?" end="?">что денег нет</arg>
+	        <arg type="ARG1" start="2" end="4">что денег нет</arg>
         </propbank>
       </example>
       <example name="Arg0, Арг1, and Arg2" src="_">
         <text>Что вы предполагаете об обстановке?</text>
         <propbank>
-          <arg type="ARG2" start="?" end="?">Что</arg>
-          <arg type="ARG0" start="?" end="?">вы</arg>
+          <arg type="ARG2" start="0" end="0">Что</arg>
+          <arg type="ARG0" start="1" end="1">вы</arg>
           <rel relloc="?">предполагаете</rel>
           <arg type="ARG1" start="?" end="?">об обстановке</arg>
         </propbank>

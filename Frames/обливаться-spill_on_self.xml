@@ -17,17 +17,17 @@
       <example name="Agentive Arg1; Arg2" src="RNC, И. М. Сеченов. Рефлексы головного мозга (1863)">
         <text>Ему , конечно , ничего не стоит удержаться от невольных движений , если он обольется водою в 8° .</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">он</arg>
+          <arg type="ARG1" start="13" end="13">он</arg>
           <rel relloc="?">обольется</rel>
-	        <arg type="ARG2" start="?" end="?">водою</arg>
+	        <arg type="ARG2" start="15" end="15">водою</arg>
         </propbank>
       </example>
       <example name="Non-agentive, inanimate Arg1,; Arg2" src="RNC, В. П. Катаев. Раб (1927)">
         <text>Ладонь обливалась потом</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">Ладонь</arg>
+          <arg type="ARG1" start="0" end="0">Ладонь</arg>
           <rel relloc="?">обливалась</rel>
-	        <arg type="ARG2" start="?" end="?">потом</arg>
+	        <arg type="ARG2" start="2" end="2">потом</arg>
         </propbank>
       </example>
 	  </roleset>

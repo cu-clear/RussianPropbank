@@ -17,22 +17,22 @@
       <example name="Arg0, agentive entity" src="_">
         <text>Валя останавливалась часто .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Валя</arg>
+          <arg type="ARG0" start="0" end="0">Валя</arg>
           <rel relloc="?">останавливалась</rel>
         </propbank>
       </example>
       <example name="Arg1, non-agentive theme" src="_">
         <text>Претензии остановились .</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">Претензии</arg>
+          <arg type="ARG1" start="0" end="0">Претензии</arg>
           <rel relloc="?">остановились</rel>
         </propbank>
       </example>
       <example name="Arg0 and Arg1" src="_">
         <text>Из за него операция полностью останавливалась</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Из за него</arg>
-	        <arg type="ARG1" start="?" end="?">операция</arg>
+          <arg type="ARG0" start="0" end="2">Из за него</arg>
+	        <arg type="ARG1" start="3" end="3">операция</arg>
           <rel relloc="?">останавливалась</rel>
         </propbank>
       </example>
