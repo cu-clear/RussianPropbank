@@ -14,17 +14,17 @@
         <role descr="Agent, buttoner" f="PAG" n="0"/>
         <role descr="Thing buttoned" f="PPT" n="1"/>
 	    </roles>
-      <example name="Arg0 only" src="RNC, А. И. Эртель. Записки Степняка (1883)" type="">
+      <example name="Arg0 only" src="RNC, А. И. Эртель. Записки Степняка (1883)">
         <text>Старец медленно застегнулся , провел рукою по глазам и , тяжко вздохнув , поднялся .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Старец</arg>
+          <arg type="ARG0" start="?" end="?">Старец</arg>
           <rel relloc="?">застегнулся</rel>
         </propbank>
       </example>
-      <example name="Arg1 only" src="RNC, К. П. Масальский. Черный ящик (1833)" type="">
+      <example name="Arg1 only" src="RNC, К. П. Масальский. Черный ящик (1833)" >
         <text>Уж коли штаны сзади застегиваются , то , верно , и жалеть , и как солнце так же .</text>
         <propbank>
-          <arg tpye="ARG1" start="?" end="?">штаны</arg>
+          <arg type="ARG1" start="?" end="?">штаны</arg>
           <rel relloc="?">застегиваются</rel>
         </propbank>
       </example>

@@ -13,18 +13,18 @@
         <role descr="Worrier" f="PAG" n="0"/>
         <role descr="Topic of Worry" f="PPT" n="1"/>
 	    </roles>
-      <example name="Arg0 and Arg1" src="_" type="">
+      <example name="Arg0 and Arg1" src="_">
         <text>Я беспокоюсь твоим поведением .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Я</arg>
+          <arg type="ARG0" start="?" end="?">Я</arg>
           <rel relloc="?">беспокоюсь</rel>
-	        <arg tpye="ARG1" start="?" end="?">твоим поведением</arg>
+	        <arg type="ARG1" start="?" end="?">твоим поведением</arg>
         </propbank>
       </example>
-      <example name="Arg0 only" src="RNC, А. И. Красницкий. Царица-полячка (1902)" type="">
+      <example name="Arg0 only" src="RNC, А. И. Красницкий. Царица-полячка (1902)">
         <text>Она забеспокоилась , зашевелилась и даже привстала со своего места .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Она</arg>
+          <arg type="ARG0" start="?" end="?">Она</arg>
           <rel relloc="?">забеспокоилась</rel>
         </propbank>
       </example>
@@ -40,20 +40,20 @@
         <role descr="Entity dealing with something" f="PAG" n="0"/>
         <role descr="Thing dealt with" f="PPT" n="1"/>
 	    </roles>
-      <example name="Arg0 and Arg1" src="_" type="">
+      <example name="Arg0 and Arg1" src="_">
         <text>Я побеспокоюсь о твоей собаки .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Я</arg>
+          <arg type="ARG0" start="?" end="?">Я</arg>
           <rel relloc="?">побеспокоюсь</rel>
-	        <arg tpye="ARG1" start="?" end="?">о твоей собаки</arg>
+	        <arg type="ARG1" start="?" end="?">о твоей собаки</arg>
         </propbank>
       </example>
       <example name="Arg0 and Arg1" src="RNC, В. Лихоносов. Ненаписанные воспоминания. Наш маленький Париж. Ч. 1-2 (1983)" type="">
         <text>Лука Костогрыз побеспокоился о внуке : отрезал самый лучший кусок баранины , да с полпуда завязала бабка в тряпицу сала .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Лука Костогрыз</arg>
+          <arg type="ARG0" start="?" end="?">Лука Костогрыз</arg>
           <rel relloc="?">побеспокоился</rel>
-          <arg tpye="ARG1" start="?" end="?">о внуке</arg>
+          <arg type="ARG1" start="?" end="?">о внуке</arg>
         </propbank>
       </example>
 	  </roleset>

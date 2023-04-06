@@ -15,28 +15,28 @@
         <role descr="other person quarreling" f="COM" n="1"/>
         <role descr="topic" f="PPT" n="2"/>
 	    </roles>
-      <example name="Arg0 only" src="_" type="">
+      <example name="Arg0 only" src="_">
         <text>Мои родители никогда не ругаются</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Мои родители</arg>
+          <arg type="ARG0" start="?" end="?">Мои родители</arg>
           <rel relloc="?">ругаются</rel>
         </propbank>
       </example>
-      <example name="Arg0  and Arg1" src="_" type="">
+      <example name="Arg0  and Arg1" src="_">
         <text>Веня часто ругается с Ваней</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Веня</arg>
+          <arg type="ARG0" start="?" end="?">Веня</arg>
           <rel relloc="?">ругается</rel>
-	        <arg tpye="ARG1" start="?" end="?">Ваней</arg>
+	        <arg type="ARG1" start="?" end="?">Ваней</arg>
         </propbank>
       </example>
-      <example name="Arg0, Arg1, and Arg2" src="_" type="">
+      <example name="Arg0, Arg1, and Arg2" src="_">
         <text>Лариса поругалась с учительницей насчёт задания</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Лариса</arg>
+          <arg type="ARG0" start="?" end="?">Лариса</arg>
           <rel relloc="?">поругалась</rel>
-	        <arg tpye="ARG1" start="?" end="?">с учительницей</arg>
-          <arg tpye="ARG2" start="?" end="?">насчёт задания</arg>
+	        <arg type="ARG1" start="?" end="?">с учительницей</arg>
+          <arg type="ARG2" start="?" end="?">насчёт задания</arg>
         </propbank>
       </example>
 	  </roleset>

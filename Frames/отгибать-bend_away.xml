@@ -14,38 +14,38 @@
         <role descr="thing being bent towards" f="GOL" n="2"/>
         <role descr="thing being bent from" f="DIR" n="3"/>
 	    </roles>
-      <example name="Arg1 and Arg2" src="RNC, Советы бывалых (2003) // «За рулем», 15.05.2003" type="">
+      <example name="Arg1 and Arg2" src="RNC, Советы бывалых (2003) // «За рулем», 15.05.2003">
         <text>Нижний (отводящий) шланг радиатора остается заполненным жидкостью , поэтому его нужно отогнуть вверх и подвязать к ближайшим деталям .</text>
         <propbank>
-          <arg tpye="ARG1" start="?" end="?">его</arg>
+          <arg type="ARG1" start="?" end="?">его</arg>
           <rel relloc="?">отогнуть</rel>
-	        <arg tpye="ARG2" start="?" end="?">вверх</arg>
+	        <arg type="ARG2" start="?" end="?">вверх</arg>
         </propbank>
       </example>
-      <example name="Arg0 and Arg1" src="RNC, Владислав Крапивин. Трое с площади Карронад (1979)" type="">
+      <example name="Arg0 and Arg1" src="RNC, Владислав Крапивин. Трое с площади Карронад (1979)" >
         <text>Он лохматил волосы и упруго отгибал Славкины ресницы .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Он</arg>
+          <arg type="ARG0" start="?" end="?">Он</arg>
           <rel relloc="?">отгибал</rel>
-	        <arg tpye="ARG1" start="?" end="?">Славкины ресницы</arg>
+	        <arg type="ARG1" start="?" end="?">Славкины ресницы</arg>
         </propbank>
       </example>
-      <example name="Arg0, Arg1, and Arg2" src="RNC, К. Г. Паустовский. Книга о жизни. Далекие годы (1946)" type="">
+      <example name="Arg0, Arg1, and Arg2" src="RNC, К. Г. Паустовский. Книга о жизни. Далекие годы (1946)">
         <text>Ветер отгибал его в сторону и старался задуть .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Ветер</arg>
+          <arg type="ARG0" start="?" end="?">Ветер</arg>
           <rel relloc="?">отгибал</rel>
-	        <arg tpye="ARG1" start="?" end="?">его</arg>
-          <arg tpye="ARG2" start="?" end="?">в сторону</arg>
+	        <arg type="ARG1" start="?" end="?">его</arg>
+          <arg type="ARG2" start="?" end="?">в сторону</arg>
         </propbank>
       </example>
-      <example name="Arg0, Arg1, and Arg3" src="RNC, А. П. Чапыгин. Гулящие люди (1937)" type="">
+      <example name="Arg0, Arg1, and Arg3" src="RNC, А. П. Чапыгин. Гулящие люди (1937)">
         <text>За ним ползли все, отгибая от земли свисавшие колючие ветки густого ельника .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">все</arg>
+          <arg type="ARG0" start="?" end="?">все</arg>
           <rel relloc="?">отгибая</rel>
-	        <arg tpye="ARG3" start="?" end="?">от земли</arg>
-          <arg tpye="ARG1" start="?" end="?">свисавшие колючие ветки густого ельника</arg>
+	        <arg type="ARG3" start="?" end="?">от земли</arg>
+          <arg type="ARG1" start="?" end="?">свисавшие колючие ветки густого ельника</arg>
         </propbank>
       </example>
 	  </roleset>

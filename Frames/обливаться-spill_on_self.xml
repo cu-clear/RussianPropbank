@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Обливаться ">
+  <predicate lemma="обливаться ">
     <roleset id="обливаться.01" name="Spill on self, be covered in liquid">
       <aliases>
         <alias pos="v">обливаться</alias>
@@ -14,20 +14,20 @@
         <role descr="Thing Covered in liquid" f="PPT" n="1"/>
         <role descr="Liquid" f="PPT" n="2"/>
 	    </roles>
-      <example name="Agentive Arg1; Arg2" src="RNC, И. М. Сеченов. Рефлексы головного мозга (1863)" type="">
+      <example name="Agentive Arg1; Arg2" src="RNC, И. М. Сеченов. Рефлексы головного мозга (1863)">
         <text>Ему , конечно , ничего не стоит удержаться от невольных движений , если он обольется водою в 8° .</text>
         <propbank>
-          <arg tpye="ARG1" start="?" end="?">он</arg>
+          <arg type="ARG1" start="?" end="?">он</arg>
           <rel relloc="?">обольется</rel>
-	        <arg tpye="ARG2" start="?" end="?">водою</arg>
+	        <arg type="ARG2" start="?" end="?">водою</arg>
         </propbank>
       </example>
-      <example name="Non-agentive, inanimate Arg1,; Arg2" src="RNC, В. П. Катаев. Раб (1927)" type="">
+      <example name="Non-agentive, inanimate Arg1,; Arg2" src="RNC, В. П. Катаев. Раб (1927)">
         <text>Ладонь обливалась потом</text>
         <propbank>
-          <arg tpye="ARG1" start="?" end="?">Ладонь</arg>
+          <arg type="ARG1" start="?" end="?">Ладонь</arg>
           <rel relloc="?">обливалась</rel>
-	        <arg tpye="ARG2" start="?" end="?">потом</arg>
+	        <arg type="ARG2" start="?" end="?">потом</arg>
         </propbank>
       </example>
 	  </roleset>

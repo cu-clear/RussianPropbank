@@ -15,20 +15,20 @@
         <role descr="Thing searched for" f="PPT" n="1"/>
         <role descr="Area searched" f="LOC" n="2"/>
 	    </roles>
-      <example name="Arg0 and Arg1" src="_" type="">
+      <example name="Arg0 and Arg1" src="_">
         <text>Фёдор искал свою собаку всю ночь</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Фёдор</arg>
+          <arg type="ARG0" start="?" end="?">Фёдор</arg>
           <rel relloc="?">искал</rel>
-	        <arg tpye="ARG1" start="?" end="?">свою собаку</arg>
+	        <arg type="ARG1" start="?" end="?">свою собаку</arg>
         </propbank>
       </example>
-      <example name="Arg0, Arg1, and Arg2" src="_" type="">
+      <example name="Arg0, Arg1, and Arg2" src="_">
         <text>Мы тебя по всему лесу искали !</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Мы</arg>
-          <arg tpye="ARG1" start="?" end="?">тебя</arg>
-          <arg tpye="ARG2" start="?" end="?">по всему лесу</arg>
+          <arg type="ARG0" start="?" end="?">Мы</arg>
+          <arg type="ARG1" start="?" end="?">тебя</arg>
+          <arg type="ARG2" start="?" end="?">по всему лесу</arg>
           <rel relloc="?">искали</rel>
         </propbank>
       </example>

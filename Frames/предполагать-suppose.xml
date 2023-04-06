@@ -15,21 +15,21 @@
         <role descr="Thing thought about" f="PPT" n="1"/>
         <role descr="Atrributive, how arg1 is thought about (Very tricky, see English think.01)" f="PRD" n="2"/>
 	    </roles>
-      <example name="Arg0 and Arg1" src="_" type="">
+      <example name="Arg0 and Arg1" src="_">
         <text>Дед предполагал что денег нет .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Дед</arg>
+          <arg type="ARG0" start="?" end="?">Дед</arg>
           <rel relloc="?">предполагал</rel>
-	        <arg tpye="ARG1" start="?" end="?">что денег нет</arg>
+	        <arg type="ARG1" start="?" end="?">что денег нет</arg>
         </propbank>
       </example>
-      <example name="Arg0, Арг1, and Arg2" src="_" type="">
+      <example name="Arg0, Арг1, and Arg2" src="_">
         <text>Что вы предполагаете об обстановке?</text>
         <propbank>
-          <arg tpye="ARG2" start="?" end="?">Что</arg>
-          <arg tpye="ARG0" start="?" end="?">вы</arg>
+          <arg type="ARG2" start="?" end="?">Что</arg>
+          <arg type="ARG0" start="?" end="?">вы</arg>
           <rel relloc="?">предполагаете</rel>
-          <arg tpye="ARG1" start="?" end="?">об обстановке</arg>
+          <arg type="ARG1" start="?" end="?">об обстановке</arg>
         </propbank>
       </example>
 	  </roleset>
