@@ -11,22 +11,22 @@
 	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	    <note>NOTES: based on English exhaust.01</note>
       <roles>
-        <role descr="Agent/cause of depletion" f="PAG" n="0"/>
-        <role descr="Entity or thing exhausted" f="PPT" n="1"/>
+        <role descr="Agent/cause of depletion" f="PAG" n="0" />
+        <role descr="Entity or thing exhausted" f="PPT" n="1" />
 	    </roles>
       <example name="Arg0 and Arg1" src="_">
         <text>Она истощает свои силы .</text>
         <propbank>
           <arg type="ARG0" start="0" end="0">Она</arg>
-          <rel relloc="?">истощает</rel>
+          <rel relloc="1">истощает</rel>
 	        <arg type="ARG1" start="2" end="3">свои силы</arg>
         </propbank>
       </example>
       <example name="Arg1 only" src="_">
-        <text>Я полностью истощен.</text>
+        <text>Я полностью истощен .</text>
         <propbank>
           <arg type="ARG1" start="0" end="0">Я</arg>
-          <rel relloc="?">истощен</rel>
+          <rel relloc="2">истощен</rel>
         </propbank>
       </example>
 	  </roleset>

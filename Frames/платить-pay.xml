@@ -15,16 +15,16 @@
 	    <note>Corresponds to FrameBank senses [insert appropriate thing here, but also complain about the subtle difference on all the aliases that people refuse to elobarote on whne talking about the difference, focusing on grammatical difference vs sematinc differences.]</note>
 	    <note>NOTES: based on English pay.01</note>
       <roles>
-        <role descr="Payer or Buyer" f="PAG" n="0"/>
-        <role descr="Money or form of payment" f="VSP" n="1"/>
-        <role descr="Entity being paid" f="GOL" n="2"/>
-        <role descr="Commodity, paid for what" f="ГОЛ" n="3"/>
+        <role descr="Payer or Buyer" f="PAG" n="0" />
+        <role descr="Money or form of payment" f="VSP" n="1" />
+        <role descr="Entity being paid" f="GOL" n="2" />
+        <role descr="Commodity, paid for what" f="ГОЛ" n="3" />
 	    </roles>
       <example name="Arg0, Arg1 and Arg3" src="RNC, Е. Ахматова [перевод романа Э. Булвер-Литтона с английского]. Кенелм Чиллингли, его приключения и взгляды на жизнь (1873)">
         <text>― Да, миссис Ботри платит за него восемь фунтов аренды, но доходов с лавки на это вполне хватает .</text>
         <propbank>
           <arg type="ARG0" start="2" end="3">миссис Ботри</arg>
-          <rel relloc="?">платит</rel>
+          <rel relloc="4">платит</rel>
 	        <arg type="ARG3" start="5" end="6">за него</arg>
           <arg type="ARG1" start="?" end="?">восемь фунтов аренды</arg>
         </propbank>
@@ -33,7 +33,7 @@
         <text>Я здесь заплачу 25 долларов ― и это все .</text>
         <propbank>
           <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="?">заплачу</rel>
+          <rel relloc="2">заплачу</rel>
 	        <arg type="ARG1" start="3" end="4">25 долларов</arg>
         </propbank>
       </example>
@@ -41,7 +41,7 @@
         <text>Так Ковалевский оплатил мне мой труд по написанию раздела в его НИР .</text>
         <propbank>
           <arg type="ARG0" start="1" end="1">Ковалевский</arg>
-          <rel relloc="?">оплатил</rel>
+          <rel relloc="2">оплатил</rel>
 	        <arg type="ARG2" start="3" end="3">мне</arg>
           <arg type="ARG3" start="4" end="5">мой труд</arg>
         </propbank>
@@ -50,7 +50,7 @@
         <text>На войне те же дела оплачивались солдатскими жизнями .</text>
         <propbank>
           <arg type="ARG3" start="2" end="4">те же дела</arg>
-          <rel relloc="?">оплачивались</rel>
+          <rel relloc="5">оплачивались</rel>
 	        <arg type="ARG1" start="6" end="7">солдатскими жизнями</arg>
         </propbank>
       </example>

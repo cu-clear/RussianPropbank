@@ -13,15 +13,15 @@
 	    <note>NOTES: based on English plan.01</note>
 
       <roles>
-        <role descr="Planner" f="PAG" n="0"/>
-        <role descr="Thing planned" f="PPT" n="1"/>
+        <role descr="Planner" f="PAG" n="0" />
+        <role descr="Thing planned" f="PPT" n="1" />
 	    </roles>
 
       <example name="Arg0 and Arg1" src="RNC, Борис Можаев. Саня (1957)">
         <text>― Я уже все распланировал : тут будет у нас спальня , здесь вроде гостиной .</text>
         <propbank>
           <arg type="ARG0" start="1" end="1">Я</arg>
-          <rel relloc="?">распланировал</rel>
+          <rel relloc="4">распланировал</rel>
 	        <arg type="ARG1" start="3" end="3">все</arg>
         </propbank>
       </example>
@@ -30,7 +30,7 @@
         <text>Комиссия планирует провести беседу на следующей недели .</text>
         <propbank>
           <arg type="ARG0" start="0" end="0">Комиссия</arg>
-          <rel relloc="?">планирует</rel>
+          <rel relloc="1">планирует</rel>
 	        <arg type="ARG1" start="2" end="6">провести беседу на следующей недели</arg>
         </propbank>
       </example>

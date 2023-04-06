@@ -11,21 +11,21 @@
 	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	    <note>NOTES: based on English button.01</note>
       <roles>
-        <role descr="Agent, buttoner" f="PAG" n="0"/>
-        <role descr="Thing buttoned" f="PPT" n="1"/>
+        <role descr="Agent, buttoner" f="PAG" n="0" />
+        <role descr="Thing buttoned" f="PPT" n="1" />
 	    </roles>
       <example name="Arg0 only" src="RNC, А. И. Эртель. Записки Степняка (1883)">
         <text>Старец медленно застегнулся , провел рукою по глазам и , тяжко вздохнув , поднялся .</text>
         <propbank>
           <arg type="ARG0" start="0" end="0">Старец</arg>
-          <rel relloc="?">застегнулся</rel>
+          <rel relloc="2">застегнулся</rel>
         </propbank>
       </example>
       <example name="Arg1 only" src="RNC, К. П. Масальский. Черный ящик (1833)">
         <text>Уж коли штаны сзади застегиваются , то , верно , и жалеть , и как солнце так же .</text>
         <propbank>
           <arg type="ARG1" start="2" end="2">штаны</arg>
-          <rel relloc="?">застегиваются</rel>
+          <rel relloc="4">застегиваются</rel>
         </propbank>
       </example>
 	  </roleset>

@@ -11,21 +11,21 @@
 	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	    <note>NOTES: based on English need.01</note>
       <roles>
-        <role descr="Needer" f="PAG" n="0"/>
-        <role descr="Thing Needed" f="PPT" n="1"/>
+        <role descr="Needer" f="PAG" n="0" />
+        <role descr="Thing Needed" f="PPT" n="1" />
 	    </roles>
       <example name="Arg0 and Arg1" src="_">
         <text>Вам требуется подождать .</text>
         <propbank>
           <arg type="ARG0" start="0" end="0">Вам</arg>
-          <rel relloc="?">требуется</rel>
+          <rel relloc="1">требуется</rel>
 	        <arg type="ARG1" start="2" end="2">подождать</arg>
         </propbank>
       </example>
       <example name="Arg1 only" src="RNC, Аркадий Львов. Двор. М.: Захаров, 2003">
         <text>Требуются только щипцы .</text>
         <propbank>
-          <rel relloc="?">Требуются</rel>
+          <rel relloc="0">Требуются</rel>
           <arg type="ARG1" start="1" end="2">только щипцы</arg>
         </propbank>
       </example>

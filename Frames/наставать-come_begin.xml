@@ -11,13 +11,13 @@
 	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	    <note>NOTES: based on English come.04</note>
       <roles>
-        <role descr="Time or Condition" f="PPT" n="1"/>
-        <role descr="Attribute on arg1 -- rare" f="PRD" n="2"/>
+        <role descr="Time or Condition" f="PPT" n="1" />
+        <role descr="Attribute on arg1 -- rare" f="PRD" n="2" />
 	    </roles>
       <example name="Arg1" src="_RNC, А. П. Платонов. Чевенгур (1929)">
         <text>Настал декабрь , а снегу не было ― озимые вымерзали .</text>
         <propbank>
-          <rel relloc="?">Настал</rel>
+          <rel relloc="0">Настал</rel>
 	        <arg type="ARG1" start="1" end="1">декабрь</arg>
         </propbank>
       </example>
@@ -25,7 +25,7 @@
         <text>К 5 час. разъяснилось , и вечер настал тихий и более прохладный .</text>
         <propbank>
           <arg type="ARG1" start="6" end="6">вечер</arg>
-          <rel relloc="?">настал</rel>
+          <rel relloc="7">настал</rel>
 	        <arg type="ARG2" start="8" end="11">тихий и более прохладный</arg>
         </propbank>
       </example>

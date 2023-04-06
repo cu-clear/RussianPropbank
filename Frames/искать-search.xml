@@ -11,15 +11,15 @@
 	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	    <note>NOTES: based on English search.01</note>
       <roles>
-        <role descr="Searcher" f="PAG" n="0"/>
-        <role descr="Thing searched for" f="PPT" n="1"/>
-        <role descr="Area searched" f="LOC" n="2"/>
+        <role descr="Searcher" f="PAG" n="0" />
+        <role descr="Thing searched for" f="PPT" n="1" />
+        <role descr="Area searched" f="LOC" n="2" />
 	    </roles>
       <example name="Arg0 and Arg1" src="_">
         <text>Фёдор искал свою собаку всю ночь</text>
         <propbank>
           <arg type="ARG0" start="0" end="0">Фёдор</arg>
-          <rel relloc="?">искал</rel>
+          <rel relloc="1">искал</rel>
 	        <arg type="ARG1" start="2" end="3">свою собаку</arg>
         </propbank>
       </example>
@@ -29,7 +29,7 @@
           <arg type="ARG0" start="0" end="0">Мы</arg>
           <arg type="ARG1" start="1" end="1">тебя</arg>
           <arg type="ARG2" start="2" end="4">по всему лесу</arg>
-          <rel relloc="?">искали</rel>
+          <rel relloc="5">искали</rel>
         </propbank>
       </example>
 	  </roleset>

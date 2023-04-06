@@ -11,21 +11,21 @@
 	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	    <note>NOTES: based on English word.01</note>
       <roles>
-        <role descr="Entity Stopping" f="PAG" n="0"/>
-        <role descr="Action or object being stopped" f="PPT" n="1"/>
+        <role descr="Entity Stopping" f="PAG" n="0" />
+        <role descr="Action or object being stopped" f="PPT" n="1" />
 	    </roles>
       <example name="Arg0, agentive entity" src="_">
         <text>Валя останавливалась часто .</text>
         <propbank>
           <arg type="ARG0" start="0" end="0">Валя</arg>
-          <rel relloc="?">останавливалась</rel>
+          <rel relloc="1">останавливалась</rel>
         </propbank>
       </example>
       <example name="Arg1, non-agentive theme" src="_">
         <text>Претензии остановились .</text>
         <propbank>
           <arg type="ARG1" start="0" end="0">Претензии</arg>
-          <rel relloc="?">остановились</rel>
+          <rel relloc="1">остановились</rel>
         </propbank>
       </example>
       <example name="Arg0 and Arg1" src="_">
@@ -33,7 +33,7 @@
         <propbank>
           <arg type="ARG0" start="0" end="2">Из за него</arg>
 	        <arg type="ARG1" start="3" end="3">операция</arg>
-          <rel relloc="?">останавливалась</rel>
+          <rel relloc="5">останавливалась</rel>
         </propbank>
       </example>
 	  </roleset>
