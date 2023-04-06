@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Наставать">
+    <roleset id="наставать.01" name="Begin, Come; semantically limited to time and condition">
+      <aliases>
+        <alias pos="v">наставать</alias>
+        <alias pos="v">настать</alias>
+        <alias pos="j">настающий</alias>
+        <alias pos="j">наставший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English come.04</note>
+      <roles>
+        <role descr="Time or Condition" f="PPT" n="1"/>
+        <role descr="Attribute on arg1 -- rare" f="PRD" n="2"/>
+	    </roles>
+      <example name="Arg1" src="_RNC, А. П. Платонов. Чевенгур (1929)" type="">
+        <text>Настал декабрь , а снегу не было ― озимые вымерзали .</text>
+        <propbank>
+          <rel relloc="?">Настал</rel>
+	        <arg tpye="ARG1" start="?" end="?">декабрь</arg>
+        </propbank>
+      </example>
+      <example name="Аrg1 and Arg2" src="RNC, Николай II. Дневники (1913-1916)" type="">
+        <text>К 5 час. разъяснилось , и вечер настал тихий и более прохладный .</text>
+        <propbank>
+          <arg tpye="ARG1" start="?" end="?">вечер</arg>
+          <rel relloc="?">настал</rel>
+	        <arg tpye="ARG2" start="?" end="?">тихий и более прохладный</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

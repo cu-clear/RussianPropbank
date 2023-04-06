@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Искать">
+    <roleset id="искать.01" name="Search, seek, look for">
+      <aliases>
+        <alias pos="v">искать</alias>
+        <alias pos="v">поискать</alias>
+        <alias pos="j">ищущий</alias>
+        <alias pos="j">поисканный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English search.01</note>
+      <roles>
+        <role descr="Searcher" f="PAG" n="0"/>
+        <role descr="Thing searched for" f="PPT" n="1"/>
+        <role descr="Area searched" f="LOC" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="_" type="">
+        <text>Фёдор искал свою собаку всю ночь</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Фёдор</arg>
+          <rel relloc="?">искал</rel>
+	        <arg tpye="ARG1" start="?" end="?">свою собаку</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="_" type="">
+        <text>Мы тебя по всему лесу искали !</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Мы</arg>
+          <arg tpye="ARG1" start="?" end="?">тебя</arg>
+          <arg tpye="ARG2" start="?" end="?">по всему лесу</arg>
+          <rel relloc="?">искали</rel>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Планировать">
+    <roleset id="планировать.01" name="Plan, schedule, map out">
+      <aliases>
+        <alias pos="v">планировать</alias>
+        <alias pos="v">спланировать</alias>
+        <alias pos="v">распланировать</alias>
+        <alias pos="j">планирующий</alias>
+        <alias pos="j">спланированный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English plan.01</note>
+
+      <roles>
+        <role descr="Planner" f="PAG" n="0"/>
+        <role descr="Thing planned" f="PPT" n="1"/>
+	    </roles>
+
+      <example name="Arg0 and Arg1" src="RNC, Борис Можаев. Саня (1957)" type="">
+        <text>― Я уже все распланировал : тут будет у нас спальня , здесь вроде гостиной .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Я</arg>
+          <rel relloc="?">распланировал</rel>
+	        <arg tpye="ARG1" start="?" end="?">все</arg>
+        </propbank>
+      </example>
+
+      <example name="Arg0 and Arg1" src="_" type="">
+        <text>Комиссия планирует провести беседу на следующей недели .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Комиссия</arg>
+          <rel relloc="?">планирует</rel>
+	        <arg tpye="ARG1" start="?" end="?">провести беседу на следующей недели</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

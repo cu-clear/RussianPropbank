@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Следовать">
+    <roleset id="следовать.01" name="Follow, be subsequent temporally of spatially">
+      <aliases>
+        <alias pos="v">следовать</alias>
+        <alias pos="v">последовать</alias>
+        <alias pos="j">следующий</alias>
+        <alias pos="j">последовавший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English follow.01</note>
+      <roles>
+        <role descr="Thing following, coming after" f="PPT" n="1"/>
+        <role descr="thing followed, coming before" f="PPT" n="2"/>
+	    </roles>
+      <example name="Arg1 only" src="_" type="">
+        <text>Следовала синяя машина .</text>
+        <propbank>
+          <rel relloc="?">Следовала</rel>
+	        <arg tpye="ARG1" start="?" end="?">синяя машина</arg>
+        </propbank>
+      </example>
+      <example name="Аrg1 and Arg2" src="_" type="">
+        <text>За завтраком следует обед .</text>
+        <propbank>
+          <arg tpye="ARG2" start="?" end="?">обед</arg>
+          <rel relloc="?">следует</rel>
+	        <arg tpye="ARG1" start="?" end="?">За завтраком</arg>
+        </propbank>
+      </example>
+      <example name="Аrg1 and Arg2" src="_" type="">
+        <text>За ним последовали братия общежития, желая утешить его и возвратить в общежитие ; но пришедши , начали обличать его , говоря : ты сделал то и то .</text>
+        <propbank>
+          <arg tpye="ARG2" start="?" end="?">За ним</arg>
+          <rel relloc="?">последовали</rel>
+	        <arg tpye="ARG1" start="?" end="?">братия общежития</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>
