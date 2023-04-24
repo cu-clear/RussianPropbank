@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Следить">
+    <roleset id="следить.01" name="Attend, watch, play close attention">
+      <aliases>
+        <alias pos="v">следить</alias>
+        <alias pos="v">проследить</alias>
+        <alias pos="j">следящий</alias>
+        <alias pos="j">проследивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English attend.02</note>
+      <roles>
+        <role descr="Entity paying attention" f="PAG" n="0"/>
+        <role descr="To what" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="_">
+        <text>Мария следила за своей порцией .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Мария</arg>
+          <rel relloc="?">следила</rel>
+	        <arg tpye="ARG1" start="?" end="?">за своей порцией</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

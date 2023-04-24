@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Ломать">
+    <roleset id="ломать.01" name="Break">
+      <aliases>
+        <alias pos="v">ломать</alias>
+        <alias pos="v">сломать</alias>
+        <alias pos="v">поломать</alias>
+        <alias pos="j">ломающий</alias>
+        <alias pos="j">сломанный</alias>
+        <alias pos="j">поломанный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English break.01</note>
+      <roles>
+        <role descr="Breaker" f="PAG" n="0"/>
+        <role descr="Thing broken" f="PPT" n="1"/>
+        <role descr="Instrument" f="MNR" n="2"/>
+        <role descr="Pieces" f="PRD" n="3"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="_">
+        <text>Мы сломали стол</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Мы</arg>
+          <rel relloc="?">сломали</rel>
+	        <arg tpye="ARG1" start="?" end="?">стол</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="_">
+        <text>Ты своим сарказмом ломаешь все свои шансы .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Ты</arg>
+          <arg tpye="ARG2" start="?" end="?">своим сарказмом</arg>
+          <rel relloc="?">ломаешь</rel>
+	        <arg tpye="ARG1" start="?" end="?">все свои шансы</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg3" src="RNC, А. И. Куприн. Психея (1892)">
+        <text>Минутами мне кажется , будто кто-то ломает мой череп на части , и каждое движение причиняет чудовищную боль .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">кто-то</arg>
+          <rel relloc="?">ломает</rel>
+          <arg tpye="ARG1" start="?" end="?">мой череп</arg>
+	        <arg tpye="ARG3" start="?" end="?">на части</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Выключать">
+    <roleset id="выключать.01" name="Turn off, shut down, deactivate">
+      <aliases>
+        <alias pos="v">выключать</alias>
+        <alias pos="v">выключить</alias>
+        <alias pos="j">выключающий</alias>
+        <alias pos="j">выключенный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on turn_off.07</note>
+      <roles>
+        <role descr="Turner off" f="PAG" n="0"/>
+        <role descr="Thing tunred off" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="_">
+        <text>Мама выключила машину .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Мама</arg>
+          <rel relloc="?">выключила</rel>
+	        <arg tpye="ARG1" start="?" end="?">машину</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

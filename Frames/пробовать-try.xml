@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Пробовать">
+    <roleset id="пробовать.01" name="Try, attempt">
+      <aliases>
+        <alias pos="v">пробовать</alias>
+        <alias pos="v">попробовать</alias>
+        <alias pos="j">пробовавший</alias>
+        <alias pos="j">попробованный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English try.01</note>
+      <roles>
+        <role descr="Agent, Entity trying" f="PAG" n="0"/>
+        <role descr="Thing tried" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="_">
+        <text>Марк пробует съесть ананас за один час .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Марк</arg>
+          <rel relloc="?">пробует</rel>
+	        <arg tpye="ARG1" start="?" end="?">съесть ананас за один час</arg>
+        </propbank>
+	  </roleset>
+  </predicate>
+</frameset>
