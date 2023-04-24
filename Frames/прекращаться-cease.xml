@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="прекратиться">
+  <predicate lemma="прекращаться">
     <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="прекратиться.01" name="cease">
+    <roleset id="прекращаться.01" name="cease">
       <aliases>
         <alias pos="j">прекратившийся</alias>
         <alias pos="v">прекращаться</alias>
