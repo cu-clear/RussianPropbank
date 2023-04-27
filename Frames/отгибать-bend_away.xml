@@ -9,10 +9,10 @@
 	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
 	    <note>NOTES: based on English bend.01</note>
       <roles>
-        <role descr="Bender" f="PAG" n="0" />
-        <role descr="Thing being bent" f="PPT" n="1" />
-        <role descr="thing being bent towards" f="GOL" n="2" />
-        <role descr="thing being bent from" f="DIR" n="3" />
+        <role descr="Bender" f="PAG" n="0"/>
+        <role descr="Thing being bent" f="PPT" n="1"/>
+        <role descr="thing being bent towards" f="GOL" n="2"/>
+        <role descr="thing being bent from" f="DIR" n="3"/>
 	    </roles>
       <example name="Arg1 and Arg2" src="RNC, Советы бывалых (2003) // «За рулем», 15.05.2003">
         <text>Нижний (отводящий) шланг радиатора остается заполненным жидкостью , поэтому его нужно отогнуть вверх и подвязать к ближайшим деталям .</text>
@@ -42,7 +42,7 @@
       <example name="Arg0, Arg1, and Arg3" src="RNC, А. П. Чапыгин. Гулящие люди (1937)">
         <text>За ним ползли все, отгибая от земли свисавшие колючие ветки густого ельника .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">все</arg>
+          <arg type="ARG0" start="3" end="3">все,</arg>
           <rel relloc="4">отгибая</rel>
 	        <arg type="ARG3" start="5" end="6">от земли</arg>
           <arg type="ARG1" start="7" end="11">свисавшие колючие ветки густого ельника</arg>

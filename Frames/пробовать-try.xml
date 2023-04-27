@@ -17,9 +17,9 @@
       <example name="Arg0 and Arg1" src="_">
         <text>Марк пробует съесть ананас за один час .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Марк</arg>
-          <rel relloc="?">пробует</rel>
-	        <arg type="ARG1" start="?" end="?">съесть ананас за один час</arg>
+          <arg type="ARG0" start="0" end="0">Марк</arg>
+          <rel relloc="1">пробует</rel>
+	        <arg type="ARG1" start="2" end="6">съесть ананас за один час</arg>
         </propbank>
       </example>
 	  </roleset>
