@@ -17,15 +17,15 @@
         <text>Они бурей пронеслись через комнату, разбросав пустые стулья.</text>
           <propbank>
         <arg type="ARG0" start="?" end="?">Они</arg>
-        <rel relloc="">пронеслись</rel>
-	<arg type="ARG1" start="?" end="?">комнату</arg>
+        <rel relloc="?">пронеслись</rel>
+	    <arg type="ARG1" start="?" end="?">комнату</arg>
           </propbank>
       </example>
       <example name="ARG0 and ARG2" src="Russian National Corpus">
         <text>Собаки пронеслись мимо нас с такой быстротой, что задержать их нам не удалось.</text>
           <propbank>
         <arg type="ARG0" start="?" end="?">Собаки</arg>
-        <rel relloc="">пронеслись</rel>
+        <rel relloc="?">пронеслись</rel>
 	<arg type="ARG2" start="?" end="?">нас</arg>
           </propbank>
       </example>
