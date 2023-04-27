@@ -17,9 +17,9 @@
       <example name="Arg0 and Arg1" src="_">
         <text>Мария следила за своей порцией .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Мария</arg>
+          <arg type="ARG0" start="?" end="?">Мария</arg>
           <rel relloc="?">следила</rel>
-	        <arg tpye="ARG1" start="?" end="?">за своей порцией</arg>
+	        <arg type="ARG1" start="?" end="?">за своей порцией</arg>
         </propbank>
       </example>
 	  </roleset>

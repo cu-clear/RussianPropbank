@@ -18,9 +18,9 @@
       <example name="Arg0 and Arg1" src="_">
         <text>Вова пользуется этим полотенцем .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Вова</arg>
+          <arg type="ARG0" start="?" end="?">Вова</arg>
           <rel relloc="?">пользуется</rel>
-	        <arg tpye="ARG1" start="?" end="?">этим полотенцем</arg>
+	        <arg type="ARG1" start="?" end="?">этим полотенцем</arg>
         </propbank>
       </example>
 	  </roleset>

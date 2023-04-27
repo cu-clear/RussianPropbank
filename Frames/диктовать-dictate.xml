@@ -18,18 +18,18 @@
       <example name="Arg0 and Arg1" src="_">
         <text>Я продиктовал моё имя .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Я</arg>
+          <arg type="ARG0" start="?" end="?">Я</arg>
           <rel relloc="?">продиктовал</rel>
-	        <arg tpye="ARG1" start="?" end="?">моё имя</arg>
+	        <arg type="ARG1" start="?" end="?">моё имя</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="_">
         <text>Вон там учителя диктуют студентам экзамены .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">учителя</arg>
+          <arg type="ARG0" start="?" end="?">учителя</arg>
           <rel relloc="?">диктуют</rel>
-	        <arg tpye="ARG2" start="?" end="?">студентам</arg>
-          <arg tpye="ARG1" start="?" end="?">экзамены</arg>
+	        <arg type="ARG2" start="?" end="?">студентам</arg>
+          <arg type="ARG1" start="?" end="?">экзамены</arg>
         </propbank>
       </example>
 	  </roleset>
