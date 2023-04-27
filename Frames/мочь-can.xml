@@ -2,7 +2,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="мочь">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
     <roleset id="мочь.01" name="able">
       <aliases>
         <alias pos="j">смогший</alias>
@@ -55,17 +54,39 @@
         </propbank>
       </example>
     </roleset>
-    <roleset id="мочь.03" name="MODAL: may, is possible, might, можно">
+    <roleset id="мочь.03" name="MODAL: may, is possible, might">
       <aliases>
 	  </aliases>
       <note>Corresponds to FrameBank senses 4,5,6</note>
       <note>мочь.03 NOTES: Added to distinguish sense.</note>
+      <note>Permision/request or probablity; always an argm-MOD for main predicate; neg and additional ARGMs can be annotated</note>
       <roles>
 	  </roles>
-      <example name="example" src="">
-        <text>ООН выступила с предупреждением , что Бангладеш может столкнуться с острой нехваткой продовольствия</text>
+      <example name="request" src="">
+        <text>Ты мог бы сходить в магазин ?</text>
         <propbank>
-          <rel relloc="7">может</rel>
+          <rel relloc="?">мог</rel>
+          <arg type="ARGM-ADV" start="0" end="0">бы</arg>
+        </propbank>
+      </example>
+      <example name="request" src="">
+        <text>Вы бы не смогли меня подождать ?</text>
+        <propbank>
+          <rel relloc="3">смогли</rel>
+          <arg type="ARGM-ADV" start="0" end="0">бы</arg>
+          <arg type="ARGM-NEG" start="0" end="0">не</arg>
+        </propbank>
+      </example>
+      <example name="Potential/probability (might)" src="">
+        <text>Это им может не понравится .</text>
+        <propbank>
+          <rel relloc="2">может</rel>
+        </propbank>
+      </example>
+      <example name="Potential/probability (might)" src="">
+        <text>Он так может упасть !</text>
+        <propbank>
+          <rel relloc="2">может</rel>
         </propbank>
       </example>
     </roleset>
