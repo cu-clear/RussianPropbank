@@ -271,8 +271,8 @@
     </roleset>
   </predicate>
   <predicate lemma="давай">
-    <roleset id="давай(те).09" name="(OPTATIVE? MOOD) let's">
-      <note>дать.09 NOTES: No frame match in English</note>
+    <roleset id="давай(те).09" name="HORTATIVE - let's">
+      <note>дать.09 NOTES: No frame match in English. Should be connected to the other verb using ARGM-MOD.</note>
       <roles>
       </roles>
       <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
@@ -300,31 +300,6 @@
       </roles>
       <example name="example" src="Russian National Corpus [Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]">
         <text>" Ага , давай , спокойной ночи . Я бы тоже пошел , но завтра не встану</text>
-        <propbank>
-          <rel relloc="3">давай</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="давай">
-    <roleset id="давай(те).09" name="(OPTATIVE? MOOD) let's">
-      <note>дать.09 NOTES: No frame match in English</note>
-      <roles>
-      </roles>
-      <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
-        <text>" А давайте вместе начинать , а то опять всю ответственность взваливаете на нас .</text>
-        <propbank>
-          <rel relloc="2">давайте</rel>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2008.01.16)]">
-        <text>" Хороший подход , однако ) правда , если б он к нашим преподам по гермафилу подошел с подобным : " а давайте я сразу на пересдачу приду " , они бы ему хором ответили - " А давайте ! "</text>
-        <propbank>
-          <rel relloc="38 38">давайте давайте</rel>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]">
-        <text>" Ага , давай , спокойной ночи . Я бы тоже пошел , но завтра не встану .</text>
         <propbank>
           <rel relloc="3">давай</rel>
         </propbank>
