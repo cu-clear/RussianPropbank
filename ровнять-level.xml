@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="сровнять">
+    <roleset id="сровнять.01" name="Word">
+      <aliases>
+        <alias framenet="" pos="v" verbnet="">сровнять</alias>
+        <alias framenet="" pos="й" verbnet="">сровнявший</alias>
+        <alias framenet="" pos="j" verbnet="">сровненный</alias>
+	  </aliases>
+	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	  <note>NOTES: based on English level.01</note>
+      <roles>
+        <role descr="cause, agent" f="PAG" n="0"/>
+        <role descr="thing becoming level" f="PPT" n="1"/>
+        <role descr="thing leveled with, ground" f="GOL" n="2"/>
+	  </roles>
+      <example name="ARG1, ARG2, and ARG3" src="inopressa.ru" type="">
+        <text> Бомбы НАТО сровняли с землей комплекс Баб аль-Азизия .</text>
+        <arg f="" n="0">Бомбы НАТО</arg>
+        <rel f="">сровняли</rel>
+	      <arg f="" n="1">комплекс Баб аль-Азизия</arg>
+        <arg f="" n="2">землей</arg>
+      </example>
+      <example name="Arg1 and Arg2" src="Source here" type="">
+        <text>Природа все сровняет .</text>
+        <arg f="" n="0">Природа</arg>
+        <rel f="">сровняет</rel>
+	      <arg f="" n="1">все</arg>
+      </example>
+	</roleset>
+  </predicate>
+</frameset>

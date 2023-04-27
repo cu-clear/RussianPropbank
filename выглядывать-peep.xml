@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Выглядывать">
+    <roleset id="выглядывать.01" name="Peep, look out from under or corner">
+      <aliases>
+        <alias pos="v">выглядывать</alias>
+        <alias pos="v">выглянуть</alias>
+        <alias pos="j">выглядывающий</alias>
+        <alias pos="j">выглянувший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English peep.02</note>
+      <roles>
+        <role descr="The Peeper" f="PAG" n="0"/>
+        <role descr="Thing being looked at" f="PPT" n="1"/>
+        <role descr="Location or side looking from" f="LOC" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="_">
+        <text>Солнце выглянула из туч .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Солнце</arg>
+          <rel relloc="?">выглянула</rel>
+	        <arg tpye="ARG1" start="?" end="?">из туч</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, М. Н. Волконский. Ищите и найдете (1904)">
+        <text>Она заслонилась от доктора рукою , выглянула на него из-под руки ...</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Она</arg>
+          <rel relloc="?">выглянула</rel>
+	        <arg tpye="ARG1" start="?" end="?">на него</arg>
+          <arg tpye="ARG2" start="?" end="?">из-под руки</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>
