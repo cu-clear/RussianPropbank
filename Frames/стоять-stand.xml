@@ -18,7 +18,7 @@
         <text> В дверях стоял наш папа .</text>
           <propbank>
         <arg type="ARG0" start="?" end="?">папа</arg>
-        <rel relloc="">стоял</rel>
+        <rel relloc="?">стоял</rel>
 	<arg type="ARG1" start="?" end="?">В дверях</arg>
           </propbank>
       </example>
@@ -26,7 +26,7 @@
         <text>Родители невесты в качестве хозяев стояли и кланялись , угощая гостей .</text>
           <propbank>
         <arg type="ARG0" start="?" end="?">Родители</arg>
-        <rel relloc="">стояли</rel>
+        <rel relloc="?">стояли</rel>
           </propbank>
       </example>
 	</roleset>
