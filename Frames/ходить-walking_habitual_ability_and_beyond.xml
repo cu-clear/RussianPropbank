@@ -1,0 +1,132 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Ходить">
+    <roleset id="ходить.01" name="Habitually walk, frequent some place">
+      <aliases>
+        <alias pos="v">ходить</alias>
+        <alias pos="v">походить</alias>
+        <alias pos="j">ходящий</alias>
+        <alias pos="j">походивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English frequent.01</note>
+      <roles>
+        <role descr="Visitor" f="PAG" n="0"/>
+        <role descr="Place Visited" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Татьяна Шмыга. Счастье мне улыбалось... (2000)">
+        <text>Когда мои родители еще не были женаты , они часто ходили на танцы и на каток .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">они</arg>
+          <rel relloc="?">ходили</rel>
+	        <arg tpye="ARG1" start="?" end="?">на танцы и на каток</arg>
+        </propbank>
+      </example>
+	  </roleset>
+    <roleset id="ходить.02" name="Physical ability to walk, walking on something">
+      <aliases>
+        <alias pos="v">ходить</alias>
+        <alias pos="v">походить</alias>
+        <alias pos="j">ходящий</alias>
+        <alias pos="j">походивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English walk.01</note>
+      <roles>
+        <role descr="Walker" f="PAG" n="0"/>
+        <role descr="Thing used for walking, whether feets, hands, or tool" f="PPT" n="1"/>
+        <role descr="Path, location" f="LOC" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Олег Гриневский. Тысяча и один день Никиты Сергеевича (1997)">
+        <text>Ложь , на каких бы ногах она ни ходила , никогда не сможет угнаться за правдой .</text>
+        <propbank>
+          <arg tpye="ARG1" start="?" end="?">на каких бы ногах</arg>
+	        <arg tpye="ARG0" start="?" end="?">она</arg>
+          <rel relloc="?">ходила</rel>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Вячеслав Фетисов. Овертайм (1997)">
+        <text>Норвежцы ходили по асфальту на лыжах , в шлемах викингов с рогами .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Норвежцы</arg>
+          <rel relloc="?">ходили</rel>
+	        <arg tpye="ARG2" start="?" end="?">по асфальту</arg>
+	        <arg tpye="ARG1" start="?" end="?">на лыжах</arg>
+        </propbank>
+      </example>
+	  </roleset>
+    <roleset id="ходить.03" name="Roam, directionless walking, walking here and there, walking about">
+      <aliases>
+        <alias pos="v">ходить</alias>
+        <alias pos="v">походить</alias>
+        <alias pos="j">ходящий</alias>
+        <alias pos="j">походивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English roam.01</note>
+      <roles>
+        <role descr="Walker" f="PAG" n="0"/>
+        <role descr="Range, Wide area" f="LOC" n="1"/>
+	    </roles>
+      <example name="Arg0 only" src="RNC, П. И. Чайковский. Дневник (1886) // Дневники П. И. Чайковского. 1873 — 1891. СПб. «Эго», «Северный олень». 1993., 1993">
+        <text>Я походил , посидел , потом , вооружившись лопатой работал в саду .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Я</arg>
+          <rel relloc="?">походил</rel>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1" src="RNC, Олег Гриневский. Тысяча и один день Никиты Сергеевича (1997)">
+        <text>Полчаса ходил Хрущев по незнакомому городу .</text>
+        <propbank>
+          <rel relloc="?">ходил</rel>
+          <arg tpye="ARG0" start="?" end="?">Хрущев</arg>
+	        <arg tpye="ARG1" start="?" end="?">по незнакомому городу</arg>
+        </propbank>
+      </example>
+	  </roleset>
+    <roleset id="ходить.04" name="Wear article of clothing, attire as a verb">
+      <aliases>
+        <alias pos="v">ходить</alias>
+        <alias pos="v">походить</alias>
+        <alias pos="j">ходящий</alias>
+        <alias pos="j">походивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English wear.01</note>
+      <roles>
+        <role descr="Wearer" f="PAG" n="0"/>
+        <role descr="Article of clothing" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, И. Н. Вирабов. Андрей Вознесенский (2015)">
+        <text>Она все время ходила в черном пиджаке , была решительной женщиной ― взяла Тарковского под свою ответственность .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Она</arg>
+          <rel relloc="?">ходила</rel>
+	        <arg tpye="ARG1" start="?" end="?">в черном пиджаке</arg>
+        </propbank>
+      </example>
+	  </roleset>
+    <roleset id="ходить.05" name="Attend, belong to some establishment">
+      <aliases>
+        <alias pos="v">ходить</alias>
+        <alias pos="v">походить</alias>
+        <alias pos="j">ходящий</alias>
+        <alias pos="j">походивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English attend.01</note>
+      <roles>
+        <role descr="Visitor" f="PAG" n="0"/>
+        <role descr="Place Visited" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, И. Н. Вирабов. Андрей Вознесенский (2015)">
+        <text>Мы , девочки , ходили в женскую школу , носили форму ― коричневое платье , черный и белый праздничный фартуки .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Мы , девочки</arg>
+          <rel relloc="?">ходили</rel>
+	        <arg tpye="ARG1" start="?" end="?">в женскую школу</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>
