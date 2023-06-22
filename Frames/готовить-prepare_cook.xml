@@ -18,18 +18,18 @@
       <example name="Arg0 and Arg1" src="RNC, Д. С. Данин. Нильс Бор (1969-1975)">
         <text>Он готовил тогда статью о связи между электрическими свойствами и поверхностным натяжением ртути .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Он</arg>
+          <arg type="ARG0" start="?" end="?">Он</arg>
           <rel relloc="?">готовил</rel>
-	        <arg tpye="ARG1" start="?" end="?">статью о связи между электрическими свойствами и поверхностным натяжением ртути</arg>
+	        <arg type="ARG1" start="?" end="?">статью о связи между электрическими свойствами и поверхностным натяжением ртути</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Г. Я. Бакланов. Жизнь, подаренная дважды (1999)">
         <text>И родина приготовила для них место : в лагерях .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">родина</arg>
+          <arg type="ARG0" start="?" end="?">родина</arg>
           <rel relloc="?">приготовила</rel>
-	        <arg tpye="ARG3" start="?" end="?">для них</arg>
-	        <arg tpye="ARG2" start="?" end="?">место</arg>
+	        <arg type="ARG3" start="?" end="?">для них</arg>
+	        <arg type="ARG2" start="?" end="?">место</arg>
         </propbank>
       </example>
 	  </roleset>
@@ -51,25 +51,25 @@
       <example name="Arg0 and Arg1" src="RNC, Е. В. Салиас-де-Турнемир (Евгения Тур). Воспоминания о войне 1877-1878 гг. (1880)">
         <text>Дуняша между тем готовила в той же комнате чай .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Дуняша</arg>
+          <arg type="ARG0" start="?" end="?">Дуняша</arg>
           <rel relloc="?">готовила</rel>
-	        <arg tpye="ARG1" start="?" end="?">чай</arg>
+	        <arg type="ARG1" start="?" end="?">чай</arg>
         </propbank>
       </example>
       <example name="Arg1 and Arg2" src="RNC, Аркадий Кощеев. Царство флоры // «Уральский следопыт», 1982">
         <text>Из высушенных почек можно зимой готовить душистый чай с ароматом и вкусом южного ананаса .</text>
         <propbank>
-          <arg tpye="ARG2" start="?" end="?">Из высушенных почек</arg>
+          <arg type="ARG2" start="?" end="?">Из высушенных почек</arg>
           <rel relloc="?">готовить</rel>
-	        <arg tpye="ARG1" start="?" end="?">душистый чай с ароматом и вкусом южного ананаса</arg>
+	        <arg type="ARG1" start="?" end="?">душистый чай с ароматом и вкусом южного ананаса</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg3" src="RNC, Екатерина Завершнева. Высотка (2012)">
         <text>У вас тут на столе одни шурупы , а мне Илонка ужин приготовила .</text>
         <propbank>
-          <arg tpye="ARG3" start="?" end="?">мне</arg>
-          <arg tpye="ARG0" start="?" end="?">Илонка</arg>
-	        <arg tpye="ARG1" start="?" end="?">ужин</arg>
+          <arg type="ARG3" start="?" end="?">мне</arg>
+          <arg type="ARG0" start="?" end="?">Илонка</arg>
+	        <arg type="ARG1" start="?" end="?">ужин</arg>
           <rel relloc="?">приготовила</rel>
         </propbank>
       </example>

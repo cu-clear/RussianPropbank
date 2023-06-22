@@ -18,18 +18,18 @@
       <example name="Arg0 and Arg3" src="RNC, Дмитрий Каралис. Автопортрет (1999)">
         <text>Володька уверил , что это солитер , и посоветовал , как его успокоить .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Володька</arg>
+          <arg type="ARG0" start="?" end="?">Володька</arg>
           <rel relloc="?">уверил</rel>
-	        <arg tpye="ARG3" start="?" end="?">что это солитер</arg>
+	        <arg type="ARG3" start="?" end="?">что это солитер</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Т. Г. Шевченко. Прогулка с удовольствием и не без морали (1855-1858)">
         <text>Но я уверил его , что его компания интереснее для меня генеральской и даже адмиральской компании .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">я</arg>
+          <arg type="ARG0" start="?" end="?">я</arg>
           <rel relloc="?">уверил</rel>
-	        <arg tpye="ARG1" start="?" end="?">его</arg>
-          <arg tpye="ARG2" start="?" end="?">что его компания интереснее для меня генеральской и даже адмиральской компании</arg>
+	        <arg type="ARG1" start="?" end="?">его</arg>
+          <arg type="ARG2" start="?" end="?">что его компания интереснее для меня генеральской и даже адмиральской компании</arg>
         </propbank>
       </example>
 	  </roleset>

@@ -21,25 +21,25 @@
         <text>Приезжали в мастерскую какие-то военные , расспрашивали девочек и Софью о причине смерти Зины .</text>
         <propbank>
           <rel relloc="?">Приезжали</rel>
-          <arg tpye="ARG1" start="?" end="?">в мастерскую</arg>
-	        <arg tpye="ARG0" start="?" end="?">какие-то военные</arg>
+          <arg type="ARG1" start="?" end="?">в мастерскую</arg>
+	        <arg type="ARG0" start="?" end="?">какие-то военные</arg>
         </propbank>
       </example>
       <example name="Arg0, ARG1, and Arg3" src="RNC, И. К. Архипова. Музыка жизни (1996)">
         <text>Как-то к нам в консерваторию приехал из Англии педагог по вокалу .</text>
         <propbank>
-          <arg tpye="ARG3" start="?" end="?">к нам в консерваторию</arg>
+          <arg type="ARG3" start="?" end="?">к нам в консерваторию</arg>
           <rel relloc="?">приехал</rel>
-          <arg tpye="ARG2" start="?" end="?">из Англии</arg>
-	        <arg tpye="ARG0" start="?" end="?">педагог по вокалу</arg>
+          <arg type="ARG2" start="?" end="?">из Англии</arg>
+	        <arg type="ARG0" start="?" end="?">педагог по вокалу</arg>
         </propbank>
       </example>
       <example name="Arg0 and Arg4" src="_">
         <text>Вдруг приехала на извозчике мама и увезла меня домой .</text>
         <propbank>
           <rel relloc="?">приехала</rel>
-          <arg tpye="ARG1" start="?" end="?">на извозчике</arg>
-	        <arg tpye="ARG0" start="?" end="?">мама</arg>
+          <arg type="ARG1" start="?" end="?">на извозчике</arg>
+	        <arg type="ARG0" start="?" end="?">мама</arg>
         </propbank>
       </example>
 	  </roleset>

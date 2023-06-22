@@ -17,17 +17,17 @@
       <example name="Arg0 and Arg1" src="RNC, Василий Аксенов. Новый сладостный стиль (1997)">
         <text>― Я ожидал этого упрека , ― грустно сказал Дакуорт ...</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Я</arg>
+          <arg type="ARG0" start="?" end="?">Я</arg>
           <rel relloc="?">ожидал</rel>
-	        <arg tpye="ARG1" start="?" end="?">этого упрека</arg>
+	        <arg type="ARG1" start="?" end="?">этого упрека</arg>
         </propbank>
       </example>
       <example name="Arg1 and Arg2" src="_">
         <text>Мало можно ожидать пользы от предлагаемых мер, хотя они вообще одобрительны. [А. А. Половцов. Дневник (1883)]</text>
         <propbank>
           <rel relloc="?">ожидать</rel>
-          <arg tpye="ARG0" start="?" end="?">пользы</arg>
-	        <arg tpye="ARG1" start="?" end="?">от предлагаемых мер</arg>
+          <arg type="ARG0" start="?" end="?">пользы</arg>
+	        <arg type="ARG1" start="?" end="?">от предлагаемых мер</arg>
         </propbank>
       </example>
 	  </roleset>

@@ -18,29 +18,29 @@
       <example name="Arg0, Arg1, and Arg2" src="RNC, В. В. Огарков. Демидовы. Их жизнь и деятельность (1891)">
         <text>Большую часть своей жизни он провел в Европе, изредка лишь приезжая в Россию .</text>
         <propbank>
-          <arg tpye="ARG1" start="0" end="3">Большую часть своей жизни</arg>
-          <arg tpye="ARG0" start="4" end="4">он</arg>
+          <arg type="ARG1" start="0" end="3">Большую часть своей жизни</arg>
+          <arg type="ARG0" start="4" end="4">он</arg>
           <rel relloc="?">провел</rel>
-	        <arg tpye="ARG2" start="6" end="7">в Европе</arg>
+	        <arg type="ARG2" start="6" end="7">в Европе</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, М. К. Лемке. 250 дней в царской ставке 1916. (1916)">
         <text>Владимир Александрович Крейслер провел со мною почти целый день .</text>
         <propbank>
-          <arg tpye="ARG0" start="0" end="2">Владимир Александрович Крейслер</arg>
+          <arg type="ARG0" start="0" end="2">Владимир Александрович Крейслер</arg>
           <rel relloc="?">провел</rel>
-          <arg tpye="ARG2" start="4" end="5">со мною</arg>
-	        <arg tpye="ARG1" start="6" end="8">почти целый день</arg>
+          <arg type="ARG2" start="4" end="5">со мною</arg>
+	        <arg type="ARG1" start="6" end="8">почти целый день</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2 as well as ARMG-MNR" src="RNC, Т. Г. Шевченко. Капитанша (1855)">
         <text>Несмотря на то, что половина города была еще в развалинах , дворянства к зиме съехалося много , и мы на развалинах древнего Смоленска зиму провели шумно и весело .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">мы</arg>
-          <arg tpye="ARG2" start="?" end="?">на развалинах древнего Смоленска</arg>
-	        <arg tpye="ARG1" start="?" end="?">зиму</arg>
+          <arg type="ARG0" start="?" end="?">мы</arg>
+          <arg type="ARG2" start="?" end="?">на развалинах древнего Смоленска</arg>
+	        <arg type="ARG1" start="?" end="?">зиму</arg>
           <rel relloc="?">провели</rel>
-          <arg tpye="ARGM-MNR" start="?" end="?">шумно и весело</arg>
+          <arg type="ARGM-MNR" start="?" end="?">шумно и весело</arg>
         </propbank>
       </example>
 	  </roleset>

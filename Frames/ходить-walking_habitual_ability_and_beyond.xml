@@ -17,9 +17,9 @@
       <example name="Arg0 and Arg1" src="RNC, Татьяна Шмыга. Счастье мне улыбалось... (2000)">
         <text>Когда мои родители еще не были женаты , они часто ходили на танцы и на каток .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">они</arg>
+          <arg type="ARG0" start="?" end="?">они</arg>
           <rel relloc="?">ходили</rel>
-	        <arg tpye="ARG1" start="?" end="?">на танцы и на каток</arg>
+	        <arg type="ARG1" start="?" end="?">на танцы и на каток</arg>
         </propbank>
       </example>
 	  </roleset>
@@ -40,18 +40,18 @@
       <example name="Arg0 and Arg1" src="RNC, Олег Гриневский. Тысяча и один день Никиты Сергеевича (1997)">
         <text>Ложь , на каких бы ногах она ни ходила , никогда не сможет угнаться за правдой .</text>
         <propbank>
-          <arg tpye="ARG1" start="?" end="?">на каких бы ногах</arg>
-	        <arg tpye="ARG0" start="?" end="?">она</arg>
+          <arg type="ARG1" start="?" end="?">на каких бы ногах</arg>
+	        <arg type="ARG0" start="?" end="?">она</arg>
           <rel relloc="?">ходила</rel>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Вячеслав Фетисов. Овертайм (1997)">
         <text>Норвежцы ходили по асфальту на лыжах , в шлемах викингов с рогами .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Норвежцы</arg>
+          <arg type="ARG0" start="?" end="?">Норвежцы</arg>
           <rel relloc="?">ходили</rel>
-	        <arg tpye="ARG2" start="?" end="?">по асфальту</arg>
-	        <arg tpye="ARG1" start="?" end="?">на лыжах</arg>
+	        <arg type="ARG2" start="?" end="?">по асфальту</arg>
+	        <arg type="ARG1" start="?" end="?">на лыжах</arg>
         </propbank>
       </example>
 	  </roleset>
@@ -71,7 +71,7 @@
       <example name="Arg0 only" src="RNC, П. И. Чайковский. Дневник (1886) // Дневники П. И. Чайковского. 1873 — 1891. СПб. «Эго», «Северный олень». 1993., 1993">
         <text>Я походил , посидел , потом , вооружившись лопатой работал в саду .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Я</arg>
+          <arg type="ARG0" start="?" end="?">Я</arg>
           <rel relloc="?">походил</rel>
         </propbank>
       </example>
@@ -79,8 +79,8 @@
         <text>Полчаса ходил Хрущев по незнакомому городу .</text>
         <propbank>
           <rel relloc="?">ходил</rel>
-          <arg tpye="ARG0" start="?" end="?">Хрущев</arg>
-	        <arg tpye="ARG1" start="?" end="?">по незнакомому городу</arg>
+          <arg type="ARG0" start="?" end="?">Хрущев</arg>
+	        <arg type="ARG1" start="?" end="?">по незнакомому городу</arg>
         </propbank>
       </example>
 	  </roleset>
@@ -100,9 +100,9 @@
       <example name="Arg0 and Arg1" src="RNC, И. Н. Вирабов. Андрей Вознесенский (2015)">
         <text>Она все время ходила в черном пиджаке , была решительной женщиной ― взяла Тарковского под свою ответственность .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Она</arg>
+          <arg type="ARG0" start="?" end="?">Она</arg>
           <rel relloc="?">ходила</rel>
-	        <arg tpye="ARG1" start="?" end="?">в черном пиджаке</arg>
+	        <arg type="ARG1" start="?" end="?">в черном пиджаке</arg>
         </propbank>
       </example>
 	  </roleset>
@@ -122,9 +122,9 @@
       <example name="Arg0 and Arg1" src="RNC, И. Н. Вирабов. Андрей Вознесенский (2015)">
         <text>Мы , девочки , ходили в женскую школу , носили форму ― коричневое платье , черный и белый праздничный фартуки .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Мы , девочки</arg>
+          <arg type="ARG0" start="?" end="?">Мы , девочки</arg>
           <rel relloc="?">ходили</rel>
-	        <arg tpye="ARG1" start="?" end="?">в женскую школу</arg>
+	        <arg type="ARG1" start="?" end="?">в женскую школу</arg>
         </propbank>
       </example>
 	  </roleset>
