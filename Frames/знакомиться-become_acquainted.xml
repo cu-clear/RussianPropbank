@@ -17,17 +17,17 @@
       <example name="Arg0 and Arg1" src="RNC, Марк Тайманов. Эмоции неисчерпаемы (2003) // «64 — Шахматное обозрение», 15.10.2003">
         <text>Я знакомился с ним и обнаружил оазис тишины , покоя .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Я</arg>
+          <arg type="ARG0" start="?" end="?">Я</arg>
           <rel relloc="?">знакомился</rel>
-	        <arg tpye="ARG1" start="?" end="?">с ним</arg>
+	        <arg type="ARG1" start="?" end="?">с ним</arg>
         </propbank>
       </example>
       <example name="Arg0 and Arg1 as innanimate" src="RNC, Леонид Барков. Вице-премьера позвали в трущобы (2003) // «Время МН», 06.08.2003">
         <text>Там же они во всех деталях познакомились с проектом железной дороги , вызывающим споры на высшем уровне .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">они</arg>
+          <arg type="ARG0" start="?" end="?">они</arg>
           <rel relloc="?">познакомились</rel>
-	        <arg tpye="ARG1" start="?" end="?">с проектом железной дороги</arg>
+	        <arg type="ARG1" start="?" end="?">с проектом железной дороги</arg>
         </propbank>
       </example>
 	  </roleset>

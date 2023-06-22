@@ -19,18 +19,18 @@
       <example name="Arg0 and Arg1" src="RNC, Ф. И. Буслаев. Мои воспоминания (1897)">
         <text>Вот вопрос , который и занимает , и спутывает меня !</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">вопрос</arg>
+          <arg type="ARG0" start="?" end="?">вопрос</arg>
           <rel relloc="?">спутывает</rel>
-	        <arg tpye="ARG1" start="?" end="?">меня</arg>
+	        <arg type="ARG1" start="?" end="?">меня</arg>
         </propbank>
       </example>
       <example name="Arg1, Arg2 and Arg3" src="RNC, П. Н. Ткачев. Революция и принцип национальности // «Набат». 1878">
         <text>Он совершенно спутывает принцип народности с принципом национальности и наивно воображает , будто все народное ― национально и национальное ― народно .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Он</arg>
+          <arg type="ARG0" start="?" end="?">Он</arg>
           <rel relloc="?">спутывает</rel>
-	        <arg tpye="ARG1" start="?" end="?">принцип народности</arg>
-	        <arg tpye="ARG1" start="?" end="?">принципом национальности</arg>
+	        <arg type="ARG1" start="?" end="?">принцип народности</arg>
+	        <arg type="ARG1" start="?" end="?">принципом национальности</arg>
         </propbank>
       </example>
 	  </roleset>
