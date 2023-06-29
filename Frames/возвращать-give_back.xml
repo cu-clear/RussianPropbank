@@ -26,7 +26,7 @@
       <example name="Arg0, Arg1, and Arg2" src="RNC, Ю. М. Нагибин. Дневник (1982)">
         <text>« Мы вернем Венгрии ее блудного сына , ― совсем разошелся я , потому что всё время прихлебывал из рюмки . ―</text>
         <propbank>
-          <arg type="ARG0" start="1" end="1">«Мы</arg>
+          <arg type="ARG0" start="1" end="1">Мы</arg>
           <rel relloc="2">вернем</rel>
 	        <arg type="ARG2" start="3" end="3">Венгрии</arg>
 	        <arg type="ARG1" start="4" end="6">ее блудного сына</arg>
