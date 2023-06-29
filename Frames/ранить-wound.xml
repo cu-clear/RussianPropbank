@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Ранить">
+    <roleset id="ранить.01" name="Wound, hurt, injure">
+      <aliases>
+        <alias pos="v">ранить</alias>
+        <alias pos="v">поранить</alias>
+        <alias pos="j">ранящий</alias>
+        <alias pos="j">пораненный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English wound.01</note>
+      <roles>
+        <role descr="Stimulus of injury" f="PAG" n="0"/>
+        <role descr="Injured party" f="PPT" n="1"/>
+        <role descr="Etinstrument, if separate from arg0c" f="MNR" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, А. И. Богданович. Дневник (1905)">
+        <text>Одна пуля ранила городового , затем были разбиты два стекла в окнах Зимнего дворца .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Одна пуля</arg>
+          <rel relloc="?">ранила</rel>
+	        <arg type="ARG1" start="?" end="?">городового</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, К. А. Куприна. Куприн ― мой отец (1979)">
+        <text>Подмастерье поранил себя резцом , и пришлось платить за его длительное лечение .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Подмастерье</arg>
+          <rel relloc="?">поранил</rel>
+	        <arg type="ARG1" start="?" end="?">себя</arg>
+	        <arg type="ARG2" start="?" end="?">резцом</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

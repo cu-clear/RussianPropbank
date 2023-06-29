@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Лишаться">
+    <roleset id="лишаться.01" name="Be deprived of, lose">
+      <aliases>
+        <alias pos="v">лишаться</alias>
+        <alias pos="v">лишиться</alias>
+        <alias pos="j">лишающийся</alias>
+        <alias pos="j">лишившись</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English deprive.01</note>
+      <roles>
+        <role descr="Entity being deprived" f="PAG" n="0"/>
+        <role descr="Thing being deprived" f="PPT" n="1"/>
+        <role descr="Cause of Deprivation" f="MNR" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, архиепископ Иннокентий (Борисов). Жизнь святого апостола Павла (1828)">
+        <text>Опыт показывает , что такие люди лишаются чувств .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">такие люди</arg>
+          <rel relloc="?">лишаются</rel>
+	        <arg type="ARG1" start="?" end="?">чувств</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, К. Померанцев. Пятидесятилетний опыт // Мосты. Сб. статей к 50-летию русской революции, 1967">
+        <text>Стоящие же у власти той же системой  возможности признания своих ошибок</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Стоящие же у власти</arg>
+	        <arg type="ARG1" start="?" end="?">той же системой</arg>
+          <rel relloc="?">лишаются</rel>
+	        <arg type="ARG2" start="?" end="?">признания своих ошибок</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

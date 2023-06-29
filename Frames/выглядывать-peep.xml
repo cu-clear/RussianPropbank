@@ -1,7 +1,7 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="Выглядывать">
-    <roleset id="выглядывать.01" name="Peep, look out from under or corner">
+    <roleset id="выглядывать.01" name="Peep out, emerge partially, peek around">
       <aliases>
         <alias pos="v">выглядывать</alias>
         <alias pos="v">выглянуть</alias>
@@ -9,27 +9,27 @@
         <alias pos="j">выглянувший</alias>
 	    </aliases>
 	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English peep.02</note>
+	    <note>NOTES: based on English peek.01</note>
       <roles>
-        <role descr="The Peeper" f="PAG" n="0"/>
-        <role descr="Thing being looked at" f="PPT" n="1"/>
-        <role descr="Location or side looking from" f="LOC" n="2"/>
+        <role descr="Peeping Entity" f="PAG" n="0"/>
+        <role descr="Cover from which peeping" f="LOC" n="1"/>
+        <role descr="Area, space, location peeping into" f="GOL" n="2"/>
 	    </roles>
-      <example name="Arg0 and Arg1" src="_">
-        <text>Солнце выглянула из туч .</text>
+      <example name="Arg0 and Arg1" src="RNC, Е. А. Нагродская. Гнев Диониса (1910)">
+        <text>Я выглядываю в окно и замираю от восторга .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Солнце</arg>
-          <rel relloc="?">выглянула</rel>
-	        <arg type="ARG1" start="?" end="?">из туч</arg>
+          <arg type="ARG0" start="?" end="?">Я</arg>
+          <rel relloc="?">выглядываю</rel>
+	        <arg type="ARG1" start="?" end="?">в окно</arg>
         </propbank>
       </example>
-      <example name="Arg0, Arg1, and Arg2" src="RNC, М. Н. Волконский. Ищите и найдете (1904)">
-        <text>Она заслонилась от доктора рукою , выглянула на него из-под руки ...</text>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Дмитрий Ульянов. Инопланетяне (2007) // «Волга», 2012]">
+        <text>Саша ! ― позвал капитан кого-то , и из ходового пролета на палубу выглянул человек .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Она</arg>
-          <rel relloc="?">выглянула</rel>
-	        <arg type="ARG1" start="?" end="?">на него</arg>
-          <arg type="ARG2" start="?" end="?">из-под руки</arg>
+          <arg type="ARG1" start="?" end="?">из ходового пролета</arg>
+	        <arg type="ARG2" start="?" end="?">на палубу</arg>
+          <rel relloc="?">выглянул</rel>
+	        <arg type="ARG0" start="?" end="?">человек</arg>
         </propbank>
       </example>
 	  </roleset>

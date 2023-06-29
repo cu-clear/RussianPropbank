@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Налетать">
+    <roleset id="налетать.01" name="Swoop, fly in or upon">
+      <aliases>
+        <alias pos="v">налетать</alias>
+        <alias pos="v">налететь</alias>
+        <alias pos="j">налетающий</alias>
+        <alias pos="j">налетевший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English go.01</note>
+      <roles>
+        <role descr="Thing Flying" f="PAG" n="0"/>
+        <role descr="TThing or location swooped upon" f="PPT" n="1"/>
+        <role descr="Source, direction from whence flying" f="DIR" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Александр Дорофеев. Эле-Фантик // «Мурзилка», 2003">
+        <text>Были три месяца в году , когда на город Панамка налетал ураган .</text>
+        <propbank>
+          <arg type="ARG1" start="?" end="?">на город Панамка</arg>
+          <rel relloc="?">налетал</rel>
+	        <arg type="ARG0" start="?" end="?">ураган</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg2" src="RNC, Ю. О. Домбровский. Хранитель древностей, часть 1 (1964)">
+        <text>Это вдруг с той стороны улицы от садов и гор налетел теплый нежный ветерок и принес целое облако , пахнущее дымом и яблоками .</text>
+        <propbank>
+          <arg type="ARG2" start="?" end="?">с той стороны улицы от садов и гор</arg>
+          <rel relloc="?">налетел</rel>
+	        <arg type="ARG0" start="?" end="?">теплый нежный ветерок</arg>
+        </propbank>
+      </example>
+	  </roleset>
+    <roleset id="налетать.02" name="Fall upon, attack">
+      <aliases>
+        <alias pos="v">налетать</alias>
+        <alias pos="v">налететь</alias>
+        <alias pos="j">налетающий</alias>
+        <alias pos="j">налетевший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English pounce.01</note>
+      <roles>
+        <role descr="attacker, agent" f="PAG" n="0"/>
+        <role descr="Target, thing or location attacked" f="PPT" n="1"/>
+        <role descr="Source, direction from whence attacking" f="DIR" n="2"/>
+	    </roles>
+      <example name="Arg0 only" src="RNC, Анатолий Рыбаков. Тяжелый песок (1975-1977)">
+        <text>Их выкопали в гражданскую войну , когда налетали банды , все отбирали и приходилось в этих погребах прятать кожевенный товар .</text>
+        <propbank>
+          <rel relloc="?">налетали</rel>
+	        <arg type="ARG0" start="?" end="?">банды</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1" src="RNC, Василий Аксенов. Пора, мой друг, пора (1963)">
+        <text>Миша кое-как выпрямился и яростно налетел на Эдуарда .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Миша</arg>
+          <rel relloc="?">налетел</rel>
+	        <arg type="ARG1" start="?" end="?">на Эдуарда</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg2" src="RNC, Аркадий Гайдар. Сказка про военную тайну, Мальчиша-Кибальчиша и его твердое слово (1935)">
+        <text>Но тут из-за дыма и огня налетела буржуинская сила , и схватила , и скрутила она Мальчиша-Кибальчиша .</text>
+        <propbank>
+          <arg type="ARG2" start="?" end="?">из-за дыма и огня</arg>
+          <rel relloc="?">налетела</rel>
+	        <arg type="ARG0" start="?" end="?">буржуинская сила</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>
