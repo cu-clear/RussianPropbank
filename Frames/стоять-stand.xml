@@ -17,16 +17,16 @@
       <example name="ARG0 and ARG1" src="Russian National Corpus">
         <text> В дверях стоял наш папа .</text>
           <propbank>
-        <arg type="ARG0" start="?" end="?">папа</arg>
-        <rel relloc="?">стоял</rel>
-	<arg type="ARG1" start="?" end="?">В дверях</arg>
+        <arg type="ARG0" start="5" end="5">папа</arg>
+        <rel relloc="3">стоял</rel>
+	<arg type="ARG1" start="1" end="2">В дверях</arg>
           </propbank>
       </example>
       <example name="ARG0 only." src="Russian National Corpus">
         <text>Родители невесты в качестве хозяев стояли и кланялись , угощая гостей .</text>
           <propbank>
-        <arg type="ARG0" start="?" end="?">Родители</arg>
-        <rel relloc="?">стояли</rel>
+        <arg type="ARG0" start="0" end="0">Родители</arg>
+        <rel relloc="5">стояли</rel>
           </propbank>
       </example>
 	</roleset>

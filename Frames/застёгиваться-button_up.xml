@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Застёгиваться ">
+  <predicate lemma="застёгиваться ">
     <roleset id="застёгиваться.01" name="Button up, buckle up, fasten (seatblet)">
       <aliases>
         <alias pos="v">застёгиваться</alias>

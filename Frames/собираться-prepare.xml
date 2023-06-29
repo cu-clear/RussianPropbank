@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-    <predicate lemma="Собираться">
-        <roleset id="Собираться.01" name="To prepare, to make ready, to gather onse self up.">
+    <predicate lemma="собираться">
+        <roleset id="собираться.01" name="To prepare, to make ready, to gather onse self up.">
             <aliases>
                 <alias pos="v">собираться</alias>
                 <alias pos="v">собраться</alias>

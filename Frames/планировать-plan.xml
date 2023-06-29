@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Планировать">
+  <predicate lemma="планировать">
     <roleset id="планировать.01" name="Plan, schedule, map out">
       <aliases>
         <alias pos="v">планировать</alias>

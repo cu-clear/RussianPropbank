@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Разбираться">
+  <predicate lemma="разбираться">
     <roleset id="разбираться.01" name="Make sense of, understand">
       <aliases>
         <alias pos="v">разбираться</alias>
@@ -17,16 +17,16 @@
       <example name="Arg0 and Arg1" src="RNC, Юрий Азаров. Подозреваемый (2002)">
         <text>Я и сам не до конца разобрался в этой философии .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Я</arg>
-          <rel relloc="?">разобрался</rel>
-	        <arg type="ARG1" start="?" end="?">в этой философии</arg>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <rel relloc="6">разобрался</rel>
+	        <arg type="ARG1" start="7" end="9">в этой философии</arg>
         </propbank>
       </example>
       <example name="Arg1 only" src="RNC, В. Ф. Одоевский. Дневник В. Ф. Одоевского 1859-1869 гг. (1861)">
         <text>Едва разобрался с моими книгами и бумагами .</text>
         <propbank>
-          <rel relloc="?">разобрался</rel>
-	        <arg type="ARG1" start="?" end="?">с моими книгами и бумагами</arg>
+          <rel relloc="1">разобрался</rel>
+	        <arg type="ARG1" start="2" end="6">с моими книгами и бумагами</arg>
         </propbank>
       </example>
 	  </roleset>

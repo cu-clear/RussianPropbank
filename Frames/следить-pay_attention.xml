@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Следить">
+  <predicate lemma="следить">
     <roleset id="следить.01" name="Attend, watch, play close attention">
       <aliases>
         <alias pos="v">следить</alias>

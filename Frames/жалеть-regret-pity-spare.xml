@@ -42,25 +42,7 @@
         <role descr="Regreter" f="PPT" n="0" />
         <role descr="Thing regretted" f="CAU" n="1" />
 	    </roles>
-      <example name="Arg0 and Arg1" src="_">
-        <text>текст</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">Span</arg>
-          <rel relloc="?">alias</rel>
-	        <arg type="ARG1" start="?" end="?">Span</arg>
-        </propbank>
-      </example>
-      <example name="Arg0, Арг1, and Arg2" src="_">
-        <text>текст</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">Span</arg>
-          <rel relloc="?">alias</rel>
-	        <arg type="ARG1" start="?" end="?">Span</arg>
-        </propbank>
-      </example>
 	  </roleset>
-  </predicate>
-  <predicate lemma="жалеть - TBD">
     <roleset id="жалеть.03" name="Spare, use reluctanly">
       <aliases>
         <alias pos="v">жалеть</alias>
@@ -76,22 +58,6 @@
         <role descr="Regreter" f="PPT" n="0" />
         <role descr="Thing regretted" f="CAU" n="1" />
 	    </roles>
-      <example name="Arg0 and Arg1" src="_">
-        <text>текст</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">Span</arg>
-          <rel relloc="?">alias</rel>
-	        <arg type="ARG1" start="?" end="?">Span</arg>
-        </propbank>
-      </example>
-      <example name="Arg0, Арг1, and Arg2" src="_">
-        <text>текст</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">Span</arg>
-          <rel relloc="?">alias</rel>
-	        <arg type="ARG1" start="?" end="?">Span</arg>
-        </propbank>
-      </example>
 	  </roleset>
   </predicate>
 </frameset>

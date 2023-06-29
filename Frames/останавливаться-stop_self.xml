@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Останавливаться">
+  <predicate lemma="останавливаться">
     <roleset id="останавливаться.01" name="Stop, cease (reflexive)">
       <aliases>
         <alias pos="v">останавливаться</alias>

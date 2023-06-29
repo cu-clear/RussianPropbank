@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Добиваться">
+  <predicate lemma="добиваться">
     <roleset id="добиваться.01" name="Accomplish, pull off">
       <aliases>
         <alias pos="v">добиваться</alias>
@@ -17,9 +17,9 @@
       <example name="Arg0 and Arg1" src="RNC, А. Д. Сахаров. Съезд не может сделать все сразу (1989)">
         <text>В какой-то мере он добился желательных ему результатов голосования .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">он</arg>
-          <rel relloc="?">добился</rel>
-	        <arg type="ARG1" start="?" end="?">желательных ему результатов голосования</arg>
+          <arg type="ARG0" start="3" end="3">он</arg>
+          <rel relloc="4">добился</rel>
+	        <arg type="ARG1" start="5" end="8">желательных ему результатов голосования</arg>
         </propbank>
       </example>
 	  </roleset>

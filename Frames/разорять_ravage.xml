@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Разорять">
+  <predicate lemma="разорять">
     <roleset id="разорять.01" name="Ruin, ravage, be broke">
       <aliases>
         <alias pos="v">разорять</alias>
@@ -17,16 +17,16 @@
       <example name="Arg1 only" src="_">
         <text>Я разорён !</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">Я</arg>
-          <rel relloc="?">разорён</rel>
+          <arg type="ARG1" start="0" end="0">Я</arg>
+          <rel relloc="1">разорён</rel>
         </propbank>
       </example>
       <example name="Arg0 and Arg1" src="RNC, А. С. Суворин. Дневник (1893)">
         <text>Пьяный разоряет свою семью и т. д.</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Пьяный</arg>
-          <rel relloc="?">разоряет</rel>
-	        <arg type="ARG1" start="?" end="?">свою семью</arg>
+          <arg type="ARG0" start="0" end="0">Пьяный</arg>
+          <rel relloc="1">разоряет</rel>
+	        <arg type="ARG1" start="2" end="3">свою семью</arg>
         </propbank>
       </example>
 	  </roleset>

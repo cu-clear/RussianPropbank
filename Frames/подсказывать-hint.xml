@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Подсказывать">
+  <predicate lemma="подсказывать">
     <roleset id="подсказывать.01" name="hint, prompt, give a clue">
       <aliases>
         <alias pos="v">подсказывать</alias>

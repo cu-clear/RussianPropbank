@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Ругаться">
+  <predicate lemma="ругаться">
     <roleset id="ругаться.01" name="Quarrel, argue">
       <aliases>
         <alias pos="v">Imperfective</alias>

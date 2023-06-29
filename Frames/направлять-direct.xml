@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Направлять">
+  <predicate lemma="направлять">
     <roleset id="направлять.01" name="To send, route, destine, assign address">
       <aliases>
         <alias pos="v">направлять</alias>

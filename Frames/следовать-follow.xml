@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Следовать">
+  <predicate lemma="следовать">
     <roleset id="следовать.01" name="Follow, be subsequent temporally of spatially">
       <aliases>
         <alias pos="v">следовать</alias>

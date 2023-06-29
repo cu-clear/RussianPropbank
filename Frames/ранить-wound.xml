@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Ранить">
+  <predicate lemma="ранить">
     <roleset id="ранить.01" name="Wound, hurt, injure">
       <aliases>
         <alias pos="v">ранить</alias>
@@ -18,18 +18,18 @@
       <example name="Arg0 and Arg1" src="RNC, А. И. Богданович. Дневник (1905)">
         <text>Одна пуля ранила городового , затем были разбиты два стекла в окнах Зимнего дворца .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Одна пуля</arg>
-          <rel relloc="?">ранила</rel>
-	        <arg type="ARG1" start="?" end="?">городового</arg>
+          <arg type="ARG0" start="0" end="1">Одна пуля</arg>
+          <rel relloc="2">ранила</rel>
+	        <arg type="ARG1" start="3" end="3">городового</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, К. А. Куприна. Куприн ― мой отец (1979)">
         <text>Подмастерье поранил себя резцом , и пришлось платить за его длительное лечение .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Подмастерье</arg>
-          <rel relloc="?">поранил</rel>
-	        <arg type="ARG1" start="?" end="?">себя</arg>
-	        <arg type="ARG2" start="?" end="?">резцом</arg>
+          <arg type="ARG0" start="0" end="0">Подмастерье</arg>
+          <rel relloc="1">поранил</rel>
+	        <arg type="ARG1" start="2" end="2">себя</arg>
+	        <arg type="ARG2" start="3" end="3">резцом</arg>
         </propbank>
       </example>
 	  </roleset>

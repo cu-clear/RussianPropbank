@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <frameset>
-    <predicate lemma="Помнить">
+    <predicate lemma="помнить">
         <roleset id="помнить.01" name="Remember, keep in mind">
             <aliases>
                 <alias pos="v">помнить</alias>

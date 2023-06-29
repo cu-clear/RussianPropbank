@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Готовить">
+  <predicate lemma="готовить">
     <roleset id="готовить.01" name="Prepare, make">
       <aliases>
         <alias pos="v">готовить</alias>
@@ -18,18 +18,18 @@
       <example name="Arg0 and Arg1" src="RNC, Д. С. Данин. Нильс Бор (1969-1975)">
         <text>Он готовил тогда статью о связи между электрическими свойствами и поверхностным натяжением ртути .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Он</arg>
-          <rel relloc="?">готовил</rel>
-	        <arg type="ARG1" start="?" end="?">статью о связи между электрическими свойствами и поверхностным натяжением ртути</arg>
+          <arg type="ARG0" start="0" end="0">Он</arg>
+          <rel relloc="1">готовил</rel>
+	        <arg type="ARG1" start="3" end="12">статью о связи между электрическими свойствами и поверхностным натяжением ртути</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Г. Я. Бакланов. Жизнь, подаренная дважды (1999)">
         <text>И родина приготовила для них место : в лагерях .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">родина</arg>
-          <rel relloc="?">приготовила</rel>
-	        <arg type="ARG3" start="?" end="?">для них</arg>
-	        <arg type="ARG2" start="?" end="?">место</arg>
+          <arg type="ARG0" start="1" end="1">родина</arg>
+          <rel relloc="2">приготовила</rel>
+	        <arg type="ARG3" start="3" end="4">для них</arg>
+	        <arg type="ARG2" start="5" end="5">место</arg>
         </propbank>
       </example>
 	  </roleset>
@@ -51,26 +51,26 @@
       <example name="Arg0 and Arg1" src="RNC, Е. В. Салиас-де-Турнемир (Евгения Тур). Воспоминания о войне 1877-1878 гг. (1880)">
         <text>Дуняша между тем готовила в той же комнате чай .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Дуняша</arg>
-          <rel relloc="?">готовила</rel>
-	        <arg type="ARG1" start="?" end="?">чай</arg>
+          <arg type="ARG0" start="0" end="0">Дуняша</arg>
+          <rel relloc="3">готовила</rel>
+	        <arg type="ARG1" start="8" end="8">чай</arg>
         </propbank>
       </example>
       <example name="Arg1 and Arg2" src="RNC, Аркадий Кощеев. Царство флоры // «Уральский следопыт», 1982">
         <text>Из высушенных почек можно зимой готовить душистый чай с ароматом и вкусом южного ананаса .</text>
         <propbank>
-          <arg type="ARG2" start="?" end="?">Из высушенных почек</arg>
-          <rel relloc="?">готовить</rel>
-	        <arg type="ARG1" start="?" end="?">душистый чай с ароматом и вкусом южного ананаса</arg>
+          <arg type="ARG2" start="0" end="2">Из высушенных почек</arg>
+          <rel relloc="5">готовить</rel>
+	        <arg type="ARG1" start="6" end="13">душистый чай с ароматом и вкусом южного ананаса</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg3" src="RNC, Екатерина Завершнева. Высотка (2012)">
         <text>У вас тут на столе одни шурупы , а мне Илонка ужин приготовила .</text>
         <propbank>
-          <arg type="ARG3" start="?" end="?">мне</arg>
-          <arg type="ARG0" start="?" end="?">Илонка</arg>
-	        <arg type="ARG1" start="?" end="?">ужин</arg>
-          <rel relloc="?">приготовила</rel>
+          <arg type="ARG3" start="9" end="9">мне</arg>
+          <arg type="ARG0" start="10" end="10">Илонка</arg>
+	        <arg type="ARG1" start="11" end="11">ужин</arg>
+          <rel relloc="12">приготовила</rel>
         </propbank>
       </example>
 	  </roleset>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-    <predicate lemma="Ломаться">
+    <predicate lemma="ломаться">
         <roleset id="ломаться.01" name="break down, stop working, become damaged">
             <aliases>
                 <alias pos="v">ломаться</alias>

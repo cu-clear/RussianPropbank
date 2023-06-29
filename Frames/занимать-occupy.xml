@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Занимать">
+  <predicate lemma="занимать">
     <roleset id="занимать.01" name="take up time, occupy time">
       <aliases>
         <alias pos="v">занимать</alias>

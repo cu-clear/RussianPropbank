@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Пользоваться">
+  <predicate lemma="пользоваться">
     <roleset id="пользоваться.01" name="Utilize, use">
       <aliases>
         <alias pos="v">пользоваться</alias>

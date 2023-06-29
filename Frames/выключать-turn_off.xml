@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Выключать">
+  <predicate lemma="выключать">
     <roleset id="выключать.01" name="Turn off, shut down, deactivate">
       <aliases>
         <alias pos="v">выключать</alias>

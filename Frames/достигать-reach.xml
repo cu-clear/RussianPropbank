@@ -19,17 +19,17 @@
       <example name="ARG0 and ARG1" src="Russian National Corpus">
         <text>По мнению Г. Шредера , двусторонние отношения столь успешно развиваются главным образом потому , что Россия достигла значительных успехов .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Россия</arg>
-        <rel relloc="?">достигла</rel>
-	<arg type="ARG1" start="?" end="?">значительных успехов</arg>
+          <arg type="ARG0" start="15" end="15">Россия</arg>
+        <rel relloc="16">достигла</rel>
+	<arg type="ARG1" start="17" end="18">значительных успехов</arg>
           </propbank>
       </example>
       <example name="ARG0 and ARG1, but where ARG0 isn't really agentive but more an attribute.  This kind of usage is seen often, and may merit being its own core ARG. REVISIT" src="Russian National Corpus" type="">
         <text>На 1 января 2002 г . стоимость земель лесного фонда достигла 2197973 , 0 млн . рублей .</text>
           <propbank>
-        <arg type="ARG0" start="?" end="?">стоимость</arg>
-        <rel relloc="?">достигла</rel>
-	<arg type="ARG1" start="?" end="?">2197973 , 0 млн . рублей</arg>
+        <arg type="ARG0" start="6" end="6">стоимость</arg>
+        <rel relloc="10">достигла</rel>
+	<arg type="ARG1" start="11" end="16">2197973 , 0 млн . рублей</arg>
           </propbank>
       </example>
 	</roleset>

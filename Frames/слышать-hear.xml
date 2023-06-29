@@ -65,10 +65,7 @@
       <example name="sense figurative smell" src="">
         <text>От одного только Капниста послышался аромат истинно душевного чувства</text>
         <propbank>
-          <arg type="ARGM-ADV" start="?" end="?">Что-то</arg>
-          <arg type="ARGM-NEG" start="?" end="?">не</arg>
           <rel relloc="4">послышался</rel>
-          <arg type="ARG1" start="?" end="?">о колонне</arg>
         </propbank>
       </example>
       <example name="smell" src="">

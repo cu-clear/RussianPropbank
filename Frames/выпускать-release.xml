@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Выпускать">
+  <predicate lemma="выпускать">
     <roleset id="выпускать.01" name="Release, let out, let go">
       <aliases>
         <alias pos="v">выпускать</alias>

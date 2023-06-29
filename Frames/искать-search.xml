@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Искать">
+  <predicate lemma="искать">
     <roleset id="искать.01" name="Search, seek, look for">
       <aliases>
         <alias pos="v">искать</alias>

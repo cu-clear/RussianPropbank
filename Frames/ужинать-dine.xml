@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-    <predicate lemma="Ужинать">
+    <predicate lemma="ужинать">
         <roleset id="ужинать.01" name="dine, eat dinner">
             <aliases>
                 <alias pos="v">ужинать</alias>

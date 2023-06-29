@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Оставлять">
+  <predicate lemma="оставлять">
     <roleset id="оставлять.01" name="Leave behind, abandon">
       <aliases>
         <alias pos="v">оставлять</alias>
@@ -18,10 +18,10 @@
       <example name="Arg0, Arg1, and Arg2" src="RNC, Л. М. Леонов. Барсуки (1924)">
         <text>Голубя он так и оставил в водостоке .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Голубя</arg>
-	        <arg type="ARG1" start="?" end="?">он</arg>
-          <rel relloc="?">оставил</rel>
-	        <arg type="ARG2" start="?" end="?">в водостоке</arg>
+          <arg type="ARG0" start="0" end="0">Голубя</arg>
+	        <arg type="ARG1" start="1" end="1">он</arg>
+          <rel relloc="4">оставил</rel>
+	        <arg type="ARG2" start="5" end="6">в водостоке</arg>
         </propbank>
       </example>
 	  </roleset>

@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Возражать">
+  <predicate lemma="возражать">
     <roleset id="возражать.01" name="Object, protest">
       <aliases>
         <alias pos="v">возражать</alias>
@@ -18,8 +18,8 @@
         <text>Я возражал против предложенного поста секретаря Юго-Восточного ...</text>
         <propbank>
           <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="?">возражал</rel>
-	        <arg type="ARG1" start="?" end="?">против предложенного поста секретаря Юго-Восточного</arg>
+          <rel relloc="1">возражал</rel>
+	        <arg type="ARG1" start="2" end="6">против предложенного поста секретаря Юго-Восточного</arg>
         </propbank>
       </example>
 	  </roleset>
@@ -41,7 +41,7 @@
         <text>Как вы это сделаете без полиции ? ― возражала ему Елена .</text>
         <propbank>
           <arg type="ARG1" start="0" end="6">Как вы это сделаете без полиции</arg>
-          <rel relloc="?">возражала</rel>
+          <rel relloc="8">возражала</rel>
 	        <arg type="ARG2" start="9" end="9">ему</arg>
           <arg type="ARG0" start="10" end="10">Елена</arg>
         </propbank>

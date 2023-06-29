@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Уверять">
+  <predicate lemma="уверять">
     <roleset id="уверять.01" name="Assure, convince, set at ease">
       <aliases>
         <alias pos="v">уверить</alias>
@@ -18,18 +18,18 @@
       <example name="Arg0 and Arg3" src="RNC, Дмитрий Каралис. Автопортрет (1999)">
         <text>Володька уверил , что это солитер , и посоветовал , как его успокоить .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Володька</arg>
-          <rel relloc="?">уверил</rel>
-	        <arg type="ARG3" start="?" end="?">что это солитер</arg>
+          <arg type="ARG0" start="0" end="0">Володька</arg>
+          <rel relloc="1">уверил</rel>
+	        <arg type="ARG3" start="3" end="5">что это солитер</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Т. Г. Шевченко. Прогулка с удовольствием и не без морали (1855-1858)">
         <text>Но я уверил его , что его компания интереснее для меня генеральской и даже адмиральской компании .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">я</arg>
-          <rel relloc="?">уверил</rel>
-	        <arg type="ARG1" start="?" end="?">его</arg>
-          <arg type="ARG2" start="?" end="?">что его компания интереснее для меня генеральской и даже адмиральской компании</arg>
+          <arg type="ARG0" start="1" end="1">я</arg>
+          <rel relloc="2">уверил</rel>
+	        <arg type="ARG1" start="3" end="3">его</arg>
+          <arg type="ARG2" start="5" end="15">что его компания интереснее для меня генеральской и даже адмиральской компании</arg>
         </propbank>
       </example>
 	  </roleset>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-    <predicate lemma="Слово">
+    <predicate lemma="возвращаться">
         <roleset id="возвращаться.01" name="To come back, to return">
             <aliases>
                 <alias pos="v">возвращаться</alias>

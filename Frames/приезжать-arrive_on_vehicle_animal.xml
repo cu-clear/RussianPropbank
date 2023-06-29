@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Приезжать">
+  <predicate lemma="приезжать">
     <roleset id="приезжать.01" name="Come, arrive in land vehicle or beast of burden">
       <aliases>
         <alias pos="v">приезжать</alias>
@@ -20,26 +20,26 @@
       <example name="Arg0 and Arg2" src="RNC, Л. А. Чарская. Мастерская мадам Пике (1912)">
         <text>Приезжали в мастерскую какие-то военные , расспрашивали девочек и Софью о причине смерти Зины .</text>
         <propbank>
-          <rel relloc="?">Приезжали</rel>
-          <arg type="ARG1" start="?" end="?">в мастерскую</arg>
-	        <arg type="ARG0" start="?" end="?">какие-то военные</arg>
+          <rel relloc="0">Приезжали</rel>
+          <arg type="ARG1" start="1" end="2">в мастерскую</arg>
+	        <arg type="ARG0" start="3" end="4">какие-то военные</arg>
         </propbank>
       </example>
       <example name="Arg0, ARG1, and Arg3" src="RNC, И. К. Архипова. Музыка жизни (1996)">
         <text>Как-то к нам в консерваторию приехал из Англии педагог по вокалу .</text>
         <propbank>
-          <arg type="ARG3" start="?" end="?">к нам в консерваторию</arg>
-          <rel relloc="?">приехал</rel>
-          <arg type="ARG2" start="?" end="?">из Англии</arg>
-	        <arg type="ARG0" start="?" end="?">педагог по вокалу</arg>
+          <arg type="ARG3" start="1" end="4">к нам в консерваторию</arg>
+          <rel relloc="5">приехал</rel>
+          <arg type="ARG2" start="6" end="7">из Англии</arg>
+	        <arg type="ARG0" start="8" end="10">педагог по вокалу</arg>
         </propbank>
       </example>
       <example name="Arg0 and Arg4" src="_">
         <text>Вдруг приехала на извозчике мама и увезла меня домой .</text>
         <propbank>
-          <rel relloc="?">приехала</rel>
-          <arg type="ARG1" start="?" end="?">на извозчике</arg>
-	        <arg type="ARG0" start="?" end="?">мама</arg>
+          <rel relloc="1">приехала</rel>
+          <arg type="ARG1" start="2" end="3">на извозчике</arg>
+	        <arg type="ARG0" start="4" end="4">мама</arg>
         </propbank>
       </example>
 	  </roleset>

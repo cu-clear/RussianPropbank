@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Наставать">
+  <predicate lemma="наставать">
     <roleset id="наставать.01" name="Begin, Come; semantically limited to time and condition">
       <aliases>
         <alias pos="v">наставать</alias>

@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Диктовать">
+  <predicate lemma="диктовать">
     <roleset id="диктовать.01" name="Dictate what is to be written, spell out">
       <aliases>
         <alias pos="v">диктовать</alias>

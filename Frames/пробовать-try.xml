@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Пробовать">
+  <predicate lemma="пробовать">
     <roleset id="пробовать.01" name="Try, attempt">
       <aliases>
         <alias pos="v">пробовать</alias>

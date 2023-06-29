@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Беспокоиться">
+  <predicate lemma="беспокоиться">
     <roleset id="беспокоиться.01" name="worry, be worried or concerned">
       <aliases>
         <alias pos="v">беспокоиться</alias>

@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Предполагать">
+  <predicate lemma="предполагать">
     <roleset id="предполагать.01" name="Suppose, assume, think">
       <aliases>
         <alias pos="v">предполагать</alias>

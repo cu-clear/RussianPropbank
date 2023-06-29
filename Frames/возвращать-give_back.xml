@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Возвращать">
+  <predicate lemma="возвращать">
     <roleset id="возвращать.01" name="Give back, return.">
       <aliases>
         <alias pos="v">возвращать</alias>
@@ -18,18 +18,18 @@
       <example name="Arg0 and Arg1" src="RNC, Андрей Дмитриев. Шаги (1987)">
         <text>― Он возвращает кружку и устало , без сожаления поясняет : ― Она , разумеется , совсем другой женщиной оказалась .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Он</arg>
-          <rel relloc="?">возвращает</rel>
-	        <arg type="ARG1" start="?" end="?">кружку</arg>
+          <arg type="ARG0" start="1" end="1">Он</arg>
+          <rel relloc="2">возвращает</rel>
+	        <arg type="ARG1" start="3" end="3">кружку</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Ю. М. Нагибин. Дневник (1982)">
-        <text>«Мы вернем Венгрии ее блудного сына , ― совсем разошелся я , потому что всё время прихлебывал из рюмки . ―</text>
+        <text>« Мы вернем Венгрии ее блудного сына , ― совсем разошелся я , потому что всё время прихлебывал из рюмки . ―</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">«Мы</arg>
-          <rel relloc="?">вернем</rel>
-	        <arg type="ARG2" start="?" end="?">Венгрии</arg>
-	        <arg type="ARG1" start="?" end="?">ее блудного сына</arg>
+          <arg type="ARG0" start="1" end="1">«Мы</arg>
+          <rel relloc="2">вернем</rel>
+	        <arg type="ARG2" start="3" end="3">Венгрии</arg>
+	        <arg type="ARG1" start="4" end="6">ее блудного сына</arg>
         </propbank>
       </example>
 	  </roleset>

@@ -18,18 +18,18 @@
       <example name="Intransitive" src="">
         <text>Пастор молился вновь.</text>
           <propbank>
-        <arg type="ARG0" start="?" end="?">Пастор</arg>
-        <rel relloc="?">молился</rel>
+        <arg type="ARG0" start="0" end="0">Пастор</arg>
+        <rel relloc="1">молился</rel>
           </propbank>
       </example>
 
       <example name="with ARG2" src="Russian Web 2011">
-        <text>Я буду молиться Богу, чтобы Вы нам помогли</text>
+        <text>Я буду молиться Богу , чтобы Вы нам помогли</text>
           <propbank>
-        <arg type="ARG0" start="?" end="?">Я</arg>
-        <rel relloc="?">молиться</rel>
-	<arg type="ARG1" start="?" end="?">чтобы Вы нам помоглит</arg>
-  <arg type="ARG2" start="?" end="?">Богу</arg>
+        <arg type="ARG0" start="0" end="0">Я</arg>
+        <rel relloc="2">молиться</rel>
+	<arg type="ARG1" start="5" end="8">чтобы Вы нам помогли</arg>
+  <arg type="ARG2" start="3" end="3">Богу</arg>
           </propbank>
       </example>
 	</roleset>

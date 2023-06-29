@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Разрушать">
+  <predicate lemma="разрушать">
     <roleset id="разрушать.01" name="Destroy, wreck">
       <aliases>
         <alias pos="v">разрушать</alias>
@@ -18,18 +18,18 @@
       <example name="Arg0 and Arg1" src="RNC, Владимир Дудинцев. Белые одежды / Вторая часть (1987)">
         <text>Я разрушаю перед вами догмы</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Я</arg>
-          <rel relloc="?">разрушаю</rel>
-	        <arg type="ARG1" start="?" end="?">догмы</arg>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <rel relloc="1">разрушаю</rel>
+	        <arg type="ARG1" start="4" end="4">догмы</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Виктор Пелевин. Бэтман Аполло (2013)">
         <text>Они разрушают нестойкие анимограммы своим внутренним светом , что похоже на поедание трупов подземными червями .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Они</arg>
-          <rel relloc="?">разрушают</rel>
-	        <arg type="ARG1" start="?" end="?">нестойкие анимограммы</arg>
-	        <arg type="ARG2" start="?" end="?">своим внутренним светом</arg>
+          <arg type="ARG0" start="0" end="0">Они</arg>
+          <rel relloc="1">разрушают</rel>
+	        <arg type="ARG1" start="2" end="3">нестойкие анимограммы</arg>
+	        <arg type="ARG2" start="4" end="6">своим внутренним светом</arg>
         </propbank>
       </example>
 	  </roleset>

@@ -1,6 +1,6 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Достигать">
+  <predicate lemma="достигать">
     <roleset id="достигать.01" name="Achieve, Reach, arrive at end state">
       <aliases>
         <alias pos="v">достигать</alias>
@@ -18,17 +18,17 @@
       <example name="Arg0 and Arg1" src="RNC, В. В. Овчинников. Своими глазами (2006)">
         <text>Порой трудно поверить , что температура достигает 40 градусов в тени .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">температура</arg>
-          <rel relloc="?">достигает</rel>
-	        <arg type="ARG1" start="?" end="?">40 градусов</arg>
+          <arg type="ARG0" start="5" end="5">температура</arg>
+          <rel relloc="6">достигает</rel>
+	        <arg type="ARG1" start="7" end="8">40 градусов</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1 as physical location" src="RNC, Д. Н. Медведев. Сильные духом (Это было под Ровно) (1948)">
         <text>К вечеру десятого января мы достигли железной дороги Ровно ― Луцк .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">мы</arg>
-          <rel relloc="?">достигли</rel>
-	        <arg type="ARG1" start="?" end="?">железной дороги Ровно ― Луцк</arg>
+          <arg type="ARG0" start="4" end="4">мы</arg>
+          <rel relloc="5">достигли</rel>
+	        <arg type="ARG1" start="6" end="10">железной дороги Ровно ― Луцк</arg>
         </propbank>
       </example>
 	  </roleset>
