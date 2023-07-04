@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Забирать">
+    <roleset id="забирать.01" name="Take away, remove">
+      <aliases>
+        <alias pos="v">забирать</alias>
+        <alias pos="v">забрать</alias>
+        <alias pos="j">забирающий</alias>
+        <alias pos="j">забравший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English take.01</note>
+      <roles>
+        <role descr="Taker" f="PAG" n="0"/>
+        <role descr="Thing taken" f="PPT" n="1"/>
+        <role descr="Person or location taken from" f="DIR" n="2"/>
+        <role descr="Destination" f="GOL" n="3"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Ф. М. Решетников. Где лучше? (1868)">
+        <text>В субботу он забирал остаток денег, брал одно или два толстых полена ...</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">он</arg>
+          <rel relloc="?">забирал</rel>
+	        <arg type="ARG1" start="?" end="?">остаток денег</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Н. Б. Черных. Слабые, сильные. Часть вторая // «Волга», 2015">
+        <text>Матушка , ведь я его у тебя забирала .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">я</arg>
+	        <arg type="ARG1" start="?" end="?">его</arg>
+	        <arg type="ARG2" start="?" end="?">у тебя</arg>
+          <rel relloc="?">забирала</rel>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg3" src="RNC, Елена Литинская. В руках Божьих // «Ковчег», 2015">
+        <text>Когда Господь захочет , он заберёт к себе твоего ангелочка .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">он</arg>
+          <rel relloc="?">заберёт</rel>
+	        <arg type="ARG3" start="?" end="?">к себе</arg>
+	        <arg type="ARG1" start="?" end="?">твоего ангелочка</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

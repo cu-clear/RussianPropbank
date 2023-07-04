@@ -1,35 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-    <predicate lemma="ужинать">
-        <roleset id="ужинать.01" name="dine, eat dinner">
-            <aliases>
-                <alias pos="v">ужинать</alias>
-                <alias pos="v">поужинать</alias>
-            </aliases>
-            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-            <note>NOTES: based on English dine.01</note>
-            <roles>
-                <role descr="eater" f="PAG" n="0"/>
-                <role descr="meal" f="PPT" n="1"/>
-            </roles>
-            <lexlinks>
-                <lexlink class="dine.01" resource="English PropBank" version="3.4"/>
-            </lexlinks>
-            <example name="Arg1 only" src="webweek.ru">
-                <text>Состоятельная пара , Муж и жена , ужинали в дорогом ресторане</text>
-                <propbank>
-                    <arg type="ARG0" start="0" end="1">Состоятельная пара</arg>
-                    <rel relloc="7">ужинали</rel>
-                </propbank>
-            </example>
-            <example name="Arg1 and Arg2" src="luncher.ru">
-                <text> Однажды мне довелось попасть сюда на завтрак и поесть любимую кашу , в другой раз я ужинал «Цезарем» и сосисками на гриле .</text>
-                <propbank>
-                    <arg type="ARG0" start="16" end="16">я</arg>
-                    <rel relloc="18 22">«Цезарем» гриле</rel>
-                </propbank>
-            </example>
-        </roleset>
-    </predicate>
+  <predicate lemma="Ужинать">
+    <roleset id="ужинать.01" name="Dine, eat dinner">
+      <aliases>
+        <alias pos="v">ужинать</alias>
+        <alias pos="v">поужинать</alias>
+        <alias pos="j">ужинающий</alias>
+        <alias pos="j">поужинавший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English dine.01</note>
+      <roles>
+        <role descr="Eater" f="PAG" n="0"/>
+        <role descr="Meal" f="PPT" n="1"/>
+        <role descr="Etc" f="GOL" n="2"/>
+	    </roles>
+      <example name="Arg0 only" src="RNC, Геннадий Алексеев. Зеленые берега (1983-1984)">
+        <text>Мне стало неловко ― молодые люди ужинали скромно , без вина , с сельтерской и кофе .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">молодые люди</arg>
+          <rel relloc="?">ужинали</rel>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1" src="RNC, Вацлав Михальский. Храм Согласия (2008)">
+        <text>Хозяин и гость молча поужинали хлебом с молоком , молча легли спать .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Хозяин и гость</arg>
+          <rel relloc="?">поужинали</rel>
+	        <arg type="ARG1" start="?" end="?">хлебом с молоком</arg>
+      </example>
+	  </roleset>
+  </predicate>
 </frameset>
