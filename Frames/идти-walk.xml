@@ -207,5 +207,35 @@
         </propbank>
       </example>
     </roleset>
+    <roleset id="идти.07" name="serial verb construction, maybe not in the strictest sense">
+      <aliases>
+        <alias pos="v">идти</alias>
+        <alias pos="v">пойти</alias>
+        <alias pos="j">идущий</alias>
+        <alias pos="j">шедший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English go.05</note>
+      <roles>
+        <role descr="Subject" f="PAG" n="0"/>
+        <role descr="Subsequent action" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="_">
+        <text>Я пошел спать</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Я</arg>
+          <rel relloc="?">пошел</rel>
+	        <arg tpye="ARG1" start="?" end="?">спать</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1" src="_">
+        <text>Когда он пошел есть кашу , он оставил свой телефон .</text>
+        <propbank>
+          <arg tpye="ARG0" start="?" end="?">Spонan</arg>
+          <rel relloc="?">пошел</rel>
+	        <arg tpye="ARG1" start="?" end="?">есть кашу</arg>
+        </propbank>
+      </example>
+	  </roleset>
   </predicate>
 </frameset>
