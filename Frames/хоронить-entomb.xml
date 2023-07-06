@@ -20,26 +20,26 @@
       <example name="Arg0 and Arg1, figurative" src="RNC, Д. Л. Мордовцев. Господин Великий Новгород (1882)">
         <text>Это пел слепой Тихик : он хоронил новгородскую волю , а сам плакал …</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">он</arg>
-          <rel relloc="?">хоронил</rel>
-	        <arg type="ARG1" start="?" end="?">новгородскую волю</arg>
+          <arg type="ARG0" start="5" end="5">он</arg>
+          <rel relloc="6">хоронил</rel>
+	        <arg type="ARG1" start="7" end="8">новгородскую волю</arg>
         </propbank>
       </example>
       <example name="Arg1, and Arg2" src="RNC, П. Н. Краснов. От Двуглавого Орла к красному знамени (книга 2) (1922)">
         <text>Схорони меня в поле , Где цветут голубые цветы .</text>
         <propbank>
-          <rel relloc="?">Схорони</rel>
-	        <arg type="ARG1" start="?" end="?">меня</arg>
-	        <arg type="ARG2" start="?" end="?">в поле , Где цветут голубые цветы</arg>
+          <rel relloc="0">Схорони</rel>
+	        <arg type="ARG1" start="1" end="1">меня</arg>
+	        <arg type="ARG2" start="2" end="8">в поле , Где цветут голубые цветы</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, В. П. Астафьев. Не хватает сердца (2015)">
         <text>Я похоронил товарища в камнях , плотно завалил его плитами , чтобы не съели труп песцы ...</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Я</arg>
-          <rel relloc="?">похоронил</rel>
-	        <arg type="ARG1" start="?" end="?">товарища</arg>
-	        <arg type="ARG2" start="?" end="?">в камнях</arg>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <rel relloc="1">похоронил</rel>
+	        <arg type="ARG1" start="2" end="2">товарища</arg>
+	        <arg type="ARG2" start="3" end="4">в камнях</arg>
         </propbank>
       </example>
 	  </roleset>

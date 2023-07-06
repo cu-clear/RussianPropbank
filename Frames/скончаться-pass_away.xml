@@ -14,8 +14,8 @@
       <example name="Arg0 and Arg1" src="RNC, Евгений Сухов. Делу конец ― сроку начало (2007)">
         <text>― Он скончался через трое суток , не приходя в сознание .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Он</arg>
-          <rel relloc="?">скончался</rel>
+          <arg type="ARG0" start="1" end="1">Он</arg>
+          <rel relloc="2">скончался</rel>
         </propbank>
       </example>
 	  </roleset>

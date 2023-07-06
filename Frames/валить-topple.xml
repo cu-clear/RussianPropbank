@@ -20,18 +20,18 @@
       <example name="Arg0 and Arg1" src="RNC, В. Т. Шаламов. Колымские рассказы (1954-1961)">
         <text>Сильная буря легко валила слабые на ногах деревья .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Сильная буря</arg>
-          <rel relloc="?">валила</rel>
-	        <arg type="ARG1" start="?" end="?">слабые на ногах деревья</arg>
+          <arg type="ARG0" start="0" end="1">Сильная буря</arg>
+          <rel relloc="3">валила</rel>
+	        <arg type="ARG1" start="4" end="7">слабые на ногах деревья</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, А. С. Пушкин. Дубровский (1833)">
         <text>Он повалил Сашу на земь и схватил его за горло .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Он</arg>
-          <rel relloc="?">повалил</rel>
-	        <arg type="ARG1" start="?" end="?">Сашу</arg>
-	        <arg type="ARG2" start="?" end="?">на земь</arg>
+          <arg type="ARG0" start="0" end="0">Он</arg>
+          <rel relloc="1">повалил</rel>
+	        <arg type="ARG1" start="2" end="2">Сашу</arg>
+	        <arg type="ARG2" start="3" end="4">на земь</arg>
         </propbank>
       </example>
 	  </roleset>
@@ -52,34 +52,34 @@
       <example name="Arg0 and Arg2" src="RNC, Юрий Петкевич. Возвращение на родину (2001)">
         <text>Народ повалил из хат .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Народ</arg>
-          <rel relloc="?">повалил</rel>
-	        <arg type="ARG2" start="?" end="?">из хат</arg>
+          <arg type="ARG0" start="0" end="0">Народ</arg>
+          <rel relloc="1">повалил</rel>
+	        <arg type="ARG2" start="2" end="3">из хат</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Ю. О. Домбровский. Хранитель древностей, часть 2 (1964)">
         <text>Весь город теперь к ним валит , ― повернулся он к Зое Михайловне .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Весь город</arg>
-	        <arg type="ARG1" start="?" end="?">к ним</arg>
-          <rel relloc="?">валит</rel>
+          <arg type="ARG0" start="0" end="1">Весь город</arg>
+	        <arg type="ARG1" start="3" end="4">к ним</arg>
+          <rel relloc="5">валит</rel>
         </propbank>
       </example>
       <example name="Arg0 and Arg1" src="RNC, В. П. Астафьев. Не хватает сердца (2015)">
         <text>Из трубы повалил жирный дым , в избушке сделалось душно .</text>
         <propbank>
-          <arg type="ARG2" start="?" end="?">Из трубы</arg>
-          <rel relloc="?">повалил</rel>
-	        <arg type="ARG0" start="?" end="?">жирный дым</arg>
+          <arg type="ARG2" start="0" end="1">Из трубы</arg>
+          <rel relloc="2">повалил</rel>
+	        <arg type="ARG0" start="3" end="4">жирный дым</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, В. В. Крестовский. Петербургские трущобы. Книга о сытых и голодных. Ч. 5 (1867)">
         <text>Из незатворенной двери перекусочного подвала валил на улицу пар , которым густо была пропитана атмосфера этой берлоги ...</text>
         <propbank>
-          <arg type="ARG2" start="?" end="?">Из незатворенной двери перекусочного подвала</arg>
-          <rel relloc="?">валил</rel>
-	        <arg type="ARG1" start="?" end="?">на улицу</arg>
-	        <arg type="ARG0" start="?" end="?">пар</arg>
+          <arg type="ARG2" start="0" end="4">Из незатворенной двери перекусочного подвала</arg>
+          <rel relloc="5">валил</rel>
+	        <arg type="ARG1" start="6" end="7">на улицу</arg>
+	        <arg type="ARG0" start="8" end="8">пар</arg>
         </propbank>
       </example>
 	  </roleset>

@@ -18,18 +18,18 @@
       <example name="Arg1 and Arg2" src="RNC, Дмитрий Глуховский. Метро 2033 (2005)">
         <text>Это значит , что мы погружены в Хаос , и нет ни малейшей надежды на свет в конце туннеля …</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">мы</arg>
-          <rel relloc="?">погружены</rel>
-	        <arg type="ARG2" start="?" end="?">в Хаос</arg>
+          <arg type="ARG1" start="4" end="4">мы</arg>
+          <rel relloc="5">погружены</rel>
+	        <arg type="ARG2" start="6" end="7">в Хаос</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Владимир Маканин. Стол, покрытый сукном и с графином посередине (1993)">
         <text>Мы мерно погружаем наши ложки в тарелки с кашей .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Мы</arg>
-          <rel relloc="?">погружаем</rel>
-	        <arg type="ARG1" start="?" end="?">наши ложки</arg>
-	        <arg type="ARG2" start="?" end="?">в тарелки с кашей</arg>
+          <arg type="ARG0" start="0" end="0">Мы</arg>
+          <rel relloc="2">погружаем</rel>
+	        <arg type="ARG1" start="3" end="4">наши ложки</arg>
+	        <arg type="ARG2" start="5" end="8">в тарелки с кашей</arg>
         </propbank>
       </example>
 	  </roleset>

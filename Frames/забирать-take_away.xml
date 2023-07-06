@@ -17,29 +17,29 @@
         <role descr="Destination" f="GOL" n="3"/>
 	    </roles>
       <example name="Arg0 and Arg1" src="RNC, Ф. М. Решетников. Где лучше? (1868)">
-        <text>В субботу он забирал остаток денег, брал одно или два толстых полена ...</text>
+        <text>В субботу он забирал остаток денег , брал одно или два толстых полена ...</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">он</arg>
-          <rel relloc="?">забирал</rel>
-	        <arg type="ARG1" start="?" end="?">остаток денег</arg>
+          <arg type="ARG0" start="2" end="2">он</arg>
+          <rel relloc="3">забирал</rel>
+	        <arg type="ARG1" start="4" end="5">остаток денег</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Н. Б. Черных. Слабые, сильные. Часть вторая // «Волга», 2015">
         <text>Матушка , ведь я его у тебя забирала .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">я</arg>
-	        <arg type="ARG1" start="?" end="?">его</arg>
-	        <arg type="ARG2" start="?" end="?">у тебя</arg>
-          <rel relloc="?">забирала</rel>
+          <arg type="ARG0" start="3" end="3">я</arg>
+	        <arg type="ARG1" start="4" end="4">его</arg>
+	        <arg type="ARG2" start="5" end="6">у тебя</arg>
+          <rel relloc="7">забирала</rel>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg3" src="RNC, Елена Литинская. В руках Божьих // «Ковчег», 2015">
         <text>Когда Господь захочет , он заберёт к себе твоего ангелочка .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">он</arg>
-          <rel relloc="?">заберёт</rel>
-	        <arg type="ARG3" start="?" end="?">к себе</arg>
-	        <arg type="ARG1" start="?" end="?">твоего ангелочка</arg>
+          <arg type="ARG0" start="4" end="4">он</arg>
+          <rel relloc="5">заберёт</rel>
+	        <arg type="ARG3" start="6" end="7">к себе</arg>
+	        <arg type="ARG1" start="8" end="9">твоего ангелочка</arg>
         </propbank>
       </example>
 	  </roleset>

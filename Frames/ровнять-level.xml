@@ -18,18 +18,18 @@
       <example name="Arg0 and Arg1" src="RNC, С. М. Голицын. Записки беспогонника (1946-1976)">
         <text>Мы засыпали воронки , окопы , ровняли дорогу , ставили дополнительные указатели .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Мы</arg>
-          <rel relloc="?">ровняли</rel>
-	        <arg type="ARG1" start="?" end="?">дорогу</arg>
+          <arg type="ARG0" start="0" end="0">Мы</arg>
+          <rel relloc="6">ровняли</rel>
+	        <arg type="ARG1" start="7" end="7">дорогу</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, Александр Харьковский. Зоркое око планеты // «Техника - молодежи», 1976">
         <text>Фашисты сровняли с землей наши лучшие обсерватории , и только в 1960 году нам удалось создать рефлектор величиной 2 , 6 м .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Фашисты</arg>
-          <rel relloc="?">сровняли</rel>
-	        <arg type="ARG2" start="?" end="?">с землей</arg>
-	        <arg type="ARG1" start="?" end="?">наши лучшие обсерватории</arg>
+          <arg type="ARG0" start="0" end="0">Фашисты</arg>
+          <rel relloc="1">сровняли</rel>
+	        <arg type="ARG2" start="2" end="3">с землей</arg>
+	        <arg type="ARG1" start="4" end="6">наши лучшие обсерватории</arg>
         </propbank>
       </example>
 	  </roleset>

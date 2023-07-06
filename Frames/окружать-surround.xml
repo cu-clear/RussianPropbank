@@ -18,26 +18,26 @@
       <example name="Arg1 and Arg2" src="RNC, О. А. Щербатова. В стране вулканов (1897)">
         <text>После завтрака половину палубы окружили сеткой , и мужчины затеяли игру в крикет .</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">половину палубы</arg>
-          <rel relloc="?">окружили</rel>
-	        <arg type="ARG2" start="?" end="?">сеткой</arg>
+          <arg type="ARG1" start="2" end="3">половину палубы</arg>
+          <rel relloc="4">окружили</rel>
+	        <arg type="ARG2" start="5" end="5">сеткой</arg>
         </propbank>
       </example>
       <example name="Arg0 and Arg2" src="RNC, Московские вести. Побоище между рабочими и городовыми (28.12.1909) // «Русское слово», 1909">
         <text>Тогда рабочие вернулись , и с угрозами окружили городового .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">рабочие</arg>
-          <rel relloc="?">окружили</rel>
-	        <arg type="ARG1" start="?" end="?">городового</arg>
+          <arg type="ARG0" start="1" end="1">рабочие</arg>
+          <rel relloc="7">окружили</rel>
+	        <arg type="ARG1" start="8" end="8">городового</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, А. К. Виноградов. Осуждение Паганини (1936)">
         <text>Он окружает себя молодыми учениками , которым он раздает патенты на гениальность при том условии , что они обещают ему травить вас .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Он</arg>
-          <rel relloc="?">окружает</rel>
-	        <arg type="ARG1" start="?" end="?">себя</arg>
-	        <arg type="ARG2" start="?" end="?">молодыми учениками</arg>
+          <arg type="ARG0" start="0" end="0">Он</arg>
+          <rel relloc="1">окружает</rel>
+	        <arg type="ARG1" start="2" end="2">себя</arg>
+	        <arg type="ARG2" start="3" end="4">молодыми учениками</arg>
         </propbank>
       </example>
 	  </roleset>

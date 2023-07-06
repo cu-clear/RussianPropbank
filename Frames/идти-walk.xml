@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
   <predicate lemma="идти">
@@ -223,17 +222,17 @@
       <example name="Arg0 and Arg1" src="_">
         <text>Я пошел спать</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Я</arg>
-          <rel relloc="?">пошел</rel>
-	        <arg tpye="ARG1" start="?" end="?">спать</arg>
+          <arg type="ARG0" start="0" end="0">Я</arg>
+          <rel relloc="1">пошел</rel>
+          <arg type="ARG1" start="2" end="2">спать</arg>
         </propbank>
       </example>
       <example name="Arg0 and Arg1" src="_">
         <text>Когда он пошел есть кашу , он оставил свой телефон .</text>
         <propbank>
-          <arg tpye="ARG0" start="?" end="?">Spонan</arg>
-          <rel relloc="?">пошел</rel>
-	        <arg tpye="ARG1" start="?" end="?">есть кашу</arg>
+          <arg type="ARG0" start="1" end="1">он</arg>
+          <rel relloc="2">пошел</rel>
+          <arg type="ARG1" start="3" end="4">есть кашу</arg>
         </propbank>
       </example>
 	  </roleset>

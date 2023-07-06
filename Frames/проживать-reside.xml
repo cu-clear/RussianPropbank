@@ -18,18 +18,18 @@
       <example name="Arg0 and Arg1" src="RNC, Денежные переводы мигрантов -- фактор инновационного развития мировой финансовой инфраструктуры // «Вопросы статистики», 2004">
         <text>Что же касается России , то по оценкам ООН , в России проживает около 13 млн . международных мигрантов ( 15 ) .</text>
         <propbank>
-          <arg type="ARG1" start="?" end="?">в России</arg>
-          <rel relloc="?">проживает</rel>
-	        <arg type="ARG0" start="?" end="?">около 13 млн . международных мигрантов</arg>
+          <arg type="ARG1" start="10" end="11">в России</arg>
+          <rel relloc="12">проживает</rel>
+	        <arg type="ARG0" start="13" end="18">около 13 млн . международных мигрантов</arg>
         </propbank>
       </example>
       <example name="Arg0, Arg1, and Arg2" src="RNC, ">
         <text>Всю свою жизнь , а именно 22 года , кот прожил в семье Бабаевых ( г . Баку ) .</text>
         <propbank>
-          <arg type="ARG2" start="?" end="?">Всю свою жизнь , а именно 22 года</arg>
-	        <arg type="ARG0" start="?" end="?">кот</arg>
-          <rel relloc="?">прожил</rel>
-	        <arg type="ARG1" start="?" end="?">в семье Бабаевых</arg>
+          <arg type="ARG2" start="0" end="7">Всю свою жизнь , а именно 22 года</arg>
+	        <arg type="ARG0" start="9" end="9">кот</arg>
+          <rel relloc="10">прожил</rel>
+	        <arg type="ARG1" start="11" end="13">в семье Бабаевых</arg>
         </propbank>
       </example>
 	  </roleset>
