@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Слово">
+    <roleset id="разлетаться.01" name="Scatter, fly away in different directions, spread out in the air">
+      <aliases>
+        <alias pos="v">разлетаться</alias>
+        <alias pos="v">разлететься</alias>
+        <alias pos="j">разлетающийся</alias>
+        <alias pos="j">разлетевшийся</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English scatter.01</note>
+      <roles>
+        <role descr="Agent, thing scattering" f="PAG" n="0"/>
+        <role descr="Area" f="GOL" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Дмитрий Емец. Таня Гроттер и колодец Посейдона (2004)">
+        <text>Наконец усмиренные Кенг-Кинг и Гоярын послушно разлетелись по разным сторонам поля .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Кенг-Кинг и Гоярын</arg>
+          <rel relloc="?">разлетелись</rel>
+	        <arg type="ARG1" start="?" end="?">по разным сторонам поля</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 as a particple" src="RNC, Александр Проханов. Господин Гексоген (2001)">
+        <text>Лицо Буравкова розовело сквозь пар , ноздри его сжимались , ловя разлетавшийся запах крови .</text>
+        <propbank>
+          <rel relloc="?">разлетавшийся</rel>
+	        <arg type="ARG0" start="?" end="?">запах крови</arg>
+        </propbank>
+      </example>
+	  </roleset>
+    <roleset id="разлетаться.02" name="Shatter, be violently broken apart">
+      <aliases>
+        <alias pos="v">разлетаться</alias>
+        <alias pos="v">разлететься</alias>
+        <alias pos="j">разлетающийся</alias>
+        <alias pos="j">разлетевшийся</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English shatter.01 ; this verb is inherently non-agentive, so no Arg0</note>
+      <roles>
+        <role descr="Entity being Broken up" f="PPT" n="1"/>
+        <role descr="Pieces" f="PRD" n="2"/>
+	    </roles>
+      <example name="Arg1 and Arg2" src="RNC, Авианаводчики рекомендуют... (2004) // «Солдат удачи», 10.03.2004">
+        <text>Пуск управляемой ракеты ― сарайчик разлетается в щепки , а «духовский» пулеметчик ― на куски мяса .</text>
+        <propbank>
+          <arg type="ARG1" start="?" end="?">сарайчик</arg>
+          <rel relloc="?">разлетается</rel>
+	        <arg type="ARG2" start="?" end="?">в щепки</arg>
+        </propbank>
+      </example>
+      <example name="Arg1 and Arg2" src="RNC, Ю. О. Домбровский. Хранитель древностей, часть 2 (1964)">
+        <text>Еще секунда ― и оно разлетится на части … ? "</text>
+        <propbank>
+          <arg type="ARG1" start="?" end="?">оно</arg>
+          <rel relloc="?">разлетится</rel>
+	        <arg type="ARG2" start="?" end="?">на части</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

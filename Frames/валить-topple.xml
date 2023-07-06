@@ -1,0 +1,87 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Валить">
+    <roleset id="валить.01" name="Topple, knowck down to the ground">
+      <aliases>
+        <alias pos="v">валить</alias>
+        <alias pos="v">повалить</alias>
+        <alias pos="v">свалить</alias>
+        <alias pos="j">валящий</alias>
+        <alias pos="j">поваленный</alias>
+        <alias pos="j">сваленный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English topple.01</note>
+      <roles>
+        <role descr="Agnet, toppler" f="PAG" n="0"/>
+        <role descr="Thing being Toppled" f="PPT" n="1"/>
+        <role descr="Ground, end point" f="GOL" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, В. Т. Шаламов. Колымские рассказы (1954-1961)">
+        <text>Сильная буря легко валила слабые на ногах деревья .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Сильная буря</arg>
+          <rel relloc="?">валила</rel>
+	        <arg type="ARG1" start="?" end="?">слабые на ногах деревья</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, А. С. Пушкин. Дубровский (1833)">
+        <text>Он повалил Сашу на земь и схватил его за горло .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Он</arg>
+          <rel relloc="?">повалил</rel>
+	        <arg type="ARG1" start="?" end="?">Сашу</arg>
+	        <arg type="ARG2" start="?" end="?">на земь</arg>
+        </propbank>
+      </example>
+	  </roleset>
+    <roleset id="валить.02" name="move in an untidy fashion, pile out, surge">
+      <aliases>
+        <alias pos="v">валить</alias>
+        <alias pos="v">повалить</alias>
+        <alias pos="j">валящий</alias>
+        <alias pos="j">поваленный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English pile.03 ; This is also often used for steam and smoke, I am unsire if this needs its own frame or can co-exist within this one. -R</note>
+      <roles>
+        <role descr="Crowd, thing moving" f="PAG" n="0"/>
+        <role descr="Destination" f="GOL" n="1"/>
+        <role descr="Source, place coming from" f="DIR" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg2" src="RNC, Юрий Петкевич. Возвращение на родину (2001)">
+        <text>Народ повалил из хат .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Народ</arg>
+          <rel relloc="?">повалил</rel>
+	        <arg type="ARG2" start="?" end="?">из хат</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Ю. О. Домбровский. Хранитель древностей, часть 2 (1964)">
+        <text>Весь город теперь к ним валит , ― повернулся он к Зое Михайловне .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Весь город</arg>
+	        <arg type="ARG1" start="?" end="?">к ним</arg>
+          <rel relloc="?">валит</rel>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1" src="RNC, В. П. Астафьев. Не хватает сердца (2015)">
+        <text>Из трубы повалил жирный дым , в избушке сделалось душно .</text>
+        <propbank>
+          <arg type="ARG2" start="?" end="?">Из трубы</arg>
+          <rel relloc="?">повалил</rel>
+	        <arg type="ARG0" start="?" end="?">жирный дым</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, В. В. Крестовский. Петербургские трущобы. Книга о сытых и голодных. Ч. 5 (1867)">
+        <text>Из незатворенной двери перекусочного подвала валил на улицу пар , которым густо была пропитана атмосфера этой берлоги ...</text>
+        <propbank>
+          <arg type="ARG2" start="?" end="?">Из незатворенной двери перекусочного подвала</arg>
+          <rel relloc="?">валил</rel>
+	        <arg type="ARG1" start="?" end="?">на улицу</arg>
+	        <arg type="ARG0" start="?" end="?">пар</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

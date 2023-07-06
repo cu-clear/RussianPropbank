@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Погружать">
+    <roleset id="погружать.01" name="Submerge, lower into substance, dip">
+      <aliases>
+        <alias pos="v">погружать</alias>
+        <alias pos="v">погрузить</alias>
+        <alias pos="j">погружающий</alias>
+        <alias pos="j">погрузивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English submerge.01</note>
+      <roles>
+        <role descr="Agent, causer of submersing" f="PAG" n="0"/>
+        <role descr="Thing being submerged" f="PPT" n="1"/>
+        <role descr="Water or substance submerged into" f="LOC" n="2"/>
+	    </roles>
+      <example name="Arg1 and Arg2" src="RNC, Дмитрий Глуховский. Метро 2033 (2005)">
+        <text>Это значит , что мы погружены в Хаос , и нет ни малейшей надежды на свет в конце туннеля …</text>
+        <propbank>
+          <arg type="ARG1" start="?" end="?">мы</arg>
+          <rel relloc="?">погружены</rel>
+	        <arg type="ARG2" start="?" end="?">в Хаос</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Владимир Маканин. Стол, покрытый сукном и с графином посередине (1993)">
+        <text>Мы мерно погружаем наши ложки в тарелки с кашей .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Мы</arg>
+          <rel relloc="?">погружаем</rel>
+	        <arg type="ARG1" start="?" end="?">наши ложки</arg>
+	        <arg type="ARG2" start="?" end="?">в тарелки с кашей</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

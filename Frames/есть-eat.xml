@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Есть">
+    <roleset id="есть.01" name="Eat, consume">
+      <aliases>
+        <alias pos="v">есть</alias>
+        <alias pos="v">поесть</alias>
+        <alias pos="v">съесть</alias>
+        <alias pos="j">едящий</alias>
+        <alias pos="j">поевший</alias>
+        <alias pos="j">съевший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English eat.01</note>
+      <roles>
+        <role descr="Eater" f="PAG" n="0"/>
+        <role descr="Meal" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, И. И. Лажечников. Басурман (1838)">
+        <text>Индеяне не едят никакого мяса: ни яловины , ни баранины , ни курятины , ни рыбы , ни свинины .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Индеяне</arg>
+          <rel relloc="?">едят</rel>
+	        <arg type="ARG1" start="?" end="?">никакого мяса</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1" src="RNC, Н. Баранская. Неделя как неделя (1969)">
+        <text>Я уже съела булку и сырок наверху .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Я</arg>
+          <rel relloc="?">съела</rel>
+	        <arg type="ARG1" start="?" end="?">булку и сырок</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

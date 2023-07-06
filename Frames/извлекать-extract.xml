@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Извлекать">
+    <roleset id="извлекать.01" name="Extract, draw or pull out, withdraw">
+      <aliases>
+        <alias pos="v">извлекать</alias>
+        <alias pos="v">извлечь</alias>
+        <alias pos="j">извлекающий</alias>
+        <alias pos="j">извлечённый</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English draw.02</note>
+      <roles>
+        <role descr="Agent drawing" f="PAG" n="0"/>
+        <role descr="Thing drawn out" f="PPT" n="1"/>
+        <role descr="Source from which drawn" f="DIR" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Василий Гроссман. Жизнь и судьба, часть 2 (1960)">
+        <text>Там органическое вещество подвергалось обработке бригадами стоматологов , они извлекали ценные металлы , используемые для протезирования .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">они</arg>
+          <rel relloc="?">извлекали</rel>
+	        <arg type="ARG1" start="?" end="?">ценные металлы</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Елена Камзолкина. Храните деньги, не выходя из кассы (2002) // «Вечерняя Москва», 10.01.2002">
+        <text>Когда он извлек свое богатство из тайника , то обнаружил , что банкноты склеились и покрылись плесенью .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">он</arg>
+          <rel relloc="?">извлек</rel>
+	        <arg type="ARG1" start="?" end="?">свое богатство</arg>
+	        <arg type="ARG2" start="?" end="?">из тайника</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Хоронить">
+    <roleset id="хоронить.01" name="Inter, entomb, bury something dead">
+      <aliases>
+        <alias pos="v">хоронить</alias>
+        <alias pos="v">похоронить</alias>
+        <alias pos="v">схоронить</alias>
+        <alias pos="j">хоронящий</alias>
+        <alias pos="j">похоронивший</alias>
+        <alias pos="j">схоронивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English entomb.01</note>
+      <roles>
+        <role descr="Agent" f="PAG" n="0"/>
+        <role descr="Corpse or item entomebd" f="PPT" n="1"/>
+        <role descr="tomb, ground, location" f="GOL" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1, figurative" src="RNC, Д. Л. Мордовцев. Господин Великий Новгород (1882)">
+        <text>Это пел слепой Тихик : он хоронил новгородскую волю , а сам плакал …</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">он</arg>
+          <rel relloc="?">хоронил</rel>
+	        <arg type="ARG1" start="?" end="?">новгородскую волю</arg>
+        </propbank>
+      </example>
+      <example name="Arg1, and Arg2" src="RNC, П. Н. Краснов. От Двуглавого Орла к красному знамени (книга 2) (1922)">
+        <text>Схорони меня в поле , Где цветут голубые цветы .</text>
+        <propbank>
+          <rel relloc="?">Схорони</rel>
+	        <arg type="ARG1" start="?" end="?">меня</arg>
+	        <arg type="ARG2" start="?" end="?">в поле , Где цветут голубые цветы</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, В. П. Астафьев. Не хватает сердца (2015)">
+        <text>Я похоронил товарища в камнях , плотно завалил его плитами , чтобы не съели труп песцы ...</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Я</arg>
+          <rel relloc="?">похоронил</rel>
+	        <arg type="ARG1" start="?" end="?">товарища</arg>
+	        <arg type="ARG2" start="?" end="?">в камнях</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>
