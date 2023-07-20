@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Распределять">
+    <roleset id="распределять.01" name="Distribute, allot, apportion">
+      <aliases>
+        <alias pos="v">распределять</alias>
+        <alias pos="v">распределить</alias>
+        <alias pos="j">распределяющий</alias>
+        <alias pos="j">распределённый</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English distribute.01</note>
+      <roles>
+        <role descr="Distributer" f="PAG" n="0"/>
+        <role descr="thing distributed" f="PPT" n="1"/>
+        <role descr="distributed to or among, benefactive" f="GOL" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Т. В. Ершова, Ю. Е. Хохлов. Вперед к информационному обществу 2.0! // «Информационное общество», 2013">
+        <text>А как вы распределяли обязанности ?</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">вы</arg>
+          <rel relloc="?">распределяли</rel>
+	        <arg type="ARG1" start="?" end="?">обязанности</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, А. И. Минеев. Пять лет на острове Врангеля (1936)">
+        <text>Я распределил свечи между сотрудниками так , чтобы по возможности удовлетворить всех на темные месяцы .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Я</arg>
+          <rel relloc="?">распределил</rel>
+	        <arg type="ARG1" start="?" end="?">Sсвечиpan</arg>
+	        <arg type="ARG2" start="?" end="?">между сотрудниками</arg>
+        </propbank>
+      </example>
+	  </roleset>
+    <roleset id="распределять.02" name="Allocate spacially, place, station">
+      <aliases>
+        <alias pos="v">распределять</alias>
+        <alias pos="v">распределить</alias>
+        <alias pos="j">распределяющий</alias>
+        <alias pos="j">распределённый</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English spread_out.04</note>
+      <roles>
+        <role descr="Agent" f="PAG" n="0"/>
+        <role descr="Thing placed" f="PPT" n="1"/>
+        <role descr="Location" f="LOC" n="2"/>
+	    </roles>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Наталья Голованова. Под музыку сиреневых лун (2015)">
+        <text>Вася распределил мусор по нескольким камням и вернулся на корабль .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Вася</arg>
+          <rel relloc="?">распределил</rel>
+	        <arg type="ARG1" start="?" end="?">мусор</arg>
+	        <arg type="ARG2" start="?" end="?">по нескольким камням</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Е. Л. Шварц. Дневник (1956)">
+        <text>Она распределяла нас по комнатам , когда мы приехали , и , к моему негодованию , все путала меня с Брауном ― мы казались ей однофамильцами .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Она</arg>
+          <rel relloc="?">распределяла</rel>
+	        <arg type="ARG1" start="?" end="?">нас</arg>
+	        <arg type="ARG2" start="?" end="?">по комнатам</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Госпитализировать">
+    <roleset id="госпитализировать.01" name="Hospitalize, admit or force into hospital">
+      <aliases>
+        <alias pos="v">госпитализировать</alias>
+        <alias pos="j">госпитализированный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English hospitalize.01 ; there is no perfective counter-part.</note>
+      <roles>
+        <role descr="Agent, sender" f="PAG" n="0"/>
+        <role descr="injured/ill entity" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg1 only" src="RNC, Александр Гольц. Типичная пневмония // «Огонек», 2013">
+        <text>Более 40 человек были госпитализированы с диагнозом « пневмония » .</text>
+        <propbank>
+          <arg type="ARG1" start="?" end="?">Более 40 человек</arg>
+          <rel relloc="?">были госпитализированы</rel>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1" src="RNC, Татьяна Соломатина. Акушер-ХА! Байки (2009)">
+        <text>Мы вас госпитализируем , обследуем , и всё будет хорошо .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Мы</arg>
+	        <arg type="ARG1" start="?" end="?">вас</arg>
+          <rel relloc="?">госпитализируем</rel>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>
