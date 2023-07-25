@@ -1,149 +1,170 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="разложить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless src otherwise noted.</note>
-    <roleset id="разложить.01" name="spread or lay out, arrange, systematize">
-      <aliases>
-        <alias pos="j">разложивший</alias>
-        <alias pos="j">разложенный</alias>
-        <alias pos="j">раскладывать</alias>
-        <alias pos="j">раскладывающий</alias>
-        <alias pos="j">раскладывавший</alias>
-        <alias pos="j">раскладываемый</alias>
-        <alias pos="v">разложиться</alias>
-        <alias pos="j">разложившийся</alias>
-        <alias pos="v">раскладываться</alias>
-        <alias pos="j">раскладывающийся</alias>
-        <alias pos="j">раскладывавшийся</alias>
-        <alias pos="n">раскладка</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2,3</note>
-      <note>разложить.01 NOTES: Based on arrange.01. No start or beneficiary</note>
-      <roles>
-        <note>English Arg2-VSP = Russian Arg2-MNR</note>
-        <role descr="builder, arranger" f="PAG" n="0">
-        </role>
-        <role descr="item/material being arranged" f="PPT" n="1">
-        </role>
-        <role descr="manner or system" f="MNR" n="2">
-        </role>
-        <role descr="benefactive" f="GOL" n="3"/>
-        <role descr="end state" f="PRD" n="4"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="arrange.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="args 1 and 2" src="Russian National Corpus. [Запись LiveJournal (2004)]">
-        <text>Делайте всё заново ― разложите карточки по алфавиту .</text>
-        <propbank>
-          <rel relloc="4">разложите</rel>
-          <arg type="ARG1" start="5" end="5">карточки</arg>
-          <arg type="ARG2" start="6" end="7">по алфавиту</arg>
-        </propbank>
-      </example>
-      <example name="predicative passive adjectival participle" src="">
-        <text>Две машины , на капотах разложен товар , верёвки протянуты с цветным тряпьём . [ Борис Екимов . Пиночет ( 1999 ) ]</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="3" end="4">на капотах</arg>
-          <rel relloc="5">разложен</rel>
-          <arg type="ARG1" start="6" end="6">товар</arg>
-        </propbank>
-      </example>
-      <example name="noun" src="[Владимир Карпов, Алексей Лобанов. Кризисы программного жанра // «За науку», 2011]">
-        <text>Уже написана аранжировка ― проведена раскладка музыкального произведения по всем инструментам .</text>
-        <propbank>
-          <rel relloc="5">раскладка</rel>
-          <arg type="ARG1" start="6" end="7">музыкального произведения</arg>
-          <arg type="ARG2" start="8" end="10">по всем инструментам</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as passive" src="[Вера Белоусова. Второй выстрел (2000)]">
-        <text>Теперь всё , что я узнавал и о чём думал , раскладывалось у меня в голове по двум разным полочкам .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="0">Теперь</arg>
-          <arg type="ARG1" start="1" end="9">всё , что я узнавал и о чём думал</arg>
-          <rel relloc="11">раскладывалось</rel>
-          <arg type="ARGM-LOC" start="12" end="15">у меня в голове</arg>
-          <arg type="ARG2" start="16" end="19">по двум разным полочкам</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="разложить.02" name="ignite">
-      <aliases>
-        <alias pos="j">разложивший</alias>
-        <alias pos="j">разложенный</alias>
-        <alias pos="j">раскладывать</alias>
-        <alias pos="j">раскладывающий</alias>
-        <alias pos="j">раскладывавший</alias>
-        <alias pos="j">раскладываемый</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 4</note>
-      <note>NOTES: Based on English ignite.01.</note>
-      <roles>
-        <role descr="agent, firestarter" f="PAG" n="0">
-        </role>
-        <role descr="thing now burning" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="ignite.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="all args" src="Russian National Corpus. [Юрий Коваль. Сиротская зима (1980-1993)]">
-        <text>Человек с яблоком в кармане редко раскладывал костёр ― и то на опушке или у реки , а в глубине - то леса кому нужен огонь ?</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="4">Человек с яблоком в кармане</arg>
-          <arg type="ARGM-TMP" start="5" end="5">редко</arg>
-          <rel relloc="6">раскладывал</rel>
-          <arg type="ARG1" start="7" end="7">костёр</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="разложить.03" name="break or fall apart, dissolve">
-      <aliases>
-        <alias pos="v">разложиться</alias>
-        <alias pos="j">разложившийся</alias>
-        <alias pos="v">раскладываться</alias>
-        <alias pos="j">раскладывающийся</alias>
-        <alias pos="j">раскладывавшийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 5,6</note>
-      <note>разложить.03 NOTES: Based on fall_apart.09</note>
-      <roles>
-        <note>Russian Arg0-PAG has not match in English frame</note>
-        <note>Russian Arg2-PRD has not match in English frame</note>
-        <role descr="breaker" f="PAG" n="0">
-        </role>
-        <role descr="thing in pieces" f="PPT" n="1">
-        </role>
-        <role descr="resulting parts" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="fall_apart.09" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="active adjectival participle" src="Russian National Corpus. [Анна Маева. Дар на всю жизнь (1999) // «Здоровье», 1999.03.15]">
-        <text>Это механический аппарат с живыми гепатоцитами ― рабочими клетками печени , разлагающими токсичные вещества до безвредных.― Но радикальное решение проблемы дефицита донорских органов ― пересадка органов от животных человеку , считает Валерий Иванович Шумаков .</text>
-        <propbank>
-          <rel relloc="11">разлагающими</rel>
-          <arg type="ARG1" start="12" end="13">токсичные вещества</arg>
-          <arg type="ARG2" start="14" end="15">до безвредных.―</arg>
-        </propbank>
-      </example>
-      <example name="active adjectival participle" src="Russian National Corpus. [Анна Маева. Дар на всю жизнь (1999) // «Здоровье», 1999.03.15]">
-        <text>Это механический аппарат с живыми гепатоцитами ― рабочими клетками печени , разлагающими токсичные вещества до безвредных.― Но радикальное решение проблемы дефицита донорских органов ― пересадка органов от животных человеку , считает Валерий Иванович Шумаков .</text>
-        <propbank>
-          <rel relloc="11">разлагающими</rel>
-          <arg type="ARG1" start="12" end="13">токсичные вещества</arg>
-          <arg type="ARG2" start="14" end="15">до безвредных.―</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as passive" src="Russian National Corpus. [Николай Малетин. Потребительская корзина для мусора (2003) // «Деловой квартал» (Екатеринбург), 2003.02.10]">
-        <text>А токсичные органические соединения ― дибензодиоксины и дибензофураны ― при 1250 ° C разлагаются , причём обратное восстановление уже невозможно .</text>
-        <propbank>
-          <arg type="ARG1" start="5" end="7">дибензодиоксины и дибензофураны</arg>
-          <arg type="ARGM-CAU" start="9" end="12">при 1250 ° C</arg>
-          <rel relloc="13">разлагаются</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="разложить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless src otherwise
+            noted.
+        </note>
+        <roleset id="разложить.01" name="spread or lay out, arrange, systematize">
+            <aliases>
+                <alias pos="j">разложивший</alias>
+                <alias pos="j">разложенный</alias>
+                <alias pos="j">раскладывать</alias>
+                <alias pos="j">раскладывающий</alias>
+                <alias pos="j">раскладывавший</alias>
+                <alias pos="j">раскладываемый</alias>
+                <alias pos="v">разложиться</alias>
+                <alias pos="j">разложившийся</alias>
+                <alias pos="v">раскладываться</alias>
+                <alias pos="j">раскладывающийся</alias>
+                <alias pos="j">раскладывавшийся</alias>
+                <alias pos="n">раскладка</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,3</note>
+            <note>разложить.01 NOTES: Based on arrange.01. No start or beneficiary</note>
+            <roles>
+                <note>English Arg2-VSP = Russian Arg2-MNR</note>
+                <role descr="builder, arranger" f="PAG" n="0">
+                </role>
+                <role descr="item/material being arranged" f="PPT" n="1">
+                </role>
+                <role descr="manner or system" f="MNR" n="2">
+                </role>
+                <role descr="benefactive" f="GOL" n="3"/>
+                <role descr="end state" f="PRD" n="4"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="arrange.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="args 1 and 2" src="Russian National Corpus. [Запись LiveJournal (2004)]">
+                <text>Делайте всё заново ― разложите карточки по алфавиту .</text>
+                <propbank>
+                    <rel relloc="4">разложите</rel>
+                    <arg type="ARG1" start="5" end="5">карточки</arg>
+                    <arg type="ARG2" start="6" end="7">по алфавиту</arg>
+                </propbank>
+            </example>
+            <example name="predicative passive adjectival participle" src="">
+                <text>Две машины , на капотах разложен товар , верёвки протянуты с цветным тряпьём . [ Борис Екимов .
+                    Пиночет ( 1999 ) ]
+                </text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="3" end="4">на капотах</arg>
+                    <rel relloc="5">разложен</rel>
+                    <arg type="ARG1" start="6" end="6">товар</arg>
+                </propbank>
+            </example>
+            <example name="noun"
+                     src="[Владимир Карпов, Алексей Лобанов. Кризисы программного жанра // «За науку», 2011]">
+                <text>Уже написана аранжировка ― проведена раскладка музыкального произведения по всем инструментам .
+                </text>
+                <propbank>
+                    <rel relloc="5">раскладка</rel>
+                    <arg type="ARG1" start="6" end="7">музыкального произведения</arg>
+                    <arg type="ARG2" start="8" end="10">по всем инструментам</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive" src="[Вера Белоусова. Второй выстрел (2000)]">
+                <text>Теперь всё , что я узнавал и о чём думал , раскладывалось у меня в голове по двум разным полочкам
+                    .
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="0">Теперь</arg>
+                    <arg type="ARG1" start="1" end="9">всё , что я узнавал и о чём думал</arg>
+                    <rel relloc="11">раскладывалось</rel>
+                    <arg type="ARGM-LOC" start="12" end="15">у меня в голове</arg>
+                    <arg type="ARG2" start="16" end="19">по двум разным полочкам</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="разложить.02" name="ignite">
+            <aliases>
+                <alias pos="j">разложивший</alias>
+                <alias pos="j">разложенный</alias>
+                <alias pos="j">раскладывать</alias>
+                <alias pos="j">раскладывающий</alias>
+                <alias pos="j">раскладывавший</alias>
+                <alias pos="j">раскладываемый</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 4</note>
+            <note>NOTES: Based on English ignite.01.</note>
+            <roles>
+                <role descr="agent, firestarter" f="PAG" n="0">
+                </role>
+                <role descr="thing now burning" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="ignite.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args" src="Russian National Corpus. [Юрий Коваль. Сиротская зима (1980-1993)]">
+                <text>Человек с яблоком в кармане редко раскладывал костёр ― и то на опушке или у реки , а в глубине -
+                    то леса кому нужен огонь ?
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="4">Человек с яблоком в кармане</arg>
+                    <arg type="ARGM-TMP" start="5" end="5">редко</arg>
+                    <rel relloc="6">раскладывал</rel>
+                    <arg type="ARG1" start="7" end="7">костёр</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="разложить.03" name="break or fall apart, dissolve">
+            <aliases>
+                <alias pos="v">разложиться</alias>
+                <alias pos="j">разложившийся</alias>
+                <alias pos="v">раскладываться</alias>
+                <alias pos="j">раскладывающийся</alias>
+                <alias pos="j">раскладывавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 5,6</note>
+            <note>разложить.03 NOTES: Based on fall_apart.09</note>
+            <roles>
+                <note>Russian Arg0-PAG has not match in English frame</note>
+                <note>Russian Arg2-PRD has not match in English frame</note>
+                <role descr="breaker" f="PAG" n="0">
+                </role>
+                <role descr="thing in pieces" f="PPT" n="1">
+                </role>
+                <role descr="resulting parts" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="fall_apart.09" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="active adjectival participle"
+                     src="Russian National Corpus. [Анна Маева. Дар на всю жизнь (1999) // «Здоровье», 1999.03.15]">
+                <text>Это механический аппарат с живыми гепатоцитами ― рабочими клетками печени , разлагающими токсичные
+                    вещества до безвредных.― Но радикальное решение проблемы дефицита донорских органов ― пересадка
+                    органов от животных человеку , считает Валерий Иванович Шумаков .
+                </text>
+                <propbank>
+                    <rel relloc="11">разлагающими</rel>
+                    <arg type="ARG1" start="12" end="13">токсичные вещества</arg>
+                    <arg type="ARG2" start="14" end="15">до безвредных.―</arg>
+                </propbank>
+            </example>
+            <example name="active adjectival participle"
+                     src="Russian National Corpus. [Анна Маева. Дар на всю жизнь (1999) // «Здоровье», 1999.03.15]">
+                <text>Это механический аппарат с живыми гепатоцитами ― рабочими клетками печени , разлагающими токсичные
+                    вещества до безвредных.― Но радикальное решение проблемы дефицита донорских органов ― пересадка
+                    органов от животных человеку , считает Валерий Иванович Шумаков .
+                </text>
+                <propbank>
+                    <rel relloc="11">разлагающими</rel>
+                    <arg type="ARG1" start="12" end="13">токсичные вещества</arg>
+                    <arg type="ARG2" start="14" end="15">до безвредных.―</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive"
+                     src="Russian National Corpus. [Николай Малетин. Потребительская корзина для мусора (2003) // «Деловой квартал» (Екатеринбург), 2003.02.10]">
+                <text>А токсичные органические соединения ― дибензодиоксины и дибензофураны ― при 1250 ° C разлагаются ,
+                    причём обратное восстановление уже невозможно .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="5" end="7">дибензодиоксины и дибензофураны</arg>
+                    <arg type="ARGM-CAU" start="9" end="12">при 1250 ° C</arg>
+                    <rel relloc="13">разлагаются</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

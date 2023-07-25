@@ -19,14 +19,15 @@
                 <lexlink class="surrender.01" resource="English PropBank" version="3.4"/>
             </lexlinks>
             <example name="ARG0" src="RNC, Война (09.03.1915) // «Русское слово», 1915">
-                <text> Один батальон из ее состава сдался полностью .</text>
+                <text>Один батальон из ее состава сдался полностью .</text>
                 <propbank>
                     <arg type="ARG0" start="1" end="5">Один батальон из ее состава</arg>
                     <rel relloc="6">сдался</rel>
                 </propbank>
             </example>
-            <example name="ARG0 and ARG1" src="RNC, Виктор Шереметьев. Путешествие в «забытый край» // «Дальний Восток», 2019">
-                <text> Он в тридцатых годах сдался властям и покончил с собой в КПЗ поселка Певек .</text>
+            <example name="ARG0 and ARG1"
+                     src="RNC, Виктор Шереметьев. Путешествие в «забытый край» // «Дальний Восток», 2019">
+                <text>Он в тридцатых годах сдался властям и покончил с собой в КПЗ поселка Певек .</text>
                 <propbank>
                     <arg type="ARG0" start="1" end="1">Он</arg>
                     <rel relloc="5">сдался</rel>

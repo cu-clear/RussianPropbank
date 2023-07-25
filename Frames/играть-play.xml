@@ -1,364 +1,382 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="играть">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="играть.01" name="engage in activity for enjoyment, entertainment, and competition">
-      <aliases>
-        <alias pos="j">играющий</alias>
-        <alias pos="j">игравший</alias>
-        <alias pos="j">играемый</alias>
-        <alias pos="j">игранный</alias>
-        <alias pos="v">сыграть</alias>
-        <alias pos="j">сыгравший</alias>
-        <alias pos="j">сыгранный</alias>
-        <alias pos="v">сыграться</alias>
-        <alias pos="j">сыгравшийся</alias>
-        <alias pos="v">играться</alias>
-        <alias pos="j">играющийся</alias>
-        <alias pos="j">игравшийся</alias>
-        <alias pos="v">игрывать</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2,3?,7,8,9,12</note>
-      <note>играть.01 NOTES: Roleset based on English play.01</note>
-      <roles>
-        <role descr="player" f="PAG" n="0">
-        </role>
-        <role descr="game/toy" f="PPT" n="1">
-        </role>
-        <role descr="instrument/equipment used to play game" f="MNR" n="2"/>
-        <role descr="opponent, play against whom" f="COM" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="play.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="ARG0" src="">
-        <text>Будем играть в несколько известных во всем мире игр .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <rel relloc="1">играть</rel>
-          <arg type="ARG1" start="2" end="8">в несколько известных во всем мире игр</arg>
-        </propbank>
-      </example>
-      <example name="specific game" src="">
-        <text>Ты играешь в какие - нибудь спортивные игры ?</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Ты</arg>
-          <rel relloc="1">играешь</rel>
-          <arg type="ARG1" start="2" end="7">в какие - нибудь спортивные игры</arg>
-        </propbank>
-      </example>
-      <example name="specific game" src="">
-        <text>Тебе нравится играть в футбол ?</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <rel relloc="2">играть</rel>
-          <arg type="ARG1" start="3" end="4">в футбол</arg>
-        </propbank>
-      </example>
-      <example name="with secondary predication" src="">
-        <text>Но играли с братом знатно - и корабль и дом и многое придумывали ) ) )</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">Но</arg>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <rel relloc="1">играли</rel>
-          <arg type="ARGM-COM" start="2" end="3">с братом</arg>
-          <arg type="ARGM-ADV" start="4" end="4">знатно</arg>
-        </propbank>
-      </example>
-      <example name="With reciprocal" src="web">
-        <text>Сама не играю вообще , муж очень - очень изредка .</text>
-        <propbank>
-          <arg type="ARGM-REC" start="0" end="0">Сама</arg>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <arg type="ARGM-NEG" start="1" end="1">не</arg>
-          <rel relloc="2">играю</rel>
-          <arg type="ARGM-ADV" start="3" end="3">вообще</arg>
-        </propbank>
-      </example>
-      <example name="With game" src="">
-        <text>В кээс и дотку не играю ... ЯРусскостью не увлекаюсь , репчик не слушаю ...</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="3">В кээс и дотку</arg>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <arg type="ARGM-NEG" start="?" end="?">не</arg>
-          <rel relloc="5">играю</rel>
-        </propbank>
-      </example>
-      <example name="play with" src="">
-        <text>Клара молчала и играла вилкой .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <rel relloc="3">играла</rel>
-          <arg type="ARG2" start="4" end="4">вилкой</arg>
-        </propbank>
-      </example>
-      <example name="play with" src="">
-        <text>Клара молчала и играла вилкой .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <rel relloc="3">играла</rel>
-          <arg type="ARG2" start="4" end="4">вилкой</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="играть.02" name="perform/play music">
-      <aliases>
-        <alias pos="j">играющий</alias>
-        <alias pos="j">игравший</alias>
-        <alias pos="j">играемый</alias>
-        <alias pos="j">игранный</alias>
-        <alias pos="v">сыграть</alias>
-        <alias pos="j">сыгравший</alias>
-        <alias pos="j">сыгранный</alias>
-        <alias pos="j">сыгравшийся</alias>
-        <alias pos="v">играться</alias>
-        <alias pos="j">играющийся</alias>
-        <alias pos="j">игравшийся</alias>
-        <alias pos="v">игрывать</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 4,5</note>
-      <note>играть.02 NOTES: based on English play.11</note>
-      <roles>
-        <role descr="performer" f="PAG" n="0">
-        </role>
-        <role descr="music" f="PPT" n="1">
-        </role>
-        <role descr="instrument or equipment on which the music is played" f="MNR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="play.11" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="play a piece" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=3874">
-        <text>Если ты " Аппассионату " играешь , то с этой музыкой как - нибудь справишься .</text>
-        <propbank>
-          <arg type="ARG0" start="1" end="1">ты</arg>
-          <arg type="ARG1" start="3" end="3">Аппассионату</arg>
-          <rel relloc="5">играешь</rel>
-        </propbank>
-      </example>
-      <example name="play an instrument" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=3875">
-        <text>Разве вы не видите : я играю на скрипке !</text>
-        <propbank>
-          <arg type="ARG0" start="5" end="5">я</arg>
-          <rel relloc="6">играю</rel>
-          <arg type="ARG2" start="7" end="8">на скрипке</arg>
-        </propbank>
-      </example>
-      <example name="arg1 and arg2, instrument metonym for music" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=12799">
-        <text>Всё деревом обделано , камин , светильники тёмные , орган играет по магнитофону .</text>
-        <propbank>
-          <arg type="ARG1" start="9" end="9">орган</arg>
-          <rel relloc="10">играет</rel>
-          <arg type="ARG2" start="11" end="12">по магнитофону</arg>
-        </propbank>
-      </example>
-      <example name="arg1 and arg2, music metonym for performer" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=12799">
-        <text>Все шумно усаживаются за стол ; минутная пауза ; музыка играет марш .</text>
-        <propbank>
-          <arg type="ARG0" start="9" end="9">музыка</arg>
-          <rel relloc="10">играет</rel>
-          <arg type="ARG1" start="11" end="11">марш</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="играть.03" name="represent a character in a performance, play a role">
-      <aliases>
-        <alias pos="j">играющий</alias>
-        <alias pos="j">игравший</alias>
-        <alias pos="j">играемый</alias>
-        <alias pos="j">игранный</alias>
-        <alias pos="v">сыграть</alias>
-        <alias pos="j">сыгравший</alias>
-        <alias pos="j">сыгранный</alias>
-        <alias pos="v">игрывать</alias>
-        <alias pos="j">сыгравшийся</alias>
-        <alias pos="v">играться</alias>
-        <alias pos="j">играющийся</alias>
-        <alias pos="j">игравшийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 6,10</note>
-      <note>играть.03 NOTES: based on play.02</note>
-      <roles>
-        <role descr="actor/player" f="PAG" n="0"/>
-        <role descr="role/music/song/performance" f="PPT" n="1"/>
-        <role descr="production/theater/performance, if different from arg1" f="LOC" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="play.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>Russian Arg2-LOC has no match in English frame</note>
-      <example name="arg0 actor" src="">
-        <text>Там , кажется , играет Франко Неро ?</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="0" end="0">Там</arg>
-          <rel relloc="4">играет</rel>
-          <arg type="ARG0" start="5" end="6">Франко Неро</arg>
-        </propbank>
-      </example>
-      <example name="Hollywood role" src="">
-        <text>И еще вопрос , кто играл жену главы мафиозного клана ?</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="2">И еще вопрос</arg>
-          <arg type="ARG0" start="4" end="4">кто</arg>
-          <rel relloc="5">играл</rel>
-          <arg type="ARG1" start="6" end="9">жену главы мафиозного клана</arg>
-        </propbank>
-      </example>
-      <example name="pretend to be" src="">
-        <text>а мне понравилось в кафе в центре в районе 1000 мелочей , не помню точно название , где дети играют в поваров и делают пиццу сами под руководством повара ...</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="17" end="17">где</arg>
-          <rel relloc="19">играют</rel>
-          <arg type="ARG1" start="20" end="21">в поваров</arg>
-        </propbank>
-      </example>
-      <example name="be a factor" src="">
-        <text>числа в нашей жизни и мироздании играют далеко не последнюю роль , но кто сможет узнать , будет ли это 11 - й рейс самолёта или автобуса ?</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">числа</arg>
-          <arg type="ARG1" start="1" end="5">в нашей жизни и мироздании</arg>
-          <rel relloc="6">играют</rel>
-          <arg type="ARGM-ADV" start="7" end="7">далеко</arg>
-          <arg type="ARG1" start="8" end="10">не последнюю роль</arg>
-        </propbank>
-      </example>
-      <example name="figurative role in life" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть">
-        <text>Они верят в то , что Бог играет важную роль в их жизни , в том числе и в футбольной » .</text>
-        <propbank>
-          <arg type="ARG0" start="6" end="6">Бог</arg>
-          <rel relloc="7">играет</rel>
-          <arg type="ARG1" start="8" end="9">важную роль</arg>
-          <arg type="ARG2" start="10" end="12">в их жизни</arg>
-        </propbank>
-      </example>
-      <example name="type of performance/role as arg1" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть">
-        <text>Актёр котируется лучше , если он играет трагедию , а не водевиль .</text>
-        <propbank>
-          <arg type="ARG0" start="5" end="5">он</arg>
-          <rel relloc="6">играет</rel>
-          <arg type="ARG1" start="7" end="7">трагедию</arg>
-        </propbank>
-      </example>
-      <example name="type of performance/role as arg1" src="Russian National Corpus.[И. Грекова. Фазан (1984)]">
-        <text>" Кот Плюшка " ― называлась одна пьеса , а другая ― " Тихо - тихо " ― игралась шёпотом .</text>
-        <propbank>
-          <arg type="ARGM-MNR" start="19" end="19">шёпотом</arg>
-          <rel relloc="18">игралась</rel>
-          <arg type="ARG2" start="10" end="16">другая ― " Тихо - тихо "</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="играть.04" name="have a wedding, get married">
-      <aliases>
-        <alias pos="j">играющий</alias>
-        <alias pos="j">игравший</alias>
-        <alias pos="j">играемый</alias>
-        <alias pos="j">игранный</alias>
-        <alias pos="v">сыграть</alias>
-        <alias pos="j">сыгравший</alias>
-        <alias pos="j">сыгранный</alias>
-        <alias pos="j">сыгравшийся</alias>
-        <alias pos="v">играться</alias>
-        <alias pos="j">играющийся</alias>
-        <alias pos="j">игравшийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 13</note>
-      <note>NOTES: based on English host.04</note>
-      <roles>
-        <role descr="conductor, host" f="PAG" n="0">
-        </role>
-        <role descr="thing held - wedding" f="PPT" n="1"/>
-        <role descr="with whom" f="COM" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="host.04" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="have a wedding" src="Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть">
-        <text>Они сыграли свадьбу в июле</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Они</arg>
-          <rel relloc="1">сыграли</rel>
-          <arg type="ARG1" start="2" end="2">свадьбу</arg>
-          <arg type="ARGM-TMP" start="3" end="4">в июле</arg>
-        </propbank>
-      </example>
-      <example name="wedding was held, reflexive as passive" src="Russian National Corpus. [В. Г. Распутин. Новая профессия (1998)]">
-        <text>И сама свадьба играется ― потому что положено тряхнуть событием , а заодно и карманом .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">И</arg>
-          <arg type="ARG1" start="1" end="2">сама свадьба</arg>
-          <rel relloc="3">играется</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="играть_на_руку">
-    <roleset id="играть_на_руку.05" name="play into one's hands">
-      <aliases>
-        <alias pos="m">сыграть_на_руку</alias>
-        <alias pos="m">играть_на_руку</alias>
-        <alias pos="m">играться_на_руку</alias>
-        <alias pos="m">сыграться_на_руку</alias>
-        <mwp-descriptions id="играть_на_руку">
-          <syntaxdesc slots="A B C">
-          <token slot="A" arg="" pos="" head="" dep="">сыграть</token>
-          <token slot="A" arg="" pos="" head="" dep="">играть</token>
-          <token slot="A" arg="" pos="" head="" dep="">играться</token>
-          <token slot="A" arg="" pos="" head="" dep="">сыграться</token>
-          <token slot="B" arg="" pos="" head="С" dep="">на</token>
-          <token slot="С" arg="" pos="" head="A" dep="">руку</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <note>Corresponds to FrameBank senses 11</note>
-      <note>NOTES: based on English play.08</note>
-      <roles>
-        <role descr="thing factoring in, subject in active clauses" f="PAG" n="0"/>
-        <role descr="thing being factored into" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="play.08" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="into the hands of enemies" src="Russian National Corpus. [Василий Гроссман. Жизнь и судьба, часть 3 (1960)]">
-        <text>― Виктор Павлович , ― сказал он , ― надо вам сказать , что эта кампания англо - американцев прямо играет на руку фашистам .</text>
-        <propbank>
-          <arg type="ARG0" start="14" end="18">эта кампания англо - американцев</arg>
-          <arg type="ARGM-ADV" start="19" end="19">прямо</arg>
-          <rel relloc="20 21 22">играет на руку</rel>
-          <arg type="ARG1" start="23" end="23">фашистам</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="сыграть_в_ящик">
-    <roleset id="сыграть_в_ящик.06" name="die, kick the bucket">
-      <aliases>
-        <alias pos="m">сыграть_в_ящик</alias>
-        <mwp-descriptions id="сыграть_в_ящик">
-          <syntaxdesc slots="A B C">
-          <token slot="A" arg="" pos="" head="" dep="">сыграть</token>
-          <token slot="B" arg="" pos="" head="С" dep="">в</token>
-          <token slot="С" arg="" pos="" head="A" dep="">ящик</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <note>Corresponds to FrameBank senses 11</note>
-      <note>NOTES: based on English die.01</note>
-      <roles>
-        <role descr="the deceased" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="die.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg2-PRD has no match in Russian frame</note>
-      <example name="die" src="Russian National Corpus. [Василий Катанян. Прикосновение к идолам (1998)]">
-        <text>Шло время . Сталин сыграл в ящик . После XX съезда Тима ночью пересказывал закрытое письмо о Сталине ( только для партийных !</text>
-        <propbank>
-          <arg type="ARG1" start="3" end="3">Сталин</arg>
-          <rel relloc="4 5 6">сыграл в ящик</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="играть">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="играть.01" name="engage in activity for enjoyment, entertainment, and competition">
+            <aliases>
+                <alias pos="j">играющий</alias>
+                <alias pos="j">игравший</alias>
+                <alias pos="j">играемый</alias>
+                <alias pos="j">игранный</alias>
+                <alias pos="v">сыграть</alias>
+                <alias pos="j">сыгравший</alias>
+                <alias pos="j">сыгранный</alias>
+                <alias pos="v">сыграться</alias>
+                <alias pos="j">сыгравшийся</alias>
+                <alias pos="v">играться</alias>
+                <alias pos="j">играющийся</alias>
+                <alias pos="j">игравшийся</alias>
+                <alias pos="v">игрывать</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,3?,7,8,9,12</note>
+            <note>играть.01 NOTES: Roleset based on English play.01</note>
+            <roles>
+                <role descr="player" f="PAG" n="0">
+                </role>
+                <role descr="game/toy" f="PPT" n="1">
+                </role>
+                <role descr="instrument/equipment used to play game" f="MNR" n="2"/>
+                <role descr="opponent, play against whom" f="COM" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="play.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG0" src="">
+                <text>Будем играть в несколько известных во всем мире игр .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <rel relloc="1">играть</rel>
+                    <arg type="ARG1" start="2" end="8">в несколько известных во всем мире игр</arg>
+                </propbank>
+            </example>
+            <example name="specific game" src="">
+                <text>Ты играешь в какие - нибудь спортивные игры ?</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Ты</arg>
+                    <rel relloc="1">играешь</rel>
+                    <arg type="ARG1" start="2" end="7">в какие - нибудь спортивные игры</arg>
+                </propbank>
+            </example>
+            <example name="specific game" src="">
+                <text>Тебе нравится играть в футбол ?</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <rel relloc="2">играть</rel>
+                    <arg type="ARG1" start="3" end="4">в футбол</arg>
+                </propbank>
+            </example>
+            <example name="with secondary predication" src="">
+                <text>Но играли с братом знатно - и корабль и дом и многое придумывали ) ) )</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Но</arg>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <rel relloc="1">играли</rel>
+                    <arg type="ARGM-COM" start="2" end="3">с братом</arg>
+                    <arg type="ARGM-ADV" start="4" end="4">знатно</arg>
+                </propbank>
+            </example>
+            <example name="With reciprocal" src="web">
+                <text>Сама не играю вообще , муж очень - очень изредка .</text>
+                <propbank>
+                    <arg type="ARGM-REC" start="0" end="0">Сама</arg>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <arg type="ARGM-NEG" start="1" end="1">не</arg>
+                    <rel relloc="2">играю</rel>
+                    <arg type="ARGM-ADV" start="3" end="3">вообще</arg>
+                </propbank>
+            </example>
+            <example name="With game" src="">
+                <text>В кээс и дотку не играю ... ЯРусскостью не увлекаюсь , репчик не слушаю ...</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="3">В кээс и дотку</arg>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <arg type="ARGM-NEG" start="?" end="?">не</arg>
+                    <rel relloc="5">играю</rel>
+                </propbank>
+            </example>
+            <example name="play with" src="">
+                <text>Клара молчала и играла вилкой .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <rel relloc="3">играла</rel>
+                    <arg type="ARG2" start="4" end="4">вилкой</arg>
+                </propbank>
+            </example>
+            <example name="play with" src="">
+                <text>Клара молчала и играла вилкой .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <rel relloc="3">играла</rel>
+                    <arg type="ARG2" start="4" end="4">вилкой</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="играть.02" name="perform/play music">
+            <aliases>
+                <alias pos="j">играющий</alias>
+                <alias pos="j">игравший</alias>
+                <alias pos="j">играемый</alias>
+                <alias pos="j">игранный</alias>
+                <alias pos="v">сыграть</alias>
+                <alias pos="j">сыгравший</alias>
+                <alias pos="j">сыгранный</alias>
+                <alias pos="j">сыгравшийся</alias>
+                <alias pos="v">играться</alias>
+                <alias pos="j">играющийся</alias>
+                <alias pos="j">игравшийся</alias>
+                <alias pos="v">игрывать</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 4,5</note>
+            <note>играть.02 NOTES: based on English play.11</note>
+            <roles>
+                <role descr="performer" f="PAG" n="0">
+                </role>
+                <role descr="music" f="PPT" n="1">
+                </role>
+                <role descr="instrument or equipment on which the music is played" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="play.11" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="play a piece"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=3874">
+                <text>Если ты " Аппассионату " играешь , то с этой музыкой как - нибудь справишься .</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">ты</arg>
+                    <arg type="ARG1" start="3" end="3">Аппассионату</arg>
+                    <rel relloc="5">играешь</rel>
+                </propbank>
+            </example>
+            <example name="play an instrument"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=3875">
+                <text>Разве вы не видите : я играю на скрипке !</text>
+                <propbank>
+                    <arg type="ARG0" start="5" end="5">я</arg>
+                    <rel relloc="6">играю</rel>
+                    <arg type="ARG2" start="7" end="8">на скрипке</arg>
+                </propbank>
+            </example>
+            <example name="arg1 and arg2, instrument metonym for music"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=12799">
+                <text>Всё деревом обделано , камин , светильники тёмные , орган играет по магнитофону .</text>
+                <propbank>
+                    <arg type="ARG1" start="9" end="9">орган</arg>
+                    <rel relloc="10">играет</rel>
+                    <arg type="ARG2" start="11" end="12">по магнитофону</arg>
+                </propbank>
+            </example>
+            <example name="arg1 and arg2, music metonym for performer"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть&amp;cxid=12799">
+                <text>Все шумно усаживаются за стол ; минутная пауза ; музыка играет марш .</text>
+                <propbank>
+                    <arg type="ARG0" start="9" end="9">музыка</arg>
+                    <rel relloc="10">играет</rel>
+                    <arg type="ARG1" start="11" end="11">марш</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="играть.03" name="represent a character in a performance, play a role">
+            <aliases>
+                <alias pos="j">играющий</alias>
+                <alias pos="j">игравший</alias>
+                <alias pos="j">играемый</alias>
+                <alias pos="j">игранный</alias>
+                <alias pos="v">сыграть</alias>
+                <alias pos="j">сыгравший</alias>
+                <alias pos="j">сыгранный</alias>
+                <alias pos="v">игрывать</alias>
+                <alias pos="j">сыгравшийся</alias>
+                <alias pos="v">играться</alias>
+                <alias pos="j">играющийся</alias>
+                <alias pos="j">игравшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 6,10</note>
+            <note>играть.03 NOTES: based on play.02</note>
+            <roles>
+                <role descr="actor/player" f="PAG" n="0"/>
+                <role descr="role/music/song/performance" f="PPT" n="1"/>
+                <role descr="production/theater/performance, if different from arg1" f="LOC" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="play.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>Russian Arg2-LOC has no match in English frame</note>
+            <example name="arg0 actor" src="">
+                <text>Там , кажется , играет Франко Неро ?</text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="0" end="0">Там</arg>
+                    <rel relloc="4">играет</rel>
+                    <arg type="ARG0" start="5" end="6">Франко Неро</arg>
+                </propbank>
+            </example>
+            <example name="Hollywood role" src="">
+                <text>И еще вопрос , кто играл жену главы мафиозного клана ?</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="2">И еще вопрос</arg>
+                    <arg type="ARG0" start="4" end="4">кто</arg>
+                    <rel relloc="5">играл</rel>
+                    <arg type="ARG1" start="6" end="9">жену главы мафиозного клана</arg>
+                </propbank>
+            </example>
+            <example name="pretend to be" src="">
+                <text>а мне понравилось в кафе в центре в районе 1000 мелочей , не помню точно название , где дети
+                    играют в поваров и делают пиццу сами под руководством повара ...
+                </text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="17" end="17">где</arg>
+                    <rel relloc="19">играют</rel>
+                    <arg type="ARG1" start="20" end="21">в поваров</arg>
+                </propbank>
+            </example>
+            <example name="be a factor" src="">
+                <text>числа в нашей жизни и мироздании играют далеко не последнюю роль , но кто сможет узнать , будет ли
+                    это 11 - й рейс самолёта или автобуса ?
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">числа</arg>
+                    <arg type="ARG1" start="1" end="5">в нашей жизни и мироздании</arg>
+                    <rel relloc="6">играют</rel>
+                    <arg type="ARGM-ADV" start="7" end="7">далеко</arg>
+                    <arg type="ARG1" start="8" end="10">не последнюю роль</arg>
+                </propbank>
+            </example>
+            <example name="figurative role in life"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть">
+                <text>Они верят в то , что Бог играет важную роль в их жизни , в том числе и в футбольной » .</text>
+                <propbank>
+                    <arg type="ARG0" start="6" end="6">Бог</arg>
+                    <rel relloc="7">играет</rel>
+                    <arg type="ARG1" start="8" end="9">важную роль</arg>
+                    <arg type="ARG2" start="10" end="12">в их жизни</arg>
+                </propbank>
+            </example>
+            <example name="type of performance/role as arg1"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть">
+                <text>Актёр котируется лучше , если он играет трагедию , а не водевиль .</text>
+                <propbank>
+                    <arg type="ARG0" start="5" end="5">он</arg>
+                    <rel relloc="6">играет</rel>
+                    <arg type="ARG1" start="7" end="7">трагедию</arg>
+                </propbank>
+            </example>
+            <example name="type of performance/role as arg1" src="Russian National Corpus.[И. Грекова. Фазан (1984)]">
+                <text>" Кот Плюшка " ― называлась одна пьеса , а другая ― " Тихо - тихо " ― игралась шёпотом .</text>
+                <propbank>
+                    <arg type="ARGM-MNR" start="19" end="19">шёпотом</arg>
+                    <rel relloc="18">игралась</rel>
+                    <arg type="ARG2" start="10" end="16">другая ― " Тихо - тихо "</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="играть.04" name="have a wedding, get married">
+            <aliases>
+                <alias pos="j">играющий</alias>
+                <alias pos="j">игравший</alias>
+                <alias pos="j">играемый</alias>
+                <alias pos="j">игранный</alias>
+                <alias pos="v">сыграть</alias>
+                <alias pos="j">сыгравший</alias>
+                <alias pos="j">сыгранный</alias>
+                <alias pos="j">сыгравшийся</alias>
+                <alias pos="v">играться</alias>
+                <alias pos="j">играющийся</alias>
+                <alias pos="j">игравшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 13</note>
+            <note>NOTES: based on English host.04</note>
+            <roles>
+                <role descr="conductor, host" f="PAG" n="0">
+                </role>
+                <role descr="thing held - wedding" f="PPT" n="1"/>
+                <role descr="with whom" f="COM" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="host.04" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="have a wedding" src="Framebank: http://marker.framebank.ru/verbs_ex.php?lex=играть">
+                <text>Они сыграли свадьбу в июле</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Они</arg>
+                    <rel relloc="1">сыграли</rel>
+                    <arg type="ARG1" start="2" end="2">свадьбу</arg>
+                    <arg type="ARGM-TMP" start="3" end="4">в июле</arg>
+                </propbank>
+            </example>
+            <example name="wedding was held, reflexive as passive"
+                     src="Russian National Corpus. [В. Г. Распутин. Новая профессия (1998)]">
+                <text>И сама свадьба играется ― потому что положено тряхнуть событием , а заодно и карманом .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">И</arg>
+                    <arg type="ARG1" start="1" end="2">сама свадьба</arg>
+                    <rel relloc="3">играется</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="играть_на_руку">
+        <roleset id="играть_на_руку.05" name="play into one's hands">
+            <aliases>
+                <alias pos="m">сыграть_на_руку</alias>
+                <alias pos="m">играть_на_руку</alias>
+                <alias pos="m">играться_на_руку</alias>
+                <alias pos="m">сыграться_на_руку</alias>
+                <mwp-descriptions id="играть_на_руку">
+                    <syntaxdesc slots="A B C">
+                        <token slot="A" arg="" pos="" head="" dep="">сыграть</token>
+                        <token slot="A" arg="" pos="" head="" dep="">играть</token>
+                        <token slot="A" arg="" pos="" head="" dep="">играться</token>
+                        <token slot="A" arg="" pos="" head="" dep="">сыграться</token>
+                        <token slot="B" arg="" pos="" head="С" dep="">на</token>
+                        <token slot="С" arg="" pos="" head="A" dep="">руку</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <note>Corresponds to FrameBank senses 11</note>
+            <note>NOTES: based on English play.08</note>
+            <roles>
+                <role descr="thing factoring in, subject in active clauses" f="PAG" n="0"/>
+                <role descr="thing being factored into" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="play.08" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="into the hands of enemies"
+                     src="Russian National Corpus. [Василий Гроссман. Жизнь и судьба, часть 3 (1960)]">
+                <text>― Виктор Павлович , ― сказал он , ― надо вам сказать , что эта кампания англо - американцев прямо
+                    играет на руку фашистам .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="14" end="18">эта кампания англо - американцев</arg>
+                    <arg type="ARGM-ADV" start="19" end="19">прямо</arg>
+                    <rel relloc="20 21 22">играет на руку</rel>
+                    <arg type="ARG1" start="23" end="23">фашистам</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="сыграть_в_ящик">
+        <roleset id="сыграть_в_ящик.06" name="die, kick the bucket">
+            <aliases>
+                <alias pos="m">сыграть_в_ящик</alias>
+                <mwp-descriptions id="сыграть_в_ящик">
+                    <syntaxdesc slots="A B C">
+                        <token slot="A" arg="" pos="" head="" dep="">сыграть</token>
+                        <token slot="B" arg="" pos="" head="С" dep="">в</token>
+                        <token slot="С" arg="" pos="" head="A" dep="">ящик</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <note>Corresponds to FrameBank senses 11</note>
+            <note>NOTES: based on English die.01</note>
+            <roles>
+                <role descr="the deceased" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="die.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg2-PRD has no match in Russian frame</note>
+            <example name="die" src="Russian National Corpus. [Василий Катанян. Прикосновение к идолам (1998)]">
+                <text>Шло время . Сталин сыграл в ящик . После XX съезда Тима ночью пересказывал закрытое письмо о
+                    Сталине ( только для партийных !
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="3" end="3">Сталин</arg>
+                    <rel relloc="4 5 6">сыграл в ящик</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

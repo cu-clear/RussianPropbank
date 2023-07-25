@@ -1,69 +1,78 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="поверить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="поверить.01" name="believe">
-      <aliases>
-        <alias pos="j">поверивший</alias>
-        <alias pos="v">верить</alias>
-        <alias pos="j">верящий</alias>
-        <alias pos="j">веривший</alias>
-        <alias pos="v">вериться</alias>
-        <alias pos="v">повериться</alias>
-        <alias pos="j">поверившийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2,3,4,5,6</note>
-      <note>Adjusted from English "believe.01"</note>
-      <roles>
-        <role descr="believer" f="pag" n="0"/>
-        <role descr="belief" f="ppt" n="1"/>
-        <role descr="entity believed or trusted" f="ppt" n="2"/>
-      </roles>
-      <example name="believe someone" src="">
-        <text>Но я бы ему не поверила .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">Но</arg>
-          <arg type="ARG0" start="1" end="1">я</arg>
-          <arg type="ARG2" start="3" end="3">ему</arg>
-          <arg type="ARGM-NEG" start="4" end="4">не</arg>
-          <rel relloc="5">поверила</rel>
-        </propbank>
-      </example>
-      <example name="believe in something" src="">
-        <text>Похоже , что даже после того , как судья объявил приговор , осужденные и их адвокаты не сразу смогли поверить в произошедшее .</text>
-        <propbank>
-          <arg type="ARG0" start="12" end="15">осужденные и их адвокаты</arg>
-          <arg type="ARGM-NEG" start="16" end="16">не</arg>
-          <arg type="ARGM-TMP" start="17" end="17">сразу</arg>
-          <rel relloc="19">поверить</rel>
-          <arg type="ARG1" start="20" end="21">в произошедшее</arg>
-        </propbank>
-      </example>
-      <example name="take it on someone's word">
-        <text>Это ооочень длинная история , поверьте на слово .</text>
-        <propbank>
-          <rel relloc="5">поверьте</rel>
-          <arg type="ARGM-MNR" start="6" end="7">на слово</arg>
-        </propbank>
-      </example>
-      <example name="believe in something" src="Б. В. Савинков, «То, чего не было», 1918 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Одно из двух : или мы верим друг другу , или … или … мы способны заподозрить чёрт знает что …</text>
-        <propbank>
-          <arg type="ARG0" start="5" end="5">мы</arg>
-          <rel relloc="6">верим</rel>
-          <arg type="ARG2" start="7" end="8">друг другу</arg>
-        </propbank>
-      </example>
-      <example name="reflexive" src="Н. С. Гумилёв, «Записки кавалериста», 1914–1915 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Мне с трудом верится , чтобы человек , который каждый день обедает и каждую ночь спит , мог вносить что - нибудь в сокровищницу культуры духа .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Мне</arg>
-          <arg type="ARGM-ADV" start="1" end="2">с трудом</arg>
-          <rel relloc="3">верится</rel>
-          <arg type="ARG1" start="5" end="25">чтобы человек , который каждый день обедает и каждую ночь спит , мог вносить что - нибудь в сокровищницу культуры духа</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="поверить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="поверить.01" name="believe">
+            <aliases>
+                <alias pos="j">поверивший</alias>
+                <alias pos="v">верить</alias>
+                <alias pos="j">верящий</alias>
+                <alias pos="j">веривший</alias>
+                <alias pos="v">вериться</alias>
+                <alias pos="v">повериться</alias>
+                <alias pos="j">поверившийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,3,4,5,6</note>
+            <note>Adjusted from English "believe.01"</note>
+            <roles>
+                <role descr="believer" f="pag" n="0"/>
+                <role descr="belief" f="ppt" n="1"/>
+                <role descr="entity believed or trusted" f="ppt" n="2"/>
+            </roles>
+            <example name="believe someone" src="">
+                <text>Но я бы ему не поверила .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Но</arg>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                    <arg type="ARG2" start="3" end="3">ему</arg>
+                    <arg type="ARGM-NEG" start="4" end="4">не</arg>
+                    <rel relloc="5">поверила</rel>
+                </propbank>
+            </example>
+            <example name="believe in something" src="">
+                <text>Похоже , что даже после того , как судья объявил приговор , осужденные и их адвокаты не сразу
+                    смогли поверить в произошедшее .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="12" end="15">осужденные и их адвокаты</arg>
+                    <arg type="ARGM-NEG" start="16" end="16">не</arg>
+                    <arg type="ARGM-TMP" start="17" end="17">сразу</arg>
+                    <rel relloc="19">поверить</rel>
+                    <arg type="ARG1" start="20" end="21">в произошедшее</arg>
+                </propbank>
+            </example>
+            <example name="take it on someone's word">
+                <text>Это ооочень длинная история , поверьте на слово .</text>
+                <propbank>
+                    <rel relloc="5">поверьте</rel>
+                    <arg type="ARGM-MNR" start="6" end="7">на слово</arg>
+                </propbank>
+            </example>
+            <example name="believe in something"
+                     src="Б. В. Савинков, «То, чего не было», 1918 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Одно из двух : или мы верим друг другу , или … или … мы способны заподозрить чёрт знает что …
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="5" end="5">мы</arg>
+                    <rel relloc="6">верим</rel>
+                    <arg type="ARG2" start="7" end="8">друг другу</arg>
+                </propbank>
+            </example>
+            <example name="reflexive"
+                     src="Н. С. Гумилёв, «Записки кавалериста», 1914–1915 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Мне с трудом верится , чтобы человек , который каждый день обедает и каждую ночь спит , мог
+                    вносить что - нибудь в сокровищницу культуры духа .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Мне</arg>
+                    <arg type="ARGM-ADV" start="1" end="2">с трудом</arg>
+                    <rel relloc="3">верится</rel>
+                    <arg type="ARG1" start="5" end="25">чтобы человек , который каждый день обедает и каждую ночь спит ,
+                        мог вносить что - нибудь в сокровищницу культуры духа
+                    </arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

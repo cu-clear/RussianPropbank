@@ -1,166 +1,191 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="терять">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="терять.01" name="lose, not have any longer in possession/sight etc.">
-      <aliases>
-        <alias pos="v">утерять</alias>
-        <alias pos="v">потерять</alias>
-        <alias pos="j">потерявший</alias>
-        <alias pos="j">потерянный</alias>
-        <alias pos="v">потеряться</alias>
-        <alias pos="j">потерявшийся</alias>
-        <alias pos="v">теряться</alias>
-        <alias pos="j">теряющийся</alias>
-        <alias pos="j">терявшийся</alias>
-        <alias pos="v">затеряться</alias>
-        <alias pos="j">затерявшийся</alias>
-        <alias pos="v">затериваться</alias>
-        <alias pos="j">затеривающийся</alias>
-        <alias pos="j">затеривавшийся</alias>
-        <alias pos="v">перетерять</alias>
-        <alias pos="v">растерять</alias>
-        <alias pos="v">растеривать</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 1</note>
-      <note>терять.01 NOTES: Based on lose.02.</note>
-      <roles>
-        <role descr="entity losing sth" f="PAG" n="0"/>
-        <role descr="thing lost" f="PPT" n="1"/>
-        <role descr="benefactive, entity gaining thing lost" f="GOL" n="2"/>
-        <role descr="source of loss" f="DIR" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="lose.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="arg1" src="">
-        <text>вот смысл сказки , худ литературы не улавливает .. вернее теряет его через 3 - 4 предложения .</text>
-        <propbank>
-          <rel relloc="10">теряет</rel>
-          <arg type="ARG1" start="11" end="11">его</arg>
-          <arg type="ARGM-LOC" start="12" end="16">через 3 - 4 предложения</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as passive" src="Russian National Corpus. [Василий Гроссман. Жизнь и судьба, ч. 1 (1960)]">
-        <text>Есть одно ощущение , которое почти целиком теряется участниками боя , ― это ощущение времени .</text>
-        <propbank>
-          <arg type="ARG1" start="4" end="4">которое</arg>
-          <arg type="ARGM-EXT" start="5" end="6">почти целиком</arg>
-          <rel relloc="7">теряется</rel>
-          <arg type="ARG0" start="8" end="9">участниками боя</arg>
-        </propbank>
-      </example>
-      <example name="disappear, be lost from view" src="Russian National Corpus. [А. И. Герцен. Сорока-воровка (1846)]">
-        <text>Да и , как на смех , небо было серо , ветер холоден , даль терялась за болотистыми испарениями , все виды , которыми я восхищался , ехавши сюда , были угрюмы ; оттого ли , что я их видел в обратном порядке , или от чего другого , только они меня не веселили .</text>
-        <propbank>
-          <arg type="ARG1" start="14" end="14">даль</arg>
-          <rel relloc="15">терялась</rel>
-          <arg type="ARGM-LOC" start="16" end="18">за болотистыми испарениями</arg>
-        </propbank>
-      </example>
-      <example name="be lost in a crowd" src="Russian National Corpus. [Майя Кучерская. Современный патерик: чтение для впавших в уныние (2004)]">
-        <text>Батюшки - хорошие - люди было зажались , заприкладывали руки к сердцу , хотели что - то объяснить — их тоже начали обнимать и целовать , и они сразу же затерялись в этой ликующей толпе .</text>
-        <propbank>
-          <arg type="ARG1" start="27" end="27">они</arg>
-          <arg type="ARGM-LOC" start="28" end="29">сразу же</arg>
-          <rel relloc="30">затерялись</rel>
-          <arg type="ARGM-LOC" start="31" end="34">в этой ликующей толпе</arg>
-        </propbank>
-      </example>
-      <example name="figurative; lose one's head" src="Russian National Corpus.">
-        <text>Чтобы не терять голову до прихода врача и не впадать в панику из - за пустяков , достаточно знать о сыпи ( ее видах ) несколько простых вещей .</text>
-        <propbank>
-          <arg type="ARGM-NEG" start="1" end="1">не</arg>
-          <rel relloc="2">терять</rel>
-          <arg type="ARG1" start="3" end="3">голову</arg>
-          <arg type="ARGM-TMP" start="4" end="6">до прихода врача</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="терять.02" name="lose out, suffer">
-      <aliases>
-        <alias pos="v">потерять</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 2,3,4,5,6,7</note>
-      <note>терять.02 NOTES: Based on lose_out.06.</note>
-      <roles>
-        <role descr="entity losing something" f="PAG" n="0"/>
-        <role descr="thing lost" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="lose_out.06" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg2-GOL has no match in Russian frame</note>
-      <example name="lose (out), suffer" src="">
-        <text>САмое грустное , что когда растет доллар , те , кто взял в рублях кредиты тоже теряют - их уровень жизни падает .</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="15" end="15">тоже</arg>
-          <rel relloc="16">теряют</rel>
-        </propbank>
-      </example>
-      <example name="lose good opinion" src="Russian National Corpus [Максим Горький. Жизнь Клима Самгина. Часть 4 (1928-1935)]">
-        <text>Ах , ты не можешь представить себе , как мы теряем во мнении Европы !</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="8" end="8">как</arg>
-          <arg type="ARG0" start="9" end="9">мы</arg>
-          <rel relloc="10">теряем</rel>
-          <arg type="ARG1" start="11" end="13">во мнении Европы</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="теряться">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="теряться.03" name="be confused, baffled, unsure">
-      <aliases>
-        <alias pos="v">потеряться</alias>
-        <alias pos="j">потерявшийся</alias>
-        <alias pos="j">теряющийся</alias>
-        <alias pos="j">терявшийся</alias>
-        <alias pos="v">растеряться</alias>
-        <alias pos="j">растерявшийся</alias>
-        <alias pos="v">растериваться</alias>
-        <alias pos="j">растеривающийся</alias>
-        <alias pos="j">растеривавшийся</alias>
-      </aliases>
-      <note>теряться.01 NOTES: Based on confuse.01.</note>
-      <roles>
-        <role descr="entity experiencing confusion" f="PPT" n="1"/>
-        <role descr="confused about or over what? (first or all things)" f="VSP" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="confuse.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg0-PAG has no match in Russian frame</note>
-      <note>English Arg3-VSP has no match in Russian frame</note>
-      <example name="all args" src="Russian National Corpus. [Людмила Улицкая. Казус Кукоцкого [Путешествие в седьмую сторону света]">
-        <text>Павел Алексеевич терялся перед болезнью своей жены , потому что не понимал .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="1">Павел Алексеевич</arg>
-          <rel relloc="2">терялся</rel>
-          <arg type="ARG2" start="3" end="6">перед болезнью своей жены</arg>
-          <arg type="ARGM-CAU" start="8" end="11">потому что не понимал</arg>
-        </propbank>
-      </example>
-      <example name="arg2" src="Russian National Corpus [Анатолий Рыбаков. Тяжелый песок (1975-1977)]">
-        <text>Она была решительной , категоричной , всеми управляла и командовала , и вот впервые растерялась перед мужчиной видным , необычным , не она командовала им , а он ею , не он подчинялся ей , а она ему .</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="12" end="12">вот</arg>
-          <arg type="ARGM-ADV" start="13" end="13">впервые</arg>
-          <rel relloc="14">растерялась</rel>
-          <arg type="ARG2" start="15" end="19">перед мужчиной видным , необычным</arg>
-        </propbank>
-      </example>
-      <example name="lose count" src="Russian National Corpus. [Дина Рубина. Медная шкатулка (сборник) (2015)]">
-        <text>Скоро я просто теряю счет этим великолепно отрепетированным театральным выходам : широким мерным шагом , по одному , затем опять по двое семинаристы появляются то из левой , то из правой кулисы .</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="0" end="0">Скоро</arg>
-          <arg type="ARG0" start="1" end="1">я</arg>
-          <arg type="ARGM-ADV" start="2" end="2">просто</arg>
-          <rel relloc="3">теряю</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="терять">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="терять.01" name="lose, not have any longer in possession/sight etc.">
+            <aliases>
+                <alias pos="v">утерять</alias>
+                <alias pos="v">потерять</alias>
+                <alias pos="j">потерявший</alias>
+                <alias pos="j">потерянный</alias>
+                <alias pos="v">потеряться</alias>
+                <alias pos="j">потерявшийся</alias>
+                <alias pos="v">теряться</alias>
+                <alias pos="j">теряющийся</alias>
+                <alias pos="j">терявшийся</alias>
+                <alias pos="v">затеряться</alias>
+                <alias pos="j">затерявшийся</alias>
+                <alias pos="v">затериваться</alias>
+                <alias pos="j">затеривающийся</alias>
+                <alias pos="j">затеривавшийся</alias>
+                <alias pos="v">перетерять</alias>
+                <alias pos="v">растерять</alias>
+                <alias pos="v">растеривать</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 1</note>
+            <note>терять.01 NOTES: Based on lose.02.</note>
+            <roles>
+                <role descr="entity losing sth" f="PAG" n="0"/>
+                <role descr="thing lost" f="PPT" n="1"/>
+                <role descr="benefactive, entity gaining thing lost" f="GOL" n="2"/>
+                <role descr="source of loss" f="DIR" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="lose.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg1" src="">
+                <text>вот смысл сказки , худ литературы не улавливает .. вернее теряет его через 3 - 4 предложения .
+                </text>
+                <propbank>
+                    <rel relloc="10">теряет</rel>
+                    <arg type="ARG1" start="11" end="11">его</arg>
+                    <arg type="ARGM-LOC" start="12" end="16">через 3 - 4 предложения</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive"
+                     src="Russian National Corpus. [Василий Гроссман. Жизнь и судьба, ч. 1 (1960)]">
+                <text>Есть одно ощущение , которое почти целиком теряется участниками боя , ― это ощущение времени .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="4" end="4">которое</arg>
+                    <arg type="ARGM-EXT" start="5" end="6">почти целиком</arg>
+                    <rel relloc="7">теряется</rel>
+                    <arg type="ARG0" start="8" end="9">участниками боя</arg>
+                </propbank>
+            </example>
+            <example name="disappear, be lost from view"
+                     src="Russian National Corpus. [А. И. Герцен. Сорока-воровка (1846)]">
+                <text>Да и , как на смех , небо было серо , ветер холоден , даль терялась за болотистыми испарениями ,
+                    все виды , которыми я восхищался , ехавши сюда , были угрюмы ; оттого ли , что я их видел в обратном
+                    порядке , или от чего другого , только они меня не веселили .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="14" end="14">даль</arg>
+                    <rel relloc="15">терялась</rel>
+                    <arg type="ARGM-LOC" start="16" end="18">за болотистыми испарениями</arg>
+                </propbank>
+            </example>
+            <example name="be lost in a crowd"
+                     src="Russian National Corpus. [Майя Кучерская. Современный патерик: чтение для впавших в уныние (2004)]">
+                <text>Батюшки - хорошие - люди было зажались , заприкладывали руки к сердцу , хотели что - то объяснить
+                    — их тоже начали обнимать и целовать , и они сразу же затерялись в этой ликующей толпе .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="27" end="27">они</arg>
+                    <arg type="ARGM-LOC" start="28" end="29">сразу же</arg>
+                    <rel relloc="30">затерялись</rel>
+                    <arg type="ARGM-LOC" start="31" end="34">в этой ликующей толпе</arg>
+                </propbank>
+            </example>
+            <example name="figurative; lose one's head" src="Russian National Corpus.">
+                <text>Чтобы не терять голову до прихода врача и не впадать в панику из - за пустяков , достаточно знать
+                    о сыпи ( ее видах ) несколько простых вещей .
+                </text>
+                <propbank>
+                    <arg type="ARGM-NEG" start="1" end="1">не</arg>
+                    <rel relloc="2">терять</rel>
+                    <arg type="ARG1" start="3" end="3">голову</arg>
+                    <arg type="ARGM-TMP" start="4" end="6">до прихода врача</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="терять.02" name="lose out, suffer">
+            <aliases>
+                <alias pos="v">потерять</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 2,3,4,5,6,7</note>
+            <note>терять.02 NOTES: Based on lose_out.06.</note>
+            <roles>
+                <role descr="entity losing something" f="PAG" n="0"/>
+                <role descr="thing lost" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="lose_out.06" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg2-GOL has no match in Russian frame</note>
+            <example name="lose (out), suffer" src="">
+                <text>САмое грустное , что когда растет доллар , те , кто взял в рублях кредиты тоже теряют - их уровень
+                    жизни падает .
+                </text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="15" end="15">тоже</arg>
+                    <rel relloc="16">теряют</rel>
+                </propbank>
+            </example>
+            <example name="lose good opinion"
+                     src="Russian National Corpus [Максим Горький. Жизнь Клима Самгина. Часть 4 (1928-1935)]">
+                <text>Ах , ты не можешь представить себе , как мы теряем во мнении Европы !</text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="8" end="8">как</arg>
+                    <arg type="ARG0" start="9" end="9">мы</arg>
+                    <rel relloc="10">теряем</rel>
+                    <arg type="ARG1" start="11" end="13">во мнении Европы</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="теряться">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="теряться.03" name="be confused, baffled, unsure">
+            <aliases>
+                <alias pos="v">потеряться</alias>
+                <alias pos="j">потерявшийся</alias>
+                <alias pos="j">теряющийся</alias>
+                <alias pos="j">терявшийся</alias>
+                <alias pos="v">растеряться</alias>
+                <alias pos="j">растерявшийся</alias>
+                <alias pos="v">растериваться</alias>
+                <alias pos="j">растеривающийся</alias>
+                <alias pos="j">растеривавшийся</alias>
+            </aliases>
+            <note>теряться.01 NOTES: Based on confuse.01.</note>
+            <roles>
+                <role descr="entity experiencing confusion" f="PPT" n="1"/>
+                <role descr="confused about or over what? (first or all things)" f="VSP" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="confuse.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg0-PAG has no match in Russian frame</note>
+            <note>English Arg3-VSP has no match in Russian frame</note>
+            <example name="all args"
+                     src="Russian National Corpus. [Людмила Улицкая. Казус Кукоцкого [Путешествие в седьмую сторону света]">
+                <text>Павел Алексеевич терялся перед болезнью своей жены , потому что не понимал .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="1">Павел Алексеевич</arg>
+                    <rel relloc="2">терялся</rel>
+                    <arg type="ARG2" start="3" end="6">перед болезнью своей жены</arg>
+                    <arg type="ARGM-CAU" start="8" end="11">потому что не понимал</arg>
+                </propbank>
+            </example>
+            <example name="arg2" src="Russian National Corpus [Анатолий Рыбаков. Тяжелый песок (1975-1977)]">
+                <text>Она была решительной , категоричной , всеми управляла и командовала , и вот впервые растерялась
+                    перед мужчиной видным , необычным , не она командовала им , а он ею , не он подчинялся ей , а она
+                    ему .
+                </text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="12" end="12">вот</arg>
+                    <arg type="ARGM-ADV" start="13" end="13">впервые</arg>
+                    <rel relloc="14">растерялась</rel>
+                    <arg type="ARG2" start="15" end="19">перед мужчиной видным , необычным</arg>
+                </propbank>
+            </example>
+            <example name="lose count" src="Russian National Corpus. [Дина Рубина. Медная шкатулка (сборник) (2015)]">
+                <text>Скоро я просто теряю счет этим великолепно отрепетированным театральным выходам : широким мерным
+                    шагом , по одному , затем опять по двое семинаристы появляются то из левой , то из правой кулисы .
+                </text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="0">Скоро</arg>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                    <arg type="ARGM-ADV" start="2" end="2">просто</arg>
+                    <rel relloc="3">теряю</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

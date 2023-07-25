@@ -1,78 +1,84 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="произойти">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="произойти.01" name="happen">
-      <aliases>
-        <alias pos="j">произошедший</alias>
-        <alias pos="j">происшедший</alias>
-        <alias pos="v">происходить</alias>
-        <alias pos="j">происходящий</alias>
-        <alias pos="j">происходивший</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 2</note>
-      <note>произойти.01 NOTES: Based on happen.01.</note>
-      <roles>
-        <role descr="event" f="PPT" n="1"/>
-        <role descr="benefactive" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="happen.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="happen, occur" src="">
-        <text>Произошла авария</text>
-        <propbank>
-          <rel relloc="0">Произошла</rel>
-          <arg type="ARG1" start="1" end="1">авария</arg>
-        </propbank>
-      </example>
-      <example name="predicate adjective, occur" src="Russian National Corpus">
-        <text>16октября ФА объявила , что будет расследовать инцидент , происшедший между Эвра иСуаресом .</text>
-        <propbank>
-          <arg type="ARG1" start="7" end="7">инцидент</arg>
-          <rel relloc="9">происшедший</rel>
-          <arg type="ARG2" start="10" end="12">между Эвра иСуаресом</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="произойти.02" name="originate">
-      <aliases>
-        <alias pos="j">произошедший</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1</note>
-      <note>произойти.02 NOTES: Based on descend.01.</note>
-      <roles>
-        <role descr="entity descended" f="PPT" n="1"/>
-        <role descr="source, ancestor" f="DIR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="descend.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="descend, originate" src="">
-        <text>Мужчины произошли от других обезьян .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Мужчины</arg>
-          <rel relloc="1">произошли</rel>
-          <arg type="ARG2" start="2" end="4">от других обезьян</arg>
-        </propbank>
-      </example>
-      <example name="originate, imperfective" src="Л. Н. Толстой, «Богу или Маммоне?», 1896 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>То же , что веселье , которое происходит от вина , не есть настоящее и не радостное веселье , не нужно и доказывать .</text>
-        <propbank>
-          <arg type="ARG1" start="6" end="6">которое</arg>
-          <rel relloc="7">происходит</rel>
-          <arg type="ARG2" start="8" end="9">от вина</arg>
-        </propbank>
-      </example>
-      <example name="descend, birthed" src="Russian National Corpus">
-        <text>С тех пор , как мне впервые улыбнулся произошедший от меня младенец , я знаю , что любить можно иное и иначе .</text>
-        <propbank>
-          <rel relloc="8">произошедший</rel>
-          <arg type="ARG2" start="9" end="10">от меня</arg>
-          <arg type="ARG1" start="11" end="11">младенец</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="произойти">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="произойти.01" name="happen">
+            <aliases>
+                <alias pos="j">произошедший</alias>
+                <alias pos="j">происшедший</alias>
+                <alias pos="v">происходить</alias>
+                <alias pos="j">происходящий</alias>
+                <alias pos="j">происходивший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 2</note>
+            <note>произойти.01 NOTES: Based on happen.01.</note>
+            <roles>
+                <role descr="event" f="PPT" n="1"/>
+                <role descr="benefactive" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="happen.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="happen, occur" src="">
+                <text>Произошла авария</text>
+                <propbank>
+                    <rel relloc="0">Произошла</rel>
+                    <arg type="ARG1" start="1" end="1">авария</arg>
+                </propbank>
+            </example>
+            <example name="predicate adjective, occur" src="Russian National Corpus">
+                <text>16октября ФА объявила , что будет расследовать инцидент , происшедший между Эвра иСуаресом .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="7" end="7">инцидент</arg>
+                    <rel relloc="9">происшедший</rel>
+                    <arg type="ARG2" start="10" end="12">между Эвра иСуаресом</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="произойти.02" name="originate">
+            <aliases>
+                <alias pos="j">произошедший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1</note>
+            <note>произойти.02 NOTES: Based on descend.01.</note>
+            <roles>
+                <role descr="entity descended" f="PPT" n="1"/>
+                <role descr="source, ancestor" f="DIR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="descend.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="descend, originate" src="">
+                <text>Мужчины произошли от других обезьян .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Мужчины</arg>
+                    <rel relloc="1">произошли</rel>
+                    <arg type="ARG2" start="2" end="4">от других обезьян</arg>
+                </propbank>
+            </example>
+            <example name="originate, imperfective"
+                     src="Л. Н. Толстой, «Богу или Маммоне?», 1896 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>То же , что веселье , которое происходит от вина , не есть настоящее и не радостное веселье , не
+                    нужно и доказывать .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="6" end="6">которое</arg>
+                    <rel relloc="7">происходит</rel>
+                    <arg type="ARG2" start="8" end="9">от вина</arg>
+                </propbank>
+            </example>
+            <example name="descend, birthed" src="Russian National Corpus">
+                <text>С тех пор , как мне впервые улыбнулся произошедший от меня младенец , я знаю , что любить можно
+                    иное и иначе .
+                </text>
+                <propbank>
+                    <rel relloc="8">произошедший</rel>
+                    <arg type="ARG2" start="9" end="10">от меня</arg>
+                    <arg type="ARG1" start="11" end="11">младенец</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

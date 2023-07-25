@@ -1,89 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="переполнить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="переполнить.01" name="overfill">
-      <aliases>
-        <alias pos="j">переполнен</alias>
-        <alias pos="j">переполненный</alias>
-        <alias pos="j">переполнивший</alias>
-        <alias pos="v">переполнять</alias>
-        <alias pos="j">переполняющий</alias>
-        <alias pos="j">переполнявший</alias>
-        <alias pos="j">переполняемый</alias>
-        <alias pos="v">переполниться</alias>
-        <alias pos="j">переполнившийся</alias>
-        <alias pos="v">переполняться</alias>
-        <alias pos="j">переполняющийся</alias>
-        <alias pos="j">переполнявшийся</alias>
-      </aliases>
-      <note>переполнить.01 NOTES: Roleset based on English verb frame fill.01</note>
-      <roles>
-        <role descr="agent, causer" f="PAG" n="0"/>
-        <role descr="container which has been filled beyond capacity" f="GOL" n="1"/>
-        <role descr="substance" f="PPT" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="fill.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="arg 0 and 1, inanimate causer" src="">
-        <text>Стекающая с речных водосборов вода переполнила русла основных рек .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="4">Стекающая с речных водосборов вода</arg>
-          <rel relloc="5">переполнила</rel>
-          <arg type="ARG1" start="6" end="8">русла основных рек</arg>
-        </propbank>
-      </example>
-      <example name="passive participle, arg 1 and 2" src="">
-        <text>А тут случайно данный сайт , который как обычно переполнен скепсисом и негативом .</text>
-        <propbank>
-          <arg type="ARG1" start="?" end="?">*PRO*</arg>
-          <arg type="ARGM-ADV" start="7" end="8">как обычно</arg>
-          <rel relloc="9">переполнен</rel>
-          <arg type="ARG2" start="10" end="12">скепсисом и негативом</arg>
-        </propbank>
-      </example>
-      <example name="active participle, arg 1 only" src="">
-        <text>Эвакуированные после урагана Катрина , переполнившие регион , усложняли эвакуацию во время урагана Рита , так же как и массовое бегство из Хьюстона окрестностей .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <rel relloc="5">переполнившие</rel>
-          <arg type="ARG1" start="6" end="6">регион</arg>
-        </propbank>
-      </example>
-      <example name="adjective form" src="">
-        <text>Уезжающие на войну солдаты и офицеры в переполненных вагонах , как всходящие на крест , и равные , и вперемешку на ступеньках забитых вагонов ...</text>
-        <propbank>
-          <rel relloc="7">переполненных</rel>
-          <arg type="ARGM-COM" start="8" end="8">вагонах</arg>
-        </propbank>
-      </example>
-      <example name="passive participle, args 1 and 2" src="web">
-        <text>Больницы переполнены ранеными .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Больницы</arg>
-          <rel relloc="1">переполнены</rel>
-          <arg type="ARG2" start="2" end="2">ранеными</arg>
-        </propbank>
-      </example>
-      <example name="passive participle with auxiliary, arg 1 only" src="">
-        <text>Если в 2002 году оно было ПЕРЕПОЛНЕНО , то в 2011 чуть не ВЫСОХЛО полностью , что в т.ч . нарушив водоснабжение Новороссийска .</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="0" end="0">Если</arg>
-          <arg type="ARGM-TMP" start="1" end="3">в 2002 году</arg>
-          <arg type="ARG1" start="4" end="4">оно</arg>
-          <rel relloc="6">ПЕРЕПОЛНЕНО</rel>
-        </propbank>
-      </example>
-      <example name="reflexive perfective" src="https://dic.academic.ru/dic.nsf/ogegova/156546">
-        <text>Сердце переполнилось радостью</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Сердце</arg>
-          <rel relloc="1">переполнилось</rel>
-          <arg type="ARG2" start="2" end="2">радостью</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="переполнить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="переполнить.01" name="overfill">
+            <aliases>
+                <alias pos="j">переполнен</alias>
+                <alias pos="j">переполненный</alias>
+                <alias pos="j">переполнивший</alias>
+                <alias pos="v">переполнять</alias>
+                <alias pos="j">переполняющий</alias>
+                <alias pos="j">переполнявший</alias>
+                <alias pos="j">переполняемый</alias>
+                <alias pos="v">переполниться</alias>
+                <alias pos="j">переполнившийся</alias>
+                <alias pos="v">переполняться</alias>
+                <alias pos="j">переполняющийся</alias>
+                <alias pos="j">переполнявшийся</alias>
+            </aliases>
+            <note>переполнить.01 NOTES: Roleset based on English verb frame fill.01</note>
+            <roles>
+                <role descr="agent, causer" f="PAG" n="0"/>
+                <role descr="container which has been filled beyond capacity" f="GOL" n="1"/>
+                <role descr="substance" f="PPT" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="fill.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg 0 and 1, inanimate causer" src="">
+                <text>Стекающая с речных водосборов вода переполнила русла основных рек .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="4">Стекающая с речных водосборов вода</arg>
+                    <rel relloc="5">переполнила</rel>
+                    <arg type="ARG1" start="6" end="8">русла основных рек</arg>
+                </propbank>
+            </example>
+            <example name="passive participle, arg 1 and 2" src="">
+                <text>А тут случайно данный сайт , который как обычно переполнен скепсисом и негативом .</text>
+                <propbank>
+                    <arg type="ARG1" start="?" end="?">*PRO*</arg>
+                    <arg type="ARGM-ADV" start="7" end="8">как обычно</arg>
+                    <rel relloc="9">переполнен</rel>
+                    <arg type="ARG2" start="10" end="12">скепсисом и негативом</arg>
+                </propbank>
+            </example>
+            <example name="active participle, arg 1 only" src="">
+                <text>Эвакуированные после урагана Катрина , переполнившие регион , усложняли эвакуацию во время урагана
+                    Рита , так же как и массовое бегство из Хьюстона окрестностей .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <rel relloc="5">переполнившие</rel>
+                    <arg type="ARG1" start="6" end="6">регион</arg>
+                </propbank>
+            </example>
+            <example name="adjective form" src="">
+                <text>Уезжающие на войну солдаты и офицеры в переполненных вагонах , как всходящие на крест , и равные ,
+                    и вперемешку на ступеньках забитых вагонов ...
+                </text>
+                <propbank>
+                    <rel relloc="7">переполненных</rel>
+                    <arg type="ARGM-COM" start="8" end="8">вагонах</arg>
+                </propbank>
+            </example>
+            <example name="passive participle, args 1 and 2" src="web">
+                <text>Больницы переполнены ранеными .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Больницы</arg>
+                    <rel relloc="1">переполнены</rel>
+                    <arg type="ARG2" start="2" end="2">ранеными</arg>
+                </propbank>
+            </example>
+            <example name="passive participle with auxiliary, arg 1 only" src="">
+                <text>Если в 2002 году оно было ПЕРЕПОЛНЕНО , то в 2011 чуть не ВЫСОХЛО полностью , что в т.ч . нарушив
+                    водоснабжение Новороссийска .
+                </text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="0">Если</arg>
+                    <arg type="ARGM-TMP" start="1" end="3">в 2002 году</arg>
+                    <arg type="ARG1" start="4" end="4">оно</arg>
+                    <rel relloc="6">ПЕРЕПОЛНЕНО</rel>
+                </propbank>
+            </example>
+            <example name="reflexive perfective" src="https://dic.academic.ru/dic.nsf/ogegova/156546">
+                <text>Сердце переполнилось радостью</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Сердце</arg>
+                    <rel relloc="1">переполнилось</rel>
+                    <arg type="ARG2" start="2" end="2">радостью</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

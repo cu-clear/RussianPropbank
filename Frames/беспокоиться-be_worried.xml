@@ -1,61 +1,64 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="беспокоиться">
-    <roleset id="беспокоиться.01" name="worry, be worried or concerned">
-      <aliases>
-        <alias pos="v">беспокоиться</alias>
-        <alias pos="v">забеспокоиться</alias>
-        <alias pos="j">беспокоящийся</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English worry.02</note>
-      <roles>
-        <role descr="Worrier" f="PAG" n="0" />
-        <role descr="Topic of Worry" f="PPT" n="1" />
-	    </roles>
-      <example name="Arg0 and Arg1" src="_">
-        <text>Я беспокоюсь твоим поведением .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="1">беспокоюсь</rel>
-	        <arg type="ARG1" start="2" end="3">твоим поведением</arg>
-        </propbank>
-      </example>
-      <example name="Arg0 only" src="RNC, А. И. Красницкий. Царица-полячка (1902)">
-        <text>Она забеспокоилась , зашевелилась и даже привстала со своего места .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Она</arg>
-          <rel relloc="1">забеспокоилась</rel>
-        </propbank>
-      </example>
-	  </roleset>
-    <roleset id="беспокоиться.02" name="concern yourself with, trouble yourslef with">
-      <aliases>
-        <alias pos="v">беспокоиться</alias>
-        <alias pos="v">побеспокоиться</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English concern.02</note>
-      <roles>
-        <role descr="Entity dealing with something" f="PAG" n="0" />
-        <role descr="Thing dealt with" f="PPT" n="1" />
-	    </roles>
-      <example name="Arg0 and Arg1" src="_">
-        <text>Я побеспокоюсь о твоей собаки .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="1">побеспокоюсь</rel>
-	        <arg type="ARG1" start="2" end="4">о твоей собаки</arg>
-        </propbank>
-      </example>
-      <example name="Arg0 and Arg1" src="RNC, В. Лихоносов. Ненаписанные воспоминания. Наш маленький Париж. Ч. 1-2 (1983)">
-        <text>Лука Костогрыз побеспокоился о внуке : отрезал самый лучший кусок баранины , да с полпуда завязала бабка в тряпицу сала .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="1">Лука Костогрыз</arg>
-          <rel relloc="2">побеспокоился</rel>
-          <arg type="ARG1" start="3" end="4">о внуке</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="беспокоиться">
+        <roleset id="беспокоиться.01" name="worry, be worried or concerned">
+            <aliases>
+                <alias pos="v">беспокоиться</alias>
+                <alias pos="v">забеспокоиться</alias>
+                <alias pos="j">беспокоящийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English worry.02</note>
+            <roles>
+                <role descr="Worrier" f="PAG" n="0"/>
+                <role descr="Topic of Worry" f="PPT" n="1"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Я беспокоюсь твоим поведением .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">беспокоюсь</rel>
+                    <arg type="ARG1" start="2" end="3">твоим поведением</arg>
+                </propbank>
+            </example>
+            <example name="Arg0 only" src="RNC, А. И. Красницкий. Царица-полячка (1902)">
+                <text>Она забеспокоилась , зашевелилась и даже привстала со своего места .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Она</arg>
+                    <rel relloc="1">забеспокоилась</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="беспокоиться.02" name="concern yourself with, trouble yourslef with">
+            <aliases>
+                <alias pos="v">беспокоиться</alias>
+                <alias pos="v">побеспокоиться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English concern.02</note>
+            <roles>
+                <role descr="Entity dealing with something" f="PAG" n="0"/>
+                <role descr="Thing dealt with" f="PPT" n="1"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Я побеспокоюсь о твоей собаки .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">побеспокоюсь</rel>
+                    <arg type="ARG1" start="2" end="4">о твоей собаки</arg>
+                </propbank>
+            </example>
+            <example name="Arg0 and Arg1"
+                     src="RNC, В. Лихоносов. Ненаписанные воспоминания. Наш маленький Париж. Ч. 1-2 (1983)">
+                <text>Лука Костогрыз побеспокоился о внуке : отрезал самый лучший кусок баранины , да с полпуда завязала
+                    бабка в тряпицу сала .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Лука Костогрыз</arg>
+                    <rel relloc="2">побеспокоился</rel>
+                    <arg type="ARG1" start="3" end="4">о внуке</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

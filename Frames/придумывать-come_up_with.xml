@@ -1,27 +1,27 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="придумывать">
-    <roleset id="придумывать.01" name="Come up with an idea, invent">
-      <aliases>
-        <alias pos="v">придумывать</alias>
-        <alias pos="v">придумать</alias>
-        <alias pos="j">придумывавший</alias>
-        <alias pos="j">придуманный</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English invent.01</note>
-      <roles>
-        <role descr="Agent" f="PAG" n="0"/>
-        <role descr="Idea or thing invented" f="PPT" n="1"/>
-	    </roles>
-      <example name="Arg0 and Arg1" src="_">
-        <text>Ваня придумал новую игру .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Ваня</arg>
-          <rel relloc="1">придумал</rel>
-	        <arg type="ARG1" start="2" end="3">новую игру</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="придумывать">
+        <roleset id="придумывать.01" name="Come up with an idea, invent">
+            <aliases>
+                <alias pos="v">придумывать</alias>
+                <alias pos="v">придумать</alias>
+                <alias pos="j">придумывавший</alias>
+                <alias pos="j">придуманный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English invent.01</note>
+            <roles>
+                <role descr="Agent" f="PAG" n="0"/>
+                <role descr="Idea or thing invented" f="PPT" n="1"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Ваня придумал новую игру .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Ваня</arg>
+                    <rel relloc="1">придумал</rel>
+                    <arg type="ARG1" start="2" end="3">новую игру</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

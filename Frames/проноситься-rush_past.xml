@@ -1,37 +1,37 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Проноситься">
-    <roleset id="проноситься.01" name="Rush past/by, fly or run by">
-      <aliases>
-        <alias pos="v">проноситься</alias>
-        <alias pos="v">пронестись</alias>
-        <alias pos="j">проносящийся</alias>
-        <alias pos="j">пронесясь</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English rush.01</note>
-      <roles>
-        <role descr="Entity in Motion" f="PAG" n="0"/>
-        <role descr="Thing being rushed past" f="PPT" n="1"/>
-        <role descr="Path or general location" f="LOC" n="2"/>
-	    </roles>
-      <example name="Arg0 and Arg1" src="RNC, Владимир Березин. Свидетель // «Знамя», 1998">
-        <text>Я шел по шоссе на Феодосию , а мимо меня проносились первые утренние машины .</text>
-        <propbank>
-          <arg type="ARG1" start="8" end="9">мимо меня</arg>
-          <rel relloc="10">проносились</rel>
-	        <arg type="ARG0" start="11" end="13">первые утренние машины</arg>
-        </propbank>
-      </example>
-      <example name="Arg0, Arg1, and Arg2" src="RNC, И. Ф. Стаднюк. Максим Перепелица (1956)">
-        <text>Дед , как молодой козел , пронесся по тропинке мимо липы .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Дед</arg>
-          <rel relloc="6">пронесся</rel>
-	        <arg type="ARG2" start="7" end="8">по тропинке</arg>
-	        <arg type="ARG1" start="9" end="10">мимо липы</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="проноситься">
+        <roleset id="проноситься.01" name="Rush past/by, fly or run by">
+            <aliases>
+                <alias pos="v">проноситься</alias>
+                <alias pos="v">пронестись</alias>
+                <alias pos="j">проносящийся</alias>
+                <alias pos="j">пронесясь</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English rush.01</note>
+            <roles>
+                <role descr="Entity in Motion" f="PAG" n="0"/>
+                <role descr="Thing being rushed past" f="PPT" n="1"/>
+                <role descr="Path or general location" f="LOC" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, Владимир Березин. Свидетель // «Знамя», 1998">
+                <text>Я шел по шоссе на Феодосию , а мимо меня проносились первые утренние машины .</text>
+                <propbank>
+                    <arg type="ARG1" start="8" end="9">мимо меня</arg>
+                    <rel relloc="10">проносились</rel>
+                    <arg type="ARG0" start="11" end="13">первые утренние машины</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, И. Ф. Стаднюк. Максим Перепелица (1956)">
+                <text>Дед , как молодой козел , пронесся по тропинке мимо липы .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Дед</arg>
+                    <rel relloc="6">пронесся</rel>
+                    <arg type="ARG2" start="7" end="8">по тропинке</arg>
+                    <arg type="ARG1" start="9" end="10">мимо липы</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

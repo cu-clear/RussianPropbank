@@ -1,54 +1,54 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Возрастать">
-    <roleset id="возрастать.01" name="Grow, increase, rise">
-      <aliases>
-        <alias pos="v">возрастать</alias>
-        <alias pos="v">возрасти</alias>
-        <alias pos="j">возрастающий</alias>
-        <alias pos="j">возраставший</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English grow.01</note>
-      <roles>
-        <role descr="Agent, causer of growth, very rare in Russian" f="PAG" n="0"/>
-        <role descr="Thing Grown" f="PPT" n="1"/>
-        <role descr="Amount of growth, EXT or MNR" f="EXT" n="2"/>
-        <role descr="Start point" f="DIR" n="3"/>
-        <role descr="end point, end state of arg1" f="PRD" n="4"/>
-	    </roles>
-      <example name="Arg1 only, notice how although Arg4 is present semantically, it is not really an arg of the predicate" src="RNC, А. Н. Апухтин. Дневник Павлика Дольского (1891)">
-        <text>Мое радостное настроение возрастало с каждым днем и дошло до апогея , когда меня привезли в Васильевку .</text>
-        <propbank>
-          <arg type="ARG1" start="?" end="?">Мое радостное настроение</arg>
-          <rel relloc="?">возрастало</rel>
-        </propbank>
-      </example>
-      <example name="Arg1 with actual Arg4" src="RNC, Иван Егоров, Виталий Михайлов. Откупиться от армии за 600 долларов // «Газета», 2003">
-        <text>При варианте «Единства» эта цифра возрастет до 50 ― 80 % .</text>
-        <propbank>
-          <arg type="ARG1" start="?" end="?">эта цифра</arg>
-          <rel relloc="?">возрастет</rel>
-	        <arg type="ARG4" start="?" end="?">до 50 ― 80 %</arg>
-        </propbank>
-      </example>
-      <example name="Arg1 and Arg2" src="RNC, В. П. Максаковский. Географическая картина мира. Книга I. Общая характеристика мира (2003)">
-        <text>За последние полвека их количество во всем мире возросло в 5 раз , а объем увеличился в 12 раз .</text>
-        <propbank>
-          <arg type="ARG1" start="?" end="?">их количество</arg>
-          <rel relloc="?">возросло</rel>
-	        <arg type="ARG2" start="?" end="?">в 5 раз</arg>
-        </propbank>
-      </example>
-      <example name="Arg1, Arg3, and Arg4" src="RNC, Денежные переводы мигрантов -- фактор инновационного развития мировой финансовой инфраструктуры // «Вопросы статистики», 2004">
-        <text>За этот же период приносимый ими доход возрастет с 40 млн . долларов до 2 , 34 млрд . долларов ( 54 ) .</text>
-        <propbank>
-          <arg type="ARG1" start="?" end="?">приносимый ими доход</arg>
-          <rel relloc="?">возрастет</rel>
-	        <arg type="ARG3" start="?" end="?">с 40 млн . долларов</arg>
-	        <arg type="ARG4" start="?" end="?">до 2 , 34 млрд . долларов</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="возрастать">
+        <roleset id="возрастать.01" name="Grow, increase, rise">
+            <aliases>
+                <alias pos="v">возрастать</alias>
+                <alias pos="v">возрасти</alias>
+                <alias pos="j">возрастающий</alias>
+                <alias pos="j">возраставший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English grow.01</note>
+            <roles>
+                <role descr="Agent, causer of growth, very rare in Russian" f="PAG" n="0"/>
+                <role descr="Thing Grown" f="PPT" n="1"/>
+                <role descr="Amount of growth, EXT or MNR" f="EXT" n="2"/>
+                <role descr="Start point" f="DIR" n="3"/>
+                <role descr="end point, end state of arg1" f="PRD" n="4"/>
+            </roles>
+            <example name="Arg1 only, notice how although Arg4 is present semantically, it is not really an arg of the predicate" src="RNC, А. Н. Апухтин. Дневник Павлика Дольского (1891)">
+                <text>Мое радостное настроение возрастало с каждым днем и дошло до апогея , когда меня привезли в Васильевку .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="2">Мое радостное настроение</arg>
+                    <rel relloc="3">возрастало</rel>
+                </propbank>
+            </example>
+            <example name="Arg1 with actual Arg4" src="RNC, Иван Егоров, Виталий Михайлов. Откупиться от армии за 600 долларов // «Газета», 2003">
+                <text>При варианте «Единства» эта цифра возрастет до 50 ― 80 % .</text>
+                <propbank>
+                    <arg type="ARG1" start="3" end="4">эта цифра</arg>
+                    <rel relloc="5">возрастет</rel>
+                    <arg type="ARG4" start="6" end="10">до 50 ― 80 %</arg>
+                </propbank>
+            </example>
+            <example name="Arg1 and Arg2" src="RNC, В. П. Максаковский. Географическая картина мира. Книга I. Общая характеристика мира (2003)">
+                <text>За последние полвека их количество во всем мире возросло в 5 раз , а объем увеличился в 12 раз .</text>
+                <propbank>
+                    <arg type="ARG1" start="3" end="4">их количество</arg>
+                    <rel relloc="8">возросло</rel>
+                    <arg type="ARG2" start="9" end="11">в 5 раз</arg>
+                </propbank>
+            </example>
+            <example name="Arg1, Arg3, and Arg4" src="RNC, Денежные переводы мигрантов -- фактор инновационного развития мировой финансовой инфраструктуры // «Вопросы статистики», 2004">
+                <text>За этот же период приносимый ими доход возрастет с 40 млн . долларов до 2 , 34 млрд . долларов ( 54 ) .</text>
+                <propbank>
+                    <arg type="ARG1" start="4" end="6">приносимый ими доход</arg>
+                    <rel relloc="7">возрастет</rel>
+                    <arg type="ARG3" start="8" end="12">с 40 млн . долларов</arg>
+                    <arg type="ARG4" start="13" end="19">до 2 , 34 млрд . долларов</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

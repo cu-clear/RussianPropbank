@@ -1,92 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="чувствовать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="чувствовать.01" name="feel">
-      <aliases>
-        <alias pos="j">чувствующий</alias>
-        <alias pos="j">чувствовавший</alias>
-        <alias pos="j">чувствуемый</alias>
-        <alias pos="j">чувствованный</alias>
-        <alias pos="v">почувствовать</alias>
-        <alias pos="j">почувствовавший</alias>
-        <alias pos="j">почувствованный</alias>
-        <alias pos="j">чувствующийся</alias>
-        <alias pos="j">чувствовавшийся</alias>
-        <alias pos="v">почувствоваться</alias>
-        <alias pos="j">почувствовавшийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2,3,4,5</note>
-      <note>чувствовать.01 NOTES: Based on feel.02.</note>
-      <roles>
-        <role descr="feeler, person experiencing emotion or sensation" f="PPT" n="0"/>
-        <role descr="reflexive object, or emotion or sensation" f="GOL" n="1"/>
-        <role descr="conduit of the feeling" f="SRC" n="2"/>
-        <role descr="attribute of emotion or sensation (if different from arg1)" f="PRD" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="feel.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="feel bad, reflexive arg1" src="">
-        <text>Я плохо себя чувствую .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <arg type="ARG3" start="1" end="1">плохо</arg>
-          <arg type="ARG1" start="2" end="2">себя</arg>
-          <rel relloc="3">чувствую</rel>
-        </propbank>
-      </example>
-      <example name="emotion/sensationa arg1" src="">
-        <text>Досаду и отчаяние чувствовал .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">PRO</arg>
-          <arg type="ARG1" start="0" end="2">Досаду и отчаяние</arg>
-          <rel relloc="3">чувствовал</rel>
-        </propbank>
-      </example>
-      <example name="non-reflexive animate arg1" src="">
-        <text>Я просто чувствую партнершу как себя .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <arg type="ARGM-ADV" start="1" end="1">просто</arg>
-          <rel relloc="2">чувствую</rel>
-          <arg type="ARG1" start="3" end="3">партнершу</arg>
-        </propbank>
-      </example>
-      <example name="arg2" src="">
-        <text>Я даже по себе чувствую , потому как внутри всегда сидят угрызения совести , которые после такой возни перевоплощаются в удовлетворение</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <arg type="ARGM-ADV" start="1" end="1">даже</arg>
-          <arg type="ARG2" start="2" end="3">по себе</arg>
-          <rel relloc="4">чувствую</rel>
-        </propbank>
-      </example>
-      <example name="physical sensation arg1" src="">
-        <text>З.Ы. 3 - х бальное землетрясения не чувствовал</text>
-        <propbank>
-          <arg type="ARG1" start="1" end="5">3 - х бальное землетрясения</arg>
-          <arg type="ARGM-NEG" start="6" end="6">не</arg>
-          <rel relloc="7">чувствовал</rel>
-        </propbank>
-      </example>
-      <example name="make yourself (at home, like a queen)" src="">
-        <text>Не стесняйся , чувствуй себя королевой : заводи себе с десяток фаворитов и периодически давай чуть больше привилегий кому - то из них .</text>
-        <propbank>
-          <rel relloc="3">чувствуй</rel>
-          <arg type="ARG1" start="4" end="4">себя</arg>
-          <arg type="ARG3" start="5" end="5">королевой</arg>
-        </propbank>
-      </example>
-      <example name="reflexive, sensing that" src="">
-        <text>Мне чувствуется не верят .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Мне</arg>
-          <rel relloc="1">чувствуется</rel>
-          <arg type="ARG1" start="2" end="3">не верят</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="чувствовать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="чувствовать.01" name="feel">
+            <aliases>
+                <alias pos="j">чувствующий</alias>
+                <alias pos="j">чувствовавший</alias>
+                <alias pos="j">чувствуемый</alias>
+                <alias pos="j">чувствованный</alias>
+                <alias pos="v">почувствовать</alias>
+                <alias pos="j">почувствовавший</alias>
+                <alias pos="j">почувствованный</alias>
+                <alias pos="j">чувствующийся</alias>
+                <alias pos="j">чувствовавшийся</alias>
+                <alias pos="v">почувствоваться</alias>
+                <alias pos="j">почувствовавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,3,4,5</note>
+            <note>чувствовать.01 NOTES: Based on feel.02.</note>
+            <roles>
+                <role descr="feeler, person experiencing emotion or sensation" f="PPT" n="0"/>
+                <role descr="reflexive object, or emotion or sensation" f="GOL" n="1"/>
+                <role descr="conduit of the feeling" f="SRC" n="2"/>
+                <role descr="attribute of emotion or sensation (if different from arg1)" f="PRD" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="feel.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="feel bad, reflexive arg1" src="">
+                <text>Я плохо себя чувствую .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARG3" start="1" end="1">плохо</arg>
+                    <arg type="ARG1" start="2" end="2">себя</arg>
+                    <rel relloc="3">чувствую</rel>
+                </propbank>
+            </example>
+            <example name="emotion/sensationa arg1" src="">
+                <text>Досаду и отчаяние чувствовал .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">PRO</arg>
+                    <arg type="ARG1" start="0" end="2">Досаду и отчаяние</arg>
+                    <rel relloc="3">чувствовал</rel>
+                </propbank>
+            </example>
+            <example name="non-reflexive animate arg1" src="">
+                <text>Я просто чувствую партнершу как себя .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARGM-ADV" start="1" end="1">просто</arg>
+                    <rel relloc="2">чувствую</rel>
+                    <arg type="ARG1" start="3" end="3">партнершу</arg>
+                </propbank>
+            </example>
+            <example name="arg2" src="">
+                <text>Я даже по себе чувствую , потому как внутри всегда сидят угрызения совести , которые после такой
+                    возни перевоплощаются в удовлетворение
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARGM-ADV" start="1" end="1">даже</arg>
+                    <arg type="ARG2" start="2" end="3">по себе</arg>
+                    <rel relloc="4">чувствую</rel>
+                </propbank>
+            </example>
+            <example name="physical sensation arg1" src="">
+                <text>З.Ы. 3 - х бальное землетрясения не чувствовал</text>
+                <propbank>
+                    <arg type="ARG1" start="1" end="5">3 - х бальное землетрясения</arg>
+                    <arg type="ARGM-NEG" start="6" end="6">не</arg>
+                    <rel relloc="7">чувствовал</rel>
+                </propbank>
+            </example>
+            <example name="make yourself (at home, like a queen)" src="">
+                <text>Не стесняйся , чувствуй себя королевой : заводи себе с десяток фаворитов и периодически давай чуть
+                    больше привилегий кому - то из них .
+                </text>
+                <propbank>
+                    <rel relloc="3">чувствуй</rel>
+                    <arg type="ARG1" start="4" end="4">себя</arg>
+                    <arg type="ARG3" start="5" end="5">королевой</arg>
+                </propbank>
+            </example>
+            <example name="reflexive, sensing that" src="">
+                <text>Мне чувствуется не верят .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Мне</arg>
+                    <rel relloc="1">чувствуется</rel>
+                    <arg type="ARG1" start="2" end="3">не верят</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

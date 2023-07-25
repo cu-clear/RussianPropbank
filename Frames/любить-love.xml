@@ -1,163 +1,177 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="любить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="любить.01" name="have affection, prefer">
-      <aliases>
-        <alias pos="v">любив</alias>
-        <alias pos="j">любящий</alias>
-        <alias pos="j">любивший</alias>
-        <alias pos="v">любивши</alias>
-        <alias pos="v">любя</alias>
-        <alias pos="j">любимый</alias>
-        <alias pos="j">любленный</alias>
-        <alias pos="v">полюбить</alias>
-        <alias pos="j">полюбивший</alias>
-        <alias pos="j">полюбленный</alias>
-        <alias pos="v">полюбивши</alias>
-        <alias pos="v">полюбив</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 2,3,4</note>
-      <note>любить.01 NOTES: Based on "love.01"</note>
-      <roles>
-        <role descr="lover" f="PAG" n="0">
-		</role>
-        <role descr="loved" f="PPT" n="1">
-		</role>
-      </roles>
-      <lexlinks>
-        <lexlink class="love.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="active transitive" src="">
-        <text>Я вообще люблю воду ту , которая без вкуса вообще , ну , или где - то рядом .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <arg type="ARGM-ADV" start="1" end="1">вообще</arg>
-          <rel relloc="2">люблю</rel>
-          <arg type="ARG1" start="3" end="9">воду ту , которая без вкуса вообще</arg>
-        </propbank>
-      </example>
-      <example name="intransitive" src="">
-        <text>меня не тошнит , но да с детства не люблю</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="6" end="7">с детства</arg>
-          <rel relloc="9">люблю</rel>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-        </propbank>
-      </example>
-      <example name="negative transitive" src="">
-        <text>Я вообще простую воду не люблю .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <arg type="ARGM-ADV" start="1" end="1">вообще</arg>
-          <arg type="ARG1" start="2" end="3">простую воду</arg>
-          <arg type="ARGM-NEG" start="4" end="4">не</arg>
-          <rel relloc="5">люблю</rel>
-        </propbank>
-      </example>
-      <example name="love to do" src="Н. П. Задорнов, «К океану», 1949 г. (Цитата взята из Малого академического словаря русского языка в 4 т. (МАС), см. Список литературы)">
-        <text>Он любит побыть дома , покурить , полежать , посмотреть , как хозяйничает любимая жена .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Он</arg>
-          <rel relloc="1">любит</rel>
-          <arg type="ARG1" start="2" end="3">побыть дома</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="любиться">
-    <roleset id="любиться.02" name="be in love">
-      <aliases>
-        <alias pos="v">любився</alias>
-        <alias pos="j">любящийся</alias>
-        <alias pos="j">любившийся</alias>
-        <alias pos="v">любившись</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 1</note>
-      <roles>
-        <role descr="lover(s)" f="PAG" n="0">
-		</role>
-        <role descr="beloved, if different from arg0" f="PPT" n="1">
-		</role>
-      </roles>
-      <example name="be in love, reflexive" src="М. Е. Салтыков-Щедрин, «Самоотверженный заяц», 1886 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Гм … это хорошо , что невеста жениха любит , — говорит волчиха . — Это значит , что зайчат у них много будет , корму волкам прибавится . И мы с волком любимся , и у нас волчат много .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="29" end="29">И</arg>
-          <arg type="ARG0" start="30" end="30">мы</arg>
-          <arg type="ARG1" start="31" end="32">с волком</arg>
-          <rel relloc="33">любимся</rel>
-        </propbank>
-      </example>
-      <example name="requite love" src="Ф. М. Решетников, «Горнозаводские люди», 1863 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Не любилась ему жена , хотя и молодая была баба , красавица , на коей он в третий раз женился , потому , значит , что она лесничему просто прислуживала .</text>
-        <propbank>
-          <arg type="ARGM-NEG" start="0" end="0">Не</arg>
-          <rel relloc="1">любилась</rel>
-          <arg type="ARG0" start="2" end="2">ему</arg>
-          <arg type="ARG1" start="3" end="3">жена</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="любиться.03" name="want to love, requit or return love">
-      <aliases>
-        <alias pos="v">любився</alias>
-        <alias pos="j">любящийся</alias>
-        <alias pos="j">любившийся</alias>
-        <alias pos="v">любившись</alias>
-      </aliases>
-      <roles>
-        <role descr="lover(s)" f="PAG" n="0">
-		</role>
-        <role descr="beloved, if different from arg0" f="PPT" n="1">
-		</role>
-      </roles>
-      <example name="requite love" src="Ф. М. Решетников, «Горнозаводские люди», 1863 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Не любилась ему жена , хотя и молодая была баба , красавица , на коей он в третий раз женился , потому , значит , что она лесничему просто прислуживала .</text>
-        <propbank>
-          <arg type="ARGM-NEG" start="0" end="0">Не</arg>
-          <rel relloc="1">любилась</rel>
-          <arg type="ARG0" start="2" end="2">ему</arg>
-          <arg type="ARG1" start="3" end="3">жена</arg>
-        </propbank>
-      </example>
-      <example name="love to do" src="Е. П. Ростопчина, «Счастливая женщина», 1851 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Люби меня , будем счастливы , пока нам любится и счастливится …</text>
-        <propbank>
-          <arg type="ARG0" start="7" end="7">нам</arg>
-          <rel relloc="8">любится</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="влюбиться">
-    <roleset id="влюбиться.04" name="fall in love">
-      <aliases>
-        <alias pos="j">влюбившийся</alias>
-        <alias pos="j">влюбленный</alias>
-        <alias pos="j">влюблённый</alias>
-        <alias pos="j">влюблён</alias>
-        <alias pos="j">влюблен</alias>
-        <alias pos="v">влюбляться</alias>
-        <alias pos="v">влюбляющийся</alias>
-        <alias pos="v">влюблявшийся</alias>
-      </aliases>
-      <roles>
-        <role descr="lover(s)" f="PAG" n="0">
-		</role>
-        <role descr="beloved, if different from arg0" f="PPT" n="1">
-		</role>
-      </roles>
-      <example name="passive particle" src="И. А. Гончаров, «Обломов», 1859 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Да , я влюблён в вас и говорю , что без этого нет и прямой любви : ни в отца , ни в мать , ни в няньку не влюбляются , а любят их …</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">Да</arg>
-          <arg type="ARG0" start="2" end="2">я</arg>
-          <rel relloc="3">влюблён</rel>
-          <arg type="ARG1" start="4" end="5">в вас</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="любить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="любить.01" name="have affection, prefer">
+            <aliases>
+                <alias pos="v">любив</alias>
+                <alias pos="j">любящий</alias>
+                <alias pos="j">любивший</alias>
+                <alias pos="v">любивши</alias>
+                <alias pos="v">любя</alias>
+                <alias pos="j">любимый</alias>
+                <alias pos="j">любленный</alias>
+                <alias pos="v">полюбить</alias>
+                <alias pos="j">полюбивший</alias>
+                <alias pos="j">полюбленный</alias>
+                <alias pos="v">полюбивши</alias>
+                <alias pos="v">полюбив</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 2,3,4</note>
+            <note>любить.01 NOTES: Based on "love.01"</note>
+            <roles>
+                <role descr="lover" f="PAG" n="0">
+                </role>
+                <role descr="loved" f="PPT" n="1">
+                </role>
+            </roles>
+            <lexlinks>
+                <lexlink class="love.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="active transitive" src="">
+                <text>Я вообще люблю воду ту , которая без вкуса вообще , ну , или где - то рядом .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARGM-ADV" start="1" end="1">вообще</arg>
+                    <rel relloc="2">люблю</rel>
+                    <arg type="ARG1" start="3" end="9">воду ту , которая без вкуса вообще</arg>
+                </propbank>
+            </example>
+            <example name="intransitive" src="">
+                <text>меня не тошнит , но да с детства не люблю</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="6" end="7">с детства</arg>
+                    <rel relloc="9">люблю</rel>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                </propbank>
+            </example>
+            <example name="negative transitive" src="">
+                <text>Я вообще простую воду не люблю .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARGM-ADV" start="1" end="1">вообще</arg>
+                    <arg type="ARG1" start="2" end="3">простую воду</arg>
+                    <arg type="ARGM-NEG" start="4" end="4">не</arg>
+                    <rel relloc="5">люблю</rel>
+                </propbank>
+            </example>
+            <example name="love to do"
+                     src="Н. П. Задорнов, «К океану», 1949 г. (Цитата взята из Малого академического словаря русского языка в 4 т. (МАС), см. Список литературы)">
+                <text>Он любит побыть дома , покурить , полежать , посмотреть , как хозяйничает любимая жена .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">любит</rel>
+                    <arg type="ARG1" start="2" end="3">побыть дома</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="любиться">
+        <roleset id="любиться.02" name="be in love">
+            <aliases>
+                <alias pos="v">любився</alias>
+                <alias pos="j">любящийся</alias>
+                <alias pos="j">любившийся</alias>
+                <alias pos="v">любившись</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 1</note>
+            <roles>
+                <role descr="lover(s)" f="PAG" n="0">
+                </role>
+                <role descr="beloved, if different from arg0" f="PPT" n="1">
+                </role>
+            </roles>
+            <example name="be in love, reflexive"
+                     src="М. Е. Салтыков-Щедрин, «Самоотверженный заяц», 1886 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Гм … это хорошо , что невеста жениха любит , — говорит волчиха . — Это значит , что зайчат у них
+                    много будет , корму волкам прибавится . И мы с волком любимся , и у нас волчат много .
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="29" end="29">И</arg>
+                    <arg type="ARG0" start="30" end="30">мы</arg>
+                    <arg type="ARG1" start="31" end="32">с волком</arg>
+                    <rel relloc="33">любимся</rel>
+                </propbank>
+            </example>
+            <example name="requite love"
+                     src="Ф. М. Решетников, «Горнозаводские люди», 1863 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Не любилась ему жена , хотя и молодая была баба , красавица , на коей он в третий раз женился ,
+                    потому , значит , что она лесничему просто прислуживала .
+                </text>
+                <propbank>
+                    <arg type="ARGM-NEG" start="0" end="0">Не</arg>
+                    <rel relloc="1">любилась</rel>
+                    <arg type="ARG0" start="2" end="2">ему</arg>
+                    <arg type="ARG1" start="3" end="3">жена</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="любиться.03" name="want to love, requit or return love">
+            <aliases>
+                <alias pos="v">любився</alias>
+                <alias pos="j">любящийся</alias>
+                <alias pos="j">любившийся</alias>
+                <alias pos="v">любившись</alias>
+            </aliases>
+            <roles>
+                <role descr="lover(s)" f="PAG" n="0">
+                </role>
+                <role descr="beloved, if different from arg0" f="PPT" n="1">
+                </role>
+            </roles>
+            <example name="requite love"
+                     src="Ф. М. Решетников, «Горнозаводские люди», 1863 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Не любилась ему жена , хотя и молодая была баба , красавица , на коей он в третий раз женился ,
+                    потому , значит , что она лесничему просто прислуживала .
+                </text>
+                <propbank>
+                    <arg type="ARGM-NEG" start="0" end="0">Не</arg>
+                    <rel relloc="1">любилась</rel>
+                    <arg type="ARG0" start="2" end="2">ему</arg>
+                    <arg type="ARG1" start="3" end="3">жена</arg>
+                </propbank>
+            </example>
+            <example name="love to do"
+                     src="Е. П. Ростопчина, «Счастливая женщина», 1851 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Люби меня , будем счастливы , пока нам любится и счастливится …</text>
+                <propbank>
+                    <arg type="ARG0" start="7" end="7">нам</arg>
+                    <rel relloc="8">любится</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="влюбиться">
+        <roleset id="влюбиться.04" name="fall in love">
+            <aliases>
+                <alias pos="j">влюбившийся</alias>
+                <alias pos="j">влюбленный</alias>
+                <alias pos="j">влюблённый</alias>
+                <alias pos="j">влюблён</alias>
+                <alias pos="j">влюблен</alias>
+                <alias pos="v">влюбляться</alias>
+                <alias pos="v">влюбляющийся</alias>
+                <alias pos="v">влюблявшийся</alias>
+            </aliases>
+            <roles>
+                <role descr="lover(s)" f="PAG" n="0">
+                </role>
+                <role descr="beloved, if different from arg0" f="PPT" n="1">
+                </role>
+            </roles>
+            <example name="passive particle"
+                     src="И. А. Гончаров, «Обломов», 1859 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Да , я влюблён в вас и говорю , что без этого нет и прямой любви : ни в отца , ни в мать , ни в
+                    няньку не влюбляются , а любят их …
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Да</arg>
+                    <arg type="ARG0" start="2" end="2">я</arg>
+                    <rel relloc="3">влюблён</rel>
+                    <arg type="ARG1" start="4" end="5">в вас</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

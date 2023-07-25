@@ -25,7 +25,8 @@
                     <arg type="ARG1" start="3" end="7">один страшный , черный день</arg>
                 </propbank>
             </example>
-            <example name="ARG0, ARG1, and ARG3" src="ruTenTen11, http://victory.mil.ru/lib/books/memo/kozhedub1/02.html">
+            <example name="ARG0, ARG1, and ARG3"
+                     src="ruTenTen11, http://victory.mil.ru/lib/books/memo/kozhedub1/02.html">
                 <text>Ведь я вас помню старшим сержантом ...</text>
                 <propbank>
                     <arg type="ARG0" start="1" end="1">я</arg>
@@ -39,7 +40,8 @@
                 <propbank>
                     <rel relloc="0">Помню</rel>
                     <arg type="ARG1" start="1" end="2">первое впечатление</arg>
-                    <arg type="ARG2" start="4" end="12">какое-то удивительное изящество в жестах , в манере держаться</arg>
+                    <arg type="ARG2" start="4" end="12">какое-то удивительное изящество в жестах , в манере держаться
+                    </arg>
                 </propbank>
             </example>
         </roleset>

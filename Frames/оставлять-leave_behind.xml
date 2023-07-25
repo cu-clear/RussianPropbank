@@ -1,29 +1,29 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="оставлять">
-    <roleset id="оставлять.01" name="Leave behind, abandon">
-      <aliases>
-        <alias pos="v">оставлять</alias>
-        <alias pos="v">оставить</alias>
-        <alias pos="j">ImperfactiveAdjective</alias>
-        <alias pos="j">etc</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English leave.12</note>
-      <roles>
-        <role descr="Agentive Leaver" f="PAG" n="0"/>
-        <role descr="Person/thing put in a location/state" f="PPT" n="1"/>
-        <role descr="state/location left in (at least implied)" f="PRD" n="2"/>
-	    </roles>
-      <example name="Arg0, Arg1, and Arg2" src="RNC, Л. М. Леонов. Барсуки (1924)">
-        <text>Голубя он так и оставил в водостоке .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Голубя</arg>
-	        <arg type="ARG1" start="1" end="1">он</arg>
-          <rel relloc="4">оставил</rel>
-	        <arg type="ARG2" start="5" end="6">в водостоке</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="оставлять">
+        <roleset id="оставлять.01" name="Leave behind, abandon">
+            <aliases>
+                <alias pos="v">оставлять</alias>
+                <alias pos="v">оставить</alias>
+                <alias pos="j">ImperfactiveAdjective</alias>
+                <alias pos="j">etc</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English leave.12</note>
+            <roles>
+                <role descr="Agentive Leaver" f="PAG" n="0"/>
+                <role descr="Person/thing put in a location/state" f="PPT" n="1"/>
+                <role descr="state/location left in (at least implied)" f="PRD" n="2"/>
+            </roles>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, Л. М. Леонов. Барсуки (1924)">
+                <text>Голубя он так и оставил в водостоке .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Голубя</arg>
+                    <arg type="ARG1" start="1" end="1">он</arg>
+                    <rel relloc="4">оставил</rel>
+                    <arg type="ARG2" start="5" end="6">в водостоке</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

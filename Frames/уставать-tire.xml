@@ -4,8 +4,8 @@
     <predicate lemma="уставать">
         <roleset id="уставать.01" name="tire, to be physically spent, to be sleepy, or even disinterested">
             <aliases>
-                <alias pos="v">Уставать</alias>
-                <alias pos="v">Устать</alias>
+                <alias pos="v">уставать</alias>
+                <alias pos="v">устать</alias>
                 <alias pos="j">устающий</alias>
                 <alias pos="j">устававший</alias>
                 <alias pos="j">уставший</alias>
@@ -37,8 +37,8 @@
         </roleset>
         <roleset id="уставать.02" name="cause to not want to put up with anymore">
             <aliases>
-                <alias pos="v">Уставать</alias>
-                <alias pos="v">Устать</alias>
+                <alias pos="v">уставать</alias>
+                <alias pos="v">устать</alias>
                 <alias pos="j">устающий</alias>
                 <alias pos="j">устававший</alias>
                 <alias pos="j">уставший</alias>

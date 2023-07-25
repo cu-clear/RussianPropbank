@@ -1,45 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="добраться">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="добраться.01" name="get to, arrive at, make it to, achieve">
-      <aliases>
-        <alias pos="v">добираться</alias>
-      </aliases>
-      <note>добраться.01 NOTES: Roleset based on English reach.1</note>
-      <roles>
-        <role descr="thing striving" f="PAG" n="0"/>
-        <role descr="goal, destination, end state, thing attained" f="GOL" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="reach.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="arg 0 and 1" src="Russian National Corpus[В. Э. Карпов, Т. В. Мещерякова. Об автоматизации нетворческих литературных процессов // «Информационные технологии», 2004]">
-        <text>Необходимы для описания того , как персонаж добирается до места встречи из одного локуса в другой .</text>
-        <propbank>
-          <arg type="ARG0" start="6" end="6">персонаж</arg>
-          <rel relloc="7">добирается</rel>
-          <arg type="ARG1" start="8" end="10">до места встречи</arg>
-        </propbank>
-      </example>
-      <example name="perfective all args" src="Russian National Corpus[Наши дети: Подростки (2004)]">
-        <text>А автор , судя по всему , до этого никак не доберётся и , тратя силы и время на ор , будет искать взаимопонимание очень долго .</text>
-        <propbank>
-          <arg type="ARG0" start="1" end="1">автор</arg>
-          <arg type="ARGM-NEG" start="10" end="10">не</arg>
-          <rel relloc="11">доберётся</rel>
-          <arg type="ARG1" start="7" end="8">до этого</arg>
-        </propbank>
-      </example>
-      <example name="perfective" src="Russian National Corpus[Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001]">
-        <text>Вот что страшно : знать , что и до тебя скоро доберётся !</text>
-        <propbank>
-          <arg type="ARG1" start="8" end="9">до тебя</arg>
-          <arg type="ARGM-TMP" start="10" end="10">скоро</arg>
-          <rel relloc="11">доберётся</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="добраться">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="добраться.01" name="get to, arrive at, make it to, achieve">
+            <aliases>
+                <alias pos="v">добираться</alias>
+            </aliases>
+            <note>добраться.01 NOTES: Roleset based on English reach.1</note>
+            <roles>
+                <role descr="thing striving" f="PAG" n="0"/>
+                <role descr="goal, destination, end state, thing attained" f="GOL" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="reach.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg 0 and 1"
+                     src="Russian National Corpus[В. Э. Карпов, Т. В. Мещерякова. Об автоматизации нетворческих литературных процессов // «Информационные технологии», 2004]">
+                <text>Необходимы для описания того , как персонаж добирается до места встречи из одного локуса в другой
+                    .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="6" end="6">персонаж</arg>
+                    <rel relloc="7">добирается</rel>
+                    <arg type="ARG1" start="8" end="10">до места встречи</arg>
+                </propbank>
+            </example>
+            <example name="perfective all args" src="Russian National Corpus[Наши дети: Подростки (2004)]">
+                <text>А автор , судя по всему , до этого никак не доберётся и , тратя силы и время на ор , будет искать
+                    взаимопонимание очень долго .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">автор</arg>
+                    <arg type="ARGM-NEG" start="10" end="10">не</arg>
+                    <rel relloc="11">доберётся</rel>
+                    <arg type="ARG1" start="7" end="8">до этого</arg>
+                </propbank>
+            </example>
+            <example name="perfective"
+                     src="Russian National Corpus[Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001]">
+                <text>Вот что страшно : знать , что и до тебя скоро доберётся !</text>
+                <propbank>
+                    <arg type="ARG1" start="8" end="9">до тебя</arg>
+                    <arg type="ARGM-TMP" start="10" end="10">скоро</arg>
+                    <rel relloc="11">доберётся</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

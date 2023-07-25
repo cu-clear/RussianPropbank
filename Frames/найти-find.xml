@@ -1,183 +1,196 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="найти">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="найти.01" name="find">
-      <aliases>
-        <alias pos="v">находить</alias>
-        <alias pos="v">находиться</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2,3</note>
-      <note>найти.01 NOTES: based on English find.01</note>
-      <roles>
-        <role descr="finder" f="PAG" n="0"/>
-        <role descr="thing found" f="PPT" n="1"/>
-        <role descr="benefactive, found for" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="find.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="all args" src="">
-        <text>замуж вышла , а мама нашла себе друзей собутыльников и пошло - поехало .</text>
-        <propbank>
-          <arg type="ARG0" start="4" end="4">мама</arg>
-          <rel relloc="5">нашла</rel>
-          <arg type="ARG2" start="6" end="6">себе</arg>
-          <arg type="ARG1" start="7" end="8">друзей собутыльников</arg>
-        </propbank>
-      </example>
-      <example name="find something somewhere" src="Russian National Corpus. [коллективный. Форум: комментарии к фильму «Все будет хорошо» (2008-2011)]">
-        <text>Мужчины здесь имеют одну возможность прокормить семью — работа на заводе всю жизнь , а в остальное время находят утешение в бутылке горькой водки .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="15" end="17">в остальное время</arg>
-          <rel relloc="18">находят</rel>
-          <arg type="ARG1" start="19" end="19">утешение</arg>
-          <arg type="ARGM-LOC" start="20" end="23">в бутылке горькой водки</arg>
-        </propbank>
-      </example>
-      <example name="find time" src="Russian National Corpus. [коллективный. Форум: Поход в цирк (2010)]">
-        <text>Очень рада за тебя , что находишь время для отдыха .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
-          <rel relloc="6">находишь</rel>
-          <arg type="ARG1" start="7" end="9">время для отдыха</arg>
-        </propbank>
-      </example>
-      <example name="have something in common" src="Russian National Corpus. [коллективный. Форум: комментарии к фильму «Все будет хорошо» (2008-2011)]">
-        <text>Интеллигентный , пордочный , и что мне особо нравится — как они с Олей нашли общий язык .</text>
-        <propbank>
-          <arg type="ARG0" start="11" end="13">они с Олей</arg>
-          <rel relloc="14">нашли</rel>
-          <arg type="ARG1" start="15" end="16">общий язык</arg>
-        </propbank>
-      </example>
-      <example name="find something" src="Russian National Corpus. [Александр Зайцев. Загадки эволюции: Кратка история глаза // «Знание -- сила», 2003]">
-        <text>Это помогает им находить добычу . Ведь мелкие грызуны метят свою территорию струйкой мочи , а та светится ультрафиолетом .</text>
-        <propbank>
-          <rel relloc="3">находить</rel>
-          <arg type="ARG1" start="4" end="4">добычу</arg>
-        </propbank>
-      </example>
-      <example name="find oneself" src="Russian National Corpus. [Дмитрий Литовкин, Иль Максаков. Генерал или губернатор?. Военные и политики заняты поиском места работы Геннадию Трошеву (2003) // «Извести», 2003.02.19]">
-        <text>В политике такие люди находят себя .</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="0" end="1">В политике</arg>
-          <arg type="ARG0" start="2" end="3">такие люди</arg>
-          <rel relloc="4">находят</rel>
-          <arg type="ARG1" start="5" end="5">себя</arg>
-        </propbank>
-      </example>
-      <example name="reflexive form; knowing how to respond in conversation" src="Alexandra Romanova">
-        <text>Я не нашелся , что ответить .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <arg type="ARGM-NEG" start="1" end="1">не</arg>
-          <rel relloc="2">нашелся</rel>
-          <arg type="ARG1" start="4" end="5">что ответить</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="найти.02" name="discover, find out">
-      <aliases>
-        <alias pos="v">находить</alias>
-        <alias pos="v">находиться</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 4</note>
-      <note>найти.02 NOTES: based on English discover.01</note>
-      <roles>
-        <role descr="finder" f="PAG" n="0"/>
-        <role descr="thing found, discovery" f="PPT" n="1"/>
-        <role descr="benefactive, found for" f="GOL" n="2"/>
-        <role descr="attribute on arg1 (found out to be/as what)" f="PRD" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="discover.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="scientific discovery" src="">
-        <text>Ученые нашли возможность однополого зачатия</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Ученые</arg>
-          <rel relloc="1">нашли</rel>
-          <arg type="ARG1" start="2" end="4">возможность однополого зачатия</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="найти.03" name="adjudge">
-      <aliases>
-        <alias pos="v">находить</alias>
-        <alias pos="v">находиться</alias>
-      </aliases>
-      <note>найти.03 NOTES based on English find.02</note>
-      <roles>
-        <role descr="finder" f="PAG" n="0"/>
-        <role descr="thing found, discovery" f="PPT" n="1"/>
-        <role descr="attribute on arg1 (found out to be/as what)" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="find.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="find necessary" src="Russian National Corpus. [В. Г. Распутин. Нова професси (1998)]">
-        <text>Но если бы они нашли нужным снова начать с этих дести капель …</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">Но</arg>
-          <arg type="ARG0" start="3" end="3">они</arg>
-          <rel relloc="4">нашли</rel>
-          <arg type="ARG2" start="5" end="5">нужным</arg>
-          <arg type="ARG1" start="6" end="11">снова начать с этих дести капель</arg>
-        </propbank>
-      </example>
-      <example name="find to be" src="Russian National Corpus. [Дмитрий Фролов. Цензура с рыночным лицом (2003) // «Совершенно секретно», 2003.04.08">
-        <text>Между прочим , книгу нашёл весьма грамотной , а не понравился мне авторский подход к подаче материала : своё правильное понимание экономических идей он тщательно маскировал .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="1">Между прочим</arg>
-          <arg type="ARG1" start="3" end="3">книгу</arg>
-          <rel relloc="4">нашёл</rel>
-          <arg type="ARG2" start="5" end="6">весьма грамотной</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="найти.04" name="be located, find one's place or position">
-      <aliases>
-        <alias pos="v">находиться</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 5,6,7,8</note>
-      <note>найти.04 NOTES: Roleset based on English verb frame locate.01</note>
-      <roles>
-        <role descr="institution, thing located" f="PPT" n="1"/>
-        <role descr="location" f="LOC" n="M"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="locate.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg0-PAG has no match in Russian frame.</note>
-      <example name="non-reflexive" src="">
-        <text>Опорную цену евра нашла на 3062 , это ниже моего осторожного прогноза 3102 .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="2">Опорную цену евра</arg>
-          <rel relloc="3">нашла</rel>
-          <arg type="ARGM-LOC" start="4" end="5">на 3062</arg>
-        </propbank>
-      </example>
-      <example name="reflexive" src="">
-        <text>просто в городе недавно , поэтому не имею понти где они находятся</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="9" end="9">где</arg>
-          <arg type="ARG1" start="10" end="10">они</arg>
-          <rel relloc="11">находятся</rel>
-        </propbank>
-      </example>
-      <example name="figurative" src="Russian National Corpus">
-        <text>И такая на меня нашла тоска , что ни о чем и помыслить не мог .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">И</arg>
-          <arg type="ARGM-CXN" start="1" end="1">такая</arg>
-          <arg type="ARGM-LOC" start="2" end="3">на меня</arg>
-          <rel relloc="4">нашла</rel>
-          <arg type="ARG1" start="5" end="5">тоска</arg>
-          <arg type="ARGM-CXN" start="7" end="14">что ни о чем и помыслить не мог</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="найти">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="найти.01" name="find">
+            <aliases>
+                <alias pos="v">находить</alias>
+                <alias pos="v">находиться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,3</note>
+            <note>найти.01 NOTES: based on English find.01</note>
+            <roles>
+                <role descr="finder" f="PAG" n="0"/>
+                <role descr="thing found" f="PPT" n="1"/>
+                <role descr="benefactive, found for" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="find.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args" src="">
+                <text>замуж вышла , а мама нашла себе друзей собутыльников и пошло - поехало .</text>
+                <propbank>
+                    <arg type="ARG0" start="4" end="4">мама</arg>
+                    <rel relloc="5">нашла</rel>
+                    <arg type="ARG2" start="6" end="6">себе</arg>
+                    <arg type="ARG1" start="7" end="8">друзей собутыльников</arg>
+                </propbank>
+            </example>
+            <example name="find something somewhere"
+                     src="Russian National Corpus. [коллективный. Форум: комментарии к фильму «Все будет хорошо» (2008-2011)]">
+                <text>Мужчины здесь имеют одну возможность прокормить семью — работа на заводе всю жизнь , а в остальное
+                    время находят утешение в бутылке горькой водки .
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="15" end="17">в остальное время</arg>
+                    <rel relloc="18">находят</rel>
+                    <arg type="ARG1" start="19" end="19">утешение</arg>
+                    <arg type="ARGM-LOC" start="20" end="23">в бутылке горькой водки</arg>
+                </propbank>
+            </example>
+            <example name="find time" src="Russian National Corpus. [коллективный. Форум: Поход в цирк (2010)]">
+                <text>Очень рада за тебя , что находишь время для отдыха .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
+                    <rel relloc="6">находишь</rel>
+                    <arg type="ARG1" start="7" end="9">время для отдыха</arg>
+                </propbank>
+            </example>
+            <example name="have something in common"
+                     src="Russian National Corpus. [коллективный. Форум: комментарии к фильму «Все будет хорошо» (2008-2011)]">
+                <text>Интеллигентный , пордочный , и что мне особо нравится — как они с Олей нашли общий язык .</text>
+                <propbank>
+                    <arg type="ARG0" start="11" end="13">они с Олей</arg>
+                    <rel relloc="14">нашли</rel>
+                    <arg type="ARG1" start="15" end="16">общий язык</arg>
+                </propbank>
+            </example>
+            <example name="find something"
+                     src="Russian National Corpus. [Александр Зайцев. Загадки эволюции: Кратка история глаза // «Знание -- сила», 2003]">
+                <text>Это помогает им находить добычу . Ведь мелкие грызуны метят свою территорию струйкой мочи , а та
+                    светится ультрафиолетом .
+                </text>
+                <propbank>
+                    <rel relloc="3">находить</rel>
+                    <arg type="ARG1" start="4" end="4">добычу</arg>
+                </propbank>
+            </example>
+            <example name="find oneself"
+                     src="Russian National Corpus. [Дмитрий Литовкин, Иль Максаков. Генерал или губернатор?. Военные и политики заняты поиском места работы Геннадию Трошеву (2003) // «Извести», 2003.02.19]">
+                <text>В политике такие люди находят себя .</text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="0" end="1">В политике</arg>
+                    <arg type="ARG0" start="2" end="3">такие люди</arg>
+                    <rel relloc="4">находят</rel>
+                    <arg type="ARG1" start="5" end="5">себя</arg>
+                </propbank>
+            </example>
+            <example name="reflexive form; knowing how to respond in conversation" src="Alexandra Romanova">
+                <text>Я не нашелся , что ответить .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARGM-NEG" start="1" end="1">не</arg>
+                    <rel relloc="2">нашелся</rel>
+                    <arg type="ARG1" start="4" end="5">что ответить</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="найти.02" name="discover, find out">
+            <aliases>
+                <alias pos="v">находить</alias>
+                <alias pos="v">находиться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 4</note>
+            <note>найти.02 NOTES: based on English discover.01</note>
+            <roles>
+                <role descr="finder" f="PAG" n="0"/>
+                <role descr="thing found, discovery" f="PPT" n="1"/>
+                <role descr="benefactive, found for" f="GOL" n="2"/>
+                <role descr="attribute on arg1 (found out to be/as what)" f="PRD" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="discover.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="scientific discovery" src="">
+                <text>Ученые нашли возможность однополого зачатия</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Ученые</arg>
+                    <rel relloc="1">нашли</rel>
+                    <arg type="ARG1" start="2" end="4">возможность однополого зачатия</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="найти.03" name="adjudge">
+            <aliases>
+                <alias pos="v">находить</alias>
+                <alias pos="v">находиться</alias>
+            </aliases>
+            <note>найти.03 NOTES based on English find.02</note>
+            <roles>
+                <role descr="finder" f="PAG" n="0"/>
+                <role descr="thing found, discovery" f="PPT" n="1"/>
+                <role descr="attribute on arg1 (found out to be/as what)" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="find.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="find necessary" src="Russian National Corpus. [В. Г. Распутин. Нова професси (1998)]">
+                <text>Но если бы они нашли нужным снова начать с этих дести капель …</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Но</arg>
+                    <arg type="ARG0" start="3" end="3">они</arg>
+                    <rel relloc="4">нашли</rel>
+                    <arg type="ARG2" start="5" end="5">нужным</arg>
+                    <arg type="ARG1" start="6" end="11">снова начать с этих дести капель</arg>
+                </propbank>
+            </example>
+            <example name="find to be"
+                     src="Russian National Corpus. [Дмитрий Фролов. Цензура с рыночным лицом (2003) // «Совершенно секретно», 2003.04.08">
+                <text>Между прочим , книгу нашёл весьма грамотной , а не понравился мне авторский подход к подаче
+                    материала : своё правильное понимание экономических идей он тщательно маскировал .
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="1">Между прочим</arg>
+                    <arg type="ARG1" start="3" end="3">книгу</arg>
+                    <rel relloc="4">нашёл</rel>
+                    <arg type="ARG2" start="5" end="6">весьма грамотной</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="найти.04" name="be located, find one's place or position">
+            <aliases>
+                <alias pos="v">находиться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 5,6,7,8</note>
+            <note>найти.04 NOTES: Roleset based on English verb frame locate.01</note>
+            <roles>
+                <role descr="institution, thing located" f="PPT" n="1"/>
+                <role descr="location" f="LOC" n="M"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="locate.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg0-PAG has no match in Russian frame.</note>
+            <example name="non-reflexive" src="">
+                <text>Опорную цену евра нашла на 3062 , это ниже моего осторожного прогноза 3102 .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="2">Опорную цену евра</arg>
+                    <rel relloc="3">нашла</rel>
+                    <arg type="ARGM-LOC" start="4" end="5">на 3062</arg>
+                </propbank>
+            </example>
+            <example name="reflexive" src="">
+                <text>просто в городе недавно , поэтому не имею понти где они находятся</text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="9" end="9">где</arg>
+                    <arg type="ARG1" start="10" end="10">они</arg>
+                    <rel relloc="11">находятся</rel>
+                </propbank>
+            </example>
+            <example name="figurative" src="Russian National Corpus">
+                <text>И такая на меня нашла тоска , что ни о чем и помыслить не мог .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">И</arg>
+                    <arg type="ARGM-CXN" start="1" end="1">такая</arg>
+                    <arg type="ARGM-LOC" start="2" end="3">на меня</arg>
+                    <rel relloc="4">нашла</rel>
+                    <arg type="ARG1" start="5" end="5">тоска</arg>
+                    <arg type="ARGM-CXN" start="7" end="14">что ни о чем и помыслить не мог</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

@@ -1,146 +1,154 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="выступать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="выступать.01" name="protrude, stick out, stand out">
-      <aliases>
-        <alias pos="v">выступить</alias>
-      </aliases>
-      <note>выступить.01 NOTES: Roleset based on English verb frame protrude.01</note>
-      <note>Corresponds to FrameBank senses 6,7</note>
-      <roles>
-        <role descr="thing protruding" f="PPT" n="1"/>
-        <role descr="source, sticking out/into of what" f="LOC" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="protrude.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="example" src="FrameBank">
-        <text>Мыс выступает в море .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Мыс</arg>
-          <rel relloc="1">выступает</rel>
-          <arg type="ARG2" start="2" end="3">в море</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="выступать.02" name="step out, travel, leave, set out">
-      <aliases>
-        <alias pos="v">выполнить</alias>
-        <alias pos="v">выполниться</alias>
-        <alias pos="v">выступаться</alias>
-      </aliases>
-      <note>выступать.02 NOTES: Roleset based on English verb frame set_off.04</note>
-      <note>Corresponds to FrameBank senses 1,3,4</note>
-      <roles>
-        <role descr="traveller" f="PAG" n="0"/>
-        <role descr="destination" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="set_off.04" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="arg1, 2" src="П. К. Козлов, «Географический дневник Тибетской экспедиции 1923–1926 гг. № 4», 1925–1926) г.">
-        <text>Вы выступаете завтра вверх по Орхону , я тоже поеду проводить вас до места водопада или даже в Бургусутай , до палатки или подотделения Монценкопа .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Вы</arg>
-          <rel relloc="1">выступаете</rel>
-          <arg type="ARGM-TMP" start="2" end="2">завтра</arg>
-          <arg type="ARG1" start="3" end="5">вверх по Орхону</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="выступать.03" name="perform, speak, address">
-      <aliases>
-        <alias pos="v">выступить</alias>
-        <alias pos="v">выступление</alias>
-      </aliases>
-      <note>выступать.03 NOTES: Roleset based on English verb frame perform.01</note>
-      <note>Corresponds to FrameBank senses 8,9</note>
-      <roles>
-        <role descr="performer" f="PAG" n="0"/>
-        <role descr="performance, thing performed" f="PPT" n="1"/>
-        <role descr="instrument" f="MNR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="perform.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="example" src="Sarah Moeller">
-        <text>Он выступает в театре .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Он</arg>
-          <rel relloc="1">выступает</rel>
-          <arg type="ARGM-LOC" start="2" end="3">в театре</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="выступать.04" name="stride walk , step graciously, with an attitude">
-      <aliases>
-        <alias pos="v">выступить</alias>
-        <alias pos="v">выступление</alias>
-      </aliases>
-      <note>выступать.04 NOTES: Roleset based on English verb frame stride.01</note>
-      <note>Corresponds to FrameBank senses 2</note>
-      <roles>
-        <role descr="strider, entity in motion" f="PAG" n="0"/>
-        <role descr="domain, field in which advances are made" f="VSP" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="stride.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg1-VSP has no equivalent in Russian frame</note>
-      <example name="arg0" src="Пушкин">
-        <text>« А сама - то величава , выступает , будто пава . »</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="1" end="1">А</arg>
-          <arg type="ARG0" start="2" end="5">сама - то величава</arg>
-          <rel relloc="7">выступает</rel>
-          <arg type="ARGM-MNR" start="9" end="10">будто пава</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="выступать.05" name="stride walk , step graciously, with an attitude">
-      <aliases>
-        <alias pos="v">выступить</alias>
-      </aliases>
-      <note>выступать.05 NOTES: Roleset based on English verb frame advocate.01</note>
-      <note>Corresponds to FrameBank senses 10</note>
-      <roles>
-        <role descr="advocate, suggest" f="PAG" n="0"/>
-        <role descr="suggestion" f="PPT" n="1"/>
-        <role descr="recipient of advice" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="advocate.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="all args" src="">
-        <text>Он выступает в защиту Терентьева на собрании .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Он</arg>
-          <rel relloc="1">выступает</rel>
-          <arg type="ARG1" start="2" end="4">в защиту Терентьева</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="выступать.06" name="come out, appear on the surface">
-      <aliases>
-	  </aliases>
-      <note>выступать.06 NOTES: Roleset based on English verb frame appear.01</note>
-      <note>Corresponds to FrameBank senses 5,11</note>
-      <roles>
-        <role descr="thing appearing" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="appear.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="all args" src="В. Г. Короленко, «Последний луч», 1900 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Группы деревьев , казалось , перебегали с места на место , скалы выступали вперед и опять тонули во мгле , полянки светились и гасли …</text>
-        <propbank>
-          <arg type="ARG1" start="11" end="11">скалы</arg>
-          <rel relloc="12">выступали</rel>
-          <arg type="ARGM-GOL" start="13" end="13">вперед</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="выступать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="выступать.01" name="protrude, stick out, stand out">
+            <aliases>
+                <alias pos="v">выступить</alias>
+            </aliases>
+            <note>выступить.01 NOTES: Roleset based on English verb frame protrude.01</note>
+            <note>Corresponds to FrameBank senses 6,7</note>
+            <roles>
+                <role descr="thing protruding" f="PPT" n="1"/>
+                <role descr="source, sticking out/into of what" f="LOC" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="protrude.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="example" src="FrameBank">
+                <text>Мыс выступает в море .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Мыс</arg>
+                    <rel relloc="1">выступает</rel>
+                    <arg type="ARG2" start="2" end="3">в море</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="выступать.02" name="step out, travel, leave, set out">
+            <aliases>
+                <alias pos="v">выполнить</alias>
+                <alias pos="v">выполниться</alias>
+                <alias pos="v">выступаться</alias>
+            </aliases>
+            <note>выступать.02 NOTES: Roleset based on English verb frame set_off.04</note>
+            <note>Corresponds to FrameBank senses 1,3,4</note>
+            <roles>
+                <role descr="traveller" f="PAG" n="0"/>
+                <role descr="destination" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="set_off.04" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg1, 2"
+                     src="П. К. Козлов, «Географический дневник Тибетской экспедиции 1923–1926 гг. № 4», 1925–1926) г.">
+                <text>Вы выступаете завтра вверх по Орхону , я тоже поеду проводить вас до места водопада или даже в
+                    Бургусутай , до палатки или подотделения Монценкопа .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Вы</arg>
+                    <rel relloc="1">выступаете</rel>
+                    <arg type="ARGM-TMP" start="2" end="2">завтра</arg>
+                    <arg type="ARG1" start="3" end="5">вверх по Орхону</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="выступать.03" name="perform, speak, address">
+            <aliases>
+                <alias pos="v">выступить</alias>
+                <alias pos="v">выступление</alias>
+            </aliases>
+            <note>выступать.03 NOTES: Roleset based on English verb frame perform.01</note>
+            <note>Corresponds to FrameBank senses 8,9</note>
+            <roles>
+                <role descr="performer" f="PAG" n="0"/>
+                <role descr="performance, thing performed" f="PPT" n="1"/>
+                <role descr="instrument" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="perform.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="example" src="Sarah Moeller">
+                <text>Он выступает в театре .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">выступает</rel>
+                    <arg type="ARGM-LOC" start="2" end="3">в театре</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="выступать.04" name="stride walk , step graciously, with an attitude">
+            <aliases>
+                <alias pos="v">выступить</alias>
+                <alias pos="v">выступление</alias>
+            </aliases>
+            <note>выступать.04 NOTES: Roleset based on English verb frame stride.01</note>
+            <note>Corresponds to FrameBank senses 2</note>
+            <roles>
+                <role descr="strider, entity in motion" f="PAG" n="0"/>
+                <role descr="domain, field in which advances are made" f="VSP" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="stride.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg1-VSP has no equivalent in Russian frame</note>
+            <example name="arg0" src="Пушкин">
+                <text>« А сама - то величава , выступает , будто пава . »</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="1" end="1">А</arg>
+                    <arg type="ARG0" start="2" end="5">сама - то величава</arg>
+                    <rel relloc="7">выступает</rel>
+                    <arg type="ARGM-MNR" start="9" end="10">будто пава</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="выступать.05" name="stride walk , step graciously, with an attitude">
+            <aliases>
+                <alias pos="v">выступить</alias>
+            </aliases>
+            <note>выступать.05 NOTES: Roleset based on English verb frame advocate.01</note>
+            <note>Corresponds to FrameBank senses 10</note>
+            <roles>
+                <role descr="advocate, suggest" f="PAG" n="0"/>
+                <role descr="suggestion" f="PPT" n="1"/>
+                <role descr="recipient of advice" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="advocate.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args" src="">
+                <text>Он выступает в защиту Терентьева на собрании .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">выступает</rel>
+                    <arg type="ARG1" start="2" end="4">в защиту Терентьева</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="выступать.06" name="come out, appear on the surface">
+            <aliases>
+            </aliases>
+            <note>выступать.06 NOTES: Roleset based on English verb frame appear.01</note>
+            <note>Corresponds to FrameBank senses 5,11</note>
+            <roles>
+                <role descr="thing appearing" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="appear.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args"
+                     src="В. Г. Короленко, «Последний луч», 1900 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Группы деревьев , казалось , перебегали с места на место , скалы выступали вперед и опять тонули
+                    во мгле , полянки светились и гасли …
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="11" end="11">скалы</arg>
+                    <rel relloc="12">выступали</rel>
+                    <arg type="ARGM-GOL" start="13" end="13">вперед</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

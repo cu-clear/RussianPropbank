@@ -1,430 +1,485 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="вести">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="вести.01" name="directed motion, be ahead of, lead">
-      <aliases>
-        <alias pos="j">ведущий</alias>
-        <alias pos="j">ведомый</alias>
-        <alias pos="j">ведённый</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="v">водить</alias>
-        <alias pos="j">водящий</alias>
-        <alias pos="j">водивший</alias>
-        <alias pos="j">водимый</alias>
-        <alias pos="j">воженный</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="v">повести</alias>
-        <alias pos="j">поведший</alias>
-        <alias pos="j">поведённый</alias>
-        <alias pos="j">поведенный</alias>
-        <alias pos="n">вождение</alias>
-        <alias pos="n">ведение</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2,14</note>
-      <note>вести.01 NOTES: Based on English lead.01</note>
-      <roles>
-        <role descr="leader" f="PAG" n="0"/>
-        <role descr="in the lead of" f="PPT" n="1"/>
-        <role descr="extent, how far in front" f="EXT" n="2"/>
-        <role descr="start point" f="DIR" n="3"/>
-        <role descr="end point" f="GOL" n="4"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="lead.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="top candidate" src="">
-        <text>В качестве ведущих кандидатов на пост президента его страны в следующем году выборов , Марио Варгас как неизменяющиеся часто отражают реакционные политические стратегии должны быть в завидном положении .</text>
-        <propbank>
-          <rel relloc="2">ведущих</rel>
-          <arg type="ARG0" start="3" end="8">кандидатов на пост президента его страны</arg>
-          <arg type="ARGM-LOC" start="9" end="11">в следующем году</arg>
-          <arg type="ARG1" start="12" end="12">выборов</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="вести.02" name="guide, direct, accompany">
-      <aliases>
-        <alias pos="j">ведущий</alias>
-        <alias pos="j">ведший</alias>
-        <alias pos="j">ведомый</alias>
-        <alias pos="j">ведённый</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="v">водить</alias>
-        <alias pos="j">водящий</alias>
-        <alias pos="j">водивший</alias>
-        <alias pos="j">водимый</alias>
-        <alias pos="j">воженный</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="v">повести</alias>
-        <alias pos="j">поведший</alias>
-        <alias pos="j">поведённый</alias>
-        <alias pos="j">поведенный</alias>
-        <alias pos="n">вождение</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 2</note>
-      <note>вести.02 NOTES: Based on English guide.01</note>
-      <roles>
-        <note>English Arg3-PRD = Russian ARG3-MNR</note>
-        <role descr="guide, agent" f="PAG" n="0"/>
-        <role descr="entity guided" f="PPT" n="1"/>
-        <role descr="guided to/in/through" f="LOC" n="2"/>
-        <role descr="manner of guiding, e.g. под руку" f="MNR" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="guide.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="arg1 and arg2" src="Russian National Corpus. [В. П. Катаев. Алмазный мой венец (1975-1977)]">
-        <text>― Тогда ладно , ― сказал королевич , ― не хочешь вести меня к Командору , так веди меня к его соратнику , а уж он меня наверняка подружит с самим .</text>
-        <propbank>
-          <rel relloc="17">веди</rel>
-          <arg type="ARG1" start="18" end="18">меня</arg>
-          <arg type="ARG3" start="19" end="21">к его соратнику</arg>
-        </propbank>
-      </example>
-      <example name="figurative" src="">
-        <text>Ну , суровая реальность говорит нам о том , что многие великие личности , выходцы из простонародья , навсегда покидали свою малую Родину , дабы вести свою ветвь развития по восходящей , а не наоборот .</text>
-        <propbank>
-          <rel relloc="25">вести</rel>
-          <arg type="ARG1" start="26" end="28">свою ветвь развития</arg>
-          <arg type="ARG2" start="29" end="30">по восходящей</arg>
-        </propbank>
-      </example>
-      <example name="by hand" src="Russian National Corpus. [Сати Спивакова. Не всё (2002)]">
-        <text>Она вела его под руку ( он тогда неважно ходил , хотя всю жизнь был по натуре живчик , занимался йогой , стоял на голове , прыгал ) .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Она</arg>
-          <rel relloc="1">вела</rel>
-          <arg type="ARG1" start="2" end="2">его</arg>
-          <arg type="ARG3" start="3" end="4">под руку</arg>
-        </propbank>
-      </example>
-      <example name="figurative example" src="">
-        <text>Если всё так , как Вы написали и мама - единственная , милая , родная и любимая , то и делитесь с ней с благодарностью дарами своей души , а коль скоро эта помощь оставляет опустошение и будит гамму негативных чувств внутри , то , скорее всего , Вас ведёт желание соответствовать общественным стандартам , любви здесь нет .</text>
-        <propbank>
-          <arg type="ARG1" start="48" end="48">Вас</arg>
-          <rel relloc="49">ведёт</rel>
-          <arg type="ARG0" start="50" end="53">желание соответствовать общественным стандартам</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="вести.03" name="drive or operate a vehicle, or be driven">
-      <aliases>
-        <alias pos="j">ведущий</alias>
-        <alias pos="j">ведший</alias>
-        <alias pos="j">ведомый</alias>
-        <alias pos="j">ведённый</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="v">водить</alias>
-        <alias pos="j">водящий</alias>
-        <alias pos="j">водивший</alias>
-        <alias pos="j">водимый</alias>
-        <alias pos="j">воженный</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="v">повести</alias>
-        <alias pos="j">поведший</alias>
-        <alias pos="j">поведённый</alias>
-        <alias pos="j">поведенный</alias>
-        <alias pos="n">вождение</alias>
-        <alias pos="n">ведение</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 3</note>
-      <note>вести.03 NOTES: Based on English drive.01</note>
-      <roles>
-        <role descr="driver" f="PAG" n="0"/>
-        <role descr="vehicle or path" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="drive.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="drive a car" src="">
-        <text>У нас у знакомых так девушку " развели на деньги " за то , что она вела машину в туфлях на каблуке .</text>
-        <propbank>
-          <arg type="ARG0" start="15" end="15">она</arg>
-          <rel relloc="16">вела</rel>
-          <arg type="ARG1" start="17" end="17">машину</arg>
-          <arg type="ARGM-ADV" start="18" end="21">в туфлях на каблуке</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="вести.04" name="supervise, be a project leader or chair">
-      <aliases>
-        <alias pos="j">ведущий</alias>
-        <alias pos="j">ведший</alias>
-        <alias pos="j">ведомый</alias>
-        <alias pos="j">ведённый</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="v">повести</alias>
-        <alias pos="j">поведший</alias>
-        <alias pos="j">поведённый</alias>
-        <alias pos="j">поведенный</alias>
-        <alias pos="n">ведение</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 8,10</note>
-      <note>вести.04 NOTES: Based on lead.02</note>
-      <roles>
-        <role descr="leader" f="PAG" n="0"/>
-        <role descr="entity led" f="PPT" n="1"/>
-        <role descr="proposition" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="lead.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="arg1" src="">
-        <text>На небольших четырех комнате дома Элиас минстр здравоохранения ЮАР , ведущим АНК юнионистов и бывший командир группы вооруженного крыла , Умконто ве Сизве доброжелателей и заклинило в открытом положении мало АНК флаги в их волосы и мужчина tooted на звуковой сигнал антилоп завернутые в АНК ленточек .</text>
-        <propbank>
-          <rel relloc="10">ведущим</rel>
-          <arg type="ARG1" start="11" end="12">АНК юнионистов</arg>
-        </propbank>
-      </example>
-      <example name="housekeeper" src="Russian National Corpus. [Алексей Варламов. Купавна // «Новый Мир», 2000]">
-        <text>У неё доставало сил вести этот большой дом , на всех готовить , обстирывать , шить и ходить по магазинам , отвозить на санках в ясли , отводить в детский сад или в школу внуков , покупать им подарки с сорокарублевой пенсии , дарить каждому по три рубля к Седьмому ноября , принимать гостей и ездить в гости самой к сыновьям и родственникам , благоразумно ладить с соседями , но никогда не сидеть на скамейке во дворе с другими бабками , не жаловаться на болячки и не обсуждать проходящих мимо .</text>
-        <propbank>
-          <rel relloc="4">вести</rel>
-          <arg type="ARG1" start="5" end="7">этот большой дом</arg>
-        </propbank>
-      </example>
-      <example name="chair a meeting" src="Russian National Corpus. [Жорес Алферов. Мы должны винить сами себя (2001)]">
-        <text>И когда Горбачев начал вести это собрание , то поднялся крик , свист ― коммунисты орали чуть ли не « Долой ! » .</text>
-        <propbank>
-          <rel relloc="4">вести</rel>
-          <arg type="ARG1" start="5" end="6">это собрание</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="вести.05" name="move something along a surface">
-      <aliases>
-        <alias pos="j">ведущий</alias>
-        <alias pos="j">ведший</alias>
-        <alias pos="j">ведомый</alias>
-        <alias pos="j">ведённый</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="v">водить</alias>
-        <alias pos="j">водящий</alias>
-        <alias pos="j">водивший</alias>
-        <alias pos="j">водимый</alias>
-        <alias pos="j">воженный</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="v">повести</alias>
-        <alias pos="j">поведший</alias>
-        <alias pos="j">поведённый</alias>
-        <alias pos="j">поведенный</alias>
-        <alias pos="n">вождение</alias>
-        <alias pos="n">ведение</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 5</note>
-      <note>вести.05 NOTES: Based on English walk.01, but figurative, ergative sense only</note>
-      <roles>
-        <role descr="walker, thing in motion" f="PAG" n="0"/>
-        <role descr="entity being moved" f="PPT" n="1"/>
-        <role descr="path/ underspecified location" f="LOC" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="walk.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="move eyes along lines" src="Russian National Corpus.  [В. Т. Шаламов. Колымские рассказы (1954-1961)]">
-        <text>Строчки прыгают перед глазами , когда я вслушиваюсь в радиопередачу , хотя автоматизм чтения сохраняется , я веду глазами по строчкам , и вдруг обнаруживается , что из только что прочитанного я не помню ничего .</text>
-        <propbank>
-          <arg type="ARG0" start="16" end="16">я</arg>
-          <rel relloc="17">веду</rel>
-          <arg type="ARG1" start="18" end="18">глазами</arg>
-          <arg type="ARG2" start="19" end="20">по строчкам</arg>
-        </propbank>
-      </example>
-      <example name="guide fingers" src="Russian National Corpus.  [А. Н. Толстой. Черная пятница (1924)]">
-        <text>Картошин по пути от нечего делать вёл пальцем по обоям тёмного коридора .</text>
-        <propbank>
-          <rel relloc="6">вёл</rel>
-          <arg type="ARG1" start="7" end="7">пальцем</arg>
-          <arg type="ARG2" start="8" end="11">по обоям тёмного коридора</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="вести.06" name="lead to, cause a result, have terminus">
-      <aliases>
-        <alias pos="j">ведущий</alias>
-        <alias pos="j">ведший</alias>
-        <alias pos="j">ведомый</alias>
-        <alias pos="j">ведённый</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="j">веденный</alias>
-        <alias pos="v">повести</alias>
-        <alias pos="j">поведший</alias>
-        <alias pos="j">поведённый</alias>
-        <alias pos="j">поведенный</alias>
-        <alias pos="n">ведение</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 4,6,7</note>
-      <note>вести.06 NOTES: somewhat based on lead.03. See also VerbNet "terminus" class.</note>
-      <roles>
-        <note>English Arg1-PPT has no match in Russian frame</note>
-        <note>English Arg2-PRD = Russian Arg2-GOL</note>
-        <note>Russian Arg3-DIR has no match in English frame</note>
-        <role descr="factors, thing leading to something" f="PAG" n="0"/>
-        <role descr="destination, result, action or attribute on arg1" f="GOL" n="2"/>
-        <role descr="source" f="DIR" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="lead.03" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="arg1 and arg2" src="">
-        <text>Пограничная полиция и спасатели Аргентины убирают покрытые пеплом деревья из реки , ведущей к озеру во избежании затора воды в Вилла Ла Ангостура , южная Аргентина .</text>
-        <propbank>
-          <rel relloc="12">ведущей</rel>
-          <arg type="ARG2" start="13" end="14">к озеру</arg>
-        </propbank>
-      </example>
-      <example name="all args" src="">
-        <text>Другой дороге , ведущей от южной границы города Рафах в Хан - Юнис будет открыт в течение 10 ДАВС , сказал он</text>
-        <propbank>
-          <rel relloc="3">ведущей</rel>
-          <arg type="ARG3" start="4" end="8">от южной границы города Рафах</arg>
-          <arg type="ARG2" start="9" end="12">в Хан - Юнис</arg>
-        </propbank>
-      </example>
-      <example name="link to" src="">
-        <text>Отдельной же темы про Сиде 2006 нет , твоя ссылка ведет на твою страничку</text>
-        <propbank>
-          <arg type="ARG1" start="8" end="9">твоя ссылка</arg>
-          <rel relloc="10">ведет</rel>
-          <arg type="ARG2" start="11" end="13">на твою страничку</arg>
-        </propbank>
-      </example>
-      <example name="result in" src="">
-        <text>Главными причинами столь высокой аварийности в Главном штабе ВВС считают крайне низкую натренированность экипажей , что ведет к утрате ими летных навыков , а также фактическую потерю квалификации должностными лицами , отвечающими за организацию полетов и управление ими .</text>
-        <propbank>
-          <rel relloc="16">ведет</rel>
-          <arg type="ARG2" start="17" end="21">к утрате ими летных навыков</arg>
-        </propbank>
-      </example>
-      <example name="active adjectival participal, result in" src="">
-        <text>Почему то наш народ так устроен , что в момент опасности он моментально может " собраться с силами " : появляется ярко выраженная сплоченность , четкость мышления , появляется упрямая целеустремленность , ведущая к победе</text>
-        <propbank>
-          <rel relloc="32">ведущая</rel>
-          <arg type="ARG2" start="33" end="34">к победе</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="вести.07" name="remain unmoved, don't pay attention, be unaffected emotionally or cognitively">
-      <aliases>
-      </aliases>
-      <note>Corresponds to FrameBank sense 15</note>
-      <note>вести.07 NOTES: based on move.05</note>
-      <roles>
-        <role descr="(non) attender" f="PAG" n="0">
-        </role>
-        <role descr="(non) experiencer of emotion or attention" f="PPT" n="1">
-        </role>
-        <role descr="indicator of emotion or attention" f="MNR" n="2">
-        </role>
-      </roles>
-      <lexlinks>
-        <lexlink class="move.05" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="бровью не ведёт" src="Russian National Corpus. [Булат Окуджава. Новенький как с иголочки (1962)]">
-        <text>А Саша Абношкин , как самый неумолимый судья , и бровью не ведёт .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">А</arg>
-          <arg type="ARG0" start="1" end="7">Саша Абношкин , как самый неумолимый судья</arg>
-          <arg type="ARGM-ADV" start="9" end="9">и</arg>
-          <arg type="ARG1" start="10" end="10">бровью</arg>
-          <arg type="ARGM-NEG" start="11" end="11">не</arg>
-          <rel relloc="12">ведёт</rel>
-        </propbank>
-      </example>
-      <example name="ухом не ведёт" src=" Russian National Corpus. [Владимир Кунин. Кыся (1998-2000)] ">
-        <text>Она теперь ко мне то и дело подлизывается , но я и ухом не веду в ее сторону .</text>
-        <propbank>
-          <arg type="ARG0" start="10" end="10">я</arg>
-          <arg type="ARGM-ADV" start="11" end="11">и</arg>
-          <arg type="ARG1" start="12" end="12">ухом</arg>
-          <arg type="ARGM-NEG" start="13" end="13">не</arg>
-          <rel relloc="14">веду</rel>
-          <arg type="ARG2" start="15" end="17">в ее сторону</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="вестись">
-    <roleset id="вестись.08" name="be influenced, usually with negative outcomes; deceived; led astray">
-      <aliases>
-      </aliases>
-      <note>вестись.08 NOTES: based on misguide.01</note>
-      <roles>
-        <role descr="agent, causer of misdirection" f="PAG" n="0">
-        </role>
-        <role descr="misguided one" f="PPT" n="1">
-        </role>
-        <role descr="misguided actions" f="PPT" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="misguide.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="influenced by other's opinion" src="Russian National Corpus">
-        <text>Думал , что выиграю при любых раскладах . Повелся на мнение людей , которые думали так же</text>
-        <propbank>
-          <rel relloc="8">Повелся</rel>
-          <arg type="ARG0" start="9" end="10">на мнение</arg>
-        </propbank>
-      </example>
-      <example name="by pointless questions" src="Russian National Corpus">
-        <text>Не надо вестись на опасные вопросы типа « А что , мы вас плохо воспитали ? » - ведь у них не бывает верных ответов .</text>
-        <propbank>
-          <rel relloc="2">вестись</rel>
-          <arg type="ARG0" start="3" end="16">на опасные вопросы типа « А что , мы вас плохо воспитали ? »</arg>
-          <arg type="ARGM-ADV" start="18" end="24">ведь у них не бывает верных ответов</arg>
-        </propbank>
-      </example>
-      <example name="gypped" src="Russian National Corpus">
-        <text>Однажды на Киевском вокзале я повелся на предложение одной цыганки . Но , кроме « развода » , ничего не увидел и поймал цыганку , которая хотела отнять у меня деньги .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="0">Однажды</arg>
-          <arg type="ARGM-LOC" start="1" end="3">на Киевском вокзале</arg>
-          <arg type="ARG1" start="4" end="4">я</arg>
-          <rel relloc="5">повелся</rel>
-          <arg type="ARG0" start="6" end="9">на предложение одной цыганки</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="вести_себя">
-    <roleset id="вести_себя.09" name="behave">
-      <aliases>
-        <alias pos="m">вести_себя</alias>
-        <mwp-descriptions id="вести_себя">
-          <syntaxdesc slots="A B">
-            <token slot="A" arg="" pos="" head="" dep="">вести</token>
-            <token slot="B" arg="" pos="" head="A" dep="">себя</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <note>вести_себя.09 NOTES: based on behave.01</note>
-      <roles>
-        <role descr="agent, entity behaving" f="PAG" n="0">
-        </role>
-        <role descr="manner" f="PRD" n="1">
-        </role>
-      </roles>
-      <lexlinks>
-        <lexlink class="behave.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="">
-        <text>- Один из мужчин – тот , который подозревается в убийстве , вел себя агрессивно , поэтому медикам ничего не оставалось , как привязать буйного пациента к кровати , – говорит Александр Владимирович .</text>
-        <propbank>
-          <arg type="ARG0" start="1" end="3">Один из мужчин</arg>
-          <rel relloc="12 13">вел себя</rel>
-          <arg type="ARG1" start="14" end="14">агрессивно</arg>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>Изучение свойств веществ , которые могут вырваться в атмосферу - какая высота подъема , как ведут себя в холод и дождь .</text>
-        <propbank>
-          <arg type="ARG1" start="14" end="14">как</arg>
-          <rel relloc="15 16">ведут себя</rel>
-          <arg type="ARGM-LOC" start="17" end="20">в холод и дождь</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="вести">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="вести.01" name="directed motion, be ahead of, lead">
+            <aliases>
+                <alias pos="j">ведущий</alias>
+                <alias pos="j">ведомый</alias>
+                <alias pos="j">ведённый</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="v">водить</alias>
+                <alias pos="j">водящий</alias>
+                <alias pos="j">водивший</alias>
+                <alias pos="j">водимый</alias>
+                <alias pos="j">воженный</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="v">повести</alias>
+                <alias pos="j">поведший</alias>
+                <alias pos="j">поведённый</alias>
+                <alias pos="j">поведенный</alias>
+                <alias pos="n">вождение</alias>
+                <alias pos="n">ведение</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,14</note>
+            <note>вести.01 NOTES: Based on English lead.01</note>
+            <roles>
+                <role descr="leader" f="PAG" n="0"/>
+                <role descr="in the lead of" f="PPT" n="1"/>
+                <role descr="extent, how far in front" f="EXT" n="2"/>
+                <role descr="start point" f="DIR" n="3"/>
+                <role descr="end point" f="GOL" n="4"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="lead.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="top candidate" src="">
+                <text>В качестве ведущих кандидатов на пост президента его страны в следующем году выборов , Марио
+                    Варгас как неизменяющиеся часто отражают реакционные политические стратегии должны быть в завидном
+                    положении .
+                </text>
+                <propbank>
+                    <rel relloc="2">ведущих</rel>
+                    <arg type="ARG0" start="3" end="8">кандидатов на пост президента его страны</arg>
+                    <arg type="ARGM-LOC" start="9" end="11">в следующем году</arg>
+                    <arg type="ARG1" start="12" end="12">выборов</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="вести.02" name="guide, direct, accompany">
+            <aliases>
+                <alias pos="j">ведущий</alias>
+                <alias pos="j">ведший</alias>
+                <alias pos="j">ведомый</alias>
+                <alias pos="j">ведённый</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="v">водить</alias>
+                <alias pos="j">водящий</alias>
+                <alias pos="j">водивший</alias>
+                <alias pos="j">водимый</alias>
+                <alias pos="j">воженный</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="v">повести</alias>
+                <alias pos="j">поведший</alias>
+                <alias pos="j">поведённый</alias>
+                <alias pos="j">поведенный</alias>
+                <alias pos="n">вождение</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 2</note>
+            <note>вести.02 NOTES: Based on English guide.01</note>
+            <roles>
+                <note>English Arg3-PRD = Russian ARG3-MNR</note>
+                <role descr="guide, agent" f="PAG" n="0"/>
+                <role descr="entity guided" f="PPT" n="1"/>
+                <role descr="guided to/in/through" f="LOC" n="2"/>
+                <role descr="manner of guiding, e.g. под руку" f="MNR" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="guide.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg1 and arg2" src="Russian National Corpus. [В. П. Катаев. Алмазный мой венец (1975-1977)]">
+                <text>― Тогда ладно , ― сказал королевич , ― не хочешь вести меня к Командору , так веди меня к его
+                    соратнику , а уж он меня наверняка подружит с самим .
+                </text>
+                <propbank>
+                    <rel relloc="17">веди</rel>
+                    <arg type="ARG1" start="18" end="18">меня</arg>
+                    <arg type="ARG3" start="19" end="21">к его соратнику</arg>
+                </propbank>
+            </example>
+            <example name="figurative" src="">
+                <text>Ну , суровая реальность говорит нам о том , что многие великие личности , выходцы из простонародья
+                    , навсегда покидали свою малую Родину , дабы вести свою ветвь развития по восходящей , а не наоборот
+                    .
+                </text>
+                <propbank>
+                    <rel relloc="25">вести</rel>
+                    <arg type="ARG1" start="26" end="28">свою ветвь развития</arg>
+                    <arg type="ARG2" start="29" end="30">по восходящей</arg>
+                </propbank>
+            </example>
+            <example name="by hand" src="Russian National Corpus. [Сати Спивакова. Не всё (2002)]">
+                <text>Она вела его под руку ( он тогда неважно ходил , хотя всю жизнь был по натуре живчик , занимался
+                    йогой , стоял на голове , прыгал ) .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Она</arg>
+                    <rel relloc="1">вела</rel>
+                    <arg type="ARG1" start="2" end="2">его</arg>
+                    <arg type="ARG3" start="3" end="4">под руку</arg>
+                </propbank>
+            </example>
+            <example name="figurative example" src="">
+                <text>Если всё так , как Вы написали и мама - единственная , милая , родная и любимая , то и делитесь с
+                    ней с благодарностью дарами своей души , а коль скоро эта помощь оставляет опустошение и будит гамму
+                    негативных чувств внутри , то , скорее всего , Вас ведёт желание соответствовать общественным
+                    стандартам , любви здесь нет .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="48" end="48">Вас</arg>
+                    <rel relloc="49">ведёт</rel>
+                    <arg type="ARG0" start="50" end="53">желание соответствовать общественным стандартам</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="вести.03" name="drive or operate a vehicle, or be driven">
+            <aliases>
+                <alias pos="j">ведущий</alias>
+                <alias pos="j">ведший</alias>
+                <alias pos="j">ведомый</alias>
+                <alias pos="j">ведённый</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="v">водить</alias>
+                <alias pos="j">водящий</alias>
+                <alias pos="j">водивший</alias>
+                <alias pos="j">водимый</alias>
+                <alias pos="j">воженный</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="v">повести</alias>
+                <alias pos="j">поведший</alias>
+                <alias pos="j">поведённый</alias>
+                <alias pos="j">поведенный</alias>
+                <alias pos="n">вождение</alias>
+                <alias pos="n">ведение</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 3</note>
+            <note>вести.03 NOTES: Based on English drive.01</note>
+            <roles>
+                <role descr="driver" f="PAG" n="0"/>
+                <role descr="vehicle or path" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="drive.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="drive a car" src="">
+                <text>У нас у знакомых так девушку " развели на деньги " за то , что она вела машину в туфлях на каблуке
+                    .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="15" end="15">она</arg>
+                    <rel relloc="16">вела</rel>
+                    <arg type="ARG1" start="17" end="17">машину</arg>
+                    <arg type="ARGM-ADV" start="18" end="21">в туфлях на каблуке</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="вести.04" name="supervise, be a project leader or chair">
+            <aliases>
+                <alias pos="j">ведущий</alias>
+                <alias pos="j">ведший</alias>
+                <alias pos="j">ведомый</alias>
+                <alias pos="j">ведённый</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="v">повести</alias>
+                <alias pos="j">поведший</alias>
+                <alias pos="j">поведённый</alias>
+                <alias pos="j">поведенный</alias>
+                <alias pos="n">ведение</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 8,10</note>
+            <note>вести.04 NOTES: Based on lead.02</note>
+            <roles>
+                <role descr="leader" f="PAG" n="0"/>
+                <role descr="entity led" f="PPT" n="1"/>
+                <role descr="proposition" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="lead.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg1" src="">
+                <text>На небольших четырех комнате дома Элиас минстр здравоохранения ЮАР , ведущим АНК юнионистов и
+                    бывший командир группы вооруженного крыла , Умконто ве Сизве доброжелателей и заклинило в открытом
+                    положении мало АНК флаги в их волосы и мужчина tooted на звуковой сигнал антилоп завернутые в АНК
+                    ленточек .
+                </text>
+                <propbank>
+                    <rel relloc="10">ведущим</rel>
+                    <arg type="ARG1" start="11" end="12">АНК юнионистов</arg>
+                </propbank>
+            </example>
+            <example name="housekeeper" src="Russian National Corpus. [Алексей Варламов. Купавна // «Новый Мир», 2000]">
+                <text>У неё доставало сил вести этот большой дом , на всех готовить , обстирывать , шить и ходить по
+                    магазинам , отвозить на санках в ясли , отводить в детский сад или в школу внуков , покупать им
+                    подарки с сорокарублевой пенсии , дарить каждому по три рубля к Седьмому ноября , принимать гостей и
+                    ездить в гости самой к сыновьям и родственникам , благоразумно ладить с соседями , но никогда не
+                    сидеть на скамейке во дворе с другими бабками , не жаловаться на болячки и не обсуждать проходящих
+                    мимо .
+                </text>
+                <propbank>
+                    <rel relloc="4">вести</rel>
+                    <arg type="ARG1" start="5" end="7">этот большой дом</arg>
+                </propbank>
+            </example>
+            <example name="chair a meeting"
+                     src="Russian National Corpus. [Жорес Алферов. Мы должны винить сами себя (2001)]">
+                <text>И когда Горбачев начал вести это собрание , то поднялся крик , свист ― коммунисты орали чуть ли не
+                    « Долой ! » .
+                </text>
+                <propbank>
+                    <rel relloc="4">вести</rel>
+                    <arg type="ARG1" start="5" end="6">это собрание</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="вести.05" name="move something along a surface">
+            <aliases>
+                <alias pos="j">ведущий</alias>
+                <alias pos="j">ведший</alias>
+                <alias pos="j">ведомый</alias>
+                <alias pos="j">ведённый</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="v">водить</alias>
+                <alias pos="j">водящий</alias>
+                <alias pos="j">водивший</alias>
+                <alias pos="j">водимый</alias>
+                <alias pos="j">воженный</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="v">повести</alias>
+                <alias pos="j">поведший</alias>
+                <alias pos="j">поведённый</alias>
+                <alias pos="j">поведенный</alias>
+                <alias pos="n">вождение</alias>
+                <alias pos="n">ведение</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 5</note>
+            <note>вести.05 NOTES: Based on English walk.01, but figurative, ergative sense only</note>
+            <roles>
+                <role descr="walker, thing in motion" f="PAG" n="0"/>
+                <role descr="entity being moved" f="PPT" n="1"/>
+                <role descr="path/ underspecified location" f="LOC" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="walk.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="move eyes along lines"
+                     src="Russian National Corpus.  [В. Т. Шаламов. Колымские рассказы (1954-1961)]">
+                <text>Строчки прыгают перед глазами , когда я вслушиваюсь в радиопередачу , хотя автоматизм чтения
+                    сохраняется , я веду глазами по строчкам , и вдруг обнаруживается , что из только что прочитанного я
+                    не помню ничего .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="16" end="16">я</arg>
+                    <rel relloc="17">веду</rel>
+                    <arg type="ARG1" start="18" end="18">глазами</arg>
+                    <arg type="ARG2" start="19" end="20">по строчкам</arg>
+                </propbank>
+            </example>
+            <example name="guide fingers" src="Russian National Corpus.  [А. Н. Толстой. Черная пятница (1924)]">
+                <text>Картошин по пути от нечего делать вёл пальцем по обоям тёмного коридора .</text>
+                <propbank>
+                    <rel relloc="6">вёл</rel>
+                    <arg type="ARG1" start="7" end="7">пальцем</arg>
+                    <arg type="ARG2" start="8" end="11">по обоям тёмного коридора</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="вести.06" name="lead to, cause a result, have terminus">
+            <aliases>
+                <alias pos="j">ведущий</alias>
+                <alias pos="j">ведший</alias>
+                <alias pos="j">ведомый</alias>
+                <alias pos="j">ведённый</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="j">веденный</alias>
+                <alias pos="v">повести</alias>
+                <alias pos="j">поведший</alias>
+                <alias pos="j">поведённый</alias>
+                <alias pos="j">поведенный</alias>
+                <alias pos="n">ведение</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 4,6,7</note>
+            <note>вести.06 NOTES: somewhat based on lead.03. See also VerbNet "terminus" class.</note>
+            <roles>
+                <note>English Arg1-PPT has no match in Russian frame</note>
+                <note>English Arg2-PRD = Russian Arg2-GOL</note>
+                <note>Russian Arg3-DIR has no match in English frame</note>
+                <role descr="factors, thing leading to something" f="PAG" n="0"/>
+                <role descr="destination, result, action or attribute on arg1" f="GOL" n="2"/>
+                <role descr="source" f="DIR" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="lead.03" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg1 and arg2" src="">
+                <text>Пограничная полиция и спасатели Аргентины убирают покрытые пеплом деревья из реки , ведущей к
+                    озеру во избежании затора воды в Вилла Ла Ангостура , южная Аргентина .
+                </text>
+                <propbank>
+                    <rel relloc="12">ведущей</rel>
+                    <arg type="ARG2" start="13" end="14">к озеру</arg>
+                </propbank>
+            </example>
+            <example name="all args" src="">
+                <text>Другой дороге , ведущей от южной границы города Рафах в Хан - Юнис будет открыт в течение 10 ДАВС
+                    , сказал он
+                </text>
+                <propbank>
+                    <rel relloc="3">ведущей</rel>
+                    <arg type="ARG3" start="4" end="8">от южной границы города Рафах</arg>
+                    <arg type="ARG2" start="9" end="12">в Хан - Юнис</arg>
+                </propbank>
+            </example>
+            <example name="link to" src="">
+                <text>Отдельной же темы про Сиде 2006 нет , твоя ссылка ведет на твою страничку</text>
+                <propbank>
+                    <arg type="ARG1" start="8" end="9">твоя ссылка</arg>
+                    <rel relloc="10">ведет</rel>
+                    <arg type="ARG2" start="11" end="13">на твою страничку</arg>
+                </propbank>
+            </example>
+            <example name="result in" src="">
+                <text>Главными причинами столь высокой аварийности в Главном штабе ВВС считают крайне низкую
+                    натренированность экипажей , что ведет к утрате ими летных навыков , а также фактическую потерю
+                    квалификации должностными лицами , отвечающими за организацию полетов и управление ими .
+                </text>
+                <propbank>
+                    <rel relloc="16">ведет</rel>
+                    <arg type="ARG2" start="17" end="21">к утрате ими летных навыков</arg>
+                </propbank>
+            </example>
+            <example name="active adjectival participal, result in" src="">
+                <text>Почему то наш народ так устроен , что в момент опасности он моментально может " собраться с силами
+                    " : появляется ярко выраженная сплоченность , четкость мышления , появляется упрямая
+                    целеустремленность , ведущая к победе
+                </text>
+                <propbank>
+                    <rel relloc="32">ведущая</rel>
+                    <arg type="ARG2" start="33" end="34">к победе</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="вести.07" name="remain unmoved, don't pay attention, be unaffected emotionally or cognitively">
+            <aliases>
+            </aliases>
+            <note>Corresponds to FrameBank sense 15</note>
+            <note>вести.07 NOTES: based on move.05</note>
+            <roles>
+                <role descr="(non) attender" f="PAG" n="0">
+                </role>
+                <role descr="(non) experiencer of emotion or attention" f="PPT" n="1">
+                </role>
+                <role descr="indicator of emotion or attention" f="MNR" n="2">
+                </role>
+            </roles>
+            <lexlinks>
+                <lexlink class="move.05" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="бровью не ведёт"
+                     src="Russian National Corpus. [Булат Окуджава. Новенький как с иголочки (1962)]">
+                <text>А Саша Абношкин , как самый неумолимый судья , и бровью не ведёт .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">А</arg>
+                    <arg type="ARG0" start="1" end="7">Саша Абношкин , как самый неумолимый судья</arg>
+                    <arg type="ARGM-ADV" start="9" end="9">и</arg>
+                    <arg type="ARG1" start="10" end="10">бровью</arg>
+                    <arg type="ARGM-NEG" start="11" end="11">не</arg>
+                    <rel relloc="12">ведёт</rel>
+                </propbank>
+            </example>
+            <example name="ухом не ведёт" src=" Russian National Corpus. [Владимир Кунин. Кыся (1998-2000)] ">
+                <text>Она теперь ко мне то и дело подлизывается , но я и ухом не веду в ее сторону .</text>
+                <propbank>
+                    <arg type="ARG0" start="10" end="10">я</arg>
+                    <arg type="ARGM-ADV" start="11" end="11">и</arg>
+                    <arg type="ARG1" start="12" end="12">ухом</arg>
+                    <arg type="ARGM-NEG" start="13" end="13">не</arg>
+                    <rel relloc="14">веду</rel>
+                    <arg type="ARG2" start="15" end="17">в ее сторону</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="вестись">
+        <roleset id="вестись.08" name="be influenced, usually with negative outcomes; deceived; led astray">
+            <aliases>
+            </aliases>
+            <note>вестись.08 NOTES: based on misguide.01</note>
+            <roles>
+                <role descr="agent, causer of misdirection" f="PAG" n="0">
+                </role>
+                <role descr="misguided one" f="PPT" n="1">
+                </role>
+                <role descr="misguided actions" f="PPT" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="misguide.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="influenced by other's opinion" src="Russian National Corpus">
+                <text>Думал , что выиграю при любых раскладах . Повелся на мнение людей , которые думали так же</text>
+                <propbank>
+                    <rel relloc="8">Повелся</rel>
+                    <arg type="ARG0" start="9" end="10">на мнение</arg>
+                </propbank>
+            </example>
+            <example name="by pointless questions" src="Russian National Corpus">
+                <text>Не надо вестись на опасные вопросы типа « А что , мы вас плохо воспитали ? » - ведь у них не
+                    бывает верных ответов .
+                </text>
+                <propbank>
+                    <rel relloc="2">вестись</rel>
+                    <arg type="ARG0" start="3" end="16">на опасные вопросы типа « А что , мы вас плохо воспитали ? »
+                    </arg>
+                    <arg type="ARGM-ADV" start="18" end="24">ведь у них не бывает верных ответов</arg>
+                </propbank>
+            </example>
+            <example name="gypped" src="Russian National Corpus">
+                <text>Однажды на Киевском вокзале я повелся на предложение одной цыганки . Но , кроме « развода » ,
+                    ничего не увидел и поймал цыганку , которая хотела отнять у меня деньги .
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="0">Однажды</arg>
+                    <arg type="ARGM-LOC" start="1" end="3">на Киевском вокзале</arg>
+                    <arg type="ARG1" start="4" end="4">я</arg>
+                    <rel relloc="5">повелся</rel>
+                    <arg type="ARG0" start="6" end="9">на предложение одной цыганки</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="вести_себя">
+        <roleset id="вести_себя.09" name="behave">
+            <aliases>
+                <alias pos="m">вести_себя</alias>
+                <mwp-descriptions id="вести_себя">
+                    <syntaxdesc slots="A B">
+                        <token slot="A" arg="" pos="" head="" dep="">вести</token>
+                        <token slot="B" arg="" pos="" head="A" dep="">себя</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <note>вести_себя.09 NOTES: based on behave.01</note>
+            <roles>
+                <role descr="agent, entity behaving" f="PAG" n="0">
+                </role>
+                <role descr="manner" f="PRD" n="1">
+                </role>
+            </roles>
+            <lexlinks>
+                <lexlink class="behave.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="">
+                <text>- Один из мужчин – тот , который подозревается в убийстве , вел себя агрессивно , поэтому медикам
+                    ничего не оставалось , как привязать буйного пациента к кровати , – говорит Александр Владимирович .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="3">Один из мужчин</arg>
+                    <rel relloc="12 13">вел себя</rel>
+                    <arg type="ARG1" start="14" end="14">агрессивно</arg>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Изучение свойств веществ , которые могут вырваться в атмосферу - какая высота подъема , как ведут
+                    себя в холод и дождь .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="14" end="14">как</arg>
+                    <rel relloc="15 16">ведут себя</rel>
+                    <arg type="ARGM-LOC" start="17" end="20">в холод и дождь</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

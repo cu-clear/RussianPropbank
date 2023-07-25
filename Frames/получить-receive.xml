@@ -1,265 +1,306 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="получить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="получить.01" name="get, receive">
-      <aliases>
-        <alias pos="j">получивший</alias>
-        <alias pos="j">полученный</alias>
-        <alias pos="v">получать</alias>
-        <alias pos="j">получающий</alias>
-        <alias pos="j">получавший</alias>
-        <alias pos="j">получаемый</alias>
-        <alias pos="v">получиться</alias>
-        <alias pos="j">получившийся</alias>
-        <alias pos="v">получаться</alias>
-        <alias pos="j">получающийся</alias>
-        <alias pos="j">получавшийся</alias>
-        <alias pos="n">получение</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2,3,5</note>
-      <note>получить.01 NOTES: Roleset based on verb frame get.01</note>
-      <roles>
-        <role descr="receiver" f="PAG" n="0"/>
-        <role descr="thing gotten" f="PPT" n="1"/>
-        <role descr="giver" f="DIR" n="2"/>
-        <role descr="price paid/exchange for" f="vsp" n="3"/>
-        <role descr="beneficiary" f="GOL" n="4"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="get.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="receive awards" src="Russian National Corpus. [коллективный. Форум: Рецензия на фильм «Поймай меня, если сможешь» (2006-2011)]">
-        <text>Фильм не зря входит в топы и получил в свое время массу наград .</text>
-        <propbank>
-          <rel relloc="7">получил</rel>
-          <arg type="ARGM-TMP" start="8" end="10">в свое время</arg>
-          <arg type="ARG1" start="11" end="12">массу наград</arg>
-        </propbank>
-      </example>
-      <example name="receive awards" src="Russian National Corpus. [коллективный. Форум: Универ (институт) VS школа. Плюсы и минусы. Где в итоге лучше и почему? (2011)]">
-        <text>Открывает , просматривает и комментирует : « Ммм , языкознание пять , похвально … Ого , вы получили у преподавателя * * * * * отлично ? ! как вам это удалось ?</text>
-        <propbank>
-          <arg type="ARG0" start="16" end="16">вы</arg>
-          <rel relloc="17">получили</rel>
-          <arg type="ARG2" start="18" end="19">у преподавателя</arg>
-          <arg type="ARG1" start="25" end="25">отлично</arg>
-        </propbank>
-      </example>
-      <example name="all arguments" src="">
-        <text>Возьмите любого режиссёра того времени ( эпохи ) - получите тот же самый так называемый гламур : те же глазки , бровки , тщательные причёсочки , выщпанные бровки - аля Грета Гарбо - и т . д . и т . п .</text>
-        <propbank>
-          <rel relloc="9">получите</rel>
-          <arg type="ARG1" start="10" end="15">тот же самый так называемый гламур</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as passive" src="Russian National Corpus. [П. Н. Милюков. Воспоминания (1859—1917). Том второй (1940-1943)]">
-        <text>После семи часов получалась петербургская почта с письмами императрицы , которая день за днем сообщала о политических событиях , давала советы и диктовала решения , которые , по своей определенности и настойчивости , не уступали планам Алексеева .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="2">После семи часов</arg>
-          <rel relloc="3">получалась</rel>
-          <arg type="ARG1" start="4" end="8">петербургская почта с письмами императрицы</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="получить.02" name="get hit/punched/punished">
-      <aliases>
-        <alias pos="v">получать</alias>
-        <alias pos="j">получающий</alias>
-        <alias pos="j">получавший</alias>
-        <alias pos="j">получаемый</alias>
-        <alias pos="v">получиться</alias>
-        <alias pos="j">получившийся</alias>
-        <alias pos="v">получаться</alias>
-        <alias pos="j">получающийся</alias>
-        <alias pos="j">получавшийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 4,7</note>
-      <note>получить.02 NOTES: based on injure.01 but there is usually no agent causing injury</note>
-      <roles>
-        <role descr="actor" f="PAG" n="0"/>
-        <role descr="experiencer of injury/punishment" f="PPT" n="1"/>
-        <role descr="thing hit or injured" f="PPT" n="2"/>
-        <role descr="instrument" f="mnr" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="injure.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="all arguments" src="">
-        <text>от девушки он получил по морде книгой за оскорбления .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="1">от девушки</arg>
-          <arg type="ARG1" start="2" end="2">он</arg>
-          <rel relloc="3">получил</rel>
-          <arg type="ARG2" start="4" end="5">по морде</arg>
-          <arg type="ARG3" start="6" end="6">книгой</arg>
-          <arg type="ARGM-CAU" start="7" end="8">за оскорбления</arg>
-        </propbank>
-      </example>
-      <example name="got it in the teeth" src="">
-        <text>С людями мы вежливые , потому что можно получить * PRO * в зубы .</text>
-        <propbank>
-          <arg type="ARGM-MOD" start="7" end="7">можно</arg>
-          <rel relloc="8">получить</rel>
-          <arg type="ARG2" start="12" end="13">в зубы</arg>
-        </propbank>
-      </example>
-      <example name="arg 1 and 2" src="">
-        <text>region27 Логично , не знаю как у вас в районе , но своего шерифа мля местного я ниразу в глаза не видел , а за чищеный капот в ухо получил дворник , помощьник хренов метлой мля снег сметал с машин , типо говорит вы все равно чистить будете , а мне двойную работу делать</text>
-        <propbank>
-          <arg type="ARGM-CAU" start="24" end="26">за чищеный капот</arg>
-          <arg type="ARG2" start="27" end="28">в ухо</arg>
-          <rel relloc="29">получил</rel>
-          <arg type="ARG1" start="30" end="30">дворник</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="получить.03" name="get, extract, produce, manufacture">
-      <aliases>
-        <alias pos="v">получать</alias>
-        <alias pos="j">получивший</alias>
-        <alias pos="j">полученный</alias>
-        <alias pos="j">получающий</alias>
-        <alias pos="j">получавший</alias>
-        <alias pos="j">получаемый</alias>
-        <alias pos="v">получиться</alias>
-        <alias pos="j">получившийся</alias>
-        <alias pos="v">получаться</alias>
-        <alias pos="j">получающийся</alias>
-        <alias pos="j">получавшийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 6</note>
-      <note>NOTES: based on extract.01 but it has a different meaning</note>
-      <roles>
-        <role descr="agent " f="PAG" n="0"/>
-        <role descr="thing actively gotten" f="PPT" n="1"/>
-        <role descr="entity arg1 is got from" f="DIR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="extract.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="adjectival form" src="Russian National Corpus. [Герман Дмитриев. Домна, не требующая кокса // «Техника - молодежи», 1987]">
-        <text>Остается добавить , что чугун , полученный без кокса , превосходно переделывается в сталь в мартенах , конвертерах и дуговых электропечах .</text>
-        <propbank>
-          <rel relloc="6">полученный</rel>
-          <arg type="ARG1" start="?" end="?">*PRO*</arg>
-          <arg type="ARGM-MNR" start="7" end="8">без кокса</arg>
-        </propbank>
-      </example>
-      <example name="imperfective impersonal" src="Russian National Corpus. [Борис Розен. На подступах к синтетическому горючему // «Техника - молодежи», 1987]">
-        <text>И в угле , и в нефти , из которой , как известно , получают бензин и другие моторные топлива , встречаются пять одних и тех же основных элементов : углерод , водород , кислород , азот , сера .</text>
-        <propbank>
-          <arg type="ARG2" start="8" end="9">из которой</arg>
-          <arg type="ARGM-ADV" start="11" end="12">как известно</arg>
-          <rel relloc="14">получают</rel>
-          <arg type="ARG1" start="15" end="19">бензин и другие моторные топлива</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as passive" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7180">
-        <text>А что при такой проверке могут получиться самые неожиданные результаты , он скоро попытается доказать .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="1">А что</arg>
-          <arg type="ARGM-TMP" start="2" end="4">при такой проверке</arg>
-          <rel relloc="6">получиться</rel>
-          <arg type="ARG1" start="7" end="9">самые неожиданные результаты</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="получить.LV" name="light verb">
-      <aliases>
-        <alias pos="v">получать</alias>
-      </aliases>
-      <roles>
-      </roles>
-      <example name="receive an injury" src="">
-        <text>800 человек получили ранения</text>
-        <propbank>
-          <rel relloc="2">получили</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="получиться">
-    <roleset id="получиться.04" name="succeed, happen">
-      <aliases>
-        <alias pos="j">получившийся</alias>
-        <alias pos="v">получаться</alias>
-        <alias pos="j">получающийся</alias>
-        <alias pos="j">получавшийся</alias>
-      </aliases>
-      <note>NOTES: based on succeed.01 but no agent</note>
-      <roles>
-        <role descr="task, goal succeeding" f="PPT" n="1"/>
-        <role descr="benefactive" f="PPT" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="succeed.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="eventive arg1" src="Эльвира Савкина, «Если нужно, могу выпустить когти», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Человек может быть счастлив от общения с другим человеком , оттого , что у него выздоровел друг или получилось сделать то , о чем он давно мечтал .</text>
-        <propbank>
-          <rel relloc="18">получилось</rel>
-          <arg type="ARG1" start="19" end="26">сделать то , о чем он давно мечтал</arg>
-        </propbank>
-      </example>
-      <example name="clausal arg1" src="Мария Пупшева, «На крыше дома твоего», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>А то может получиться , что хотели обитать в мезонине , а окажетесь в бельведере на морозном зимнем воздухе .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="1">А то</arg>
-          <rel relloc="3">получиться</rel>
-          <arg type="ARG1" start="5" end="18">что хотели обитать в мезонине , а окажетесь в бельведере на морозном зимнем воздухе</arg>
-        </propbank>
-      </example>
-      <example name="clausal arg1" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7182">
-        <text>Но взаимопонимания не получилось .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">Но</arg>
-          <arg type="ARG1" start="1" end="1">взаимопонимания</arg>
-          <rel relloc="3">получилось</rel>
-        </propbank>
-      </example>
-      <example name="all args" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7183">
-        <text>Чуть раньше Амнерис я спела в " Аиде " Верховную жрицу , и эта партия получилась у меня легко .</text>
-        <propbank>
-          <arg type="ARG1" start="13" end="14">эта партия</arg>
-          <rel relloc="15">получилась</rel>
-          <arg type="ARG2" start="16" end="17">у меня</arg>
-          <arg type="ARGM-ADV" start="18" end="18">легко</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="получиться.05" name="turn out (to be)">
-      <aliases>
-        <alias pos="j">получившийся</alias>
-        <alias pos="v">получаться</alias>
-        <alias pos="j">получающийся</alias>
-        <alias pos="j">получавшийся</alias>
-      </aliases>
-      <note>NOTES: based on turn_out.11 but no benefactive?</note>
-      <roles>
-        <role descr="thing seeming, changing" f="PPT" n="1"/>
-        <role descr="attribute" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="turn_out.11" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="all args" src="Владимир Лукашик, Елена Иванова, «Сборник задач по физике. 7-9 кл.», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>При заполнении цилиндрического сосуда жидкостью менее плотной , чем вода , высота столба получилась бы больше .</text>
-        <propbank>
-          <arg type="ARG1" start="11" end="12">высота столба</arg>
-          <rel relloc="13">получилась</rel>
-          <arg type="ARG2" start="15" end="15">больше</arg>
-        </propbank>
-      </example>
-      <example name="instrumental arg2" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7185">
-        <text>Калькулятор получился достаточно компактным , чтобы его можно было уместить на офисном столе</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Калькулятор</arg>
-          <rel relloc="1">получился</rel>
-          <arg type="ARG2" start="2" end="3">достаточно компактным</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="получить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="получить.01" name="get, receive">
+            <aliases>
+                <alias pos="j">получивший</alias>
+                <alias pos="j">полученный</alias>
+                <alias pos="v">получать</alias>
+                <alias pos="j">получающий</alias>
+                <alias pos="j">получавший</alias>
+                <alias pos="j">получаемый</alias>
+                <alias pos="v">получиться</alias>
+                <alias pos="j">получившийся</alias>
+                <alias pos="v">получаться</alias>
+                <alias pos="j">получающийся</alias>
+                <alias pos="j">получавшийся</alias>
+                <alias pos="n">получение</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,3,5</note>
+            <note>получить.01 NOTES: Roleset based on verb frame get.01</note>
+            <roles>
+                <role descr="receiver" f="PAG" n="0"/>
+                <role descr="thing gotten" f="PPT" n="1"/>
+                <role descr="giver" f="DIR" n="2"/>
+                <role descr="price paid/exchange for" f="vsp" n="3"/>
+                <role descr="beneficiary" f="GOL" n="4"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="get.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="receive awards"
+                     src="Russian National Corpus. [коллективный. Форум: Рецензия на фильм «Поймай меня, если сможешь» (2006-2011)]">
+                <text>Фильм не зря входит в топы и получил в свое время массу наград .</text>
+                <propbank>
+                    <rel relloc="7">получил</rel>
+                    <arg type="ARGM-TMP" start="8" end="10">в свое время</arg>
+                    <arg type="ARG1" start="11" end="12">массу наград</arg>
+                </propbank>
+            </example>
+            <example name="receive awards"
+                     src="Russian National Corpus. [коллективный. Форум: Универ (институт) VS школа. Плюсы и минусы. Где в итоге лучше и почему? (2011)]">
+                <text>Открывает , просматривает и комментирует : « Ммм , языкознание пять , похвально … Ого , вы
+                    получили у преподавателя * * * * * отлично ? ! как вам это удалось ?
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="16" end="16">вы</arg>
+                    <rel relloc="17">получили</rel>
+                    <arg type="ARG2" start="18" end="19">у преподавателя</arg>
+                    <arg type="ARG1" start="25" end="25">отлично</arg>
+                </propbank>
+            </example>
+            <example name="all arguments" src="">
+                <text>Возьмите любого режиссёра того времени ( эпохи ) - получите тот же самый так называемый гламур :
+                    те же глазки , бровки , тщательные причёсочки , выщпанные бровки - аля Грета Гарбо - и т . д . и т .
+                    п .
+                </text>
+                <propbank>
+                    <rel relloc="9">получите</rel>
+                    <arg type="ARG1" start="10" end="15">тот же самый так называемый гламур</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive"
+                     src="Russian National Corpus. [П. Н. Милюков. Воспоминания (1859—1917). Том второй (1940-1943)]">
+                <text>После семи часов получалась петербургская почта с письмами императрицы , которая день за днем
+                    сообщала о политических событиях , давала советы и диктовала решения , которые , по своей
+                    определенности и настойчивости , не уступали планам Алексеева .
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="2">После семи часов</arg>
+                    <rel relloc="3">получалась</rel>
+                    <arg type="ARG1" start="4" end="8">петербургская почта с письмами императрицы</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="получить.02" name="get hit/punched/punished">
+            <aliases>
+                <alias pos="v">получать</alias>
+                <alias pos="j">получающий</alias>
+                <alias pos="j">получавший</alias>
+                <alias pos="j">получаемый</alias>
+                <alias pos="v">получиться</alias>
+                <alias pos="j">получившийся</alias>
+                <alias pos="v">получаться</alias>
+                <alias pos="j">получающийся</alias>
+                <alias pos="j">получавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 4,7</note>
+            <note>получить.02 NOTES: based on injure.01 but there is usually no agent causing injury</note>
+            <roles>
+                <role descr="actor" f="PAG" n="0"/>
+                <role descr="experiencer of injury/punishment" f="PPT" n="1"/>
+                <role descr="thing hit or injured" f="PPT" n="2"/>
+                <role descr="instrument" f="mnr" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="injure.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all arguments" src="">
+                <text>от девушки он получил по морде книгой за оскорбления .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">от девушки</arg>
+                    <arg type="ARG1" start="2" end="2">он</arg>
+                    <rel relloc="3">получил</rel>
+                    <arg type="ARG2" start="4" end="5">по морде</arg>
+                    <arg type="ARG3" start="6" end="6">книгой</arg>
+                    <arg type="ARGM-CAU" start="7" end="8">за оскорбления</arg>
+                </propbank>
+            </example>
+            <example name="got it in the teeth" src="">
+                <text>С людями мы вежливые , потому что можно получить * PRO * в зубы .</text>
+                <propbank>
+                    <arg type="ARGM-MOD" start="7" end="7">можно</arg>
+                    <rel relloc="8">получить</rel>
+                    <arg type="ARG2" start="12" end="13">в зубы</arg>
+                </propbank>
+            </example>
+            <example name="arg 1 and 2" src="">
+                <text>region27 Логично , не знаю как у вас в районе , но своего шерифа мля местного я ниразу в глаза не
+                    видел , а за чищеный капот в ухо получил дворник , помощьник хренов метлой мля снег сметал с машин ,
+                    типо говорит вы все равно чистить будете , а мне двойную работу делать
+                </text>
+                <propbank>
+                    <arg type="ARGM-CAU" start="24" end="26">за чищеный капот</arg>
+                    <arg type="ARG2" start="27" end="28">в ухо</arg>
+                    <rel relloc="29">получил</rel>
+                    <arg type="ARG1" start="30" end="30">дворник</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="получить.03" name="get, extract, produce, manufacture">
+            <aliases>
+                <alias pos="v">получать</alias>
+                <alias pos="j">получивший</alias>
+                <alias pos="j">полученный</alias>
+                <alias pos="j">получающий</alias>
+                <alias pos="j">получавший</alias>
+                <alias pos="j">получаемый</alias>
+                <alias pos="v">получиться</alias>
+                <alias pos="j">получившийся</alias>
+                <alias pos="v">получаться</alias>
+                <alias pos="j">получающийся</alias>
+                <alias pos="j">получавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 6</note>
+            <note>NOTES: based on extract.01 but it has a different meaning</note>
+            <roles>
+                <role descr="agent " f="PAG" n="0"/>
+                <role descr="thing actively gotten" f="PPT" n="1"/>
+                <role descr="entity arg1 is got from" f="DIR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="extract.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="adjectival form"
+                     src="Russian National Corpus. [Герман Дмитриев. Домна, не требующая кокса // «Техника - молодежи», 1987]">
+                <text>Остается добавить , что чугун , полученный без кокса , превосходно переделывается в сталь в
+                    мартенах , конвертерах и дуговых электропечах .
+                </text>
+                <propbank>
+                    <rel relloc="6">полученный</rel>
+                    <arg type="ARG1" start="?" end="?">*PRO*</arg>
+                    <arg type="ARGM-MNR" start="7" end="8">без кокса</arg>
+                </propbank>
+            </example>
+            <example name="imperfective impersonal"
+                     src="Russian National Corpus. [Борис Розен. На подступах к синтетическому горючему // «Техника - молодежи», 1987]">
+                <text>И в угле , и в нефти , из которой , как известно , получают бензин и другие моторные топлива ,
+                    встречаются пять одних и тех же основных элементов : углерод , водород , кислород , азот , сера .
+                </text>
+                <propbank>
+                    <arg type="ARG2" start="8" end="9">из которой</arg>
+                    <arg type="ARGM-ADV" start="11" end="12">как известно</arg>
+                    <rel relloc="14">получают</rel>
+                    <arg type="ARG1" start="15" end="19">бензин и другие моторные топлива</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7180">
+                <text>А что при такой проверке могут получиться самые неожиданные результаты , он скоро попытается
+                    доказать .
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="1">А что</arg>
+                    <arg type="ARGM-TMP" start="2" end="4">при такой проверке</arg>
+                    <rel relloc="6">получиться</rel>
+                    <arg type="ARG1" start="7" end="9">самые неожиданные результаты</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="получить.LV" name="light verb">
+            <aliases>
+                <alias pos="v">получать</alias>
+            </aliases>
+            <roles>
+            </roles>
+            <example name="receive an injury" src="">
+                <text>800 человек получили ранения</text>
+                <propbank>
+                    <rel relloc="2">получили</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="получиться">
+        <roleset id="получиться.04" name="succeed, happen">
+            <aliases>
+                <alias pos="j">получившийся</alias>
+                <alias pos="v">получаться</alias>
+                <alias pos="j">получающийся</alias>
+                <alias pos="j">получавшийся</alias>
+            </aliases>
+            <note>NOTES: based on succeed.01 but no agent</note>
+            <roles>
+                <role descr="task, goal succeeding" f="PPT" n="1"/>
+                <role descr="benefactive" f="PPT" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="succeed.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="eventive arg1"
+                     src="Эльвира Савкина, «Если нужно, могу выпустить когти», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Человек может быть счастлив от общения с другим человеком , оттого , что у него выздоровел друг
+                    или получилось сделать то , о чем он давно мечтал .
+                </text>
+                <propbank>
+                    <rel relloc="18">получилось</rel>
+                    <arg type="ARG1" start="19" end="26">сделать то , о чем он давно мечтал</arg>
+                </propbank>
+            </example>
+            <example name="clausal arg1"
+                     src="Мария Пупшева, «На крыше дома твоего», 2002 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>А то может получиться , что хотели обитать в мезонине , а окажетесь в бельведере на морозном
+                    зимнем воздухе .
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="1">А то</arg>
+                    <rel relloc="3">получиться</rel>
+                    <arg type="ARG1" start="5" end="18">что хотели обитать в мезонине , а окажетесь в бельведере на
+                        морозном зимнем воздухе
+                    </arg>
+                </propbank>
+            </example>
+            <example name="clausal arg1"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7182">
+                <text>Но взаимопонимания не получилось .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Но</arg>
+                    <arg type="ARG1" start="1" end="1">взаимопонимания</arg>
+                    <rel relloc="3">получилось</rel>
+                </propbank>
+            </example>
+            <example name="all args"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7183">
+                <text>Чуть раньше Амнерис я спела в " Аиде " Верховную жрицу , и эта партия получилась у меня легко .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="13" end="14">эта партия</arg>
+                    <rel relloc="15">получилась</rel>
+                    <arg type="ARG2" start="16" end="17">у меня</arg>
+                    <arg type="ARGM-ADV" start="18" end="18">легко</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="получиться.05" name="turn out (to be)">
+            <aliases>
+                <alias pos="j">получившийся</alias>
+                <alias pos="v">получаться</alias>
+                <alias pos="j">получающийся</alias>
+                <alias pos="j">получавшийся</alias>
+            </aliases>
+            <note>NOTES: based on turn_out.11 but no benefactive?</note>
+            <roles>
+                <role descr="thing seeming, changing" f="PPT" n="1"/>
+                <role descr="attribute" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="turn_out.11" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args"
+                     src="Владимир Лукашик, Елена Иванова, «Сборник задач по физике. 7-9 кл.», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>При заполнении цилиндрического сосуда жидкостью менее плотной , чем вода , высота столба
+                    получилась бы больше .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="11" end="12">высота столба</arg>
+                    <rel relloc="13">получилась</rel>
+                    <arg type="ARG2" start="15" end="15">больше</arg>
+                </propbank>
+            </example>
+            <example name="instrumental arg2"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=получиться&amp;cxid=7185">
+                <text>Калькулятор получился достаточно компактным , чтобы его можно было уместить на офисном столе
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Калькулятор</arg>
+                    <rel relloc="1">получился</rel>
+                    <arg type="ARG2" start="2" end="3">достаточно компактным</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

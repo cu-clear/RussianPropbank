@@ -27,7 +27,7 @@
                 </propbank>
             </example>
             <example name="ARG0 and ARG 1" src="RNC,  Наши дети: Малыши до года (форум) (2004)">
-                <text> Уже 7 утра, а я спать собираюсь .</text>
+                <text>Уже 7 утра, а я спать собираюсь .</text>
                 <propbank>
                     <arg type="ARG0" start="5" end="5">я</arg>
                     <rel relloc="7">собираюсь</rel>

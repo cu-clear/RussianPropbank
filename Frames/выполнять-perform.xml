@@ -1,67 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="выполнять">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="выполнять.01" name="perform, execute, fulfill">
-      <aliases>
-        <alias pos="v">выполнить</alias>
-        <alias pos="v">выполниться</alias>
-        <alias pos="v">выполняться</alias>
-      </aliases>
-      <note>выполнять.01 NOTES: Roleset based on English verb frame perform.02</note>
-      <note>Corresponds to FrameBank senses 1</note>
-      <roles>
-        <role descr="performer" f="PAG" n="0"/>
-        <role descr="performance, thing performed" f="PPT" n="1"/>
-        <role descr="instrument" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="perform.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg2-MNR has no equivalent in Russian frame</note>
-      <example name="arg1 and arg2" src="FrameBank">
-        <text>Космонавты выполнили ряд монтажных операций .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Космонавты</arg>
-          <rel relloc="1">выполнили</rel>
-          <arg type="ARG2" start="2" end="4">ряд монтажных операций</arg>
-        </propbank>
-      </example>
-      <example name="fulfill obligations" src="">
-        <text>Все служащие обязаны выполнять условия Политики Конфиденциальности</text>
-        <propbank>
-          <rel relloc="3">выполнять</rel>
-          <arg type="ARG1" start="4" end="6">условия Политики Конфиденциальности</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="выполнять.02" name="build, produce, create, make">
-      <aliases>
-        <alias pos="v">выполнить</alias>
-        <alias pos="v">выполниться</alias>
-        <alias pos="v">выполняться</alias>
-      </aliases>
-      <note>выполнять.02 NOTES: Roleset based on English verb frame manufacture.01</note>
-      <note>Corresponds to FrameBank senses 2</note>
-      <roles>
-        <role descr="creator" f="PAG" n="0"/>
-        <role descr="creation" f="PPT" n="1"/>
-        <role descr="created-from, thing changed" f="VSP" n="2"/>
-        <role descr="benefactive " f="GOL" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="manufacture.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="arg1, 2" src="">
-        <text>Электромотор был выполнен целиком из отечественных материалов .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Электромотор</arg>
-          <rel relloc="2">выполнен</rel>
-          <arg type="ARGM-ADV" start="3" end="3">целиком</arg>
-          <arg type="ARG2" start="4" end="6">из отечественных материалов</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="выполнять">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="выполнять.01" name="perform, execute, fulfill">
+            <aliases>
+                <alias pos="v">выполнить</alias>
+                <alias pos="v">выполниться</alias>
+                <alias pos="v">выполняться</alias>
+            </aliases>
+            <note>выполнять.01 NOTES: Roleset based on English verb frame perform.02</note>
+            <note>Corresponds to FrameBank senses 1</note>
+            <roles>
+                <role descr="performer" f="PAG" n="0"/>
+                <role descr="performance, thing performed" f="PPT" n="1"/>
+                <role descr="instrument" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="perform.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg2-MNR has no equivalent in Russian frame</note>
+            <example name="arg1 and arg2" src="FrameBank">
+                <text>Космонавты выполнили ряд монтажных операций .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Космонавты</arg>
+                    <rel relloc="1">выполнили</rel>
+                    <arg type="ARG2" start="2" end="4">ряд монтажных операций</arg>
+                </propbank>
+            </example>
+            <example name="fulfill obligations" src="">
+                <text>Все служащие обязаны выполнять условия Политики Конфиденциальности</text>
+                <propbank>
+                    <rel relloc="3">выполнять</rel>
+                    <arg type="ARG1" start="4" end="6">условия Политики Конфиденциальности</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="выполнять.02" name="build, produce, create, make">
+            <aliases>
+                <alias pos="v">выполнить</alias>
+                <alias pos="v">выполниться</alias>
+                <alias pos="v">выполняться</alias>
+            </aliases>
+            <note>выполнять.02 NOTES: Roleset based on English verb frame manufacture.01</note>
+            <note>Corresponds to FrameBank senses 2</note>
+            <roles>
+                <role descr="creator" f="PAG" n="0"/>
+                <role descr="creation" f="PPT" n="1"/>
+                <role descr="created-from, thing changed" f="VSP" n="2"/>
+                <role descr="benefactive " f="GOL" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="manufacture.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg1, 2" src="">
+                <text>Электромотор был выполнен целиком из отечественных материалов .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Электромотор</arg>
+                    <rel relloc="2">выполнен</rel>
+                    <arg type="ARGM-ADV" start="3" end="3">целиком</arg>
+                    <arg type="ARG2" start="4" end="6">из отечественных материалов</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

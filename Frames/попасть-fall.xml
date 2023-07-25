@@ -1,230 +1,261 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="попасть">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="попасть.01" name="hit target, achieve, reach">
-      <aliases>
-        <alias pos="v">попадать</alias>
-        <alias pos="n">попадание</alias>
-      </aliases>
-      <note>попасть.01 NOTES: Roleset based on English verb frame hit.01 </note>
-      <note>Corresponds to FrameBank senses 2</note>
-      <roles>
-        <role descr="agent, hitter" f="PAG" n="0"/>
-        <role descr="thing hit" f="GOL" n="1"/>
-        <role descr="instrument, thing hit by or with" f="MNR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="hit.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="hit with ball" src="А. Н. Варламов, «Купавна», 2000 г. // «Новый Мир» (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Гоша шатался от усталости и из последних сил кидал мяч , стараясь попасть в развалившихся на траве ребят .</text>
-        <propbank>
-          <rel relloc="12">попасть</rel>
-          <arg type="ARG1" start="13" end="17">в развалившихся на траве ребят</arg>
-        </propbank>
-      </example>
-      <example name="shot" src="Russian National Corpus[Евгений Гришковец. ОдноврЕмЕнно (2004)]">
-        <text>То есть было понятно , что он выстрелил и попал женщине в грудь .</text>
-        <propbank>
-          <rel relloc="9">попал</rel>
-          <arg type="ARG1" start="10" end="12">женщине в грудь</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="попасть.02" name="fall upon, in or on, end up, get into, find self, become (often unexpectedly or suddenly)">
-      <aliases>
-        <alias pos="v">попадать</alias>
-        <alias pos="v">попасться </alias>
-        <alias pos="v">попадаться</alias>
-      </aliases>
-      <note>попасть.02 NOTES: Roleset based on English verb frame end_up.03</note>
-      <note>Corresponds to FrameBank senses 1, 3-6; -ся 1</note>
-      <roles>
-        <role descr="entity ending up" f="PPT" n="1"/>
-        <role descr="new state" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="end_up.03" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="come here" src="Ирина Авереннова, «Геленджик», 15 июня 2000 г. // «Туризм и образование» (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Не все могут приехать в Геленджик летом , кому - то выпадает попасть сюда в такое время , когда море становится прохладным .</text>
-        <propbank>
-          <rel relloc="12">попасть</rel>
-          <arg type="ARG2" start="13" end="13">сюда</arg>
-          <arg type="ARGM-TMP" start="14" end="16">в такое время</arg>
-        </propbank>
-      </example>
-      <example name="abstract location" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
-        <text>Возможно , я попал не в тот блог .</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="0" end="0">Возможно</arg>
-          <arg type="ARG1" start="2" end="2">я</arg>
-          <rel relloc="3">попал</rel>
-          <arg type="ARG2" start="4" end="7">не в тот блог</arg>
-        </propbank>
-      </example>
-      <example name="enter" src="Russian National Corpus [коллективный. Форум: Универ (институт) VS школа. Плюсы и минусы. Где в итоге лучше и почему? (2011)]">
-        <text>Скоро попаду ( по крайней мере , надеюсь ) в институт или университет .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="0">Скоро</arg>
-          <rel relloc="1">попаду</rel>
-          <arg type="ARG2" start="9" end="12">в институт или университет</arg>
-        </propbank>
-      </example>
-      <example name="fall on" src="Russian National Corpus [Евгений Водолазкин. Лавр (2012)]">
-        <text>Попавшие на лицо капли Арсений вытирал пучком сена .</text>
-        <propbank>
-          <rel relloc="0">Попавшие</rel>
-          <arg type="ARG1" start="3" end="3">капли</arg>
-          <arg type="ARG2" start="1" end="2">на лицо</arg>
-        </propbank>
-      </example>
-      <example name="get hands on" src="Russian National Corpus [Даниил Гранин. Зубр (1987)]">
-        <text>Американцы боялись , чтобы всё это не попало русским .</text>
-        <propbank>
-          <arg type="ARG1" start="4" end="5">всё это</arg>
-          <arg type="ARG2" start="8" end="8">русским</arg>
-          <arg type="ARGM-NEG" start="6" end="6">не</arg>
-          <rel relloc="7">попало</rel>
-        </propbank>
-      </example>
-      <example name="reflexive" src="Russian National Corpus [М. А. Булгаков. Мастер и Маргарита, часть 2 (1929-1940)]">
-        <text>Те , кто имел уже несчастие в эти дни попасться на его дороге , даже при слабом свете язычка в лампадке , конечно , тотчас же узнали бы его .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="5">Те , кто имел уже несчастие</arg>
-          <arg type="ARGM-TMP" start="6" end="8">в эти дни</arg>
-          <rel relloc="9">попасться</rel>
-          <arg type="ARGM-LOC" start="10" end="12">на его дороге</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="попасть.03" name="find, encounter, run into (usually unexpectedly)">
-      <aliases>
-        <alias pos="v">попадать</alias>
-        <alias pos="v">попасться </alias>
-        <alias pos="v">попадаться</alias>
-      </aliases>
-      <note>попасть.03 NOTES: Roleset based on English verb frame encounter.01</note>
-      <note>Corresponds to FrameBank sense 7 *FrameBank -ся 3, 4</note>
-      <roles>
-        <role descr="entity encountering something" f="PAG" n="1"/>
-        <role descr="entity encountered" f="PPT" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="encounter.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="Russian National Corpus Олег Зайончковский. Счастье возможно: роман нашего времени (2008)">
-        <text>Вам повезло , что вы попали на меня , ― сейчас , знаете , в Москве кавказцы таксуют .</text>
-        <propbank>
-          <arg type="ARG0" start="4" end="4">вы</arg>
-          <rel relloc="5">попали</rel>
-          <arg type="ARG1" start="6" end="7">на меня</arg>
-        </propbank>
-      </example>
-      <example name="happen upon" src="А. Г. Волос, «Недвижимость», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>И много лет спустя мне попала книга святого Макария Египетского , где он делает различие между опытом веры и выражением его на словах .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">И</arg>
-          <arg type="ARG1" start="1" end="3">много лет спустя</arg>
-          <arg type="ARG0" start="4" end="4">мне</arg>
-          <rel relloc="5">попала</rel>
-          <arg type="ARG1" start="6" end="22">книга святого Макария Египетского , где он делает различие между опытом веры и выражением его на словах</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="попасть.04" name="gonna get it, get in trouble, receive punishment">
-      <aliases>
-        <alias pos="v">попадать</alias>
-      </aliases>
-      <note>попасть.04 NOTES: Roleset based on English verb frame punish.01</note>
-      <note>Corresponds to FrameBank sense </note>
-      <roles>
-        <role descr="punisher, agent" f="PAG" n="0"/>
-        <role descr="punished" f="PPT" n="1"/>
-        <role descr="punished-for" f="CAU" n="2"/>
-        <role descr="mention of punishment itself" f="MNR" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="punish.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="punished" src="Russian National Corpus Ю. М. Даниэль, «Письма из заключения», 1966—1970 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>На этот раз мне попало за всякие ругательства , адресованные вам , москвичам .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="2">На этот раз</arg>
-          <arg type="ARG1" start="3" end="3">мне</arg>
-          <rel relloc="4">попало</rel>
-          <arg type="ARG2" start="5" end="12">за всякие ругательства , адресованные вам , москвичам</arg>
-        </propbank>
-      </example>
-      <example name="catch it for" src="Russian National Corpus Ю. М. Даниэль, «Письма из заключения», 1966—1970 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Ну , и попало мне от отца за собак !</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="2">Ну , и</arg>
-          <rel relloc="3">попало</rel>
-          <arg type="ARG1" start="4" end="4">мне</arg>
-          <arg type="ARG0" start="5" end="6">от отца</arg>
-          <arg type="ARG2" start="7" end="8">за собак</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="попасться">
-    <roleset id="попасться.05" name="be caught, snared">
-      <aliases>
-        <alias pos="v">попадаться</alias>
-      </aliases>
-      <note>попасться.05 NOTES: Roleset based on English verb frame snare.01</note>
-      <note>Corresponds to FrameBank sense 2</note>
-      <roles>
-        <role descr="catcher, agent" f="PAG" n="0"/>
-        <role descr="captured entity" f="PPT" n="1"/>
-        <role descr="explicit mention of snare" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="snare.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="catch squirrels" src="Н. И. Дубов, «На краю земли», 1950 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>В наши кулемки теперь белки начали попадаться : распяленные Захаром Васильевичем , на правилках сохли семнадцать шкурок .</text>
-        <propbank>
-          <arg type="ARG2" start="0" end="2">В наши кулемки</arg>
-          <arg type="ARGM-TMP" start="3" end="3">теперь</arg>
-          <arg type="ARG1" start="4" end="4">белки</arg>
-          <rel relloc="6">попадаться</rel>
-        </propbank>
-      </example>
-      <example name="predators" src="Гаузе Г.Ф., «Борьба за существование», 1934 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Наконец жертвы могут время от времени выходить из убежища и попадаться хищникам ; в результате довольно долго будет существовать смешанная популяция , состоящая из жертв и хищников .</text>
-        <propbank>
-          <rel relloc="10">попадаться</rel>
-          <arg type="ARG0" start="11" end="11">хищникам</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="попало">
-    <roleset id="попало.06" name="(adverbial function) whoever/whatever/however happened along, do indiscriminately">
-      <aliases>
-      </aliases>
-      <note>попало.06 NOTES: Roleset based on English verb frame happen.01</note>
-      <roles>
-        <role descr="event" f="PPT" n="1"/>
-        <role descr="how it happens" f="MNR" n="2"/>
-        <role descr="mention of punishment itself" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="happen.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>Russian Arg2-MNR is equal to English Arg2-GOL</note>
-      <example name="" src="Russian National Corpus [Иваново. Детство (2004) // «Экран и сцена», 2004.05.06]">
-        <text>Большая , в полстены , фотография , где на полу , среди груды лежащих как попало книг , сидит маленький Андрей , а рядом на чёрном фоне автопортрет режиссёра Андрея Тарковского .</text>
-        <propbank>
-          <arg type="ARG1" start="13" end="13">лежащих</arg>
-          <arg type="ARG2" start="14" end="14">как</arg>
-          <rel relloc="15">попало</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="попасть">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="попасть.01" name="hit target, achieve, reach">
+            <aliases>
+                <alias pos="v">попадать</alias>
+                <alias pos="n">попадание</alias>
+            </aliases>
+            <note>попасть.01 NOTES: Roleset based on English verb frame hit.01</note>
+            <note>Corresponds to FrameBank senses 2</note>
+            <roles>
+                <role descr="agent, hitter" f="PAG" n="0"/>
+                <role descr="thing hit" f="GOL" n="1"/>
+                <role descr="instrument, thing hit by or with" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="hit.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="hit with ball"
+                     src="А. Н. Варламов, «Купавна», 2000 г. // «Новый Мир» (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Гоша шатался от усталости и из последних сил кидал мяч , стараясь попасть в развалившихся на траве
+                    ребят .
+                </text>
+                <propbank>
+                    <rel relloc="12">попасть</rel>
+                    <arg type="ARG1" start="13" end="17">в развалившихся на траве ребят</arg>
+                </propbank>
+            </example>
+            <example name="shot" src="Russian National Corpus[Евгений Гришковец. ОдноврЕмЕнно (2004)]">
+                <text>То есть было понятно , что он выстрелил и попал женщине в грудь .</text>
+                <propbank>
+                    <rel relloc="9">попал</rel>
+                    <arg type="ARG1" start="10" end="12">женщине в грудь</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="попасть.02"
+                 name="fall upon, in or on, end up, get into, find self, become (often unexpectedly or suddenly)">
+            <aliases>
+                <alias pos="v">попадать</alias>
+                <alias pos="v">попасться</alias>
+                <alias pos="v">попадаться</alias>
+            </aliases>
+            <note>попасть.02 NOTES: Roleset based on English verb frame end_up.03</note>
+            <note>Corresponds to FrameBank senses 1, 3-6; -ся 1</note>
+            <roles>
+                <role descr="entity ending up" f="PPT" n="1"/>
+                <role descr="new state" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="end_up.03" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="come here"
+                     src="Ирина Авереннова, «Геленджик», 15 июня 2000 г. // «Туризм и образование» (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Не все могут приехать в Геленджик летом , кому - то выпадает попасть сюда в такое время , когда
+                    море становится прохладным .
+                </text>
+                <propbank>
+                    <rel relloc="12">попасть</rel>
+                    <arg type="ARG2" start="13" end="13">сюда</arg>
+                    <arg type="ARGM-TMP" start="14" end="16">в такое время</arg>
+                </propbank>
+            </example>
+            <example name="abstract location"
+                     src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
+                <text>Возможно , я попал не в тот блог .</text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="0">Возможно</arg>
+                    <arg type="ARG1" start="2" end="2">я</arg>
+                    <rel relloc="3">попал</rel>
+                    <arg type="ARG2" start="4" end="7">не в тот блог</arg>
+                </propbank>
+            </example>
+            <example name="enter"
+                     src="Russian National Corpus [коллективный. Форум: Универ (институт) VS школа. Плюсы и минусы. Где в итоге лучше и почему? (2011)]">
+                <text>Скоро попаду ( по крайней мере , надеюсь ) в институт или университет .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="0">Скоро</arg>
+                    <rel relloc="1">попаду</rel>
+                    <arg type="ARG2" start="9" end="12">в институт или университет</arg>
+                </propbank>
+            </example>
+            <example name="fall on" src="Russian National Corpus [Евгений Водолазкин. Лавр (2012)]">
+                <text>Попавшие на лицо капли Арсений вытирал пучком сена .</text>
+                <propbank>
+                    <rel relloc="0">Попавшие</rel>
+                    <arg type="ARG1" start="3" end="3">капли</arg>
+                    <arg type="ARG2" start="1" end="2">на лицо</arg>
+                </propbank>
+            </example>
+            <example name="get hands on" src="Russian National Corpus [Даниил Гранин. Зубр (1987)]">
+                <text>Американцы боялись , чтобы всё это не попало русским .</text>
+                <propbank>
+                    <arg type="ARG1" start="4" end="5">всё это</arg>
+                    <arg type="ARG2" start="8" end="8">русским</arg>
+                    <arg type="ARGM-NEG" start="6" end="6">не</arg>
+                    <rel relloc="7">попало</rel>
+                </propbank>
+            </example>
+            <example name="reflexive"
+                     src="Russian National Corpus [М. А. Булгаков. Мастер и Маргарита, часть 2 (1929-1940)]">
+                <text>Те , кто имел уже несчастие в эти дни попасться на его дороге , даже при слабом свете язычка в
+                    лампадке , конечно , тотчас же узнали бы его .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="5">Те , кто имел уже несчастие</arg>
+                    <arg type="ARGM-TMP" start="6" end="8">в эти дни</arg>
+                    <rel relloc="9">попасться</rel>
+                    <arg type="ARGM-LOC" start="10" end="12">на его дороге</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="попасть.03" name="find, encounter, run into (usually unexpectedly)">
+            <aliases>
+                <alias pos="v">попадать</alias>
+                <alias pos="v">попасться</alias>
+                <alias pos="v">попадаться</alias>
+            </aliases>
+            <note>попасть.03 NOTES: Roleset based on English verb frame encounter.01</note>
+            <note>Corresponds to FrameBank sense 7 *FrameBank -ся 3, 4</note>
+            <roles>
+                <role descr="entity encountering something" f="PAG" n="1"/>
+                <role descr="entity encountered" f="PPT" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="encounter.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src="Russian National Corpus Олег Зайончковский. Счастье возможно: роман нашего времени (2008)">
+                <text>Вам повезло , что вы попали на меня , ― сейчас , знаете , в Москве кавказцы таксуют .</text>
+                <propbank>
+                    <arg type="ARG0" start="4" end="4">вы</arg>
+                    <rel relloc="5">попали</rel>
+                    <arg type="ARG1" start="6" end="7">на меня</arg>
+                </propbank>
+            </example>
+            <example name="happen upon"
+                     src="А. Г. Волос, «Недвижимость», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>И много лет спустя мне попала книга святого Макария Египетского , где он делает различие между
+                    опытом веры и выражением его на словах .
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">И</arg>
+                    <arg type="ARG1" start="1" end="3">много лет спустя</arg>
+                    <arg type="ARG0" start="4" end="4">мне</arg>
+                    <rel relloc="5">попала</rel>
+                    <arg type="ARG1" start="6" end="22">книга святого Макария Египетского , где он делает различие между
+                        опытом веры и выражением его на словах
+                    </arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="попасть.04" name="gonna get it, get in trouble, receive punishment">
+            <aliases>
+                <alias pos="v">попадать</alias>
+            </aliases>
+            <note>попасть.04 NOTES: Roleset based on English verb frame punish.01</note>
+            <note>Corresponds to FrameBank sense</note>
+            <roles>
+                <role descr="punisher, agent" f="PAG" n="0"/>
+                <role descr="punished" f="PPT" n="1"/>
+                <role descr="punished-for" f="CAU" n="2"/>
+                <role descr="mention of punishment itself" f="MNR" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="punish.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="punished"
+                     src="Russian National Corpus Ю. М. Даниэль, «Письма из заключения», 1966—1970 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>На этот раз мне попало за всякие ругательства , адресованные вам , москвичам .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="2">На этот раз</arg>
+                    <arg type="ARG1" start="3" end="3">мне</arg>
+                    <rel relloc="4">попало</rel>
+                    <arg type="ARG2" start="5" end="12">за всякие ругательства , адресованные вам , москвичам</arg>
+                </propbank>
+            </example>
+            <example name="catch it for"
+                     src="Russian National Corpus Ю. М. Даниэль, «Письма из заключения», 1966—1970 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Ну , и попало мне от отца за собак !</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="2">Ну , и</arg>
+                    <rel relloc="3">попало</rel>
+                    <arg type="ARG1" start="4" end="4">мне</arg>
+                    <arg type="ARG0" start="5" end="6">от отца</arg>
+                    <arg type="ARG2" start="7" end="8">за собак</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="попасться">
+        <roleset id="попасться.05" name="be caught, snared">
+            <aliases>
+                <alias pos="v">попадаться</alias>
+            </aliases>
+            <note>попасться.05 NOTES: Roleset based on English verb frame snare.01</note>
+            <note>Corresponds to FrameBank sense 2</note>
+            <roles>
+                <role descr="catcher, agent" f="PAG" n="0"/>
+                <role descr="captured entity" f="PPT" n="1"/>
+                <role descr="explicit mention of snare" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="snare.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="catch squirrels"
+                     src="Н. И. Дубов, «На краю земли», 1950 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>В наши кулемки теперь белки начали попадаться : распяленные Захаром Васильевичем , на правилках
+                    сохли семнадцать шкурок .
+                </text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="2">В наши кулемки</arg>
+                    <arg type="ARGM-TMP" start="3" end="3">теперь</arg>
+                    <arg type="ARG1" start="4" end="4">белки</arg>
+                    <rel relloc="6">попадаться</rel>
+                </propbank>
+            </example>
+            <example name="predators"
+                     src="Гаузе Г.Ф., «Борьба за существование», 1934 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Наконец жертвы могут время от времени выходить из убежища и попадаться хищникам ; в результате
+                    довольно долго будет существовать смешанная популяция , состоящая из жертв и хищников .
+                </text>
+                <propbank>
+                    <rel relloc="10">попадаться</rel>
+                    <arg type="ARG0" start="11" end="11">хищникам</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="попало">
+        <roleset id="попало.06"
+                 name="(adverbial function) whoever/whatever/however happened along, do indiscriminately">
+            <aliases>
+            </aliases>
+            <note>попало.06 NOTES: Roleset based on English verb frame happen.01</note>
+            <roles>
+                <role descr="event" f="PPT" n="1"/>
+                <role descr="how it happens" f="MNR" n="2"/>
+                <role descr="mention of punishment itself" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="happen.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>Russian Arg2-MNR is equal to English Arg2-GOL</note>
+            <example name="" src="Russian National Corpus [Иваново. Детство (2004) // «Экран и сцена», 2004.05.06]">
+                <text>Большая , в полстены , фотография , где на полу , среди груды лежащих как попало книг , сидит
+                    маленький Андрей , а рядом на чёрном фоне автопортрет режиссёра Андрея Тарковского .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="13" end="13">лежащих</arg>
+                    <arg type="ARG2" start="14" end="14">как</arg>
+                    <rel relloc="15">попало</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

@@ -1,37 +1,42 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="уверять">
-    <roleset id="уверять.01" name="Assure, convince, set at ease">
-      <aliases>
-        <alias pos="v">уверить</alias>
-        <alias pos="v">уверять</alias>
-        <alias pos="j">уверяющий</alias>
-        <alias pos="j">уверенный</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English assure.01</note>
-      <roles>
-        <role descr="Causer of Assurance" f="PAG" n="0"/>
-        <role descr="Assured one" f="GOL" n="1"/>
-        <role descr="Assurance, utterance" f="PPT" n="2"/>
-	    </roles>
-      <example name="Arg0 and Arg3" src="RNC, Дмитрий Каралис. Автопортрет (1999)">
-        <text>Володька уверил , что это солитер , и посоветовал , как его успокоить .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Володька</arg>
-          <rel relloc="1">уверил</rel>
-	        <arg type="ARG3" start="3" end="5">что это солитер</arg>
-        </propbank>
-      </example>
-      <example name="Arg0, Arg1, and Arg2" src="RNC, Т. Г. Шевченко. Прогулка с удовольствием и не без морали (1855-1858)">
-        <text>Но я уверил его , что его компания интереснее для меня генеральской и даже адмиральской компании .</text>
-        <propbank>
-          <arg type="ARG0" start="1" end="1">я</arg>
-          <rel relloc="2">уверил</rel>
-	        <arg type="ARG1" start="3" end="3">его</arg>
-          <arg type="ARG2" start="5" end="15">что его компания интереснее для меня генеральской и даже адмиральской компании</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="уверять">
+        <roleset id="уверять.01" name="Assure, convince, set at ease">
+            <aliases>
+                <alias pos="v">уверить</alias>
+                <alias pos="v">уверять</alias>
+                <alias pos="j">уверяющий</alias>
+                <alias pos="j">уверенный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English assure.01</note>
+            <roles>
+                <role descr="Causer of Assurance" f="PAG" n="0"/>
+                <role descr="Assured one" f="GOL" n="1"/>
+                <role descr="Assurance, utterance" f="PPT" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg3" src="RNC, Дмитрий Каралис. Автопортрет (1999)">
+                <text>Володька уверил , что это солитер , и посоветовал , как его успокоить .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Володька</arg>
+                    <rel relloc="1">уверил</rel>
+                    <arg type="ARG3" start="3" end="5">что это солитер</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2"
+                     src="RNC, Т. Г. Шевченко. Прогулка с удовольствием и не без морали (1855-1858)">
+                <text>Но я уверил его , что его компания интереснее для меня генеральской и даже адмиральской компании
+                    .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                    <rel relloc="2">уверил</rel>
+                    <arg type="ARG1" start="3" end="3">его</arg>
+                    <arg type="ARG2" start="5" end="15">что его компания интереснее для меня генеральской и даже
+                        адмиральской компании
+                    </arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

@@ -19,14 +19,14 @@
                 <lexlink class="distort.01" resource="English PropBank" version="3.4"/>
             </lexlinks>
             <example name="ARG0 only" src="RNC, Ф. М. Достоевский. Братья Карамазовы (1880)">
-                <text> Но он не искажал и не уменьшал .</text>
+                <text>Но он не искажал и не уменьшал .</text>
                 <propbank>
                     <arg type="ARG0" start="2" end="2">он</arg>
                     <rel relloc="4">искажал</rel>
                 </propbank>
             </example>
             <example name="ARG0 and ARG1" src="RNC, ">
-                <text> Каждое волнение радости и горя искажает отражение .</text>
+                <text>Каждое волнение радости и горя искажает отражение .</text>
                 <propbank>
                     <arg type="ARG0" start="1" end="5">Каждое волнение радости и горя</arg>
                     <rel relloc="6">искажает</rel>

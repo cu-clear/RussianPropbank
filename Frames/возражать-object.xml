@@ -1,51 +1,51 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="возражать">
-    <roleset id="возражать.01" name="Object, protest">
-      <aliases>
-        <alias pos="v">возражать</alias>
-        <alias pos="v">возразить</alias>
-        <alias pos="j">возражающий</alias>
-        <alias pos="j">возразивший</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English obeject.01</note>
-      <roles>
-        <role descr="Complainer" f="PAG" n="0"/>
-        <role descr="Thing pbjected to" f="PPT" n="1"/>
-	    </roles>
-      <example name="Arg0 and Arg1" src="RNC, Анастас Микоян. Так было (1971-1974)">
-        <text>Я возражал против предложенного поста секретаря Юго-Восточного ...</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="1">возражал</rel>
-	        <arg type="ARG1" start="2" end="6">против предложенного поста секретаря Юго-Восточного</arg>
-        </propbank>
-      </example>
-	  </roleset>
-    <roleset id="возражать.02" name="Manner of speaking, Object, protest">
-      <aliases>
-        <alias pos="v">возражать</alias>
-        <alias pos="v">возразить</alias>
-        <alias pos="j">возражающий</alias>
-        <alias pos="j">возразивший</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English protest.02</note>
-      <roles>
-        <role descr="Complainer" f="PAG" n="0"/>
-        <role descr="Utterance" f="PPT" n="1"/>
-        <role descr="Hearer" f="GOL" n="2"/>
-	    </roles>
-      <example name="Arg0, Arg1, and Arg3" src="RNC, А. Ф. Писемский. В водовороте (1871)">
-        <text>Как вы это сделаете без полиции ? ― возражала ему Елена .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="6">Как вы это сделаете без полиции</arg>
-          <rel relloc="8">возражала</rel>
-	        <arg type="ARG2" start="9" end="9">ему</arg>
-          <arg type="ARG0" start="10" end="10">Елена</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="возражать">
+        <roleset id="возражать.01" name="Object, protest">
+            <aliases>
+                <alias pos="v">возражать</alias>
+                <alias pos="v">возразить</alias>
+                <alias pos="j">возражающий</alias>
+                <alias pos="j">возразивший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English obeject.01</note>
+            <roles>
+                <role descr="Complainer" f="PAG" n="0"/>
+                <role descr="Thing pbjected to" f="PPT" n="1"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, Анастас Микоян. Так было (1971-1974)">
+                <text>Я возражал против предложенного поста секретаря Юго-Восточного ...</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">возражал</rel>
+                    <arg type="ARG1" start="2" end="6">против предложенного поста секретаря Юго-Восточного</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="возражать.02" name="Manner of speaking, Object, protest">
+            <aliases>
+                <alias pos="v">возражать</alias>
+                <alias pos="v">возразить</alias>
+                <alias pos="j">возражающий</alias>
+                <alias pos="j">возразивший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English protest.02</note>
+            <roles>
+                <role descr="Complainer" f="PAG" n="0"/>
+                <role descr="Utterance" f="PPT" n="1"/>
+                <role descr="Hearer" f="GOL" n="2"/>
+            </roles>
+            <example name="Arg0, Arg1, and Arg3" src="RNC, А. Ф. Писемский. В водовороте (1871)">
+                <text>Как вы это сделаете без полиции ? ― возражала ему Елена .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="6">Как вы это сделаете без полиции</arg>
+                    <rel relloc="8">возражала</rel>
+                    <arg type="ARG2" start="9" end="9">ему</arg>
+                    <arg type="ARG0" start="10" end="10">Елена</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

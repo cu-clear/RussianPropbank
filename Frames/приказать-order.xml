@@ -1,100 +1,114 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="приказать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="приказать.01" name="order, advise, command, demand">
-      <aliases>
-        <alias pos="v">приказывать</alias>
-        <alias pos="v">приказываться</alias>
-        <alias pos="v">приказаться</alias>
-      </aliases>
-      <note>приказать.01 NOTES: Roleset based on English verb frame order.01</note>
-      <note>Corresponds to FrameBank senses 1</note>
-      <roles>
-        <role descr="forcer" f="PAG" n="0"/>
-        <role descr="impelled agent" f="GOL" n="1"/>
-        <role descr="impelled action" f="PPT" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="order.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="split arg2" src="М. А. Булгаков, «Мастер и Маргарита, часть 2», 1929-1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>У вас праздник , а что же прикажешь делать мне ?</text>
-        <propbank>
-          <arg type="ARG2" start="5" end="5">что</arg>
-          <rel relloc="7">прикажешь</rel>
-          <arg type="ARG1" start="9" end="9">мне</arg>
-          <arg type="ARG2" start="8" end="8">делать</arg>
-        </propbank>
-      </example>
-      <example name="command, direct" src="http://marker.framebank.ru/verbs_ex.php?lex=приказать&amp;cxid=7688">
-        <text>А в Думе руководимая ими " Единая Россия " голосует так , как прикажет правительство .</text>
-        <propbank>
-          <arg type="ARG2" start="9" end="12">голосует так , как</arg>
-          <rel relloc="13">прикажет</rel>
-          <arg type="ARG0" start="14" end="14">правительство</arg>
-        </propbank>
-      </example>
-      <example name="order; reflexive as passive" src="http://marker.framebank.ru/verbs_ex.php?lex=приказать&amp;cxid=7689">
-        <text>Приказывалось за час до выступления отправить с обоих корпусов 400 рабочих , с нужным числом фронтовых офицеров и двумя дивизионными квартирмистрами для исправления мостов и дороги</text>
-        <propbank>
-          <rel relloc="0">Приказывалось</rel>
-          <arg type="ARGM-TMP" start="1" end="4">за час до выступления</arg>
-          <arg type="ARG2" start="5" end="25">отправить с обоих корпусов 400 рабочих , с нужным числом фронтовых офицеров и двумя дивизионными квартирмистрами для исправления мостов и дороги</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="приказать.02" name="entrust, bequeath">
-      <aliases>
-        <alias pos="v">приказывать</alias>
-      </aliases>
-      <note>приказать.02 NOTES: Roleset based on English verb frame entrust.01</note>
-      <note>Somewhat archaic.</note>
-      <note>Corresponds to FrameBank senses</note>
-      <roles>
-        <role descr="entity giving up control, agent" f="PAG" n="0"/>
-        <role descr="entity entrusted" f="PPT" n="1"/>
-        <role descr="entity entrusted to" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="entrust.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="entrust" src="Л. Н. Толстой, «Отрывки из деревенской жизни»">
-        <text>Накануне хозяин к начальству за деньгами в город ездил , а ребят Лизуну приказал .</text>
-        <propbank>
-          <arg type="ARG1" start="11" end="11">ребят</arg>
-          <arg type="ARG2" start="12" end="12">Лизуну</arg>
-          <rel relloc="13">приказал</rel>
-        </propbank>
-      </example>
-      <example name="bequeth" src="https://vgd.ru/genealogical-mailer/inheritance/">
-        <text>В духовных грамотах завещатели , имея жену , приказывают имущество матери своей и сыновьям , отчину и дедину , землю и воду по отцовской грамоте и по владенью ; распоряжаются челядью дерноватою ;</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="0" end="2">В духовных грамотах</arg>
-          <arg type="ARG0" start="3" end="6">завещатели , имея жену</arg>
-          <rel relloc="8">приказывают</rel>
-          <arg type="ARG1" start="9" end="9">имущество</arg>
-          <arg type="ARG2" start="10" end="13">матери своей и сыновьям</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="">
-    <roleset id="приказать_долго_жить.03" name="give up the ghost, be no more, cease existence">
-      <aliases>
-      </aliases>
-      <roles>
-        <role descr="corpse" f="PPT" n="1"/>
-      </roles>
-      <example name="example" src="Russian National Corpus [Александр Ивантер. Созидательное разрушение // «Эксперт», 2014]">
-        <text>Прямое железнодорожное сообщение с Екатеринбургом приказало долго жить несколько лет назад , а на перекладных через Серов займет часов одиннадцать чистого , без пересадок и ожиданий , времени .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="4">Прямое железнодорожное сообщение с Екатеринбургом</arg>
-          <rel relloc="5 6 7">приказало долго жить</rel>
-          <arg type="ARG1" start="8" end="10">несколько лет назад</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="приказать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="приказать.01" name="order, advise, command, demand">
+            <aliases>
+                <alias pos="v">приказывать</alias>
+                <alias pos="v">приказываться</alias>
+                <alias pos="v">приказаться</alias>
+            </aliases>
+            <note>приказать.01 NOTES: Roleset based on English verb frame order.01</note>
+            <note>Corresponds to FrameBank senses 1</note>
+            <roles>
+                <role descr="forcer" f="PAG" n="0"/>
+                <role descr="impelled agent" f="GOL" n="1"/>
+                <role descr="impelled action" f="PPT" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="order.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="split arg2"
+                     src="М. А. Булгаков, «Мастер и Маргарита, часть 2», 1929-1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>У вас праздник , а что же прикажешь делать мне ?</text>
+                <propbank>
+                    <arg type="ARG2" start="5" end="5">что</arg>
+                    <rel relloc="7">прикажешь</rel>
+                    <arg type="ARG1" start="9" end="9">мне</arg>
+                    <arg type="ARG2" start="8" end="8">делать</arg>
+                </propbank>
+            </example>
+            <example name="command, direct" src="http://marker.framebank.ru/verbs_ex.php?lex=приказать&amp;cxid=7688">
+                <text>А в Думе руководимая ими " Единая Россия " голосует так , как прикажет правительство .</text>
+                <propbank>
+                    <arg type="ARG2" start="9" end="12">голосует так , как</arg>
+                    <rel relloc="13">прикажет</rel>
+                    <arg type="ARG0" start="14" end="14">правительство</arg>
+                </propbank>
+            </example>
+            <example name="order; reflexive as passive"
+                     src="http://marker.framebank.ru/verbs_ex.php?lex=приказать&amp;cxid=7689">
+                <text>Приказывалось за час до выступления отправить с обоих корпусов 400 рабочих , с нужным числом
+                    фронтовых офицеров и двумя дивизионными квартирмистрами для исправления мостов и дороги
+                </text>
+                <propbank>
+                    <rel relloc="0">Приказывалось</rel>
+                    <arg type="ARGM-TMP" start="1" end="4">за час до выступления</arg>
+                    <arg type="ARG2" start="5" end="25">отправить с обоих корпусов 400 рабочих , с нужным числом
+                        фронтовых офицеров и двумя дивизионными квартирмистрами для исправления мостов и дороги
+                    </arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="приказать.02" name="entrust, bequeath">
+            <aliases>
+                <alias pos="v">приказывать</alias>
+            </aliases>
+            <note>приказать.02 NOTES: Roleset based on English verb frame entrust.01</note>
+            <note>Somewhat archaic.</note>
+            <note>Corresponds to FrameBank senses</note>
+            <roles>
+                <role descr="entity giving up control, agent" f="PAG" n="0"/>
+                <role descr="entity entrusted" f="PPT" n="1"/>
+                <role descr="entity entrusted to" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="entrust.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="entrust" src="Л. Н. Толстой, «Отрывки из деревенской жизни»">
+                <text>Накануне хозяин к начальству за деньгами в город ездил , а ребят Лизуну приказал .</text>
+                <propbank>
+                    <arg type="ARG1" start="11" end="11">ребят</arg>
+                    <arg type="ARG2" start="12" end="12">Лизуну</arg>
+                    <rel relloc="13">приказал</rel>
+                </propbank>
+            </example>
+            <example name="bequeth" src="https://vgd.ru/genealogical-mailer/inheritance/">
+                <text>В духовных грамотах завещатели , имея жену , приказывают имущество матери своей и сыновьям ,
+                    отчину и дедину , землю и воду по отцовской грамоте и по владенью ; распоряжаются челядью дерноватою
+                    ;
+                </text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="0" end="2">В духовных грамотах</arg>
+                    <arg type="ARG0" start="3" end="6">завещатели , имея жену</arg>
+                    <rel relloc="8">приказывают</rel>
+                    <arg type="ARG1" start="9" end="9">имущество</arg>
+                    <arg type="ARG2" start="10" end="13">матери своей и сыновьям</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="">
+        <roleset id="приказать_долго_жить.03" name="give up the ghost, be no more, cease existence">
+            <aliases>
+            </aliases>
+            <roles>
+                <role descr="corpse" f="PPT" n="1"/>
+            </roles>
+            <example name="example"
+                     src="Russian National Corpus [Александр Ивантер. Созидательное разрушение // «Эксперт», 2014]">
+                <text>Прямое железнодорожное сообщение с Екатеринбургом приказало долго жить несколько лет назад , а на
+                    перекладных через Серов займет часов одиннадцать чистого , без пересадок и ожиданий , времени .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="4">Прямое железнодорожное сообщение с Екатеринбургом</arg>
+                    <rel relloc="5 6 7">приказало долго жить</rel>
+                    <arg type="ARG1" start="8" end="10">несколько лет назад</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

@@ -1,107 +1,121 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="хотеть">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="хотеть.01" name="have a desire">
-      <aliases>
-        <alias pos="j">хотящий</alias>
-        <alias pos="j">хотевший</alias>
-        <alias pos="j">хотимый</alias>
-        <alias pos="v">захотеть</alias>
-        <alias pos="j">захотевший</alias>
-        <alias pos="v">хотеться</alias>
-        <alias pos="v">захотеться</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1-7</note>
-      <note>хотеть.01 NOTES: Based on English want.01.</note>
-      <roles>
-        <role descr="Wanter" f="PAG" n="0"/>
-        <role descr="thing wanted" f="PPT" n="1"/>
-        <role descr="beneficiary" f="GOL" n="2"/>
-        <role descr="in-exchange-for" f="PPT" n="3"/>
-        <role descr="from" f="DIR" n="4"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="want.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="nominal arg1" src="">
-        <text>Я хочу кофе без кофеина .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="1">хочу</rel>
-          <arg type="ARG1" start="2" end="4">кофе без кофеина</arg>
-        </propbank>
-      </example>
-      <example name="clausal arg1" src="">
-        <text>Ты хочешь , чтобы я это повторил ?</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Ты</arg>
-          <rel relloc="1">хочешь</rel>
-          <arg type="ARG1" start="3" end="6">чтобы я это повторил</arg>
-        </propbank>
-      </example>
-      <example name="arg0,1 and arg2" src="Russian National Corpus. [Олег Павлов. Карагандинские девятины, или Повесть последних дней // «Октябрь», 2001]">
-        <text>Вдруг глухой заныл себе под нос , не сознавая , что это стало слышно : " Я хотел вам добра …</text>
-        <propbank>
-          <arg type="ARG0" start="16" end="16">Я</arg>
-          <rel relloc="17">хотел</rel>
-          <arg type="ARG2" start="18" end="18">вам</arg>
-          <arg type="ARG1" start="19" end="19">добра</arg>
-        </propbank>
-      </example>
-      <example name="reflexive" src="Russian National Corpus [коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
-        <text>Теперь , мне хотелось бы узнать , как можно резко вложиться в развитие отношений с женщиной , не зная , где и когда ее можно будет увидеть ?</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">Теперь</arg>
-          <arg type="ARG0" start="2" end="2">мне</arg>
-          <rel relloc="3">хотелось</rel>
-          <arg type="ARG1" start="5" end="26">узнать , как можно резко вложиться в развитие отношений с женщиной , не зная , где и когда ее можно будет увидеть</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="расхотеть">
-    <roleset id="расхотеть.02" name="stop wanting, lose desire">
-      <aliases>
-        <alias pos="j">расхотящий</alias>
-        <alias pos="j">расхотевший</alias>
-        <alias pos="j">расхотимый</alias>
-        <alias pos="v">расхотеться</alias>
-        <alias pos="v">перехотеть</alias>
-        <alias pos="j">перехотевший</alias>
-      </aliases>
-      <note>расхотеть.01 NOTES: Based on English want.01.</note>
-      <roles>
-        <role descr="Wanter" f="PAG" n="0"/>
-        <role descr="thing wanted" f="PPT" n="1"/>
-        <role descr="beneficiary" f="GOL" n="2"/>
-        <role descr="in-exchange-for" f="PPT" n="3"/>
-        <role descr="from" f="DIR" n="4"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="want.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="arg0 and arg1" src="Russian National Corpus. [Маша Трауб. Нам выходить на следующей (2011)]">
-        <text>Все засмеялись , а Алла вообще расхотела есть от страха .</text>
-        <propbank>
-          <arg type="ARG0" start="4" end="4">Алла</arg>
-          <arg type="ARGM-ADV" start="5" end="5">вообще</arg>
-          <rel relloc="6">расхотела</rel>
-          <arg type="ARG1" start="7" end="7">есть</arg>
-          <arg type="ARGM-CAU" start="8" end="9">от страха</arg>
-        </propbank>
-      </example>
-      <example name="reflexive" src="Russian National Corpus. [Эльвира Савкина. Ввиду явного преимущества (2002) // «Дело» (Самара), 2002.04.26]">
-        <text>К моменту поступления в институт быть тренером Аверину расхотелось ― он прекрасно осознавал , что денег и перспектив эта профессия ему не принесёт .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="4">К моменту поступления в институт</arg>
-          <arg type="ARG1" start="5" end="6">быть тренером</arg>
-          <arg type="ARG0" start="7" end="7">Аверину</arg>
-          <rel relloc="8">расхотелось</rel>
-          <arg type="ARGM-CAU" start="10" end="22">он прекрасно осознавал , что денег и перспектив эта профессия ему не принесёт</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="хотеть">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="хотеть.01" name="have a desire">
+            <aliases>
+                <alias pos="j">хотящий</alias>
+                <alias pos="j">хотевший</alias>
+                <alias pos="j">хотимый</alias>
+                <alias pos="v">захотеть</alias>
+                <alias pos="j">захотевший</alias>
+                <alias pos="v">хотеться</alias>
+                <alias pos="v">захотеться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1-7</note>
+            <note>хотеть.01 NOTES: Based on English want.01.</note>
+            <roles>
+                <role descr="Wanter" f="PAG" n="0"/>
+                <role descr="thing wanted" f="PPT" n="1"/>
+                <role descr="beneficiary" f="GOL" n="2"/>
+                <role descr="in-exchange-for" f="PPT" n="3"/>
+                <role descr="from" f="DIR" n="4"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="want.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="nominal arg1" src="">
+                <text>Я хочу кофе без кофеина .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">хочу</rel>
+                    <arg type="ARG1" start="2" end="4">кофе без кофеина</arg>
+                </propbank>
+            </example>
+            <example name="clausal arg1" src="">
+                <text>Ты хочешь , чтобы я это повторил ?</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Ты</arg>
+                    <rel relloc="1">хочешь</rel>
+                    <arg type="ARG1" start="3" end="6">чтобы я это повторил</arg>
+                </propbank>
+            </example>
+            <example name="arg0,1 and arg2"
+                     src="Russian National Corpus. [Олег Павлов. Карагандинские девятины, или Повесть последних дней // «Октябрь», 2001]">
+                <text>Вдруг глухой заныл себе под нос , не сознавая , что это стало слышно : " Я хотел вам добра …
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="16" end="16">Я</arg>
+                    <rel relloc="17">хотел</rel>
+                    <arg type="ARG2" start="18" end="18">вам</arg>
+                    <arg type="ARG1" start="19" end="19">добра</arg>
+                </propbank>
+            </example>
+            <example name="reflexive"
+                     src="Russian National Corpus [коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
+                <text>Теперь , мне хотелось бы узнать , как можно резко вложиться в развитие отношений с женщиной , не
+                    зная , где и когда ее можно будет увидеть ?
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Теперь</arg>
+                    <arg type="ARG0" start="2" end="2">мне</arg>
+                    <rel relloc="3">хотелось</rel>
+                    <arg type="ARG1" start="5" end="26">узнать , как можно резко вложиться в развитие отношений с
+                        женщиной , не зная , где и когда ее можно будет увидеть
+                    </arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="расхотеть">
+        <roleset id="расхотеть.02" name="stop wanting, lose desire">
+            <aliases>
+                <alias pos="j">расхотящий</alias>
+                <alias pos="j">расхотевший</alias>
+                <alias pos="j">расхотимый</alias>
+                <alias pos="v">расхотеться</alias>
+                <alias pos="v">перехотеть</alias>
+                <alias pos="j">перехотевший</alias>
+            </aliases>
+            <note>расхотеть.01 NOTES: Based on English want.01.</note>
+            <roles>
+                <role descr="Wanter" f="PAG" n="0"/>
+                <role descr="thing wanted" f="PPT" n="1"/>
+                <role descr="beneficiary" f="GOL" n="2"/>
+                <role descr="in-exchange-for" f="PPT" n="3"/>
+                <role descr="from" f="DIR" n="4"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="want.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg0 and arg1" src="Russian National Corpus. [Маша Трауб. Нам выходить на следующей (2011)]">
+                <text>Все засмеялись , а Алла вообще расхотела есть от страха .</text>
+                <propbank>
+                    <arg type="ARG0" start="4" end="4">Алла</arg>
+                    <arg type="ARGM-ADV" start="5" end="5">вообще</arg>
+                    <rel relloc="6">расхотела</rel>
+                    <arg type="ARG1" start="7" end="7">есть</arg>
+                    <arg type="ARGM-CAU" start="8" end="9">от страха</arg>
+                </propbank>
+            </example>
+            <example name="reflexive"
+                     src="Russian National Corpus. [Эльвира Савкина. Ввиду явного преимущества (2002) // «Дело» (Самара), 2002.04.26]">
+                <text>К моменту поступления в институт быть тренером Аверину расхотелось ― он прекрасно осознавал , что
+                    денег и перспектив эта профессия ему не принесёт .
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="4">К моменту поступления в институт</arg>
+                    <arg type="ARG1" start="5" end="6">быть тренером</arg>
+                    <arg type="ARG0" start="7" end="7">Аверину</arg>
+                    <rel relloc="8">расхотелось</rel>
+                    <arg type="ARGM-CAU" start="10" end="22">он прекрасно осознавал , что денег и перспектив эта
+                        профессия ему не принесёт
+                    </arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

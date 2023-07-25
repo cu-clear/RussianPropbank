@@ -1,162 +1,173 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="сказать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="сказать.01" name="say">
-      <aliases>
-        <alias pos="v">сказывать</alias>
-        <alias pos="v">сказаться</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 1</note>
-      <note>NOTES: Based on say.01.</note>
-      <roles>
-        <role descr="Sayer" f="PAG" n="0"/>
-        <role descr="Utterance" f="PPT" n="1"/>
-        <role descr="Hearer" f="GOL" n="2"/>
-        <role descr="Attributive" f="ADV" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="say.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg3-VSP = Russian Arg3-SRC</note>
-      <example name="clausal arg1" src="">
-        <text>Она сказала , что вас не было .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Она</arg>
-          <rel relloc="1">сказала</rel>
-          <arg type="ARG1" start="3" end="6">что вас не было</arg>
-        </propbank>
-      </example>
-      <example name="arg 1 and 2" src="">
-        <text>На твоем месте я бы ей сказала .</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="0" end="2">На твоем месте</arg>
-          <arg type="ARG0" start="3" end="3">я</arg>
-          <arg type="ARG2" start="5" end="5">ей</arg>
-          <rel relloc="6">сказала</rel>
-        </propbank>
-      </example>
-      <example name="direct quote" src="">
-        <text>Во время встречи со своим тайским коллегой Самаком Сунтхараветом , которая состоялась в Янгоне в среду , премьер - министр Мьянмы генерал Тейн Сейн сказал : « На сегодняшний день все спасательные работы завершены .</text>
-        <propbank>
-          <arg type="ARG0" start="17" end="23">премьер - министр Мьянмы генерал Тейн Сейн</arg>
-          <rel relloc="24">сказал</rel>
-          <arg type="ARG1" start="27" end="33">На сегодняшний день все спасательные работы завершены</arg>
-        </propbank>
-      </example>
-      <example name="infinitive clausal arg1" src="">
-        <text>Сделали укол от столбняка и сказали мазать АРГОСУЛЬФАНОМ .</text>
-        <propbank>
-          <rel relloc="5">сказали</rel>
-          <arg type="ARG3" start="6" end="7">мазать АРГОСУЛЬФАНОМ</arg>
-        </propbank>
-      </example>
-      <example name="prepositional arg3" src="">
-        <text>потому и сказала про понаблюдать .</text>
-        <propbank>
-          <rel relloc="2">сказала</rel>
-          <arg type="ARG3" start="3" end="4">про понаблюдать</arg>
-        </propbank>
-      </example>
-      <example name="imperfective, no arguments" src="И. С. Тургенев, «Новь», 1877 г. (цитата из Викитеки).">
-        <text>― Ну что , ― начала она , ― сказывай скорей , чем вы решили .</text>
-        <propbank>
-          <rel relloc="9">сказывай</rel>
-          <arg type="ARGM-TMP" start="10" end="10">скорей</arg>
-        </propbank>
-      </example>
-      <example name="arg3" src="">
-        <text>Если его нету , то скажите место , я могу скинуть .</text>
-        <propbank>
-          <rel relloc="5">скажите</rel>
-          <arg type="ARG3" start="6" end="6">место</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="сказать.02" name="DISCOURSE FUNCTION, let's say, for example">
-      <aliases>
-	  </aliases>
-      <note>NOTES: Based on say.02</note>
-      <roles>
-      </roles>
-      <lexlinks>
-        <lexlink class="say.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="[Сергей Довлатов. Переводные картинки // «Иностранная литература», 1990]">
-        <text>Толстого , например , переводить легче , чем Гоголя . Тургенева , скажем , проще , чем Лескова .</text>
-        <propbank>
-          <rel relloc="12">скажем</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="сказаться">
-    <roleset id="сказаться.03" name="become evident/apparent, tell">
-      <aliases>
-        <alias pos="v">сказываться</alias>
-      </aliases>
-      <note>NOTES: Based on tell.01.</note>
-      <roles>
-        <role descr="thing becoming evident" f="PAG" n="1"/>
-        <role descr="how or where evident" f="PPT" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="tell.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="experience tells" src="М. В. Барро, «Мольер. Его жизнь и литературная деятельность», 1891 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Сколько раз приходилось ему в эту пору вести разговоры с ростовщиками , образчик которых он с таким искусством изобразил в « Дон - Жуане » и где , конечно , сказался опыт , вынесенный им из встреч с его кредиторами ― Фоссе , Помье и другими .</text>
-        <propbank>
-          <rel relloc="30">сказался</rel>
-          <arg type="ARG1" start="31" end="31">опыт</arg>
-        </propbank>
-      </example>
-      <example name="became evident, left signs of" src="">
-        <text>Все это сказалось на состоянии здоровья населения , повлияло на демографическую ситуацию в стране на десятилетия вперед .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="1">Все это</arg>
-          <rel relloc="2">сказалось</rel>
-          <arg type="ARG2" start="3" end="6">на состоянии здоровья населения</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="сказаться.04" name="(falsely) report oneself, claim to be, notify">
-      <aliases>
-	  </aliases>
-      <note>NOTES: Based on report.01.</note>
-      <roles>
-        <role descr="reporter" f="PAG" n="0"/>
-        <role descr="thing reported" f="PPT" n="1"/>
-        <role descr="reported as" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="report.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="reported to be" src="А. Шубин, «Путь к благополучию», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Андрей Иванович сказался больным .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="1">Андрей Иванович</arg>
-          <rel relloc="2">сказался</rel>
-          <arg type="ARG2" start="3" end="3">больным</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="сказаться.05" name="alert, forewarn, excuse oneself">
-      <aliases>
-	  </aliases>
-      <note>NOTES: Based on alert.01.</note>
-      <roles>
-        <role descr="entity giving warning" f="PAG" n="0"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="alert.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="no args" src="(Оглядывает его.) [А. П. Чехов. Вишневый сад (1904)]">
-        <text>Нечего там … Утром уехали , не сказавшись .</text>
-        <propbank>
-          <rel relloc="7">сказавшись</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="сказать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="сказать.01" name="say">
+            <aliases>
+                <alias pos="v">сказывать</alias>
+                <alias pos="v">сказаться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 1</note>
+            <note>NOTES: Based on say.01.</note>
+            <roles>
+                <role descr="Sayer" f="PAG" n="0"/>
+                <role descr="Utterance" f="PPT" n="1"/>
+                <role descr="Hearer" f="GOL" n="2"/>
+                <role descr="Attributive" f="ADV" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="say.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg3-VSP = Russian Arg3-SRC</note>
+            <example name="clausal arg1" src="">
+                <text>Она сказала , что вас не было .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Она</arg>
+                    <rel relloc="1">сказала</rel>
+                    <arg type="ARG1" start="3" end="6">что вас не было</arg>
+                </propbank>
+            </example>
+            <example name="arg 1 and 2" src="">
+                <text>На твоем месте я бы ей сказала .</text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="0" end="2">На твоем месте</arg>
+                    <arg type="ARG0" start="3" end="3">я</arg>
+                    <arg type="ARG2" start="5" end="5">ей</arg>
+                    <rel relloc="6">сказала</rel>
+                </propbank>
+            </example>
+            <example name="direct quote" src="">
+                <text>Во время встречи со своим тайским коллегой Самаком Сунтхараветом , которая состоялась в Янгоне в
+                    среду , премьер - министр Мьянмы генерал Тейн Сейн сказал : « На сегодняшний день все спасательные
+                    работы завершены .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="17" end="23">премьер - министр Мьянмы генерал Тейн Сейн</arg>
+                    <rel relloc="24">сказал</rel>
+                    <arg type="ARG1" start="27" end="33">На сегодняшний день все спасательные работы завершены</arg>
+                </propbank>
+            </example>
+            <example name="infinitive clausal arg1" src="">
+                <text>Сделали укол от столбняка и сказали мазать АРГОСУЛЬФАНОМ .</text>
+                <propbank>
+                    <rel relloc="5">сказали</rel>
+                    <arg type="ARG3" start="6" end="7">мазать АРГОСУЛЬФАНОМ</arg>
+                </propbank>
+            </example>
+            <example name="prepositional arg3" src="">
+                <text>потому и сказала про понаблюдать .</text>
+                <propbank>
+                    <rel relloc="2">сказала</rel>
+                    <arg type="ARG3" start="3" end="4">про понаблюдать</arg>
+                </propbank>
+            </example>
+            <example name="imperfective, no arguments" src="И. С. Тургенев, «Новь», 1877 г. (цитата из Викитеки).">
+                <text>― Ну что , ― начала она , ― сказывай скорей , чем вы решили .</text>
+                <propbank>
+                    <rel relloc="9">сказывай</rel>
+                    <arg type="ARGM-TMP" start="10" end="10">скорей</arg>
+                </propbank>
+            </example>
+            <example name="arg3" src="">
+                <text>Если его нету , то скажите место , я могу скинуть .</text>
+                <propbank>
+                    <rel relloc="5">скажите</rel>
+                    <arg type="ARG3" start="6" end="6">место</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="сказать.02" name="DISCOURSE FUNCTION, let's say, for example">
+            <aliases>
+            </aliases>
+            <note>NOTES: Based on say.02</note>
+            <roles>
+            </roles>
+            <lexlinks>
+                <lexlink class="say.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="[Сергей Довлатов. Переводные картинки // «Иностранная литература», 1990]">
+                <text>Толстого , например , переводить легче , чем Гоголя . Тургенева , скажем , проще , чем Лескова .
+                </text>
+                <propbank>
+                    <rel relloc="12">скажем</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="сказаться">
+        <roleset id="сказаться.03" name="become evident/apparent, tell">
+            <aliases>
+                <alias pos="v">сказываться</alias>
+            </aliases>
+            <note>NOTES: Based on tell.01.</note>
+            <roles>
+                <role descr="thing becoming evident" f="PAG" n="1"/>
+                <role descr="how or where evident" f="PPT" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="tell.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="experience tells"
+                     src="М. В. Барро, «Мольер. Его жизнь и литературная деятельность», 1891 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Сколько раз приходилось ему в эту пору вести разговоры с ростовщиками , образчик которых он с
+                    таким искусством изобразил в « Дон - Жуане » и где , конечно , сказался опыт , вынесенный им из
+                    встреч с его кредиторами ― Фоссе , Помье и другими .
+                </text>
+                <propbank>
+                    <rel relloc="30">сказался</rel>
+                    <arg type="ARG1" start="31" end="31">опыт</arg>
+                </propbank>
+            </example>
+            <example name="became evident, left signs of" src="">
+                <text>Все это сказалось на состоянии здоровья населения , повлияло на демографическую ситуацию в стране
+                    на десятилетия вперед .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="1">Все это</arg>
+                    <rel relloc="2">сказалось</rel>
+                    <arg type="ARG2" start="3" end="6">на состоянии здоровья населения</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="сказаться.04" name="(falsely) report oneself, claim to be, notify">
+            <aliases>
+            </aliases>
+            <note>NOTES: Based on report.01.</note>
+            <roles>
+                <role descr="reporter" f="PAG" n="0"/>
+                <role descr="thing reported" f="PPT" n="1"/>
+                <role descr="reported as" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="report.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="reported to be"
+                     src="А. Шубин, «Путь к благополучию», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Андрей Иванович сказался больным .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="1">Андрей Иванович</arg>
+                    <rel relloc="2">сказался</rel>
+                    <arg type="ARG2" start="3" end="3">больным</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="сказаться.05" name="alert, forewarn, excuse oneself">
+            <aliases>
+            </aliases>
+            <note>NOTES: Based on alert.01.</note>
+            <roles>
+                <role descr="entity giving warning" f="PAG" n="0"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="alert.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="no args" src="(Оглядывает его.) [А. П. Чехов. Вишневый сад (1904)]">
+                <text>Нечего там … Утром уехали , не сказавшись .</text>
+                <propbank>
+                    <rel relloc="7">сказавшись</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

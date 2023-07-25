@@ -1,289 +1,304 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="стать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="стать.01" name="become">
-      <aliases>
-        <alias pos="v">cтановиться</alias>
-        <alias pos="j">становящийся</alias>
-        <alias pos="j">становившийся</alias>
-        <alias pos="v">становясь</alias>
-        <alias pos="j">становившись</alias>
-        <alias pos="j">ставший</alias>
-        <alias pos="v">став</alias>
-        <alias pos="v">ставши</alias>
-      </aliases>
-      <note>стать.01 NOTES: Based on English become.01</note>
-      <roles>
-        <role descr="entity changing, gaining attribute" f="PPT" n="1"/>
-        <role descr="new state, attribute" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="become.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="become as something" src="">
-        <text>Жертвами землетрясения стал 31 человек , еще 800 получили ранения .</text>
-        <propbank>
-          <arg type="ARG2" start="0" end="1">Жертвами землетрясения</arg>
-          <rel relloc="2">стал</rel>
-          <arg type="ARG1" start="3" end="4">31 человек</arg>
-        </propbank>
-      </example>
-      <example name="mood, cognitive change" src="">
-        <text>Че - то грустно как - то стало мене ...</text>
-        <propbank>
-          <arg type="ARG2" start="0" end="6">Че - то грустно как - то</arg>
-          <rel relloc="7">стало</rel>
-          <arg type="ARG1" start="8" end="8">мене</arg>
-        </propbank>
-      </example>
-      <example name="gain attribute" src="">
-        <text>А вражеская Чечня в одночасье стала такой любимой и родной ?</text>
-        <propbank>
-          <arg type="ARG1" start="1" end="2">вражеская Чечня</arg>
-          <arg type="ARGM-TMP" start="3" end="4">в одночасье</arg>
-          <rel relloc="5">стала</rel>
-          <arg type="ARG2" start="6" end="9">такой любимой и родной</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="стать.02" name="begin">
-      <aliases>
-        <alias pos="j">ставший</alias>
-        <alias pos="v">став</alias>
-        <alias pos="v">ставши</alias>
-      </aliases>
-      <note>стать.02 NOTES: Based on English begin.01</note>
-      <roles>
-        <role descr="beginner, Agent" f="PAG" n="0"/>
-        <role descr="Thing begun" f="PPT" n="1"/>
-        <role descr="Instrument, starting point" f="MNR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="begin.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="begin, start" src="">
-        <text>После 7 часов утра уровень воды стал резко понижаться .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="3">После 7 часов утра</arg>
-          <arg type="ARG1" start="4" end="5">уровень воды</arg>
-          <rel relloc="6">стал</rel>
-          <arg type="ARG1" start="7" end="8">резко понижаться</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="стать.03" name="freeze">
-      <aliases>
-        <alias pos="j">ставший</alias>
-        <alias pos="v">став</alias>
-        <alias pos="v">ставши</alias>
-      </aliases>
-      <note>стать.03 NOTES: Based on English freeze_over.03</note>
-      <roles>
-        <role descr="Thing freezing over" f="PAG" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="freeze_over.03" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="freeze" src="Аксаков, «Детские годы Багрова-внука, служащие продолжением семейной хроники», 1858 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Наконец получили известие , что Волга стала и что через нее потянулись обозы .</text>
-        <propbank>
-          <arg type="ARG1" start="5" end="5">Волга</arg>
-          <rel relloc="6">стала</rel>
-        </propbank>
-      </example>
-      <example name="freeze hard" src="Анатолий Ким, «Белка», 1984 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Мы были посреди широкой замерзшей реки , лед стал только недавно , трещал и гнулся под ногами .</text>
-        <propbank>
-          <arg type="ARG1" start="7" end="7">лед</arg>
-          <rel relloc="8">стал</rel>
-          <arg type="ARGM-TMP" start="9" end="10">только недавно</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="стать.04" name="stand, stand up">
-      <aliases>
-        <alias pos="v">cтановиться</alias>
-        <alias pos="j">становящийся</alias>
-        <alias pos="j">становившийся</alias>
-        <alias pos="v">становясь</alias>
-        <alias pos="j">становившись</alias>
-        <alias pos="j">ставший</alias>
-        <alias pos="v">став</alias>
-        <alias pos="v">ставши</alias>
-      </aliases>
-      <note>стать.04 NOTES: Based on English stand.01</note>
-      <roles>
-        <role descr="thing standing" f="PPT" n="1"/>
-        <role descr="location, position" f="LOC" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="stand.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg0-PAG has no match in Russian frame</note>
-      <example name="be at a standstill" src="">
-        <text>троллейбус , там , по ходу , Кнорина около Севастопольского или Химреактивов затопило , вот и машины стали .</text>
-        <propbank>
-          <arg type="ARG1" start="16" end="16">машины</arg>
-          <rel relloc="17">стали</rel>
-        </propbank>
-      </example>
-      <example name="stand" src="">
-        <text>После утренника попросила стать с девочками чтобы я их сфотографировала , что то дочке не понравилось ( поставила её не по центру ) запустила в меня зонтиком и разрыдалась</text>
-        <propbank>
-          <rel relloc="3">стать</rel>
-          <arg type="ARGM-COM" start="4" end="5">с девочками</arg>
-        </propbank>
-      </example>
-      <example name="all args" src="М. Ю. Лермонтов, «Песня про царя Ивана Васильевича, молодого опричника и удалого купца Калашникова», 1837 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>И он стал к окну</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">И</arg>
-          <arg type="ARG1" start="1" end="1">он</arg>
-          <rel relloc="2">стал</rel>
-          <arg type="ARG2" start="3" end="4">к окну</arg>
-        </propbank>
-      </example>
-      <example name="get up" src="А. С. Пушкин, «Капитанская дочка», 1836 г. (цитата из Викитеки)">
-        <text>Я стал на колени и устремил глаза мои на больного .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Я</arg>
-          <rel relloc="1">стал</rel>
-          <arg type="ARG2" start="2" end="3">на колени</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="стать.05" name="cost">
-      <aliases>
-        <alias pos="v">cтановиться</alias>
-        <alias pos="j">становящийся</alias>
-        <alias pos="j">становившийся</alias>
-        <alias pos="v">становясь</alias>
-        <alias pos="j">становившись</alias>
-        <alias pos="j">ставший</alias>
-        <alias pos="v">став</alias>
-        <alias pos="v">ставши</alias>
-      </aliases>
-      <roles>
-        <role descr="commodity " f="PPT" n="1"/>
-        <role descr="price" f="VSP" n="2"/>
-        <role descr="buyer" f="GOL" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="cost.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>стать.04 NOTES: Based on English cost.01</note>
-      <example name="cost" src="https://dic.academic.ru/dic.nsf/ogegova/278800">
-        <text>Пальто мне стало в кругленькую сумму .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Пальто</arg>
-          <arg type="ARG3" start="1" end="1">мне</arg>
-          <rel relloc="2">стало</rel>
-          <arg type="ARG2" start="3" end="5">в кругленькую сумму</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="стать.06" name="last">
-      <aliases>
-        <alias pos="j">ставший</alias>
-        <alias pos="v">став</alias>
-        <alias pos="v">ставши</alias>
-      </aliases>
-      <roles>
-        <role descr="hing that lasts" f="PPT" n="1"/>
-        <role descr="period of time" f="VSP" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="last.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>стать.06 NOTES: based on English last.01</note>
-      <example name="arg2" src="М. Е. Салтыков-Щедрин, «Господа Головлёвы», 1875 г. (цитата из Викитеки)">
-        <text>Одним словом , Степан Владимирыч проводил братьев дружелюбно и не без самодовольства показал Якову - земскому две двадцатипятирублёвые бумажки , очутившиеся в его руке после прощания . — Теперь , брат , мне надолго станет ! — сказал он .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="28" end="28">Теперь</arg>
-          <arg type="ARGM-DIS" start="30" end="30">брат</arg>
-          <arg type="ARGM-GOL" start="32" end="32">мне</arg>
-          <arg type="ARG2" start="33" end="33">надолго</arg>
-          <rel relloc="34">станет</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="стать.07" name="expect something">
-      <aliases>
-      </aliases>
-      <roles>
-        <role descr="entity one may expect something from" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="expect.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg0-PAG has no match in Russian frame</note>
-      <note>стать.07 NOTES: based on English expect.01</note>
-      <example name="stand" src="">
-        <text>С него станет , этот праведник на всё способен , – испуганно сказал Дима , – а от тебя такого предательства я не ожидал .</text>
-        <propbank>
-          <arg type="ARG1" start="1" end="1">него</arg>
-          <rel relloc="2">станет</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="стать">
-    <roleset id="не_стало.08" name="die, disappear">
-      <aliases>
-        <alias pos="m">не_стало</alias>
-        <mwp-descriptions id="не_стало">
-          <syntaxdesc slots="A B">
-            <token slot="A" arg="" pos="" head="B" dep="">не</token>
-            <token slot="B" arg="" pos="" head="" dep="">стало</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <roles>
-        <role descr="entity dying" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="pass.20" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>не_стало.08 NOTES: Based on English pass.20</note>
-      <example name="pass on" src="">
-        <text>И её тоже не стало .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">И</arg>
-          <arg type="ARG1" start="1" end="1">её</arg>
-          <rel relloc="3 4">не стало</rel>
-        </propbank>
-      </example>
-      <example name="end, finish" src="">
-        <text>Не стало средств , запасов .</text>
-        <propbank>
-          <rel relloc="0 1">Не стало</rel>
-          <arg type="ARG1" start="2" end="4">средств , запасов</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="стало_быть">
-    <roleset id="стало_быть.09" name="therefore, hence, thus">
-      <aliases>
-        <alias pos="m">стало_быть</alias>
-        <mwp-descriptions id="стало_быть">
-          <syntaxdesc slots="A B">
-            <token slot="A" arg="" pos="" head="" dep="">стало</token>
-            <token slot="B" arg="" pos="" head="A" dep="">быть</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <roles>
-      </roles>
-      <note>стало_быть.09 NOTES: No parallel English frame.</note>
-      <example name="example" src="">
-        <text>А чтоб и в Огайо с помидорами в августе завязывали ... жаль коли так ... не суждено стало быть ... Фермеры на рынке судачили , что у них еще и баклажны " не отколосились " , как следует</text>
-        <propbank>
-          <rel relloc="17 18">стало быть</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="стать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="стать.01" name="become">
+            <aliases>
+                <alias pos="v">cтановиться</alias>
+                <alias pos="j">становящийся</alias>
+                <alias pos="j">становившийся</alias>
+                <alias pos="v">становясь</alias>
+                <alias pos="j">становившись</alias>
+                <alias pos="j">ставший</alias>
+                <alias pos="v">став</alias>
+                <alias pos="v">ставши</alias>
+            </aliases>
+            <note>стать.01 NOTES: Based on English become.01</note>
+            <roles>
+                <role descr="entity changing, gaining attribute" f="PPT" n="1"/>
+                <role descr="new state, attribute" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="become.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="become as something" src="">
+                <text>Жертвами землетрясения стал 31 человек , еще 800 получили ранения .</text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="1">Жертвами землетрясения</arg>
+                    <rel relloc="2">стал</rel>
+                    <arg type="ARG1" start="3" end="4">31 человек</arg>
+                </propbank>
+            </example>
+            <example name="mood, cognitive change" src="">
+                <text>Че - то грустно как - то стало мене ...</text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="6">Че - то грустно как - то</arg>
+                    <rel relloc="7">стало</rel>
+                    <arg type="ARG1" start="8" end="8">мене</arg>
+                </propbank>
+            </example>
+            <example name="gain attribute" src="">
+                <text>А вражеская Чечня в одночасье стала такой любимой и родной ?</text>
+                <propbank>
+                    <arg type="ARG1" start="1" end="2">вражеская Чечня</arg>
+                    <arg type="ARGM-TMP" start="3" end="4">в одночасье</arg>
+                    <rel relloc="5">стала</rel>
+                    <arg type="ARG2" start="6" end="9">такой любимой и родной</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="стать.02" name="begin">
+            <aliases>
+                <alias pos="j">ставший</alias>
+                <alias pos="v">став</alias>
+                <alias pos="v">ставши</alias>
+            </aliases>
+            <note>стать.02 NOTES: Based on English begin.01</note>
+            <roles>
+                <role descr="beginner, Agent" f="PAG" n="0"/>
+                <role descr="Thing begun" f="PPT" n="1"/>
+                <role descr="Instrument, starting point" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="begin.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="begin, start" src="">
+                <text>После 7 часов утра уровень воды стал резко понижаться .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="3">После 7 часов утра</arg>
+                    <arg type="ARG1" start="4" end="5">уровень воды</arg>
+                    <rel relloc="6">стал</rel>
+                    <arg type="ARG1" start="7" end="8">резко понижаться</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="стать.03" name="freeze">
+            <aliases>
+                <alias pos="j">ставший</alias>
+                <alias pos="v">став</alias>
+                <alias pos="v">ставши</alias>
+            </aliases>
+            <note>стать.03 NOTES: Based on English freeze_over.03</note>
+            <roles>
+                <role descr="Thing freezing over" f="PAG" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="freeze_over.03" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="freeze"
+                     src="Аксаков, «Детские годы Багрова-внука, служащие продолжением семейной хроники», 1858 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Наконец получили известие , что Волга стала и что через нее потянулись обозы .</text>
+                <propbank>
+                    <arg type="ARG1" start="5" end="5">Волга</arg>
+                    <rel relloc="6">стала</rel>
+                </propbank>
+            </example>
+            <example name="freeze hard"
+                     src="Анатолий Ким, «Белка», 1984 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Мы были посреди широкой замерзшей реки , лед стал только недавно , трещал и гнулся под ногами .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="7" end="7">лед</arg>
+                    <rel relloc="8">стал</rel>
+                    <arg type="ARGM-TMP" start="9" end="10">только недавно</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="стать.04" name="stand, stand up">
+            <aliases>
+                <alias pos="v">cтановиться</alias>
+                <alias pos="j">становящийся</alias>
+                <alias pos="j">становившийся</alias>
+                <alias pos="v">становясь</alias>
+                <alias pos="j">становившись</alias>
+                <alias pos="j">ставший</alias>
+                <alias pos="v">став</alias>
+                <alias pos="v">ставши</alias>
+            </aliases>
+            <note>стать.04 NOTES: Based on English stand.01</note>
+            <roles>
+                <role descr="thing standing" f="PPT" n="1"/>
+                <role descr="location, position" f="LOC" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="stand.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg0-PAG has no match in Russian frame</note>
+            <example name="be at a standstill" src="">
+                <text>троллейбус , там , по ходу , Кнорина около Севастопольского или Химреактивов затопило , вот и
+                    машины стали .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="16" end="16">машины</arg>
+                    <rel relloc="17">стали</rel>
+                </propbank>
+            </example>
+            <example name="stand" src="">
+                <text>После утренника попросила стать с девочками чтобы я их сфотографировала , что то дочке не
+                    понравилось ( поставила её не по центру ) запустила в меня зонтиком и разрыдалась
+                </text>
+                <propbank>
+                    <rel relloc="3">стать</rel>
+                    <arg type="ARGM-COM" start="4" end="5">с девочками</arg>
+                </propbank>
+            </example>
+            <example name="all args"
+                     src="М. Ю. Лермонтов, «Песня про царя Ивана Васильевича, молодого опричника и удалого купца Калашникова», 1837 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>И он стал к окну</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">И</arg>
+                    <arg type="ARG1" start="1" end="1">он</arg>
+                    <rel relloc="2">стал</rel>
+                    <arg type="ARG2" start="3" end="4">к окну</arg>
+                </propbank>
+            </example>
+            <example name="get up" src="А. С. Пушкин, «Капитанская дочка», 1836 г. (цитата из Викитеки)">
+                <text>Я стал на колени и устремил глаза мои на больного .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Я</arg>
+                    <rel relloc="1">стал</rel>
+                    <arg type="ARG2" start="2" end="3">на колени</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="стать.05" name="cost">
+            <aliases>
+                <alias pos="v">cтановиться</alias>
+                <alias pos="j">становящийся</alias>
+                <alias pos="j">становившийся</alias>
+                <alias pos="v">становясь</alias>
+                <alias pos="j">становившись</alias>
+                <alias pos="j">ставший</alias>
+                <alias pos="v">став</alias>
+                <alias pos="v">ставши</alias>
+            </aliases>
+            <roles>
+                <role descr="commodity " f="PPT" n="1"/>
+                <role descr="price" f="VSP" n="2"/>
+                <role descr="buyer" f="GOL" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="cost.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>стать.04 NOTES: Based on English cost.01</note>
+            <example name="cost" src="https://dic.academic.ru/dic.nsf/ogegova/278800">
+                <text>Пальто мне стало в кругленькую сумму .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Пальто</arg>
+                    <arg type="ARG3" start="1" end="1">мне</arg>
+                    <rel relloc="2">стало</rel>
+                    <arg type="ARG2" start="3" end="5">в кругленькую сумму</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="стать.06" name="last">
+            <aliases>
+                <alias pos="j">ставший</alias>
+                <alias pos="v">став</alias>
+                <alias pos="v">ставши</alias>
+            </aliases>
+            <roles>
+                <role descr="hing that lasts" f="PPT" n="1"/>
+                <role descr="period of time" f="VSP" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="last.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>стать.06 NOTES: based on English last.01</note>
+            <example name="arg2" src="М. Е. Салтыков-Щедрин, «Господа Головлёвы», 1875 г. (цитата из Викитеки)">
+                <text>Одним словом , Степан Владимирыч проводил братьев дружелюбно и не без самодовольства показал Якову
+                    - земскому две двадцатипятирублёвые бумажки , очутившиеся в его руке после прощания . — Теперь ,
+                    брат , мне надолго станет ! — сказал он .
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="28" end="28">Теперь</arg>
+                    <arg type="ARGM-DIS" start="30" end="30">брат</arg>
+                    <arg type="ARGM-GOL" start="32" end="32">мне</arg>
+                    <arg type="ARG2" start="33" end="33">надолго</arg>
+                    <rel relloc="34">станет</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="стать.07" name="expect something">
+            <aliases>
+            </aliases>
+            <roles>
+                <role descr="entity one may expect something from" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="expect.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg0-PAG has no match in Russian frame</note>
+            <note>стать.07 NOTES: based on English expect.01</note>
+            <example name="stand" src="">
+                <text>С него станет , этот праведник на всё способен , – испуганно сказал Дима , – а от тебя такого
+                    предательства я не ожидал .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="1" end="1">него</arg>
+                    <rel relloc="2">станет</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="стать">
+        <roleset id="не_стало.08" name="die, disappear">
+            <aliases>
+                <alias pos="m">не_стало</alias>
+                <mwp-descriptions id="не_стало">
+                    <syntaxdesc slots="A B">
+                        <token slot="A" arg="" pos="" head="B" dep="">не</token>
+                        <token slot="B" arg="" pos="" head="" dep="">стало</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <roles>
+                <role descr="entity dying" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="pass.20" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>не_стало.08 NOTES: Based on English pass.20</note>
+            <example name="pass on" src="">
+                <text>И её тоже не стало .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">И</arg>
+                    <arg type="ARG1" start="1" end="1">её</arg>
+                    <rel relloc="3 4">не стало</rel>
+                </propbank>
+            </example>
+            <example name="end, finish" src="">
+                <text>Не стало средств , запасов .</text>
+                <propbank>
+                    <rel relloc="0 1">Не стало</rel>
+                    <arg type="ARG1" start="2" end="4">средств , запасов</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="стало_быть">
+        <roleset id="стало_быть.09" name="therefore, hence, thus">
+            <aliases>
+                <alias pos="m">стало_быть</alias>
+                <mwp-descriptions id="стало_быть">
+                    <syntaxdesc slots="A B">
+                        <token slot="A" arg="" pos="" head="" dep="">стало</token>
+                        <token slot="B" arg="" pos="" head="A" dep="">быть</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <roles>
+            </roles>
+            <note>стало_быть.09 NOTES: No parallel English frame.</note>
+            <example name="example" src="">
+                <text>А чтоб и в Огайо с помидорами в августе завязывали ... жаль коли так ... не суждено стало быть ...
+                    Фермеры на рынке судачили , что у них еще и баклажны " не отколосились " , как следует
+                </text>
+                <propbank>
+                    <rel relloc="17 18">стало быть</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

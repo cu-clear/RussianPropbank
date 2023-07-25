@@ -1,41 +1,41 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="останавливаться">
-    <roleset id="останавливаться.01" name="Stop, cease (reflexive)">
-      <aliases>
-        <alias pos="v">останавливаться</alias>
-        <alias pos="v">остановиться</alias>
-        <alias pos="j">останавливающийся</alias>
-        <alias pos="j">остановившийся</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English word.01</note>
-      <roles>
-        <role descr="Entity Stopping" f="PAG" n="0" />
-        <role descr="Action or object being stopped" f="PPT" n="1" />
-	    </roles>
-      <example name="Arg0, agentive entity" src="_">
-        <text>Валя останавливалась часто .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Валя</arg>
-          <rel relloc="1">останавливалась</rel>
-        </propbank>
-      </example>
-      <example name="Arg1, non-agentive theme" src="_">
-        <text>Претензии остановились .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Претензии</arg>
-          <rel relloc="1">остановились</rel>
-        </propbank>
-      </example>
-      <example name="Arg0 and Arg1" src="_">
-        <text>Из за него операция полностью останавливалась</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="2">Из за него</arg>
-	        <arg type="ARG1" start="3" end="3">операция</arg>
-          <rel relloc="5">останавливалась</rel>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="останавливаться">
+        <roleset id="останавливаться.01" name="Stop, cease (reflexive)">
+            <aliases>
+                <alias pos="v">останавливаться</alias>
+                <alias pos="v">остановиться</alias>
+                <alias pos="j">останавливающийся</alias>
+                <alias pos="j">остановившийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English word.01</note>
+            <roles>
+                <role descr="Entity Stopping" f="PAG" n="0"/>
+                <role descr="Action or object being stopped" f="PPT" n="1"/>
+            </roles>
+            <example name="Arg0, agentive entity" src="_">
+                <text>Валя останавливалась часто .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Валя</arg>
+                    <rel relloc="1">останавливалась</rel>
+                </propbank>
+            </example>
+            <example name="Arg1, non-agentive theme" src="_">
+                <text>Претензии остановились .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Претензии</arg>
+                    <rel relloc="1">остановились</rel>
+                </propbank>
+            </example>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Из за него операция полностью останавливалась</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="2">Из за него</arg>
+                    <arg type="ARG1" start="3" end="3">операция</arg>
+                    <rel relloc="5">останавливалась</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

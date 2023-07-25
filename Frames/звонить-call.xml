@@ -31,7 +31,8 @@
                 <text>Он еще много раз тогда звонил , а она не отвечала, раз звонил значит все в порядке .</text>
                 <propbank>
                     <arg type="ARG1" start="0" end="0">Он</arg>
-                    <rel relloc="5">звонил</rel></propbank>
+                    <rel relloc="5">звонил</rel>
+                </propbank>
             </example>
             <example name="ARG1" src="up74.ru">
                 <text>На днях позвонил двоюродный брат .</text>

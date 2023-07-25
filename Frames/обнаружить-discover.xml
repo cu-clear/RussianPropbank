@@ -1,147 +1,169 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="обнаружить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="обнаружить.01" name="discover">
-      <aliases>
-        <alias pos="n">обнаружение</alias>
-        <alias pos="j">обнаруживший</alias>
-        <alias pos="j">обнаруженный</alias>
-        <alias pos="j">обнаружен</alias>
-        <alias pos="v">обнаруживать</alias>
-        <alias pos="j">обнаруживающий</alias>
-        <alias pos="j">обнаруживавший</alias>
-        <alias pos="j">обнаруживаемый</alias>
-        <alias pos="v">обнаруживаться</alias>
-        <alias pos="j">обнаружившийся</alias>
-        <alias pos="j">обнаруживающийся</alias>
-        <alias pos="j">обнаруживавшийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2,3,4,8</note>
-      <note>обнаружить.01 NOTES: Frame based on English discover.01</note>
-      <roles>
-        <role descr="finder" f="PAG" n="0"/>
-        <role descr="thing found, discovery" f="PPT" n="1"/>
-        <role descr="benefactive, found for" f="GOL" n="2"/>
-        <role descr="attribute on arg1 (found out to be/as what)" f="PRD" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="discover.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="clausal arg1 " src="">
-        <text>да и потом повезло с камнем - мой 2 - ядерный фен оказался 4 - ядерным и когда посмотрел на рейтинги камней с удивлением обнаружил , что он конкуренит не Е - линейке , а Q с ее 4 ядрами и ценниками ... Был Очень приятно удивлен .</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="22" end="23">с удивлением</arg>
-          <rel relloc="24">обнаружил</rel>
-          <arg type="ARG1" start="26" end="41">что он конкуренит не Е - линейке , а Q с ее 4 ядрами и ценниками</arg>
-        </propbank>
-      </example>
-      <example name="found, perfective passive participle" src="">
-        <text>Утром 20 декабря в дежурную часть Центрально - Городского райотдела милиции поступило сообщение о том , что в палате интенсивной терапии диспансера обнаружен труп пациента с признаками насильственной смерти .</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="18" end="21">палате интенсивной терапии диспансера</arg>
-          <rel relloc="22">обнаружен</rel>
-          <arg type="ARG1" start="23" end="28">труп пациента с признаками насильственной смерти</arg>
-        </propbank>
-      </example>
-      <example name="arg0 and arg1" src="">
-        <text>– Уже утром , после того , как дебошир покинул больничные покои , медперсонал обнаружил второго пациента без признаков жизни с веревкой на шее .</text>
-        <propbank>
-          <arg type="ARG0" start="13" end="13">медперсонал</arg>
-          <rel relloc="14">обнаружил</rel>
-          <arg type="ARG1" start="15" end="23">второго пациента без признаков жизни с веревкой на шее</arg>
-        </propbank>
-      </example>
-      <example name="understood arg1" src="">
-        <text>Через год приезжаю в домик , узнаю , что умерла , соседи только через неделю обнаружили .</text>
-        <propbank>
-          <arg type="ARG0" start="11" end="11">соседи</arg>
-          <arg type="ARGM-TMP" start="12" end="14">только через неделю</arg>
-          <rel relloc="15">обнаружили</rel>
-        </propbank>
-      </example>
-      <example name="found, aux. passive construction, arg1" src="">
-        <text>Источники из Пентагона сообщают , что в результате предварительного осмотра было обнаружено , что , возможно , использовалось от 400 до 500 футов взрывчатого вещества .</text>
-        <propbank>
-          <arg type="ARGM-CAU" start="6" end="9">в результате предварительного осмотра</arg>
-          <rel relloc="11">обнаружено</rel>
-          <arg type="ARG1" start="13" end="24">что , возможно , использовалось от 400 до 500 футов взрывчатого вещества</arg>
-        </propbank>
-      </example>
-      <example name="discovered, arg0 and arg1 inverse word order" src="">
-        <text>Она не уточнила , какого рода деталь обнаружили таможенники , однако отметила , что " документального подтверждения о принадлежности обнаруженного блока к самолетам типа МиГ-23 и основания его вывоза не предоставлено " .</text>
-        <propbank>
-          <arg type="ARG1" start="4" end="6">какого рода деталь</arg>
-          <rel relloc="7">обнаружили</rel>
-          <arg type="ARG0" start="8" end="8">таможенники</arg>
-        </propbank>
-      </example>
-      <example name="figured out, concluded" src="">
-        <text>Access обнаружил , что моя база данных находится в несогласованном состоянии</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Access</arg>
-          <rel relloc="1">обнаружил</rel>
-          <arg type="ARG0" start="3" end="10">что моя база данных находится в несогласованном состоянии</arg>
-        </propbank>
-      </example>
-      <example name="adverbial" src="">
-        <text>В 2013 году планетоход Curiosity , принадлежащий NASA , продолжил делать исторические открытия на Марсе , обнаружив , что одно из высохших озер на красной планете могло быть хранителем жизни более 3 миллиардов лет назад .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">*PRO*</arg>
-          <rel relloc="16">обнаружив</rel>
-          <arg type="ARG1" start="18" end="34">что одно из высохших озер на красной планете могло быть хранителем жизни более 3 миллиардов лет назад</arg>
-        </propbank>
-      </example>
-      <example name="reflexive" src="https://dic.academic.ru/dic.nsf/ogegova/132054">
-        <text>Пропавшая книга обнаружилась .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="1">Пропавшая книга</arg>
-          <rel relloc="2">обнаружилась</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="обнаружить.02" name="reveal">
-      <aliases>
-        <alias pos="n">обнаружение</alias>
-        <alias pos="j">обнаруживший</alias>
-        <alias pos="j">обнаруженный</alias>
-        <alias pos="j">обнаружен</alias>
-        <alias pos="v">обнаруживать</alias>
-        <alias pos="j">обнаруживающий</alias>
-        <alias pos="j">обнаруживавший</alias>
-        <alias pos="j">обнаруживаемый</alias>
-        <alias pos="v">обнаруживаться</alias>
-        <alias pos="j">обнаружившийся</alias>
-        <alias pos="j">обнаруживающийся</alias>
-        <alias pos="j">обнаруживавшийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 5,6,7 </note>
-      <note>обнаружить.02 NOTES: based on English uncover.01</note>
-      <roles>
-        <role descr="discoverer" f="PAG" n="0"/>
-        <role descr="thing discovered" f="PPT" n="1"/>
-        <role descr="secondary attribute" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="uncover.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="make visible" src="Чехов">
-        <text>Губы открылись и обнаружили стиснутые зубы .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
-          <rel relloc="3">обнаружили</rel>
-          <arg type="ARG0" start="4" end="5">стиснутые зубы</arg>
-        </propbank>
-      </example>
-      <example name="make obvious" src="Чехов">
-        <text>Считал неприличным … обнаружить свою радость .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">PRO</arg>
-          <rel relloc="3">обнаружить</rel>
-          <arg type="ARG1" start="4" end="5">свою радость</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="обнаружить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="обнаружить.01" name="discover">
+            <aliases>
+                <alias pos="n">обнаружение</alias>
+                <alias pos="j">обнаруживший</alias>
+                <alias pos="j">обнаруженный</alias>
+                <alias pos="j">обнаружен</alias>
+                <alias pos="v">обнаруживать</alias>
+                <alias pos="j">обнаруживающий</alias>
+                <alias pos="j">обнаруживавший</alias>
+                <alias pos="j">обнаруживаемый</alias>
+                <alias pos="v">обнаруживаться</alias>
+                <alias pos="j">обнаружившийся</alias>
+                <alias pos="j">обнаруживающийся</alias>
+                <alias pos="j">обнаруживавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,3,4,8</note>
+            <note>обнаружить.01 NOTES: Frame based on English discover.01</note>
+            <roles>
+                <role descr="finder" f="PAG" n="0"/>
+                <role descr="thing found, discovery" f="PPT" n="1"/>
+                <role descr="benefactive, found for" f="GOL" n="2"/>
+                <role descr="attribute on arg1 (found out to be/as what)" f="PRD" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="discover.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="clausal arg1 " src="">
+                <text>да и потом повезло с камнем - мой 2 - ядерный фен оказался 4 - ядерным и когда посмотрел на
+                    рейтинги камней с удивлением обнаружил , что он конкуренит не Е - линейке , а Q с ее 4 ядрами и
+                    ценниками ... Был Очень приятно удивлен .
+                </text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="22" end="23">с удивлением</arg>
+                    <rel relloc="24">обнаружил</rel>
+                    <arg type="ARG1" start="26" end="41">что он конкуренит не Е - линейке , а Q с ее 4 ядрами и
+                        ценниками
+                    </arg>
+                </propbank>
+            </example>
+            <example name="found, perfective passive participle" src="">
+                <text>Утром 20 декабря в дежурную часть Центрально - Городского райотдела милиции поступило сообщение о
+                    том , что в палате интенсивной терапии диспансера обнаружен труп пациента с признаками
+                    насильственной смерти .
+                </text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="18" end="21">палате интенсивной терапии диспансера</arg>
+                    <rel relloc="22">обнаружен</rel>
+                    <arg type="ARG1" start="23" end="28">труп пациента с признаками насильственной смерти</arg>
+                </propbank>
+            </example>
+            <example name="arg0 and arg1" src="">
+                <text>– Уже утром , после того , как дебошир покинул больничные покои , медперсонал обнаружил второго
+                    пациента без признаков жизни с веревкой на шее .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="13" end="13">медперсонал</arg>
+                    <rel relloc="14">обнаружил</rel>
+                    <arg type="ARG1" start="15" end="23">второго пациента без признаков жизни с веревкой на шее</arg>
+                </propbank>
+            </example>
+            <example name="understood arg1" src="">
+                <text>Через год приезжаю в домик , узнаю , что умерла , соседи только через неделю обнаружили .</text>
+                <propbank>
+                    <arg type="ARG0" start="11" end="11">соседи</arg>
+                    <arg type="ARGM-TMP" start="12" end="14">только через неделю</arg>
+                    <rel relloc="15">обнаружили</rel>
+                </propbank>
+            </example>
+            <example name="found, aux. passive construction, arg1" src="">
+                <text>Источники из Пентагона сообщают , что в результате предварительного осмотра было обнаружено , что
+                    , возможно , использовалось от 400 до 500 футов взрывчатого вещества .
+                </text>
+                <propbank>
+                    <arg type="ARGM-CAU" start="6" end="9">в результате предварительного осмотра</arg>
+                    <rel relloc="11">обнаружено</rel>
+                    <arg type="ARG1" start="13" end="24">что , возможно , использовалось от 400 до 500 футов взрывчатого
+                        вещества
+                    </arg>
+                </propbank>
+            </example>
+            <example name="discovered, arg0 and arg1 inverse word order" src="">
+                <text>Она не уточнила , какого рода деталь обнаружили таможенники , однако отметила , что "
+                    документального подтверждения о принадлежности обнаруженного блока к самолетам типа МиГ-23 и
+                    основания его вывоза не предоставлено " .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="4" end="6">какого рода деталь</arg>
+                    <rel relloc="7">обнаружили</rel>
+                    <arg type="ARG0" start="8" end="8">таможенники</arg>
+                </propbank>
+            </example>
+            <example name="figured out, concluded" src="">
+                <text>Access обнаружил , что моя база данных находится в несогласованном состоянии</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Access</arg>
+                    <rel relloc="1">обнаружил</rel>
+                    <arg type="ARG0" start="3" end="10">что моя база данных находится в несогласованном состоянии</arg>
+                </propbank>
+            </example>
+            <example name="adverbial" src="">
+                <text>В 2013 году планетоход Curiosity , принадлежащий NASA , продолжил делать исторические открытия на
+                    Марсе , обнаружив , что одно из высохших озер на красной планете могло быть хранителем жизни более 3
+                    миллиардов лет назад .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <rel relloc="16">обнаружив</rel>
+                    <arg type="ARG1" start="18" end="34">что одно из высохших озер на красной планете могло быть
+                        хранителем жизни более 3 миллиардов лет назад
+                    </arg>
+                </propbank>
+            </example>
+            <example name="reflexive" src="https://dic.academic.ru/dic.nsf/ogegova/132054">
+                <text>Пропавшая книга обнаружилась .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="1">Пропавшая книга</arg>
+                    <rel relloc="2">обнаружилась</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="обнаружить.02" name="reveal">
+            <aliases>
+                <alias pos="n">обнаружение</alias>
+                <alias pos="j">обнаруживший</alias>
+                <alias pos="j">обнаруженный</alias>
+                <alias pos="j">обнаружен</alias>
+                <alias pos="v">обнаруживать</alias>
+                <alias pos="j">обнаруживающий</alias>
+                <alias pos="j">обнаруживавший</alias>
+                <alias pos="j">обнаруживаемый</alias>
+                <alias pos="v">обнаруживаться</alias>
+                <alias pos="j">обнаружившийся</alias>
+                <alias pos="j">обнаруживающийся</alias>
+                <alias pos="j">обнаруживавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 5,6,7</note>
+            <note>обнаружить.02 NOTES: based on English uncover.01</note>
+            <roles>
+                <role descr="discoverer" f="PAG" n="0"/>
+                <role descr="thing discovered" f="PPT" n="1"/>
+                <role descr="secondary attribute" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="uncover.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="make visible" src="Чехов">
+                <text>Губы открылись и обнаружили стиснутые зубы .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
+                    <rel relloc="3">обнаружили</rel>
+                    <arg type="ARG0" start="4" end="5">стиснутые зубы</arg>
+                </propbank>
+            </example>
+            <example name="make obvious" src="Чехов">
+                <text>Считал неприличным … обнаружить свою радость .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">PRO</arg>
+                    <rel relloc="3">обнаружить</rel>
+                    <arg type="ARG1" start="4" end="5">свою радость</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

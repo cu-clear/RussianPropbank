@@ -1,247 +1,281 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="спустить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="спустить.01" name="lower, send down, let down, put down, pull down, downriver, lose pounds/weight, fall (dark/night)">
-      <aliases>
-        <alias pos="v">спускать</alias>
-        <alias pos="v">спуститься</alias>
-        <alias pos="v">спускаться</alias>
-        <alias pos="n">спускание</alias>
-        <alias pos="n">спуск</alias>
-      </aliases>
-      <note>спустить.01 NOTES: Roleset based on English verb frame lower.05</note>
-      <note>Corresponds to FrameBank senses 1,2,3,8; -ся 1,2,3</note>
-      <roles>
-        <role descr="entity moving something downward " f="PAG" n="1"/>
-        <role descr="Logical subject, patient, thing going down" f="PPT" n="2"/>
-        <role descr="EXT, amount gone down by" f="EXT" n="3"/>
-        <role descr="start point" f="DIR" n="4"/>
-        <role descr="end point, end state of arg1" f="GOL" n="4"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="lower.05" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="И. С. Тургенев, «Накануне», 1859 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Она развязала ленты шляпы , сбросила её , спустила с плеч мантилью , поправила волосы и села на маленький , старенький диванчик .</text>
-        <propbank>
-          <arg type="ARG1" start="11" end="11">мантилью</arg>
-          <arg type="ARG3" start="9" end="10">с плеч</arg>
-          <rel relloc="8">спустила</rel>
-        </propbank>
-      </example>
-      <example name="" src="Н. И. Березин, «Пешком по карельским водопадам», 1903 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Ребенок , сучивший в люльке задранными кверху ножками , запищал , должно быть от комаров , и молодая мать , присев к нему , спустила ему в рот налитую молоком грудь , которую он принялся сосать , скосив глаза на нас .</text>
-        <propbank>
-          <arg type="ARG1" start="28" end="30">налитую молоком грудь</arg>
-          <arg type="ARG4" start="25" end="27">ему в рот</arg>
-          <rel relloc="24">спустила</rel>
-        </propbank>
-      </example>
-      <example name="" src="А. П. Платонов, «Котлован», 1930 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Всю ночь сидел активист при непогашенной лампе , слушая , не скачет ли по темной дороге верховой из района , чтобы спустить директиву на село .</text>
-        <propbank>
-          <arg type="ARG1" start="22" end="22">директиву</arg>
-          <arg type="ARG4" start="23" end="24">на село</arg>
-          <rel relloc="21">спустить</rel>
-        </propbank>
-      </example>
-      <example name="" src="Т. Ю. Соломатина, «Отойти в сторону и посмотреть», 2011 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Уровень спустят , чтобы давление в верхней части ослабить , или ещё чего .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Уровень</arg>
-          <rel relloc="1">спустят</rel>
-        </propbank>
-      </example>
-      <example name="" src="Алексей Пантиелев, «Гвардия» // «Огонёк», № 44 октябрь, 1966 г.">
-        <text>В тот день Фёдор побывал в бане и парилке , спустил с себя килограмма два веса .</text>
-        <propbank>
-          <arg type="ARG1" start="13" end="15">килограмма два веса</arg>
-          <arg type="ARG3" start="11" end="12">с себя</arg>
-          <rel relloc="10">спустил</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="спустить.02" name="launch">
-      <aliases>
-        <alias pos="v">спускать</alias>
-        <alias pos="n">спуск</alias>
-      </aliases>
-      <note>спустить.02 NOTES: Roleset based on English verb frame launch.01</note>
-      <note>Corresponds to FrameBank senses 6</note>
-      <roles>
-        <role descr="starter, agent" f="PAG" n="0"/>
-        <role descr="thing being launched" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="launch.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="Василий Ян, «Чингиз-хан», 1939 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Наделав плотов и нагрузив их катапультами и круглыми камнями , годными для метания , монголы спустили плоты вниз по реке Синду и прибыли к городу Мультану . " .</text>
-        <propbank>
-          <arg type="ARG0" start="14" end="14">монголы</arg>
-          <arg type="ARG1" start="16" end="16">плоты</arg>
-          <arg type="ARGM-DIR" start="17" end="20">вниз по реке Синду</arg>
-          <rel relloc="15">спустили</rel>
-        </propbank>
-      </example>
-      <example name="" src="Н. И. Костомаров, «Русская история в жизнеописаниях ее главнейших деятелей», Выпуск шестой: XVIII столетие, 1862–1875 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Со вскрытием рек царь спустил в Таврове на воду новопостроенные корабли .</text>
-        <propbank>
-          <arg type="ARG0" start="3" end="3">царь</arg>
-          <arg type="ARG1" start="9" end="10">новопостроенные корабли</arg>
-          <rel relloc="4">спустил</rel>
-          <arg type="ARGM-LOC" start="5" end="8">в Таврове на воду</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="спустить.03" name="let go, unchain, release, undo (in knitting)">
-      <aliases>
-        <alias pos="v">спускать</alias>
-        <alias pos="v">спуститься</alias>
-        <alias pos="v">спускаться</alias>
-        <alias pos="n">спуск</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 5</note>
-      <note>спустить.03 NOTES: Roleset based on English verb frame release.01</note>
-      <roles>
-        <role descr="releaser (vnrole: 80-1-Cause)" f="CAU" n="0"/>
-        <role descr="thing released (vnrole: 80-1-Theme)" f="PPT" n="1"/>
-        <role descr="released from" f="DIR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="release.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="М. А. Шолохов, «Тихий Дон», Книга четвёртая, 1928–1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Вас , стариков , стало быть , спустили по домам ?</text>
-        <propbank>
-          <rel relloc="7">спустили</rel>
-          <arg type="ARG1" start="2" end="2">стариков</arg>
-        </propbank>
-      </example>
-      <example name="" src="М. М. Пришвин, «Дневники», 1928 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Только я спустил собаку , она сразу стала сильно нюхать бруснику , потом подняла голову и понюхала вокруг себя воздух .</text>
-        <propbank>
-          <rel relloc="2">спустил</rel>
-          <arg type="ARG1" start="3" end="3">собаку</arg>
-          <arg type="ARG0" start="1" end="1">я</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="спуститьсь.04" name="stop a run (of a show, movie, act), stop showing, lose popularity, not 'in'.">
-      <aliases>
-        <alias pos="v">спускать</alias>
-        <alias pos="v">спуск</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 4</note>
-      <note>спустить.04 NOTES:Roleset has NO ENGLISH FRAME</note>
-      <roles>
-        <role descr="shooter" f="PAG" n="0"/>
-        <role descr="hammer, cock" f="PPT" n="1"/>
-      </roles>
-      <example name="" src="А. П. Чехов, «Белолобый», 1895 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Он спустил курок ― ружье дало осечку ; он спустил ещё раз ― опять осечка ; он спустил в третий раз ― и громадный огненный сноп вылетел из ствола и раздалось оглушительное « бу ! бу ! »</text>
-        <propbank>
-          <rel relloc="1">спустил</rel>
-          <arg type="ARG0" start="0" end="0">Он</arg>
-          <arg type="ARG1" start="2" end="2">курок</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="спустить.05" name="deflate, let off steam, gas, water, etc.">
-      <aliases>
-        <alias pos="v">спускать</alias>
-        <alias pos="n">спуск</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 7</note>
-      <note>спустить.05 NOTES:Roleset based on English verb frame deflate.01</note>
-      <roles>
-        <role descr="causer of deflation, agent" f="PAG" n="0"/>
-        <role descr="balloon, tire, etc" f="PPT" n="1"/>
-        <role descr="gas, water, etc." f="PPT" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="deflate.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>Russian Arg2-PPT has no match in English Frame</note>
-      <example name="" src="Г. М. Марков, «Строговы», 1936–1948 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Пароход с шумом спустил пары .</text>
-        <propbank>
-          <rel relloc="3">спустил</rel>
-          <arg type="ARG1" start="0" end="0">Пароход</arg>
-          <arg type="ARG2" start="4" end="4">пары</arg>
-          <arg type="ARGM-MNR" start="1" end="2">с шумом</arg>
-        </propbank>
-      </example>
-      <example name="" src="«Официальные дилеры», 2002.03.15 г. // «Автопилот» (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Среди них бесплатная эвакуация неисправного автомобиля до техцентра дилера , устранение мелких проблем на месте ( кончился бензин , разрядился аккумулятор или спусти́ло колесо ) .</text>
-        <propbank>
-          <rel relloc="22">спусти́ло</rel>
-          <arg type="ARG1" start="23" end="23">колесо</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="спустить.06" name="gamble away, lose through recklessnes, completely waste, spend recklessly">
-      <aliases>
-        <alias pos="v">спускать</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 10,11</note>
-      <note>спустить.06 NOTES:Roleset based on English verb frame lose.02</note>
-      <roles>
-        <role descr="entity losing something (vnrole: 13.2-agent) " f="PAG" n="0"/>
-        <role descr="thing lost (vnrole: 13.2-theme)" f="PPT" n="1"/>
-        <role descr="benefactive, entity gaining thing lost (vnrole: 13.2-recipient) " f="GOL" n="2"/>
-        <role descr="source of loss" f="DIR" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="lose.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="В. В. Крестовский, «Панургово стадо», 1869 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Ведь так - то и тысячи спустишь в один вечер !</text>
-        <propbank>
-          <rel relloc="6">спустишь</rel>
-          <arg type="ARG1" start="5" end="5">тысячи</arg>
-          <arg type="ARGM-TMP" start="7" end="9">в один вечер</arg>
-        </propbank>
-      </example>
-      <example name="" src="М. Е. Салтыков-Щедрин, «За рубежом», 1880–1881 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Выкупные ссуды проедены или прожиты так , что почти , можно сказать , спущены в ватерклозет .</text>
-        <propbank>
-          <rel relloc="13">спущены</rel>
-          <arg type="ARG2" start="14" end="15">в ватерклозет</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="спуститьсь.07" name="let off without punishment, forgive, overlook">
-      <aliases>
-        <alias pos="v">спускать</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 9</note>
-      <note>спустить.04 NOTES:Roleset based on English verb frame spare.01</note>
-      <roles>
-        <role descr="savior" f="PAG" n="0"/>
-        <role descr="entity spared" f="PPT" n="1"/>
-        <role descr="entity spared from" f="VSP" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="spare.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="П. И. Мельников-Печерский, «В лесах», Книга первая, 1871–1874 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Ну что ж , думаю , пущай его потешится … Другому ― не спущу , а крестному как не спустить ?</text>
-        <propbank>
-          <rel relloc="12 13">не спущу</rel>
-          <arg type="ARG1" start="10" end="10">Другому</arg>
-        </propbank>
-      </example>
-      <example name="" src="Н. С. Лесков, «Засуха», 1862 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Я был , говорил об этом глупом деле . Кажется , кое - как можно будет его спустить с рук .</text>
-        <propbank>
-          <rel relloc="17">спустить</rel>
-          <arg type="ARG1" start="16" end="16">его</arg>
-          <arg type="ARG2" start="18" end="19">с рук</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="спустить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="спустить.01"
+                 name="lower, send down, let down, put down, pull down, downriver, lose pounds/weight, fall (dark/night)">
+            <aliases>
+                <alias pos="v">спускать</alias>
+                <alias pos="v">спуститься</alias>
+                <alias pos="v">спускаться</alias>
+                <alias pos="n">спускание</alias>
+                <alias pos="n">спуск</alias>
+            </aliases>
+            <note>спустить.01 NOTES: Roleset based on English verb frame lower.05</note>
+            <note>Corresponds to FrameBank senses 1,2,3,8; -ся 1,2,3</note>
+            <roles>
+                <role descr="entity moving something downward " f="PAG" n="1"/>
+                <role descr="Logical subject, patient, thing going down" f="PPT" n="2"/>
+                <role descr="EXT, amount gone down by" f="EXT" n="3"/>
+                <role descr="start point" f="DIR" n="4"/>
+                <role descr="end point, end state of arg1" f="GOL" n="4"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="lower.05" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src="И. С. Тургенев, «Накануне», 1859 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Она развязала ленты шляпы , сбросила её , спустила с плеч мантилью , поправила волосы и села на
+                    маленький , старенький диванчик .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="11" end="11">мантилью</arg>
+                    <arg type="ARG3" start="9" end="10">с плеч</arg>
+                    <rel relloc="8">спустила</rel>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Н. И. Березин, «Пешком по карельским водопадам», 1903 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Ребенок , сучивший в люльке задранными кверху ножками , запищал , должно быть от комаров , и
+                    молодая мать , присев к нему , спустила ему в рот налитую молоком грудь , которую он принялся сосать
+                    , скосив глаза на нас .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="28" end="30">налитую молоком грудь</arg>
+                    <arg type="ARG4" start="25" end="27">ему в рот</arg>
+                    <rel relloc="24">спустила</rel>
+                </propbank>
+            </example>
+            <example name=""
+                     src="А. П. Платонов, «Котлован», 1930 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Всю ночь сидел активист при непогашенной лампе , слушая , не скачет ли по темной дороге верховой
+                    из района , чтобы спустить директиву на село .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="22" end="22">директиву</arg>
+                    <arg type="ARG4" start="23" end="24">на село</arg>
+                    <rel relloc="21">спустить</rel>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Т. Ю. Соломатина, «Отойти в сторону и посмотреть», 2011 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Уровень спустят , чтобы давление в верхней части ослабить , или ещё чего .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Уровень</arg>
+                    <rel relloc="1">спустят</rel>
+                </propbank>
+            </example>
+            <example name="" src="Алексей Пантиелев, «Гвардия» // «Огонёк», № 44 октябрь, 1966 г.">
+                <text>В тот день Фёдор побывал в бане и парилке , спустил с себя килограмма два веса .</text>
+                <propbank>
+                    <arg type="ARG1" start="13" end="15">килограмма два веса</arg>
+                    <arg type="ARG3" start="11" end="12">с себя</arg>
+                    <rel relloc="10">спустил</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="спустить.02" name="launch">
+            <aliases>
+                <alias pos="v">спускать</alias>
+                <alias pos="n">спуск</alias>
+            </aliases>
+            <note>спустить.02 NOTES: Roleset based on English verb frame launch.01</note>
+            <note>Corresponds to FrameBank senses 6</note>
+            <roles>
+                <role descr="starter, agent" f="PAG" n="0"/>
+                <role descr="thing being launched" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="launch.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src="Василий Ян, «Чингиз-хан», 1939 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Наделав плотов и нагрузив их катапультами и круглыми камнями , годными для метания , монголы
+                    спустили плоты вниз по реке Синду и прибыли к городу Мультану . " .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="14" end="14">монголы</arg>
+                    <arg type="ARG1" start="16" end="16">плоты</arg>
+                    <arg type="ARGM-DIR" start="17" end="20">вниз по реке Синду</arg>
+                    <rel relloc="15">спустили</rel>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Н. И. Костомаров, «Русская история в жизнеописаниях ее главнейших деятелей», Выпуск шестой: XVIII столетие, 1862–1875 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Со вскрытием рек царь спустил в Таврове на воду новопостроенные корабли .</text>
+                <propbank>
+                    <arg type="ARG0" start="3" end="3">царь</arg>
+                    <arg type="ARG1" start="9" end="10">новопостроенные корабли</arg>
+                    <rel relloc="4">спустил</rel>
+                    <arg type="ARGM-LOC" start="5" end="8">в Таврове на воду</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="спустить.03" name="let go, unchain, release, undo (in knitting)">
+            <aliases>
+                <alias pos="v">спускать</alias>
+                <alias pos="v">спуститься</alias>
+                <alias pos="v">спускаться</alias>
+                <alias pos="n">спуск</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 5</note>
+            <note>спустить.03 NOTES: Roleset based on English verb frame release.01</note>
+            <roles>
+                <role descr="releaser (vnrole: 80-1-Cause)" f="CAU" n="0"/>
+                <role descr="thing released (vnrole: 80-1-Theme)" f="PPT" n="1"/>
+                <role descr="released from" f="DIR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="release.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src="М. А. Шолохов, «Тихий Дон», Книга четвёртая, 1928–1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Вас , стариков , стало быть , спустили по домам ?</text>
+                <propbank>
+                    <rel relloc="7">спустили</rel>
+                    <arg type="ARG1" start="2" end="2">стариков</arg>
+                </propbank>
+            </example>
+            <example name=""
+                     src="М. М. Пришвин, «Дневники», 1928 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Только я спустил собаку , она сразу стала сильно нюхать бруснику , потом подняла голову и понюхала
+                    вокруг себя воздух .
+                </text>
+                <propbank>
+                    <rel relloc="2">спустил</rel>
+                    <arg type="ARG1" start="3" end="3">собаку</arg>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="спуститьсь.04" name="stop a run (of a show, movie, act), stop showing, lose popularity, not 'in'.">
+            <aliases>
+                <alias pos="v">спускать</alias>
+                <alias pos="v">спуск</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 4</note>
+            <note>спустить.04 NOTES:Roleset has NO ENGLISH FRAME</note>
+            <roles>
+                <role descr="shooter" f="PAG" n="0"/>
+                <role descr="hammer, cock" f="PPT" n="1"/>
+            </roles>
+            <example name=""
+                     src="А. П. Чехов, «Белолобый», 1895 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Он спустил курок ― ружье дало осечку ; он спустил ещё раз ― опять осечка ; он спустил в третий раз
+                    ― и громадный огненный сноп вылетел из ствола и раздалось оглушительное « бу ! бу ! »
+                </text>
+                <propbank>
+                    <rel relloc="1">спустил</rel>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <arg type="ARG1" start="2" end="2">курок</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="спустить.05" name="deflate, let off steam, gas, water, etc.">
+            <aliases>
+                <alias pos="v">спускать</alias>
+                <alias pos="n">спуск</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 7</note>
+            <note>спустить.05 NOTES:Roleset based on English verb frame deflate.01</note>
+            <roles>
+                <role descr="causer of deflation, agent" f="PAG" n="0"/>
+                <role descr="balloon, tire, etc" f="PPT" n="1"/>
+                <role descr="gas, water, etc." f="PPT" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="deflate.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>Russian Arg2-PPT has no match in English Frame</note>
+            <example name=""
+                     src="Г. М. Марков, «Строговы», 1936–1948 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Пароход с шумом спустил пары .</text>
+                <propbank>
+                    <rel relloc="3">спустил</rel>
+                    <arg type="ARG1" start="0" end="0">Пароход</arg>
+                    <arg type="ARG2" start="4" end="4">пары</arg>
+                    <arg type="ARGM-MNR" start="1" end="2">с шумом</arg>
+                </propbank>
+            </example>
+            <example name=""
+                     src="«Официальные дилеры», 2002.03.15 г. // «Автопилот» (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Среди них бесплатная эвакуация неисправного автомобиля до техцентра дилера , устранение мелких
+                    проблем на месте ( кончился бензин , разрядился аккумулятор или спусти́ло колесо ) .
+                </text>
+                <propbank>
+                    <rel relloc="22">спусти́ло</rel>
+                    <arg type="ARG1" start="23" end="23">колесо</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="спустить.06" name="gamble away, lose through recklessnes, completely waste, spend recklessly">
+            <aliases>
+                <alias pos="v">спускать</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 10,11</note>
+            <note>спустить.06 NOTES:Roleset based on English verb frame lose.02</note>
+            <roles>
+                <role descr="entity losing something (vnrole: 13.2-agent) " f="PAG" n="0"/>
+                <role descr="thing lost (vnrole: 13.2-theme)" f="PPT" n="1"/>
+                <role descr="benefactive, entity gaining thing lost (vnrole: 13.2-recipient) " f="GOL" n="2"/>
+                <role descr="source of loss" f="DIR" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="lose.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src="В. В. Крестовский, «Панургово стадо», 1869 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Ведь так - то и тысячи спустишь в один вечер !</text>
+                <propbank>
+                    <rel relloc="6">спустишь</rel>
+                    <arg type="ARG1" start="5" end="5">тысячи</arg>
+                    <arg type="ARGM-TMP" start="7" end="9">в один вечер</arg>
+                </propbank>
+            </example>
+            <example name=""
+                     src="М. Е. Салтыков-Щедрин, «За рубежом», 1880–1881 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Выкупные ссуды проедены или прожиты так , что почти , можно сказать , спущены в ватерклозет .
+                </text>
+                <propbank>
+                    <rel relloc="13">спущены</rel>
+                    <arg type="ARG2" start="14" end="15">в ватерклозет</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="спуститьсь.07" name="let off without punishment, forgive, overlook">
+            <aliases>
+                <alias pos="v">спускать</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 9</note>
+            <note>спустить.04 NOTES:Roleset based on English verb frame spare.01</note>
+            <roles>
+                <role descr="savior" f="PAG" n="0"/>
+                <role descr="entity spared" f="PPT" n="1"/>
+                <role descr="entity spared from" f="VSP" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="spare.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src="П. И. Мельников-Печерский, «В лесах», Книга первая, 1871–1874 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Ну что ж , думаю , пущай его потешится … Другому ― не спущу , а крестному как не спустить ?</text>
+                <propbank>
+                    <rel relloc="12 13">не спущу</rel>
+                    <arg type="ARG1" start="10" end="10">Другому</arg>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Н. С. Лесков, «Засуха», 1862 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Я был , говорил об этом глупом деле . Кажется , кое - как можно будет его спустить с рук .</text>
+                <propbank>
+                    <rel relloc="17">спустить</rel>
+                    <arg type="ARG1" start="16" end="16">его</arg>
+                    <arg type="ARG2" start="18" end="19">с рук</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

@@ -1,220 +1,235 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="быть">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="быть.01" name="copula">
-      <aliases>
-      </aliases>
-      <note>быть.01 NOTES: Roleset based on English verb frame be.01</note>
-      <note>Corresponds to FrameBank senses 1,4,5</note>
-      <note>быть.01 NOTES: No present tense form.</note>
-      <roles>
-        <role descr="topic" f="PPT" n="1"/>
-        <role descr="comment" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="be.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="all args" src="">
-        <text>Все будет хорошо .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Все</arg>
-          <rel relloc="1">будет</rel>
-          <arg type="ARG2" start="2" end="2">хорошо</arg>
-        </propbank>
-      </example>
-      <example name="instrumental comment" src="">
-        <text>Надеюсь , он не будет заброшенным .</text>
-        <propbank>
-          <arg type="ARG1" start="2" end="2">он</arg>
-          <arg type="ARGM-NEG" start="3" end="3">не</arg>
-          <rel relloc="4">будет</rel>
-          <arg type="ARG2" start="5" end="5">заброшенным</arg>
-        </propbank>
-      </example>
-      <example name="prepositional comment" src="">
-        <text>Я буду с вами через минуту .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Я</arg>
-          <rel relloc="1">буду</rel>
-          <arg type="ARG2" start="2" end="3">с вами</arg>
-          <arg type="ARGM-TMP" start="4" end="5">через минуту</arg>
-        </propbank>
-      </example>
-      <example name="dative topic" src="">
-        <text>Нам было так весело .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Нам</arg>
-          <rel relloc="1">было</rel>
-          <arg type="ARG2" start="2" end="3">так весело</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="быть.02" name="have, possess">
-      <aliases>
-      </aliases>
-      <note>быть.02 NOTES: Roleset based on English verb frame have.03</note>
-      <note>быть.02 NOTES: Always in 3rd person singular</note>
-      <roles>
-        <role descr="owner" f="PAG" n="0"/>
-        <role descr="possession" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="have.03" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="all args" src="">
-        <text>У тебя есть кошка ?</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="1">У тебя</arg>
-          <rel relloc="2">есть</rel>
-          <arg type="ARG1" start="3" end="3">кошка</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="быть.03" name="want to consume">
-      <aliases>
-      </aliases>
-      <note>быть.03 NOTES: Roleset based on English verb frame eat.01</note>
-      <roles>
-        <role descr="consumer, wanter" f="PAG" n="0"/>
-        <role descr="thing consumed or wanted" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="eat.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="example" src="">
-        <text>С чем будешь пиво ?</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="0" end="1">С чем</arg>
-          <rel relloc="2">будешь</rel>
-          <arg type="ARG1" start="3" end="3">пиво</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="быть.04" name="be, exist">
-      <aliases>
-      </aliases>
-      <note>Corresponds to FrameBank sense 2</note>
-      <note>быть.04 NOTES: Roleset based on English verb frame exist.01</note>
-      <roles>
-        <role descr="thing existing" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="exist.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="existential" src="">
-        <text>Есть один через дорогу .</text>
-        <propbank>
-          <rel relloc="0">Есть</rel>
-          <arg type="ARG1" start="1" end="1">один</arg>
-          <arg type="ARGM-LOC" start="2" end="3">через дорогу</arg>
-        </propbank>
-      </example>
-      <example name="will be when giving directions" src="Sasha Romanova">
-        <text>Там будет поворот .</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="0" end="0">Там</arg>
-          <rel relloc="1">будет</rel>
-          <arg type="ARG1" start="2" end="2">поворот</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="быть.05" name="What to do?; to be or not to be">
-      <aliases>
-      </aliases>
-      <note>быть.04 NOTES: Roleset based on English verb frame do.01</note>
-      <roles>
-        <role descr="agent, doer" f="PAG" n="0"/>
-        <role descr="thing done" f="PPT" n="1"/>
-        <role descr="benefactive, done for, about or with" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="do.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="what to do about" src="Russian National Corpus [О свойствах постоянных величин (2004) // «Экран и сцена», 2004.05.06]">
-        <text>А как быть с малышом , который в знак протеста забрался на дерево и только по счастливой случайности ― зацепился за сук , бедолага , ― не свалился ?</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">А</arg>
-          <arg type="ARG1" start="1" end="1">как</arg>
-          <rel relloc="2">быть</rel>
-          <arg type="ARG2" start="3" end="27">с малышом , который в знак протеста забрался на дерево и только по счастливой случайности ― зацепился за сук , бедолага , ― не свалился</arg>
-        </propbank>
-      </example>
-      <example name="what to do" src="Russian National Corpus [Оксана Карпова. Александр Починок: Концепция льготного государства бессмысленна (2003) // «Время МН», 2003.07.31]">
-        <text>Например , как быть вузу , который может зарабатывать деньги за счёт дополнительных услуг ?</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">Например</arg>
-          <arg type="ARG1" start="2" end="2">как</arg>
-          <rel relloc="3">быть</rel>
-          <arg type="ARG0" start="4" end="13">вузу , который может зарабатывать деньги за счёт дополнительных услуг</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="быть.08" name="auxiliary; will/was/were">
-      <aliases>
-      </aliases>
-      <note>быть.08 NOTES: Roleset based on English verb frame be.03</note>
-      <roles>
-      </roles>
-      <lexlinks>
-        <lexlink class="be.03" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="aux" src="">
-        <text>мы будем есть .</text>
-        <propbank>
-          <rel relloc="1">будем</rel>
-        </propbank>
-      </example>
-      <example name="aux" src="">
-        <text>Я буду скучать по тебе .</text>
-        <propbank>
-          <rel relloc="1">буду</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="стало_быть">
-    <roleset id="стало_быть.06" name="that means, therefore, consequently">
-      <aliases>
-        <alias pos="m">стало_быть</alias>
-        <mwp-descriptions id="стало_быть">
-          <syntaxdesc slots="A B">
-            <token slot="A" arg="" pos="" head="" dep="">стало</token>
-            <token slot="B" arg="" pos="" head="A" dep="">быть</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <roles>
-      </roles>
-      <example name="example" src="Russian National Corpus [Светлана Сухова. Конституция и революция (2003) // «Итоги», 2003.03.04]">
-        <text>Конституционный суд не может действовать в такой революционной , а стало быть , неконституционной обстановке .</text>
-        <propbank>
-          <rel relloc="10 11">стало быть</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="была_не_была">
-    <roleset id="была_не_была.07" name="let's risk it!">
-      <aliases>
-        <alias pos="m">была_не_была</alias>
-        <mwp-descriptions id="была_не_была">
-          <syntaxdesc slots="A B C">
-            <token slot="A" arg="" pos="" head="" dep="">была</token>
-            <token slot="B" arg="" pos="" head="B" dep="">не</token>
-            <token slot="C" arg="" pos="" head="" dep="">была</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <roles>
-      </roles>
-      <example name="example" src="Russian National Corpus [Юрий Макаров. Про зайца // «Мурзилка», 2001]">
-        <text>" А - а , была не была ! " - подумал косой и рванул вперёд . А там , впереди - то , был не кто иной , как Дед Мороз .</text>
-        <propbank>
-          <rel relloc="5 6 7">была не была</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="быть">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="быть.01" name="copula">
+            <aliases>
+            </aliases>
+            <note>быть.01 NOTES: Roleset based on English verb frame be.01</note>
+            <note>Corresponds to FrameBank senses 1,4,5</note>
+            <note>быть.01 NOTES: No present tense form.</note>
+            <roles>
+                <role descr="topic" f="PPT" n="1"/>
+                <role descr="comment" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="be.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args" src="">
+                <text>Все будет хорошо .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Все</arg>
+                    <rel relloc="1">будет</rel>
+                    <arg type="ARG2" start="2" end="2">хорошо</arg>
+                </propbank>
+            </example>
+            <example name="instrumental comment" src="">
+                <text>Надеюсь , он не будет заброшенным .</text>
+                <propbank>
+                    <arg type="ARG1" start="2" end="2">он</arg>
+                    <arg type="ARGM-NEG" start="3" end="3">не</arg>
+                    <rel relloc="4">будет</rel>
+                    <arg type="ARG2" start="5" end="5">заброшенным</arg>
+                </propbank>
+            </example>
+            <example name="prepositional comment" src="">
+                <text>Я буду с вами через минуту .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Я</arg>
+                    <rel relloc="1">буду</rel>
+                    <arg type="ARG2" start="2" end="3">с вами</arg>
+                    <arg type="ARGM-TMP" start="4" end="5">через минуту</arg>
+                </propbank>
+            </example>
+            <example name="dative topic" src="">
+                <text>Нам было так весело .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Нам</arg>
+                    <rel relloc="1">было</rel>
+                    <arg type="ARG2" start="2" end="3">так весело</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="быть.02" name="have, possess">
+            <aliases>
+            </aliases>
+            <note>быть.02 NOTES: Roleset based on English verb frame have.03</note>
+            <note>быть.02 NOTES: Always in 3rd person singular</note>
+            <roles>
+                <role descr="owner" f="PAG" n="0"/>
+                <role descr="possession" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="have.03" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args" src="">
+                <text>У тебя есть кошка ?</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">У тебя</arg>
+                    <rel relloc="2">есть</rel>
+                    <arg type="ARG1" start="3" end="3">кошка</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="быть.03" name="want to consume">
+            <aliases>
+            </aliases>
+            <note>быть.03 NOTES: Roleset based on English verb frame eat.01</note>
+            <roles>
+                <role descr="consumer, wanter" f="PAG" n="0"/>
+                <role descr="thing consumed or wanted" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="eat.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="example" src="">
+                <text>С чем будешь пиво ?</text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="1">С чем</arg>
+                    <rel relloc="2">будешь</rel>
+                    <arg type="ARG1" start="3" end="3">пиво</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="быть.04" name="be, exist">
+            <aliases>
+            </aliases>
+            <note>Corresponds to FrameBank sense 2</note>
+            <note>быть.04 NOTES: Roleset based on English verb frame exist.01</note>
+            <roles>
+                <role descr="thing existing" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="exist.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="existential" src="">
+                <text>Есть один через дорогу .</text>
+                <propbank>
+                    <rel relloc="0">Есть</rel>
+                    <arg type="ARG1" start="1" end="1">один</arg>
+                    <arg type="ARGM-LOC" start="2" end="3">через дорогу</arg>
+                </propbank>
+            </example>
+            <example name="will be when giving directions" src="Sasha Romanova">
+                <text>Там будет поворот .</text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="0" end="0">Там</arg>
+                    <rel relloc="1">будет</rel>
+                    <arg type="ARG1" start="2" end="2">поворот</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="быть.05" name="What to do?; to be or not to be">
+            <aliases>
+            </aliases>
+            <note>быть.04 NOTES: Roleset based on English verb frame do.01</note>
+            <roles>
+                <role descr="agent, doer" f="PAG" n="0"/>
+                <role descr="thing done" f="PPT" n="1"/>
+                <role descr="benefactive, done for, about or with" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="do.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="what to do about"
+                     src="Russian National Corpus [О свойствах постоянных величин (2004) // «Экран и сцена», 2004.05.06]">
+                <text>А как быть с малышом , который в знак протеста забрался на дерево и только по счастливой
+                    случайности ― зацепился за сук , бедолага , ― не свалился ?
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">А</arg>
+                    <arg type="ARG1" start="1" end="1">как</arg>
+                    <rel relloc="2">быть</rel>
+                    <arg type="ARG2" start="3" end="27">с малышом , который в знак протеста забрался на дерево и только
+                        по счастливой случайности ― зацепился за сук , бедолага , ― не свалился
+                    </arg>
+                </propbank>
+            </example>
+            <example name="what to do"
+                     src="Russian National Corpus [Оксана Карпова. Александр Починок: Концепция льготного государства бессмысленна (2003) // «Время МН», 2003.07.31]">
+                <text>Например , как быть вузу , который может зарабатывать деньги за счёт дополнительных услуг ?</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Например</arg>
+                    <arg type="ARG1" start="2" end="2">как</arg>
+                    <rel relloc="3">быть</rel>
+                    <arg type="ARG0" start="4" end="13">вузу , который может зарабатывать деньги за счёт дополнительных
+                        услуг
+                    </arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="быть.08" name="auxiliary; will/was/were">
+            <aliases>
+            </aliases>
+            <note>быть.08 NOTES: Roleset based on English verb frame be.03</note>
+            <roles>
+            </roles>
+            <lexlinks>
+                <lexlink class="be.03" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="aux" src="">
+                <text>мы будем есть .</text>
+                <propbank>
+                    <rel relloc="1">будем</rel>
+                </propbank>
+            </example>
+            <example name="aux" src="">
+                <text>Я буду скучать по тебе .</text>
+                <propbank>
+                    <rel relloc="1">буду</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="стало_быть">
+        <roleset id="стало_быть.06" name="that means, therefore, consequently">
+            <aliases>
+                <alias pos="m">стало_быть</alias>
+                <mwp-descriptions id="стало_быть">
+                    <syntaxdesc slots="A B">
+                        <token slot="A" arg="" pos="" head="" dep="">стало</token>
+                        <token slot="B" arg="" pos="" head="A" dep="">быть</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <roles>
+            </roles>
+            <example name="example"
+                     src="Russian National Corpus [Светлана Сухова. Конституция и революция (2003) // «Итоги», 2003.03.04]">
+                <text>Конституционный суд не может действовать в такой революционной , а стало быть , неконституционной
+                    обстановке .
+                </text>
+                <propbank>
+                    <rel relloc="10 11">стало быть</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="была_не_была">
+        <roleset id="была_не_была.07" name="let's risk it!">
+            <aliases>
+                <alias pos="m">была_не_была</alias>
+                <mwp-descriptions id="была_не_была">
+                    <syntaxdesc slots="A B C">
+                        <token slot="A" arg="" pos="" head="" dep="">была</token>
+                        <token slot="B" arg="" pos="" head="B" dep="">не</token>
+                        <token slot="C" arg="" pos="" head="" dep="">была</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <roles>
+            </roles>
+            <example name="example" src="Russian National Corpus [Юрий Макаров. Про зайца // «Мурзилка», 2001]">
+                <text>" А - а , была не была ! " - подумал косой и рванул вперёд . А там , впереди - то , был не кто
+                    иной , как Дед Мороз .
+                </text>
+                <propbank>
+                    <rel relloc="5 6 7">была не была</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

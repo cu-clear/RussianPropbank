@@ -20,7 +20,9 @@
                 <lexlink class="destroy.01" resource="English PropBank" version="3.4"/>
             </lexlinks>
             <example name="no instrument" src="Russian National Corpus">
-                <text>Не случайно организатор теракта уничтожал свободный город-космополит , как будто боясь полюбить его .</text>
+                <text>Не случайно организатор теракта уничтожал свободный город-космополит , как будто боясь полюбить
+                    его .
+                </text>
                 <propbank>
                     <arg type="ARG0" start="2" end="3">организатор теракта</arg>
                     <rel relloc="4">уничтожал</rel>

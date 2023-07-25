@@ -1,124 +1,139 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="пытаться">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="пытаться.01" name="try, attempt">
-      <aliases>
-        <alias pos="v">попытаться</alias>
-      </aliases>
-      <note>NOTES: based on try.01</note>
-      <roles>
-        <role descr="Agent/Entity Trying" f="PAG" n="0"/>
-        <role descr="thing tried" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="try.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="Р. Я. Райт-Ковалёва, «Роберт Бернс», 1959 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Неуклюже ворочая тяжелые , как валуны , слова , Вильям пытается отгородить ими сына от мирских радостей , от искушений , от грехов .</text>
-        <propbank>
-          <arg type="ARG0" start="9" end="9">Вильям</arg>
-          <rel relloc="10">пытается</rel>
-          <arg type="ARG1" start="11" end="16">отгородить ими сына от мирских радостей</arg>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus [Александр Клейн. Мы же не козлы? // «Пятое измерение», 2003]">
-        <text>Во всем самом плохом можно находить что - то хорошее . Пытаться это сделать во всяком случае . ― Вы много общаетесь с людьми ? ― Да .</text>
-        <propbank>
-          <rel relloc="11">Пытаться</rel>
-          <arg type="ARG1" start="12" end="13">это сделать</arg>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus">
-        <text>Что тут можно сказать ? Имел ли он право избивать задержанного , грозить ему оружием , пытаться утопить … Всего хитроумия опытного оперативника не хватало , чтобы придумать хоть какую - то видимость оправдания . И он уныло пробубнил : ― Так он ворует … Всю жизнь ворует …</text>
-        <propbank>
-          <arg type="ARG1" start="17" end="17">утопить</arg>
-          <rel relloc="16">пытаться</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="пытаться.02" name="torture">
-      <aliases>
-      </aliases>
-      <note>NOTES: based on torture.01</note>
-      <roles>
-        <role descr="torturer" f="PAG" n="0"/>
-        <role descr="entity being tortured" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="torture.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="Ю. В. Давыдов, «Синие тюльпаны», 1988–1989 г. (цитата из Национального корпуса русского языка, см. Список литературы) ">
-        <text>И вот ещё что : всех сознавшихся пытали вторично , добиваясь оговора сообщников …</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="8" end="8">вторично</arg>
-          <arg type="ARG1" start="5" end="6">всех сознавшихся</arg>
-          <rel relloc="7">пытали</rel>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus[Даниил Гранин. Зубр (1987)] ">
-        <text>" … Фома был арестован гестапо за то , что укрывал французских лётчиков и помогал русским военнопленным в лагерях . Что там с ним происходило , мучили его , пытали ― ничего не известно . Николай Владимирович был подавлен , упал духом . Все передачи делала Елена Александровна , она держалась молодцом и заставляла держаться мужа " .</text>
-        <propbank>
-          <arg type="ARG0" start="27" end="27">его</arg>
-          <rel relloc="29">пытали</rel>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus[Светлана Алексиевич. Время second-hand // «Дружба народов», 2013]">
-        <text>Пытали … мародерствовали … Теперь парень спивается . ― Госдепу продался ? Провокатор !</text>
-        <propbank>
-          <rel relloc="0">Пытали</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="пытаться.03" name="test, try, interrogate">
-      <aliases>
-      </aliases>
-      <note>NOTES: based on try_out.05</note>
-      <roles>
-        <role descr="tester" f="PAG" n="0"/>
-        <role descr="thing being tested" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="try_out.05" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="Ф. А. Искандер, «Летним днем», 1969 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Дружба не любит , чтобы её пытали , это её унижает и обесценивает .</text>
-        <propbank>
-          <arg type="ARG1" start="5" end="5">её</arg>
-          <rel relloc="6">пытали</rel>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus [Анна Кузнецова. Функции ума // «Октябрь», 2002]">
-        <text>" " А осенью сосчитаешь его и съешь " . Мне всё время хочется понемногу пытать на прочность её правдоотталкивающую защиту , и она снова выдерживает : " Это ещё не скоро " . Функция времени для неё заключается в этом : оттягивать момент истины . Для него ― приближать .</text>
-        <propbank>
-          <arg type="ARG0" start="10" end="10">Мне</arg>
-          <arg type="ARG1" start="?" end="?">её на прочность</arg>
-          <arg type="ARGM-TMP" start="11" end="12">всё время</arg>
-          <rel relloc="15">пытать</rel>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus [А. Е. Рекемчук. Мамонты (2006)]">
-        <text>Даже теперь , когда многое объяснилось и , вроде бы , стало на место , я продолжаю пытать себя : но как могло случиться , что я столько лет вел свой поиск , идя по ложному следу ?</text>
-        <propbank>
-          <rel relloc="17">пытать</rel>
-          <arg type="ARG0" start="15" end="15">я</arg>
-          <arg type="ARG1" start="18" end="18">себя</arg>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>Счастье пытать , лишь деньги терят .</text>
-        <propbank>
-          <rel relloc="1">пытать</rel>
-          <arg type="ARG1" start="0" end="0">Счастье</arg>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>Не пытай старого , а пытай бывалого .</text>
-        <propbank>
-          <rel relloc="1">пытай</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="пытаться">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="пытаться.01" name="try, attempt">
+            <aliases>
+                <alias pos="v">попытаться</alias>
+            </aliases>
+            <note>NOTES: based on try.01</note>
+            <roles>
+                <role descr="Agent/Entity Trying" f="PAG" n="0"/>
+                <role descr="thing tried" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="try.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="Р. Я. Райт-Ковалёва, «Роберт Бернс», 1959 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Неуклюже ворочая тяжелые , как валуны , слова , Вильям пытается отгородить ими сына от мирских
+                    радостей , от искушений , от грехов .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="9" end="9">Вильям</arg>
+                    <rel relloc="10">пытается</rel>
+                    <arg type="ARG1" start="11" end="16">отгородить ими сына от мирских радостей</arg>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus [Александр Клейн. Мы же не козлы? // «Пятое измерение», 2003]">
+                <text>Во всем самом плохом можно находить что - то хорошее . Пытаться это сделать во всяком случае . ―
+                    Вы много общаетесь с людьми ? ― Да .
+                </text>
+                <propbank>
+                    <rel relloc="11">Пытаться</rel>
+                    <arg type="ARG1" start="12" end="13">это сделать</arg>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus">
+                <text>Что тут можно сказать ? Имел ли он право избивать задержанного , грозить ему оружием , пытаться
+                    утопить … Всего хитроумия опытного оперативника не хватало , чтобы придумать хоть какую - то
+                    видимость оправдания . И он уныло пробубнил : ― Так он ворует … Всю жизнь ворует …
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="17" end="17">утопить</arg>
+                    <rel relloc="16">пытаться</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="пытаться.02" name="torture">
+            <aliases>
+            </aliases>
+            <note>NOTES: based on torture.01</note>
+            <roles>
+                <role descr="torturer" f="PAG" n="0"/>
+                <role descr="entity being tortured" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="torture.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="Ю. В. Давыдов, «Синие тюльпаны», 1988–1989 г. (цитата из Национального корпуса русского языка, см. Список литературы) ">
+                <text>И вот ещё что : всех сознавшихся пытали вторично , добиваясь оговора сообщников …</text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="8" end="8">вторично</arg>
+                    <arg type="ARG1" start="5" end="6">всех сознавшихся</arg>
+                    <rel relloc="7">пытали</rel>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus[Даниил Гранин. Зубр (1987)] ">
+                <text>" … Фома был арестован гестапо за то , что укрывал французских лётчиков и помогал русским
+                    военнопленным в лагерях . Что там с ним происходило , мучили его , пытали ― ничего не известно .
+                    Николай Владимирович был подавлен , упал духом . Все передачи делала Елена Александровна , она
+                    держалась молодцом и заставляла держаться мужа " .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="27" end="27">его</arg>
+                    <rel relloc="29">пытали</rel>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus[Светлана Алексиевич. Время second-hand // «Дружба народов», 2013]">
+                <text>Пытали … мародерствовали … Теперь парень спивается . ― Госдепу продался ? Провокатор !</text>
+                <propbank>
+                    <rel relloc="0">Пытали</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="пытаться.03" name="test, try, interrogate">
+            <aliases>
+            </aliases>
+            <note>NOTES: based on try_out.05</note>
+            <roles>
+                <role descr="tester" f="PAG" n="0"/>
+                <role descr="thing being tested" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="try_out.05" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="Ф. А. Искандер, «Летним днем», 1969 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Дружба не любит , чтобы её пытали , это её унижает и обесценивает .</text>
+                <propbank>
+                    <arg type="ARG1" start="5" end="5">её</arg>
+                    <rel relloc="6">пытали</rel>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus [Анна Кузнецова. Функции ума // «Октябрь», 2002]">
+                <text>" " А осенью сосчитаешь его и съешь " . Мне всё время хочется понемногу пытать на прочность её
+                    правдоотталкивающую защиту , и она снова выдерживает : " Это ещё не скоро " . Функция времени для
+                    неё заключается в этом : оттягивать момент истины . Для него ― приближать .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="10" end="10">Мне</arg>
+                    <arg type="ARG1" start="16" end="18">на прочность её</arg>
+                    <arg type="ARGM-TMP" start="11" end="12">всё время</arg>
+                    <rel relloc="15">пытать</rel>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus [А. Е. Рекемчук. Мамонты (2006)]">
+                <text>Даже теперь , когда многое объяснилось и , вроде бы , стало на место , я продолжаю пытать себя :
+                    но как могло случиться , что я столько лет вел свой поиск , идя по ложному следу ?
+                </text>
+                <propbank>
+                    <rel relloc="17">пытать</rel>
+                    <arg type="ARG0" start="15" end="15">я</arg>
+                    <arg type="ARG1" start="18" end="18">себя</arg>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Счастье пытать , лишь деньги терят .</text>
+                <propbank>
+                    <rel relloc="1">пытать</rel>
+                    <arg type="ARG1" start="0" end="0">Счастье</arg>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Не пытай старого , а пытай бывалого .</text>
+                <propbank>
+                    <rel relloc="1">пытай</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

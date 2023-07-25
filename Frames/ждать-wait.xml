@@ -1,37 +1,37 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="ждать">
-    <roleset id="ждать.01" name="wait">
-      <aliases>
-        <alias pos="v">ждать</alias>
-        <alias pos="v">подождать</alias>
-        <alias pos="j">ждущий</alias>
-        <alias pos="j">подожда́вший</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English wait.01</note>
-      <roles>
-        <role descr="Entity waiting" f="PAG" n="0" />
-        <role descr="Thing waited for" f="CAU" n="1" />
-        <role descr="Time waited through" f="TMP" n="M" />
-	    </roles>
-      <example name="Arg0 and Arg1" src="_">
-        <text>Я жду свою сестру .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="1">жду</rel>
-          <arg type="ARG1" start="2" end="3">свою сестру</arg>
-        </propbank>
-      </example>
-      <example name="Arg0, Arg1, and Arg2" src="_">
-        <text>Она ждала его два года .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Она</arg>
-          <rel relloc="1">ждала</rel>
-	      <arg type="ARG1" start="2" end="2">его</arg>
-          <arg type="ARG1" start="3" end="4">два года</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="ждать">
+        <roleset id="ждать.01" name="wait">
+            <aliases>
+                <alias pos="v">ждать</alias>
+                <alias pos="v">подождать</alias>
+                <alias pos="j">ждущий</alias>
+                <alias pos="j">подожда́вший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English wait.01</note>
+            <roles>
+                <role descr="Entity waiting" f="PAG" n="0"/>
+                <role descr="Thing waited for" f="CAU" n="1"/>
+                <role descr="Time waited through" f="TMP" n="M"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Я жду свою сестру .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">жду</rel>
+                    <arg type="ARG1" start="2" end="3">свою сестру</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="_">
+                <text>Она ждала его два года .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Она</arg>
+                    <rel relloc="1">ждала</rel>
+                    <arg type="ARG1" start="2" end="2">его</arg>
+                    <arg type="ARG1" start="3" end="4">два года</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

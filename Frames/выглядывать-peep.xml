@@ -1,37 +1,37 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="выглядывать">
-    <roleset id="выглядывать.01" name="Peep out, emerge partially, peek around">
-      <aliases>
-        <alias pos="v">выглядывать</alias>
-        <alias pos="v">выглянуть</alias>
-        <alias pos="j">выглядывающий</alias>
-        <alias pos="j">выглянувший</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English peek.01</note>
-      <roles>
-        <role descr="Peeping Entity" f="PAG" n="0"/>
-        <role descr="Cover from which peeping" f="LOC" n="1"/>
-        <role descr="Area, space, location peeping into" f="GOL" n="2"/>
-	    </roles>
-      <example name="Arg0 and Arg1" src="RNC, Е. А. Нагродская. Гнев Диониса (1910)">
-        <text>Я выглядываю в окно и замираю от восторга .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="1">выглядываю</rel>
-	        <arg type="ARG1" start="2" end="3">в окно</arg>
-        </propbank>
-      </example>
-      <example name="Arg0, Arg1, and Arg2" src="RNC, Дмитрий Ульянов. Инопланетяне (2007) // «Волга», 2012]">
-        <text>Саша ! ― позвал капитан кого-то , и из ходового пролета на палубу выглянул человек .</text>
-        <propbank>
-          <arg type="ARG1" start="8" end="10">из ходового пролета</arg>
-	        <arg type="ARG2" start="11" end="12">на палубу</arg>
-          <rel relloc="13">выглянул</rel>
-	        <arg type="ARG0" start="14" end="14">человек</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="выглядывать">
+        <roleset id="выглядывать.01" name="Peep out, emerge partially, peek around">
+            <aliases>
+                <alias pos="v">выглядывать</alias>
+                <alias pos="v">выглянуть</alias>
+                <alias pos="j">выглядывающий</alias>
+                <alias pos="j">выглянувший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English peek.01</note>
+            <roles>
+                <role descr="Peeping Entity" f="PAG" n="0"/>
+                <role descr="Cover from which peeping" f="LOC" n="1"/>
+                <role descr="Area, space, location peeping into" f="GOL" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, Е. А. Нагродская. Гнев Диониса (1910)">
+                <text>Я выглядываю в окно и замираю от восторга .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">выглядываю</rel>
+                    <arg type="ARG1" start="2" end="3">в окно</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, Дмитрий Ульянов. Инопланетяне (2007) // «Волга», 2012]">
+                <text>Саша ! ― позвал капитан кого-то , и из ходового пролета на палубу выглянул человек .</text>
+                <propbank>
+                    <arg type="ARG1" start="8" end="10">из ходового пролета</arg>
+                    <arg type="ARG2" start="11" end="12">на палубу</arg>
+                    <rel relloc="13">выглянул</rel>
+                    <arg type="ARG0" start="14" end="14">человек</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

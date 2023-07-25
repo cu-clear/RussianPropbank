@@ -1,124 +1,135 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="пропасть">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="пропасть.01" name="lose, disappear">
-      <aliases>
-        <alias pos="j">пропавший</alias>
-        <alias pos="v">пропадать</alias>
-        <alias pos="j">пропадающий</alias>
-        <alias pos="j">пропадавший</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2,3,4</note>
-      <note>NOTES: Frame based on expansion of English disappear.01</note>
-      <roles>
-        <role descr="the disappeared" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="disappear.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg0-PAG has no match in Russian frame.</note>
-      <example name="all args" src="">
-        <text>В Бразилии десятки человек пропали без вести в затопленном ядовитыми отходами районе . Две дамбы , сдерживавшие воду с отходами металлургической промышленности , рухнули 5 ноября .</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="0" end="1">В Бразилии</arg>
-          <arg type="ARG1" start="2" end="3">десятки человек</arg>
-          <rel relloc="4">пропали</rel>
-          <arg type="ARGM-PRD" start="5" end="6">без вести</arg>
-          <arg type="ARGM-LOC" start="7" end="11">в затопленном ядовитыми отходами районе</arg>
-        </propbank>
-      </example>
-      <example name="disappear, arg1" src="">
-        <text>Пропало последнее сообщение , точно помню - писал .</text>
-        <propbank>
-          <rel relloc="0">Пропало</rel>
-          <arg type="ARG1" start="1" end="2">последнее сообщение</arg>
-        </propbank>
-      </example>
-      <example name="lost connection, arg1" src="">
-        <text>В районе выключился свет , и пропала мобильная связь .</text>
-        <propbank>
-          <rel relloc="6">пропала</rel>
-          <arg type="ARG1" start="7" end="8">мобильная связь</arg>
-        </propbank>
-      </example>
-      <example name="lose interest" src="">
-        <text>Интерес до сих пор не пропал .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Интерес</arg>
-          <arg type="ARGM-TMP" start="1" end="3">до сих пор</arg>
-          <arg type="ARGM-NEG" start="4" end="4">не</arg>
-          <rel relloc="5">пропал</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="пропасть.02" name="be lost on">
-      <aliases>
-      </aliases>
-      <note>пропасть.02 NOTES: based on lose.07. Usually in the negative.</note>
-      <roles>
-        <role descr="what you're not aware of" f="PPT" n="1">
-        </role>
-        <role descr="unaware entity" f="GOL" n="2">
-        </role>
-      </roles>
-      <lexlinks>
-        <lexlink class="lose.07" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="Russian National Corpus. [Юрий Давыдов. Синие тюльпаны (1988-1989)]">
-        <text>Подполковник ( да - да , уже подполковник ) Германн хотел , чтобы эта история , сохранившись в роду , как предания у эскимосов , свидетельствовала о том , что за царём служба не пропадёт .</text>
-        <propbank>
-          <arg type="ARG2" start="30" end="31">за царём</arg>
-          <arg type="ARG1" start="32" end="32">служба</arg>
-          <arg type="ARGM-NEG" start="33" end="33">не</arg>
-          <rel relloc="34">пропадёт</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="пропасть_пропадом-m">
-    <roleset id="пропасть_пропадом.03" name="be damned, may the earth swallow up">
-      <aliases>
-        <alias pos="m">пропасть_пропадом</alias>
-        <alias pos="m">пропадать_пропадом</alias>
-        <alias pos="m">провалиться_пропадом</alias>
-        <alias pos="m">пропасть_пропастью</alias>
-        <alias pos="m">пропадать_пропастью</alias>
-        <alias pos="m">провалиться_пропастью</alias>
-        <mwp-descriptions id="пропасть_пропадом">
-          <syntaxdesc slots="A B">
-            <token slot="A" arg="" pos="" head="" dep="">пропасть</token>
-            <token slot="A" arg="" pos="" head="" dep="">пропадать</token>
-            <token slot="A" arg="" pos="" head="" dep="">провалиться</token>
-            <token slot="B" arg="" pos="" head="A" dep="">пропадом</token>
-            <token slot="B" arg="" pos="" head="A" dep="">пропастью</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <note>Corresponds to FrameBank sense 5</note>
-      <note>пропасть_пропадом-m NOTES: based on damn.01. Usually with imperative verb</note>
-      <roles>
-        <role descr="damner, God" f="PAG" n="0"/>
-        <role descr="damned" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="damn.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="пропасть_пропадом" src="Russian National Corpus. [Виктор Астафьев. Последний поклон (1968-1991)]">
-        <text>Пропади пропадом эти переметы , гальяны , налимы , Енисей и дед вместе с ними !</text>
-        <propbank>
-          <rel relloc="0 1">Пропади пропадом</rel>
-          <arg type="ARG1" start="2" end="14">эти переметы , гальяны , налимы , Енисей и дед вместе с ними</arg>
-        </propbank>
-      </example>
-      <example name="провалиться_пропадом" src="Russian National Corpus. [Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001]">
-        <text>Ну мне чего ? ― плюнул , открыл места … сервис купил , чтобы отвязались , провались он пропадом .</text>
-        <propbank>
-          <rel relloc="16 18">провались пропадом</rel>
-          <arg type="ARG1" start="17" end="17">он</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="пропасть">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="пропасть.01" name="lose, disappear">
+            <aliases>
+                <alias pos="j">пропавший</alias>
+                <alias pos="v">пропадать</alias>
+                <alias pos="j">пропадающий</alias>
+                <alias pos="j">пропадавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,3,4</note>
+            <note>NOTES: Frame based on expansion of English disappear.01</note>
+            <roles>
+                <role descr="the disappeared" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="disappear.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg0-PAG has no match in Russian frame.</note>
+            <example name="all args" src="">
+                <text>В Бразилии десятки человек пропали без вести в затопленном ядовитыми отходами районе . Две дамбы ,
+                    сдерживавшие воду с отходами металлургической промышленности , рухнули 5 ноября .
+                </text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="0" end="1">В Бразилии</arg>
+                    <arg type="ARG1" start="2" end="3">десятки человек</arg>
+                    <rel relloc="4">пропали</rel>
+                    <arg type="ARGM-PRD" start="5" end="6">без вести</arg>
+                    <arg type="ARGM-LOC" start="7" end="11">в затопленном ядовитыми отходами районе</arg>
+                </propbank>
+            </example>
+            <example name="disappear, arg1" src="">
+                <text>Пропало последнее сообщение , точно помню - писал .</text>
+                <propbank>
+                    <rel relloc="0">Пропало</rel>
+                    <arg type="ARG1" start="1" end="2">последнее сообщение</arg>
+                </propbank>
+            </example>
+            <example name="lost connection, arg1" src="">
+                <text>В районе выключился свет , и пропала мобильная связь .</text>
+                <propbank>
+                    <rel relloc="6">пропала</rel>
+                    <arg type="ARG1" start="7" end="8">мобильная связь</arg>
+                </propbank>
+            </example>
+            <example name="lose interest" src="">
+                <text>Интерес до сих пор не пропал .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Интерес</arg>
+                    <arg type="ARGM-TMP" start="1" end="3">до сих пор</arg>
+                    <arg type="ARGM-NEG" start="4" end="4">не</arg>
+                    <rel relloc="5">пропал</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="пропасть.02" name="be lost on">
+            <aliases>
+            </aliases>
+            <note>пропасть.02 NOTES: based on lose.07. Usually in the negative.</note>
+            <roles>
+                <role descr="what you're not aware of" f="PPT" n="1">
+                </role>
+                <role descr="unaware entity" f="GOL" n="2">
+                </role>
+            </roles>
+            <lexlinks>
+                <lexlink class="lose.07" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="Russian National Corpus. [Юрий Давыдов. Синие тюльпаны (1988-1989)]">
+                <text>Подполковник ( да - да , уже подполковник ) Германн хотел , чтобы эта история , сохранившись в
+                    роду , как предания у эскимосов , свидетельствовала о том , что за царём служба не пропадёт .
+                </text>
+                <propbank>
+                    <arg type="ARG2" start="30" end="31">за царём</arg>
+                    <arg type="ARG1" start="32" end="32">служба</arg>
+                    <arg type="ARGM-NEG" start="33" end="33">не</arg>
+                    <rel relloc="34">пропадёт</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="пропасть_пропадом-m">
+        <roleset id="пропасть_пропадом.03" name="be damned, may the earth swallow up">
+            <aliases>
+                <alias pos="m">пропасть_пропадом</alias>
+                <alias pos="m">пропадать_пропадом</alias>
+                <alias pos="m">провалиться_пропадом</alias>
+                <alias pos="m">пропасть_пропастью</alias>
+                <alias pos="m">пропадать_пропастью</alias>
+                <alias pos="m">провалиться_пропастью</alias>
+                <mwp-descriptions id="пропасть_пропадом">
+                    <syntaxdesc slots="A B">
+                        <token slot="A" arg="" pos="" head="" dep="">пропасть</token>
+                        <token slot="A" arg="" pos="" head="" dep="">пропадать</token>
+                        <token slot="A" arg="" pos="" head="" dep="">провалиться</token>
+                        <token slot="B" arg="" pos="" head="A" dep="">пропадом</token>
+                        <token slot="B" arg="" pos="" head="A" dep="">пропастью</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <note>Corresponds to FrameBank sense 5</note>
+            <note>пропасть_пропадом-m NOTES: based on damn.01. Usually with imperative verb</note>
+            <roles>
+                <role descr="damner, God" f="PAG" n="0"/>
+                <role descr="damned" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="damn.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="пропасть_пропадом"
+                     src="Russian National Corpus. [Виктор Астафьев. Последний поклон (1968-1991)]">
+                <text>Пропади пропадом эти переметы , гальяны , налимы , Енисей и дед вместе с ними !</text>
+                <propbank>
+                    <rel relloc="0 1">Пропади пропадом</rel>
+                    <arg type="ARG1" start="2" end="14">эти переметы , гальяны , налимы , Енисей и дед вместе с ними
+                    </arg>
+                </propbank>
+            </example>
+            <example name="провалиться_пропадом"
+                     src="Russian National Corpus. [Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001]">
+                <text>Ну мне чего ? ― плюнул , открыл места … сервис купил , чтобы отвязались , провались он пропадом
+                    .
+                </text>
+                <propbank>
+                    <rel relloc="16 18">провались пропадом</rel>
+                    <arg type="ARG1" start="17" end="17">он</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

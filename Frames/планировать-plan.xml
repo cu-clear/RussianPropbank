@@ -1,39 +1,39 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="планировать">
-    <roleset id="планировать.01" name="Plan, schedule, map out">
-      <aliases>
-        <alias pos="v">планировать</alias>
-        <alias pos="v">спланировать</alias>
-        <alias pos="v">распланировать</alias>
-        <alias pos="j">планирующий</alias>
-        <alias pos="j">спланированный</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English plan.01</note>
+    <predicate lemma="планировать">
+        <roleset id="планировать.01" name="Plan, schedule, map out">
+            <aliases>
+                <alias pos="v">планировать</alias>
+                <alias pos="v">спланировать</alias>
+                <alias pos="v">распланировать</alias>
+                <alias pos="j">планирующий</alias>
+                <alias pos="j">спланированный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English plan.01</note>
 
-      <roles>
-        <role descr="Planner" f="PAG" n="0" />
-        <role descr="Thing planned" f="PPT" n="1" />
-	    </roles>
+            <roles>
+                <role descr="Planner" f="PAG" n="0"/>
+                <role descr="Thing planned" f="PPT" n="1"/>
+            </roles>
 
-      <example name="Arg0 and Arg1" src="RNC, Борис Можаев. Саня (1957)">
-        <text>― Я уже все распланировал : тут будет у нас спальня , здесь вроде гостиной .</text>
-        <propbank>
-          <arg type="ARG0" start="1" end="1">Я</arg>
-          <rel relloc="4">распланировал</rel>
-	        <arg type="ARG1" start="3" end="3">все</arg>
-        </propbank>
-      </example>
+            <example name="Arg0 and Arg1" src="RNC, Борис Можаев. Саня (1957)">
+                <text>― Я уже все распланировал : тут будет у нас спальня , здесь вроде гостиной .</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">Я</arg>
+                    <rel relloc="4">распланировал</rel>
+                    <arg type="ARG1" start="3" end="3">все</arg>
+                </propbank>
+            </example>
 
-      <example name="Arg0 and Arg1" src="_">
-        <text>Комиссия планирует провести беседу на следующей недели .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Комиссия</arg>
-          <rel relloc="1">планирует</rel>
-	        <arg type="ARG1" start="2" end="6">провести беседу на следующей недели</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Комиссия планирует провести беседу на следующей недели .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Комиссия</arg>
+                    <rel relloc="1">планирует</rel>
+                    <arg type="ARG1" start="2" end="6">провести беседу на следующей недели</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

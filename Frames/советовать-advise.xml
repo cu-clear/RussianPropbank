@@ -19,7 +19,8 @@
             <lexlinks>
                 <lexlink class="advise.01" resource="English PropBank" version="3.4"/>
             </lexlinks>
-            <example name="ARG0, ARG1, and ARG2" src="RNC, Е. В. Топильская. Танцы с ментами: Авторский сборник. Спб.: Нева, 2005">
+            <example name="ARG0, ARG1, and ARG2"
+                     src="RNC, Е. В. Топильская. Танцы с ментами: Авторский сборник. Спб.: Нева, 2005">
                 <text>Я рассказал всю правду следователю и вам советую это сделать</text>
                 <propbank>
                     <arg type="ARG0" start="0" end="0">Я</arg>

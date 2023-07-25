@@ -1,37 +1,37 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="предполагать">
-    <roleset id="предполагать.01" name="Suppose, assume, think">
-      <aliases>
-        <alias pos="v">предполагать</alias>
-        <alias pos="v">предположить</alias>
-        <alias pos="j">предполагающий</alias>
-        <alias pos="j">предположенный</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English suppose.01</note>
-      <roles>
-        <role descr="Thinker" f="PAG" n="0"/>
-        <role descr="Thing thought about" f="PPT" n="1"/>
-        <role descr="Atrributive, how arg1 is thought about (Very tricky, see English think.01)" f="PRD" n="2"/>
-	    </roles>
-      <example name="Arg0 and Arg1" src="_">
-        <text>Дед предполагал что денег нет .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Дед</arg>
-          <rel relloc="1">предполагал</rel>
-	        <arg type="ARG1" start="2" end="4">что денег нет</arg>
-        </propbank>
-      </example>
-      <example name="Arg0, Арг1, and Arg2" src="_">
-        <text>Что вы предполагаете об обстановке?</text>
-        <propbank>
-          <arg type="ARG2" start="0" end="0">Что</arg>
-          <arg type="ARG0" start="1" end="1">вы</arg>
-          <rel relloc="2">предполагаете</rel>
-          <arg type="ARG1" start="3" end="4">об обстановке?</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="предполагать">
+        <roleset id="предполагать.01" name="Suppose, assume, think">
+            <aliases>
+                <alias pos="v">предполагать</alias>
+                <alias pos="v">предположить</alias>
+                <alias pos="j">предполагающий</alias>
+                <alias pos="j">предположенный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English suppose.01</note>
+            <roles>
+                <role descr="Thinker" f="PAG" n="0"/>
+                <role descr="Thing thought about" f="PPT" n="1"/>
+                <role descr="Atrributive, how arg1 is thought about (Very tricky, see English think.01)" f="PRD" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Дед предполагал что денег нет .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Дед</arg>
+                    <rel relloc="1">предполагал</rel>
+                    <arg type="ARG1" start="2" end="4">что денег нет</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Арг1, and Arg2" src="_">
+                <text>Что вы предполагаете об обстановке?</text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="0">Что</arg>
+                    <arg type="ARG0" start="1" end="1">вы</arg>
+                    <rel relloc="2">предполагаете</rel>
+                    <arg type="ARG1" start="3" end="4">об обстановке?</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

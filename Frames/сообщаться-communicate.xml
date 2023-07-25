@@ -1,98 +1,110 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="сообщаться">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="сообщаться.01" name="inform, announce, broadcast, report">
-      <aliases>
-        <alias pos="v">сообщиться</alias>
-        <alias pos="j">сообщившийся</alias>
-        <alias pos="j">сообщающийся</alias>
-        <alias pos="j">сообщавшийся</alias>
-        <alias pos="v">сообщить</alias>
-        <alias pos="j">сообщивший</alias>
-        <alias pos="j">сообщённый</alias>
-        <alias pos="j">сообщенный</alias>
-        <alias pos="v">сообщать</alias>
-        <alias pos="j">сообщающий</alias>
-        <alias pos="j">сообщавший</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2</note>
-      <note>сообщаться.01 NOTES: Based on inform.01</note>
-      <roles>
-        <role descr="informer" f="PAG" n="0"/>
-        <role descr="information, quality or attribute" f="PPT" n="1"/>
-        <role descr="recipient of information, quality or attribute" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="inform.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="say, report" src="">
-        <text>Как сообщает правительство , Министерство продовольствия и Управление по ликвидации последствий стихийных бедствий уже отправили пострадавшим предметы первой необходимости , включая рис , печенье и строительные материалы .</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="0" end="0">Как</arg>
-          <rel relloc="1">сообщает</rel>
-          <arg type="ARG0" start="2" end="2">правительство</arg>
-          <arg type="ARG1" start="4" end="26">Министерство продовольствия и Управление по ликвидации последствий стихийных бедствий уже отправили пострадавшим предметы первой необходимости , включая рис , печенье и строительные материалы</arg>
-        </propbank>
-      </example>
-      <example name="report that" src="">
-        <text>Российские СМИ сообщают , что жители Чечни ощутили не менее 10 подземных толчков .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="1">Российские СМИ</arg>
-          <rel relloc="2">сообщают</rel>
-          <arg type="ARG1" start="4" end="12">что жители Чечни ощутили не менее 10 подземных толчков</arg>
-        </propbank>
-      </example>
-      <example name="inform" src="">
-        <text>мама работает в скорой помощи и мчсовцы им в первую очередь сообщают об таких прогнозах , т.к . им выдают бинтовки дополнительно тд и тп .</text>
-        <propbank>
-          <arg type="ARG0" start="6" end="6">мчсовцы</arg>
-          <arg type="ARG2" start="7" end="7">им</arg>
-          <arg type="ARGM-TMP" start="8" end="10">в первую очередь</arg>
-          <rel relloc="11">сообщают</rel>
-          <arg type="ARG1" start="12" end="14">об таких прогнозах</arg>
-        </propbank>
-      </example>
-      <example name="is communicated" src="">
-        <text>Сообщается во всеобщее сведение .</text>
-        <propbank>
-          <rel relloc="0">Сообщается</rel>
-          <arg type="ARG2" start="1" end="3">во всеобщее сведение</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="сообщаться.02" name="correspond, connect with">
-      <aliases>
-        <alias pos="j">сообщающийся</alias>
-        <alias pos="j">сообщавшийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 4</note>
-      <note>сообщаться.02 NOTES: NO PERFECTIVE PAIR</note>
-      <note>сообщаться.02 based on English correspond.01</note>
-      <roles>
-        <role descr="first (or all) correspondent(s)" f="PAG" n="0"/>
-        <role descr="additional correspondent" f="PPT" n="1"/>
-        <role descr="additional correspondent" f="VSP" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="correspond.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="arg1 and arg2" src="[А. В. Амфитеатров. Чудодей (1932)] (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Был ещё историк ― Атлантиды , по подлинным летописям её жрецов , сообщавшихся с автором в сонных видениях .</text>
-        <propbank>
-          <rel relloc="12">сообщавшихся</rel>
-          <arg type="ARG1" start="13" end="14">с автором</arg>
-          <arg type="ARGM-LOC" start="15" end="17">в сонных видениях</arg>
-        </propbank>
-      </example>
-      <example name="passive adjectival particle" src="[Сергей Каледин. Аллея Руж // «Огонек», 2013] (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>По сообщающимся сосудам удача сестры перетекла к Леле ― умер Лесючевский .</text>
-        <propbank>
-          <rel relloc="1">сообщающимся</rel>
-          <arg type="ARG0" start="2" end="2">сосудам</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="сообщаться">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="сообщаться.01" name="inform, announce, broadcast, report">
+            <aliases>
+                <alias pos="v">сообщиться</alias>
+                <alias pos="j">сообщившийся</alias>
+                <alias pos="j">сообщающийся</alias>
+                <alias pos="j">сообщавшийся</alias>
+                <alias pos="v">сообщить</alias>
+                <alias pos="j">сообщивший</alias>
+                <alias pos="j">сообщённый</alias>
+                <alias pos="j">сообщенный</alias>
+                <alias pos="v">сообщать</alias>
+                <alias pos="j">сообщающий</alias>
+                <alias pos="j">сообщавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2</note>
+            <note>сообщаться.01 NOTES: Based on inform.01</note>
+            <roles>
+                <role descr="informer" f="PAG" n="0"/>
+                <role descr="information, quality or attribute" f="PPT" n="1"/>
+                <role descr="recipient of information, quality or attribute" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="inform.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="say, report" src="">
+                <text>Как сообщает правительство , Министерство продовольствия и Управление по ликвидации последствий
+                    стихийных бедствий уже отправили пострадавшим предметы первой необходимости , включая рис , печенье
+                    и строительные материалы .
+                </text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="0">Как</arg>
+                    <rel relloc="1">сообщает</rel>
+                    <arg type="ARG0" start="2" end="2">правительство</arg>
+                    <arg type="ARG1" start="4" end="26">Министерство продовольствия и Управление по ликвидации
+                        последствий стихийных бедствий уже отправили пострадавшим предметы первой необходимости ,
+                        включая рис , печенье и строительные материалы
+                    </arg>
+                </propbank>
+            </example>
+            <example name="report that" src="">
+                <text>Российские СМИ сообщают , что жители Чечни ощутили не менее 10 подземных толчков .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Российские СМИ</arg>
+                    <rel relloc="2">сообщают</rel>
+                    <arg type="ARG1" start="4" end="12">что жители Чечни ощутили не менее 10 подземных толчков</arg>
+                </propbank>
+            </example>
+            <example name="inform" src="">
+                <text>мама работает в скорой помощи и мчсовцы им в первую очередь сообщают об таких прогнозах , т.к . им
+                    выдают бинтовки дополнительно тд и тп .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="6" end="6">мчсовцы</arg>
+                    <arg type="ARG2" start="7" end="7">им</arg>
+                    <arg type="ARGM-TMP" start="8" end="10">в первую очередь</arg>
+                    <rel relloc="11">сообщают</rel>
+                    <arg type="ARG1" start="12" end="14">об таких прогнозах</arg>
+                </propbank>
+            </example>
+            <example name="is communicated" src="">
+                <text>Сообщается во всеобщее сведение .</text>
+                <propbank>
+                    <rel relloc="0">Сообщается</rel>
+                    <arg type="ARG2" start="1" end="3">во всеобщее сведение</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="сообщаться.02" name="correspond, connect with">
+            <aliases>
+                <alias pos="j">сообщающийся</alias>
+                <alias pos="j">сообщавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 4</note>
+            <note>сообщаться.02 NOTES: NO PERFECTIVE PAIR</note>
+            <note>сообщаться.02 based on English correspond.01</note>
+            <roles>
+                <role descr="first (or all) correspondent(s)" f="PAG" n="0"/>
+                <role descr="additional correspondent" f="PPT" n="1"/>
+                <role descr="additional correspondent" f="VSP" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="correspond.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg1 and arg2"
+                     src="[А. В. Амфитеатров. Чудодей (1932)] (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Был ещё историк ― Атлантиды , по подлинным летописям её жрецов , сообщавшихся с автором в сонных
+                    видениях .
+                </text>
+                <propbank>
+                    <rel relloc="12">сообщавшихся</rel>
+                    <arg type="ARG1" start="13" end="14">с автором</arg>
+                    <arg type="ARGM-LOC" start="15" end="17">в сонных видениях</arg>
+                </propbank>
+            </example>
+            <example name="passive adjectival particle"
+                     src="[Сергей Каледин. Аллея Руж // «Огонек», 2013] (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>По сообщающимся сосудам удача сестры перетекла к Леле ― умер Лесючевский .</text>
+                <propbank>
+                    <rel relloc="1">сообщающимся</rel>
+                    <arg type="ARG0" start="2" end="2">сосудам</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

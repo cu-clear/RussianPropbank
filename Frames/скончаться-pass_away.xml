@@ -1,23 +1,23 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Скончаться">
-    <roleset id="скончаться.01" name="Perish, die, expire">
-      <aliases>
-        <alias pos="v">скончаться</alias>
-        <alias pos="j">скончавшийся</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English perish.01 ; there is no imperfective counter-part for this verb.</note>
-      <roles>
-        <role descr="Expiring Entity" f="PAG" n="0"/>
-	    </roles>
-      <example name="Arg0 and Arg1" src="RNC, Евгений Сухов. Делу конец ― сроку начало (2007)">
-        <text>― Он скончался через трое суток , не приходя в сознание .</text>
-        <propbank>
-          <arg type="ARG0" start="1" end="1">Он</arg>
-          <rel relloc="2">скончался</rel>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="Скончаться">
+        <roleset id="скончаться.01" name="Perish, die, expire">
+            <aliases>
+                <alias pos="v">скончаться</alias>
+                <alias pos="j">скончавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English perish.01 ; there is no imperfective counter-part for this verb.</note>
+            <roles>
+                <role descr="Expiring Entity" f="PAG" n="0"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, Евгений Сухов. Делу конец ― сроку начало (2007)">
+                <text>― Он скончался через трое суток , не приходя в сознание .</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">Он</arg>
+                    <rel relloc="2">скончался</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

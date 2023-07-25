@@ -29,7 +29,8 @@
                     <arg type="ARG2" start="3" end="4">с охоты</arg>
                 </propbank>
             </example>
-            <example name="ARG0, ARG3, and ARGM-LOC" src="RNC,  Масальский К. Стрельцы. Исторический роман. М., «Новая книга», 1996.">
+            <example name="ARG0, ARG3, and ARGM-LOC"
+                     src="RNC,  Масальский К. Стрельцы. Исторический роман. М., «Новая книга», 1996.">
                 <text>Солнце давно уже закатилось , когда Бурмистров возвращался домой по опустевшим улицам .</text>
                 <propbank>
                     <arg type="ARG0" start="6" end="6">Бурмистров</arg>

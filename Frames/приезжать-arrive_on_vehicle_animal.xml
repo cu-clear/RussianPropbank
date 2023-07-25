@@ -1,47 +1,48 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="приезжать">
-    <roleset id="приезжать.01" name="Come, arrive in land vehicle or beast of burden">
-      <aliases>
-        <alias pos="v">приезжать</alias>
-        <alias pos="v">приехать</alias>
-        <alias pos="j">приезжающий</alias>
-        <alias pos="j">приехавший</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English arrive.01</note>
-      <roles>
-        <role descr="Entity in motion" f="PAG" n="0"/>
-        <role descr="Extent -- rare" f="EXT" n="1"/>
-        <role descr="Start point" f="DIR" n="2"/>
-        <role descr="End point" f="GOL" n="3"/>
-        <role descr="Vehicle or Beast" f="PPT" n="4"/>
-	    </roles>
-      <example name="Arg0 and Arg2" src="RNC, Л. А. Чарская. Мастерская мадам Пике (1912)">
-        <text>Приезжали в мастерскую какие-то военные , расспрашивали девочек и Софью о причине смерти Зины .</text>
-        <propbank>
-          <rel relloc="0">Приезжали</rel>
-          <arg type="ARG1" start="1" end="2">в мастерскую</arg>
-	        <arg type="ARG0" start="3" end="4">какие-то военные</arg>
-        </propbank>
-      </example>
-      <example name="Arg0, ARG1, and Arg3" src="RNC, И. К. Архипова. Музыка жизни (1996)">
-        <text>Как-то к нам в консерваторию приехал из Англии педагог по вокалу .</text>
-        <propbank>
-          <arg type="ARG3" start="1" end="4">к нам в консерваторию</arg>
-          <rel relloc="5">приехал</rel>
-          <arg type="ARG2" start="6" end="7">из Англии</arg>
-	        <arg type="ARG0" start="8" end="10">педагог по вокалу</arg>
-        </propbank>
-      </example>
-      <example name="Arg0 and Arg4" src="_">
-        <text>Вдруг приехала на извозчике мама и увезла меня домой .</text>
-        <propbank>
-          <rel relloc="1">приехала</rel>
-          <arg type="ARG1" start="2" end="3">на извозчике</arg>
-	        <arg type="ARG0" start="4" end="4">мама</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="приезжать">
+        <roleset id="приезжать.01" name="Come, arrive in land vehicle or beast of burden">
+            <aliases>
+                <alias pos="v">приезжать</alias>
+                <alias pos="v">приехать</alias>
+                <alias pos="j">приезжающий</alias>
+                <alias pos="j">приехавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English arrive.01</note>
+            <roles>
+                <role descr="Entity in motion" f="PAG" n="0"/>
+                <role descr="Extent -- rare" f="EXT" n="1"/>
+                <role descr="Start point" f="DIR" n="2"/>
+                <role descr="End point" f="GOL" n="3"/>
+                <role descr="Vehicle or Beast" f="PPT" n="4"/>
+            </roles>
+            <example name="Arg0 and Arg2" src="RNC, Л. А. Чарская. Мастерская мадам Пике (1912)">
+                <text>Приезжали в мастерскую какие-то военные , расспрашивали девочек и Софью о причине смерти Зины .
+                </text>
+                <propbank>
+                    <rel relloc="0">Приезжали</rel>
+                    <arg type="ARG1" start="1" end="2">в мастерскую</arg>
+                    <arg type="ARG0" start="3" end="4">какие-то военные</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, ARG1, and Arg3" src="RNC, И. К. Архипова. Музыка жизни (1996)">
+                <text>Как-то к нам в консерваторию приехал из Англии педагог по вокалу .</text>
+                <propbank>
+                    <arg type="ARG3" start="1" end="4">к нам в консерваторию</arg>
+                    <rel relloc="5">приехал</rel>
+                    <arg type="ARG2" start="6" end="7">из Англии</arg>
+                    <arg type="ARG0" start="8" end="10">педагог по вокалу</arg>
+                </propbank>
+            </example>
+            <example name="Arg0 and Arg4" src="_">
+                <text>Вдруг приехала на извозчике мама и увезла меня домой .</text>
+                <propbank>
+                    <rel relloc="1">приехала</rel>
+                    <arg type="ARG1" start="2" end="3">на извозчике</arg>
+                    <arg type="ARG0" start="4" end="4">мама</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

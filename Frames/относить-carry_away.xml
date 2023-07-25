@@ -1,222 +1,253 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="относить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="относить.01" name="carry or move away/off">
-      <aliases>
-        <alias pos="v">отнести</alias>
-      </aliases>
-      <note>относить.01 NOTES: based on English remove.01</note>
-      <roles>
-        <role descr="entity removing" f="PAG" n="0"/>
-        <role descr="thing being removed" f="PPT" n="1"/>
-        <role descr="removed from" f="DIR" n="2"/>
-        <role descr="removed to" f="GOL" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="remove.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>Russian Arg3-GOL has no match in English frame </note>
-      <example name="take away" src="Russian National Corpus[Наши дети: Подростки (2004)]">
-        <text>А в школе была проблема , поскольку там не разрешали тарелки с недоеденным в мойку относить .</text>
-        <propbank>
-          <arg type="ARG1" start="10" end="12">тарелки с недоеденным</arg>
-          <arg type="ARG3" start="13" end="14">в мойку</arg>
-          <rel relloc="15">относить</rel>
-        </propbank>
-      </example>
-      <example name="carried away" src="Russian National Corpus[С. П. Капица. Мои воспоминания (2008)]">
-        <text>Бывали случаи , когда мы попадали в сильные течения и нас относило далеко от места погружения .</text>
-        <propbank>
-          <arg type="ARG1" start="10" end="10">нас</arg>
-          <rel relloc="11">относило</rel>
-          <arg type="ARG2" start="12" end="15">далеко от места погружения</arg>
-        </propbank>
-      </example>
-      <example name="blow away" src="Russian National Corpus[Никита Юрьевский, Евгений Джумаев. Лети-лети под облака… (2013.05.23) // «Новгородские ведомости», 2013]">
-        <text>… Юго - восточный ветерок относил шары на северо - запад и гнал параллельно автодороге Старая Русса — Шимск .</text>
-        <propbank>
-          <arg type="ARG0" start="1" end="4">Юго - восточный ветерок</arg>
-          <rel relloc="5">относил</rel>
-          <arg type="ARG1" start="6" end="6">шары</arg>
-          <arg type="ARG3" start="7" end="10">на северо - запад</arg>
-        </propbank>
-      </example>
-      <example name="float away" src="Russian National Corpus[Виктор Астафьев. Трофейная пушка // «Знамя», 2001]">
-        <text>Когда дым отнесло от дульного тормоза , Игнат сокрушенно развел руками :</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="0">Когда</arg>
-          <arg type="ARG1" start="1" end="1">дым</arg>
-          <rel relloc="2">отнесло</rel>
-          <arg type="ARG2" start="3" end="5">от дульного тормоза</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="относить.02" name="postpone">
-      <aliases>
-        <alias pos="v">отнести</alias>
-        <alias pos="n">отнесение</alias>
-      </aliases>
-      <note>относить.02 NOTES: Roleset based on English verb frame postpone.01</note>
-      <roles>
-        <role descr="agent, causer of delay" f="PAG" n="0"/>
-        <role descr="event delayed" f="PPT" n="1"/>
-        <role descr="delay itself, EXT, time period, how long arg 1 was delayed for " f="EXT" n="2"/>
-        <role descr="original time " f="DIR" n="3"/>
-        <role descr="new time" f="GOL" n="4"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="postpone.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="postpone" src="Russian National Corpus[К. С. Бадигин. Секрет государственной важности (1974)]">
-        <text>Сначала я и это отнес к случайности … Относил до вчерашнего дня … Может быть , все же разрешите закурить ?</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="0">Сначала</arg>
-          <arg type="ARG0" start="1" end="1">я</arg>
-          <arg type="ARGM-DIS" start="2" end="2">и</arg>
-          <arg type="ARG1" start="3" end="3">это</arg>
-          <rel relloc="4">отнес</rel>
-          <arg type="ARG4" start="5" end="6">к случайности</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="относить.03" name="include as, assign to, count among, account as, consider as part of">
-      <aliases>
-        <alias pos="v">отнести</alias>
-        <alias pos="v">относиться</alias>
-        <alias pos="v">отнестись</alias>
-        <alias pos="n">отношение</alias>
-        <alias pos="n">отнесение</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense 3</note>
-      <note>относить.03 NOTES: based on English include.01</note>
-      <roles>
-        <role descr="agent, entity causing some grouping" f="PAG" n="0"/>
-        <role descr="theme, thing being included in some group " f="PPT" n="1"/>
-        <role descr="group" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="include.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="a type of" src="А. Л. Калуцкий, «Отряд Жуки», 2003 г. // «Биология» (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>К хищным жукам относятся и плавунцы .</text>
-        <propbank>
-          <arg type="ARG2" start="0" end="2">К хищным жукам</arg>
-          <rel relloc="3">относятся</rel>
-          <arg type="ARGM-ADV" start="4" end="4">и</arg>
-          <arg type="ARG0" start="5" end="5">плавунцы</arg>
-        </propbank>
-      </example>
-      <example name="one of" src="Russian National Corpus [коллективный. Форум: 17 мгновений весны (2005-2010)]">
-        <text>Интересный захватывающий сюжет — в принципе , больше ничего , особенно простому зрителю , к коим я себя отношу .</text>
-        <propbank>
-          <arg type="ARG2" start="14" end="15">к коим</arg>
-          <arg type="ARG0" start="16" end="16">я</arg>
-          <rel relloc="18">отношу</rel>
-          <arg type="ARG1" start="17" end="17">себя</arg>
-        </propbank>
-      </example>
-      <example name="time of" src="Russian National Corpus[Сергей Старостин, Григорий Зеленко. У человечества был один праязык // «Знание -- сила», 2003]">
-        <text>А к какому времени вы относите единство ностратического , афразийского и сино - кавказского ?</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">А</arg>
-          <arg type="ARG1" start="1" end="3">к какому времени</arg>
-          <arg type="ARG0" start="4" end="4">вы</arg>
-          <rel relloc="5">относите</rel>
-          <arg type="ARG2" start="6" end="13">единство ностратического , афразийского и сино - кавказского</arg>
-        </propbank>
-      </example>
-      <example name="include on" src="Russian National Corpus[Сергей Довлатов. Заповедник (1983)]">
-        <text>Вначале я относил это за счёт моей потускневшей индивидуальности .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="0">Вначале</arg>
-          <arg type="ARG0" start="1" end="1">я</arg>
-          <rel relloc="2">относил</rel>
-          <arg type="ARG1" start="3" end="3">это</arg>
-          <arg type="ARG2" start="4" end="8">за счёт моей потускневшей индивидуальности</arg>
-        </propbank>
-      </example>
-      <example name="classify as" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
-        <text>А при чем здесь девушки ? Лафет относится к мужскому полу ! Ой !</text>
-        <propbank>
-          <arg type="ARG1" start="6" end="6">Лафет</arg>
-          <rel relloc="7">относится</rel>
-          <arg type="ARG2" start="8" end="10">к мужскому полу</arg>
-        </propbank>
-      </example>
-      <example name="belong to" src="Russian National Corpus[А. А. Рафалович. Путешествие по Нижнему Египту и внутренним областям Дельты (1850)]">
-        <text>При этом не мешает заметить , что Египтяне , как и все другие мусульмане , вечер и ночь относят к следующему дню , так что напр . праздничный день начинается с захождения солнца на кануне .</text>
-        <propbank>
-          <arg type="ARG0" start="7" end="13">Египтяне , как и все другие мусульмане</arg>
-          <arg type="ARG1" start="15" end="17">вечер и ночь</arg>
-          <rel relloc="18">относят</rel>
-          <arg type="ARG2" start="19" end="21">к следующему дню</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="относиться">
-    <roleset id="относиться.04" name="relate, have attitude, treat">
-      <aliases>
-        <alias pos="v">отнестись</alias>
-        <alias pos="n">отношение</alias>
-      </aliases>
-      <note>относить.04 NOTES: based on English treat.01</note>
-      <note>Corresponds to FrameBank senses 1,2,4</note>
-      <roles>
-        <role descr="assumer of attribute" f="PAG" n="0"/>
-        <role descr="entity treated" f="PPT" n="1"/>
-        <role descr="attitude or manner of relating" f="MNR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="treat.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg2-PRD = Russian Arg2-MNR</note>
-      <example name="have a good sense of humor" src="«Вы над собой смеяться не боитесь?», 2002 г. // «Дело (Самара)» (цитата из Национального корпуса русского языка, см. Список литературы">
-        <text>Я ко всему такому отношусь с юмором и радуюсь , если ко мне так же относятся мои друзья , знакомые .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <arg type="ARG1" start="1" end="3">ко всему такому</arg>
-          <rel relloc="4">отношусь</rel>
-          <arg type="ARG2" start="5" end="6">с юмором</arg>
-        </propbank>
-      </example>
-      <example name="treat as" src="Russian National Corpus [коллективный. Форум: Универ (институт) VS школа. Плюсы и минусы. Где в итоге лучше и почему? (2011)]">
-        <text>тут на тебя не смотрят , как на 1 - классницу , которой тебя помнят , а относятся как к взрослому человеку и в общении это заметно …</text>
-        <propbank>
-          <rel relloc="17">относятся</rel>
-          <arg type="ARG2" start="18" end="21">как к взрослому человеку</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="отнестись">
-    <roleset id="отнестись.05" name="approach officially">
-      <aliases>
-    </aliases>
-      <note>NO IMPERFECTIVE</note>
-      <note>отнестись.05 NOTES: based on English approach.02</note>
-      <roles>
-        <role descr="treater, dealer, agent" f="PAG" n="0">
-        </role>
-        <role descr="thing" f="PPT" n="1">
-        </role>
-        <role descr="attribute" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="approach.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="participle" src="Russian National Corpus[Г. И. Невельской. Подвиги русских морских офицеров на крайнем Востоке России (1878)]">
-        <text>Что же касается до присылки собственно для экспедиции парового судна из Кронштадта , то я отнёсся уже с просьбою к начальнику Главного морского штаба и с этою же почтою предлагаю к точному исполнению начальнику Аянского порта Кашеварову исполнять ваши требования и отправлять в Петровское зимовье товары , запасы и прочее и на компанейских судах , следующих из Аяна в Ситху » .</text>
-        <propbank>
-          <arg type="ARG0" start="14" end="14">я</arg>
-          <rel relloc="15">отнёсся</rel>
-          <arg type="ARGM-ADV" start="16" end="16">уже</arg>
-          <arg type="ARG1" start="17" end="18">с просьбою</arg>
-          <arg type="ARG2" start="19" end="23">к начальнику Главного морского штаба</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="относить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="относить.01" name="carry or move away/off">
+            <aliases>
+                <alias pos="v">отнести</alias>
+            </aliases>
+            <note>относить.01 NOTES: based on English remove.01</note>
+            <roles>
+                <role descr="entity removing" f="PAG" n="0"/>
+                <role descr="thing being removed" f="PPT" n="1"/>
+                <role descr="removed from" f="DIR" n="2"/>
+                <role descr="removed to" f="GOL" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="remove.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>Russian Arg3-GOL has no match in English frame</note>
+            <example name="take away" src="Russian National Corpus[Наши дети: Подростки (2004)]">
+                <text>А в школе была проблема , поскольку там не разрешали тарелки с недоеденным в мойку относить .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="10" end="12">тарелки с недоеденным</arg>
+                    <arg type="ARG3" start="13" end="14">в мойку</arg>
+                    <rel relloc="15">относить</rel>
+                </propbank>
+            </example>
+            <example name="carried away" src="Russian National Corpus[С. П. Капица. Мои воспоминания (2008)]">
+                <text>Бывали случаи , когда мы попадали в сильные течения и нас относило далеко от места погружения .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="10" end="10">нас</arg>
+                    <rel relloc="11">относило</rel>
+                    <arg type="ARG2" start="12" end="15">далеко от места погружения</arg>
+                </propbank>
+            </example>
+            <example name="blow away"
+                     src="Russian National Corpus[Никита Юрьевский, Евгений Джумаев. Лети-лети под облака… (2013.05.23) // «Новгородские ведомости», 2013]">
+                <text>… Юго - восточный ветерок относил шары на северо - запад и гнал параллельно автодороге Старая
+                    Русса — Шимск .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="4">Юго - восточный ветерок</arg>
+                    <rel relloc="5">относил</rel>
+                    <arg type="ARG1" start="6" end="6">шары</arg>
+                    <arg type="ARG3" start="7" end="10">на северо - запад</arg>
+                </propbank>
+            </example>
+            <example name="float away" src="Russian National Corpus[Виктор Астафьев. Трофейная пушка // «Знамя», 2001]">
+                <text>Когда дым отнесло от дульного тормоза , Игнат сокрушенно развел руками :</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="0">Когда</arg>
+                    <arg type="ARG1" start="1" end="1">дым</arg>
+                    <rel relloc="2">отнесло</rel>
+                    <arg type="ARG2" start="3" end="5">от дульного тормоза</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="относить.02" name="postpone">
+            <aliases>
+                <alias pos="v">отнести</alias>
+                <alias pos="n">отнесение</alias>
+            </aliases>
+            <note>относить.02 NOTES: Roleset based on English verb frame postpone.01</note>
+            <roles>
+                <role descr="agent, causer of delay" f="PAG" n="0"/>
+                <role descr="event delayed" f="PPT" n="1"/>
+                <role descr="delay itself, EXT, time period, how long arg 1 was delayed for " f="EXT" n="2"/>
+                <role descr="original time " f="DIR" n="3"/>
+                <role descr="new time" f="GOL" n="4"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="postpone.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="postpone"
+                     src="Russian National Corpus[К. С. Бадигин. Секрет государственной важности (1974)]">
+                <text>Сначала я и это отнес к случайности … Относил до вчерашнего дня … Может быть , все же разрешите
+                    закурить ?
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="0">Сначала</arg>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                    <arg type="ARGM-DIS" start="2" end="2">и</arg>
+                    <arg type="ARG1" start="3" end="3">это</arg>
+                    <rel relloc="4">отнес</rel>
+                    <arg type="ARG4" start="5" end="6">к случайности</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="относить.03" name="include as, assign to, count among, account as, consider as part of">
+            <aliases>
+                <alias pos="v">отнести</alias>
+                <alias pos="v">относиться</alias>
+                <alias pos="v">отнестись</alias>
+                <alias pos="n">отношение</alias>
+                <alias pos="n">отнесение</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 3</note>
+            <note>относить.03 NOTES: based on English include.01</note>
+            <roles>
+                <role descr="agent, entity causing some grouping" f="PAG" n="0"/>
+                <role descr="theme, thing being included in some group " f="PPT" n="1"/>
+                <role descr="group" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="include.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="a type of"
+                     src="А. Л. Калуцкий, «Отряд Жуки», 2003 г. // «Биология» (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>К хищным жукам относятся и плавунцы .</text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="2">К хищным жукам</arg>
+                    <rel relloc="3">относятся</rel>
+                    <arg type="ARGM-ADV" start="4" end="4">и</arg>
+                    <arg type="ARG0" start="5" end="5">плавунцы</arg>
+                </propbank>
+            </example>
+            <example name="one of" src="Russian National Corpus [коллективный. Форум: 17 мгновений весны (2005-2010)]">
+                <text>Интересный захватывающий сюжет — в принципе , больше ничего , особенно простому зрителю , к коим я
+                    себя отношу .
+                </text>
+                <propbank>
+                    <arg type="ARG2" start="14" end="15">к коим</arg>
+                    <arg type="ARG0" start="16" end="16">я</arg>
+                    <rel relloc="18">отношу</rel>
+                    <arg type="ARG1" start="17" end="17">себя</arg>
+                </propbank>
+            </example>
+            <example name="time of"
+                     src="Russian National Corpus[Сергей Старостин, Григорий Зеленко. У человечества был один праязык // «Знание -- сила», 2003]">
+                <text>А к какому времени вы относите единство ностратического , афразийского и сино - кавказского ?
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">А</arg>
+                    <arg type="ARG1" start="1" end="3">к какому времени</arg>
+                    <arg type="ARG0" start="4" end="4">вы</arg>
+                    <rel relloc="5">относите</rel>
+                    <arg type="ARG2" start="6" end="13">единство ностратического , афразийского и сино - кавказского
+                    </arg>
+                </propbank>
+            </example>
+            <example name="include on" src="Russian National Corpus[Сергей Довлатов. Заповедник (1983)]">
+                <text>Вначале я относил это за счёт моей потускневшей индивидуальности .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="0">Вначале</arg>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                    <rel relloc="2">относил</rel>
+                    <arg type="ARG1" start="3" end="3">это</arg>
+                    <arg type="ARG2" start="4" end="8">за счёт моей потускневшей индивидуальности</arg>
+                </propbank>
+            </example>
+            <example name="classify as"
+                     src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
+                <text>А при чем здесь девушки ? Лафет относится к мужскому полу ! Ой !</text>
+                <propbank>
+                    <arg type="ARG1" start="6" end="6">Лафет</arg>
+                    <rel relloc="7">относится</rel>
+                    <arg type="ARG2" start="8" end="10">к мужскому полу</arg>
+                </propbank>
+            </example>
+            <example name="belong to"
+                     src="Russian National Corpus[А. А. Рафалович. Путешествие по Нижнему Египту и внутренним областям Дельты (1850)]">
+                <text>При этом не мешает заметить , что Египтяне , как и все другие мусульмане , вечер и ночь относят к
+                    следующему дню , так что напр . праздничный день начинается с захождения солнца на кануне .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="7" end="13">Египтяне , как и все другие мусульмане</arg>
+                    <arg type="ARG1" start="15" end="17">вечер и ночь</arg>
+                    <rel relloc="18">относят</rel>
+                    <arg type="ARG2" start="19" end="21">к следующему дню</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="относиться">
+        <roleset id="относиться.04" name="relate, have attitude, treat">
+            <aliases>
+                <alias pos="v">отнестись</alias>
+                <alias pos="n">отношение</alias>
+            </aliases>
+            <note>относить.04 NOTES: based on English treat.01</note>
+            <note>Corresponds to FrameBank senses 1,2,4</note>
+            <roles>
+                <role descr="assumer of attribute" f="PAG" n="0"/>
+                <role descr="entity treated" f="PPT" n="1"/>
+                <role descr="attitude or manner of relating" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="treat.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg2-PRD = Russian Arg2-MNR</note>
+            <example name="have a good sense of humor"
+                     src="«Вы над собой смеяться не боитесь?», 2002 г. // «Дело (Самара)» (цитата из Национального корпуса русского языка, см. Список литературы">
+                <text>Я ко всему такому отношусь с юмором и радуюсь , если ко мне так же относятся мои друзья , знакомые
+                    .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARG1" start="1" end="3">ко всему такому</arg>
+                    <rel relloc="4">отношусь</rel>
+                    <arg type="ARG2" start="5" end="6">с юмором</arg>
+                </propbank>
+            </example>
+            <example name="treat as"
+                     src="Russian National Corpus [коллективный. Форум: Универ (институт) VS школа. Плюсы и минусы. Где в итоге лучше и почему? (2011)]">
+                <text>тут на тебя не смотрят , как на 1 - классницу , которой тебя помнят , а относятся как к взрослому
+                    человеку и в общении это заметно …
+                </text>
+                <propbank>
+                    <rel relloc="17">относятся</rel>
+                    <arg type="ARG2" start="18" end="21">как к взрослому человеку</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="отнестись">
+        <roleset id="отнестись.05" name="approach officially">
+            <aliases>
+            </aliases>
+            <note>NO IMPERFECTIVE</note>
+            <note>отнестись.05 NOTES: based on English approach.02</note>
+            <roles>
+                <role descr="treater, dealer, agent" f="PAG" n="0">
+                </role>
+                <role descr="thing" f="PPT" n="1">
+                </role>
+                <role descr="attribute" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="approach.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="participle"
+                     src="Russian National Corpus[Г. И. Невельской. Подвиги русских морских офицеров на крайнем Востоке России (1878)]">
+                <text>Что же касается до присылки собственно для экспедиции парового судна из Кронштадта , то я отнёсся
+                    уже с просьбою к начальнику Главного морского штаба и с этою же почтою предлагаю к точному
+                    исполнению начальнику Аянского порта Кашеварову исполнять ваши требования и отправлять в Петровское
+                    зимовье товары , запасы и прочее и на компанейских судах , следующих из Аяна в Ситху » .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="14" end="14">я</arg>
+                    <rel relloc="15">отнёсся</rel>
+                    <arg type="ARGM-ADV" start="16" end="16">уже</arg>
+                    <arg type="ARG1" start="17" end="18">с просьбою</arg>
+                    <arg type="ARG2" start="19" end="23">к начальнику Главного морского штаба</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

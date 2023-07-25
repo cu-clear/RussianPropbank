@@ -1,192 +1,198 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="говорить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <note>говорить.01 NOTES: NO PERFECTIVE.</note>
-    <roleset id="говорить.01" name="speak, say, (be able to) talk, pronounce">
-      <aliases>
-        <alias pos="v">говориться</alias>
-        <alias pos="v">поговорить</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2,3,4,5,8,9</note>
-      <note>говорить.01 NOTES: Based on say.01.</note>
-      <roles>
-        <role descr="sayer " f="PAG" n="0"/>
-        <role descr="utterance" f="PPT" n="1"/>
-        <role descr="hearer, conversationalist" f="GOL" n="2"/>
-        <role descr="attributive, language" f="ADV" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="say.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="say" src="">
-        <text>Я слышал , что вы говорили обо мне .</text>
-        <propbank>
-          <arg type="ARG0" start="4" end="4">вы</arg>
-          <rel relloc="5">говорили</rel>
-          <arg type="ARG1" start="3" end="3">что</arg>
-          <arg type="ARG3" start="6" end="7">обо мне</arg>
-        </propbank>
-      </example>
-      <example name="say what" src="">
-        <text>Говорила я ей , что нельзя при зверях громко разговаривать !</text>
-        <propbank>
-          <rel relloc="0">Говорила</rel>
-          <arg type="ARG0" start="1" end="1">я</arg>
-          <arg type="ARG2" start="2" end="2">ей</arg>
-          <arg type="ARG1" start="4" end="9">что нельзя при зверях громко разговаривать</arg>
-        </propbank>
-      </example>
-      <example name="say quote" src="">
-        <text>Я тоже говорю " жена " , потом ловлю удивлённый взгляд собеседника ( - цы ) , приходится объяснять , что бывшая .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <arg type="ARGM-DIS" start="1" end="1">тоже</arg>
-          <rel relloc="2">говорю</rel>
-          <arg type="ARG1" start="4" end="4">жена</arg>
-        </propbank>
-      </example>
-      <example name="say quote" src="">
-        <text>При открытии съезда говорились приветственные речи .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="2">При открытии съезда</arg>
-          <rel relloc="3">говорились</rel>
-          <arg type="ARG1" start="4" end="5">приветственные речи</arg>
-        </propbank>
-      </example>
-      <example name="speak a language: arg3" src="А. П. Чехов, «Анна на шее», 1895 г. (цитата из Викитеки)">
-        <text>Её покойная мать сама одевалась всегда по последней моде и всегда возилась с Аней и одевала её изящно , как куклу , и научила её говорить по - французски и превосходно танцевать мазурку .</text>
-        <propbank>
-          <rel relloc="25">говорить</rel>
-          <arg type="ARG3" start="26" end="28">по - французски</arg>
-        </propbank>
-      </example>
-      <example name="gossip" src="А. П. Чехов, «В Москве», 1891 г. (цитата из Викитеки)">
-        <text>Знайте , что всё злое , подлое , гнусное , что говорят о мало - мальски известных людях , распустил по Москве я .</text>
-        <propbank>
-          <arg type="ARG1" start="3" end="10">всё злое , подлое , гнусное , что</arg>
-          <rel relloc="11">говорят</rel>
-          <arg type="ARG3" start="12" end="17">о мало - мальски известных людях</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="говорить.02" name="accuse, tattle">
-      <aliases>
-      </aliases>
-      <note>говорить.02 NOTES: Based on accuse.01 but different role numbers and types. More like "tattle on" which is not in English PropBank.</note>
-      <note>English ARG2-PRD = Russian ARG1-PPT</note>
-      <note>English ARG1-PPT = Russian ARG2-GOL</note>
-      <roles>
-        <role descr="accuser" f="PAG" n="0"/>
-        <role descr="crime" f="PPT" n="1"/>
-        <role descr="accused" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="accuse.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="all args" src="Russian National Corpus: [Ф. М. Достоевский. Братья Карамазовы (1880)]">
-        <text>И что бы ты ни говорил на меня на суде , что бы ты ни свидетельствовал ― принимаю и не боюсь тебя ; сам все подтвержу !</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">И</arg>
-          <arg type="ARG1" start="1" end="1">что</arg>
-          <arg type="ARG0" start="3" end="3">ты</arg>
-          <arg type="ARGM-ADV" start="4" end="4">ни</arg>
-          <rel relloc="5">говорил</rel>
-          <arg type="ARG2" start="6" end="7">на меня</arg>
-          <arg type="ARGM-LOC" start="8" end="9">на суде</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="говорить.03" name="reveal">
-      <aliases>
-      </aliases>
-      <note>Corresponds to FrameBank senses 6,7</note>
-      <note>говорить.03 NOTES: Based on reveal.01.</note>
-      <roles>
-        <role descr="speaker, revealer" f="PAG" n="0">
-        </role>
-        <role descr="utterance, truth condition" f="PPT" n="1">
-        </role>
-        <role descr="entity possession or demonstrating arg1" f="PRD" n="2"/>
-        <note>English ARG2-GOL has no match in Russian frame</note>
-      </roles>
-      <lexlinks>
-        <lexlink class="reveal.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="all args" src="Ю. М. Нагибин, «Бунташный остров», 1994 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>А может , это говорило в нём законопослушание : раз тебе полагается , должен получить .</text>
-        <propbank>
-          <arg type="ARG0" start="3" end="3">это</arg>
-          <rel relloc="4">говорило</rel>
-          <arg type="ARG2" start="5" end="6">в нём</arg>
-          <arg type="ARG1" start="7" end="7">законопослушание</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="говориться">
-    <roleset id="говориться.04" name="(not) want to speak">
-      <aliases>
-      </aliases>
-      <note>IMPERSONAL; usually negative</note>
-      <roles>
-        <role descr="entity (not) wanting to speak" f="PPT" n="1">
-        </role>
-      </roles>
-      <example name="all args" src="Russian National Corpus: [И. Грекова. На испытаниях (1967)]">
-        <text>Он старался говорить как всегда , но что - то не говорилось ему сегодня , не острилось .</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="7" end="9">что - то</arg>
-          <arg type="ARGM-NEG" start="10" end="10">не</arg>
-          <rel relloc="11">говорилось</rel>
-          <arg type="ARG1" start="12" end="12">ему</arg>
-          <arg type="ARGM-TMP" start="13" end="13">сегодня</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="не_говори">
-    <roleset id="не_говори.05" name="no way">
-      <aliases>
-        <mwp-descriptions id="не_говори">
-          <syntaxdesc slots="A B">
-            <token slot="A" arg="" pos="" head="B" dep="">не</token>
-            <token slot="B" arg="" pos="" head="" dep="">говори</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <roles>
-      </roles>
-      <example name="example" src="Russian National Corpus. [коллективный. Инвестиции в сельское хозяйство. Начало )) (2014-2015)]">
-        <text>И не говори ! Все такие крутые аграрии ! !</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">И</arg>
-          <rel relloc="1 2">не говори</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="кто_говорит">
-    <roleset id="кто_говорит.06" name="of course, be self-evident, undoubtedly">
-      <aliases>
-        <mwp-descriptions id="кто_говорит">
-          <syntaxdesc slots="A B">
-            <token slot="A" arg="" pos="" head="B" dep="">кто</token>
-            <token slot="B" arg="" pos="" head="" dep="">говорит</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <roles>
-        <role descr="thing that is self-evident" f="PPT" n="1"/>
-      </roles>
-      <example name="example" src="made up from our heads">
-        <text>Нелегко , кто говорит ! .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Нелегко</arg>
-          <rel relloc="2 3">кто говорит</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="говорить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <note>говорить.01 NOTES: NO PERFECTIVE.</note>
+        <roleset id="говорить.01" name="speak, say, (be able to) talk, pronounce">
+            <aliases>
+                <alias pos="v">говориться</alias>
+                <alias pos="v">поговорить</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,3,4,5,8,9</note>
+            <note>говорить.01 NOTES: Based on say.01.</note>
+            <roles>
+                <role descr="sayer " f="PAG" n="0"/>
+                <role descr="utterance" f="PPT" n="1"/>
+                <role descr="hearer, conversationalist" f="GOL" n="2"/>
+                <role descr="attributive, language" f="ADV" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="say.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="say" src="">
+                <text>Я слышал , что вы говорили обо мне .</text>
+                <propbank>
+                    <arg type="ARG0" start="4" end="4">вы</arg>
+                    <rel relloc="5">говорили</rel>
+                    <arg type="ARG1" start="3" end="3">что</arg>
+                    <arg type="ARG3" start="6" end="7">обо мне</arg>
+                </propbank>
+            </example>
+            <example name="say what" src="">
+                <text>Говорила я ей , что нельзя при зверях громко разговаривать !</text>
+                <propbank>
+                    <rel relloc="0">Говорила</rel>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                    <arg type="ARG2" start="2" end="2">ей</arg>
+                    <arg type="ARG1" start="4" end="9">что нельзя при зверях громко разговаривать</arg>
+                </propbank>
+            </example>
+            <example name="say quote" src="">
+                <text>Я тоже говорю " жена " , потом ловлю удивлённый взгляд собеседника ( - цы ) , приходится объяснять , что бывшая .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARGM-DIS" start="1" end="1">тоже</arg>
+                    <rel relloc="2">говорю</rel>
+                    <arg type="ARG1" start="4" end="4">жена</arg>
+                </propbank>
+            </example>
+            <example name="say quote" src="">
+                <text>При открытии съезда говорились приветственные речи .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="2">При открытии съезда</arg>
+                    <rel relloc="3">говорились</rel>
+                    <arg type="ARG1" start="4" end="5">приветственные речи</arg>
+                </propbank>
+            </example>
+            <example name="speak a language: arg3" src="А. П. Чехов, «Анна на шее», 1895 г. (цитата из Викитеки)">
+                <text>Её покойная мать сама одевалась всегда по последней моде и всегда возилась с Аней и одевала её
+                    изящно , как куклу , и научила её говорить по - французски и превосходно танцевать мазурку .
+                </text>
+                <propbank>
+                    <rel relloc="25">говорить</rel>
+                    <arg type="ARG3" start="26" end="28">по - французски</arg>
+                </propbank>
+            </example>
+            <example name="gossip" src="А. П. Чехов, «В Москве», 1891 г. (цитата из Викитеки)">
+                <text>Знайте , что всё злое , подлое , гнусное , что говорят о мало - мальски известных людях , распустил по Москве я .</text>
+                <propbank>
+                    <arg type="ARG1" start="3" end="10">всё злое , подлое , гнусное , что</arg>
+                    <rel relloc="11">говорят</rel>
+                    <arg type="ARG3" start="12" end="17">о мало - мальски известных людях</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="говорить.02" name="accuse, tattle">
+            <aliases>
+            </aliases>
+            <note>говорить.02 NOTES: Based on accuse.01 but different role numbers and types. More like "tattle on" which is not in English PropBank.</note>
+            <note>English ARG2-PRD = Russian ARG1-PPT</note>
+            <note>English ARG1-PPT = Russian ARG2-GOL</note>
+            <roles>
+                <role descr="accuser" f="PAG" n="0"/>
+                <role descr="crime" f="PPT" n="1"/>
+                <role descr="accused" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="accuse.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args" src="Russian National Corpus: [Ф. М. Достоевский. Братья Карамазовы (1880)]">
+                <text>И что бы ты ни говорил на меня на суде , что бы ты ни свидетельствовал ― принимаю и не боюсь тебя ; сам все подтвержу !</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">И</arg>
+                    <arg type="ARG1" start="1" end="1">что</arg>
+                    <arg type="ARG0" start="3" end="3">ты</arg>
+                    <arg type="ARGM-ADV" start="4" end="4">ни</arg>
+                    <rel relloc="5">говорил</rel>
+                    <arg type="ARG2" start="6" end="7">на меня</arg>
+                    <arg type="ARGM-LOC" start="8" end="9">на суде</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="говорить.03" name="reveal">
+            <aliases>
+            </aliases>
+            <note>Corresponds to FrameBank senses 6,7</note>
+            <note>говорить.03 NOTES: Based on reveal.01.</note>
+            <roles>
+                <role descr="speaker, revealer" f="PAG" n="0">
+                </role>
+                <role descr="utterance, truth condition" f="PPT" n="1">
+                </role>
+                <role descr="entity possession or demonstrating arg1" f="PRD" n="2"/>
+                <note>English ARG2-GOL has no match in Russian frame</note>
+            </roles>
+            <lexlinks>
+                <lexlink class="reveal.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args"
+                     src="Ю. М. Нагибин, «Бунташный остров», 1994 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>А может , это говорило в нём законопослушание : раз тебе полагается , должен получить .</text>
+                <propbank>
+                    <arg type="ARG0" start="3" end="3">это</arg>
+                    <rel relloc="4">говорило</rel>
+                    <arg type="ARG2" start="5" end="6">в нём</arg>
+                    <arg type="ARG1" start="7" end="7">законопослушание</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="говориться">
+        <roleset id="говориться.04" name="(not) want to speak">
+            <aliases>
+            </aliases>
+            <note>IMPERSONAL; usually negative</note>
+            <roles>
+                <role descr="entity (not) wanting to speak" f="PPT" n="1">
+                </role>
+            </roles>
+            <example name="all args" src="Russian National Corpus: [И. Грекова. На испытаниях (1967)]">
+                <text>Он старался говорить как всегда , но что - то не говорилось ему сегодня , не острилось .</text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="7" end="9">что - то</arg>
+                    <arg type="ARGM-NEG" start="10" end="10">не</arg>
+                    <rel relloc="11">говорилось</rel>
+                    <arg type="ARG1" start="12" end="12">ему</arg>
+                    <arg type="ARGM-TMP" start="13" end="13">сегодня</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="не_говори">
+        <roleset id="не_говори.05" name="no way">
+            <aliases>
+                <mwp-descriptions id="не_говори">
+                    <syntaxdesc slots="A B">
+                        <token slot="A" arg="" pos="" head="B" dep="">не</token>
+                        <token slot="B" arg="" pos="" head="" dep="">говори</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <roles>
+            </roles>
+            <example name="example"
+                     src="Russian National Corpus. [коллективный. Инвестиции в сельское хозяйство. Начало )) (2014-2015)]">
+                <text>И не говори ! Все такие крутые аграрии ! !</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">И</arg>
+                    <rel relloc="1 2">не говори</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="кто_говорит">
+        <roleset id="кто_говорит.06" name="of course, be self-evident, undoubtedly">
+            <aliases>
+                <mwp-descriptions id="кто_говорит">
+                    <syntaxdesc slots="A B">
+                        <token slot="A" arg="" pos="" head="B" dep="">кто</token>
+                        <token slot="B" arg="" pos="" head="" dep="">говорит</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <roles>
+                <role descr="thing that is self-evident" f="PPT" n="1"/>
+            </roles>
+            <example name="example" src="made up from our heads">
+                <text>Нелегко , кто говорит ! .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Нелегко</arg>
+                    <rel relloc="2 3">кто говорит</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

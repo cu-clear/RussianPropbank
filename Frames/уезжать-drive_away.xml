@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="уезжать">
-    <roleset id="уезжать.01" name="Drive away, drive off, leave via land-based vehicle or animal">
-      <aliases>
-        <alias pos="v">уезжать</alias>
-        <alias pos="v">уехать</alias>
-        <alias pos="j">уезжающий</alias>
-        <alias pos="j">уехавший</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-      <note>NOTES: based on English leave.11</note>
-      <roles>
-        <role descr="Entity in motion" f="PAG" n="0"/>
-        <role descr="Starting point, point of departure" f="DIR" n="1"/>
-        <role descr="Destination" f="GOL" n="2"/>
-        <role descr="Vehicle or Animal left upon" f="MNR" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="leave.11" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="Arg0, 1 and 2" src="Russian National Corpus, Computerworld 2004">
-        <text>... они уехали из Иллинойса в Кремниевую Долину .</text>
-        <propbank>
-          <arg type="ARG0" start="1" end="1">они</arg>
-          <rel relloc="2">уехали</rel>
-          <arg type="ARG1" start="4" end="4">Иллинойса</arg>
-          <arg type="ARG2" start="6" end="7">Кремниевую Долину</arg>
-        </propbank>
-      </example>
-      <example name="Arg1 only" src="Russian National Corpus, Криминальная хроника 2003,06,10">
-        <text>Англичане уехали</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Англичане</arg>
-          <rel relloc="1">уехали</rel>
-        </propbank>
-      </example>
-      <example name="Arg0 and 3" src="s-pravdoy.ru">
-        <text>... а сами бандиты уехали на его машине ...</text>
-        <propbank>
-          <arg type="ARG0" start="3" end="3">бандиты</arg>
-          <rel relloc="4">уехали</rel>
-          <arg type="ARG3" start="7" end="7">машине</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="уезжать">
+        <roleset id="уезжать.01" name="Drive away, drive off, leave via land-based vehicle or animal">
+            <aliases>
+                <alias pos="v">уезжать</alias>
+                <alias pos="v">уехать</alias>
+                <alias pos="j">уезжающий</alias>
+                <alias pos="j">уехавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English leave.11</note>
+            <roles>
+                <role descr="Entity in motion" f="PAG" n="0"/>
+                <role descr="Starting point, point of departure" f="DIR" n="1"/>
+                <role descr="Destination" f="GOL" n="2"/>
+                <role descr="Vehicle or Animal left upon" f="MNR" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="leave.11" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="Arg0, 1 and 2" src="Russian National Corpus, Computerworld 2004">
+                <text>... они уехали из Иллинойса в Кремниевую Долину .</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">они</arg>
+                    <rel relloc="2">уехали</rel>
+                    <arg type="ARG1" start="4" end="4">Иллинойса</arg>
+                    <arg type="ARG2" start="6" end="7">Кремниевую Долину</arg>
+                </propbank>
+            </example>
+            <example name="Arg1 only" src="Russian National Corpus, Криминальная хроника 2003,06,10">
+                <text>Англичане уехали</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Англичане</arg>
+                    <rel relloc="1">уехали</rel>
+                </propbank>
+            </example>
+            <example name="Arg0 and 3" src="s-pravdoy.ru">
+                <text>... а сами бандиты уехали на его машине ...</text>
+                <propbank>
+                    <arg type="ARG0" start="3" end="3">бандиты</arg>
+                    <rel relloc="4">уехали</rel>
+                    <arg type="ARG3" start="7" end="7">машине</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

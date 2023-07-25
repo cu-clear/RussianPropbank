@@ -1,35 +1,37 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Обеспокоивать">
-    <roleset id="обеспокоивать.01" name="Perturb, disturb">
-      <aliases>
-        <alias pos="v">обеспокоивать</alias>
-        <alias pos="v">обеспокоить</alias>
-        <alias pos="j">обеспокоющий</alias>
-        <alias pos="j">обеспокоенный</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English perturb.01</note>
-      <roles>
-        <role descr="Stimulus of perturbation" f="PAG" n="0"/>
-        <role descr="Perturbed entity" f="PPT" n="1"/>
-	    </roles>
-      <example name="Arg0 and Arg1" src="RNC, М. Е. Салтыков-Щедрин. Пошехонская старина. Житие Никанора Затрапезного, пошехонского дворянина (1887-1889)">
-        <text>Мысль об экономке слегка обеспокоивает матушку ; но , помолчав с минуту , она продолжает допрос :</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">Мысль об экономке</arg>
-          <rel relloc="?">обеспокоивает</rel>
-	        <arg type="ARG1" start="?" end="?">матушку</arg>
-        </propbank>
-      </example>
-      <example name="Arg0 and Arg1" src="RNC, А. А. Ботев. Кот Шредингера // «Волга», 2013">
-        <text>Я вижу , ты очень обеспокоен грядущим концом света и т . д .</text>
-        <propbank>
-          <arg type="ARG1" start="?" end="?">ты</arg>
-          <rel relloc="?">обеспокоен</rel>
-	        <arg type="ARG0" start="?" end="?">грядущим концом света</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="обеспокоивать">
+        <roleset id="обеспокоивать.01" name="Perturb, disturb">
+            <aliases>
+                <alias pos="v">обеспокоивать</alias>
+                <alias pos="v">обеспокоить</alias>
+                <alias pos="j">обеспокоющий</alias>
+                <alias pos="j">обеспокоенный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English perturb.01</note>
+            <roles>
+                <role descr="Stimulus of perturbation" f="PAG" n="0"/>
+                <role descr="Perturbed entity" f="PPT" n="1"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, М. Е. Салтыков-Щедрин. Пошехонская старина. Житие Никанора Затрапезного, пошехонского дворянина (1887-1889)">
+                <text>Мысль об экономке слегка обеспокоивает матушку ; но , помолчав с минуту , она продолжает допрос
+                    :
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="2">Мысль об экономке</arg>
+                    <rel relloc="4">обеспокоивает</rel>
+                    <arg type="ARG1" start="5" end="5">матушку</arg>
+                </propbank>
+            </example>
+            <example name="Arg0 and Arg1" src="RNC, А. А. Ботев. Кот Шредингера // «Волга», 2013">
+                <text>Я вижу , ты очень обеспокоен грядущим концом света и т . д .</text>
+                <propbank>
+                    <arg type="ARG1" start="3" end="3">ты</arg>
+                    <rel relloc="5">обеспокоен</rel>
+                    <arg type="ARG0" start="6" end="8">грядущим концом света</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

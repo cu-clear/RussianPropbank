@@ -16,9 +16,9 @@
                 <role descr="cognate object" f="PPT" n="1"/>
                 <role descr="expected terminus of sleep" f="TMP" n="2"/>
             </roles>
-      <lexlinks>
-        <lexlink class="sleep.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
+            <lexlinks>
+                <lexlink class="sleep.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG0 only" src="RNC, Алексей Иванов. Сердце Пармы (2000)">
                 <text>Воины хакана тоже спали в отведённых им гостевых керку .</text>
                 <propbank>

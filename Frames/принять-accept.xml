@@ -1,231 +1,270 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="принять">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="принять.01" name="to take willingly, accept, receive, ingest, listen to positively">
-      <aliases>
-        <alias pos="v">принимать</alias>
-      </aliases>
-      <note>принять.01 NOTES: Roleset based on English verb frame accept.01</note>
-      <note>Corresponds to FrameBank senses </note>
-      <roles>
-        <role descr="acceptor" f="PAG" n="0"/>
-        <role descr="thing accepted" f="PPT" n="1"/>
-        <role descr="dir accepted from" f="DIR" n="2"/>
-        <role descr="attribute, accepted as/for" f="PRD" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="accept.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="">
-        <text>Вы принимаете кредитные карты ?</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Вы</arg>
-          <rel relloc="1">принимаете</rel>
-          <arg type="ARG1" start="2" end="3">кредитные карты</arg>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
-        <text>Просто это нужно понять и принять свою точку зрения .</text>
-        <propbank>
-          <arg type="ARG1" start="6" end="8">свою точку зрения</arg>
-          <rel relloc="5">принять</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="принять.02" name="to allow or receive or accept person for some purpose">
-      <note>принять.02 NOTES: Roleset based on English verb frame embrace.01</note>
-      <roles>
-        <role descr="includer, agent" f="PAG" n="0"/>
-        <role descr="entity embraced" f="PPT" n="1"/>
-        <role descr="embraced as" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="embrace.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="">
-        <text>Наш корреспондент Семён Ерёмин проследил хронологию тех событий : Кармадон сегодня принимает гостей .</text>
-        <propbank>
-          <arg type="ARG0" start="9" end="9">Кармадон</arg>
-          <rel relloc="11">принимает</rel>
-          <arg type="ARG1" start="12" end="12">гостей</arg>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>Все рейсы как из аэропорта Хургады , так и из Луксора отправляются по расписанию – мы специально узнавали это в администрации аэропортов » , - рассказал корреспонденту инфогруппы « ТУРПРОМ » Сергей Заливин , замдиректора египетской missing word принимающего туроператор « ALS - tour » .</text>
-        <propbank>
-          <arg type="ARG0" start="34" end="37">замдиректора египетской missing word</arg>
-          <rel relloc="38">принимающего</rel>
-          <arg type="ARG1" start="39" end="44">туроператор « ALS - tour »</arg>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>Раньше в " Лана " принимали * pro * деток с 1,5 годика</text>
-        <propbank>
-          <arg type="ARG0" start="3" end="3">Лана</arg>
-          <arg type="ARG1" start="?" end="?">*pro* деток с 1,5 годика</arg>
-          <rel relloc="5">принимали</rel>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>Принять нас для получения задатка Елена Наумовна отказалась , сделки не будет , всё пошло прахом . А. Г. Волос , « Недвижимость » , 2000 г . ( цитата из Национального корпуса русского языка , см . Список литературы )</text>
-        <propbank>
-          <arg type="ARG0" start="5" end="6">Елена Наумовна</arg>
-          <arg type="ARG1" start="1" end="1">нас</arg>
-          <arg type="ARG2" start="2" end="4">для получения задатка</arg>
-          <rel relloc="0">Принять</rel>
-        </propbank>
-      </example>
-      <example name="" src="Ирина Муравьева, «Мещанин во дворянстве», 1994 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Надо было по - царски принять и декана , и замдекана , и заведующую кафедрой , и старых друзей .</text>
-        <propbank>
-          <arg type="ARG1" start="6" end="18">и декана , и замдекана , и заведующую кафедрой , и старых друзей</arg>
-          <arg type="ARG2" start="2" end="4">по - царски</arg>
-          <rel relloc="5">принять</rel>
-        </propbank>
-      </example>
-      <example name="" src="Л. Е. Улицкая, «Путешествие в седьмую сторону света», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Просьба Павла Алексеевича была скромной — принять дочку , вечерницу биофака , на работу в должности лаборанта .</text>
-        <propbank>
-          <arg type="ARG2" start="12" end="16">на работу в должности лаборанта</arg>
-          <arg type="ARG1" start="7" end="10">дочку , вечерницу биофака</arg>
-          <rel relloc="6">принять</rel>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus[коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)]">
-        <text>Я повторюсь , с хорошим знанием « живого » языка и опытом работы Вас примут с распростёртыми объятиями в необразовательных учреждениях , где это ( язык особенно ) требуется .</text>
-        <propbank>
-          <arg type="ARG2" start="15" end="20">с распростёртыми объятиями в необразовательных учреждениях</arg>
-          <arg type="ARG1" start="13" end="13">Вас</arg>
-          <rel relloc="14">примут</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="принять.03" name="pass (e.g. law, resolution, etc), make official by voting">
-      <note>принять.03 NOTES: Roleset based on English verb frame pass.01 </note>
-      <roles>
-        <role descr="legislative body " f="PAG" n="0"/>
-        <role descr="bill, state prior to passing" f="PPT" n="1"/>
-        <role descr="law, state after passing" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="pass.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="example" src="Russian National Corpus[Светлана Бабаева, Екатерина Григорьева. Слоеный пирог. Владимир Путин начал раздачу власти (2003) // «Известия», 2003.02.18]">
-        <text>Но практика наша российская такова : был в своё время принят закон о финансовых основах МСУ , в нём были записаны совершенно правильные вещи , но он не заработал .</text>
-        <propbank>
-          <rel relloc="10">принят</rel>
-          <arg type="ARG2" start="11" end="15">закон о финансовых основах МСУ</arg>
-        </propbank>
-      </example>
-      <example name="example" src="Russian National Corpus[Мария Козлова. Свобода совести и светскость государства: проблемы и решения (1 часть) (2004) // «Адвокат», 2004.12.01]">
-        <text>Об этом красноречиво говорит , например , резолюция , принятая 24 апреля 2001 г . на Круглом столе в Государственной Думе , имевшем подчеркнуто нейтральное название"Религиозное образование в России : проблемы и перспективы " и на деле собравшем лоббистов православного образования и их сторонников в российском парламенте .</text>
-        <propbank>
-          <rel relloc="9">принятая</rel>
-          <arg type="ARG2" start="7" end="7">резолюция</arg>
-          <arg type="ARG0" start="16" end="20">Круглом столе в Государственной Думе</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="принять.04" name="catch, receive (a signal)">
-      <note>Corresponds to FrameBank sense </note>
-      <note>принять.04 NOTES: No Frame match in English </note>
-      <roles>
-        <role descr="entity receiving signal " f="PAG" n="0"/>
-        <role descr="signal" f="PPT" n="1"/>
-      </roles>
-      <example name="" src="Russian National Corpus[Борис Дубинин. В том далеком сорок четвертом (2004) // «Наш современник», 2004.06.15]">
-        <text>" Корабельные радисты приняли сигнал , доложили вахтенному офицеру , командиру линкора ― он приказал сыграть « подъем » , радостную весть объявили всему экипажу . " .</text>
-        <propbank>
-          <rel relloc="3">приняли</rel>
-          <arg type="ARG0" start="1" end="2">Корабельные радисты</arg>
-          <arg type="ARG1" start="4" end="4">сигнал</arg>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus[Владимир Дудинцев. Не хлебом единым (1956)]">
-        <text>" Для начала я вручу вам три книжечки страниц по триста , заставлю вас их подзубрить и приму экзамен . " .</text>
-        <propbank>
-          <rel relloc="17">приму</rel>
-          <arg type="ARG1" start="18" end="18">экзамен</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="принять.06" name="assist birth, be a midwife">
-      <aliases>
-        <alias pos="v">принимать</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense </note>
-      <note>принять.04 NOTES: Roleset based on English verb frame assist.01</note>
-      <roles>
-        <role descr="midwife" f="PAG" n="0"/>
-        <role descr="assisted, pregnant" f="GOL" n="1"/>
-        <role descr="birth" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="assist.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src=" Russian National Corpus [Татьяна Соломатина. Девять месяцев, или «Комедия женских положений»(2010)]">
-        <text>" Беременная врач принимает роды у беременного следователя …</text>
-        <propbank>
-          <rel relloc="3">принимает</rel>
-          <arg type="ARG0" start="1" end="2">Беременная врач</arg>
-          <arg type="ARG1" start="6" end="7">беременного следователя</arg>
-          <arg type="ARG2" start="4" end="4">роды</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="приняться">
-    <roleset id="приняться.07" name="undertake, tackle, start, begin">
-      <aliases>
-        <alias pos="v">приниматься</alias>
-      </aliases>
-      <roles>
-        <role descr="tackler, entity dealing with something, agent" f="PAG" n="0"/>
-        <role descr="thing tackled" f="PPT" n="1"/>
-        <role descr="means, strategy" f="MNR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="tackle.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>Corresponds to FrameBank sense </note>
-      <note>принять.05 NOTES: Roleset based on English verb frame tackle.01</note>
-      <example name="" src="Russian National Corpus[Александр Рыклин. Спор правительствующих субъектов (2003) // «Еженедельный журнал», 2003.03.24]">
-        <text>" Премьер покритиковал , покритикованные сделали выводы и принялись за работу . " .</text>
-        <propbank>
-          <rel relloc="8">принялись</rel>
-          <arg type="ARG1" start="9" end="10">за работу</arg>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus [Анатолий Азольский. Лопушок // «Новый Мир», 1998]">
-        <text>" Затем принялась за Андрея . Сказала , что поступать будет в педагогический , сочинение напишет , но вот по физике её надо поднатаскать . " .</text>
-        <propbank>
-          <rel relloc="2">принялась</rel>
-          <arg type="ARG1" start="3" end="4">за Андрея</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="приняться.08" name="(plant) take root, grow">
-      <aliases>
-        <alias pos="v">приниматься</alias>
-      </aliases>
-      <note>Corresponds to FrameBank sense </note>
-      <note>принять.04 NOTES: Roleset based on English verb frame settle_down.05</note>
-      <roles>
-        <role descr="resident " f="PPT" n="0"/>
-        <role descr="location" f="LOC" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="settle_down.05" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="Russian National Corpus [М. Л. Гаспаров. Записи и выписки (2001)">
-        <text>" Садовник пришел сказать : Посаженные им деревья принялись хорошо .</text>
-        <propbank>
-          <rel relloc="8">принялись</rel>
-          <arg type="ARG1" start="5" end="7">Посаженные им деревья</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="принять">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="принять.01" name="to take willingly, accept, receive, ingest, listen to positively">
+            <aliases>
+                <alias pos="v">принимать</alias>
+            </aliases>
+            <note>принять.01 NOTES: Roleset based on English verb frame accept.01</note>
+            <note>Corresponds to FrameBank senses</note>
+            <roles>
+                <role descr="acceptor" f="PAG" n="0"/>
+                <role descr="thing accepted" f="PPT" n="1"/>
+                <role descr="dir accepted from" f="DIR" n="2"/>
+                <role descr="attribute, accepted as/for" f="PRD" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="accept.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="">
+                <text>Вы принимаете кредитные карты ?</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Вы</arg>
+                    <rel relloc="1">принимаете</rel>
+                    <arg type="ARG1" start="2" end="3">кредитные карты</arg>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
+                <text>Просто это нужно понять и принять свою точку зрения .</text>
+                <propbank>
+                    <arg type="ARG1" start="6" end="8">свою точку зрения</arg>
+                    <rel relloc="5">принять</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="принять.02" name="to allow or receive or accept person for some purpose">
+            <note>принять.02 NOTES: Roleset based on English verb frame embrace.01</note>
+            <roles>
+                <role descr="includer, agent" f="PAG" n="0"/>
+                <role descr="entity embraced" f="PPT" n="1"/>
+                <role descr="embraced as" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="embrace.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="">
+                <text>Наш корреспондент Семён Ерёмин проследил хронологию тех событий : Кармадон сегодня принимает
+                    гостей .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="9" end="9">Кармадон</arg>
+                    <rel relloc="11">принимает</rel>
+                    <arg type="ARG1" start="12" end="12">гостей</arg>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Все рейсы как из аэропорта Хургады , так и из Луксора отправляются по расписанию – мы специально
+                    узнавали это в администрации аэропортов » , - рассказал корреспонденту инфогруппы « ТУРПРОМ » Сергей
+                    Заливин , замдиректора египетской missing word принимающего туроператор « ALS - tour » .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="34" end="37">замдиректора египетской missing word</arg>
+                    <rel relloc="38">принимающего</rel>
+                    <arg type="ARG1" start="39" end="44">туроператор « ALS - tour »</arg>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Раньше в " Лана " принимали * pro * деток с 1,5 годика</text>
+                <propbank>
+                    <arg type="ARG0" start="3" end="3">Лана</arg>
+                    <arg type="ARG1" start="?" end="?">*pro* деток с 1,5 годика</arg>
+                    <rel relloc="5">принимали</rel>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Принять нас для получения задатка Елена Наумовна отказалась , сделки не будет , всё пошло прахом .
+                    А. Г. Волос , « Недвижимость » , 2000 г . ( цитата из Национального корпуса русского языка , см .
+                    Список литературы )
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="5" end="6">Елена Наумовна</arg>
+                    <arg type="ARG1" start="1" end="1">нас</arg>
+                    <arg type="ARG2" start="2" end="4">для получения задатка</arg>
+                    <rel relloc="0">Принять</rel>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Ирина Муравьева, «Мещанин во дворянстве», 1994 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Надо было по - царски принять и декана , и замдекана , и заведующую кафедрой , и старых друзей .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="6" end="18">и декана , и замдекана , и заведующую кафедрой , и старых
+                        друзей
+                    </arg>
+                    <arg type="ARG2" start="2" end="4">по - царски</arg>
+                    <rel relloc="5">принять</rel>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Л. Е. Улицкая, «Путешествие в седьмую сторону света», 2000 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Просьба Павла Алексеевича была скромной — принять дочку , вечерницу биофака , на работу в
+                    должности лаборанта .
+                </text>
+                <propbank>
+                    <arg type="ARG2" start="12" end="16">на работу в должности лаборанта</arg>
+                    <arg type="ARG1" start="7" end="10">дочку , вечерницу биофака</arg>
+                    <rel relloc="6">принять</rel>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Russian National Corpus[коллективный. Форум: Были вы в стране преподаваемого языка? (2008-2011)]">
+                <text>Я повторюсь , с хорошим знанием « живого » языка и опытом работы Вас примут с распростёртыми
+                    объятиями в необразовательных учреждениях , где это ( язык особенно ) требуется .
+                </text>
+                <propbank>
+                    <arg type="ARG2" start="15" end="20">с распростёртыми объятиями в необразовательных учреждениях
+                    </arg>
+                    <arg type="ARG1" start="13" end="13">Вас</arg>
+                    <rel relloc="14">примут</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="принять.03" name="pass (e.g. law, resolution, etc), make official by voting">
+            <note>принять.03 NOTES: Roleset based on English verb frame pass.01</note>
+            <roles>
+                <role descr="legislative body " f="PAG" n="0"/>
+                <role descr="bill, state prior to passing" f="PPT" n="1"/>
+                <role descr="law, state after passing" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="pass.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="example"
+                     src="Russian National Corpus[Светлана Бабаева, Екатерина Григорьева. Слоеный пирог. Владимир Путин начал раздачу власти (2003) // «Известия», 2003.02.18]">
+                <text>Но практика наша российская такова : был в своё время принят закон о финансовых основах МСУ , в
+                    нём были записаны совершенно правильные вещи , но он не заработал .
+                </text>
+                <propbank>
+                    <rel relloc="10">принят</rel>
+                    <arg type="ARG2" start="11" end="15">закон о финансовых основах МСУ</arg>
+                </propbank>
+            </example>
+            <example name="example"
+                     src="Russian National Corpus[Мария Козлова. Свобода совести и светскость государства: проблемы и решения (1 часть) (2004) // «Адвокат», 2004.12.01]">
+                <text>Об этом красноречиво говорит , например , резолюция , принятая 24 апреля 2001 г . на Круглом столе
+                    в Государственной Думе , имевшем подчеркнуто нейтральное название"Религиозное образование в России :
+                    проблемы и перспективы " и на деле собравшем лоббистов православного образования и их сторонников в
+                    российском парламенте .
+                </text>
+                <propbank>
+                    <rel relloc="9">принятая</rel>
+                    <arg type="ARG2" start="7" end="7">резолюция</arg>
+                    <arg type="ARG0" start="16" end="20">Круглом столе в Государственной Думе</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="принять.04" name="catch, receive (a signal)">
+            <note>Corresponds to FrameBank sense</note>
+            <note>принять.04 NOTES: No Frame match in English</note>
+            <roles>
+                <role descr="entity receiving signal " f="PAG" n="0"/>
+                <role descr="signal" f="PPT" n="1"/>
+            </roles>
+            <example name=""
+                     src="Russian National Corpus[Борис Дубинин. В том далеком сорок четвертом (2004) // «Наш современник», 2004.06.15]">
+                <text>" Корабельные радисты приняли сигнал , доложили вахтенному офицеру , командиру линкора ― он
+                    приказал сыграть « подъем » , радостную весть объявили всему экипажу . " .
+                </text>
+                <propbank>
+                    <rel relloc="3">приняли</rel>
+                    <arg type="ARG0" start="1" end="2">Корабельные радисты</arg>
+                    <arg type="ARG1" start="4" end="4">сигнал</arg>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus[Владимир Дудинцев. Не хлебом единым (1956)]">
+                <text>" Для начала я вручу вам три книжечки страниц по триста , заставлю вас их подзубрить и приму
+                    экзамен . " .
+                </text>
+                <propbank>
+                    <rel relloc="17">приму</rel>
+                    <arg type="ARG1" start="18" end="18">экзамен</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="принять.06" name="assist birth, be a midwife">
+            <aliases>
+                <alias pos="v">принимать</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense</note>
+            <note>принять.04 NOTES: Roleset based on English verb frame assist.01</note>
+            <roles>
+                <role descr="midwife" f="PAG" n="0"/>
+                <role descr="assisted, pregnant" f="GOL" n="1"/>
+                <role descr="birth" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="assist.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src=" Russian National Corpus [Татьяна Соломатина. Девять месяцев, или «Комедия женских положений»(2010)]">
+                <text>" Беременная врач принимает роды у беременного следователя …</text>
+                <propbank>
+                    <rel relloc="3">принимает</rel>
+                    <arg type="ARG0" start="1" end="2">Беременная врач</arg>
+                    <arg type="ARG1" start="6" end="7">беременного следователя</arg>
+                    <arg type="ARG2" start="4" end="4">роды</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="приняться">
+        <roleset id="приняться.07" name="undertake, tackle, start, begin">
+            <aliases>
+                <alias pos="v">приниматься</alias>
+            </aliases>
+            <roles>
+                <role descr="tackler, entity dealing with something, agent" f="PAG" n="0"/>
+                <role descr="thing tackled" f="PPT" n="1"/>
+                <role descr="means, strategy" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="tackle.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>Corresponds to FrameBank sense</note>
+            <note>принять.05 NOTES: Roleset based on English verb frame tackle.01</note>
+            <example name=""
+                     src="Russian National Corpus[Александр Рыклин. Спор правительствующих субъектов (2003) // «Еженедельный журнал», 2003.03.24]">
+                <text>" Премьер покритиковал , покритикованные сделали выводы и принялись за работу . " .</text>
+                <propbank>
+                    <rel relloc="8">принялись</rel>
+                    <arg type="ARG1" start="9" end="10">за работу</arg>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus [Анатолий Азольский. Лопушок // «Новый Мир», 1998]">
+                <text>" Затем принялась за Андрея . Сказала , что поступать будет в педагогический , сочинение напишет ,
+                    но вот по физике её надо поднатаскать . " .
+                </text>
+                <propbank>
+                    <rel relloc="2">принялась</rel>
+                    <arg type="ARG1" start="3" end="4">за Андрея</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="приняться.08" name="(plant) take root, grow">
+            <aliases>
+                <alias pos="v">приниматься</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense</note>
+            <note>принять.04 NOTES: Roleset based on English verb frame settle_down.05</note>
+            <roles>
+                <role descr="resident " f="PPT" n="0"/>
+                <role descr="location" f="LOC" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="settle_down.05" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="Russian National Corpus [М. Л. Гаспаров. Записи и выписки (2001)">
+                <text>" Садовник пришел сказать : Посаженные им деревья принялись хорошо .</text>
+                <propbank>
+                    <rel relloc="8">принялись</rel>
+                    <arg type="ARG1" start="5" end="7">Посаженные им деревья</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

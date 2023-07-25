@@ -1,35 +1,35 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Молить">
-    <roleset id="молить.01" name="Implore, beg">
-      <aliases>
-        <alias pos="v">молить</alias>
-        <alias pos="j">молящий</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English implore.01; there is no perfective counter part.</note>
-      <roles>
-        <role descr="Asker, agent" f="PAG" n="0"/>
-        <role descr="Person being begged" f="PPT" n="1"/>
-        <role descr="Thing asked for" f="PPT" n="2"/>
-	    </roles>
-      <example name="Arg0 and Arg1" src="RNC, С. В. Максимов. Сибирь и каторга (1871)">
-        <text>Он меня молит , а я и слушать его не хочу , радуюсь .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Он</arg>
-	        <arg type="ARG1" start="1" end="1">меня</arg>
-          <rel relloc="2">молит</rel>
-        </propbank>
-      </example>
-      <example name="Arg0, Arg1, and Arg2" src="RNC, И. И. Лажечников. Последний Новик (1833)">
-        <text>Все обитатели замка молили от души бога , чтоб он даровал будущей чете долгие лета .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="2">Все обитатели замка</arg>
-          <rel relloc="3">молили</rel>
-	        <arg type="ARG1" start="6" end="6">бога</arg>
-	        <arg type="ARG2" start="8" end="14">чтоб он даровал будущей чете долгие лета</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="Молить">
+        <roleset id="молить.01" name="Implore, beg">
+            <aliases>
+                <alias pos="v">молить</alias>
+                <alias pos="j">молящий</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English implore.01; there is no perfective counter part.</note>
+            <roles>
+                <role descr="Asker, agent" f="PAG" n="0"/>
+                <role descr="Person being begged" f="PPT" n="1"/>
+                <role descr="Thing asked for" f="PPT" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, С. В. Максимов. Сибирь и каторга (1871)">
+                <text>Он меня молит , а я и слушать его не хочу , радуюсь .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <arg type="ARG1" start="1" end="1">меня</arg>
+                    <rel relloc="2">молит</rel>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, И. И. Лажечников. Последний Новик (1833)">
+                <text>Все обитатели замка молили от души бога , чтоб он даровал будущей чете долгие лета .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="2">Все обитатели замка</arg>
+                    <rel relloc="3">молили</rel>
+                    <arg type="ARG1" start="6" end="6">бога</arg>
+                    <arg type="ARG2" start="8" end="14">чтоб он даровал будущей чете долгие лета</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

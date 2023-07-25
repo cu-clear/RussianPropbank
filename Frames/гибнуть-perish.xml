@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="гибнуть">
-    <roleset id="гибнуть.01" name="perish">
-      <aliases>
-        <alias pos="v">гибнуть</alias>
-        <alias pos="j">гибнущий</alias>
-        <alias pos="j">гибнувший</alias>
-        <alias pos="v">сгибнуть</alias>
-        <alias pos="j">сгибший</alias>
-        <alias pos="v">погибнуть</alias>
-        <alias pos="j">погибший</alias>
-        <alias pos="v">погибать</alias>
-        <alias pos="j">погибающий</alias>
-        <alias pos="j">погибавший</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2</note>
-      <note>NOTES: based on English perish.01</note>
-      <roles>
-        <role descr="expiring entity" f="PPT" n="0"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="perish.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="die, croak, kick the bucket" src="">
-        <text>В Северной Америке снова массово гибнут птицы .</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="0" end="2">В Северной Америке</arg>
-          <arg type="ARGM-TMP" start="3" end="3">снова</arg>
-          <arg type="ARGM-MNR" start="4" end="4">массово</arg>
-          <rel relloc="5">гибнут</rel>
-          <arg type="ARG0" start="6" end="6">птицы</arg>
-        </propbank>
-      </example>
-      <example name="with reason" src="">
-        <text>Подчеркнем , ежегодно во всем мире от этого заболевания погибают почти 160 тыс .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="2" end="2">ежегодно</arg>
-          <arg type="ARGM-LOC" start="3" end="5">во всем мире</arg>
-          <arg type="ARGM-CAU" start="6" end="8">от этого заболевания</arg>
-          <rel relloc="9">погибают</rel>
-          <arg type="ARG0" start="10" end="12">почти 160 тыс</arg>
-        </propbank>
-      </example>
-      <example name="arg 1 only" src="">
-        <text>Как минимум о 34 погибших сообщалось в понедельник в Индии .</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="0" end="1">Как минимум</arg>
-          <arg type="ARG0" start="2" end="3">о 34</arg>
-          <rel relloc="4">погибших</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="гибнуть">
+        <roleset id="гибнуть.01" name="perish">
+            <aliases>
+                <alias pos="v">гибнуть</alias>
+                <alias pos="j">гибнущий</alias>
+                <alias pos="j">гибнувший</alias>
+                <alias pos="v">сгибнуть</alias>
+                <alias pos="j">сгибший</alias>
+                <alias pos="v">погибнуть</alias>
+                <alias pos="j">погибший</alias>
+                <alias pos="v">погибать</alias>
+                <alias pos="j">погибающий</alias>
+                <alias pos="j">погибавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2</note>
+            <note>NOTES: based on English perish.01</note>
+            <roles>
+                <role descr="expiring entity" f="PPT" n="0"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="perish.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="die, croak, kick the bucket" src="">
+                <text>В Северной Америке снова массово гибнут птицы .</text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="0" end="2">В Северной Америке</arg>
+                    <arg type="ARGM-TMP" start="3" end="3">снова</arg>
+                    <arg type="ARGM-MNR" start="4" end="4">массово</arg>
+                    <rel relloc="5">гибнут</rel>
+                    <arg type="ARG0" start="6" end="6">птицы</arg>
+                </propbank>
+            </example>
+            <example name="with reason" src="">
+                <text>Подчеркнем , ежегодно во всем мире от этого заболевания погибают почти 160 тыс .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="2" end="2">ежегодно</arg>
+                    <arg type="ARGM-LOC" start="3" end="5">во всем мире</arg>
+                    <arg type="ARGM-CAU" start="6" end="8">от этого заболевания</arg>
+                    <rel relloc="9">погибают</rel>
+                    <arg type="ARG0" start="10" end="12">почти 160 тыс</arg>
+                </propbank>
+            </example>
+            <example name="arg 1 only" src="">
+                <text>Как минимум о 34 погибших сообщалось в понедельник в Индии .</text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="1">Как минимум</arg>
+                    <arg type="ARG0" start="2" end="3">о 34</arg>
+                    <rel relloc="4">погибших</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

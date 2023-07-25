@@ -1,162 +1,176 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="смываться">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="смываться.01" name="wash off, dissipate">
-      <aliases>
-        <alias pos="v">смыться</alias>
-        <alias pos="v">смывать</alias>
-        <alias pos="v">смыть</alias>
-        <alias pos="n">смывание</alias>
-        <alias pos="n">смывка</alias>
-      </aliases>
-      <note>смыть.01 NOTES: based on wash.01</note>
-      <roles>
-        <role descr="agent of washing" f="PAG" n="0"/>
-        <role descr="stain, thing being washed off" f="PPT" n="1"/>
-        <role descr="washing liquid" f="MNR" n="2"/>
-        <role descr="location of stain or thing being washed off" f="DIR" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="wash.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg4-GOL has no match in Russian frame</note>
-      <example name="all args, imperfective" src="">
-        <text>Мы смывали чернильные пятна со стола .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Мы</arg>
-          <rel relloc="1">смывали</rel>
-          <arg type="ARG1" start="2" end="3">чернильные пятна</arg>
-          <arg type="ARG2" start="4" end="5">со стола</arg>
-        </propbank>
-      </example>
-      <example name="all args, figurative use" src="">
-        <text>Он смыл с себя позор</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Он</arg>
-          <rel relloc="1">смыл</rel>
-          <arg type="ARG2" start="2" end="3">с себя</arg>
-          <arg type="ARG1" start="4" end="4">позор</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as passive" src="Владислав Крапивин, «Трое с площади Карронад», 1979 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Йод испарится , а зелёнка липучая и долго не смывается .</text>
-        <propbank>
-          <arg type="ARG1" start="4" end="5">зелёнка липучая</arg>
-          <arg type="ARGM-ADV" start="6" end="6">и</arg>
-          <arg type="ARGM-TMP" start="7" end="7">долго</arg>
-          <arg type="ARGM-NEG" start="8" end="8">не</arg>
-          <rel relloc="9">смывается</rel>
-        </propbank>
-      </example>
-      <example name="reflexive as passive, figurative use" src="Б. Л. Васильев, «Вещий Олег», 1996 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Оскорбление смывается только кровью , отец .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Оскорбление</arg>
-          <rel relloc="1">смывается</rel>
-          <arg type="ARGM-ADV" start="2" end="2">только</arg>
-          <arg type="ARG3" start="3" end="3">кровью</arg>
-          <arg type="ARGM-DIS" start="5" end="5">отец</arg>
-        </propbank>
-      </example>
-      <example name="reduced adjective participle; no change of location" src="">
-        <text>С дорог смыто дорожное покрытие .</text>
-        <propbank>
-          <arg type="ARG2" start="0" end="1">С дорог</arg>
-          <rel relloc="2">смыто</rel>
-          <arg type="ARG1" start="3" end="4">дорожное покрытие</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as passive, figurative use" src="Валентина Осеева, «Динка», 1959 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Когда я смотрю на неё , мои глаза отдыхают , и вся усталость , вся накипь дня смывается с моей души , как чёрная копоть , ― с восторгом говорил Вася своему ученику и тут же , взъерошив свои густые волосы , привычно удивлялся : ― И как это в одной семье , у одной матери могут быть такие разные дети ?</text>
-        <propbank>
-          <arg type="ARG1" start="11" end="16">вся усталость , вся накипь дня</arg>
-          <rel relloc="17">смывается</rel>
-          <arg type="ARG2" start="18" end="20">с моей души</arg>
-          <arg type="ARGM-ADV" start="22" end="24">как чёрная копоть</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="смываться.02" name="wash away, move by water">
-      <aliases>
-        <alias pos="v">смыться</alias>
-        <alias pos="v">смывать</alias>
-        <alias pos="v">смыть</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,2</note>
-      <note>смываться.02 NOTES: based on wash.01</note>
-      <roles>
-        <role descr="agent of washing" f="PAG" n="0"/>
-        <role descr="stain, thing being washed off" f="PPT" n="1"/>
-        <role descr="location of stain or thing being washed off" f="DIR" n="2"/>
-        <role descr="end state or location of arg1" f="GOL" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="wash.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg2-MNR has no match in Russian frame</note>
-      <note>English Arg3-DIR = Russian Arg2-DIR</note>
-      <note>English Arg4-GOL = Russian Arg3-GOL</note>
-      <example name="passive with goal" src="">
-        <text>В океан было смыто несколько десятков домов и более 100 тысяч домашних животных , которые , вероятнее всего , погибли .</text>
-        <propbank>
-          <arg type="ARG3" start="0" end="1">В океан</arg>
-          <rel relloc="3">смыто</rel>
-          <arg type="ARG1" start="4" end="19">несколько десятков домов и более 100 тысяч домашних животных , которые , вероятнее всего , погибли</arg>
-        </propbank>
-      </example>
-      <example name="arg0, arg4, arg1" src="">
-        <text>Потоки воды смыли в океан множество жилых строений , а также стада животных .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="1">Потоки воды</arg>
-          <rel relloc="2">смыли</rel>
-          <arg type="ARG3" start="3" end="4">в океан</arg>
-          <arg type="ARG1" start="5" end="7">множество жилых строений</arg>
-        </propbank>
-      </example>
-      <example name="impersonal construction, arg3 and arg1" src="https://dic.academic.ru/dic.nsf/ogegova/225054">
-        <text>Водой смыло лодку .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Водой</arg>
-          <rel relloc="1">смыло</rel>
-          <arg type="ARG1" start="2" end="2">лодку</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as passive" src="Степан Григорьев, «Материки дрейфуют, но не на плитах!» // «Техника - молодежи», 1977 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>И это несмотря на то , что каждые 10 - 15 млн . лет с возвышенностей смывается 1 км пород , а на дне океана за тот же срок накапливается слой осадков в 0,3 - 0,5 к .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="7" end="13">каждые 10 - 15 млн . лет</arg>
-          <arg type="ARG2" start="14" end="15">с возвышенностей</arg>
-          <rel relloc="16">смывается</rel>
-          <arg type="ARG1" start="17" end="19">1 км пород</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="смываться.03" name="sneak out">
-      <aliases>
-        <alias pos="v">смывающийся</alias>
-        <alias pos="j">смывавшийся</alias>
-        <alias pos="j">смыться</alias>
-      </aliases>
-      <note>смываться.03 NOTES: based on sneak.01</note>
-      <roles>
-        <role descr="entity sneaking " f="PAG" n="0"/>
-        <role descr="destination " f="GOL" n="1"/>
-        <role descr="source " f="DIR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="sneak.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English Arg3-PPT has no match in Russian frame</note>
-      <example name="all args, imperfective" src="">
-        <text>Надо нам отсюда смываться .</text>
-        <propbank>
-          <arg type="ARG0" start="1" end="1">нам</arg>
-          <arg type="ARG1" start="2" end="2">отсюда</arg>
-          <rel relloc="3">смываться</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="смываться">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="смываться.01" name="wash off, dissipate">
+            <aliases>
+                <alias pos="v">смыться</alias>
+                <alias pos="v">смывать</alias>
+                <alias pos="v">смыть</alias>
+                <alias pos="n">смывание</alias>
+                <alias pos="n">смывка</alias>
+            </aliases>
+            <note>смыть.01 NOTES: based on wash.01</note>
+            <roles>
+                <role descr="agent of washing" f="PAG" n="0"/>
+                <role descr="stain, thing being washed off" f="PPT" n="1"/>
+                <role descr="washing liquid" f="MNR" n="2"/>
+                <role descr="location of stain or thing being washed off" f="DIR" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="wash.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg4-GOL has no match in Russian frame</note>
+            <example name="all args, imperfective" src="">
+                <text>Мы смывали чернильные пятна со стола .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Мы</arg>
+                    <rel relloc="1">смывали</rel>
+                    <arg type="ARG1" start="2" end="3">чернильные пятна</arg>
+                    <arg type="ARG2" start="4" end="5">со стола</arg>
+                </propbank>
+            </example>
+            <example name="all args, figurative use" src="">
+                <text>Он смыл с себя позор</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">смыл</rel>
+                    <arg type="ARG2" start="2" end="3">с себя</arg>
+                    <arg type="ARG1" start="4" end="4">позор</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive"
+                     src="Владислав Крапивин, «Трое с площади Карронад», 1979 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Йод испарится , а зелёнка липучая и долго не смывается .</text>
+                <propbank>
+                    <arg type="ARG1" start="4" end="5">зелёнка липучая</arg>
+                    <arg type="ARGM-ADV" start="6" end="6">и</arg>
+                    <arg type="ARGM-TMP" start="7" end="7">долго</arg>
+                    <arg type="ARGM-NEG" start="8" end="8">не</arg>
+                    <rel relloc="9">смывается</rel>
+                </propbank>
+            </example>
+            <example name="reflexive as passive, figurative use"
+                     src="Б. Л. Васильев, «Вещий Олег», 1996 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Оскорбление смывается только кровью , отец .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Оскорбление</arg>
+                    <rel relloc="1">смывается</rel>
+                    <arg type="ARGM-ADV" start="2" end="2">только</arg>
+                    <arg type="ARG3" start="3" end="3">кровью</arg>
+                    <arg type="ARGM-DIS" start="5" end="5">отец</arg>
+                </propbank>
+            </example>
+            <example name="reduced adjective participle; no change of location" src="">
+                <text>С дорог смыто дорожное покрытие .</text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="1">С дорог</arg>
+                    <rel relloc="2">смыто</rel>
+                    <arg type="ARG1" start="3" end="4">дорожное покрытие</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive, figurative use"
+                     src="Валентина Осеева, «Динка», 1959 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Когда я смотрю на неё , мои глаза отдыхают , и вся усталость , вся накипь дня смывается с моей
+                    души , как чёрная копоть , ― с восторгом говорил Вася своему ученику и тут же , взъерошив свои
+                    густые волосы , привычно удивлялся : ― И как это в одной семье , у одной матери могут быть такие
+                    разные дети ?
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="11" end="16">вся усталость , вся накипь дня</arg>
+                    <rel relloc="17">смывается</rel>
+                    <arg type="ARG2" start="18" end="20">с моей души</arg>
+                    <arg type="ARGM-ADV" start="22" end="24">как чёрная копоть</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="смываться.02" name="wash away, move by water">
+            <aliases>
+                <alias pos="v">смыться</alias>
+                <alias pos="v">смывать</alias>
+                <alias pos="v">смыть</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2</note>
+            <note>смываться.02 NOTES: based on wash.01</note>
+            <roles>
+                <role descr="agent of washing" f="PAG" n="0"/>
+                <role descr="stain, thing being washed off" f="PPT" n="1"/>
+                <role descr="location of stain or thing being washed off" f="DIR" n="2"/>
+                <role descr="end state or location of arg1" f="GOL" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="wash.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg2-MNR has no match in Russian frame</note>
+            <note>English Arg3-DIR = Russian Arg2-DIR</note>
+            <note>English Arg4-GOL = Russian Arg3-GOL</note>
+            <example name="passive with goal" src="">
+                <text>В океан было смыто несколько десятков домов и более 100 тысяч домашних животных , которые ,
+                    вероятнее всего , погибли .
+                </text>
+                <propbank>
+                    <arg type="ARG3" start="0" end="1">В океан</arg>
+                    <rel relloc="3">смыто</rel>
+                    <arg type="ARG1" start="4" end="19">несколько десятков домов и более 100 тысяч домашних животных ,
+                        которые , вероятнее всего , погибли
+                    </arg>
+                </propbank>
+            </example>
+            <example name="arg0, arg4, arg1" src="">
+                <text>Потоки воды смыли в океан множество жилых строений , а также стада животных .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Потоки воды</arg>
+                    <rel relloc="2">смыли</rel>
+                    <arg type="ARG3" start="3" end="4">в океан</arg>
+                    <arg type="ARG1" start="5" end="7">множество жилых строений</arg>
+                </propbank>
+            </example>
+            <example name="impersonal construction, arg3 and arg1" src="https://dic.academic.ru/dic.nsf/ogegova/225054">
+                <text>Водой смыло лодку .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Водой</arg>
+                    <rel relloc="1">смыло</rel>
+                    <arg type="ARG1" start="2" end="2">лодку</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive"
+                     src="Степан Григорьев, «Материки дрейфуют, но не на плитах!» // «Техника - молодежи», 1977 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>И это несмотря на то , что каждые 10 - 15 млн . лет с возвышенностей смывается 1 км пород , а на
+                    дне океана за тот же срок накапливается слой осадков в 0,3 - 0,5 к .
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="7" end="13">каждые 10 - 15 млн . лет</arg>
+                    <arg type="ARG2" start="14" end="15">с возвышенностей</arg>
+                    <rel relloc="16">смывается</rel>
+                    <arg type="ARG1" start="17" end="19">1 км пород</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="смываться.03" name="sneak out">
+            <aliases>
+                <alias pos="v">смывающийся</alias>
+                <alias pos="j">смывавшийся</alias>
+                <alias pos="j">смыться</alias>
+            </aliases>
+            <note>смываться.03 NOTES: based on sneak.01</note>
+            <roles>
+                <role descr="entity sneaking " f="PAG" n="0"/>
+                <role descr="destination " f="GOL" n="1"/>
+                <role descr="source " f="DIR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="sneak.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English Arg3-PPT has no match in Russian frame</note>
+            <example name="all args, imperfective" src="">
+                <text>Надо нам отсюда смываться .</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">нам</arg>
+                    <arg type="ARG1" start="2" end="2">отсюда</arg>
+                    <rel relloc="3">смываться</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

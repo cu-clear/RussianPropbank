@@ -20,14 +20,14 @@
                 <lexlink class="break_down.12" resource="English PropBank" version="3.4"/>
             </lexlinks>
             <example name="ARG1 only" src="RNC, Андрей Волос. Недвижимость (2000) // «Новый Мир», 2001">
-                <text> У ребенка жизнь ломается ― им хоть бы хны !</text>
+                <text>У ребенка жизнь ломается ― им хоть бы хны !</text>
                 <propbank>
                     <arg type="ARG1" start="3" end="3">жизнь</arg>
                     <rel relloc="4">ломается</rel>
                 </propbank>
             </example>
             <example name="ARG1 and ARG0" src="RNC, Фазиль Искандер. Сандро из Чегема (Книга 3) (1989)">
-                <text> Наконец даже палка , как показалось Широколобому, сломалась от стыда .</text>
+                <text>Наконец даже палка , как показалось Широколобому, сломалась от стыда .</text>
                 <propbank>
                     <arg type="ARG1" start="3" end="3">палка</arg>
                     <rel relloc="8">сломалась</rel>

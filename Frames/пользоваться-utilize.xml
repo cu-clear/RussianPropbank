@@ -1,28 +1,30 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="пользоваться">
-    <roleset id="пользоваться.01" name="Utilize, use">
-      <aliases>
-        <alias pos="v">пользоваться</alias>
-        <alias pos="v">воспользоваться</alias>
-        <alias pos="j">пользовавшийся</alias>
-        <alias pos="j">воспользовавшийся</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English utilize.01</note>
-      <note>NOTES: There are semantic domain differences between Пользоваться and Изпользовать, mainly that the former cannot have animate objects as ARG2 and tends to be more habitual</note>
-      <roles>
-        <role descr="User" f="PAG" n="0"/>
-        <role descr="thing ultilized" f="PPT" n="1"/>
-	    </roles>
-      <example name="Arg0 and Arg1" src="_">
-        <text>Вова пользуется этим полотенцем .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Вова</arg>
-          <rel relloc="1">пользуется</rel>
-	        <arg type="ARG1" start="2" end="3">этим полотенцем</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="пользоваться">
+        <roleset id="пользоваться.01" name="Utilize, use">
+            <aliases>
+                <alias pos="v">пользоваться</alias>
+                <alias pos="v">воспользоваться</alias>
+                <alias pos="j">пользовавшийся</alias>
+                <alias pos="j">воспользовавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English utilize.01</note>
+            <note>NOTES: There are semantic domain differences between Пользоваться and Изпользовать, mainly that the
+                former cannot have animate objects as ARG2 and tends to be more habitual
+            </note>
+            <roles>
+                <role descr="User" f="PAG" n="0"/>
+                <role descr="thing ultilized" f="PPT" n="1"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Вова пользуется этим полотенцем .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Вова</arg>
+                    <rel relloc="1">пользуется</rel>
+                    <arg type="ARG1" start="2" end="3">этим полотенцем</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

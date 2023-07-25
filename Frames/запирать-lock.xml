@@ -52,9 +52,9 @@
                 <role descr="Place, room, containter" f="GOL" n="2"/>
                 <role descr="key, instrument used to lock or unlock" f="PPT" n="3"/>
             </roles>
-      <lexlinks>
-        <lexlink class="lock_up.03" resource="English PropBank" version="3.4"/>
-      </lexlinks>
+            <lexlinks>
+                <lexlink class="lock_up.03" resource="English PropBank" version="3.4"/>
+            </lexlinks>
             <example name="ARG0, ARG1, ARG2" src="RNC,  И. Н. Вирабов. Андрей Вознесенский. М.: Молодая гвардия, 2015">
                 <text>Мы тогда запирали Володю на кухне</text>
                 <propbank>
@@ -64,7 +64,8 @@
                     <arg type="ARG2" start="4" end="5">на кухне</arg>
                 </propbank>
             </example>
-            <example name="ARG1 inanimate, ARG2" src="RNC,  И. Н. Вирабов. Андрей Вознесенский. М.: Молодая гвардия, 2015">
+            <example name="ARG1 inanimate, ARG2"
+                     src="RNC,  И. Н. Вирабов. Андрей Вознесенский. М.: Молодая гвардия, 2015">
                 <text>Запирать красоту в темном тереме стихотворения</text>
                 <propbank>
                     <rel relloc="0">Запирать</rel>

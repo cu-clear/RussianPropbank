@@ -1,27 +1,27 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="следить">
-    <roleset id="следить.01" name="Attend, watch, play close attention">
-      <aliases>
-        <alias pos="v">следить</alias>
-        <alias pos="v">проследить</alias>
-        <alias pos="j">следящий</alias>
-        <alias pos="j">проследивший</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English attend.02</note>
-      <roles>
-        <role descr="Entity paying attention" f="PAG" n="0"/>
-        <role descr="To what" f="PPT" n="1"/>
-	    </roles>
-      <example name="Arg0 and Arg1" src="_">
-        <text>Мария следила за своей порцией .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Мария</arg>
-          <rel relloc="1">следила</rel>
-	        <arg type="ARG1" start="2" end="4">за своей порцией</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="следить">
+        <roleset id="следить.01" name="Attend, watch, play close attention">
+            <aliases>
+                <alias pos="v">следить</alias>
+                <alias pos="v">проследить</alias>
+                <alias pos="j">следящий</alias>
+                <alias pos="j">проследивший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English attend.02</note>
+            <roles>
+                <role descr="Entity paying attention" f="PAG" n="0"/>
+                <role descr="To what" f="PPT" n="1"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Мария следила за своей порцией .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Мария</arg>
+                    <rel relloc="1">следила</rel>
+                    <arg type="ARG1" start="2" end="4">за своей порцией</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

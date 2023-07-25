@@ -1,208 +1,226 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="убить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="убить.01" name="kill, put to death">
-      <aliases>
-        <alias pos="v">убивать</alias>
-        <alias pos="v">убиваться</alias>
-        <alias pos="v">убиться</alias>
-      </aliases>
-      <note>убить.01 NOTES: Roleset based on English verb frame kill.01</note>
-      <note>Corresponds to FrameBank senses 1,2</note>
-      <roles>
-        <role descr="killer" f="PAG" n="0"/>
-        <role descr="corpse" f="PPT" n="1"/>
-        <role descr="instrument" f="MNR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="kill.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="killed by" src="Russian National Corpus: Алла Глебова, «Матрёшка Ханны Шигуллы» // «Домовой», 04 августа 2002 г. RNC">
-        <text>Фассбиндера убила гремучая смесь кокаина , барбитуратов и алкоголя , а также непрерывная работа на износ .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Фассбиндера</arg>
-          <rel relloc="1">убила</rel>
-          <arg type="ARG0" start="2" end="15">гремучая смесь кокаина , барбитуратов и алкоголя , а также непрерывная работа на износ</arg>
-        </propbank>
-      </example>
-      <example name="inanimate subject" src="Russian National Corpus: Евгений Водолазкин, «Лавр», 2012 г.">
-        <text>За сбором трав их застала гроза , и на опушке леса её убило молнией .</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="8" end="10">на опушке леса</arg>
-          <arg type="ARG1" start="11" end="11">её</arg>
-          <rel relloc="12">убило</rel>
-          <arg type="ARG0" start="13" end="13">молнией</arg>
-        </propbank>
-      </example>
-      <example name="figurative" src="Russian National Corpus: Д. Н. Мамин-Сибиряк, «Приваловские миллионы», 1883 г.">
-        <text>Меня просто убило это известие , — грустно заговорил Бахарев .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Меня</arg>
-          <arg type="ARGM-ADV" start="1" end="1">просто</arg>
-          <rel relloc="2">убило</rel>
-          <arg type="ARG0" start="3" end="4">это известие</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="убить.02" name="eradicate, destroy, delete, remove">
-      <aliases>
-        <alias pos="v">убивать</alias>
-        <alias pos="v">убиваться</alias>
-        <alias pos="v">убиться</alias>
-        <alias pos="v">убивание</alias>
-      </aliases>
-      <note>убить.02 NOTES: Roleset based on English verb frame eradicate.01</note>
-      <note>Corresponds to FrameBank senses 3</note>
-      <roles>
-        <role descr="eliminator, agent " f="PPT" n="0"/>
-        <role descr="thing eliminated " f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="eradicate.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="trump the card" src="">
-        <text>Убить карту .</text>
-        <propbank>
-          <rel relloc="0">Убить</rel>
-          <arg type="ARG1" start="1" end="1">карту</arg>
-        </propbank>
-      </example>
-      <example name="take apart, criticize" src="http://marker.framebank.ru/verbs_cx.php?lex=убить">
-        <text>Плохие критики убивают всякую поэзию .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="1">Плохие критики</arg>
-          <rel relloc="2">убивают</rel>
-          <arg type="ARG1" start="3" end="4">всякую поэзию</arg>
-        </propbank>
-      </example>
-      <example name="suppress" src="Russian National Corpus: М. Е. Салтыков-Щедрин, 1856–1860 г">
-        <text>Мало - помалу развилась в нём страсть к чтению , но к чтению бестолковому , которое может скорее убить талант , нежели развить его .</text>
-        <propbank>
-          <rel relloc="18">убить</rel>
-          <arg type="ARG1" start="19" end="19">талант</arg>
-        </propbank>
-      </example>
-      <example name="take away" src="Russian National Corpus: В. С. Вихров, «Рыцарь мечты», 1965 г.">
-        <text>Ведь жизнь , кажется , сделала всё , чтобы очерствить , ожесточить сердце , смять и развеять романтические идеалы , убить веру во всё лучшее и светлое .</text>
-        <propbank>
-          <rel relloc="20">убить</rel>
-          <arg type="ARG1" start="21" end="26">веру во всё лучшее и светлое</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="убить.03" name="waste, spend, consume">
-      <aliases>
-        <alias pos="v">убивать</alias>
-        <alias pos="v">убиваться</alias>
-        <alias pos="v">убиться</alias>
-        <alias pos="v">убивание</alias>
-      </aliases>
-      <note>убить.03 NOTES: Roleset based on English verb frame kill.04</note>
-      <roles>
-        <role descr="time-spender" f="PAG" n="0"/>
-        <role descr="time, money, etc." f="PPT" n="1"/>
-        <role descr="activity, waster" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="kill.04" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="squander" src="Russian National Corpus: [Вас. И. Немирович-Данченко. Цари биржи (Каиново племя в наши дни) (1886)]">
-        <text>Я очень много убил денег на « Старгородку » .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <arg type="ARGM-EXT" start="1" end="2">очень много</arg>
-          <rel relloc="3">убил</rel>
-          <arg type="ARG1" start="4" end="4">денег</arg>
-          <arg type="ARG2" start="5" end="8">на « Старгородку »</arg>
-        </propbank>
-      </example>
-      <example name="waste" src="Russian National Corpus: [А. К. Шеллер-Михайлов. Лес рубят - щепки летят (1871)]">
-        <text>Это была Оболенская , скучающая барыня , убившая свою молодость со старым мужем и стремящаяся теперь найти человека , который решился бы убить свою молодость со старою женой .</text>
-        <propbank>
-          <arg type="ARG0" start="2" end="5">Оболенская , скучающая барыня</arg>
-          <rel relloc="7">убившая</rel>
-          <arg type="ARG1" start="8" end="9">свою молодость</arg>
-          <arg type="ARG2" start="10" end="12">со старым мужем</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="убить.04" name="smitten, pleasantly shock, forceful emotional impact">
-      <aliases>
-      </aliases>
-      <note>убить.04 NOTES:Roleset based on English verb frame smite.01</note>
-      <note>NO IMPERFECTIVE</note>
-      <roles>
-        <role descr="agent, smiter" f="PAG" n="0"/>
-        <role descr="entity smitten" f="PPT" n="1"/>
-        <role descr="with what" f="MNR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="smite.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <note>English ARG2-GOL = Russian ARG1-PPT</note>
-      <note>English ARG3-MNR = Russian ARG2-MNR</note>
-      <note>English ARG1-PPT has no match in Russian frame</note>
-      <example name="amazed" src="Wiktionary">
-        <text>Все просто убиты твоим новым платьем</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Все</arg>
-          <arg type="ARGM-ADV" start="1" end="1">просто</arg>
-          <rel relloc="2">убиты</rel>
-          <arg type="ARG2" start="3" end="5">твоим новым платьем</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="убить.05" name="injure, hurt">
-      <aliases>
-        <alias pos="v">убивать</alias>
-      </aliases>
-      <note>убить.03 NOTES: Roleset based on English verb frame injure.01</note>
-      <roles>
-        <role descr="agent, entity causing/possessing arg1's injury" f="PAG" n="0"/>
-        <role descr="injured entity (body part if arg0 is possessor)" f="PPT" n="1"/>
-        <role descr="instrument, injured doing what" f="MNR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="injure.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="hurt limb" src="Russian National Corpus: [Л. М. Леонов. Гибель Егорушки (1922)]">
-        <text>Лев облизал ему убившую руку , а птица стратон поклонилась ему .</text>
-        <propbank>
-          <rel relloc="3">убившую</rel>
-          <arg type="ARG1" start="4" end="4">руку</arg>
-        </propbank>
-      </example>
-      <example name="struck by God" src="">
-        <text>Убитый богом</text>
-        <propbank>
-          <rel relloc="0">Убитый</rel>
-          <arg type="ARG0" start="1" end="1">богом</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="убить.06" name="compact, compact, tamp">
-      <aliases>
-        <alias pos="v">убивать</alias>
-        <alias pos="v">убиваться</alias>
-      </aliases>
-      <note>убить.03 NOTES: Roleset based on English verb frame compact.01</note>
-      <roles>
-        <role descr="causer of compaction" f="PAG" n="0"/>
-        <role descr="thing getting compacted" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="compact.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="well beaten road" src="Russian National Corpus:  [А. И. Эртель. Записки Степняка (1883)] ">
-        <text>Немного погодя бойкий топот Копчика по твердо убитой дороге дал нам знать , что Михайло действительно скатает « духом » в Березовку .</text>
-        <propbank>
-          <arg type="ARGM-ADV" start="6" end="6">твердо</arg>
-          <rel relloc="7">убитой</rel>
-          <arg type="ARG1" start="8" end="8">дороге</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="убить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="убить.01" name="kill, put to death">
+            <aliases>
+                <alias pos="v">убивать</alias>
+                <alias pos="v">убиваться</alias>
+                <alias pos="v">убиться</alias>
+            </aliases>
+            <note>убить.01 NOTES: Roleset based on English verb frame kill.01</note>
+            <note>Corresponds to FrameBank senses 1,2</note>
+            <roles>
+                <role descr="killer" f="PAG" n="0"/>
+                <role descr="corpse" f="PPT" n="1"/>
+                <role descr="instrument" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="kill.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="killed by"
+                     src="Russian National Corpus: Алла Глебова, «Матрёшка Ханны Шигуллы» // «Домовой», 04 августа 2002 г. RNC">
+                <text>Фассбиндера убила гремучая смесь кокаина , барбитуратов и алкоголя , а также непрерывная работа на
+                    износ .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Фассбиндера</arg>
+                    <rel relloc="1">убила</rel>
+                    <arg type="ARG0" start="2" end="15">гремучая смесь кокаина , барбитуратов и алкоголя , а также
+                        непрерывная работа на износ
+                    </arg>
+                </propbank>
+            </example>
+            <example name="inanimate subject" src="Russian National Corpus: Евгений Водолазкин, «Лавр», 2012 г.">
+                <text>За сбором трав их застала гроза , и на опушке леса её убило молнией .</text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="8" end="10">на опушке леса</arg>
+                    <arg type="ARG1" start="11" end="11">её</arg>
+                    <rel relloc="12">убило</rel>
+                    <arg type="ARG0" start="13" end="13">молнией</arg>
+                </propbank>
+            </example>
+            <example name="figurative"
+                     src="Russian National Corpus: Д. Н. Мамин-Сибиряк, «Приваловские миллионы», 1883 г.">
+                <text>Меня просто убило это известие , — грустно заговорил Бахарев .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Меня</arg>
+                    <arg type="ARGM-ADV" start="1" end="1">просто</arg>
+                    <rel relloc="2">убило</rel>
+                    <arg type="ARG0" start="3" end="4">это известие</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="убить.02" name="eradicate, destroy, delete, remove">
+            <aliases>
+                <alias pos="v">убивать</alias>
+                <alias pos="v">убиваться</alias>
+                <alias pos="v">убиться</alias>
+                <alias pos="v">убивание</alias>
+            </aliases>
+            <note>убить.02 NOTES: Roleset based on English verb frame eradicate.01</note>
+            <note>Corresponds to FrameBank senses 3</note>
+            <roles>
+                <role descr="eliminator, agent " f="PPT" n="0"/>
+                <role descr="thing eliminated " f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="eradicate.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="trump the card" src="">
+                <text>Убить карту .</text>
+                <propbank>
+                    <rel relloc="0">Убить</rel>
+                    <arg type="ARG1" start="1" end="1">карту</arg>
+                </propbank>
+            </example>
+            <example name="take apart, criticize" src="http://marker.framebank.ru/verbs_cx.php?lex=убить">
+                <text>Плохие критики убивают всякую поэзию .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Плохие критики</arg>
+                    <rel relloc="2">убивают</rel>
+                    <arg type="ARG1" start="3" end="4">всякую поэзию</arg>
+                </propbank>
+            </example>
+            <example name="suppress" src="Russian National Corpus: М. Е. Салтыков-Щедрин, 1856–1860 г">
+                <text>Мало - помалу развилась в нём страсть к чтению , но к чтению бестолковому , которое может скорее
+                    убить талант , нежели развить его .
+                </text>
+                <propbank>
+                    <rel relloc="18">убить</rel>
+                    <arg type="ARG1" start="19" end="19">талант</arg>
+                </propbank>
+            </example>
+            <example name="take away" src="Russian National Corpus: В. С. Вихров, «Рыцарь мечты», 1965 г.">
+                <text>Ведь жизнь , кажется , сделала всё , чтобы очерствить , ожесточить сердце , смять и развеять
+                    романтические идеалы , убить веру во всё лучшее и светлое .
+                </text>
+                <propbank>
+                    <rel relloc="20">убить</rel>
+                    <arg type="ARG1" start="21" end="26">веру во всё лучшее и светлое</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="убить.03" name="waste, spend, consume">
+            <aliases>
+                <alias pos="v">убивать</alias>
+                <alias pos="v">убиваться</alias>
+                <alias pos="v">убиться</alias>
+                <alias pos="v">убивание</alias>
+            </aliases>
+            <note>убить.03 NOTES: Roleset based on English verb frame kill.04</note>
+            <roles>
+                <role descr="time-spender" f="PAG" n="0"/>
+                <role descr="time, money, etc." f="PPT" n="1"/>
+                <role descr="activity, waster" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="kill.04" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="squander"
+                     src="Russian National Corpus: [Вас. И. Немирович-Данченко. Цари биржи (Каиново племя в наши дни) (1886)]">
+                <text>Я очень много убил денег на « Старгородку » .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARGM-EXT" start="1" end="2">очень много</arg>
+                    <rel relloc="3">убил</rel>
+                    <arg type="ARG1" start="4" end="4">денег</arg>
+                    <arg type="ARG2" start="5" end="8">на « Старгородку »</arg>
+                </propbank>
+            </example>
+            <example name="waste"
+                     src="Russian National Corpus: [А. К. Шеллер-Михайлов. Лес рубят - щепки летят (1871)]">
+                <text>Это была Оболенская , скучающая барыня , убившая свою молодость со старым мужем и стремящаяся
+                    теперь найти человека , который решился бы убить свою молодость со старою женой .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="5">Оболенская , скучающая барыня</arg>
+                    <rel relloc="7">убившая</rel>
+                    <arg type="ARG1" start="8" end="9">свою молодость</arg>
+                    <arg type="ARG2" start="10" end="12">со старым мужем</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="убить.04" name="smitten, pleasantly shock, forceful emotional impact">
+            <aliases>
+            </aliases>
+            <note>убить.04 NOTES:Roleset based on English verb frame smite.01</note>
+            <note>NO IMPERFECTIVE</note>
+            <roles>
+                <role descr="agent, smiter" f="PAG" n="0"/>
+                <role descr="entity smitten" f="PPT" n="1"/>
+                <role descr="with what" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="smite.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English ARG2-GOL = Russian ARG1-PPT</note>
+            <note>English ARG3-MNR = Russian ARG2-MNR</note>
+            <note>English ARG1-PPT has no match in Russian frame</note>
+            <example name="amazed" src="Wiktionary">
+                <text>Все просто убиты твоим новым платьем</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Все</arg>
+                    <arg type="ARGM-ADV" start="1" end="1">просто</arg>
+                    <rel relloc="2">убиты</rel>
+                    <arg type="ARG2" start="3" end="5">твоим новым платьем</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="убить.05" name="injure, hurt">
+            <aliases>
+                <alias pos="v">убивать</alias>
+            </aliases>
+            <note>убить.03 NOTES: Roleset based on English verb frame injure.01</note>
+            <roles>
+                <role descr="agent, entity causing/possessing arg1's injury" f="PAG" n="0"/>
+                <role descr="injured entity (body part if arg0 is possessor)" f="PPT" n="1"/>
+                <role descr="instrument, injured doing what" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="injure.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="hurt limb" src="Russian National Corpus: [Л. М. Леонов. Гибель Егорушки (1922)]">
+                <text>Лев облизал ему убившую руку , а птица стратон поклонилась ему .</text>
+                <propbank>
+                    <rel relloc="3">убившую</rel>
+                    <arg type="ARG1" start="4" end="4">руку</arg>
+                </propbank>
+            </example>
+            <example name="struck by God" src="">
+                <text>Убитый богом</text>
+                <propbank>
+                    <rel relloc="0">Убитый</rel>
+                    <arg type="ARG0" start="1" end="1">богом</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="убить.06" name="compact, compact, tamp">
+            <aliases>
+                <alias pos="v">убивать</alias>
+                <alias pos="v">убиваться</alias>
+            </aliases>
+            <note>убить.03 NOTES: Roleset based on English verb frame compact.01</note>
+            <roles>
+                <role descr="causer of compaction" f="PAG" n="0"/>
+                <role descr="thing getting compacted" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="compact.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="well beaten road" src="Russian National Corpus:  [А. И. Эртель. Записки Степняка (1883)] ">
+                <text>Немного погодя бойкий топот Копчика по твердо убитой дороге дал нам знать , что Михайло
+                    действительно скатает « духом » в Березовку .
+                </text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="6" end="6">твердо</arg>
+                    <rel relloc="7">убитой</rel>
+                    <arg type="ARG1" start="8" end="8">дороге</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

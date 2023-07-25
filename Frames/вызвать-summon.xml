@@ -1,112 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="вызвать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="вызвать.01" name="call, call out, summon">
-      <aliases>
-        <alias pos="v">вызывать</alias>
-        <alias pos="v">вызваться</alias>
-        <alias pos="v">вызываться</alias>
-      </aliases>
-      <note>вызвать.01 NOTES: Roleset based on English PB frame вызываться.01</note>
-      <note>Corresponds to FrameBank senses 1-3</note>
-      <roles>
-        <role descr="inviter" f="PAG" n="0"/>
-        <role descr="invited" f="PPT" n="1"/>
-        <role descr="invited-to" f="LOC" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="вызываться.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="call the doctor" src="">
-        <text>Мы вызвали врача .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Мы</arg>
-          <rel relloc="1">вызвали</rel>
-          <arg type="ARG1" start="2" end="2">врача</arg>
-        </propbank>
-      </example>
-      <example name="all args" src="FrameBank">
-        <text>Преподаватель вызвал двух студентов к доске</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Преподаватель</arg>
-          <rel relloc="1">вызвал</rel>
-          <arg type="ARG1" start="2" end="3">двух студентов</arg>
-          <arg type="ARG2" start="4" end="5">к доске</arg>
-        </propbank>
-      </example>
-      <example name="figurative" src="">
-        <text>Вызвать картины лета в памяти .</text>
-        <propbank>
-          <rel relloc="0">Вызвать</rel>
-          <arg type="ARG1" start="1" end="2">картины лета</arg>
-          <arg type="ARGM-LOC" start="3" end="4">в памяти</arg>
-        </propbank>
-      </example>
-      <example name="challenge" src="framebank.ru">
-        <text>Он вызывает меня бороться</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Он</arg>
-          <rel relloc="1">вызывает</rel>
-          <arg type="ARG1" start="2" end="2">меня</arg>
-          <arg type="ARG2" start="3" end="3">бороться</arg>
-        </propbank>
-      </example>
-      <example name="get a smile" src="">
-        <text>Его слова вызвали у меня улыбку</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="1">Его слова</arg>
-          <rel relloc="2">вызвали</rel>
-          <arg type="ARGM-DIR" start="3" end="4">у меня</arg>
-          <arg type="ARG1" start="5" end="5">улыбку</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="вызвать.02" name="cause to, cause a change">
-      <aliases>
-      </aliases>
-      <note>вызвать.02 NOTES: Roleset based on English PB verb frame cause.01</note>
-      <roles>
-        <role descr="forcer, causer" f="CAU" n="0"/>
-        <role descr="impelled action, event" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="cause.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="lingvolive">
-        <text>вызвать предубеждение присяжных в отношении подсудимого .</text>
-        <propbank>
-          <rel relloc="0">вызвать</rel>
-          <arg type="ARG1" start="1" end="5">предубеждение присяжных в отношении подсудимого</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="вызваться">
-    <roleset id="вызваться.03" name="to volunteer, to offer">
-      <aliases>
-        <alias pos="v">вызываться</alias>
-      </aliases>
-      <note>вызваться.03 NOTES: Roleset based on English PB verb frame volunteer.01</note>
-      <roles>
-        <role descr="entity volunteering, voluntary agent" f="PAG" n="0"/>
-        <role descr="thing offered" f="PPT" n="1"/>
-        <role descr="recipient" f="GOL" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="volunteer.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="perfective" src="О. М. Сомов, «Юродивый», 1827 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Лекарь охотно вызвался навещать его , хотя и не предвидел никакой надежды его излечить .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Лекарь</arg>
-          <arg type="ARGM-ADV" start="1" end="1">охотно</arg>
-          <rel relloc="2">вызвался</rel>
-          <arg type="ARG1" start="3" end="4">навещать его</arg>
-          <arg type="ARGM-ADV" start="6" end="13">хотя и не предвидел никакой надежды его излечить</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="вызвать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="вызвать.01" name="call, call out, summon">
+            <aliases>
+                <alias pos="v">вызывать</alias>
+                <alias pos="v">вызваться</alias>
+                <alias pos="v">вызываться</alias>
+            </aliases>
+            <note>вызвать.01 NOTES: Roleset based on English PB frame вызываться.01</note>
+            <note>Corresponds to FrameBank senses 1-3</note>
+            <roles>
+                <role descr="inviter" f="PAG" n="0"/>
+                <role descr="invited" f="PPT" n="1"/>
+                <role descr="invited-to" f="LOC" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="вызываться.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="call the doctor" src="">
+                <text>Мы вызвали врача .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Мы</arg>
+                    <rel relloc="1">вызвали</rel>
+                    <arg type="ARG1" start="2" end="2">врача</arg>
+                </propbank>
+            </example>
+            <example name="all args" src="FrameBank">
+                <text>Преподаватель вызвал двух студентов к доске</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Преподаватель</arg>
+                    <rel relloc="1">вызвал</rel>
+                    <arg type="ARG1" start="2" end="3">двух студентов</arg>
+                    <arg type="ARG2" start="4" end="5">к доске</arg>
+                </propbank>
+            </example>
+            <example name="figurative" src="">
+                <text>Вызвать картины лета в памяти .</text>
+                <propbank>
+                    <rel relloc="0">Вызвать</rel>
+                    <arg type="ARG1" start="1" end="2">картины лета</arg>
+                    <arg type="ARGM-LOC" start="3" end="4">в памяти</arg>
+                </propbank>
+            </example>
+            <example name="challenge" src="framebank.ru">
+                <text>Он вызывает меня бороться</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">вызывает</rel>
+                    <arg type="ARG1" start="2" end="2">меня</arg>
+                    <arg type="ARG2" start="3" end="3">бороться</arg>
+                </propbank>
+            </example>
+            <example name="get a smile" src="">
+                <text>Его слова вызвали у меня улыбку</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Его слова</arg>
+                    <rel relloc="2">вызвали</rel>
+                    <arg type="ARGM-DIR" start="3" end="4">у меня</arg>
+                    <arg type="ARG1" start="5" end="5">улыбку</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="вызвать.02" name="cause to, cause a change">
+            <aliases>
+            </aliases>
+            <note>вызвать.02 NOTES: Roleset based on English PB verb frame cause.01</note>
+            <roles>
+                <role descr="forcer, causer" f="CAU" n="0"/>
+                <role descr="impelled action, event" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="cause.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="lingvolive">
+                <text>вызвать предубеждение присяжных в отношении подсудимого .</text>
+                <propbank>
+                    <rel relloc="0">вызвать</rel>
+                    <arg type="ARG1" start="1" end="5">предубеждение присяжных в отношении подсудимого</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="вызваться">
+        <roleset id="вызваться.03" name="to volunteer, to offer">
+            <aliases>
+                <alias pos="v">вызываться</alias>
+            </aliases>
+            <note>вызваться.03 NOTES: Roleset based on English PB verb frame volunteer.01</note>
+            <roles>
+                <role descr="entity volunteering, voluntary agent" f="PAG" n="0"/>
+                <role descr="thing offered" f="PPT" n="1"/>
+                <role descr="recipient" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="volunteer.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="perfective"
+                     src="О. М. Сомов, «Юродивый», 1827 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Лекарь охотно вызвался навещать его , хотя и не предвидел никакой надежды его излечить .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Лекарь</arg>
+                    <arg type="ARGM-ADV" start="1" end="1">охотно</arg>
+                    <rel relloc="2">вызвался</rel>
+                    <arg type="ARG1" start="3" end="4">навещать его</arg>
+                    <arg type="ARGM-ADV" start="6" end="13">хотя и не предвидел никакой надежды его излечить</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

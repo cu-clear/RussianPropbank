@@ -1,182 +1,210 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="читать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="читать.01" name="read, interpret, understand (visually)">
-      <aliases>
-        <alias pos="v">прочесть</alias>
-        <alias pos="v">прочитать</alias>
-        <alias pos="v">читаться</alias>
-      </aliases>
-      <note>читать.01 NOTES: Roleset based on English verb frame read.01</note>
-      <note>Corresponds to FrameBank senses </note>
-      <roles>
-        <role descr="reader" f="PAG" n="0"/>
-        <role descr="thing read (book)" f="PPT" n="1"/>
-        <role descr="text, content, topic" f="DIR" n="2"/>
-        <role descr="audience or listener" f="PPT" n="3"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="read.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="read a book" src="">
-        <text>Ты читал мою Книгу ? !</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Ты</arg>
-          <rel relloc="1">читал</rel>
-          <arg type="ARG1" start="2" end="3">мою Книгу</arg>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>Я что - то недавно про масло читала , но уже совершенно не помню , лучше оно или хуже чем лак .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <arg type="ARG2" start="1" end="6">что - то недавно про масло</arg>
-          <rel relloc="7">читала</rel>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>Ты сам создал эту тему , а теперь и закрываешь дискуссии , я лично читаю и узнаю новое это интересно .</text>
-        <propbank>
-          <arg type="ARG0" start="12" end="12">я</arg>
-          <arg type="ARG2" start="17" end="17">новое</arg>
-          <rel relloc="14">читаю</rel>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>Читала статью про какую - то американскую секту , которая выступала против вакцинации и среди членов которой , не было ни одного привитого человека .</text>
-        <propbank>
-          <arg type="ARG1" start="1" end="1">статью</arg>
-          <arg type="ARG2" start="2" end="23">про какую - то американскую секту , которая выступала против вакцинации и среди членов которой , не было ни одного привитого человека</arg>
-          <rel relloc="0">Читала</rel>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>У меня вообще нет воспоминаний , как кто - то читает мне вслух , т.е . лет с 3 - 4 я уже читала сама в свое удовольствие .</text>
-        <propbank>
-          <arg type="ARG0" start="7" end="9">кто - то</arg>
-          <arg type="ARG3" start="11" end="11">мне</arg>
-          <rel relloc="10">читает</rel>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>это же бесплатное ... ( читай : нестрашно - амнистия , пимерное поведение ... бла .. бла ... ) штрафа в половину стоимости новой машины вполне хватит ...</text>
-        <propbank>
-          <arg type="ARG1" start="7" end="17">нестрашно - амнистия , пимерное поведение ... бла .. бла ...</arg>
-          <rel relloc="5">читай</rel>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>Ты умеешь читать ноты ?</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Ты</arg>
-          <arg type="ARG2" start="3" end="3">ноты</arg>
-          <rel relloc="2">читать</rel>
-        </propbank>
-      </example>
-      <example name="adjective participle" src="Russian National Corpus [коллективный. 10 дорог назад // «Русский репортер», № 18 (48), 21-28 февраля 2008, 2008]">
-        <text>Хотя название картины , обрамленное « двойками » , ― по - прежнему палиндром , читающийся в обе стороны .</text>
-        <propbank>
-          <rel relloc="15">читающийся</rel>
-          <arg type="ARGM-ADV" start="16" end="18">в обе стороны</arg>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus[Аркадий Мильчин. В лаборатории редактора Лидии Чуковской // «Октябрь», 2001]">
-        <text>Многие из этих книг переиздаются и читаются новыми поколениями детей .</text>
-        <propbank>
-          <arg type="ARG0" start="7" end="9">новыми поколениями детей</arg>
-          <rel relloc="6">читаются</rel>
-          <arg type="ARG1" start="0" end="3">Многие из этих книг</arg>
-        </propbank>
-      </example>
-      <example name="" src="Russian National Corpus[Игорь Порошин. Незнайка в тылу врага. Евгений Плющенко проиграл Алексею Ягудину финал Гран-при (2001) // «Известия», 2001.12.17]">
-        <text>В глазах Слуцкой читалось удивление по поводу её оценок .</text>
-        <propbank>
-          <arg type="ARG1" start="4" end="4">удивление</arg>
-          <rel relloc="3">читалось</rel>
-          <arg type="ARG1" start="5" end="8">по поводу её оценок</arg>
-        </propbank>
-      </example>
-      <example name="" src="">
-        <text>еще бы мы , мужчины , умели эти сигналы читать .</text>
-        <propbank>
-          <arg type="ARG0" start="4" end="4">мужчины</arg>
-          <rel relloc="9">читать</rel>
-          <arg type="ARG1" start="7" end="8">эти сигналы</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="читать.02" name="recite, declaim, give a lecture">
-      <aliases>
-        <alias pos="v">прочесть</alias>
-        <alias pos="v">прочитать</alias>
-        <alias pos="v">читывать</alias>
-      </aliases>
-      <note>читать.02 NOTES: Roleset based on English verb frame recite.01</note>
-      <roles>
-        <role descr="speaker" f="PAG" n="0"/>
-        <role descr="utterance" f="PPT" n="1"/>
-        <role descr="audience or listener " f="PPT" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="recite.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="" src="">
-        <text>У меня еще с детства воспоминание - она очень хрупкая , читала по телевизору такое красивое " Екатерина и Анна , Анна и Екатерина .. " И это было как - то через чур изысканно для Советского Союза .</text>
-        <propbank>
-          <arg type="ARG0" start="7" end="9">она очень хрупкая</arg>
-          <arg type="ARG1" start="17" end="24">Екатерина и Анна , Анна и Екатерина ..</arg>
-          <rel relloc="11">читала</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="читать.03" name="deliver (lecture, etc.), speak">
-      <aliases>
-        <alias pos="v">прочесть</alias>
-        <alias pos="v">прочитать</alias>
-        <alias pos="v">прочтение</alias>
-      </aliases>
-      <note>читать.03 NOTES: Roleset based on English verb frame </note>
-      <roles>
-        <role descr="speaker" f="PAG" n="0"/>
-        <role descr="lecture, lesson, etc." f="PPT" n="1"/>
-        <role descr="audience" f="GOL" n="2"/>
-      </roles>
-      <example name="example" src="И. К. Архипова, «Музыка жизни», 1996 г.(цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Идея была замечательная ― проводить для местных любителей музыки встречи с исполнителями различных жанров , читать лекции о музыке , организовывать концерты .</text>
-        <propbank>
-          <rel relloc="15">читать</rel>
-          <arg type="ARG1" start="16" end="18">лекции о музыке</arg>
-        </propbank>
-      </example>
-      <example name="example" src="Russian National Corpus[Татьяна Владыкина. Мелодии и перепевы. Исторические хроники: 28 января ― 3 февраля (2003) // «Известия», 2003.01.27]">
-        <text>Я помню эти наезды на дачу летом с друзьями , с ящиком спиртного , бурное веселье , которое заканчивалось под утро , потому что ждала работа . ― Отец читал вам мораль ? ― Никогда .</text>
-        <propbank>
-          <rel relloc="29">читал</rel>
-          <arg type="ARG0" start="28" end="28">Отец</arg>
-          <arg type="ARG1" start="31" end="31">мораль</arg>
-          <arg type="ARG2" start="30" end="30">вам</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="читаться.04" name="want to read, read (middle voice)">
-      <aliases>
-      </aliases>
-      <note>Corresponds to FrameBank sense 2</note>
-      <note>читать.04 NOTES: No frame match in English.</note>
-      <roles>
-        <role descr="fast entity/action " f="PPT" n="1"/>
-        <role descr="speed, how many minutes ahead" f="EXT" n="2"/>
-      </roles>
-      <example name="example" src="">
-        <text>Скворцов взял газету , но ему не читалось .</text>
-        <propbank>
-          <arg type="ARG0" start="5" end="5">ему</arg>
-          <arg type="ARGM-NEG" start="6" end="6">не</arg>
-          <rel relloc="7">читалось</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="читать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="читать.01" name="read, interpret, understand (visually)">
+            <aliases>
+                <alias pos="v">прочесть</alias>
+                <alias pos="v">прочитать</alias>
+                <alias pos="v">читаться</alias>
+            </aliases>
+            <note>читать.01 NOTES: Roleset based on English verb frame read.01</note>
+            <note>Corresponds to FrameBank senses</note>
+            <roles>
+                <role descr="reader" f="PAG" n="0"/>
+                <role descr="thing read (book)" f="PPT" n="1"/>
+                <role descr="text, content, topic" f="DIR" n="2"/>
+                <role descr="audience or listener" f="PPT" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="read.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="read a book" src="">
+                <text>Ты читал мою Книгу ? !</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Ты</arg>
+                    <rel relloc="1">читал</rel>
+                    <arg type="ARG1" start="2" end="3">мою Книгу</arg>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Я что - то недавно про масло читала , но уже совершенно не помню , лучше оно или хуже чем лак .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARG2" start="1" end="6">что - то недавно про масло</arg>
+                    <rel relloc="7">читала</rel>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Ты сам создал эту тему , а теперь и закрываешь дискуссии , я лично читаю и узнаю новое это
+                    интересно .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="12" end="12">я</arg>
+                    <arg type="ARG2" start="17" end="17">новое</arg>
+                    <rel relloc="14">читаю</rel>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Читала статью про какую - то американскую секту , которая выступала против вакцинации и среди
+                    членов которой , не было ни одного привитого человека .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="1" end="1">статью</arg>
+                    <arg type="ARG2" start="2" end="23">про какую - то американскую секту , которая выступала против
+                        вакцинации и среди членов которой , не было ни одного привитого человека
+                    </arg>
+                    <rel relloc="0">Читала</rel>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>У меня вообще нет воспоминаний , как кто - то читает мне вслух , т.е . лет с 3 - 4 я уже читала
+                    сама в свое удовольствие .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="7" end="9">кто - то</arg>
+                    <arg type="ARG3" start="11" end="11">мне</arg>
+                    <rel relloc="10">читает</rel>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>это же бесплатное ... ( читай : нестрашно - амнистия , пимерное поведение ... бла .. бла ... )
+                    штрафа в половину стоимости новой машины вполне хватит ...
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="7" end="17">нестрашно - амнистия , пимерное поведение ... бла .. бла ...
+                    </arg>
+                    <rel relloc="5">читай</rel>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Ты умеешь читать ноты ?</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Ты</arg>
+                    <arg type="ARG2" start="3" end="3">ноты</arg>
+                    <rel relloc="2">читать</rel>
+                </propbank>
+            </example>
+            <example name="adjective participle"
+                     src="Russian National Corpus [коллективный. 10 дорог назад // «Русский репортер», № 18 (48), 21-28 февраля 2008, 2008]">
+                <text>Хотя название картины , обрамленное « двойками » , ― по - прежнему палиндром , читающийся в обе
+                    стороны .
+                </text>
+                <propbank>
+                    <rel relloc="15">читающийся</rel>
+                    <arg type="ARGM-ADV" start="16" end="18">в обе стороны</arg>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Russian National Corpus[Аркадий Мильчин. В лаборатории редактора Лидии Чуковской // «Октябрь», 2001]">
+                <text>Многие из этих книг переиздаются и читаются новыми поколениями детей .</text>
+                <propbank>
+                    <arg type="ARG0" start="7" end="9">новыми поколениями детей</arg>
+                    <rel relloc="6">читаются</rel>
+                    <arg type="ARG1" start="0" end="3">Многие из этих книг</arg>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Russian National Corpus[Игорь Порошин. Незнайка в тылу врага. Евгений Плющенко проиграл Алексею Ягудину финал Гран-при (2001) // «Известия», 2001.12.17]">
+                <text>В глазах Слуцкой читалось удивление по поводу её оценок .</text>
+                <propbank>
+                    <arg type="ARG1" start="4" end="4">удивление</arg>
+                    <rel relloc="3">читалось</rel>
+                    <arg type="ARG1" start="5" end="8">по поводу её оценок</arg>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>еще бы мы , мужчины , умели эти сигналы читать .</text>
+                <propbank>
+                    <arg type="ARG0" start="4" end="4">мужчины</arg>
+                    <rel relloc="9">читать</rel>
+                    <arg type="ARG1" start="7" end="8">эти сигналы</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="читать.02" name="recite, declaim, give a lecture">
+            <aliases>
+                <alias pos="v">прочесть</alias>
+                <alias pos="v">прочитать</alias>
+                <alias pos="v">читывать</alias>
+            </aliases>
+            <note>читать.02 NOTES: Roleset based on English verb frame recite.01</note>
+            <roles>
+                <role descr="speaker" f="PAG" n="0"/>
+                <role descr="utterance" f="PPT" n="1"/>
+                <role descr="audience or listener " f="PPT" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="recite.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="">
+                <text>У меня еще с детства воспоминание - она очень хрупкая , читала по телевизору такое красивое "
+                    Екатерина и Анна , Анна и Екатерина .. " И это было как - то через чур изысканно для Советского
+                    Союза .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="7" end="9">она очень хрупкая</arg>
+                    <arg type="ARG1" start="17" end="24">Екатерина и Анна , Анна и Екатерина ..</arg>
+                    <rel relloc="11">читала</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="читать.03" name="deliver (lecture, etc.), speak">
+            <aliases>
+                <alias pos="v">прочесть</alias>
+                <alias pos="v">прочитать</alias>
+                <alias pos="v">прочтение</alias>
+            </aliases>
+            <note>читать.03 NOTES: Roleset based on English verb frame</note>
+            <roles>
+                <role descr="speaker" f="PAG" n="0"/>
+                <role descr="lecture, lesson, etc." f="PPT" n="1"/>
+                <role descr="audience" f="GOL" n="2"/>
+            </roles>
+            <example name="example"
+                     src="И. К. Архипова, «Музыка жизни», 1996 г.(цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Идея была замечательная ― проводить для местных любителей музыки встречи с исполнителями различных
+                    жанров , читать лекции о музыке , организовывать концерты .
+                </text>
+                <propbank>
+                    <rel relloc="15">читать</rel>
+                    <arg type="ARG1" start="16" end="18">лекции о музыке</arg>
+                </propbank>
+            </example>
+            <example name="example"
+                     src="Russian National Corpus[Татьяна Владыкина. Мелодии и перепевы. Исторические хроники: 28 января ― 3 февраля (2003) // «Известия», 2003.01.27]">
+                <text>Я помню эти наезды на дачу летом с друзьями , с ящиком спиртного , бурное веселье , которое
+                    заканчивалось под утро , потому что ждала работа . ― Отец читал вам мораль ? ― Никогда .
+                </text>
+                <propbank>
+                    <rel relloc="29">читал</rel>
+                    <arg type="ARG0" start="28" end="28">Отец</arg>
+                    <arg type="ARG1" start="31" end="31">мораль</arg>
+                    <arg type="ARG2" start="30" end="30">вам</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="читаться.04" name="want to read, read (middle voice)">
+            <aliases>
+            </aliases>
+            <note>Corresponds to FrameBank sense 2</note>
+            <note>читать.04 NOTES: No frame match in English.</note>
+            <roles>
+                <role descr="fast entity/action " f="PPT" n="1"/>
+                <role descr="speed, how many minutes ahead" f="EXT" n="2"/>
+            </roles>
+            <example name="example" src="">
+                <text>Скворцов взял газету , но ему не читалось .</text>
+                <propbank>
+                    <arg type="ARG0" start="5" end="5">ему</arg>
+                    <arg type="ARGM-NEG" start="6" end="6">не</arg>
+                    <rel relloc="7">читалось</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

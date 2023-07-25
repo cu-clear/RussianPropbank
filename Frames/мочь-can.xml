@@ -1,93 +1,98 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="мочь">
-    <roleset id="мочь.01" name="able">
-      <aliases>
-        <alias pos="j">смогший</alias>
-        <alias pos="v">смочь</alias>
-        <alias pos="j">могущий</alias>
-        <alias pos="j">могший</alias>
-      </aliases>
-      <note>мочь.01 NOTES: Based on able.01.</note>
-      <note>Corresponds to FrameBank senses 1,2,3</note>
-      <roles>
-        <role descr="entity with ability " f="PPT" n="1" />
-        <role descr="ability itself, what is arg1 able to do?" f="PRD" n="2" />
-      </roles>
-      <lexlinks>
-        <lexlink class="able.01" resource="English PropBank" version="3.4" />
-      </lexlinks>
-      <example name="all args" src="">
-        <text>Я уверен , мы сможем что - нибудь придумать .</text>
-        <propbank>
-          <arg type="ARG1" start="3" end="3">мы</arg>
-          <rel relloc="4">сможем</rel>
-          <arg type="ARG2" start="5" end="8">что - нибудь придумать</arg>
-        </propbank>
-      </example>
-      <example name="can hear" src="">
-        <text>Я могу слышать тебя дальше по коридору .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="1">могу</rel>
-          <arg type="ARG1" start="2" end="6">слышать тебя дальше по коридору</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="мочь.02" name="do, live, be (as in how are you?)">
-      <aliases>
-	  </aliases>
-      <note>мочь.02 NOTES: Based on live.01.</note>
-      <roles>
-        <role descr="alive entity" f="PPT" n="1" />
-        <role descr="health or life" f="PRD" n="2" />
-      </roles>
-      <lexlinks>
-        <lexlink class="live.01" resource="English PropBank" version="3.4" />
-      </lexlinks>
-      <example name="greeting" src="">
-        <text>Он вгляделся в их лица , успокоенно улыбнулся , в знак доверия перекинул автомат на спину , и сказал : ― Здорово , мужики ! Как живете - можете ? Это вы на Рижскую ? [ Дмитрий Глуховский . Метро 2033 ( 2005 ) ]</text>
-        <propbank>
-          <arg type="ARG2" start="25" end="25">Как</arg>
-          <rel relloc="28">можете</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="мочь.03" name="MODAL: may, is possible, might">
-      <aliases>
-	  </aliases>
-      <note>Corresponds to FrameBank senses 4,5,6</note>
-      <note>мочь.03 NOTES: Added to distinguish sense.</note>
-      <note>Permision/request or probablity; always an argm-MOD for main predicate; neg and additional ARGMs can be annotated</note>
-      <roles>
-	  </roles>
-      <example name="request" src="">
-        <text>Ты мог бы сходить в магазин ?</text>
-        <propbank>
-          <rel relloc="1">мог</rel>
-          <arg type="ARGM-ADV" start="0" end="0">бы</arg>
-        </propbank>
-      </example>
-      <example name="request" src="">
-        <text>Вы бы не смогли меня подождать ?</text>
-        <propbank>
-          <rel relloc="3">смогли</rel>
-          <arg type="ARGM-ADV" start="0" end="0">бы</arg>
-          <arg type="ARGM-NEG" start="0" end="0">не</arg>
-        </propbank>
-      </example>
-      <example name="Potential/probability (might)" src="">
-        <text>Это им может не понравится .</text>
-        <propbank>
-          <rel relloc="2">может</rel>
-        </propbank>
-      </example>
-      <example name="Potential/probability (might)" src="">
-        <text>Он так может упасть !</text>
-        <propbank>
-          <rel relloc="2">может</rel>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="мочь">
+        <roleset id="мочь.01" name="able">
+            <aliases>
+                <alias pos="j">смогший</alias>
+                <alias pos="v">смочь</alias>
+                <alias pos="j">могущий</alias>
+                <alias pos="j">могший</alias>
+            </aliases>
+            <note>мочь.01 NOTES: Based on able.01.</note>
+            <note>Corresponds to FrameBank senses 1,2,3</note>
+            <roles>
+                <role descr="entity with ability " f="PPT" n="1"/>
+                <role descr="ability itself, what is arg1 able to do?" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="able.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args" src="">
+                <text>Я уверен , мы сможем что - нибудь придумать .</text>
+                <propbank>
+                    <arg type="ARG1" start="3" end="3">мы</arg>
+                    <rel relloc="4">сможем</rel>
+                    <arg type="ARG2" start="5" end="8">что - нибудь придумать</arg>
+                </propbank>
+            </example>
+            <example name="can hear" src="">
+                <text>Я могу слышать тебя дальше по коридору .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">могу</rel>
+                    <arg type="ARG1" start="2" end="6">слышать тебя дальше по коридору</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="мочь.02" name="do, live, be (as in how are you?)">
+            <aliases>
+            </aliases>
+            <note>мочь.02 NOTES: Based on live.01.</note>
+            <roles>
+                <role descr="alive entity" f="PPT" n="1"/>
+                <role descr="health or life" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="live.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="greeting" src="">
+                <text>Он вгляделся в их лица , успокоенно улыбнулся , в знак доверия перекинул автомат на спину , и
+                    сказал : ― Здорово , мужики ! Как живете - можете ? Это вы на Рижскую ? [ Дмитрий Глуховский . Метро
+                    2033 ( 2005 ) ]
+                </text>
+                <propbank>
+                    <arg type="ARG2" start="25" end="25">Как</arg>
+                    <rel relloc="28">можете</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="мочь.03" name="MODAL: may, is possible, might">
+            <aliases>
+            </aliases>
+            <note>Corresponds to FrameBank senses 4,5,6</note>
+            <note>мочь.03 NOTES: Added to distinguish sense.</note>
+            <note>Permision/request or probablity; always an argm-MOD for main predicate; neg and additional ARGMs can
+                be annotated
+            </note>
+            <roles>
+            </roles>
+            <example name="request" src="">
+                <text>Ты мог бы сходить в магазин ?</text>
+                <propbank>
+                    <rel relloc="1">мог</rel>
+                    <arg type="ARGM-ADV" start="0" end="0">бы</arg>
+                </propbank>
+            </example>
+            <example name="request" src="">
+                <text>Вы бы не смогли меня подождать ?</text>
+                <propbank>
+                    <rel relloc="3">смогли</rel>
+                    <arg type="ARGM-ADV" start="0" end="0">бы</arg>
+                    <arg type="ARGM-NEG" start="0" end="0">не</arg>
+                </propbank>
+            </example>
+            <example name="Potential/probability (might)" src="">
+                <text>Это им может не понравится .</text>
+                <propbank>
+                    <rel relloc="2">может</rel>
+                </propbank>
+            </example>
+            <example name="Potential/probability (might)" src="">
+                <text>Он так может упасть !</text>
+                <propbank>
+                    <rel relloc="2">может</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

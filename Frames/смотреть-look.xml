@@ -1,274 +1,288 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="смотреть">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="смотреть.01" name="look">
-      <aliases>
-        <alias pos="j">смотрящий</alias>
-        <alias pos="j">смотревший</alias>
-        <alias pos="v">посмотреть</alias>
-        <alias pos="j">посмотревший</alias>
-        <alias pos="j">посмотренный</alias>
-        <alias pos="v">посмотреться</alias>
-        <alias pos="v">смотреться</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 1,5,8,15,19</note>
-      <note>смотреть.01 NOTES: Based on look.01.</note>
-      <roles>
-        <role descr="observer, searcher" f="PAG" n="0"/>
-        <role descr="at what or where arg0 looked" f="GOL" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="look.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="look somewhere" src="">
-        <text>А ты посмотрел под кроватью ?</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">А</arg>
-          <arg type="ARG0" start="1" end="1">ты</arg>
-          <rel relloc="2">посмотрел</rel>
-          <arg type="ARG1" start="3" end="4">под кроватью</arg>
-        </propbank>
-      </example>
-      <example name="all args" src="М. Ю. Лермонтов, «Герой нашего времени», 1839 г.">
-        <text>Только не один Печорин любовался хорошенькой княжной : из угла комнаты на неё смотрели другие два глаза , неподвижные , огненные .</text>
-        <propbank>
-          <arg type="ARG1" start="11" end="12">на неё</arg>
-          <rel relloc="13">смотрели</rel>
-          <arg type="ARG0" start="14" end="16">другие два глаза</arg>
-        </propbank>
-      </example>
-      <example name="figurative sense" src="Булгаков, «Белая гвардия», 1923-1924 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Старые её стены смотрят на вас .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="2">Старые её стены</arg>
-          <rel relloc="3">смотрят</rel>
-          <arg type="ARG1" start="4" end="5">на вас</arg>
-        </propbank>
-      </example>
-      <example name="look at one's reflection in mirror" src="">
-        <text>Расчесываю волосы на голове , смотрюсь в зеркало , брею себя бритвой ,</text>
-        <propbank>
-          <rel relloc="5">смотрюсь</rel>
-          <arg type="ARG1" start="6" end="7">в зеркало</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="смотреть.02" name="watch">
-      <aliases>
-        <alias pos="j">смотрящий</alias>
-        <alias pos="j">смотревший</alias>
-        <alias pos="v">посмотреть</alias>
-        <alias pos="j">посмотревший</alias>
-        <alias pos="j">посмотренный</alias>
-        <alias pos="v">смотреться</alias>
-        <alias pos="j">смотрящийся</alias>
-        <alias pos="j">смотревшийся</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 2,3,4,7,10,17,18</note>
-      <note>Based on watch.01.</note>
-      <roles>
-        <role descr="observer" f="PAG" n="0"/>
-        <role descr="thing being watched" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="watch.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="perfective, watch film" src="">
-        <text>Я хочу посмотреть фильм .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">PRO</arg>
-          <rel relloc="2">посмотреть</rel>
-          <arg type="ARG1" start="3" end="3">фильм</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as middle voice" src="">
-        <text>Фильм хорошо смотрится .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Фильм</arg>
-          <arg type="ARGM-MNR" start="1" end="1">хорошо</arg>
-          <rel relloc="2">смотрится</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="смотреть.03" name="examine">
-      <aliases>
-        <alias pos="j">смотрящий</alias>
-        <alias pos="j">смотревший</alias>
-        <alias pos="v">посмотреть</alias>
-        <alias pos="j">посмотревший</alias>
-        <alias pos="j">посмотренный</alias>
-      </aliases>
-      <note>Corresponds to FrameBank senses 6,11</note>
-      <note>Based on examine.01.</note>
-      <roles>
-        <role descr="examiner" f="PAG" n="0"/>
-        <role descr="examined" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="examine.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="examine; impersonal construction" src="">
-        <text>Не , меня посмотрели и в операционную сразу .</text>
-        <propbank>
-          <arg type="ARGM-NEG" start="0" end="0">Не</arg>
-          <arg type="ARG1" start="2" end="2">меня</arg>
-          <rel relloc="3">посмотрели</rel>
-        </propbank>
-      </example>
-      <example name="all args" src="М. А. Булгаков, «Мастер и Маргарита, часть 1», 1929-1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Психиатр смотрел вас ?</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Психиатр</arg>
-          <arg type="ARG1" start="1" end="1">смотрел</arg>
-          <rel relloc="2">вас</rel>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="смотреть.04" name="look after">
-      <aliases>
-        <alias pos="j">смотрящий</alias>
-        <alias pos="j">смотревший</alias>
-        <alias pos="v">посмотреть</alias>
-        <alias pos="j">посмотревший</alias>
-        <alias pos="j">посмотренный</alias>
-      </aliases>
-      <note>Based on look_after.07.</note>
-      <roles>
-        <role descr="minder, watcher" f="PAG" n="0"/>
-        <role descr="entity minded, taken care of" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="look_after.07" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="look after someone" src="В. В. Измайлов, «Прекрасная Татьяна, живущая у подошвы Воробьевых гор», 1804 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Мельтон , не довольный сею помочью , остался сам смотреть за больною и успокаивать огорченного старца .</text>
-        <propbank>
-          <arg type="ARG0" start="8" end="8">сам</arg>
-          <rel relloc="9">смотреть</rel>
-          <arg type="ARG1" start="10" end="11">за больною</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="смотреть.05" name="seem">
-      <aliases>
-        <alias pos="j">смотрящий</alias>
-        <alias pos="j">смотревший</alias>
-        <alias pos="v">смотреться</alias>
-        <alias pos="j">смотрящийся</alias>
-        <alias pos="j">смотревшийся</alias>
-      </aliases>
-      <note>Based on look.02.</note>
-      <roles>
-        <role descr="seemer" f="PAG" n="1"/>
-        <role descr="attribute" f="PRD" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="look.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="perfective, watch film" src="">
-        <text>Он смотрет молодцом .</text>
-        <propbank>
-          <arg type="ARG1" start="0" end="0">Он</arg>
-          <rel relloc="1">смотрет</rel>
-          <arg type="ARG2" start="2" end="2">молодцом</arg>
-        </propbank>
-      </example>
-      <example name="appears to be" src="Russian National Corpus [коллективный. Форум: 17 мгновений весны (2005-2010)]">
-        <text>А смотрится полнее достойно , особенно по сравнению с современными сериалами .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">А</arg>
-          <arg type="ARG1" start="?" end="?">PRO</arg>
-          <rel relloc="1">смотрится</rel>
-          <arg type="ARG2" start="2" end="3">полнее достойно</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="посмотреть">
-    <roleset id="посмотреть.06" name="search">
-      <aliases>
-        <alias pos="j">посмотрящий</alias>
-        <alias pos="j">посмотревший</alias>
-      </aliases>
-      <note>NOTES: Based on search.01.</note>
-      <roles>
-        <role descr="searcher " f="PAG" n="0"/>
-        <role descr="searched for" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="search.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="perfective, watch film" src="">
-        <text>Посмотрите рубль , пожалуйста .</text>
-        <propbank>
-          <arg type="ARG0" start="?" end="?">PRO</arg>
-          <rel relloc="0">Посмотрите</rel>
-          <arg type="ARG1" start="1" end="1">рубль</arg>
-          <arg type="ARGM-DIS" start="3" end="3">пожалуйста</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="смотря">
-    <roleset id="смотря.08" name="depends">
-      <aliases>
-      </aliases>
-      <roles>
-        <role descr="deciding factor" f="PPT" n="1">
-        </role>
-      </roles>
-      <example name="depends on" src="Russian National Corpus. [Свадьба тюменских старожилов // «Народное творчество», 2004]">
-        <text>Также было принято , чтобы родители невесты дарили молодым скотину , а остальные ― кто что может , смотря по достатку : скотину , холст , шаль , платок , деньги .</text>
-        <propbank>
-          <rel relloc="18">смотря</rel>
-          <arg type="ARG1" start="19" end="20">по достатку</arg>
-        </propbank>
-      </example>
-      <example name="depends how" src="Russian National Corpus. [Василь Быков. Болото (2001)]">
-        <text>Смотря как оформлено . ― Слушай , доктор , учись , ― наставительно заметил Огрызков .</text>
-        <propbank>
-          <rel relloc="0">Смотря</rel>
-          <arg type="ARG1" start="1" end="2">как оформлено</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
-  <predicate lemma="смотреть_в_рот">
-    <roleset id="смотреть_в_рот_кому.09" name="hang on every word">
-      <aliases>
-        <alias pos="m">смотреть_в_рот</alias>
-        <alias pos="m">глядеть_в_рот</alias>
-        <alias pos="m">смотреть_в_глаза</alias>
-        <alias pos="m">глядеть_в_глаза</alias>
-        <mwp-descriptions id="смотреть_в_рот">
-          <syntaxdesc slots="A B C">
-            <token slot="A" arg="" pos="" head="" dep="">смотреть</token>
-            <token slot="A" arg="" pos="" head="" dep="">глядеть</token>
-            <token slot="B" arg="" pos="" head="C" dep="">в</token>
-            <token slot="C" arg="" pos="" head="A" dep="">рот</token>
-            <token slot="C" arg="" pos="" head="A" dep="">глаза</token>
-          </syntaxdesc>
-        </mwp-descriptions>
-      </aliases>
-      <note>смотреть_в_рот NOTES: Based on flatter.01.</note>
-      <note>Corresponds to FrameBank senses 13,14,16</note>
-      <roles>
-        <role descr="gratifier" f="PAG" n="0"/>
-        <role descr="target of gratification" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="flatter.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="example" src="Russian National Corpus. [И. Э. Кио. Иллюзии без иллюзий (1995-1999)]">
-        <text>Бардиан считался настолько авторитарным и серьёзным начальником , что едва ли не все смотрели ему в рот , ― и уж по линии личных удовольствий он , будь половчее и смелее , мог бы добиться всего , чего только пожелал бы .</text>
-        <propbank>
-          <arg type="ARG0" start="9" end="12">едва ли не все</arg>
-          <rel relloc="13 15 16">смотрели в рот</rel>
-          <arg type="ARG1" start="14" end="14">ему</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="смотреть">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="смотреть.01" name="look">
+            <aliases>
+                <alias pos="j">смотрящий</alias>
+                <alias pos="j">смотревший</alias>
+                <alias pos="v">посмотреть</alias>
+                <alias pos="j">посмотревший</alias>
+                <alias pos="j">посмотренный</alias>
+                <alias pos="v">посмотреться</alias>
+                <alias pos="v">смотреться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,5,8,15,19</note>
+            <note>смотреть.01 NOTES: Based on look.01.</note>
+            <roles>
+                <role descr="observer, searcher" f="PAG" n="0"/>
+                <role descr="at what or where arg0 looked" f="GOL" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="look.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="look somewhere" src="">
+                <text>А ты посмотрел под кроватью ?</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">А</arg>
+                    <arg type="ARG0" start="1" end="1">ты</arg>
+                    <rel relloc="2">посмотрел</rel>
+                    <arg type="ARG1" start="3" end="4">под кроватью</arg>
+                </propbank>
+            </example>
+            <example name="all args" src="М. Ю. Лермонтов, «Герой нашего времени», 1839 г.">
+                <text>Только не один Печорин любовался хорошенькой княжной : из угла комнаты на неё смотрели другие два
+                    глаза , неподвижные , огненные .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="11" end="12">на неё</arg>
+                    <rel relloc="13">смотрели</rel>
+                    <arg type="ARG0" start="14" end="16">другие два глаза</arg>
+                </propbank>
+            </example>
+            <example name="figurative sense"
+                     src="Булгаков, «Белая гвардия», 1923-1924 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Старые её стены смотрят на вас .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="2">Старые её стены</arg>
+                    <rel relloc="3">смотрят</rel>
+                    <arg type="ARG1" start="4" end="5">на вас</arg>
+                </propbank>
+            </example>
+            <example name="look at one's reflection in mirror" src="">
+                <text>Расчесываю волосы на голове , смотрюсь в зеркало , брею себя бритвой ,</text>
+                <propbank>
+                    <rel relloc="5">смотрюсь</rel>
+                    <arg type="ARG1" start="6" end="7">в зеркало</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="смотреть.02" name="watch">
+            <aliases>
+                <alias pos="j">смотрящий</alias>
+                <alias pos="j">смотревший</alias>
+                <alias pos="v">посмотреть</alias>
+                <alias pos="j">посмотревший</alias>
+                <alias pos="j">посмотренный</alias>
+                <alias pos="v">смотреться</alias>
+                <alias pos="j">смотрящийся</alias>
+                <alias pos="j">смотревшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 2,3,4,7,10,17,18</note>
+            <note>Based on watch.01.</note>
+            <roles>
+                <role descr="observer" f="PAG" n="0"/>
+                <role descr="thing being watched" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="watch.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="perfective, watch film" src="">
+                <text>Я хочу посмотреть фильм .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">PRO</arg>
+                    <rel relloc="2">посмотреть</rel>
+                    <arg type="ARG1" start="3" end="3">фильм</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as middle voice" src="">
+                <text>Фильм хорошо смотрится .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Фильм</arg>
+                    <arg type="ARGM-MNR" start="1" end="1">хорошо</arg>
+                    <rel relloc="2">смотрится</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="смотреть.03" name="examine">
+            <aliases>
+                <alias pos="j">смотрящий</alias>
+                <alias pos="j">смотревший</alias>
+                <alias pos="v">посмотреть</alias>
+                <alias pos="j">посмотревший</alias>
+                <alias pos="j">посмотренный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 6,11</note>
+            <note>Based on examine.01.</note>
+            <roles>
+                <role descr="examiner" f="PAG" n="0"/>
+                <role descr="examined" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="examine.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="examine; impersonal construction" src="">
+                <text>Не , меня посмотрели и в операционную сразу .</text>
+                <propbank>
+                    <arg type="ARGM-NEG" start="0" end="0">Не</arg>
+                    <arg type="ARG1" start="2" end="2">меня</arg>
+                    <rel relloc="3">посмотрели</rel>
+                </propbank>
+            </example>
+            <example name="all args"
+                     src="М. А. Булгаков, «Мастер и Маргарита, часть 1», 1929-1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Психиатр смотрел вас ?</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Психиатр</arg>
+                    <arg type="ARG1" start="1" end="1">смотрел</arg>
+                    <rel relloc="2">вас</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="смотреть.04" name="look after">
+            <aliases>
+                <alias pos="j">смотрящий</alias>
+                <alias pos="j">смотревший</alias>
+                <alias pos="v">посмотреть</alias>
+                <alias pos="j">посмотревший</alias>
+                <alias pos="j">посмотренный</alias>
+            </aliases>
+            <note>Based on look_after.07.</note>
+            <roles>
+                <role descr="minder, watcher" f="PAG" n="0"/>
+                <role descr="entity minded, taken care of" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="look_after.07" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="look after someone"
+                     src="В. В. Измайлов, «Прекрасная Татьяна, живущая у подошвы Воробьевых гор», 1804 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Мельтон , не довольный сею помочью , остался сам смотреть за больною и успокаивать огорченного
+                    старца .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="8" end="8">сам</arg>
+                    <rel relloc="9">смотреть</rel>
+                    <arg type="ARG1" start="10" end="11">за больною</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="смотреть.05" name="seem">
+            <aliases>
+                <alias pos="j">смотрящий</alias>
+                <alias pos="j">смотревший</alias>
+                <alias pos="v">смотреться</alias>
+                <alias pos="j">смотрящийся</alias>
+                <alias pos="j">смотревшийся</alias>
+            </aliases>
+            <note>Based on look.02.</note>
+            <roles>
+                <role descr="seemer" f="PAG" n="1"/>
+                <role descr="attribute" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="look.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="perfective, watch film" src="">
+                <text>Он смотрет молодцом .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Он</arg>
+                    <rel relloc="1">смотрет</rel>
+                    <arg type="ARG2" start="2" end="2">молодцом</arg>
+                </propbank>
+            </example>
+            <example name="appears to be"
+                     src="Russian National Corpus [коллективный. Форум: 17 мгновений весны (2005-2010)]">
+                <text>А смотрится полнее достойно , особенно по сравнению с современными сериалами .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">А</arg>
+                    <arg type="ARG1" start="?" end="?">PRO</arg>
+                    <rel relloc="1">смотрится</rel>
+                    <arg type="ARG2" start="2" end="3">полнее достойно</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="посмотреть">
+        <roleset id="посмотреть.06" name="search">
+            <aliases>
+                <alias pos="j">посмотрящий</alias>
+                <alias pos="j">посмотревший</alias>
+            </aliases>
+            <note>NOTES: Based on search.01.</note>
+            <roles>
+                <role descr="searcher " f="PAG" n="0"/>
+                <role descr="searched for" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="search.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="perfective, watch film" src="">
+                <text>Посмотрите рубль , пожалуйста .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">PRO</arg>
+                    <rel relloc="0">Посмотрите</rel>
+                    <arg type="ARG1" start="1" end="1">рубль</arg>
+                    <arg type="ARGM-DIS" start="3" end="3">пожалуйста</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="смотря">
+        <roleset id="смотря.08" name="depends">
+            <aliases>
+            </aliases>
+            <roles>
+                <role descr="deciding factor" f="PPT" n="1">
+                </role>
+            </roles>
+            <example name="depends on"
+                     src="Russian National Corpus. [Свадьба тюменских старожилов // «Народное творчество», 2004]">
+                <text>Также было принято , чтобы родители невесты дарили молодым скотину , а остальные ― кто что может ,
+                    смотря по достатку : скотину , холст , шаль , платок , деньги .
+                </text>
+                <propbank>
+                    <rel relloc="18">смотря</rel>
+                    <arg type="ARG1" start="19" end="20">по достатку</arg>
+                </propbank>
+            </example>
+            <example name="depends how" src="Russian National Corpus. [Василь Быков. Болото (2001)]">
+                <text>Смотря как оформлено . ― Слушай , доктор , учись , ― наставительно заметил Огрызков .</text>
+                <propbank>
+                    <rel relloc="0">Смотря</rel>
+                    <arg type="ARG1" start="1" end="2">как оформлено</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="смотреть_в_рот">
+        <roleset id="смотреть_в_рот_кому.09" name="hang on every word">
+            <aliases>
+                <alias pos="m">смотреть_в_рот</alias>
+                <alias pos="m">глядеть_в_рот</alias>
+                <alias pos="m">смотреть_в_глаза</alias>
+                <alias pos="m">глядеть_в_глаза</alias>
+                <mwp-descriptions id="смотреть_в_рот">
+                    <syntaxdesc slots="A B C">
+                        <token slot="A" arg="" pos="" head="" dep="">смотреть</token>
+                        <token slot="A" arg="" pos="" head="" dep="">глядеть</token>
+                        <token slot="B" arg="" pos="" head="C" dep="">в</token>
+                        <token slot="C" arg="" pos="" head="A" dep="">рот</token>
+                        <token slot="C" arg="" pos="" head="A" dep="">глаза</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <note>смотреть_в_рот NOTES: Based on flatter.01.</note>
+            <note>Corresponds to FrameBank senses 13,14,16</note>
+            <roles>
+                <role descr="gratifier" f="PAG" n="0"/>
+                <role descr="target of gratification" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="flatter.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="example" src="Russian National Corpus. [И. Э. Кио. Иллюзии без иллюзий (1995-1999)]">
+                <text>Бардиан считался настолько авторитарным и серьёзным начальником , что едва ли не все смотрели ему
+                    в рот , ― и уж по линии личных удовольствий он , будь половчее и смелее , мог бы добиться всего ,
+                    чего только пожелал бы .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="9" end="12">едва ли не все</arg>
+                    <rel relloc="13 15 16">смотрели в рот</rel>
+                    <arg type="ARG1" start="14" end="14">ему</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

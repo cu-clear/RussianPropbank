@@ -1,165 +1,179 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="встречать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="встречать.01" name="encounter, notice">
-      <aliases>
-        <alias pos="v">встретить</alias>
-        <alias pos="v">встречаться</alias>
-        <alias pos="v">встретиться</alias>
-      </aliases>
-      <note>встречать.01 NOTES: Roleset based on English PB frame encounter.01</note>
-      <note>Corresponds to FrameBank senses 4,5,6,11</note>
-      <roles>
-        <role descr="entity encountering something" f="PAG" n="0"/>
-        <role descr="entity encountered" f="PPT" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="encounter.01" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="met someone" src="">
-        <text>А я вчера своего бывшего в автобусе встретила .</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">А</arg>
-          <arg type="ARG0" start="1" end="1">я</arg>
-          <arg type="ARGM-TMP" start="2" end="2">вчера</arg>
-          <arg type="ARG1" start="3" end="4">своего бывшего</arg>
-          <arg type="ARGM-LOC" start="5" end="6">в автобусе</arg>
-          <rel relloc="7">встретила</rel>
-        </propbank>
-      </example>
-      <example name="encounter inanimate" src="FrameBank">
-        <text>Если вы встретите какие - нибудь трудности , я помогу . "</text>
-        <propbank>
-          <arg type="ARGM-DIS" start="0" end="0">Если</arg>
-          <arg type="ARG0" start="1" end="1">вы</arg>
-          <rel relloc="2">встретите</rel>
-          <arg type="ARG1" start="3" end="6">какие - нибудь трудности</arg>
-        </propbank>
-      </example>
-      <example name="figurative" src="">
-        <text>Не ожидал встретить улыбку на его лице .</text>
-        <propbank>
-          <rel relloc="2">встретить</rel>
-          <arg type="ARG1" start="3" end="3">улыбку</arg>
-          <arg type="ARGM-LOC" start="4" end="6">на его лице</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as passive" src="И. И. Лажечников, « Спасская лужайка», 1812 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Часто большие черные глаза ее с нежностию встречались со взорами молодого человека , старались убегать их и опять искали с ними встретиться .</text>
-        <propbank>
-          <arg type="ARGM-TMP" start="0" end="0">Часто</arg>
-          <arg type="ARG0" start="1" end="4">большие черные глаза ее</arg>
-          <rel relloc="7">встречались</rel>
-          <arg type="ARG1" start="8" end="11">со взорами молодого человека</arg>
-        </propbank>
-      </example>
-      <example name="sports match" src="Алексей Демин, «Увидеть невиданное», 2002 г. // «Известия» (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>В матчах полуфинала команда , занявшая по итогам регулярного чемпионата более высокое место , встречается с командой , занявшей по итогам чемпионата более низкое место . 
-</text>
-        <propbank>
-          <arg type="ARGM-LOC" start="0" end="2">В матчах полуфинала</arg>
-          <arg type="ARG0" start="3" end="12">команда , занявшая по итогам регулярного чемпионата более высокое место</arg>
-          <rel relloc="14">встречается</rel>
-          <arg type="ARG1" start="15" end="24">с командой , занявшей по итогам чемпионата более низкое место</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="встречать.02" name="meet, get together">
-      <aliases>
-        <alias pos="v">встретить</alias>
-        <alias pos="v">встречаться</alias>
-        <alias pos="v">встретиться</alias>
-      </aliases>
-      <note>встречать.02 NOTES: Roleset based on English PB verb frame meet.03</note>
-      <note>Corresponds to FrameBank senses 1,2,7,8,9</note>
-      <roles>
-        <role descr="one party" f="PAG" n="0"/>
-        <role descr="other party" f="COM" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="meet.03" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="perfective" src="lingvolive">
-        <text>Они меня встретят на остановке и привезут домой .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Они</arg>
-          <arg type="ARG1" start="1" end="1">меня</arg>
-          <rel relloc="2">встретят</rel>
-          <arg type="ARGM-LOC" start="3" end="4">на остановке</arg>
-        </propbank>
-      </example>
-      <example name="dump someone" src="Russian National Corpus[Фазиль Искандер. Муки совести, или Байская кровать (1980-1990)]">
-        <text>И вдруг , когда по моим расчётам мне оставалось пить всего неделю , она бросает меня и уходит к этому дельцу !</text>
-        <propbank>
-          <arg type="ARG0" start="13" end="13">она</arg>
-          <rel relloc="14">бросает</rel>
-          <arg type="ARG1" start="15" end="15">меня</arg>
-        </propbank>
-      </example>
-      <example name="greet" src="framebank.ru">
-        <text>Мы встречали делегацию французских писателей в аэропорту .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Мы</arg>
-          <rel relloc="1">встречали</rel>
-          <arg type="ARG1" start="2" end="4">делегацию французских писателей</arg>
-          <arg type="ARGM-LOC" start="5" end="6">в аэропорту</arg>
-        </propbank>
-      </example>
-      <example name="reflexive as reciprocal" src="М. Ю. Лермонтов, «Герой нашего времени», 1839—1841 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
-        <text>Я встречаюсь с друзьями по вторникам</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="1">встречаюсь</rel>
-          <arg type="ARG1" start="2" end="3">с друзьями</arg>
-          <arg type="ARGM-TMP" start="4" end="5">по вторникам</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="встречать.03" name="answer, respond to">
-      <aliases>
-        <alias pos="v">встретить</alias>
-      </aliases>
-      <note>встречать.03 NOTES: Roleset based on English PB verb frame meet.05</note>
-      <note>Corresponds to FrameBank senses 3</note>
-      <roles>
-        <role descr="agentive answerer" f="PAG" n="0"/>
-        <role descr="thing met/answered" f="PPT" n="1"/>
-        <role descr="with what" f="MNR" n="2"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="meet.05" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="perfective" src="lingvolive">
-        <text>Бойцы встретили неприятеля огнем .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Бойцы</arg>
-          <rel relloc="1">встретили</rel>
-          <arg type="ARG1" start="2" end="2">неприятеля</arg>
-          <arg type="ARG2" start="3" end="3">огнем</arg>
-        </propbank>
-      </example>
-    </roleset>
-    <roleset id="встречать.04" name="date, a process of dating">
-      <aliases>
-      </aliases>
-      <note>встречать.04 NOTES: Roleset based on English PB verb frame date.02</note>
-      <roles>
-        <role descr="dater" f="PAG" n="0"/>
-        <role descr="dated" f="COM" n="1"/>
-      </roles>
-      <lexlinks>
-        <lexlink class="date.02" resource="English PropBank" version="3.4"/>
-      </lexlinks>
-      <example name="example" src="">
-        <text>Я встречаюсь с девушкой</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Я</arg>
-          <rel relloc="1">встречаюсь</rel>
-          <arg type="ARG1" start="2" end="3">с девушкой</arg>
-        </propbank>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="встречать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="встречать.01" name="encounter, notice">
+            <aliases>
+                <alias pos="v">встретить</alias>
+                <alias pos="v">встречаться</alias>
+                <alias pos="v">встретиться</alias>
+            </aliases>
+            <note>встречать.01 NOTES: Roleset based on English PB frame encounter.01</note>
+            <note>Corresponds to FrameBank senses 4,5,6,11</note>
+            <roles>
+                <role descr="entity encountering something" f="PAG" n="0"/>
+                <role descr="entity encountered" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="encounter.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="met someone" src="">
+                <text>А я вчера своего бывшего в автобусе встретила .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">А</arg>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                    <arg type="ARGM-TMP" start="2" end="2">вчера</arg>
+                    <arg type="ARG1" start="3" end="4">своего бывшего</arg>
+                    <arg type="ARGM-LOC" start="5" end="6">в автобусе</arg>
+                    <rel relloc="7">встретила</rel>
+                </propbank>
+            </example>
+            <example name="encounter inanimate" src="FrameBank">
+                <text>Если вы встретите какие - нибудь трудности , я помогу . "</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Если</arg>
+                    <arg type="ARG0" start="1" end="1">вы</arg>
+                    <rel relloc="2">встретите</rel>
+                    <arg type="ARG1" start="3" end="6">какие - нибудь трудности</arg>
+                </propbank>
+            </example>
+            <example name="figurative" src="">
+                <text>Не ожидал встретить улыбку на его лице .</text>
+                <propbank>
+                    <rel relloc="2">встретить</rel>
+                    <arg type="ARG1" start="3" end="3">улыбку</arg>
+                    <arg type="ARGM-LOC" start="4" end="6">на его лице</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive"
+                     src="И. И. Лажечников, « Спасская лужайка», 1812 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Часто большие черные глаза ее с нежностию встречались со взорами молодого человека , старались
+                    убегать их и опять искали с ними встретиться .
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="0">Часто</arg>
+                    <arg type="ARG0" start="1" end="4">большие черные глаза ее</arg>
+                    <rel relloc="7">встречались</rel>
+                    <arg type="ARG1" start="8" end="11">со взорами молодого человека</arg>
+                </propbank>
+            </example>
+            <example name="sports match"
+                     src="Алексей Демин, «Увидеть невиданное», 2002 г. // «Известия» (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>В матчах полуфинала команда , занявшая по итогам регулярного чемпионата более высокое место ,
+                    встречается с командой , занявшей по итогам чемпионата более низкое место .
+                </text>
+                <propbank>
+                    <arg type="ARGM-LOC" start="0" end="2">В матчах полуфинала</arg>
+                    <arg type="ARG0" start="3" end="12">команда , занявшая по итогам регулярного чемпионата более
+                        высокое место
+                    </arg>
+                    <rel relloc="14">встречается</rel>
+                    <arg type="ARG1" start="15" end="24">с командой , занявшей по итогам чемпионата более низкое место
+                    </arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="встречать.02" name="meet, get together">
+            <aliases>
+                <alias pos="v">встретить</alias>
+                <alias pos="v">встречаться</alias>
+                <alias pos="v">встретиться</alias>
+            </aliases>
+            <note>встречать.02 NOTES: Roleset based on English PB verb frame meet.03</note>
+            <note>Corresponds to FrameBank senses 1,2,7,8,9</note>
+            <roles>
+                <role descr="one party" f="PAG" n="0"/>
+                <role descr="other party" f="COM" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="meet.03" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="perfective" src="lingvolive">
+                <text>Они меня встретят на остановке и привезут домой .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Они</arg>
+                    <arg type="ARG1" start="1" end="1">меня</arg>
+                    <rel relloc="2">встретят</rel>
+                    <arg type="ARGM-LOC" start="3" end="4">на остановке</arg>
+                </propbank>
+            </example>
+            <example name="dump someone"
+                     src="Russian National Corpus[Фазиль Искандер. Муки совести, или Байская кровать (1980-1990)]">
+                <text>И вдруг , когда по моим расчётам мне оставалось пить всего неделю , она бросает меня и уходит к
+                    этому дельцу !
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="13" end="13">она</arg>
+                    <rel relloc="14">бросает</rel>
+                    <arg type="ARG1" start="15" end="15">меня</arg>
+                </propbank>
+            </example>
+            <example name="greet" src="framebank.ru">
+                <text>Мы встречали делегацию французских писателей в аэропорту .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Мы</arg>
+                    <rel relloc="1">встречали</rel>
+                    <arg type="ARG1" start="2" end="4">делегацию французских писателей</arg>
+                    <arg type="ARGM-LOC" start="5" end="6">в аэропорту</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as reciprocal"
+                     src="М. Ю. Лермонтов, «Герой нашего времени», 1839—1841 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Я встречаюсь с друзьями по вторникам</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">встречаюсь</rel>
+                    <arg type="ARG1" start="2" end="3">с друзьями</arg>
+                    <arg type="ARGM-TMP" start="4" end="5">по вторникам</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="встречать.03" name="answer, respond to">
+            <aliases>
+                <alias pos="v">встретить</alias>
+            </aliases>
+            <note>встречать.03 NOTES: Roleset based on English PB verb frame meet.05</note>
+            <note>Corresponds to FrameBank senses 3</note>
+            <roles>
+                <role descr="agentive answerer" f="PAG" n="0"/>
+                <role descr="thing met/answered" f="PPT" n="1"/>
+                <role descr="with what" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="meet.05" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="perfective" src="lingvolive">
+                <text>Бойцы встретили неприятеля огнем .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Бойцы</arg>
+                    <rel relloc="1">встретили</rel>
+                    <arg type="ARG1" start="2" end="2">неприятеля</arg>
+                    <arg type="ARG2" start="3" end="3">огнем</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="встречать.04" name="date, a process of dating">
+            <aliases>
+            </aliases>
+            <note>встречать.04 NOTES: Roleset based on English PB verb frame date.02</note>
+            <roles>
+                <role descr="dater" f="PAG" n="0"/>
+                <role descr="dated" f="COM" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="date.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="example" src="">
+                <text>Я встречаюсь с девушкой</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">встречаюсь</rel>
+                    <arg type="ARG1" start="2" end="3">с девушкой</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

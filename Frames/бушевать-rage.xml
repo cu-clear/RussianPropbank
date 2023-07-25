@@ -17,7 +17,9 @@
                 <lexlink class="billow.01" resource="English PropBank" version="3.4"/>
             </lexlinks>
             <example name="ARG1 and ARG2" src="south-sudan.ru (Russian Web 2010)">
-                <text>Судан страдает от гражданских войн , которые бушуют на его территории , на протяжении более 40 лет . </text>
+                <text>Судан страдает от гражданских войн , которые бушуют на его территории , на протяжении более 40 лет
+                    .
+                </text>
                 <propbank>
                     <arg type="ARG1" start="3" end="4">гражданских войн</arg>
                     <rel relloc="7">бушуют</rel>

@@ -1,45 +1,48 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="Окружать">
-    <roleset id="окружать.01" name="Surround">
-      <aliases>
-        <alias pos="v">окружать</alias>
-        <alias pos="v">окружить</alias>
-        <alias pos="j">окружающий</alias>
-        <alias pos="j">окруживший</alias>
-	    </aliases>
-	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	    <note>NOTES: based on English surround.01</note>
-      <roles>
-        <role descr="Causitive Agent" f="PAG" n="0"/>
-        <role descr="Thing Surrounding" f="PPT" n="1"/>
-        <role descr="Thing Surrounded" f="GOL" n="2"/>
-	    </roles>
-      <example name="Arg1 and Arg2" src="RNC, О. А. Щербатова. В стране вулканов (1897)">
-        <text>После завтрака половину палубы окружили сеткой , и мужчины затеяли игру в крикет .</text>
-        <propbank>
-          <arg type="ARG1" start="2" end="3">половину палубы</arg>
-          <rel relloc="4">окружили</rel>
-	        <arg type="ARG2" start="5" end="5">сеткой</arg>
-        </propbank>
-      </example>
-      <example name="Arg0 and Arg2" src="RNC, Московские вести. Побоище между рабочими и городовыми (28.12.1909) // «Русское слово», 1909">
-        <text>Тогда рабочие вернулись , и с угрозами окружили городового .</text>
-        <propbank>
-          <arg type="ARG0" start="1" end="1">рабочие</arg>
-          <rel relloc="7">окружили</rel>
-	        <arg type="ARG1" start="8" end="8">городового</arg>
-        </propbank>
-      </example>
-      <example name="Arg0, Arg1, and Arg2" src="RNC, А. К. Виноградов. Осуждение Паганини (1936)">
-        <text>Он окружает себя молодыми учениками , которым он раздает патенты на гениальность при том условии , что они обещают ему травить вас .</text>
-        <propbank>
-          <arg type="ARG0" start="0" end="0">Он</arg>
-          <rel relloc="1">окружает</rel>
-	        <arg type="ARG1" start="2" end="2">себя</arg>
-	        <arg type="ARG2" start="3" end="4">молодыми учениками</arg>
-        </propbank>
-      </example>
-	  </roleset>
-  </predicate>
+    <predicate lemma="Окружать">
+        <roleset id="окружать.01" name="Surround">
+            <aliases>
+                <alias pos="v">окружать</alias>
+                <alias pos="v">окружить</alias>
+                <alias pos="j">окружающий</alias>
+                <alias pos="j">окруживший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English surround.01</note>
+            <roles>
+                <role descr="Causitive Agent" f="PAG" n="0"/>
+                <role descr="Thing Surrounding" f="PPT" n="1"/>
+                <role descr="Thing Surrounded" f="GOL" n="2"/>
+            </roles>
+            <example name="Arg1 and Arg2" src="RNC, О. А. Щербатова. В стране вулканов (1897)">
+                <text>После завтрака половину палубы окружили сеткой , и мужчины затеяли игру в крикет .</text>
+                <propbank>
+                    <arg type="ARG1" start="2" end="3">половину палубы</arg>
+                    <rel relloc="4">окружили</rel>
+                    <arg type="ARG2" start="5" end="5">сеткой</arg>
+                </propbank>
+            </example>
+            <example name="Arg0 and Arg2"
+                     src="RNC, Московские вести. Побоище между рабочими и городовыми (28.12.1909) // «Русское слово», 1909">
+                <text>Тогда рабочие вернулись , и с угрозами окружили городового .</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">рабочие</arg>
+                    <rel relloc="7">окружили</rel>
+                    <arg type="ARG1" start="8" end="8">городового</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, А. К. Виноградов. Осуждение Паганини (1936)">
+                <text>Он окружает себя молодыми учениками , которым он раздает патенты на гениальность при том условии ,
+                    что они обещают ему травить вас .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">окружает</rel>
+                    <arg type="ARG1" start="2" end="2">себя</arg>
+                    <arg type="ARG2" start="3" end="4">молодыми учениками</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>
