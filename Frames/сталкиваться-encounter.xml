@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Слово">
+    <roleset id="сталкиваться.01" name="Encounter, meet, bump into, come upon">
+      <aliases>
+        <alias pos="v">сталкиваться</alias>
+        <alias pos="v">столкнуться</alias>
+        <alias pos="j">сталкивающийся</alias>
+        <alias pos="j">столкнувшийся</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English encounter.01</note>
+      <roles>
+        <role descr="Entity encountering" f="PAG" n="0"/>
+        <role descr="Entity encountered" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1, more literal" src="RNC, О. М. Седых. Теория сказки в киносценариях. Теоретик культуры Оксана Седых о применении теории фольклора в кинематографе, стандартных элементах нарратива в массовом кино и их инверсии в артхаусе (2018.12) // 2018">
+        <text>Герой сталкивается с антагонистом и одерживает победу .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Герой</arg>
+          <rel relloc="?">сталкивается</rel>
+	        <arg type="ARG1" start="?" end="?">с антагонистом</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1, less literal" src="RNC, Евгения Власова. Дети и смерть // «Домовой», 2002.08.04">
+        <text>Повзрослев , они неизбежно столкнутся со смертью , предательством , несправедливостью .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">они</arg>
+          <rel relloc="?">столкнутся</rel>
+	        <arg type="ARG1" start="?" end="?">со смертью , предательством , несправедливостью</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

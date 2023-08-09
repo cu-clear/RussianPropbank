@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Лечить">
+    <roleset id="лечить.01" name="Treat (medically), heal">
+      <aliases>
+        <alias pos="v">лечить</alias>
+        <alias pos="v">полечить</alias>
+        <alias pos="j">лечащий</alias>
+        <alias pos="j">полечивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English treat.03</note>
+      <roles>
+        <role descr="Agent, doctor" f="PAG" n="0"/>
+        <role descr="Patient, the ill" f="PPT" n="1"/>
+        <role descr="Illness or injury" f="PPT" n="2"/>
+        <role descr="Medecine, instrument" f="MNR" n="3"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Н. В. Нестерова. Избранник Евы (2006)">
+        <text>Пусть мама тебя полечит , а если бабушка станет …</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">мама</arg>
+	        <arg type="ARG1" start="?" end="?">тебя</arg>
+          <rel relloc="?">полечит</rel>
+        </propbank>
+      </example>
+      <example name="Arg1 and Arg2" src="RNC, Дина Гаврилова. Бабье счастье // «Бельские просторы», 2018]">
+        <text>Там лечили народ со всего Союза от туберкулёза лёгких .</text>
+        <propbank>
+          <rel relloc="?">лечили</rel>
+	        <arg type="ARG1" start="?" end="?">народ со всего Союза</arg>
+	        <arg type="ARG2" start="?" end="?">от туберкулёза лёгких</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Дарья Рощеня. Горел, горел работой и… сгорел! (2017.06) // 2017">
+        <text>Понимаете , не всегда мы лечим людей лекарствами .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">мы</arg>
+          <rel relloc="?">лечим</rel>
+	        <arg type="ARG1" start="?" end="?">людей</arg>
+	        <arg type="ARG3" start="?" end="?">лекарствами</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

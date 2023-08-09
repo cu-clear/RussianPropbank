@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Сбрасывать">
+    <roleset id="сбрасывать.01" name="Drop, throw downdwards">
+      <aliases>
+        <alias pos="v">сбрасывать</alias>
+        <alias pos="v">сбросить</alias>
+        <alias pos="j">сбрасывающий</alias>
+        <alias pos="j">сброшенный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English drop.05</note>
+      <roles>
+        <role descr="Agent, thrower" f="PAG" n="0"/>
+        <role descr="thing thrown" f="PPT" n="1"/>
+        <role descr="Source, from whence thrown" f="DIR" n="2"/>
+        <role descr="Goal, location thrown to, target" f="GOL" n="3"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, М. Ю. Лермонтов. Герой нашего времени (1839-1841)">
+        <text>На первых трех шагах он тебя сбросит , и ты разобьешь себе затылок об камни .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Он</arg>
+	        <arg type="ARG1" start="?" end="?">тебя</arg>
+          <rel relloc="?">сбросит</rel>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Фазиль Искандер. Бедный демагог (1969)">
+        <text>Он сбросил муху с кисти руки и снова надел шапку .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Он</arg>
+          <rel relloc="?">сбросил</rel>
+	        <arg type="ARG1" start="?" end="?">муху</arg>
+	        <arg type="ARG2" start="?" end="?">с кисти руки</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg3" src="RNC, Фазиль Искандер. Чик чтит обычаи (1967)">
+        <text>Потом в эту же реку я сбросил его ремень и винтовку .</text>
+        <propbank>
+          <arg type="ARG3" start="?" end="?">в эту же реку</arg>
+	        <arg type="ARG0" start="?" end="?">я</arg>
+          <rel relloc="?">сбросил</rel>
+	        <arg type="ARG1" start="?" end="?">его ремень и винтовку</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Дина Рубина. Русская канарейка. Блудный сын (2014)">
+        <text>А подобный балласт наши кормчие живо сбрасывают с лодки .</text>
+        <propbank>
+          <arg type="ARG1" start="?" end="?">подобный балласт</arg>
+	        <arg type="ARG0" start="?" end="?">наши кормчие</arg>
+          <rel relloc="?">сбрасывают</rel>
+	        <arg type="ARG2" start="?" end="?">с лодки</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Затапливать">
+    <roleset id="затапливать.01" name="Flood, inundate, cover area in liquid">
+      <aliases>
+        <alias pos="v">затапливать</alias>
+        <alias pos="v">затопить</alias>
+        <alias pos="j">затопливающий</alias>
+        <alias pos="j">затопивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English flood.01</note>
+      <roles>
+        <role descr="Causer of Flood, agent" f="PAG" n="0"/>
+        <role descr="Location or area flooded" f="GOL" n="1"/>
+        <role descr="Liquid, water" f="PPT" n="2"/>
+	    </roles>
+      <example name="Arg1 and Arg2, literal" src="RNC, Екатерина Боярина. Подъем! // «Столица», 1997.01.06">
+        <text>На Урале затопило грунтовыми водами бокситовый карьер , задвижку не закрыли .</text>
+        <propbank>
+          <rel relloc="?">затопило</rel>
+	        <arg type="ARG2" start="?" end="?">грунтовыми водами</arg>
+	        <arg type="ARG1" start="?" end="?">бокситовый карьер</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2, figurative" src="RNC, Иван Котов. Старорусские хиппи против православной церкви. Почему попы боролись со смехом и скоморохами на Руси (2019.03)">
+        <text>Невеста затапливала деревню в плаче , когда покидала родной дом .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Невеста</arg>
+          <rel relloc="?">затапливала</rel>
+	        <arg type="ARG1" start="?" end="?">деревню</arg>
+	        <arg type="ARG2" start="?" end="?">в плаче</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

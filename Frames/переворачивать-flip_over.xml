@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Переворачивать">
+    <roleset id="переворачивать.01" name="Turn over, flip over, invert">
+      <aliases>
+        <alias pos="v">переворачивать</alias>
+        <alias pos="v">перевернуть</alias>
+        <alias pos="j">переворачивающий</alias>
+        <alias pos="j">перевернувший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English  flip_over.04</note>
+      <roles>
+        <role descr="Flipper, agent" f="PAG" n="0"/>
+        <role descr="Thing flipped" f="PPT" n="1"/>
+        <role descr="Manner, direction, orientation" f="MNR" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Валерий Писигин. Письма с Чукотки // «Октябрь», 2001">
+        <text>Бывает , кит переворачивает лодку , и охотники гибнут прямо на глазах родных и близких , которые наблюдают за охотой с обрыва .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">кит</arg>
+          <rel relloc="?">переворачивает</rel>
+	        <arg type="ARG1" start="?" end="?">лодку</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Михаил Елизаров. Библиотекарь (2007)">
+        <text>Чей-то сапог перевернул меня лицом наверх .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Чей-то сапог</arg>
+          <rel relloc="?">перевернул</rel>
+	        <arg type="ARG1" start="?" end="?">меня</arg>
+	        <arg type="ARG2" start="?" end="?">лицом наверх</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Г. Д. Катанян. Азорские острова (1955-1990)">
+        <text>Он немедленно переворачивает стул спинкой к себе и садится верхом .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Он</arg>
+          <rel relloc="?">переворачивает</rel>
+	        <arg type="ARG1" start="?" end="?">стул</arg>
+	        <arg type="ARG2" start="?" end="?">спинкой к себе</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

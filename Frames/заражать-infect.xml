@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Заражать">
+    <roleset id="заражать.01" name="Infect, contaminate">
+      <aliases>
+        <alias pos="v">заражать</alias>
+        <alias pos="v">заразить</alias>
+        <alias pos="j">заражающий</alias>
+        <alias pos="j">заразивший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English contaminate.01</note>
+      <roles>
+        <role descr="Causer of infection" f="PAG" n="0"/>
+        <role descr="Thing being infected" f="GOL" n="1"/>
+        <role descr="Infectant, germ" f="PPT" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Алексей К. Смирнов. Кузница милосердия // «Сибирские огни», 2012">
+        <text>— Ну да , именно это и выходит . — И это он меня , получается , заразил ? — Да - да , получается .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">он</arg>
+	        <arg type="ARG1" start="?" end="?">меня</arg>
+          <rel relloc="?">заразил</rel>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, Ю. О. Домбровский. Хранитель древностей, часть 1 (1964)">
+        <text>Он хлеб клещом заражал , а мы его рядом с Лысенко повесили .]</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Он</arg>
+	        <arg type="ARG1" start="?" end="?">хлеб</arg>
+	        <arg type="ARG2" start="?" end="?">клещом</arg>
+          <rel relloc="?">заражал</rel>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

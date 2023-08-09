@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Продолжать">
+    <roleset id="продолжать.01" name="Continue, proceed, keep going">
+      <aliases>
+        <alias pos="v">продолжать</alias>
+        <alias pos="v">продолжить</alias>
+        <alias pos="j">продолжающий</alias>
+        <alias pos="j">продолживший</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English continue.01</note>
+      <roles>
+        <role descr="Causer of continuation" f="PAG" n="0"/>
+        <role descr="Thing, event, action continued" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Наталья Дубова. Орбита Лаврова // «Computerworld», 2004">
+        <text>Несмотря на возраст , он продолжал участвовать в научной жизни , выступал с докладами , писал книги .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">он</arg>
+          <rel relloc="?">продолжал</rel>
+	        <arg type="ARG1" start="?" end="?">участвовать в научной жизни</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1" src="RNC, Дмитрий Сафонов. Шашка для патриарха. Советский маршал к юбилею получил российский орден // «Известия», 2001.07.01">
+        <text>И после увольнения в запас маршал продолжил активно работать — в 1994 году он возглавил Фонд 50 - летия Победы .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">маршал</arg>
+          <rel relloc="?">продолжил</rel>
+	        <arg type="ARG1" start="?" end="?">активно работать</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

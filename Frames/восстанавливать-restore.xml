@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Восстанавливать">
+    <roleset id="восстанавливать.01" name="Restore, recover">
+      <aliases>
+        <alias pos="v">восстанавливать</alias>
+        <alias pos="v">восстановить</alias>
+        <alias pos="j">восстанавливающий</alias>
+        <alias pos="j">восстановленный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English restore.01</note>
+      <roles>
+        <role descr="Resotorer, Agent" f="PAG" n="0"/>
+        <role descr="Thing Restored" f="PPT" n="1"/>
+        <role descr="Benefactive, restored-to" f="GOL" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Л. А. Данилкин. Ленин: Пантократор солнечных пылинок (2017)">
+        <text>Впрочем , в частной переписке он восстанавливал баланс ;</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">он</arg>
+          <rel relloc="?">восстанавливал</rel>
+	        <arg type="ARG1" start="?" end="?">баланс</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, В. Я. Пропп. Исторические корни волшебной сказки (1946)">
+        <text>Он восстанавливает себе ноги и возвращается домой .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Он</arg>
+          <rel relloc="?">восстанавливает</rel>
+	        <arg type="ARG1" start="?" end="?">себе</arg>
+	        <arg type="ARG2" start="?" end="?">ноги</arg>
+        </propbank>
+      </example>
+      
+      <example name="Arg2 and Arg1" src="RNC, Сергей Шаргунов. Изношенная страна (2011)">
+        <text>Парню восстановили украденный паспорт и вернули в родной город в Пензенской области , помогли устроиться на работу , он благодарит судьбу .</text>
+        <propbank>
+          <arg type="ARG2" start="?" end="?">Парню</arg>
+          <rel relloc="?">восстановили</rel>
+	        <arg type="ARG1" start="?" end="?">украденный паспорт</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>
