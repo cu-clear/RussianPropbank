@@ -34,10 +34,10 @@
       <example name="Arg0, Arg1, and Arg2, it seems this construction in literature is rare, be careful not to confuse GOL or LOC args that belong to the predicate of arg1." src="RNC, Анатолий Карташкин. Полтергейст на Самотечной // «Техника - молодежи», 1991">
         <text>Поэтому мы бросились к окнам — звать на помощь .</text>
         <propbank>
-          <arg type="ARG0" start="?" end="?">Sмыpan</arg>
+          <arg type="ARG0" start="?" end="?">мы</arg>
           <rel relloc="?">бросились</rel>
 	        <arg type="ARG2" start="?" end="?">к окнам</arg>
-	        <arg type="ARG3" start="?" end="?">вать на помощь</arg>
+	        <arg type="ARG3" start="?" end="?">звать на помощь</arg>
         </propbank>
       </example>
       <example name="Arg0 and Arg1, where the LOC or GOL actually belongs to Arg1" src="RNC, Сергей Седов. Доброе сердце Робина // «Мурзилка», 2002">
