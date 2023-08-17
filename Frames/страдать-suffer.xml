@@ -3,7 +3,7 @@
 <frameset>
     <predicate lemma="пострадать">
         <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-        <roleset id="пострадать.01" name="suffer, endure">
+        <roleset id="страдать.01" name="suffer, endure">
             <aliases>
                 <alias pos="v">страдать</alias>
                 <alias pos="j">страдающий</alias>
@@ -15,11 +15,11 @@
             <note>ПОСТРАДАТЬ.01 NOTES: Based on English suffer.01</note>
             <roles>
                 <role descr="entity suffering" f="PPT" n="0"/>
+                <role descr="malady" f="PPT" n="1"/>
             </roles>
             <lexlinks>
                 <lexlink class="suffer.01" resource="English PropBank" version="3.4"/>
             </lexlinks>
-            <note>English Arg1-PAG has no match in Russian Frame</note>
             <example name="suffer" src="">
                 <text>Кто - то пострадал .</text>
                 <propbank>
@@ -27,17 +27,12 @@
                     <rel relloc="3">пострадал</rel>
                 </propbank>
             </example>
-            <example name="suffer because of" src="">
-                <text>А всего от нее пострадали посевы сельскохозяйственных культур в 23 районах на общей площади 238,3
-                    тысячи гектаров .
-                </text>
+            <example name="Arg0 and Arg1" src="RNC, Вера Елгаева. Бессонница // «100% здоровья», 2003.03.01">
+                <text>В наше время бессонницей страдают около 10 % населения развитых стран .</text>
                 <propbank>
-                    <arg type="ARGM-DIS" start="0" end="0">А</arg>
-                    <arg type="ARGM-CAU" start="2" end="3">от нее</arg>
-                    <rel relloc="4">пострадали</rel>
-                    <arg type="ARG0" start="5" end="16">посевы сельскохозяйственных культур в 23 районах на общей
-                        площади 238,3 тысячи гектаров
-                    </arg>
+                    <arg type="ARG1" start="3" end="3">бессонницей</arg>
+                    <rel relloc="4">страдают</rel>
+                    <arg type="ARG0" start="5" end="10">около 10 % населения развитых стран</arg>
                 </propbank>
             </example>
         </roleset>
