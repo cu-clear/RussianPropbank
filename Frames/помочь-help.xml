@@ -1,73 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="помочь">
-  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-	<roleset id="помочь.01" name="help">
-	  <aliases>
-		<alias framenet="" pos="j" verbnet="">помогший</alias>
-		<alias framenet="" pos="v" verbnet="">помогши</alias>
-		<alias framenet="" pos="v" verbnet="">помогать</alias>
-		<alias framenet="" pos="j" verbnet="">помогающий</alias>
-		<alias framenet="" pos="j" verbnet="">помогавший</alias>
-		<alias framenet="" pos="v" verbnet="">помогая</alias>
-		<alias framenet="" pos="v" verbnet="">помогав</alias>
-		<alias framenet="" pos="v" verbnet="">помогавши</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses 1,2</note>
-	  <note>помочь.01 NOTES: Based on help.01</note>	  
-	  <roles>
-		<role descr="helper" f="PAG" n="0">
-		</role>
-		<role descr="project" f="PPT" n="1">
-		</role>
-		<role descr="benefactive, secondary agent" f="GOL" n="2">
-		</role>
-	  </roles>
-	  <example name="help with something" src="" type="">
-		<text>Я помогу маме с домашним хозяйством .</text>
-		<arg f="" n="0">Я</arg>
-		<rel f="">помогу</rel>
-		<arg f="" n="2">маме</arg>
-		<arg f="" n="1">с домашним хозяйством</arg>
-	  </example>
-	  <example name="help how" src="" type="">
-		<text>Помогите советом , надо ли что-то делать срочно ?</text>
-		<rel f="">Помогите</rel>
-		<arg f="mnr" n="m">советом</arg>
-	  </example>
-	  <example name="help do something" src="" type="">
-		<text>книга рулит…в свое время помогла мне справиться со многими комплексами в ЭТОМ плане… хорошая, душевная , лучше чем " камасутра " и нужнее , особенно начинающим ))</text>
-		<arg f="tmp" n="m">в свое время</arg>
-		<rel f="">помогла</rel>
-		<arg f="" n="2">мне</arg>
-		<arg f="" n="1">справиться со многими комплексами в ЭТОМ плане…</arg>
-	  </example>
-	</roleset>
-	
-	<roleset id="помочь.02" name="heal">
-	  <aliases>
-		<alias framenet="" pos="j" verbnet="">помогший</alias>
-		<alias framenet="" pos="v" verbnet="">помогши</alias>
-	  </aliases>  
-	  <note>Corresponds to FrameBank sense 3</note>
-	  <roles>
-		<role descr="healing entity" f="PAG" n="0">
-		</role>
-		<role descr="sickness, sick entity" f="PPT" n="1">
-		</role>
-	  </roles>
-	  <example name="medicine allievate" src="" type="">
-		<text>Аспирин не помог с мигрейном.</text>
-		<arg f="" n="0">Аспирин</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">помог</rel>
-		<arg f="" n="1">с мигрейном</arg>
-	  </example>
-	  <example name="intransitive" src="В. А. Обручев, «От Кяхты до Кульджи. Путешествие в Центральную Азию и Китай», 1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-		<text>Утром больной явился ко мне повеселевший и сообщил , что лекарство помогло .</text>
-		<arg f="" n="0">лекарство</arg>
-		<rel f="">помогло</rel>
-	  </example>
-	</roleset>
-  </predicate>
+    <predicate lemma="помочь">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="помочь.01" name="help">
+            <aliases>
+                <alias pos="j">помогший</alias>
+                <alias pos="v">помогши</alias>
+                <alias pos="v">помогать</alias>
+                <alias pos="j">помогающий</alias>
+                <alias pos="j">помогавший</alias>
+                <alias pos="v">помогая</alias>
+                <alias pos="v">помогав</alias>
+                <alias pos="v">помогавши</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2</note>
+            <note>помочь.01 NOTES: Based on help.01</note>
+            <roles>
+                <role descr="helper" f="PAG" n="0"/>
+                <role descr="project" f="PPT" n="1"/>
+                <role descr="benefactive, secondary agent" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="help.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="help with something" src="">
+                <text>Я помогу маме с домашним хозяйством .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">помогу</rel>
+                    <arg type="ARG2" start="2" end="2">маме</arg>
+                    <arg type="ARG1" start="3" end="5">с домашним хозяйством</arg>
+                </propbank>
+            </example>
+            <example name="help how" src="">
+                <text>Помогите советом , надо ли что - то делать срочно ?</text>
+                <propbank>
+                    <rel relloc="0">Помогите</rel>
+                    <arg type="ARGM-MNR" start="1" end="1">советом</arg>
+                </propbank>
+            </example>
+            <example name="help do something" src="">
+                <text>книга рулит … в свое время помогла мне справиться со многими комплексами в ЭТОМ плане … хорошая ,
+                    душевная , лучше чем " камасутра " и нужнее , особенно начинающим ) )
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="3" end="5">в свое время</arg>
+                    <rel relloc="6">помогла</rel>
+                    <arg type="ARG2" start="7" end="7">мне</arg>
+                    <arg type="ARG1" start="8" end="15">справиться со многими комплексами в ЭТОМ плане …</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="помочь.02" name="heal">
+            <aliases>
+                <alias pos="j">помогший</alias>
+                <alias pos="v">помогши</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 3</note>
+            <roles>
+                <role descr="healing entity" f="PAG" n="0"/>
+                <role descr="sickness, sick entity" f="PPT" n="1"/>
+            </roles>
+            <example name="medicine allievate" src="">
+                <text>Аспирин не помог с мигрейном .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Аспирин</arg>
+                    <arg type="ARGM-NEG" start="1" end="1">не</arg>
+                    <rel relloc="2">помог</rel>
+                    <arg type="ARG1" start="3" end="4">с мигрейном</arg>
+                </propbank>
+            </example>
+            <example name="intransitive"
+                     src="В. А. Обручев, «От Кяхты до Кульджи. Путешествие в Центральную Азию и Китай», 1940 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Утром больной явился ко мне повеселевший и сообщил , что лекарство помогло .</text>
+                <propbank>
+                    <arg type="ARG0" start="10" end="10">лекарство</arg>
+                    <rel relloc="11">помогло</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

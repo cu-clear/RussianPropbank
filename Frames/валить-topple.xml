@@ -1,0 +1,92 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="Валить">
+        <roleset id="валить.01" name="Topple, knowck down to the ground">
+            <aliases>
+                <alias pos="v">валить</alias>
+                <alias pos="v">повалить</alias>
+                <alias pos="v">свалить</alias>
+                <alias pos="j">валящий</alias>
+                <alias pos="j">поваленный</alias>
+                <alias pos="j">сваленный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English topple.01</note>
+            <roles>
+                <role descr="Agnet, toppler" f="PAG" n="0"/>
+                <role descr="Thing being Toppled" f="PPT" n="1"/>
+                <role descr="Ground, end point" f="GOL" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, В. Т. Шаламов. Колымские рассказы (1954-1961)">
+                <text>Сильная буря легко валила слабые на ногах деревья .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Сильная буря</arg>
+                    <rel relloc="3">валила</rel>
+                    <arg type="ARG1" start="4" end="7">слабые на ногах деревья</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, А. С. Пушкин. Дубровский (1833)">
+                <text>Он повалил Сашу на земь и схватил его за горло .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">повалил</rel>
+                    <arg type="ARG1" start="2" end="2">Сашу</arg>
+                    <arg type="ARG2" start="3" end="4">на земь</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="валить.02" name="move in an untidy fashion, pile out, surge">
+            <aliases>
+                <alias pos="v">валить</alias>
+                <alias pos="v">повалить</alias>
+                <alias pos="j">валящий</alias>
+                <alias pos="j">поваленный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English pile.03 ; This is also often used for steam and smoke, I am unsire if this
+                needs its own frame or can co-exist within this one. -R
+            </note>
+            <roles>
+                <role descr="Crowd, thing moving" f="PAG" n="0"/>
+                <role descr="Destination" f="GOL" n="1"/>
+                <role descr="Source, place coming from" f="DIR" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg2" src="RNC, Юрий Петкевич. Возвращение на родину (2001)">
+                <text>Народ повалил из хат .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Народ</arg>
+                    <rel relloc="1">повалил</rel>
+                    <arg type="ARG2" start="2" end="3">из хат</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, Ю. О. Домбровский. Хранитель древностей, часть 2 (1964)">
+                <text>Весь город теперь к ним валит , ― повернулся он к Зое Михайловне .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Весь город</arg>
+                    <arg type="ARG1" start="3" end="4">к ним</arg>
+                    <rel relloc="5">валит</rel>
+                </propbank>
+            </example>
+            <example name="Arg0 and Arg1" src="RNC, В. П. Астафьев. Не хватает сердца (2015)">
+                <text>Из трубы повалил жирный дым , в избушке сделалось душно .</text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="1">Из трубы</arg>
+                    <rel relloc="2">повалил</rel>
+                    <arg type="ARG0" start="3" end="4">жирный дым</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2"
+                     src="RNC, В. В. Крестовский. Петербургские трущобы. Книга о сытых и голодных. Ч. 5 (1867)">
+                <text>Из незатворенной двери перекусочного подвала валил на улицу пар , которым густо была пропитана
+                    атмосфера этой берлоги ...
+                </text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="4">Из незатворенной двери перекусочного подвала</arg>
+                    <rel relloc="5">валил</rel>
+                    <arg type="ARG1" start="6" end="7">на улицу</arg>
+                    <arg type="ARG0" start="8" end="8">пар</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

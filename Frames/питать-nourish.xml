@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Питать">
+    <roleset id="питать.01" name="Nourish, feed">
+      <aliases>
+        <alias pos="v">питать</alias>
+        <alias pos="v">напитать</alias>
+        <alias pos="j">питающий</alias>
+        <alias pos="j">напитанный</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English nourish.01</note>
+      <roles>
+        <role descr="Causal Agent" f="PAG" n="0"/>
+        <role descr="Entity fed or maintained" f="PPT" n="1"/>
+        <role descr="Nourishment or sustenance" f="MNR" n="2"/>
+	    </roles>
+      <example name="Arg1 and Arg2, arg0 is pro-dropped" src="RNC, Ю. М. Нагибин. Беглец (1977)">
+        <text>Напитаю твою плоть нищую Самой вкусной и сытной пищею .</text>
+        <propbank>
+          <rel relloc="?">Напитаю</rel>
+          <arg type="ARG0" start="?" end="?">твою плоть нищую</arg>
+	        <arg type="ARG1" start="?" end="?">Самой вкусной и сытной пищею</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2, less literal, which (ironically) is more common in literature." src="RNC, Владимир Будников. Четырежды романтическая душа // «Дальний Восток», 2019">
+        <text>Она питала его своей , казалось , неиссякаемой энергией .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Она</arg>
+          <rel relloc="?">питала</rel>
+	        <arg type="ARG1" start="?" end="?">Arg1</arg>
+	        <arg type="ARG2" start="?" end="?">своей , казалось , неиссякаемой энергией</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

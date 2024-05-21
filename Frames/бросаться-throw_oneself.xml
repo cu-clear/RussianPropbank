@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Бросаться">
+    <roleset id="бросаться.01" name="Rush, thorw oneself">
+      <aliases>
+        <alias pos="v">бросаться</alias>
+        <alias pos="v">броситься</alias>
+        <alias pos="j">бросающийся</alias>
+        <alias pos="j">бросившийся</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English rush.01</note>
+      <roles>
+        <role descr="Agent" f="PAG" n="0"/>
+        <role descr="Secondary action of arg0 or path" f="LOC" n="1"/>
+        <role descr="Goal or target, place where arg1 must be done" f="GOL" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, Сергей Козлов. Как Ёжик с Медвежонком спасли Волка // «Мурзилка», 2003">
+        <text>Медвежонок бросился помогать , и они вдвоем еле-еле стянули две половинки Земли и завязали веревку крепким узлом .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Медвежонок</arg>
+          <rel relloc="?">бросился</rel>
+	        <arg type="ARG1" start="?" end="?">помогать</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg2" src="RNC, Владимир Шахиджанян. 1001 вопрос про ЭТО (№№ 501-1001) (1999)">
+        <text>Охотник вновь бросается домой , обвешивается гранатами .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Охотник</arg>
+          <rel relloc="?">бросается</rel>
+	        <arg type="ARG1" start="?" end="?">домой</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2, it seems this construction in literature is rare, be careful not to confuse GOL or LOC args that belong to the predicate of arg1." src="RNC, Анатолий Карташкин. Полтергейст на Самотечной // «Техника - молодежи», 1991">
+        <text>Поэтому мы бросились к окнам — звать на помощь .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">мы</arg>
+          <rel relloc="?">бросились</rel>
+	        <arg type="ARG2" start="?" end="?">к окнам</arg>
+	        <arg type="ARG3" start="?" end="?">звать на помощь</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1, where the LOC or GOL actually belongs to Arg1" src="RNC, Сергей Седов. Доброе сердце Робина // «Мурзилка», 2002">
+        <text>Робин бросился бежать к великаньей горе .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Робин</arg>
+          <rel relloc="?">бросился</rel>
+	        <arg type="ARG1" start="?" end="?">бежать к великаньей горе</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

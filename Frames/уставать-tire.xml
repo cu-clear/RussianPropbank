@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="уставать">
+        <roleset id="уставать.01" name="tire, to be physically spent, to be sleepy, or even disinterested">
+            <aliases>
+                <alias pos="v">уставать</alias>
+                <alias pos="v">устать</alias>
+                <alias pos="j">устающий</alias>
+                <alias pos="j">устававший</alias>
+                <alias pos="j">уставший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English tire.01</note>
+            <roles>
+                <role descr="causer of tiredness, sleepiness" f="PAG" n="0"/>
+                <role descr="tired entity" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="tire.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG 1 only" src="RNC, Новый Мир, 2002 N9">
+                <text>Ирина вначале уставала , потом привыкла .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Ирина</arg>
+                    <rel relloc="2">уставала</rel>
+                </propbank>
+            </example>
+            <example name="ARG0 and 1" src="RNC, «Известия», 24.09.2001">
+                <text>Актёры устают от однообразия .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Актёры</arg>
+                    <rel relloc="1">устают</rel>
+                    <arg type="ARG0" start="3" end="3">однообразия</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="уставать.02" name="cause to not want to put up with anymore">
+            <aliases>
+                <alias pos="v">уставать</alias>
+                <alias pos="v">устать</alias>
+                <alias pos="j">устающий</alias>
+                <alias pos="j">устававший</alias>
+                <alias pos="j">уставший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English tire.03</note>
+            <roles>
+                <role descr="tired entity" f="PAG" n="0"/>
+                <role descr="what arg0 doesn't want to put up with anymore" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="tire.03" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG0 and 1" src="RNC, Запись LiveJournal">
+                <text>... но видимо просто я слишком устала стучать .</text>
+                <propbank>
+                    <arg type="ARG0" start="4" end="4">я</arg>
+                    <rel relloc="6">устала</rel>
+                    <arg type="ARG1" start="7" end="7">стучать</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

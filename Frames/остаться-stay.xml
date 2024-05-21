@@ -1,188 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="остаться">
-	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-	<roleset id="остаться.01" name="stay, visit">
-	  <aliases>
-		<alias framenet="" pos="v" verbnet="">оставаться</alias>
-		<alias framenet="" pos="j" verbnet="">оставшийся</alias>
-		<alias framenet="" pos="j" verbnet="">остающийся</alias>
-		<alias framenet="" pos="j" verbnet="">остававшийся</alias>
-	</aliases>
-	<note>Corresponds to FrameBank sense 1</note>
-	<note>остаться.01 NOTES: Based on stay.01</note>
-	<roles>
-		<role descr="thing remaining" f="PPT" n="1">
-		</role>
-		<role descr="benefactive, rare" f="GOL" n="2">
-		</role>
-		<role descr="attribute of arg1: state, location stayed in" f="PRD" n="3"/>
-	</roles>
-	  <example name="visit, stay with" src="" type="">
-		<text>Я остался с родителями .</text>
-		<arg f="" n="1">Я</arg>
-		<rel f="">остался</rel>
-		<arg f="" n="3">с родителями</arg>
-	  </example>
-	  <example name="remain" src="" type="">
-		<text>Пенсионеры , которые остались в городе , но спать спокойно не могли , пришли на избирательные участки за полчаса до появления на них первых членов комиссий — в 6.30 утра .</text>
-		<arg f="" n="1">которые</arg>
-		<rel f="">остались</rel>
-		<arg f="" n="3">в городе</arg>
-	  </example>
-	  <example name="remains where" src="" type="">
-		<text>ОА ИВС навсегда останется в истории как величайший лидер великой державы .</text>
-		<arg f="" n="1">ОА ИВС</arg>
-		<rel f="">останется</rel>
-		<arg f="" n="3">в истории</arg>
-	  </example>
-	  <example name="all args, be left with" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=остаться&amp;cxid=5819" type="">
-		<text>Две старших сестры разобрали на себя всю красоту , и Кларе не осталось ни красивости, ни даже миловидности .</text>
-		<arg f="" n="2">Кларе</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">осталось</rel>
-		<arg f="" n="1">ни красивости, ни даже миловидности</arg>
-	  </example>
-	  <example name="debt remaining" src="" type="">
-		<text>Кот остался за вдовой .</text>
-		<arg f="" n="1">Кот</arg>
-		<rel f="">остался</rel>
-		<arg f="" n="2">за вдовой</arg>
-	  </example>
-	</roleset>
-
-	<roleset id="остаться.02" name="leave, remain, resulting from an event or situation">
-	  <aliases>
-		<alias framenet="" pos="v" verbnet="">оставаться</alias>
-		<alias framenet="" pos="j" verbnet="">оставшийся</alias>
-		<alias framenet="" pos="j" verbnet="">остающийся</alias>
-		<alias framenet="" pos="j" verbnet="">остававшийся</alias>
-		<alias framenet="" pos="v" verbnet="">оставить</alias>
-	</aliases>
-	<note>Corresponds to FrameBank senses 2,5,6</note>
-	<note>остаться.02 NOTES: Based on leave.13</note>
-	<roles>
-		<role descr="event/condition causing arg2 to happen" f="PAG" n="0"/>
-		<role descr="entity in state" f="PPT" n="1"/>
-		<role descr="new state (may involve concatenation)" f="PRD" n="2"/>
-	</roles>
-	<note>English ARG1 = Russian ARG2</note>
-	<note>Russian ARG1 has no match in English frame</note>
-	  <example name="left with nothing" src="" type="">
-		<text>Так я остался ни с чем .</text>
-		<arg f="dis" n="m">Так</arg>
-		<arg f="" n="1">я</arg>
-		<rel f="">остался</rel>
-		<arg f="" n="2">ни с чем</arg>
-	  </example>
-	  <example name="keep my own opinion" src="" type="">
-		<text>В конце концов , я решил прекратить все споры и остаться при своем мнении .</text>
-		<rel f="">остаться</rel>
-		<arg f="" n="2">при своем мнении</arg>
-	  </example>
-	  <example name="remained alive" src="" type="">
-		<text>Все дети остались живы , старшая девочка , Таня Бланк , получила легкое ранение в ногу .</text>
-		<arg f="" n="1">Все дети</arg>
-		<rel f="">остались</rel>
-		<arg f="" n="2">живы</arg>
-	  </example>
-	  <example name="remained a living miracle" src="" type="">
-		<text>Кот остался живым чудом .</text>
-		<arg f="" n="1">Кот</arg>
-		<rel f="">остался</rel>
-		<arg f="" n="2">живым чудом</arg>
-	  </example>
-	  <example name="left with a nose (nothing)" src="[Василий Дубовский. Хижина дяди Саши (2013.04.12) // «Новгородские ведомости», 2013" type="">
-		<text>Но трудно не согласиться и с Александром Михайловым, когда он говорит, что надо работать с людьми, чтобы они не оставались с носом, по крайней мере, когда государство о них заботится.</text>
-		<arg f="" n="1">они</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">оставались</rel>
-		<arg f="" n="2">с носом</arg>
-	  </example>
-	  <example name="leave as is" src="" type="">
-		<text>Оставим все как есть</text>
-		<rel f="">Оставим</rel>
-		<arg f="" n="2">все как есть</arg>
-	  </example>
-	</roleset>
-	
-	<roleset id="остаться.03" name="exist or remain (potentially after others were removed">
-	  <aliases>
-		<alias framenet="" pos="v" verbnet="">оставаться</alias>
-		<alias framenet="" pos="j" verbnet="">оставшийся</alias>
-		<alias framenet="" pos="j" verbnet="">остающийся</alias>
-		<alias framenet="" pos="j" verbnet="">остававшийся</alias>
-	</aliases>
-	<note>Corresponds to FrameBank senses 3,4</note>
-	<note>остаться.03 NOTES: Based on leave.17</note>	
-	<roles>
-		<role descr="enity remaining" f="PPT" n="1"/>
-		<role descr="larger original set of which a part is remaining" f="dir" n="2"/>
-	</roles>
-	  <example name="is left" src="" type="">
-		<text>у меня тож походу останется один флаер ...если останется-на входе кому-нить подарю...какой-нибудь симпатишной девушке</text>
-		<arg f="gol" n="m">у меня </arg>
-		<rel f="">останется</rel>
-		<arg f="" n="1">один флаер</arg>
-	  </example>
-	  <example name="is left from" src="" type="">
-		<text>Поэтому пришлось использовать то , что осталось от одной из машин .</text>
-		<arg f="" n="1">что</arg>
-		<rel f="">осталось</rel>
-		<arg f="" n="2">от одной из машин</arg>
-	  </example>
-	  <example name="survive, is left" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=остаться&amp;cxid=5807" type="">
-		<text>Вот у меня трое маленьких было, сюда привезли -- через два года ни одного не осталось .</text>
-		<arg f="tmp" n="m">через два года</arg>
-		<arg f="" n="1">ни одного</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">осталось</rel>
-	  </example>
-	  <example name="is left till" src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=остаться&amp;cxid=13561" type="">
-		<text>Пусть только это перейдёт в грядущий век моей Ирочки , до которого остались считанные годы , а зло , горе да минует её и её современников .</text>
-		<arg f="tmp" n="m">до которого</arg>
-		<rel f="">остались</rel>
-		<arg f="" n="1">считанные годы</arg>
-	  </example>
-	  <example name="left to do, arg2" src="" type="">
-		<text>В целом минчанам осталось пережить еще несколько дождливых дней .</text>
-		<arg f="adv" n="m">В целом</arg>
-		<arg f="gol" n="m">минчанам</arg>
-		<rel f="">осталось</rel>
-		<arg f="" n="1">пережить еще несколько дождливых дней</arg>
-	  </example>
-	</roleset>
-	
-	<roleset id="остаться.04" name="be in debt, owe">
-	  <aliases>
-		<alias framenet="" pos="v" verbnet="">оставаться</alias>
-		<alias framenet="" pos="j" verbnet="">оставшийся</alias>
-		<alias framenet="" pos="v" verbnet="">оставшись</alias>
-		<alias framenet="" pos="j" verbnet="">остающийся</alias>
-		<alias framenet="" pos="j" verbnet="">остававшийся</alias>
-		<alias framenet="" pos="v" verbnet="">оставаясь</alias>
-		<alias framenet="" pos="v" verbnet="">остававшись</alias>
-	</aliases>
-	  <roles>
-		<role descr="debtor" f="pag" n="0">
-		</role>
-		<role descr="debt" f="PPT" n="1">
-		</role>
-		<role descr="state of debt" f="prd" n="2">
-		</role>
-	</roles>
-	  <example name="be in debt" src="" type="">
-		<text>Он остался в долгу .</text>
-		<arg f="" n="0">Он</arg>
-		<rel f="">остался</rel>
-		<arg f="" n="2">в долгу</arg>
-	  </example>
-	  <example name="debt remaining" src="" type="">
-		<text>За ним осталось 5 рублей .</text>
-		<arg f="" n="0">За ним</arg>
-		<rel f="">осталось</rel>
-		<arg f="" n="1">5 рублей</arg>
-	  </example>
-	</roleset>
-  </predicate>
+    <predicate lemma="остаться">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="остаться.01" name="stay, visit">
+            <aliases>
+                <alias pos="v">оставаться</alias>
+                <alias pos="j">оставшийся</alias>
+                <alias pos="j">остающийся</alias>
+                <alias pos="j">остававшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 1</note>
+            <note>остаться.01 NOTES: Based on stay.01</note>
+            <roles>
+                <role descr="thing remaining" f="PPT" n="1"/>
+                <role descr="benefactive, rare" f="GOL" n="2"/>
+                <role descr="attribute of arg1: state, location stayed in" f="PRD" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="stay.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="visit, stay with" src="">
+                <text>Я остался с родителями .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Я</arg>
+                    <rel relloc="1">остался</rel>
+                    <arg type="ARG3" start="2" end="3">с родителями</arg>
+                </propbank>
+            </example>
+            <example name="remain" src="">
+                <text>Пенсионеры , которые остались в городе , но спать спокойно не могли , пришли на избирательные
+                    участки за полчаса до появления на них первых членов комиссий — в 6.30 утра .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="2" end="2">которые</arg>
+                    <rel relloc="3">остались</rel>
+                    <arg type="ARG3" start="4" end="5">в городе</arg>
+                </propbank>
+            </example>
+            <example name="remains where" src="">
+                <text>ОА ИВС навсегда останется в истории как величайший лидер великой державы .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="1">ОА ИВС</arg>
+                    <rel relloc="3">останется</rel>
+                    <arg type="ARG3" start="4" end="5">в истории</arg>
+                </propbank>
+            </example>
+            <example name="all args, be left with"
+                     src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=остаться&amp;cxid=5819">
+                <text>Две старших сестры разобрали на себя всю красоту , и Кларе не осталось ни красивости , ни даже
+                    миловидности .
+                </text>
+                <propbank>
+                    <arg type="ARG2" start="10" end="10">Кларе</arg>
+                    <arg type="ARGM-NEG" start="11" end="11">не</arg>
+                    <rel relloc="12">осталось</rel>
+                    <arg type="ARG1" start="13" end="18">ни красивости , ни даже миловидности</arg>
+                </propbank>
+            </example>
+            <example name="debt remaining" src="">
+                <text>Кот остался за вдовой .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Кот</arg>
+                    <rel relloc="1">остался</rel>
+                    <arg type="ARG2" start="2" end="3">за вдовой</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="остаться.02" name="leave, remain, resulting from an event or situation">
+            <aliases>
+                <alias pos="v">оставаться</alias>
+                <alias pos="j">оставшийся</alias>
+                <alias pos="j">остающийся</alias>
+                <alias pos="j">остававшийся</alias>
+                <alias pos="v">оставить</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 2,5,6</note>
+            <note>остаться.02 NOTES: Based on leave.13</note>
+            <roles>
+                <role descr="event/condition causing arg2 to happen" f="PAG" n="0"/>
+                <role descr="entity in state" f="PPT" n="1"/>
+                <role descr="new state (may involve concatenation)" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="leave.13" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <note>English ARG1 = Russian ARG2</note>
+            <note>Russian ARG1 has no match in English frame</note>
+            <example name="left with nothing" src="">
+                <text>Так я остался ни с чем .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Так</arg>
+                    <arg type="ARG1" start="1" end="1">я</arg>
+                    <rel relloc="2">остался</rel>
+                    <arg type="ARG2" start="3" end="5">ни с чем</arg>
+                </propbank>
+            </example>
+            <example name="keep my own opinion" src="">
+                <text>В конце концов , я решил прекратить все споры и остаться при своем мнении .</text>
+                <propbank>
+                    <rel relloc="10">остаться</rel>
+                    <arg type="ARG2" start="11" end="13">при своем мнении</arg>
+                </propbank>
+            </example>
+            <example name="remained alive" src="">
+                <text>Все дети остались живы , старшая девочка , Таня Бланк , получила легкое ранение в ногу .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="1">Все дети</arg>
+                    <rel relloc="2">остались</rel>
+                    <arg type="ARG2" start="3" end="3">живы</arg>
+                </propbank>
+            </example>
+            <example name="remained a living miracle" src="">
+                <text>Кот остался живым чудом .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Кот</arg>
+                    <rel relloc="1">остался</rel>
+                    <arg type="ARG2" start="2" end="3">живым чудом</arg>
+                </propbank>
+            </example>
+            <example name="left with a nose (nothing)"
+                     src="[Василий Дубовский. Хижина дяди Саши (2013.04.12) // «Новгородские ведомости», 2013">
+                <text>Но трудно не согласиться и с Александром Михайловым , когда он говорит , что надо работать с
+                    людьми , чтобы они не оставались с носом , по крайней мере , когда государство о них заботится .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="20" end="20">они</arg>
+                    <arg type="ARGM-NEG" start="21" end="21">не</arg>
+                    <rel relloc="22">оставались</rel>
+                    <arg type="ARG2" start="23" end="24">с носом</arg>
+                </propbank>
+            </example>
+            <example name="leave as is" src="">
+                <text>Оставим все как есть</text>
+                <propbank>
+                    <rel relloc="0">Оставим</rel>
+                    <arg type="ARG2" start="1" end="3">все как есть</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="остаться.03" name="exist or remain (potentially after others were removed">
+            <aliases>
+                <alias pos="v">оставаться</alias>
+                <alias pos="j">оставшийся</alias>
+                <alias pos="j">остающийся</alias>
+                <alias pos="j">остававшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 3,4</note>
+            <note>остаться.03 NOTES: Based on leave.17</note>
+            <roles>
+                <role descr="enity remaining" f="PPT" n="1"/>
+                <role descr="larger original set of which a part is remaining" f="dir" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="leave.17" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="is left" src="">
+                <text>у меня тож походу останется один флаер ... если останется - на входе кому - нить подарю ... какой
+                    - нибудь симпатишной девушке
+                </text>
+                <propbank>
+                    <arg type="ARGM-GOL" start="0" end="1">у меня</arg>
+                    <rel relloc="4">останется</rel>
+                    <arg type="ARG1" start="5" end="6">один флаер</arg>
+                </propbank>
+            </example>
+            <example name="is left from" src="">
+                <text>Поэтому пришлось использовать то , что осталось от одной из машин .</text>
+                <propbank>
+                    <arg type="ARG1" start="5" end="5">что</arg>
+                    <rel relloc="6">осталось</rel>
+                    <arg type="ARG2" start="7" end="10">от одной из машин</arg>
+                </propbank>
+            </example>
+            <example name="survive, is left"
+                     src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=остаться&amp;cxid=5807">
+                <text>Вот у меня трое маленьких было , сюда привезли -- через два года ни одного не осталось .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="10" end="12">через два года</arg>
+                    <arg type="ARG1" start="13" end="14">ни одного</arg>
+                    <arg type="ARGM-NEG" start="15" end="15">не</arg>
+                    <rel relloc="16">осталось</rel>
+                </propbank>
+            </example>
+            <example name="is left till"
+                     src="Russian National Corpus via FrameBank: http://marker.framebank.ru/verbs_ex.php?lex=остаться&amp;cxid=13561">
+                <text>Пусть только это перейдёт в грядущий век моей Ирочки , до которого остались считанные годы , а зло
+                    , горе да минует её и её современников .
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="10" end="11">до которого</arg>
+                    <rel relloc="12">остались</rel>
+                    <arg type="ARG1" start="13" end="14">считанные годы</arg>
+                </propbank>
+            </example>
+            <example name="left to do, arg2" src="">
+                <text>В целом минчанам осталось пережить еще несколько дождливых дней .</text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="1">В целом</arg>
+                    <arg type="ARGM-GOL" start="2" end="2">минчанам</arg>
+                    <rel relloc="3">осталось</rel>
+                    <arg type="ARG1" start="4" end="8">пережить еще несколько дождливых дней</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="остаться.04" name="be in debt, owe">
+            <aliases>
+                <alias pos="v">оставаться</alias>
+                <alias pos="j">оставшийся</alias>
+                <alias pos="v">оставшись</alias>
+                <alias pos="j">остающийся</alias>
+                <alias pos="j">остававшийся</alias>
+                <alias pos="v">оставаясь</alias>
+                <alias pos="v">остававшись</alias>
+            </aliases>
+            <roles>
+                <role descr="debtor" f="pag" n="0">
+                </role>
+                <role descr="debt" f="PPT" n="1">
+                </role>
+                <role descr="state of debt" f="prd" n="2">
+                </role>
+            </roles>
+            <example name="be in debt" src="">
+                <text>Он остался в долгу .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">остался</rel>
+                    <arg type="ARG2" start="2" end="3">в долгу</arg>
+                </propbank>
+            </example>
+            <example name="debt remaining" src="">
+                <text>За ним осталось 5 рублей .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">За ним</arg>
+                    <rel relloc="2">осталось</rel>
+                    <arg type="ARG1" start="3" end="4">5 рублей</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

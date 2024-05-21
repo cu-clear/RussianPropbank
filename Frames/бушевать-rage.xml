@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="бушевать">
+        <roleset id="бушевать.01" name="Rage, storm, billow.">
+            <aliases>
+                <alias pos="v">бушевать</alias>
+                <alias pos="j">бушующий</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English billow.01</note>
+            <roles>
+                <role descr="Entity storming" f="PPT" n="1"/>
+                <role descr="Location or Direction" f="LOC" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="billow.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG1 and ARG2" src="south-sudan.ru (Russian Web 2010)">
+                <text>Судан страдает от гражданских войн , которые бушуют на его территории , на протяжении более 40 лет
+                    .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="3" end="4">гражданских войн</arg>
+                    <rel relloc="7">бушуют</rel>
+                    <arg type="ARG2" start="8" end="10">на его территории</arg>
+                </propbank>
+            </example>
+            <example name="ARG1 only" src="kp.ru (Russian Web 2010)">
+                <text>До конца недели будет бушевать мощная магнитная буря .</text>
+                <propbank>
+                    <arg type="ARG1" start="5" end="7">мощная магнитная буря</arg>
+                    <rel relloc="4">бушевать</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

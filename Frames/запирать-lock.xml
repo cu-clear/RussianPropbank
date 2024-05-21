@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="запирать">
+        <roleset id="запирать.01" name="to lock">
+            <aliases>
+                <alias pos="v">запирать</alias>
+                <alias pos="v">запереть</alias>
+                <alias pos="j">запирающий</alias>
+                <alias pos="j">запертый</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English lock.01</note>
+            <roles>
+                <role descr="Agent doing the locking" f="PAG" n="0"/>
+                <role descr="thing being locked" f="PPT" n="1"/>
+                <role descr="key, instrument used to lock or unlock" f="PPT" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="lock.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG0 and ARG1" src="RNC,   М. Горький. Собрание сочинений в 30 т. Том 8. М.: ГИХЛ, 1949">
+                <text>Иногда в праздник хозяин запирал лавку и водил Евсея по городу .</text>
+                <propbank>
+                    <arg type="ARG0" start="3" end="3">хозяин</arg>
+                    <rel relloc="4">запирал</rel>
+                    <arg type="ARG1" start="5" end="5">лавку</arg>
+                </propbank>
+            </example>
+            <example name="ARG0, ARG1, and ARG2" src="RNC,  Станюкович К.M. Собр. соч. В 10 т">
+                <text>Он сделался еще скрытнее , всегда аккуратно запирал ключом свою конторку в зале ...</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="7">запирал</rel>
+                    <arg type="ARG1" start="9" end="10">свою конторку</arg>
+                    <arg type="ARG2" start="8" end="8">ключом</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="запирать.02" name="to lock up someone or something">
+            <aliases>
+                <alias pos="v">запирать</alias>
+                <alias pos="v">запереть</alias>
+                <alias pos="j">запирающий</alias>
+                <alias pos="j">запертый</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English lock_up.03.01</note>
+            <roles>
+                <role descr="Agent doing the locking" f="PAG" n="0"/>
+                <role descr="Entity or item being locked up" f="PPT" n="1"/>
+                <role descr="Place, room, containter" f="GOL" n="2"/>
+                <role descr="key, instrument used to lock or unlock" f="PPT" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="lock_up.03" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG0, ARG1, ARG2" src="RNC,  И. Н. Вирабов. Андрей Вознесенский. М.: Молодая гвардия, 2015">
+                <text>Мы тогда запирали Володю на кухне</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Мы</arg>
+                    <rel relloc="2">запирали</rel>
+                    <arg type="ARG1" start="3" end="3">Володю</arg>
+                    <arg type="ARG2" start="4" end="5">на кухне</arg>
+                </propbank>
+            </example>
+            <example name="ARG1 inanimate, ARG2"
+                     src="RNC,  И. Н. Вирабов. Андрей Вознесенский. М.: Молодая гвардия, 2015">
+                <text>Запирать красоту в темном тереме стихотворения</text>
+                <propbank>
+                    <rel relloc="0">Запирать</rel>
+                    <arg type="ARG1" start="1" end="1">красоту</arg>
+                    <arg type="ARG2" start="2" end="5">в темном тереме стихотворения</arg>
+                </propbank>
+            </example>
+            <example name="ARG0, ARG1, ARG3" src="RNC, Шагинян М. С. Собр. соч. в 9 т. Том 2">
+                <text>Будь у меня семь замков, я запер бы его семью замками .</text>
+                <propbank>
+                    <arg type="ARG0" start="5" end="5">я</arg>
+                    <rel relloc="6">запер</rel>
+                    <arg type="ARG1" start="8" end="8">его</arg>
+                    <arg type="ARG3" start="9" end="10">семью замками</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

@@ -1,123 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="заявить">
-  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="заявить.01" name="say, declare, announce">
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">заявлять</alias>
-		<alias framenet="" pos="j" verbnet="">заявляться</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses 1,6,7</note>
-      <note>заявить.01 NOTES: Based on declare.01.</note>
-      <roles>
-	    <role descr="announcer" f="PAG" n="0">
-        </role>
-        <role descr="utterance" f="PPT" n="1">
-        </role>
-		<role descr="hearer" f="GOL" n="2">
-        </role>
-		<role descr="attributive" f="PRD" n="3">
-        </role>
-	  </roles>
-      <example name="" src="А. И. Куприн, «Поединок», 1905 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>В таком случае заявляю, что ни на один из вопросов капитана Петерсона я отвечать не буду, — сказал Ромашов.</text>
-        <arg f="" n="0">Ромашов</arg>
-		<rel f="">заявляю</rel>
-        <arg f="" n="1">что ни на один из вопросов капитана Петерсона я отвечать не буду</arg>
-      </example>
-	  <example name="" src="" type="">
-        <text>На днях явился в кабинет отца старший сын и заявил ему, что он желает выйти из-под его опеки и самостоятельно вступить в свет.</text>
-        <rel f="">заявил</rel>
-		<arg f="" n="0">старший сын</arg>
-		<arg f="" n="2">ему</arg>
-        <arg f="" n="1">что он желает выйти из-под его опеки и самостоятельно вступить в свет</arg>
-      </example>
-	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=3770" type="">
-        <text>Начавший кампанию по выборам мэра Олег Сысуев заявляет об оказываемом на него давлении со стороны администрации области.</text>
-        <arg f="" n="0">Олег Сысуев</arg>
-		<rel f="">заявляет</rel>
-        <arg f="" n="1">об оказываемом на него давлении со стороны администрации области</arg>
-      </example>
-	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=14033" type="">
-        <text>вот тогда он и заявляет: люблю, дескать, но не женюсь,</text>
-        <arg f="" n="0">он</arg>
-		<arg f="TMP" n="m">вот тогда</arg>
-		<rel f="">заявляет</rel>
-        <arg f="" n="1">люблю, дескать, но не женюсь</arg>
-      </example>
-	  <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=16667" type="">
-        <text>ребенок заявит (скорее всего плачем), что устал</text>
-		<rel f="">заявит</rel>
-        <arg f="" n="0">ребенок</arg>
-		<arg f="" n="1">что устал</arg>
-		<arg f="MNR" n="m">скорее всего плачем</arg>
-	    </example>
-	</roleset>
-	
-	<roleset id="заявить.02" name="accuse, tattle">
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">заявлять</alias>
-		<alias framenet="" pos="j" verbnet="">заявиться</alias>
-		<alias framenet="" pos="v" verbnet="">заявляться</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses 2,3,4,5</note>
-      <note>заявить.02 NOTES: Based on register.02.</note>
-      <roles>
-	    <role descr="entity registering" f="PAG" n="0">
-        </role>
-        <role descr="thing registered" f="PPT" n="1">
-        </role>
-		<role descr="registered with or for" f="GOL" n="2"/>
-		<role descr="secondary predication" f="PRD" n="3"/>
-	  </roles>
-      <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=14184">
-        <text>Но если его приходилось заявлять на матч , то об этом ему полагалось объявлять буквально за минуту до начала -- в противном случае он просто «рассыпался»</text>
-		<arg f="" n="1">его</arg>
-		<arg f="" n="3">на матч</arg>
-		<rel f="">заявлять</rel>
-      </example>
-	     <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=16588">
-        <text>Он заявил в милицию о краже.</text>
-		<arg f="" n="0">Он</arg>
-		<arg f="" n="1">о краже</arg>
-		<arg f="" n="2">в милицию</arg>
-		<rel f="">заявил</rel>
-      </example>
-	  	     <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять">
-        <text>Он боится, что на него заявят</text>
-		<arg f="" n="0">Он</arg>
-		<arg f="" n="1">на него</arg>
-		<rel f="">заявят</rel>
-      </example>
-	  	     <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=14182">
-        <text>Ассоциация впервые заявила о себе в 1992 году.</text>
-		<arg f="" n="0">Ассоциация</arg>
-		<arg f="" n="1">о себе</arg>
-		<rel f="">заявила</rel>
-      </example>
-	  	     <example name="" src="" type="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=16671">
-        <text>Цель заявили громко -- «перспективы развития страны».</text>
-		<arg f="" n="1">Цель</arg>
-		<arg f="" n="1-APPOS">«перспективы развития страны»</arg>
-		<arg f="MNR" n="m">громко</arg>
-		<rel f="">заявили</rel>
-      </example>
-	</roleset>
-
-	<roleset id="заявить.03" name="appear, arrive suddenly and unexpectedly">
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">заявляться</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses </note>
-      <note>заявить.03 NOTES: Based on show_up.02.</note>
-      <roles>
-	    <role descr="thing appearing, showing up" f="PPT" n="1" />
-	  </roles>
-      <example name="" src="" type="">
-        <text>Заявился в гости в 3 ч. ночи.</text>
-		<rel f="">Заявился</rel>
-        <arg f="TMP" n="m">в 3 ч. ночи</arg>
-      </example>
-	</roleset>
-	</predicate>
+    <predicate lemma="заявить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="заявить.01" name="say, declare, announce">
+            <aliases>
+                <alias pos="j">заявлять</alias>
+                <alias pos="j">заявляться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,6,7</note>
+            <note>заявить.01 NOTES: Based on declare.01.</note>
+            <roles>
+                <role descr="announcer" f="PAG" n="0"/>
+                <role descr="utterance" f="PPT" n="1"/>
+                <role descr="hearer" f="GOL" n="2"/>
+                <role descr="attributive" f="PRD" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="declare.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src="А. И. Куприн, «Поединок», 1905 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>В таком случае заявляю , что ни на один из вопросов капитана Петерсона я отвечать не буду , —
+                    сказал Ромашов .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="20" end="20">Ромашов</arg>
+                    <rel relloc="3">заявляю</rel>
+                    <arg type="ARG1" start="5" end="16">что ни на один из вопросов капитана Петерсона я отвечать не
+                        буду
+                    </arg>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>На днях явился в кабинет отца старший сын и заявил ему , что он желает выйти из - под его опеки и
+                    самостоятельно вступить в свет .
+                </text>
+                <propbank>
+                    <rel relloc="9">заявил</rel>
+                    <arg type="ARG0" start="6" end="7">старший сын</arg>
+                    <arg type="ARG2" start="10" end="10">ему</arg>
+                    <arg type="ARG1" start="12" end="25">что он желает выйти из - под его опеки и самостоятельно
+                        вступить в свет
+                    </arg>
+                </propbank>
+            </example>
+            <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=3770">
+                <text>Начавший кампанию по выборам мэра Олег Сысуев заявляет об оказываемом на него давлении со стороны
+                    администрации области .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="5" end="6">Олег Сысуев</arg>
+                    <rel relloc="7">заявляет</rel>
+                    <arg type="ARG1" start="8" end="16">об оказываемом на него давлении со стороны администрации
+                        области
+                    </arg>
+                </propbank>
+            </example>
+            <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=14033">
+                <text>вот тогда он и заявляет : люблю , дескать , но не женюсь ,</text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="2">он</arg>
+                    <arg type="ARGM-TMP" start="0" end="1">вот тогда</arg>
+                    <rel relloc="4">заявляет</rel>
+                    <arg type="ARG1" start="6" end="12">люблю , дескать , но не женюсь</arg>
+                </propbank>
+            </example>
+            <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=16667">
+                <text>ребенок заявит ( скорее всего плачем ) , что устал</text>
+                <propbank>
+                    <rel relloc="1">заявит</rel>
+                    <arg type="ARG0" start="0" end="0">ребенок</arg>
+                    <arg type="ARG1" start="8" end="9">что устал</arg>
+                    <arg type="ARGM-MNR" start="3" end="5">скорее всего плачем</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="заявить.02" name="accuse, tattle">
+            <aliases>
+                <alias pos="j">заявлять</alias>
+                <alias pos="j">заявиться</alias>
+                <alias pos="v">заявляться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 2,3,4,5</note>
+            <note>заявить.02 NOTES: Based on register.02.</note>
+            <roles>
+                <role descr="entity registering" f="PAG" n="0">
+                </role>
+                <role descr="thing registered" f="PPT" n="1">
+                </role>
+                <role descr="registered with or for" f="GOL" n="2"/>
+                <role descr="secondary predication" f="PRD" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="register.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=14184">
+                <text>Но если его приходилось заявлять на матч , то об этом ему полагалось объявлять буквально за минуту
+                    до начала -- в противном случае он просто « рассыпался »
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="2" end="2">его</arg>
+                    <arg type="ARG3" start="5" end="6">на матч</arg>
+                    <rel relloc="4">заявлять</rel>
+                </propbank>
+            </example>
+            <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=16588">
+                <text>Он заявил в милицию о краже .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <arg type="ARG1" start="4" end="5">о краже</arg>
+                    <arg type="ARG2" start="2" end="3">в милицию</arg>
+                    <rel relloc="1">заявил</rel>
+                </propbank>
+            </example>
+            <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять">
+                <text>Он боится , что на него заявят</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <arg type="ARG1" start="4" end="5">на него</arg>
+                    <rel relloc="6">заявят</rel>
+                </propbank>
+            </example>
+            <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=14182">
+                <text>Ассоциация впервые заявила о себе в 1992 году .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Ассоциация</arg>
+                    <arg type="ARG1" start="3" end="4">о себе</arg>
+                    <rel relloc="2">заявила</rel>
+                </propbank>
+            </example>
+            <example name="" src="http://marker.framebank.ru/verbs_ex.php?lex=заявлять&amp;cxid=16671">
+                <text>Цель заявили громко -- « перспективы развития страны » .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Цель</arg>
+                    <arg type="ARG1-APPOS" start="4" end="8">« перспективы развития страны »</arg>
+                    <arg type="ARGM-MNR" start="2" end="2">громко</arg>
+                    <rel relloc="1">заявили</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="заявить.03" name="appear, arrive suddenly and unexpectedly">
+            <aliases>
+                <alias pos="j">заявляться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses</note>
+            <note>заявить.03 NOTES: Based on show_up.02.</note>
+            <roles>
+                <role descr="thing appearing, showing up" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="show_up.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="" src="">
+                <text>Заявился в гости в 3 ч . ночи .</text>
+                <propbank>
+                    <rel relloc="0">Заявился</rel>
+                    <arg type="ARGM-TMP" start="3" end="7">в 3 ч . ночи</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

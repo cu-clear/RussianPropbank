@@ -1,97 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
- <predicate lemma="закончить">
-	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="закончить.01" name="end, run out">
-       <aliases>
-		<alias framenet="" pos="j" verbnet="">закончиться</alias>
-		<alias framenet="" pos="j" verbnet="">закончившийся</alias>
-		<alias framenet="" pos="v" verbnet="">заканчиваться</alias>
-		<alias framenet="" pos="j" verbnet="">заканчивающийся</alias>
-		<alias framenet="" pos="j" verbnet="">заканчивавшийся</alias>
-		<alias framenet="" pos="j" verbnet="">закончивший</alias>
-		<alias framenet="" pos="j" verbnet="">законченный</alias>
-		<alias framenet="" pos="v" verbnet="">заканчивать</alias>
-		<alias framenet="" pos="j" verbnet="">заканчивавший</alias>
-		<alias framenet="" pos="j" verbnet="">заканчивающий</alias>
-		<alias framenet="" pos="j" verbnet="">заканчиваемый</alias>
-      </aliases>
-	  <note>NOTES: Based on "end.01"</note>
-	  <roles>
-        <role descr="Agent/cause of ending" f="PAG" n="0">
-        </role>
-        <role descr="Thing ending" f="PPT" n="1">
-        </role>
-        <role descr="Explicit instrument, thing ended with, end portion" f="MNR" n="2"/>
-		<role descr="Benefactive, possessor, location of ending" f="GOL" n="3"/>
-      </roles>
-      <example name="arg1" src="" type="">
-        <text>Он скоро закончится .</text>
-        <arg f="" n="1">Он</arg>
-		<arg f="tmp" n="m">скоро</arg>
-        <rel f="">закончится</rel>
-      </example>
-      <example name="arg 1 and 3" src="" type="with benefactive">
-        <text>У нас закончилась туалетная бумага .</text>
-        <arg f="" n="3">У нас</arg>
-        <rel f="">закончилась</rel>
-        <arg f="MNR" n="1">туалетная бумага</arg>
-      </example>
-      <example name="arg1 and arg2" type="">
-        <text>Напомним , последнее крупное извержение Фуэго в 2012 году закончилось именно массовым вывозом жителей близлежащих населённых пунктов на безопасное расстояние .</text>
-        <arg f="" n="1">последнее крупное извержение Фуэго</arg>
-        <arg f="tmp" n="m">в 2012 году</arg>
-        <rel f="">закончилось</rel>
-		<arg f="adv" n="m">именно</arg>
-		<arg f="" n="2">массовым вывозом жителей близлежащих населённых пунктов на безопасное расстояние</arg>
-      </example>
-    </roleset>
-	
-	<roleset id="закончить.02" name="complete, graduate">
-       <aliases>
-		<alias framenet="" pos="j" verbnet="">закончивший</alias>
-		<alias framenet="" pos="j" verbnet="">законченный</alias>
-		<alias framenet="" pos="v" verbnet="">окончить</alias>
-		<alias framenet="" pos="j" verbnet="">окончивший</alias>
-		<alias framenet="" pos="j" verbnet="">оконченный</alias>
-		<alias framenet="" pos="v" verbnet="">оканчивать</alias>
-		<alias framenet="" pos="j" verbnet="">оканчивающий</alias>
-		<alias framenet="" pos="j" verbnet="">оканчивавший</alias>
-		<alias framenet="" pos="j" verbnet="">оканчиваемый</alias>
-		<alias framenet="" pos="v" verbnet="">кончить</alias>
-		<alias framenet="" pos="j" verbnet="">кончивший</alias>
-		<alias framenet="" pos="j" verbnet="">конченный</alias>
-		<alias framenet="" pos="v" verbnet="">кончать</alias>
-		<alias framenet="" pos="j" verbnet="">кончающий</alias>
-		<alias framenet="" pos="j" verbnet="">кончавший</alias>
-		<alias framenet="" pos="j" verbnet="">кончаемый</alias>
-      </aliases>
-	  <note>NOTES: Based on adjustment to "graduate.01"</note>
-	  <roles>
-        <role descr="graduate " f="PAG" n="0">
-        </role>
-        <role descr="program completed" f="PPT" n="1">
-        </role>
-		<role descr="grade or manner of graduation" f="MNR" n="2" />
-      </roles>
-      <example name="закончить" src="" type="">
-        <text>Он закончил Московский государственный университет .</text>
-        <arg f="" n="0">Он</arg>
-        <rel f="">закончил</rel>
-		<arg f="MNR" n="1">Московский государственный университет</arg>
-      </example>
-      <example name="окончить, with arg2" src="" type="with benefactive">
-        <text>А Маша очень старалась окончить пятый класс на " хорошо " и " отлично " .</text>
-        <rel f="">окончить</rel>
-        <arg f="MNR" n="1">пятый класс</arg>
-		<arg f="MNR" n="2">на " хорошо " и " отлично "</arg>
-      </example>
-      <example name="кончить" src="В. О. Пелевин, «Синий фонарь», 1991 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Потом они все выросли, кончили школу , женились и стали работать и воспитывать детей .</text>
-        <arg f="" n="0">*Trace-1*</arg>
-        <rel f="">кончили</rel>
-		<arg f="" n="1">школу</arg>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="закончить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="закончить.01" name="end, run out">
+            <aliases>
+                <alias pos="j">закончиться</alias>
+                <alias pos="j">закончившийся</alias>
+                <alias pos="v">заканчиваться</alias>
+                <alias pos="j">заканчивающийся</alias>
+                <alias pos="j">заканчивавшийся</alias>
+                <alias pos="j">закончивший</alias>
+                <alias pos="j">законченный</alias>
+                <alias pos="v">заканчивать</alias>
+                <alias pos="j">заканчивавший</alias>
+                <alias pos="j">заканчивающий</alias>
+                <alias pos="j">заканчиваемый</alias>
+            </aliases>
+            <note>NOTES: Based on "end.01"</note>
+            <roles>
+                <role descr="Agent/cause of ending" f="PAG" n="0">
+                </role>
+                <role descr="Thing ending" f="PPT" n="1">
+                </role>
+                <role descr="Explicit instrument, thing ended with, end portion" f="MNR" n="2"/>
+                <role descr="Benefactive, possessor, location of ending" f="GOL" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="end.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg1" src="">
+                <text>Он скоро закончится .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Он</arg>
+                    <arg type="ARGM-TMP" start="1" end="1">скоро</arg>
+                    <rel relloc="2">закончится</rel>
+                </propbank>
+            </example>
+            <example name="arg 1 and 3" src="with benefactive">
+                <text>У нас закончилась туалетная бумага .</text>
+                <propbank>
+                    <arg type="ARG3" start="0" end="1">У нас</arg>
+                    <rel relloc="2">закончилась</rel>
+                    <arg type="ARG1" start="3" end="4">туалетная бумага</arg>
+                </propbank>
+            </example>
+            <example name="arg1 and arg2">
+                <text>Напомним , последнее крупное извержение Фуэго в 2012 году закончилось именно массовым вывозом
+                    жителей близлежащих населённых пунктов на безопасное расстояние .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="2" end="5">последнее крупное извержение Фуэго</arg>
+                    <arg type="ARGM-TMP" start="6" end="8">в 2012 году</arg>
+                    <rel relloc="9">закончилось</rel>
+                    <arg type="ARGM-ADV" start="10" end="10">именно</arg>
+                    <arg type="ARG2" start="11" end="19">массовым вывозом жителей близлежащих населённых пунктов на
+                        безопасное расстояние
+                    </arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="закончить.02" name="complete, graduate">
+            <aliases>
+                <alias pos="j">закончивший</alias>
+                <alias pos="j">законченный</alias>
+                <alias pos="v">окончить</alias>
+                <alias pos="j">окончивший</alias>
+                <alias pos="j">оконченный</alias>
+                <alias pos="v">оканчивать</alias>
+                <alias pos="j">оканчивающий</alias>
+                <alias pos="j">оканчивавший</alias>
+                <alias pos="j">оканчиваемый</alias>
+                <alias pos="v">кончить</alias>
+                <alias pos="j">кончивший</alias>
+                <alias pos="j">конченный</alias>
+                <alias pos="v">кончать</alias>
+                <alias pos="j">кончающий</alias>
+                <alias pos="j">кончавший</alias>
+                <alias pos="j">кончаемый</alias>
+            </aliases>
+            <note>NOTES: Based on adjustment to "graduate.01"</note>
+            <roles>
+                <role descr="graduate " f="PAG" n="0">
+                </role>
+                <role descr="program completed" f="PPT" n="1">
+                </role>
+                <role descr="grade or manner of graduation" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="graduate.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="закончить" src="">
+                <text>Он закончил Московский государственный университет .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">закончил</rel>
+                    <arg type="ARG1" start="2" end="4">Московский государственный университет</arg>
+                </propbank>
+            </example>
+            <example name="окончить, with arg2" src="with benefactive">
+                <text>А Маша очень старалась окончить пятый класс на " хорошо " и " отлично " .</text>
+                <propbank>
+                    <rel relloc="4">окончить</rel>
+                    <arg type="ARG1" start="5" end="6">пятый класс</arg>
+                    <arg type="ARG2" start="7" end="14">на " хорошо " и " отлично "</arg>
+                </propbank>
+            </example>
+            <example name="кончить"
+                     src="В. О. Пелевин, «Синий фонарь», 1991 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Потом они все выросли , кончили школу , женились и стали работать и воспитывать детей .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*Trace-1*</arg>
+                    <rel relloc="5">кончили</rel>
+                    <arg type="ARG1" start="6" end="6">школу</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

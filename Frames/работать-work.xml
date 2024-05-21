@@ -1,166 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="работать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="работать.01" name="work, being employed, acts, deeds (no physical parts or gov't departments!)">
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">работающий</alias>
-		<alias framenet="" pos="j" verbnet="">работавший</alias>
-		<alias framenet="" pos="j" verbnet="">работаемый</alias>
-		<alias framenet="" pos="j" verbnet="">работанный</alias>
-		<alias framenet="" pos="v" verbnet="">поработать</alias>
-		<alias framenet="" pos="j" verbnet="">поработавший</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank sense 1</note>
-	  <roles>
-        <role descr="worker" f="PAG" n="0"/>
-        <role descr="job, project" f="PPT" n="1"/>
-        <role descr="employer, benefactive" f="GOL" n="2"/>
-        <role descr="coworker" f="COM" n="3"/>
-        <role descr="instrumental, predicative job" f="MNR" n="4"/>
-        <role descr="secondary-theme" f="PRD" n="5"/>
-      </roles>
-      <example name="work-v: unaccusative" src="" type="">
-        <text>Твоя мама работает ?</text>
-        <arg f="" n="0">Твоя мама</arg>
-        <rel f="">работает</rel>
-      </example>
-      <example name="work-v: unaccusative with more details" src="" type="">
-        <text>Ты когда-нибудь работал в ресторане ?</text>
-        <arg f="" n="0">Ты</arg>
-		<arg f="tmp" n="m">когда-нибудь</arg>
-        <rel f="">работал</rel>
-        <arg f="" n="2">в ресторане</arg>
-      </example>
-      <example name="work-v: job" src="" type="">
-        <text>Наша школа работает по программе эколого-эстетического развития , есть предметы " Лесоводство " и " Основы театрально искусства ".</text>
-        <arg f="" n="0">Наша школа</arg>
-        <rel f="">работает</rel>
-        <arg f="" n="1">по программе эколого-эстетического развития</arg>
-      </example>
-      <example name="work-v, study" src="" type="">
-        <text>Поэтому врачи и все , кто работает с инфицированными , должны иметь специальную защиту , вплоть до маски , закрывающей всё лицо .</text>
-	      <arg f="" n="m">Поэтому</arg>
-		<arg f="" n="0">кто</arg>
-        <rel f="">работает</rel>
-        <arg f="" n="1">с инфицированными</arg>
-      </example>
-      <example name="work-v: with coworker" src="" type="">
-        <text>Ингеборга Дапкунайте работала с Бодровым над картиной « Война » .</text>
-        <arg f="" n="0">Ингеборга Дапкунайте</arg>
-        <rel f="">работала</rel>
-        <arg f="" n="3">с Бодровым</arg>
-        <arg f="" n="1">над картиной « Война »</arg>
-      </example>
-      <example name="work-v: predicative job" src="" type="">
-        <text>Если человек упорно работает источником негатива , просто используй стандартные защитные средства : « черный список », « игнорирование » и прочее .</text>
-        <arg f="adv" n="m">Если</arg>
-		<arg f="" n="0">человек</arg>
-        <arg f="adv" n="m">упорно</arg>
-        <rel f="">работает</rel>
-        <arg f="" n="4">источником негатива</arg>
-      </example>
-	  <example name="example" src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=работать&amp;cxid=15648" type="">
-        <text>-- Зачем раздражать дракона ? Читайте передовицы "Правды ": время работает на нас . Антон уйдёт -- и мы тотчас же испаримся .</text>
-        <arg f="" n="0">время</arg>
-		<rel f="">работает</rel>
-		<arg f="" n="2">на нас</arg>
-      </example>
-	</roleset>
-	
-    <roleset id="работать.02" name="function, operate">
-	   <aliases>
-		<alias framenet="" pos="j" verbnet="">работающий</alias>
-		<alias framenet="" pos="j" verbnet="">работавший</alias>
-		<alias framenet="" pos="j" verbnet="">работаемый</alias>
-		<alias framenet="" pos="j" verbnet="">работанный</alias>
-		<alias framenet="" pos="v" verbnet="">сработать</alias>
-		<alias framenet="" pos="j" verbnet="">сработавший</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank sense 6</note>
-	  <note>работать.02 NOTE: Similar to "work.09"</note>
-      <roles>
-        <role descr="thing functioning" f="WPPT" n="0"/>
-        <role descr="beneficiary" f="GOL" n="1"/>
-      </roles>
-      <example name="work-v: machine" src="" type="">
-        <text>Дык только переключатель выключают , он просто работает в режиме stand-by ( желтый мигает )</text>
-        <arg f="" n="0">он</arg>
-        <arg f="adv" n="m">просто</arg>
-        <rel f="">работает</rel>
-        <arg f="MNR" n="m">в режиме stand-by</arg>
-      </example>
-      <example name="work-v: working" src="" type="">
-        <text>Полагаю , ничего хорошего не ожидается от постоянно работающего мобильника в кармане .</text>
-        <arg f="tmp" n="m">постоянно</arg>
-        <rel f="">работающего</rel>
-		<arg f="" n="0">мобильника</arg>
-        <arg f="loc" n="m">в кармане</arg>
-      </example>
-    </roleset>
-	
-    <roleset id="работать.03" name="resultative construction">
-	<note>Corresponds to FrameBank senses 2,3,4</note>
-      <note>работать.03 NOTE: Similar to "work.10"</note>
-      <roles>
-        <role descr="Person/Entity working something1" f="PAG" n="0"/>
-        <role descr="Thing undergoing change of state, unselected object of work" f="PPT" n="1"/>
-        <role descr="End result of thing worked, arg1" f="PRD" n="2"/>
-        <role descr="Instrument" f="MNR" n="3"/>
-      </roles>
-      <example name="work-v:" src="" type="">
-        <inflection aspect="ns" form="ns" person="ns" tense="ns" voice="ns"/>
-        <text>Часто меняют те которые работают с пирамидами фондами и держат свои рефсайты .</text>
-        <arg f="" n="0">которые</arg>
-        <rel f="">работают</rel>
-        <arg f="" n="1">с пирамидами фондами</arg>
-      </example>
-    </roleset>
-	
-    <roleset id="работать.04" name="function, operate">
-	<note>Corresponds to FrameBank senses 5</note>
-      <note>работать.04 NOTE: Similar to "work.09" but no beneficiary possible</note>
-      <note>работать.04 NOTE: Meaning: to be free of passage, available for business</note>
-      <roles>
-        <role descr="causer" f="PAG" n="0"/>
-        <role descr="thing functioning" f="PPT" n="1"/>
-      </roles>
-      <example name="work-v: operating place of business" src="" type="">
-        <text>Йogurt Antonio клуб вобщет работает до 4х утра теперь</text>
-        <arg f="" n="1">клуб</arg>
-		<arg f="adv" n="m">вобщет</arg>
-        <rel f="">работает</rel>
-		<arg f="tmp" n="m">до 4х утра</arg>
-		<arg f="tmp" n="m">теперь</arg>
-      </example>
-    </roleset>
-   </predicate>
-   
-   <predicate lemma="работаться">
-    <roleset id="работаться.05" name="want to work">
-      <note>NOTE: Modal meaning added/changed from работать.01</note>
-	  <aliases>
-		<alias framenet="" pos="j" verbnet="">работающийся</alias>
-		<alias framenet="" pos="j" verbnet="">работавшийся</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank sense 7</note>
-      <roles>
-        <role descr="how it works, middle voice" f="MNR" n="1"/>
-		<role descr="worker, one affected by desire/feeling about work" f="PPT" n="2"/>
-      </roles>
-      <example name="how is the work going" src="" type="">
-        <text>Как вам работается на новом месте ?</text>
-        <arg f="" n="1">Как</arg>
-		<arg f="" n="2">вам</arg>
-        <rel f="">работается</rel>
-		<arg f="loc" n="m">на новом месте</arg>
-      </example>
-	  <example name="interesting work" src="" type="">
-        <text>Работалось тогда интересно .</text>
-        <rel f="">Работалось</rel>
-		<arg f="tmp" n="m">тогда</arg>
-		<arg f="" n="1">интересно</arg>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="работать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="работать.01" name="work, being employed, acts, deeds (no physical parts or gov't departments!)">
+            <aliases>
+                <alias pos="j">работающий</alias>
+                <alias pos="j">работавший</alias>
+                <alias pos="j">работаемый</alias>
+                <alias pos="j">работанный</alias>
+                <alias pos="v">поработать</alias>
+                <alias pos="j">поработавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 1</note>
+            <roles>
+                <role descr="worker" f="PAG" n="0"/>
+                <role descr="job, project" f="PPT" n="1"/>
+                <role descr="employer, benefactive" f="GOL" n="2"/>
+                <role descr="coworker" f="COM" n="3"/>
+                <role descr="instrumental, predicative job" f="MNR" n="4"/>
+                <role descr="secondary-theme" f="PRD" n="5"/>
+            </roles>
+            <example name="work-v: unaccusative" src="">
+                <text>Твоя мама работает ?</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Твоя мама</arg>
+                    <rel relloc="2">работает</rel>
+                </propbank>
+            </example>
+            <example name="work-v: unaccusative with more details" src="">
+                <text>Ты когда - нибудь работал в ресторане ?</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Ты</arg>
+                    <arg type="ARGM-TMP" start="1" end="3">когда - нибудь</arg>
+                    <rel relloc="4">работал</rel>
+                    <arg type="ARG2" start="5" end="6">в ресторане</arg>
+                </propbank>
+            </example>
+            <example name="work-v: job" src="">
+                <text>Наша школа работает по программе эколого - эстетического развития , есть предметы " Лесоводство "
+                    и " Основы театрально искусства " .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Наша школа</arg>
+                    <rel relloc="2">работает</rel>
+                    <arg type="ARG1" start="3" end="8">по программе эколого - эстетического развития</arg>
+                </propbank>
+            </example>
+            <example name="work-v, study" src="">
+                <text>Поэтому врачи и все , кто работает с инфицированными , должны иметь специальную защиту , вплоть до
+                    маски , закрывающей всё лицо .
+                </text>
+                <propbank>
+                    <arg type="ARGM-PRP" start="0" end="0">Поэтому</arg>
+                    <arg type="ARG0" start="5" end="5">кто</arg>
+                    <rel relloc="6">работает</rel>
+                    <arg type="ARG1" start="7" end="8">с инфицированными</arg>
+                </propbank>
+            </example>
+            <example name="work-v: with coworker" src="">
+                <text>Ингеборга Дапкунайте работала с Бодровым над картиной « Война » .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Ингеборга Дапкунайте</arg>
+                    <rel relloc="2">работала</rel>
+                    <arg type="ARG3" start="3" end="4">с Бодровым</arg>
+                    <arg type="ARG1" start="5" end="9">над картиной « Война »</arg>
+                </propbank>
+            </example>
+            <example name="work-v: predicative job" src="">
+                <text>Если человек упорно работает источником негатива , просто используй стандартные защитные средства
+                    : « черный список » , « игнорирование » и прочее .
+                </text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="0">Если</arg>
+                    <arg type="ARG0" start="1" end="1">человек</arg>
+                    <arg type="ARGM-ADV" start="2" end="2">упорно</arg>
+                    <rel relloc="3">работает</rel>
+                    <arg type="ARG4" start="4" end="5">источником негатива</arg>
+                </propbank>
+            </example>
+            <example name="example"
+                     src="Russian National Corpus via Framebank: http://marker.framebank.ru/verbs_ex.php?lex=работать&amp;cxid=15648">
+                <text>-- Зачем раздражать дракона ? Читайте передовицы " Правды " : время работает на нас . Антон уйдёт
+                    -- и мы тотчас же испаримся .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="11" end="11">время</arg>
+                    <rel relloc="12">работает</rel>
+                    <arg type="ARG2" start="13" end="14">на нас</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="работать.02" name="function, operate">
+            <aliases>
+                <alias pos="j">работающий</alias>
+                <alias pos="j">работавший</alias>
+                <alias pos="j">работаемый</alias>
+                <alias pos="j">работанный</alias>
+                <alias pos="v">сработать</alias>
+                <alias pos="j">сработавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 6</note>
+            <note>работать.02 NOTE: Similar to "work.09"</note>
+            <roles>
+                <role descr="thing functioning" f="PPT" n="0"/>
+                <role descr="beneficiary" f="GOL" n="1"/>
+            </roles>
+            <example name="work-v: machine" src="">
+                <text>Дык только переключатель выключают , он просто работает в режиме stand - by ( желтый мигает )
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="5" end="5">он</arg>
+                    <arg type="ARGM-ADV" start="6" end="6">просто</arg>
+                    <rel relloc="7">работает</rel>
+                    <arg type="ARGM-MNR" start="8" end="12">в режиме stand - by</arg>
+                </propbank>
+            </example>
+            <example name="work-v: working" src="">
+                <text>Полагаю , ничего хорошего не ожидается от постоянно работающего мобильника в кармане .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="7" end="7">постоянно</arg>
+                    <rel relloc="8">работающего</rel>
+                    <arg type="ARG0" start="9" end="9">мобильника</arg>
+                    <arg type="ARGM-LOC" start="10" end="11">в кармане</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="работать.03" name="resultative construction">
+            <note>Corresponds to FrameBank senses 2,3,4</note>
+            <note>работать.03 NOTE: Similar to "work.10"</note>
+            <roles>
+                <role descr="Person/Entity working something1" f="PAG" n="0"/>
+                <role descr="Thing undergoing change of state, unselected object of work" f="PPT" n="1"/>
+                <role descr="End result of thing worked, arg1" f="PRD" n="2"/>
+                <role descr="Instrument" f="MNR" n="3"/>
+            </roles>
+            <example name="work-v:" src="">
+                <text>Часто меняют те которые работают с пирамидами фондами и держат свои рефсайты .</text>
+                <propbank>
+                    <arg type="ARG0" start="3" end="3">которые</arg>
+                    <rel relloc="4">работают</rel>
+                    <arg type="ARG1" start="5" end="7">с пирамидами фондами</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="работать.04" name="function, operate">
+            <note>Corresponds to FrameBank senses 5</note>
+            <note>работать.04 NOTE: Similar to "work.09" but no beneficiary possible</note>
+            <note>работать.04 NOTE: Meaning: to be free of passage, available for business</note>
+            <roles>
+                <role descr="causer" f="PAG" n="0"/>
+                <role descr="thing functioning" f="PPT" n="1"/>
+            </roles>
+            <example name="work-v: operating place of business" src="">
+                <text>Йogurt Antonio клуб вобщет работает до 4х утра теперь</text>
+                <propbank>
+                    <arg type="ARG1" start="2" end="2">клуб</arg>
+                    <arg type="ARGM-ADV" start="3" end="3">вобщет</arg>
+                    <rel relloc="4">работает</rel>
+                    <arg type="ARGM-TMP" start="5" end="7">до 4х утра</arg>
+                    <arg type="ARGM-TMP" start="8" end="8">теперь</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="работаться">
+        <roleset id="работаться.05" name="want to work">
+            <note>NOTE: Modal meaning added/changed from работать.01</note>
+            <aliases>
+                <alias pos="j">работающийся</alias>
+                <alias pos="j">работавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 7</note>
+            <roles>
+                <role descr="how it works, middle voice" f="MNR" n="1"/>
+                <role descr="worker, one affected by desire/feeling about work" f="PPT" n="2"/>
+            </roles>
+            <example name="how is the work going" src="">
+                <text>Как вам работается на новом месте ?</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Как</arg>
+                    <arg type="ARG2" start="1" end="1">вам</arg>
+                    <rel relloc="2">работается</rel>
+                    <arg type="ARGM-LOC" start="3" end="5">на новом месте</arg>
+                </propbank>
+            </example>
+            <example name="interesting work" src="">
+                <text>Работалось тогда интересно .</text>
+                <propbank>
+                    <rel relloc="0">Работалось</rel>
+                    <arg type="ARGM-TMP" start="1" end="1">тогда</arg>
+                    <arg type="ARG1" start="2" end="2">интересно</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

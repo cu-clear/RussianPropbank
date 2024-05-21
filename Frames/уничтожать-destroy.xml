@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="уничтожать">
+        <roleset id="уничтожить.01" name="destroy">
+            <aliases>
+                <alias pos="v">уничтожать</alias>
+                <alias pos="v">уничтожить</alias>
+                <alias pos="j">уничтоженный</alias>
+                <alias pos="j">уничтожающий</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English destroy.01</note>
+            <roles>
+                <role descr="destroyer" f="PAG" n="0"/>
+                <role descr="thing destroyed" f="PPT" n="1"/>
+                <role descr="instrument of destruction" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="destroy.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="no instrument" src="Russian National Corpus">
+                <text>Не случайно организатор теракта уничтожал свободный город-космополит , как будто боясь полюбить
+                    его .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="3">организатор теракта</arg>
+                    <rel relloc="4">уничтожал</rel>
+                    <arg type="ARG1" start="5" end="6">свободный город-космополит</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="Выражать">
+        <roleset id="выражать.01" name="Express, convey">
+            <aliases>
+                <alias pos="v">выражать</alias>
+                <alias pos="v">выразить</alias>
+                <alias pos="j">выражающий</alias>
+                <alias pos="j">выраженный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English express.01</note>
+            <roles>
+                <role descr="Speaker" f="PAG" n="0"/>
+                <role descr="Utterance, expression" f="PPT" n="1"/>
+                <role descr="Hearer" f="GOL" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, Д. Марголин. Спутник меломана. Собрание оперных либретто (1908)">
+                <text>Юнги выражают уверенность в красоте принцессы , но старые моряки упорствуют в своем скептицизме .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Юнги</arg>
+                    <rel relloc="1">выражают</rel>
+                    <arg type="ARG1" start="2" end="5">уверенность в красоте принцессы</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, Василий Аксенов. Звездный билет // «Юность», 1961">
+                <text>Он выразил нам благодарность и посоветовал немедленно топать назад , к Синему острову .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">выразил</rel>
+                    <arg type="ARG2" start="2" end="2">нам</arg>
+                    <arg type="ARG1" start="3" end="3">благодарность</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

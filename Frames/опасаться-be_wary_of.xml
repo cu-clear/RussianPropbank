@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Опасаться">
+    <roleset id="опасаться.01" name="Fear, apprehend, be wary of">
+      <aliases>
+        <alias pos="v">опасаться</alias>
+        <alias pos="v">поопасаться</alias>
+        <alias pos="j">опасающийся</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English fear.01 ; perfective VERY rare, but it's out there</note>
+      <roles>
+        <role descr="Coward, agent" f="PAG" n="0"/>
+        <role descr="The spooky thing, the fear itself" f="PPT" n="1"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, А. А. Фадеев. Молодая гвардия (1943-1951)">
+        <text>Он опасался немцев , которые могли стоять у Шевцовых . . .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Он</arg>
+          <rel relloc="?">опасался</rel>
+	        <arg type="ARG1" start="?" end="?">немцев</arg>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1" src="RNC, П. П. Бажов. Таюткино зеркальце (1941)">
+        <text>Одному домой ехать барин поопасался : насмех , дескать , поднимут , — он и остался в немецкой земле .</text>
+        <propbank>
+          <arg type="ARG1" start="?" end="?">Одному домой ехать</arg>
+	        <arg type="ARG0" start="?" end="?">барин</arg>
+          <rel relloc="?">поопасался</rel>
+        </propbank>
+      </example>
+      <example name="Arg0 and Arg1, often arg1 is an entire clause" src="RNC, П. А. Сажин. Трамонтана (1959) // «Современник», 1977">
+        <text>Все же я опасался , что мы за день не успеем дойти .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">я</arg>
+          <rel relloc="?">опасался</rel>
+	        <arg type="ARG1" start="?" end="?">что мы за день не успеем дойти</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

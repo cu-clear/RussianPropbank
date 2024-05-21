@@ -1,111 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="думать">
-  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="думать.01" name="think">
-	<note>думать.01 NOTES:Corresponds to FrameBank senses 1,2,4</note>
-      <aliases>
-        <alias framenet="" pos="j" verbnet="">думающий</alias>
-		<alias framenet="" pos="j" verbnet="">думавший</alias>
-		<alias framenet="" pos="j" verbnet="">думаемый</alias>
-		<alias framenet="" pos="j" verbnet="">думанный</alias>
-		<alias framenet="" pos="v" verbnet="">подумать</alias>
-		<alias framenet="" pos="j" verbnet="">подумавший</alias>
-		<alias framenet="" pos="v" verbnet="">думаться</alias>
-		<alias framenet="" pos="v" verbnet="">подуматься</alias>
-	  </aliases>
-      <note>думать.01 NOTES: Based on think.01</note>
-      <roles>
-	    <role descr="Thinker" f="PAG" n="0">
-        </role>
-        <role descr="Thought" f="PPT" n="1">
-        </role>
-		<role descr="subject" f="PRD" n="2">
-        </role>
-	  </roles>
-      <example name="think something about someone" src="" type="">
-        <text>Что вы думаете о нем ?</text>
-        <arg f="" n="1">Что</arg>
-		<arg f="" n="0">вы</arg>
-		<rel f="">думаете</rel>
-		<arg f="" n="2">о нем</arg>
-      </example>
-	  <example name="infinitive clause as arg1" src="Елена Митько, «Донцова переезжает на ПМЖ в Шервудский», 2002.10.10 г. // «Вечерняя Москва» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Поначалу я думала выкупить у Литфонда нашу дачу .</text>
-		<arg f="tmp" n="m">Поначалу</arg>
-		<arg f="" n="0">я</arg>
-		<rel f="">думала</rel>
-		<arg f="" n="1">выкупить у Литфонда нашу дачу</arg>
-      </example>
-	  <example name="reflexive imperfective" src="https://dic.academic.ru/dic.nsf/ogegova/53530" type="">
-        <text>Мне думается , так лучше будет .</text>
-		<arg f="" n="0">Мне</arg>
-		<rel f="">думается</rel>
-		<arg f="" n="1">так лучше будет</arg>
-      </example>
-	  <example name="think a thought" src="" type="">
-        <text>Я думаю , нам нужно купить новую машину .</text>
-		<arg f="" n="0">Я </arg>
-		<rel f="">думаю</rel>
-		<arg f="" n="1">нам нужно купить новую машину </arg>
-      </example>
-	</roleset>
-	
-	<roleset id="думать.02" name="think to, consider, contemplate an action">
-      <aliases>
-        <alias framenet="" pos="j" verbnet="">думающий</alias>
-		<alias framenet="" pos="j" verbnet="">думавший</alias>
-		<alias framenet="" pos="v" verbnet="">думая</alias>
-		<alias framenet="" pos="v" verbnet="">думавши</alias>
-		<alias framenet="" pos="v" verbnet="">думав</alias>
-		<alias framenet="" pos="j" verbnet="">думаемый</alias>
-		<alias framenet="" pos="j" verbnet="">думанный</alias>
-	  </aliases>
-	  <note>думать.02 NOTES: Based on English consider.02</note>
-      <note>NO PERFECTIVE.</note>
-      <roles>
-	    <role descr="agent" f="PAG" n="0"/>
-        <role descr="action under consideration. S-node infinitive only!" f="PPT" n="1"/>
-		<note>English Arg2-PRD has no match in Russian frame</note>
-	  </roles>
-	  <example name="think about doing something" src="" type="">
-        <text>Поначалу я думала выкупить у Литфонда нашу дачу .</text>
-		<arg f="tmp" n="m">Поначалу</arg>
-		<arg f="" n="0">я</arg>
-		<rel f="">думала</rel>
-		<arg f="" n="1">выкупить у Литфонда нашу дачу</arg>
-	  </example>
-	</roleset>
-	  
-	  <roleset id="думать.03" name="suspect">
-      <aliases>
-        <alias framenet="" pos="v" verbnet="">думать</alias>
-        <alias framenet="" pos="j" verbnet="">думающий</alias>
-		<alias framenet="" pos="j" verbnet="">думавший</alias>
-		<alias framenet="" pos="v" verbnet="">думая</alias>
-		<alias framenet="" pos="v" verbnet="">думавши</alias>
-		<alias framenet="" pos="v" verbnet="">думав</alias>
-		<alias framenet="" pos="j" verbnet="">думаемый</alias>
-		<alias framenet="" pos="j" verbnet="">думанный</alias>
-		<alias framenet="" pos="v" verbnet="">подумать</alias>
-		<alias framenet="" pos="j" verbnet="">подумавший</alias>
-		<alias framenet="" pos="v" verbnet="">подумавши</alias>
-		<alias framenet="" pos="v" verbnet="">подумав</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank sense 5</note>
-	  <note>думать.03 NOTES: Based on English suspect.01</note>
-      <roles>
-	    <role descr="suspecter" f="PAG" n="0">
-        </role>
-		<role descr="suspect; entity inspring suspicion in arg0" f="PPT" n="1">
-        </role>
-		<note>English Arg2-PRD = Russian Arg1-PPT</note>
-	  </roles>
-      <example name="arg1" src="https://dic.academic.ru/dic.nsf/ogegova/53526" type="">
-        <text>Опять поломка: думают на новичка.</text>
-		<rel f="">думают</rel>
-		<arg f="" n="1">на новичка</arg>
-      </example>
-	</roleset>
-  </predicate>
+    <predicate lemma="думать">
+        <roleset id="думать.01" name="think">
+            <aliases>
+                <alias pos="j">думающий</alias>
+                <alias pos="j">думавший</alias>
+                <alias pos="j">думаемый</alias>
+                <alias pos="j">думанный</alias>
+                <alias pos="v">подумать</alias>
+                <alias pos="j">подумавший</alias>
+                <alias pos="v">думаться</alias>
+                <alias pos="v">подуматься</alias>
+            </aliases>
+            <note>думать.01 NOTES:Corresponds to FrameBank senses 1,2,4</note>
+            <note>думать.01 NOTES: Based on think.01</note>
+            <roles>
+                <role descr="Thinker" f="PAG" n="0">
+                </role>
+                <role descr="Thought" f="PPT" n="1">
+                </role>
+                <role descr="subject" f="PRD" n="2">
+                </role>
+            </roles>
+            <lexlinks>
+                <lexlink class="think.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="think something about someone" src="">
+                <text>Что вы думаете о нем ?</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Что</arg>
+                    <arg type="ARG0" start="1" end="1">вы</arg>
+                    <rel relloc="2">думаете</rel>
+                    <arg type="ARG2" start="3" end="4">о нем</arg>
+                </propbank>
+            </example>
+            <example name="infinitive clause as arg1"
+                     src="Елена Митько, «Донцова переезжает на ПМЖ в Шервудский», 2002.10.10 г. // «Вечерняя Москва» (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Поначалу я думала выкупить у Литфонда нашу дачу .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="0">Поначалу</arg>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                    <rel relloc="2">думала</rel>
+                    <arg type="ARG1" start="3" end="7">выкупить у Литфонда нашу дачу</arg>
+                </propbank>
+            </example>
+            <example name="reflexive imperfective" src="https://dic.academic.ru/dic.nsf/ogegova/53530">
+                <text>Мне думается , так лучше будет .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Мне</arg>
+                    <rel relloc="1">думается</rel>
+                    <arg type="ARG1" start="3" end="5">так лучше будет</arg>
+                </propbank>
+            </example>
+            <example name="think a thought" src="">
+                <text>Я думаю , нам нужно купить новую машину .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">думаю</rel>
+                    <arg type="ARG1" start="3" end="7">нам нужно купить новую машину</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="думать.02" name="think to, consider, contemplate an action">
+            <aliases>
+                <alias pos="j">думающий</alias>
+                <alias pos="j">думавший</alias>
+                <alias pos="v">думая</alias>
+                <alias pos="v">думавши</alias>
+                <alias pos="v">думав</alias>
+                <alias pos="j">думаемый</alias>
+                <alias pos="j">думанный</alias>
+            </aliases>
+            <note>думать.02 NOTES: Based on English consider.02</note>
+            <note>NO PERFECTIVE.</note>
+            <roles>
+                <role descr="agent" f="PAG" n="0"/>
+                <role descr="action under consideration. S-node infinitive only!" f="PPT" n="1"/>
+                <note>English Arg2-PRD has no match in Russian frame</note>
+            </roles>
+            <lexlinks>
+                <lexlink class="consider.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="think about doing something" src="">
+                <text>Поначалу я думала выкупить у Литфонда нашу дачу .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="0">Поначалу</arg>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                    <rel relloc="2">думала</rel>
+                    <arg type="ARG1" start="3" end="7">выкупить у Литфонда нашу дачу</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="думать.03" name="suspect">
+            <aliases>
+                <alias pos="v">думать</alias>
+                <alias pos="j">думающий</alias>
+                <alias pos="j">думавший</alias>
+                <alias pos="v">думая</alias>
+                <alias pos="v">думавши</alias>
+                <alias pos="v">думав</alias>
+                <alias pos="j">думаемый</alias>
+                <alias pos="j">думанный</alias>
+                <alias pos="v">подумать</alias>
+                <alias pos="j">подумавший</alias>
+                <alias pos="v">подумавши</alias>
+                <alias pos="v">подумав</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 5</note>
+            <note>думать.03 NOTES: Based on English suspect.01</note>
+            <roles>
+                <role descr="suspecter" f="PAG" n="0">
+                </role>
+                <role descr="suspect; entity inspring suspicion in arg0" f="PPT" n="1">
+                </role>
+                <note>English Arg2-PRD = Russian Arg1-PPT</note>
+            </roles>
+            <lexlinks>
+                <lexlink class="suspect.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg1" src="https://dic.academic.ru/dic.nsf/ogegova/53526">
+                <text>Опять поломка : думают на новичка .</text>
+                <propbank>
+                    <rel relloc="3">думают</rel>
+                    <arg type="ARG1" start="4" end="5">на новичка</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

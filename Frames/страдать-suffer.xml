@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="пострадать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="страдать.01" name="suffer, endure">
+            <aliases>
+                <alias pos="v">страдать</alias>
+                <alias pos="j">страдающий</alias>
+                <alias pos="j">страдавший</alias>
+                <alias pos="v">пострадать</alias>
+                <alias pos="j">пострадавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,4,5</note>
+            <note>ПОСТРАДАТЬ.01 NOTES: Based on English suffer.01</note>
+            <roles>
+                <role descr="entity suffering" f="PPT" n="0"/>
+                <role descr="malady" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="suffer.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="suffer" src="">
+                <text>Кто - то пострадал .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="2">Кто - то</arg>
+                    <rel relloc="3">пострадал</rel>
+                </propbank>
+            </example>
+            <example name="Arg0 and Arg1" src="RNC, Вера Елгаева. Бессонница // «100% здоровья», 2003.03.01">
+                <text>В наше время бессонницей страдают около 10 % населения развитых стран .</text>
+                <propbank>
+                    <arg type="ARG1" start="3" end="3">бессонницей</arg>
+                    <rel relloc="4">страдают</rel>
+                    <arg type="ARG0" start="5" end="10">около 10 % населения развитых стран</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="задерживать">
+        <roleset id="задерживать.01" name="Delay, hold up">
+            <aliases>
+                <alias pos="v">задерживать</alias>
+                <alias pos="v">задержать</alias>
+                <alias pos="j">задерживающий</alias>
+                <alias pos="j">задержанный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English delay.01</note>
+            <roles>
+                <role descr="Agent, causer of delay" f="PAG" n="0"/>
+                <role descr="Person or Thing Delayed" f="PPT" n="1"/>
+                <role descr="Place where delayed or held up" f="LOC" n="2"/>
+                <role descr="Time Delayed" f="TMP" n="3"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, Ю. О. Домбровский. Факультет ненужных вещей, часть 1 (1978)">
+                <text>Если бы вы их задержали и позвонили органам , а это вы сделать были обязаны , ― он повысил голос ,
+                    ― то золото было бы тут .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="2">вы</arg>
+                    <arg type="ARG1" start="3" end="3">их</arg>
+                    <rel relloc="4">задержали</rel>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, ">
+                <text>Мы задержали наши ладони в рукопожатии , разглядывая друг друга. [Д. Н. Каралис. Дневник (1994)]
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Мы</arg>
+                    <rel relloc="1">задержали</rel>
+                    <arg type="ARG1" start="2" end="3">наши ладони</arg>
+                    <arg type="ARG2" start="4" end="5">в рукопожатии</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg3" src="RNC, Роман Кармен. Но пасаран! [Ч. 1] (1972)">
+                <text>ЭТО ЗАДЕРЖАЛО ДВИЖЕНИЕ МАШИН БУКВАЛЬНО НА СЧИТАННЫЕ МИНУТЫ .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">ЭТО</arg>
+                    <rel relloc="1">ЗАДЕРЖАЛО</rel>
+                    <arg type="ARG1" start="2" end="3">ДВИЖЕНИЕ МАШИН</arg>
+                    <arg type="ARG3" start="5" end="7">НА СЧИТАННЫЕ МИНУТЫ</arg>
+                    <note>It was ALL CAPS in the corpus...</note>
+                </propbank>
+            </example>
+            <example name="Arg1, Arg2, and Arg3" src="RNC, О. В. Абакумова. Мелодии вечного сна // «Волга», 2011">
+                <text>Между тем , у врачей не нашлось оснований задерживать ее в больнице дольше пяти дней .</text>
+                <propbank>
+                    <rel relloc="8">задерживать</rel>
+                    <arg type="ARG1" start="9" end="9">ее</arg>
+                    <arg type="ARG2" start="10" end="11">в больнице</arg>
+                    <arg type="ARG3" start="12" end="14">дольше пяти дней</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

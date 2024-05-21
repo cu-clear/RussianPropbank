@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="звучать">
+        <roleset id="звучать.01" name="resound, to make sound, to ring">
+            <aliases>
+                <alias pos="v">звучать</alias>
+                <alias pos="v">прозвучать</alias>
+                <alias pos="j">звучащий</alias>
+                <alias pos="j">прозвучавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English sound.02</note>
+            <roles>
+                <role descr="Agent causing ARG1" f="PAG" n="0"/>
+                <role descr="noise-maker" f="PPT" n="1"/>
+                <role descr="the sound itself (the name of the sound/song, etc., not just a characteristic)" f="PPT"
+                      n="2"/>
+                <role descr="characteristic of the sound" f="ADJ" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="sound.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG2 and 3" src="RNC, Болото 2001">
+                <text>Выстрел прозвучал неожиданно звучно ...</text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="0">Выстрел</arg>
+                    <rel relloc="1">прозвучал</rel>
+                    <arg type="ARG3" start="3" end="3">звучно</arg>
+                </propbank>
+            </example>
+            <example name="ARG0 and 2" src="RNC, Фокс Малдер похож на свинью: Повесть, рассказы. — М.: ОГИ, 2001">
+                <text>Голос Лидии Тимофеевны прозвучал откуда-то из угла .</text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="0">Голос</arg>
+                    <arg type="ARG0" start="1" end="1">Лидии</arg>
+                    <rel relloc="3">прозвучал</rel>
+                </propbank>
+            </example>
+            <example name="ARG1 and 3"
+                     src="RNC, В. Вересаев. Сочинения в четырех томах. Том I. Повести. В тупике: Роман. М.: Правда, 1990">
+                <text>И грустно , уединенно звучал в тумане далекий колокол .</text>
+                <propbank>
+                    <arg type="ARG3" start="1" end="1">грустно</arg>
+                    <arg type="ARG3" start="3" end="3">уединенно</arg>
+                    <rel relloc="4">звучал</rel>
+                    <arg type="ARG1" start="8" end="8">колокол</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="звучать.02" name="to seem, to appear">
+            <aliases>
+                <alias pos="v">звучать</alias>
+                <alias pos="v">прозвучать</alias>
+                <alias pos="j">звучащий</alias>
+                <alias pos="j">прозвучавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English sound.01</note>
+            <roles>
+                <role descr="thing seeming" f="PAG" n="0"/>
+                <role descr="attribute of arg1" f="PRD" n="1"/>
+                <role descr="viewer" f="PPT" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="sound.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG0, 1, and 2" src="RNC, «Коммерсантъ-Власть», 1998, № 12">
+                <text>Для многих в Японии эта речь прозвучала как гром среди ясного неба .</text>
+                <propbank>
+                    <arg type="ARG2" start="1" end="1">многих</arg>
+                    <arg type="ARG0" start="5" end="5">речь</arg>
+                    <rel relloc="6">прозвучала</rel>
+                    <arg type="ARG1" start="8" end="8">гром</arg>
+                </propbank>
+            </example>
+            <example name="ARG0 and 1" src="RNC, Звезда, 2002 N11">
+                <text>Умер " как раз перед первым толчком " ― эта фраза звучит как упрёк .</text>
+                <propbank>
+                    <arg type="ARG0" start="10" end="10">фраза</arg>
+                    <rel relloc="11">звучит</rel>
+                    <arg type="ARG1" start="13" end="13">упрёк</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="кормить">
+        <roleset id="кормить.01" name="feed">
+            <aliases>
+                <alias pos="v">кормить</alias>
+                <alias pos="v">накормить</alias>
+                <alias pos="v">покормить</alias>
+                <alias pos="j">кормящий</alias>
+                <alias pos="j">накормленный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English feed.01</note>
+            <roles>
+                <role descr="Feeder" f="PAG" n="0"/>
+                <role descr="Eater" f="GOL" n="1"/>
+                <role descr="Food" f="PPT" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Ваня часто его кормит</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Ваня</arg>
+                    <arg type="ARG1" start="2" end="2">его</arg>
+                    <rel relloc="3">кормит</rel>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="_">
+                <text>Сударь накормил его кашей .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Сударь</arg>
+                    <rel relloc="1">накормил</rel>
+                    <arg type="ARG1" start="2" end="2">его</arg>
+                    <arg type="ARG1" start="3" end="3">кашей</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

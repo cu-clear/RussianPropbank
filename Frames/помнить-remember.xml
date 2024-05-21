@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<frameset>
+    <predicate lemma="помнить">
+        <roleset id="помнить.01" name="Remember, keep in mind">
+            <aliases>
+                <alias pos="v">помнить</alias>
+                <alias pos="v">помни</alias>
+                <alias pos="j">помнящий</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English remember.01</note>
+            <roles>
+                <role descr="Rememberer" f="PAG" n="0"/>
+                <role descr="Memory" f="PPT" n="1"/>
+                <role descr="Secondary attribute" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="remember.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG0 and ARG1" src="Source here">
+                <text>Дальше помнил он один страшный , черный день .</text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="2">он</arg>
+                    <rel relloc="1">помнил</rel>
+                    <arg type="ARG1" start="3" end="7">один страшный , черный день</arg>
+                </propbank>
+            </example>
+            <example name="ARG0, ARG1, and ARG3"
+                     src="ruTenTen11, http://victory.mil.ru/lib/books/memo/kozhedub1/02.html">
+                <text>Ведь я вас помню старшим сержантом ...</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">я</arg>
+                    <rel relloc="3">помню</rel>
+                    <arg type="ARG1" start="2" end="2">вас</arg>
+                    <arg type="ARG2" start="4" end="5">старшим сержантом</arg>
+                </propbank>
+            </example>
+            <example name="ARG0, ARG1, and ARG3" src="RNC, http://fanread.ru/book/8456509/">
+                <text>Помню первое впечатление : какое-то удивительное изящество в жестах , в манере держаться .</text>
+                <propbank>
+                    <rel relloc="0">Помню</rel>
+                    <arg type="ARG1" start="1" end="2">первое впечатление</arg>
+                    <arg type="ARG2" start="4" end="12">какое-то удивительное изящество в жестах , в манере держаться
+                    </arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

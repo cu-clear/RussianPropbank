@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="знакомиться ">
+        <roleset id="знакомиться.01" name="Translations">
+            <aliases>
+                <alias pos="v">знакомиться</alias>
+                <alias pos="v">познакомиться</alias>
+                <alias pos="j">знакомящийся</alias>
+                <alias pos="j">познакомившийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English meet.02</note>
+            <roles>
+                <role descr="Meeter" f="PAG" n="0"/>
+                <role descr="Person, Entity, thing met" f="COM" n="1"/>
+            </roles>
+            <example name="Arg0 and Arg1"
+                     src="RNC, Марк Тайманов. Эмоции неисчерпаемы (2003) // «64 — Шахматное обозрение», 15.10.2003">
+                <text>Я знакомился с ним и обнаружил оазис тишины , покоя .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">знакомился</rel>
+                    <arg type="ARG1" start="2" end="3">с ним</arg>
+                </propbank>
+            </example>
+            <example name="Arg0 and Arg1 as innanimate"
+                     src="RNC, Леонид Барков. Вице-премьера позвали в трущобы (2003) // «Время МН», 06.08.2003">
+                <text>Там же они во всех деталях познакомились с проектом железной дороги , вызывающим споры на высшем
+                    уровне .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="2">они</arg>
+                    <rel relloc="6">познакомились</rel>
+                    <arg type="ARG1" start="7" end="10">с проектом железной дороги</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

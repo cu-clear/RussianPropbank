@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="искажать">
+        <roleset id="искажать.01" name="distort, disfigure">
+            <aliases>
+                <alias pos="v">искажать</alias>
+                <alias pos="v">исказить</alias>
+                <alias pos="j">искажающий</alias>
+                <alias pos="j">искажённый</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English distort.01</note>
+            <roles>
+                <role descr="Alterer, agent" f="PAG" n="0"/>
+                <role descr="Thing distorted" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="distort.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG0 only" src="RNC, Ф. М. Достоевский. Братья Карамазовы (1880)">
+                <text>Но он не искажал и не уменьшал .</text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="2">он</arg>
+                    <rel relloc="4">искажал</rel>
+                </propbank>
+            </example>
+            <example name="ARG0 and ARG1" src="RNC, ">
+                <text>Каждое волнение радости и горя искажает отражение .</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="5">Каждое волнение радости и горя</arg>
+                    <rel relloc="6">искажает</rel>
+                    <arg type="ARG1" start="7" end="7">отражение</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="жалеть">
+        <roleset id="жалеть.01" name="Regret">
+            <aliases>
+                <alias pos="v">жалеть</alias>
+                <alias pos="v">пожалеть</alias>
+                <alias pos="v">сожалеть</alias>
+                <alias pos="j">жалеющий</alias>
+                <alias pos="j">пожалевший</alias>
+                <alias pos="j">сожалеющий</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English regret.01</note>
+            <roles>
+                <role descr="Regreter" f="PPT" n="0"/>
+                <role descr="Thing regretted" f="CAU" n="1"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Я жалею что не закончил эту работу .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">жалею</rel>
+                    <arg type="ARG1" start="2" end="6">что не закончил эту работу</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="жалеть - TBD">
+        <roleset id="жалеть.02" name="Pity, feel sorry for">
+            <aliases>
+                <alias pos="v">жалеть</alias>
+                <alias pos="v">пожалеть</alias>
+                <alias pos="v">сожалеть</alias>
+                <alias pos="j">жалеющий</alias>
+                <alias pos="j">пожале́вший</alias>
+                <alias pos="j">сожалеющий</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English pity.01</note>
+            <roles>
+                <role descr="Regreter" f="PPT" n="0"/>
+                <role descr="Thing regretted" f="CAU" n="1"/>
+            </roles>
+        </roleset>
+        <roleset id="жалеть.03" name="Spare, use reluctanly">
+            <aliases>
+                <alias pos="v">жалеть</alias>
+                <alias pos="v">пожалеть</alias>
+                <alias pos="v">сожалеть</alias>
+                <alias pos="j">жалеющий</alias>
+                <alias pos="j">пожале́вший</alias>
+                <alias pos="j">сожалеющий</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English spare.02</note>
+            <roles>
+                <role descr="Regreter" f="PPT" n="0"/>
+                <role descr="Thing regretted" f="CAU" n="1"/>
+            </roles>
+        </roleset>
+    </predicate>
+</frameset>

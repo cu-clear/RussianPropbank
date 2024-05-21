@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="ожидать">
+        <roleset id="ожидать.01" name="Expect, anticipate">
+            <aliases>
+                <alias pos="v">ожидать</alias>
+                <alias pos="j">ожидающий</alias>
+                <alias pos="j">ожидаемый</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English expect.01; there is no perfective counter-part.</note>
+            <roles>
+                <role descr="Anticipater" f="PAG" n="0"/>
+                <role descr="Thing expected" f="PPT" n="1"/>
+                <role descr="Source of anticipation, cause of expectancy" f="PPT" n="3"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, Василий Аксенов. Новый сладостный стиль (1997)">
+                <text>― Я ожидал этого упрека , ― грустно сказал Дакуорт ...</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">Я</arg>
+                    <rel relloc="2">ожидал</rel>
+                    <arg type="ARG1" start="3" end="4">этого упрека</arg>
+                </propbank>
+            </example>
+            <example name="Arg1 and Arg2" src="_">
+                <text>Мало можно ожидать пользы от предлагаемых мер , хотя они вообще одобрительны. [А. А. Половцов.
+                    Дневник (1883)]
+                </text>
+                <propbank>
+                    <rel relloc="2">ожидать</rel>
+                    <arg type="ARG0" start="3" end="3">пользы</arg>
+                    <arg type="ARG1" start="4" end="6">от предлагаемых мер</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

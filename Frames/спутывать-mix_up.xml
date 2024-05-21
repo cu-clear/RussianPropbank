@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="спутывать">
+        <roleset id="спутывать.01" name="Confuse, mix up">
+            <aliases>
+                <alias pos="v">спутывать</alias>
+                <alias pos="v">спутать</alias>
+                <alias pos="j">спутавший</alias>
+                <alias pos="j">спутанный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English confuse.01</note>
+            <roles>
+                <role descr="Agentive cause of confusion" f="PAG" n="0"/>
+                <role descr="Entity experiencing confusion" f="PPT" n="1"/>
+                <role descr="Confused about or over what (first or all things)" f="VSP" n="2"/>
+                <role descr="Second thing confused arg2 with what" f="VSP" n="3"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, Ф. И. Буслаев. Мои воспоминания (1897)">
+                <text>Вот вопрос , который и занимает , и спутывает меня !</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">вопрос</arg>
+                    <rel relloc="8">спутывает</rel>
+                    <arg type="ARG1" start="9" end="9">меня</arg>
+                </propbank>
+            </example>
+            <example name="Arg1, Arg2 and Arg3"
+                     src="RNC, П. Н. Ткачев. Революция и принцип национальности // «Набат». 1878">
+                <text>Он совершенно спутывает принцип народности с принципом национальности и наивно воображает , будто
+                    все народное ― национально и национальное ― народно .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="2">спутывает</rel>
+                    <arg type="ARG1" start="3" end="4">принцип народности</arg>
+                    <arg type="ARG1" start="6" end="7">принципом национальности</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

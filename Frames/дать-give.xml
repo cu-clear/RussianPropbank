@@ -1,352 +1,452 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="дать">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="дать.01" name="give, transfer, present, sell">
-      <aliases>
-		<alias framenet="" pos="v" verbnet="">давать</alias>
-		<alias framenet="" pos="v" verbnet="">давывать</alias>
-      </aliases>
-	  <note>дать.01 NOTES: Roleset based on English verb frame give.01</note>
-	  <note>Corresponds to FrameBank senses </note>
-      <roles>
-        <role descr="giver" f="PAG" n="0"/>
-		<role descr="thing given - Nominal, not VERB)" f="PPT" n="1"/>
-		<role descr="entity given to" f="GOL" n="2"/>
-      </roles>
-      <example name="give a rate" src="" type="">
-        <text>Вы дали мне очень низкую ставку. </text>
-        <arg f="" n="0">Вы</arg>
-		<rel f="">дали</rel>
-		<arg f="" n="1">очень низкую ставку</arg>
-		<arg f="" n="2">мне </arg>
-      </example>
-	  <example name="give results" src="" type="">
-        <text>- Лечение дома подручными средствами результатов не дало , и женщина обратилась в поликлинику .</text>
-		<arg f="" n="0">Лечение дома подручными средствами</arg>
-		<arg f="" n="1">результатов</arg>
-        <rel f="">не дало</rel>
-      </example>
-	   <example name="give yourself a brake" src="" type="">
-        <text>Короче , расслабьтесь , пациент и дайте себе паузу без истерик .</text>
-		<arg f="" n="0">пациент</arg>
-		<arg f="" n="1">паузу</arg>
-		<arg f="" n="2">себе</arg>
-        <rel f="">дайте</rel>
-      </example>
-	   <example name="give opinion, stance, explenation" src="" type="">
-        <text>Наталья Желанова , Минспорта РФ : « Сразу после выхода отчета независимой комиссии , ВАДА направила письмо в РУСАДА , с тем чтобы на каждое обвинение оно дало свою позицию , свое объяснение ».</text>
-		<arg f="" n="0">оно</arg>
-		<arg f="" n="1">свою позицию , свое объяснение</arg>
-        <rel f="">дало</rel>
-      </example>
-	   <example name="" src="Russian National Corpus[М. Э. Боцманова, Р. Д. Триггер. Изучение психологии подростка в лаборатории Д.Б. Эльконина // «Вопросы психологии», 2004]" type="">
-        <text>Небольшой группе ребят давалось общее задание, и они помещались в маленькую комнату, одна стена которой была зеркальной.</text>
-		<arg f="" n="1">общее задание</arg>
-		<arg f="" n="2">Небольшой группе ребят</arg>
-        <rel f="">давалось</rel>
-      </example>
-	   <example name="" src="" type="Russian National Corpus[Ю. О. Домбровский. Факультет ненужных вещей, часть 3 (1978)]">
-        <text>Ежов, он безвинного в обиду никогда не даст.</text>
-		<arg f="" n="o">он</arg>
-		<arg f="" n="1">безвинного в обиду</arg>
-        <rel f="">не даст</rel>
-	   </example>
-	</roleset>
-    
-	<roleset id="дать.02" name="let, allow, provide">
-	  <note>дать.02 NOTES: Roleset based on English verb frame let.01</note>
-      <roles>
-        <role descr="allower " f="PAG" n="0"/>
-		<role descr="action allowed" f="PPT" n="1"/>
-		<role descr="recipient, benefactive" f="GOL" n="2"/>
-      </roles>
-	  <example name="letting to know" src="" type="">
-        <text>Я дам ей знать.</text>
-        <arg f="" n="0">Я </arg>
-		<arg f="" v="1"> знать</arg>
-		<arg f="" n="2"> ей</arg>
-		<rel f="">дам</rel>
-	  </example>
-	  	<example name="letting think" src="Russian National Corpus [Переписка в icq между agd-ardin и Колючий друг (2008.01.16)]" type="">
-		  <text>Уф… дай подумать… (Не знаю, что ты там обо мне будешь думать… но) знаешь, могу тебе сказать вот что.</text>
-		<arg f="" n="1"> подумать</arg>
-		<rel f="">дай</rel>
-	  </example>
-	  	<example name="" src="" type="">
-		  <text>а вечером под расписку если даст Бог все хорошо будет.</text>
-		<arg f="" n="0"> Богь</arg>
-		<rel f="">даст</rel>
-	  </example>
-	  <example name="" src="" type="">
-        <text>Разумеется , не дай вам бог принять это за образец торговли , нет предела совершенству , я знаю трейдера покруче и уверен , что есть еще круче , тем не менее приступим .</text>
-        <arg f="" n="0">бог</arg>
-		<arg f="" n="1"> принять это за образец торговли</arg>
-		<arg f="" n="2"> вам</arg>
-		<rel f="">не дай</rel>
-	  </example>
-	  	  <example name="" src="" type="">
-        <text>а я хочу всегда и везде , и дай чтобы и фигурка была , и личиком вышла , прям дай вот и все.</text>
-		<arg f="" n="1">вот и все</arg>
-		<rel f="">дай</rel>
-	  </example>
-	  <example name="" src="Russian National Corpus[коллективный. Форум: 17 мгновений весны (2005-2010)]" type="">
-        <text>Он вынужден постоянно сталкиваться с теми, кто является его врагом… Но то, что он лишён права быть с любимой женщиной — не каждому дано выжить с этим.</text>
-        <arg f="" n="0">не каждому </arg>
-		<arg f="" v="1"> выжить с этим</arg>
-		<rel f="">дано</rel>
-	  </example>
-	  	  <example name="" src="Russian National Corpus[М. А. Булгаков. Записки покойника (Театральный роман) (1936-1937)]" type="">
-        <text>Бессонница дала себя знать недели через две.</text>
-        <arg f="" n="0">Бессонница</arg>
-		<arg f="" v="1">себя знать</arg>
-		<rel f="">дала</rel>
-	  </example>
-	</roleset>  
-	 
-	<roleset id="дать.03" name="present, perform, do, perform, sponsor">
-	  <note>дать.03 NOTES: Roleset based on English verb frame perform.01 </note>
-	  <roles>
-		<role descr="performer" f="PAG" n="0"/>
-		<role descr="performance, thing performed " f="PPT" n="1"/>
-      </roles>
-	  <example name="example" src="Russian National Corpus[И. К. Архипова. Музыка жизни (1996)]" type="">
-        <text>Вечером 6 января, накануне православного Рождества, мы дали концерт в честь 125-летия Ф. И. Шаляпина.</text>
-		<rel f="">дали</rel>
-		<arg f="" n="o">мы</arg>
-		<arg f="" n="1">концерт в честь 125-летия Ф. И. Шаляпина</arg>
-	  </example>
-	</roleset>
-		
-	<roleset id="дать.LV" name="LIGHT VERB">
-	  <note>Corresponds to FrameBank sense </note>
-	  <note>дать.04 NOTES: Roleset based on English verb frame doing.07</note>
-      <roles>
-		<role descr="maker, subject of the light-verb" f="PAG" n="0"/>
-		<role descr="true noun predicate " f="PRD" n="1"/>
-      </roles>
-	  <example name="" type="">
-        <text>"Похоже на упраждение для развития бредогенератора ))))) И что , дашь совет ? )))))".</text>
-		<rel f="">дашь</rel>
-		<arg f="" n="1">совет</arg>
-	  </example>
- <example name="" type="">
-        <text>"Вы отвечайте в зависимости от вашего ребенка , его характера , его эмоциональности , давайте ответы , чтобы успокоить и дать уверенность ..</text>
-		<rel f="">давайте</rel>
-		<arg f="" n="1">ответы</arg>
-	  </example>
-	   <example name="" type="">
-        <text>"Губернатор Саратовской области Валерий Радаев дал официальный комментарий , в котором выразил соболезнование родным убитого парня , а также призвал всех жителей Пугачева остановиться .".</text>
-		<rel f="">дал</rel>
-		<arg f="" n="1">официальный комментарий</arg>
-	  </example>
-	</roleset>
-	
-	<roleset id="дать.05" name="give in, yield"> 
-	  <aliases>
-		<alias framenet="" pos="v" verbnet="">даваться</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank sense </note>
-	  <note>дать.05 NOTES: Roleset based on English verb frame give_in.09</note>
-      <roles>
-		<role descr="entity giving way" f="PAG" n="0"/>
-		<role descr="entity winning" f="GOL" n="1"/>
-		<role descr="end state of arg0" f="PRD" n="2"/>
-      </roles>
-	  <example name="" src="М. П. Шишкин, «Письмовник», 2010 г. // «Знамя» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>"Потом решила застрелиться, чтобы не даться им в руки, но когда увидела, что эти люди делали с ее близкими, она начала стрелять в них.</text>
-		<rel f="">не даться</rel>
-		<arg f="" n="1"></arg>
-	  </example>
-	</roleset>
-	
-    <roleset id="дать.06" name="catch on, master"> 
-      <aliases>
-		<alias framenet="" pos="v" verbnet="">даваться</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank sense </note>
-	  <note>дать.06 NOTES: Roleset based on English verb frame catch_on.06</note>
-      <roles>
-		<role descr="aware entity" f="PAG" n="0"/>
-		<role descr="aware of what?" f="PPT" n="1"/>
-      </roles>
-	  <example name="" src=" В. С. Соловьёв, «Три речи в память Достоевского», 1881-1883 г. (цитата из Национального корпуса русского языка, см. Список литературы" type="">
-        <text>"Положительный религиозный идеал, так высоко поднявший Достоевского над господствующими течениями общественной мысли, этот положительный идеал не дался ему сразу, а был выстрадан им в тяжёлой и долгой борьбе."</text>
-		<rel f="">не дался</rel>
-		<arg f="" n="0"></arg>
-		<arg f="" n="1">этот положительный идеал</arg>
-	  </example>
-	  <example name="" src="Russian National Corpus[коллективный. Форум: Горный двухподвесочный (2010)]" type="">
-        <text>"Приходилось прогуливать все уроки и сильно рисковать, учеба давалась мне с таким трудом, что строгая дама завуч неоднократно предлагала маме сводить меня к детскому психиатру."</text>
-		<rel f="">давалась</rel>
-		<arg f="" n="0">мне</arg>
-		<arg f="" n="1">учеба</arg>
-	  </example>
-	</roleset>
-  </predicate>
-
-  <predicate>
-	<roleset id="даться.07" name="be discussed, become object of attention, interest, or topic of conversation">
-	  <note>Corresponds to FrameBank sense </note>
-	  <note>дать.07 NOTES: No frame match in English</note>
-      <roles>
-		<role descr="discusser, interested entity" f="PAG" n="0"/>
-		<role descr="interesting entity being discussed" f="PPT" n="1"/>
-      </roles>
-	  <example name="" src= "А. А. Бестужев-Марлинский, «Следствие вечера на кавказских водах», 1830 г. (цитата из Национального корпуса русского языка, см. Список литературы.)" type="">
-        <text>"Дался им итальянский камертон благозвучия, и зато уже не смей похвалить иного, между тем как всякий язык под пером искусного писателя может стать гармоническим и нежным." </text>
-		<rel f="">Дался</rel>
-		<arg f="" n="0">им</arg>
-		<arg f="" n="1">итальянский камертон благозвучия</arg>
-	  </example>
-	  </roleset>
-	   <roleset id="даться.08" name="begin (ASPECTUAL USAGE)">
-	  <note>Corresponds to FrameBank sense </note>
-	  <note>дать.08 NOTES: No frame match in English</note>
-      <roles>
-		<role descr="action begun" f="PPT" n="1"/>
-      </roles>
-	  	  <example name="" src="Russian National Corpus[Александр Снегирев. Вера (2015)]" type="">
-        <text>Он принялся вытаскивать из всех своих закромов банкноты, вернулся к столу и давай награждать. </text>
-		<rel f="">давай</rel>
-		<arg f="" v="1">награждать</arg>
-	  </example>
-	</roleset>
-  </predicate>
-
-  <predicate lemma="давай">
-	<roleset id="давай(те).09" name="(OPTATIVE? MOOD) let's">
-	  <note>дать.09 NOTES: No frame match in English</note>
-      <roles>
-      </roles>
-	  <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
-        <text>"А давайте вместе начинать, а то опять всю ответственность взваливаете на нас. </text>
-		<rel f="">давайте</rel>
-	  </example>
-	    <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2008.01.16)]" type="">
-        <text>"Хороший подход, однако ) правда, если б он к нашим преподам по гермафилу подошел с подобным:" а давайте я сразу на пересдачу приду ", они бы ему хором ответили -" А давайте!"</text>
-		<rel f="">a давайте</rel>
-	  </example>
-	  <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]" type="">
-        <text>"Ага, давай, спокойной ночи. Я бы тоже пошел, но завтра не встану. </text>
-		<rel f="">давай</rel>
-	  </example>
-	</roleset>
-	
-	<roleset id="давай.10" name="bye!">
-	  <note>дать.10 NOTES: No frame match in English</note>
-      <roles>
-		<role descr="" f="" n=""/>
-      </roles>
-	  <example name="example" src="Russian National Corpus [Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]" type="">
-        <text>"Ага, давай, спокойной ночи. Я бы тоже пошел, но завтра не встану</text>
-		<rel f="">давай</rel>
-	  </example>
-	</roleset>
-  </predicate>
-  
+    <predicate lemma="дать">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="дать.01" name="give, transfer, present, sell">
+            <aliases>
+                <alias pos="v">давать</alias>
+                <alias pos="v">давывать</alias>
+            </aliases>
+            <note>дать.01 NOTES: Roleset based on English verb frame give.01</note>
+            <note>Corresponds to FrameBank senses</note>
+            <roles>
+                <role descr="giver" f="PAG" n="0"/>
+                <role descr="thing given - Nominal, not VERB)" f="PPT" n="1"/>
+                <role descr="entity given to" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="give.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="give a rate" src="">
+                <text>Вы дали мне очень низкую ставку .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Вы</arg>
+                    <rel relloc="1">дали</rel>
+                    <arg type="ARG1" start="3" end="5">очень низкую ставку</arg>
+                    <arg type="ARG2" start="2" end="2">мне</arg>
+                </propbank>
+            </example>
+            <example name="give results" src="">
+                <text>- Лечение дома подручными средствами результатов не дало , и женщина обратилась в поликлинику .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="4">Лечение дома подручными средствами</arg>
+                    <arg type="ARG1" start="5" end="5">результатов</arg>
+                    <rel relloc="6 7">не дало</rel>
+                </propbank>
+            </example>
+            <example name="give yourself a brake" src="">
+                <text>Короче , расслабьтесь , пациент и дайте себе паузу без истерик .</text>
+                <propbank>
+                    <arg type="ARG0" start="4" end="4">пациент</arg>
+                    <arg type="ARG1" start="8" end="8">паузу</arg>
+                    <arg type="ARG2" start="7" end="7">себе</arg>
+                    <rel relloc="6">дайте</rel>
+                </propbank>
+            </example>
+            <example name="give opinion, stance, explenation" src="">
+                <text>Наталья Желанова , Минспорта РФ : « Сразу после выхода отчета независимой комиссии , ВАДА
+                    направила письмо в РУСАДА , с тем чтобы на каждое обвинение оно дало свою позицию , свое объяснение
+                    » .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="26" end="26">оно</arg>
+                    <arg type="ARG1" start="28" end="32">свою позицию , свое объяснение</arg>
+                    <rel relloc="27">дало</rel>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Russian National Corpus[М. Э. Боцманова, Р. Д. Триггер. Изучение психологии подростка в лаборатории Д.Б. Эльконина // «Вопросы психологии», 2004]">
+                <text>Небольшой группе ребят давалось общее задание , и они помещались в маленькую комнату , одна стена
+                    которой была зеркальной .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="4" end="5">общее задание</arg>
+                    <arg type="ARG2" start="0" end="2">Небольшой группе ребят</arg>
+                    <rel relloc="3">давалось</rel>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus[Ю. О. Домбровский. Факультет ненужных вещей, часть 3 (1978)]">
+                <text>Ежов , он безвинного в обиду никогда не даст .</text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="2">он</arg>
+                    <arg type="ARG1" start="3" end="5">безвинного в обиду</arg>
+                    <rel relloc="7 8">не даст</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="дать.02" name="let, allow, provide">
+            <note>дать.02 NOTES: Roleset based on English verb frame let.01</note>
+            <roles>
+                <role descr="allower " f="PAG" n="0"/>
+                <role descr="action allowed" f="PPT" n="1"/>
+                <role descr="recipient, benefactive" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="let.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="letting to know" src="">
+                <text>Я дам ей знать .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <arg type="ARG1" start="3" end="3">знать</arg>
+                    <arg type="ARG2" start="2" end="2">ей</arg>
+                    <rel relloc="1">дам</rel>
+                </propbank>
+            </example>
+            <example name="letting think"
+                     src="Russian National Corpus [Переписка в icq между agd-ardin и Колючий друг (2008.01.16)]">
+                <text>Уф … дай подумать … ( Не знаю , что ты там обо мне будешь думать … но ) знаешь , могу тебе сказать
+                    вот что .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="3" end="3">подумать</arg>
+                    <rel relloc="2">дай</rel>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>а вечером под расписку если даст Бог все хорошо будет .</text>
+                <propbank>
+                    <arg type="ARG0" start="6" end="6">Бог</arg>
+                    <rel relloc="5">даст</rel>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>Разумеется , не дай вам бог принять это за образец торговли , нет предела совершенству , я знаю
+                    трейдера покруче и уверен , что есть еще круче , тем не менее приступим .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="5" end="5">бог</arg>
+                    <arg type="ARG1" start="6" end="10">принять это за образец торговли</arg>
+                    <arg type="ARG2" start="4" end="4">вам</arg>
+                    <rel relloc="2 3">не дай</rel>
+                </propbank>
+            </example>
+            <example name="" src="">
+                <text>а я хочу всегда и везде , и дай чтобы и фигурка была , и личиком вышла , прям дай вот и все .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="20" end="22">вот и все</arg>
+                    <rel relloc="19">дай</rel>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus[коллективный. Форум: 17 мгновений весны (2005-2010)]">
+                <text>Он вынужден постоянно сталкиваться с теми , кто является его врагом … Но то , что он лишён права
+                    быть с любимой женщиной — не каждому дано выжить с этим .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="24" end="25">не каждому</arg>
+                    <arg type="ARG1" start="27" end="29">выжить с этим</arg>
+                    <rel relloc="26">дано</rel>
+                </propbank>
+            </example>
+            <example name=""
+                     src="Russian National Corpus[М. А. Булгаков. Записки покойника (Театральный роман) (1936-1937)]">
+                <text>Бессонница дала себя знать недели через две .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Бессонница</arg>
+                    <arg type="ARG1" start="2" end="3">себя знать</arg>
+                    <rel relloc="1">дала</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="дать.03" name="present, perform, do, perform, sponsor">
+            <note>дать.03 NOTES: Roleset based on English verb frame perform.01</note>
+            <roles>
+                <role descr="performer" f="PAG" n="0"/>
+                <role descr="performance, thing performed " f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="perform.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="example" src="Russian National Corpus[И. К. Архипова. Музыка жизни (1996)]">
+                <text>Вечером 6 января , накануне православного Рождества , мы дали концерт в честь 125 - летия Ф. И.
+                    Шаляпина .
+                </text>
+                <propbank>
+                    <rel relloc="9">дали</rel>
+                    <arg type="ARG0" start="8" end="8">мы</arg>
+                    <arg type="ARG1" start="10" end="18">концерт в честь 125 - летия Ф. И. Шаляпина</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="дать.LV" name="LIGHT VERB">
+            <note>Corresponds to FrameBank sense</note>
+            <note>дать.04 NOTES: Roleset based on English verb frame doing.07</note>
+            <roles>
+                <role descr="maker, subject of the light-verb" f="PAG" n="0"/>
+                <role descr="true noun predicate " f="PRD" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="doing.07" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="">
+                <text>" Похоже на упраждение для развития бредогенератора ) ) ) ) ) И что , дашь совет ? ) ) ) ) ) " .
+                </text>
+                <propbank>
+                    <rel relloc="15">дашь</rel>
+                    <arg type="ARG1" start="16" end="16">совет</arg>
+                </propbank>
+            </example>
+            <example name="">
+                <text>" Вы отвечайте в зависимости от вашего ребенка , его характера , его эмоциональности , давайте
+                    ответы , чтобы успокоить и дать уверенность ..
+                </text>
+                <propbank>
+                    <rel relloc="15">давайте</rel>
+                    <arg type="ARG1" start="16" end="16">ответы</arg>
+                </propbank>
+            </example>
+            <example name="">
+                <text>" Губернатор Саратовской области Валерий Радаев дал официальный комментарий , в котором выразил
+                    соболезнование родным убитого парня , а также призвал всех жителей Пугачева остановиться . " .
+                </text>
+                <propbank>
+                    <rel relloc="6">дал</rel>
+                    <arg type="ARG1" start="7" end="8">официальный комментарий</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="дать.05" name="give in, yield">
+            <aliases>
+                <alias pos="v">даваться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense</note>
+            <note>дать.05 NOTES: Roleset based on English verb frame give_in.09</note>
+            <roles>
+                <role descr="entity giving way" f="PAG" n="0"/>
+                <role descr="entity winning" f="GOL" n="1"/>
+                <role descr="end state of arg0" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="give_in.09" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src="М. П. Шишкин, «Письмовник», 2010 г. // «Знамя» (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>" Потом решила застрелиться , чтобы не даться им в руки , но когда увидела , что эти люди делали с
+                    ее близкими , она начала стрелять в них .
+                </text>
+                <propbank>
+                    <rel relloc="6 7">не даться</rel>
+                    <arg type="ARG1" start="?" end="?"/>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="дать.06" name="catch on, master">
+            <aliases>
+                <alias pos="v">даваться</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense</note>
+            <note>дать.06 NOTES: Roleset based on English verb frame catch_on.06</note>
+            <roles>
+                <role descr="aware entity" f="PAG" n="0"/>
+                <role descr="aware of what?" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="catch_on.06" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src=" В. С. Соловьёв, «Три речи в память Достоевского», 1881-1883 г. (цитата из Национального корпуса русского языка, см. Список литературы">
+                <text>" Положительный религиозный идеал , так высоко поднявший Достоевского над господствующими
+                    течениями общественной мысли , этот положительный идеал не дался ему сразу , а был выстрадан им в
+                    тяжёлой и долгой борьбе . "
+                </text>
+                <propbank>
+                    <rel relloc="18 19">не дался</rel>
+                    <arg type="ARG0" start="?" end="?"/>
+                    <arg type="ARG1" start="15" end="17">этот положительный идеал</arg>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus[коллективный. Форум: Горный двухподвесочный (2010)]">
+                <text>" Приходилось прогуливать все уроки и сильно рисковать , учеба давалась мне с таким трудом , что
+                    строгая дама завуч неоднократно предлагала маме сводить меня к детскому психиатру . "
+                </text>
+                <propbank>
+                    <rel relloc="10">давалась</rel>
+                    <arg type="ARG0" start="11" end="11">мне</arg>
+                    <arg type="ARG1" start="9" end="9">учеба</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="даться">
+        <roleset id="даться.07" name="be discussed, become object of attention, interest, or topic of conversation">
+            <note>Corresponds to FrameBank sense</note>
+            <note>дать.07 NOTES: No frame match in English</note>
+            <roles>
+                <role descr="discusser, interested entity" f="PAG" n="0"/>
+                <role descr="interesting entity being discussed" f="PPT" n="1"/>
+            </roles>
+            <example name=""
+                     src="А. А. Бестужев-Марлинский, «Следствие вечера на кавказских водах», 1830 г. (цитата из Национального корпуса русского языка, см. Список литературы.)">
+                <text>" Дался им итальянский камертон благозвучия , и зато уже не смей похвалить иного , между тем как
+                    всякий язык под пером искусного писателя может стать гармоническим и нежным . "
+                </text>
+                <propbank>
+                    <rel relloc="1">Дался</rel>
+                    <arg type="ARG0" start="2" end="2">им</arg>
+                    <arg type="ARG1" start="3" end="5">итальянский камертон благозвучия</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="даться.08" name="begin (ASPECTUAL USAGE)">
+            <note>Corresponds to FrameBank sense</note>
+            <note>дать.08 NOTES: No frame match in English</note>
+            <roles>
+                <role descr="action begun" f="PPT" n="1"/>
+            </roles>
+            <example name="" src="Russian National Corpus[Александр Снегирев. Вера (2015)]">
+                <text>Он принялся вытаскивать из всех своих закромов банкноты , вернулся к столу и давай награждать .
+                </text>
+                <propbank>
+                    <rel relloc="13">давай</rel>
+                    <arg type="ARG1" start="14" end="14">награждать</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
     <predicate lemma="давай">
-	<roleset id="давай(те).09" name="(OPTATIVE? MOOD) let's">
-	  <note>дать.09 NOTES: No frame match in English</note>
-      <roles>
-      </roles>
-	  <example name="" src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]" type="">
-        <text>"А давайте вместе начинать, а то опять всю ответственность взваливаете на нас. </text>
-		<rel f="">давайте</rel>
-	  </example>
-	    <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2008.01.16)]" type="">
-        <text>"Хороший подход, однако ) правда, если б он к нашим преподам по гермафилу подошел с подобным:" а давайте я сразу на пересдачу приду ", они бы ему хором ответили -" А давайте!"</text>
-		<rel f="">a давайте</rel>
-	  </example>
-	  <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]" type="">
-        <text>"Ага, давай, спокойной ночи. Я бы тоже пошел, но завтра не встану. </text>
-		<rel f="">давай</rel>
-	  </example>
-	</roleset>
-   </predicate>
-  
-   <predicate lemma="Ни_дать_ни_взять">
-	<roleset id="Ни_дать_ни_взять-m" name="nothing less than">
-	  <aliases>
-		<mwe id="Ни_дать_ни_взять">
-			<token slot="A" arg="" pos="" head="B" dep="">Ни</token>
-			<token slot="B" arg="" pos="" head="" dep="">дать</token>
-			<token slot="C" arg="" pos="" head="D" dep="">ни</token>
-			<token slot="D" arg="" pos="" head="" dep="">взять</token>
-		</mwe>
-      </aliases>
-      <roles>
-        <role descr="thing that is compared" f="PAG" n="0"/>
-        <role descr="thing that is compared to" f="PPT" n="1"/>
-      </roles>
-      <example name="arg1" src="Russian National Corpus: [А. А. Зализняк. Лингвистика по А. Т. Фоменко // «Вопросы языкознания», 2000]" type="">
-        <text>Ну просто ни дать ни взять копия правления Ивана III.</text>
-        <arg f="dis" n="m">Ну</arg>
-		<arg f="adv" n="m">просто</arg>
-        <rel f="">ни</rel>
-		<rel f="">дать</rel>
-		<rel f="">ни</rel>
-		<rel f="">взять</rel>
-		<arg f="" n="1">копия правления Ивана III</arg>
-      </example>
-	</roleset>
-  </predicate>
-  
-  <predicate lemma="дать_на_чай">
-	<roleset id="дать_на_чай-m" name="tip, leave a gratuity">
-	  <note>дать_на_чай NOTES: Roleset based on English verb frame tip.02</note>
-	  <aliases>
-		<mwe id="дать_на_чай">
-			<token slot="A" arg="" pos="" head="" dep="">дать</token>
-			<token slot="B" arg="" pos="" head="C" dep="">на</token>
-			<token slot="C" arg="" pos="" head="B" dep="">чай</token>
-		</mwe>
-      </aliases>
-      <roles>
-		<role descr="tipper" f="PAG" n="0"/>
-        <role descr="gratuity" f="PPT" n="1"/>
-		<role descr="waiter, etc" f="GOL" n="2"/>
-      </roles>
-      <example name="example" src="Russian National Corpus: [Василий Аксенов. Звездный билет // «Юность», 1961]" type="">
-        <text>Я протянул Хелле сотню, а сдачу, не считая, сунул в карман. Швейцару я дал "на чай" пятёрку. На улице я взял такси.</text>
-        <arg f="" n="2">Швейцару</arg>
-		<arg f="" n="0">я</arg>
-		<rel f="">дал</rel>
-		<rel f="">на</rel>
-		<rel f="">чай</rel>
-		<rel f="">взять</rel>
-		<arg f="" n="1">пятёрку</arg>
-      </example>
-	</roleset>
-  </predicate>
-
-  <predicate lemma="дать_стрекача">
-	<roleset id="дать_стрекача-m" name="make an escape">
-	  <note>дать_стрекача NOTES: Roleset based on English verb frame escape.01</note>
-	  <aliases>
-		<mwe id="дать_на_чай">
-			<token slot="A" arg="" pos="" head="" dep="">дать</token>
-			<token slot="A" arg="" pos="" head="" dep="">давать</token>
-			<token slot="B" arg="" pos="" head="A" dep="">стрекача</token>
-			<token slot="B" arg="" pos="" head="A" dep="">тягу</token>
-			<token slot="B" arg="" pos="" head="A" dep="">ходу</token>
-		</mwe>
-      </aliases>
-      <roles>
-		<role descr="entity escaping" f="PAG" n="0"/>
-        <role descr="place or thing escaped" f="LOC" n="1"/>
-      </roles>
-      <example name="example" src="Russian National Corpus: [Василий Аксенов. Звездный билет // «Юность», 1961]" type="">
-        <text>Я протянул Хелле сотню, а сдачу, не считая, сунул в карман. Швейцару я дал "на чай" пятёрку. На улице я взял такси.</text>
-        <arg f="" n="2">Швейцару</arg>
-		<arg f="" n="0">я</arg>
-		<rel f="">дал</rel>
-		<rel f="">на</rel>
-		<rel f="">чай</rel>
-		<rel f="">взять</rel>
-		<arg f="" n="1">пятёрку</arg>
-      </example>
-	</roleset>
-  </predicate>
+        <roleset id="давай(те).09" name="HORTATIVE - let's">
+            <note>дать.09 NOTES: No frame match in English. Should be connected to the other verb using ARGM-MOD.</note>
+            <roles>
+            </roles>
+            <example name=""
+                     src="Russian National Corpus[коллективный. Форум: 12 часов в день? Не могу согласиться с М. Прохоровым (2010-2011)]">
+                <text>" А давайте вместе начинать , а то опять всю ответственность взваливаете на нас .</text>
+                <propbank>
+                    <rel relloc="2">давайте</rel>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2008.01.16)]">
+                <text>" Хороший подход , однако ) правда , если б он к нашим преподам по гермафилу подошел с подобным :
+                    " а давайте я сразу на пересдачу приду " , они бы ему хором ответили - " А давайте ! "
+                </text>
+                <propbank>
+                    <rel relloc="22 22">давайте давайте</rel>
+                </propbank>
+            </example>
+            <example name="" src="Russian National Corpus[Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]">
+                <text>" Ага , давай , спокойной ночи . Я бы тоже пошел , но завтра не встану .</text>
+                <propbank>
+                    <rel relloc="3">давай</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="давай.10" name="bye!">
+            <note>дать.10 NOTES: No frame match in English</note>
+            <roles>
+            </roles>
+            <example name="example"
+                     src="Russian National Corpus [Переписка в icq между agd-ardin и Колючий друг (2007.12.18)]">
+                <text>" Ага , давай , спокойной ночи . Я бы тоже пошел , но завтра не встану</text>
+                <propbank>
+                    <rel relloc="3">давай</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="ни_дать_ни_взять">
+        <roleset id="ни_дать_ни_взять.10" name="nothing less than">
+            <aliases>
+                <alias pos="m">ни_дать_ни_взять</alias>
+                <mwp-descriptions id="ни_дать_ни_взять">
+                    <syntaxdesc slots="A B C D">
+                        <token slot="A" arg="" pos="" head="B" dep="">ни</token>
+                        <token slot="B" arg="" pos="" head="" dep="">дать</token>
+                        <token slot="C" arg="" pos="" head="D" dep="">ни</token>
+                        <token slot="D" arg="" pos="" head="" dep="">взять</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <roles>
+                <role descr="thing that is compared" f="PAG" n="0"/>
+                <role descr="thing that is compared to" f="PPT" n="1"/>
+            </roles>
+            <example name="arg1"
+                     src="Russian National Corpus: [А. А. Зализняк. Лингвистика по А. Т. Фоменко // «Вопросы языкознания», 2000]">
+                <text>Ну просто ни дать ни взять копия правления Ивана III .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Ну</arg>
+                    <arg type="ARGM-ADV" start="1" end="1">просто</arg>
+                    <rel relloc="2 3 4 5">ни дать ни взять</rel>
+                    <arg type="ARG1" start="6" end="9">копия правления Ивана III</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="дать_на_чай">
+        <roleset id="дать_на_чай.11" name="tip, leave a gratuity">
+            <aliases>
+                <alias pos="m">дать_на_чай</alias>
+                <mwp-descriptions id="дать_на_чай">
+                    <syntaxdesc slots="A B C">
+                        <token slot="A" arg="" pos="" head="" dep="">дать</token>
+                        <token slot="B" arg="" pos="" head="C" dep="">на</token>
+                        <token slot="C" arg="" pos="" head="B" dep="">чай</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <note>дать_на_чай NOTES: Roleset based on English verb frame tip.02</note>
+            <roles>
+                <role descr="tipper" f="PAG" n="0"/>
+                <role descr="gratuity" f="PPT" n="1"/>
+                <role descr="waiter, etc" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="tip.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="example" src="Russian National Corpus: [Василий Аксенов. Звездный билет // «Юность», 1961]">
+                <text>Я протянул Хелле сотню , а сдачу , не считая , сунул в карман . Швейцару я дал " на чай " пятёрку
+                    . На улице я взял такси .
+                </text>
+                <propbank>
+                    <arg type="ARG2" start="15" end="15">Швейцару</arg>
+                    <arg type="ARG0" start="16" end="16">я</arg>
+                    <rel relloc="17 18 19 20 21">дал " на чай "</rel>
+                    <arg type="ARG1" start="22" end="22">пятёрку</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="дать_стрекача">
+        <roleset id="дать_стрекача.12" name="make an escape">
+            <aliases>
+                <alias pos="m">дать_стрекача</alias>
+                <alias pos="m">дать_тягу</alias>
+                <alias pos="m">дать_ходу</alias>
+                <mwp-descriptions id="дать_стрекача">
+                    <syntaxdesc slots="A B">
+                        <token slot="A" arg="" pos="" head="" dep="">дать</token>
+                        <token slot="A" arg="" pos="" head="" dep="">давать</token>
+                        <token slot="B" arg="" pos="" head="A" dep="">стрекача</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+                <mwp-descriptions id="дать_тягу">
+                    <syntaxdesc slots="A B">
+                        <token slot="A" arg="" pos="" head="" dep="">дать</token>
+                        <token slot="A" arg="" pos="" head="" dep="">давать</token>
+                        <token slot="B" arg="" pos="" head="A" dep="">тягу</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+                <mwp-descriptions id="дать_ходу">
+                    <syntaxdesc slots="A B">
+                        <token slot="A" arg="" pos="" head="" dep="">дать</token>
+                        <token slot="A" arg="" pos="" head="" dep="">давать</token>
+                        <token slot="B" arg="" pos="" head="A" dep="">ходу</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <note>дать_стрекача NOTES: Roleset based on English verb frame escape.01</note>
+            <roles>
+                <role descr="entity escaping" f="PAG" n="0"/>
+                <role descr="place or thing escaped" f="LOC" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="escape.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+        </roleset>
+    </predicate>
 </frameset>
-

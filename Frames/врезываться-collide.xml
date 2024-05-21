@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="врезываться">
+        <roleset id="врезываться.01" name="collide, crash into">
+            <aliases>
+                <alias pos="v">врезываться</alias>
+                <alias pos="v">врезаться</alias>
+                <alias pos="j">врезывающийся</alias>
+                <alias pos="j">врезающийся</alias>
+                <alias pos="j">врезавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English collide.01</note>
+            <roles>
+                <role descr="theme, thing in motion, 1st colliders or all colliders in one constituent" f="PPT" n="0"/>
+                <role descr="thing hit, 2nd collider where separate mention" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="collide.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG0 and 1" src="RNC, Слаповский А. День денег. -- М.: Вагриус, 2000">
+                <text>Возможно , они врежутся в столб и оба погибнут .</text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="2">они</arg>
+                    <rel relloc="3">врежутся</rel>
+                    <arg type="ARG1" start="5" end="5">столб</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

@@ -1,107 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="являться">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="являться.01" name="be (formal), become, appear to be">
-      <aliases>
-	  <alias framenet="" pos="v" verbnet="">явиться</alias>
-	  <alias framenet="" pos="v" verbnet="">являть собой</alias>
-	  <alias framenet="" pos="v" verbnet="">являть из себя</alias>
-      </aliases>
-	  <note>являться.01 NOTES: Roleset based on English verb frame be.01</note>
-	  <note>Corresponds to FrameBank senses 2</note>
-      <roles>
-        <role descr="topic" f="PPT" n="1"/>
-		<role descr="comment" f="PRD" n="2"/>
-      </roles>
-       <example name="" src="«Дышащие мембраны», 2003 г. // «Текстиль» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Одной из самых известных мембран такого типа является Gore-Tex. </text>
-		<arg f="" n="1">Одной из самых известных мембран такого типа</arg>
-		<rel f="">является</rel>
-		<arg f="" n="2">Gore-Tex</arg>
-      </example>
-	   <example name="" src="wikipedia" type="">
-        <text>Самым знаменитым изобретением человека явилось колесо.</text>
-		<arg f="" n="2">Самым знаменитым изобретением человека</arg>
-        <rel f="">явилось</rel>
-		<arg f="" n="1">колесо</arg>
-      </example>
-    </roleset>
-    
-	<roleset id="являться.02" name="appear, come to be, show up, become visible">
-      <aliases>
-		<alias framenet="" pos="v" verbnet="">явиться</alias>
-		<alias framenet="" pos="n" verbnet="">явление</alias>
-      </aliases>
-	  <note>являться.02 NOTES: Roleset based on English verb frame appear.01</note>
-	   <note>Corresponds to FrameBank senses 1, 3, 4</note>
-      <roles>
-		<role descr="thing appearing" f="PAG" n="1"/>
-      </roles>
-	  <example name="appear" src="Уильям Шекспир, «Король Лир»" type="">
-        <text>Хотя этот сорванец явился на свет без приглашения, мать его была красавица.</text>
-		<arg f="dis" n="m">Хотя</arg>
-		<arg f="" n="1">этот сорванец</arg>
-		<arg f="loc" n="m">на свет</arg>
-		<rel f="">явился</rel>
-		<arg f="mnr" n="m">без приглашения</arg>
-	  </example>
-	</roleset>
-	
-	<roleset id="являться.03" name="present self, show up to an official function, report">
-      <aliases>
-	  <alias framenet="" pos="v" verbnet="">явиться</alias>
-	  <alias framenet="" pos="n" verbnet="">явка</alias>
-      </aliases>
-	  <note>являться.03 NOTES: Roleset based on English verb frame present.02</note>
-	  <note>Corresponds to FrameBank sense 5</note>
-	  <roles>
-		<role descr="entity present" f="PAG" n="0"/>
-		<role descr="where" f="LOC" n="1"/>
-      </roles>
-	  <example name="appeared as" src="А. С. Пушкин, «Барышня-крестьянка», 1830 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-      <text>Он первый перед ними явился мрачным и разочарованным, первый говорил им об утраченных радостях и об увядшей своей юности; сверх того носил он чёрное кольцо с изображением мёртвой головы.</text>
-		<arg f="" n="0">Он</arg>
-		<arg f="" n="1">первый перед</arg>
-		<rel f="">явился</rel>
-		<arg f="mnr" n="m">мрачным и разочарованным</arg>
-	  </example>
-	  <example name="report" src="Вадим Карамба, «Якут и партия едины», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Более того, не понятно, на каком основании контролёры будут являться с инспекцией на предприятия.</text>
-		<arg f="dis" n="m">Более того</arg>
-		<arg f="adv" n="m">не понятно</arg>
-		<arg f="adv" n="m">на каком основании</arg>
-		<arg f="" n="0">контролёры</arg>
-		<rel f="">являться </rel>
-		<arg f="mnr" n="m">с инспекцией</arg>
-		<arg f="" n="1">на предприятия</arg>
-	  </example>
-	  <example name="be summoned" src="Сергей Волгин, «Дело о въезде под «кирпич»», 2003.05.15 г. // «За рулем» (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>В суд мы явились, как и было предписано, к 11 часам утра.</text>
-		<arg f="" n="1">В суд</arg>
-		<arg f="" n="0">мы</arg>
-		<rel f="">явились</rel>
-	  </example>
-	</roleset>
-  </predicate>
-  
-  <predicate>
-	<roleset id="являть.04" name="display, make obvious, demonstrate, reveal, show">
-	  <aliases>
-		<alias framenet="" pos="v" verbnet="">явить</alias>
-      </aliases>
-	  <note>являться.04 NOTES:Roleset based on English verb frame demonstrate.01</note>
-      <roles>
-		<role descr="demonstrator" f="PAG" n="0"/>
-		<role descr="thing demonstrated" f="PPT" n="1"/>
-		<role descr="watcher" f="GOL" n="2"/>
-		</roles>
-	  <example name="reveal" src="" type="Russian National Corpus[Иоанн Мейендорф. Духовное и культурное Возрождение XIV века и судьбы Восточной Европы (1992)]">
-        <text>Имя Божие как бы являет Его собственное присутствие.</text>
-		<arg f="" n="0">Имя Божие</arg>
-		<rel f="">являет</rel>
-		<arg f="" n="1">Его собственное присутствие</arg>
-	  </example>
-	</roleset>
-  </predicate>
+    <predicate lemma="являться">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="являться.01" name="be (formal), become, appear to be">
+            <aliases>
+                <alias pos="v">явиться</alias>
+                <alias pos="v">являть собой</alias>
+                <alias pos="v">являть из себя</alias>
+            </aliases>
+            <note>являться.01 NOTES: Roleset based on English verb frame be.01</note>
+            <note>Corresponds to FrameBank senses 2</note>
+            <roles>
+                <role descr="topic" f="PPT" n="1"/>
+                <role descr="comment" f="PRD" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="be.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name=""
+                     src="«Дышащие мембраны», 2003 г. // «Текстиль» (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Одной из самых известных мембран такого типа является Gore - Tex .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="6">Одной из самых известных мембран такого типа</arg>
+                    <rel relloc="7">является</rel>
+                    <arg type="ARG2" start="8" end="10">Gore - Tex</arg>
+                </propbank>
+            </example>
+            <example name="" src="wikipedia">
+                <text>Самым знаменитым изобретением человека явилось колесо .</text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="3">Самым знаменитым изобретением человека</arg>
+                    <rel relloc="4">явилось</rel>
+                    <arg type="ARG1" start="5" end="5">колесо</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="являться.02" name="appear, come to be, show up, become visible">
+            <aliases>
+                <alias pos="v">явиться</alias>
+                <alias pos="n">явление</alias>
+            </aliases>
+            <note>являться.02 NOTES: Roleset based on English verb frame appear.01</note>
+            <note>Corresponds to FrameBank senses 1, 3, 4</note>
+            <roles>
+                <role descr="thing appearing" f="PAG" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="appear.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="appear" src="Уильям Шекспир, «Король Лир»">
+                <text>Хотя этот сорванец явился на свет без приглашения , мать его была красавица .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Хотя</arg>
+                    <arg type="ARG1" start="1" end="2">этот сорванец</arg>
+                    <arg type="ARGM-LOC" start="4" end="5">на свет</arg>
+                    <rel relloc="3">явился</rel>
+                    <arg type="ARGM-MNR" start="6" end="7">без приглашения</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="являться.03" name="present self, show up to an official function, report">
+            <aliases>
+                <alias pos="v">явиться</alias>
+                <alias pos="n">явка</alias>
+            </aliases>
+            <note>являться.03 NOTES: Roleset based on English verb frame present.02</note>
+            <note>Corresponds to FrameBank sense 5</note>
+            <roles>
+                <role descr="entity present" f="PAG" n="0"/>
+                <role descr="where" f="LOC" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="present.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="appeared as"
+                     src="А. С. Пушкин, «Барышня-крестьянка», 1830 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Он первый перед ними явился мрачным и разочарованным , первый говорил им об утраченных радостях и
+                    об увядшей своей юности ; сверх того носил он чёрное кольцо с изображением мёртвой головы .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <arg type="ARG1" start="1" end="2">первый перед</arg>
+                    <rel relloc="4">явился</rel>
+                    <arg type="ARGM-MNR" start="5" end="7">мрачным и разочарованным</arg>
+                </propbank>
+            </example>
+            <example name="report"
+                     src="Вадим Карамба, «Якут и партия едины», 2003 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Более того , не понятно , на каком основании контролёры будут являться с инспекцией на предприятия
+                    .
+                </text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="1">Более того</arg>
+                    <arg type="ARGM-ADV" start="3" end="4">не понятно</arg>
+                    <arg type="ARGM-ADV" start="6" end="8">на каком основании</arg>
+                    <arg type="ARG0" start="9" end="9">контролёры</arg>
+                    <rel relloc="11">являться</rel>
+                    <arg type="ARGM-MNR" start="12" end="13">с инспекцией</arg>
+                    <arg type="ARG1" start="14" end="15">на предприятия</arg>
+                </propbank>
+            </example>
+            <example name="be summoned"
+                     src="Сергей Волгин, «Дело о въезде под «кирпич»», 2003.05.15 г. // «За рулем» (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>В суд мы явились , как и было предписано , к 11 часам утра .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="1">В суд</arg>
+                    <arg type="ARG0" start="2" end="2">мы</arg>
+                    <rel relloc="3">явились</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="являть">
+        <roleset id="являть.04" name="display, make obvious, demonstrate, reveal, show">
+            <aliases>
+                <alias pos="v">явить</alias>
+            </aliases>
+            <note>являться.04 NOTES:Roleset based on English verb frame demonstrate.01</note>
+            <roles>
+                <role descr="demonstrator" f="PAG" n="0"/>
+                <role descr="thing demonstrated" f="PPT" n="1"/>
+                <role descr="watcher" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="demonstrate.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="reveal"
+                     src="Russian National Corpus[Иоанн Мейендорф. Духовное и культурное Возрождение XIV века и судьбы Восточной Европы (1992)]">
+                <text>Имя Божие как бы являет Его собственное присутствие .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Имя Божие</arg>
+                    <rel relloc="4">являет</rel>
+                    <arg type="ARG1" start="5" end="7">Его собственное присутствие</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="закрывать">
+        <roleset id="закрывать.01" name="close, shut, cover">
+            <aliases>
+                <alias pos="v">закрывать</alias>
+                <alias pos="v">закрыть</alias>
+                <alias pos="j">закрывающий</alias>
+                <alias pos="j">закрывавший</alias>
+                <alias pos="j">закрывший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English close.01</note>
+            <roles>
+                <role descr="person doing the closing" f="PAG" n="0"/>
+                <role descr="thing closing" f="PPT" n="1"/>
+                <role descr="anti-beneficiary" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="close.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG0 and 1" src="RNC, http://murzilka.km.ru/ «Мурзилка», 2003, № 1-5">
+                <text>Эле-Фантик закрыл глаза и сразу понял, что мысль проросла на славу .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Эле-Фантик</arg>
+                    <rel relloc="1">закрыл</rel>
+                    <arg type="ARG1" start="2" end="2">глаза</arg>
+                </propbank>
+            </example>
+            <example name="ARG0, 1, and 2" src="RNS, Сати Спивакова. Не всё. «Вагриус», 2002">
+                <text>Просто он закрыл для себя тему Максима Венгерова.</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">он</arg>
+                    <rel relloc="2">закрыл</rel>
+                    <arg type="ARG2" start="4" end="4">себя</arg>
+                    <arg type="ARG1" start="5" end="5">тему</arg>
+                </propbank>
+            </example>
+            <example name="ARG0, 1, and 2" src="RNS,  «Известия», 19.06.2002">
+                <text>В Турции всё смешалось: полиция от греха подальше закрыла улицы для автотранспорта ...</text>
+                <propbank>
+                    <arg type="ARG0" start="4" end="4">полиция</arg>
+                    <rel relloc="8">закрыла</rel>
+                    <arg type="ARG1" start="9" end="9">улицы</arg>
+                    <arg type="ARG2" start="11" end="11">автотранспорта</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

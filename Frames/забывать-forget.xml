@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="забывать">
+        <roleset id="забывать.01" name="Forget">
+            <aliases>
+                <alias pos="v">забывать</alias>
+                <alias pos="v">забыть</alias>
+                <alias pos="j">забыва́ющий</alias>
+                <alias pos="j">забы́вший</alias>
+                <alias pos="j">забы́тый</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English forget.01</note>
+            <roles>
+                <role descr="Forgetter" f="PAG" n="0"/>
+                <role descr="Thing forgotten" f="PPT" n="1"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Олег забыл свой телефон .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Олег</arg>
+                    <rel relloc="1">забыл</rel>
+                    <arg type="ARG1" start="2" end="3">свой телефон</arg>
+                </propbank>
+            </example>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Я забыл как добраться домой .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">забыл</rel>
+                    <arg type="ARG1" start="2" end="4">как добраться домой</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

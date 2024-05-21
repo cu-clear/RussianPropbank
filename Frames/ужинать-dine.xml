@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="Ужинать">
+        <roleset id="ужинать.01" name="Dine, eat dinner">
+            <aliases>
+                <alias pos="v">ужинать</alias>
+                <alias pos="v">поужинать</alias>
+                <alias pos="j">ужинающий</alias>
+                <alias pos="j">поужинавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English dine.01</note>
+            <roles>
+                <role descr="Eater" f="PAG" n="0"/>
+                <role descr="Meal" f="PPT" n="1"/>
+                <role descr="Etc" f="GOL" n="2"/>
+            </roles>
+            <example name="Arg0 only" src="RNC, Геннадий Алексеев. Зеленые берега (1983-1984)">
+                <text>Мне стало неловко ― молодые люди ужинали скромно , без вина , с сельтерской и кофе .</text>
+                <propbank>
+                    <arg type="ARG0" start="4" end="5">молодые люди</arg>
+                    <rel relloc="6">ужинали</rel>
+                </propbank>
+            </example>
+            <example name="Arg0 and Arg1" src="RNC, Вацлав Михальский. Храм Согласия (2008)">
+                <text>Хозяин и гость молча поужинали хлебом с молоком , молча легли спать .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="2">Хозяин и гость</arg>
+                    <rel relloc="4">поужинали</rel>
+                    <arg type="ARG1" start="5" end="7">хлебом с молоком</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

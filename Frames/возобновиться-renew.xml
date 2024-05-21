@@ -1,82 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="возобновиться">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="возобновиться.01" name="renew, restart">
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">возобновившийся</alias>
-		<alias framenet="" pos="v" verbnet="">возобновляться</alias>
-		<alias framenet="" pos="j" verbnet="">возобновляющийся</alias>
-		<alias framenet="" pos="j" verbnet="">возобновлявшийся</alias>
-		<alias framenet="" pos="v" verbnet="">возобновить</alias>
-		<alias framenet="" pos="j" verbnet="">возобновивший</alias>
-		<alias framenet="" pos="j" verbnet="">возобновлённый</alias>
-		<alias framenet="" pos="j" verbnet="">возобновленный</alias>
-		<alias framenet="" pos="v" verbnet="">возобновлять</alias>
-		<alias framenet="" pos="j" verbnet="">возобновляющий</alias>
-		<alias framenet="" pos="j" verbnet="">возобновлявший</alias>
-		<alias framenet="" pos="j" verbnet="">возобновляемый</alias>
-      </aliases>
-	  <note>NOTES: based on renew.01</note>
-      <roles>
-        <role descr="agent, causer of renewal" f="PAG" n="0"/>
-        <role descr="thing becoming newish" f="PPT" n="1"/>
-      </roles>
-      <example name="restart work" src="" type="">
-        <text>С выходом США из договора по ПРО возобновились и работы по размещению электромагнитных пушек на орбите .</text>
-        <arg f="adv" n="m">С выходом США из договора по ПРО</arg>
-        <rel f="">возобновились</rel> 
-		<arg f="adv" n="m">и</arg>
-        <arg f="" n="1">работы по размещению электромагнитных пушек на орбите</arg>
-      </example>
-      <example name="begin activity again" src="" type="">
-        <text>Поиски возобновились лишь сегодня утром .</text>
-        <rel f="">возобновились</rel>
-        <arg f="" n="1">Поиски</arg>
-		<arg f="tmp" n="m">лишь сегодня утром</arg>
-      </example>
-      <example name="interrupted tradition" src="" type="">
-        <text>В этом году триумфальное шествие грибка возобновилось на севере Индии .</text>
-		<arg f="tmp" n="m">В этом году</arg>
-		<arg f="" n="1">триумфальное шествие грибка</arg>
-        <rel f="">возобновилось</rel>
-		<arg f="loc" n="m">на севере Индии</arg>
-      </example>
-	  <example name="active, perfective, activity" src="Ожегова definition 1" type="">
-        <text>Они возобновили переговоры</text>
-		<arg f="" n="0">Они</arg>
-        <rel f="">возобновили</rel>
-		<arg f="" n="1">переговоры</arg>
-      </example>
-    </roleset>
-	
-	<roleset id="возобновиться.02" name="repair">
-	  <note>возобновиться.02 NOTES: The syntactic structure does not change from возобновиться.01 but the semantic entailments should be different.</note>
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">возобновившийся</alias>
-		<alias framenet="" pos="v" verbnet="">возобновляться</alias>
-		<alias framenet="" pos="j" verbnet="">возобновляющийся</alias>
-		<alias framenet="" pos="j" verbnet="">возобновлявшийся</alias>
-		<alias framenet="" pos="v" verbnet="">возобновить</alias>
-		<alias framenet="" pos="j" verbnet="">возобновивший</alias>
-		<alias framenet="" pos="j" verbnet="">возобновлённый</alias>
-		<alias framenet="" pos="j" verbnet="">возобновленный</alias>
-		<alias framenet="" pos="v" verbnet="">возобновлять</alias>
-		<alias framenet="" pos="j" verbnet="">возобновляющий</alias>
-		<alias framenet="" pos="j" verbnet="">возобновлявший</alias>
-		<alias framenet="" pos="j" verbnet="">возобновляемый</alias>
-      </aliases>
-	  <note>NOTES: based on repair.01</note>
-      <roles>
-        <role descr="repairer" f="PAG" n="0"/>
-        <role descr="entity repaired" f="PPT" n="1"/>
-      </roles>
-	  <example name="active, perfective, physical objects, repair/remodel" src="Л. Н. Толстой, «Анна Каренина», 1873—1877 г. (цитата из Национального корпуса русского языка, см. Список литературы)" type="">
-        <text>Это дома служащих , завод , конюшни , — отвечала Анна . — А это парк начинается . Всё это было запущено , но Алексей всё возобновил .</text>
-		<arg f="" n="0">Алексей</arg>
-		<arg f="" n="1">всё</arg>
-		<rel f="">возобновил</rel>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="возобновиться">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="возобновиться.01" name="renew, restart">
+            <aliases>
+                <alias pos="j">возобновившийся</alias>
+                <alias pos="v">возобновляться</alias>
+                <alias pos="j">возобновляющийся</alias>
+                <alias pos="j">возобновлявшийся</alias>
+                <alias pos="v">возобновить</alias>
+                <alias pos="j">возобновивший</alias>
+                <alias pos="j">возобновлённый</alias>
+                <alias pos="j">возобновленный</alias>
+                <alias pos="v">возобновлять</alias>
+                <alias pos="j">возобновляющий</alias>
+                <alias pos="j">возобновлявший</alias>
+                <alias pos="j">возобновляемый</alias>
+            </aliases>
+            <note>NOTES: based on renew.01</note>
+            <roles>
+                <role descr="agent, causer of renewal" f="PAG" n="0"/>
+                <role descr="thing becoming newish" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="renew.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="restart work" src="">
+                <text>С выходом США из договора по ПРО возобновились и работы по размещению электромагнитных пушек на
+                    орбите .
+                </text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="6">С выходом США из договора по ПРО</arg>
+                    <rel relloc="7">возобновились</rel>
+                    <arg type="ARGM-ADV" start="8" end="8">и</arg>
+                    <arg type="ARG1" start="9" end="15">работы по размещению электромагнитных пушек на орбите</arg>
+                </propbank>
+            </example>
+            <example name="begin activity again" src="">
+                <text>Поиски возобновились лишь сегодня утром .</text>
+                <propbank>
+                    <rel relloc="1">возобновились</rel>
+                    <arg type="ARG1" start="0" end="0">Поиски</arg>
+                    <arg type="ARGM-TMP" start="2" end="4">лишь сегодня утром</arg>
+                </propbank>
+            </example>
+            <example name="interrupted tradition" src="">
+                <text>В этом году триумфальное шествие грибка возобновилось на севере Индии .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="2">В этом году</arg>
+                    <arg type="ARG1" start="3" end="5">триумфальное шествие грибка</arg>
+                    <rel relloc="6">возобновилось</rel>
+                    <arg type="ARGM-LOC" start="7" end="9">на севере Индии</arg>
+                </propbank>
+            </example>
+            <example name="active, perfective, activity" src="Ожегова definition 1">
+                <text>Они возобновили переговоры</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Они</arg>
+                    <rel relloc="1">возобновили</rel>
+                    <arg type="ARG1" start="2" end="2">переговоры</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="возобновиться.02" name="repair">
+            <aliases>
+                <alias pos="j">возобновившийся</alias>
+                <alias pos="v">возобновляться</alias>
+                <alias pos="j">возобновляющийся</alias>
+                <alias pos="j">возобновлявшийся</alias>
+                <alias pos="v">возобновить</alias>
+                <alias pos="j">возобновивший</alias>
+                <alias pos="j">возобновлённый</alias>
+                <alias pos="j">возобновленный</alias>
+                <alias pos="v">возобновлять</alias>
+                <alias pos="j">возобновляющий</alias>
+                <alias pos="j">возобновлявший</alias>
+                <alias pos="j">возобновляемый</alias>
+            </aliases>
+            <note>возобновиться.02 NOTES: The syntactic structure does not change from возобновиться.01 but the semantic
+                entailments should be different.
+            </note>
+            <note>NOTES: based on repair.01</note>
+            <roles>
+                <role descr="repairer" f="PAG" n="0"/>
+                <role descr="entity repaired" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="repair.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="active, perfective, physical objects, repair/remodel"
+                     src="Л. Н. Толстой, «Анна Каренина», 1873—1877 г. (цитата из Национального корпуса русского языка, см. Список литературы)">
+                <text>Это дома служащих , завод , конюшни , — отвечала Анна . — А это парк начинается . Всё это было
+                    запущено , но Алексей всё возобновил .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="24" end="24">Алексей</arg>
+                    <arg type="ARG1" start="25" end="25">всё</arg>
+                    <rel relloc="26">возобновил</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

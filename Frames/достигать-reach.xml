@@ -1,33 +1,41 @@
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="достигать">
-    <roleset id="достигать.01" name="reach, achieve, obtain, attain.">
-      <aliases>
-        <alias framenet="" pos="v" verbnet="">достигать</alias>
-        <alias framenet="" pos="v" verbnet="">достичь </alias>
-        <alias framenet="" pos="v" verbnet="">достигнуть</alias>
-        <alias framenet="" pos="j" verbnet="">достигающий</alias>
-        <alias framenet="" pos="j" verbnet="">достигавший</alias>
-        <alias framenet="" pos="j" verbnet="">достигнувший</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
-	  <note>NOTES: based on English reach.01</note>
-      <roles>
-        <role descr="Thing striving" f="PAG" n="0"/>
-        <role descr="thing goal, destination, end state, thing attained" f="GOL" n="1"/>
-	  </roles>
-      <example name="ARG0 and ARG1" src="Russian National Corpus" type="">
-        <text>По мнению Г. Шредера , двусторонние отношения столь успешно развиваются главным образом потому , что Россия достигла значительных успехов .</text>
-        <arg f="" n="0">Россия</arg>
-        <rel f="">достигла</rel>
-	<arg f="" n="1">значительных успехов</arg>
-      </example>
-      <example name="ARG0 and ARG1, but where ARG0 isn't really agentive but more an attribute.  This kind of usage is seen often, and may merit being its own core ARG. REVISIT" src="Russian National Corpus" type="">
-        <text>На 1 января 2002 г . стоимость земель лесного фонда достигла 2197973 , 0 млн . рублей .</text>
-        <arg f="" n="0">стоимость</arg>
-        <rel f="">достигла</rel>
-	<arg f="" n="1">2197973 , 0 млн . рублей</arg>
-      </example>
-	</roleset>
-  </predicate>
+    <predicate lemma="достигать">
+        <roleset id="достигать.01" name="reach, achieve, obtain, attain.">
+            <aliases>
+                <alias pos="v">достигать</alias>
+                <alias pos="v">достичь</alias>
+                <alias pos="v">достигнуть</alias>
+                <alias pos="j">достигающий</alias>
+                <alias pos="j">достигавший</alias>
+                <alias pos="j">достигнувший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English reach.01</note>
+            <roles>
+                <role descr="Thing striving" f="PAG" n="0"/>
+                <role descr="thing goal, destination, end state, thing attained" f="GOL" n="1"/>
+            </roles>
+            <example name="ARG0 and ARG1" src="Russian National Corpus">
+                <text>По мнению Г. Шредера , двусторонние отношения столь успешно развиваются главным образом потому ,
+                    что Россия достигла значительных успехов .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="15" end="15">Россия</arg>
+                    <rel relloc="16">достигла</rel>
+                    <arg type="ARG1" start="17" end="18">значительных успехов</arg>
+                </propbank>
+            </example>
+            <example
+                    name="ARG0 and ARG1, but where ARG0 isn't really agentive but more an attribute.  This kind of usage is seen often, and may merit being its own core ARG. REVISIT"
+                    src="Russian National Corpus" type="">
+                <text>На 1 января 2002 г . стоимость земель лесного фонда достигла 2197973 , 0 млн . рублей .</text>
+                <propbank>
+                    <arg type="ARG0" start="6" end="6">стоимость</arg>
+                    <rel relloc="10">достигла</rel>
+                    <arg type="ARG1" start="11" end="16">2197973 , 0 млн . рублей</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

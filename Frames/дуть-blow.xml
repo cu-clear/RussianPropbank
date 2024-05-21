@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="дуть">
+        <roleset id="дуть.01" name="like the wind, literal action of the wind">
+            <aliases>
+                <alias pos="v">дуть</alias>
+                <alias pos="v">дунуть</alias>
+                <alias pos="v">подуть</alias>
+                <alias pos="j">дующий</alias>
+                <alias pos="j">подувший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English blow.04</note>
+            <roles>
+                <role descr="Wind, or wind-like entity" f="PPT" n="1"/>
+                <role descr="Source of Wind, starting point or direction" f="DIR" n="2"/>
+                <role descr="Direction of Wind, where it blows or into what body part" f="GOL" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="blow.04" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG0 and ARG1" src="Russian Web 2011, http://www.1kessay.ru/read/1140/">
+                <text>Из моря опять дул холодный ветер ...</text>
+                <propbank>
+                    <arg type="ARG1" start="4" end="5">холодный ветер</arg>
+                    <rel relloc="3">дул</rel>
+                    <arg type="ARG2" start="0" end="1">Из моря</arg>
+                </propbank>
+            </example>
+            <example name="ARG1 and ARG3" src="RNC,  Николай Дубов. На краю земли.― М.: Детская литература, 1950">
+                <text>Если бы еще он дул в спину , а то ведь , как нарочно , прямо в лицо !</text>
+                <propbank>
+                    <arg type="ARG1" start="3" end="3">он</arg>
+                    <rel relloc="4">дул</rel>
+                    <arg type="ARG3" start="6" end="6">спину</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

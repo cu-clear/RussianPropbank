@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Слово">
+    <roleset id="наводнять.01" name="Inundate, flood">
+      <aliases>
+        <alias pos="v">наводнять</alias>
+        <alias pos="v">наводнить</alias>
+        <alias pos="j">наводняющий</alias>
+        <alias pos="j">наводнённый</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English inundate.01</note>
+      <roles>
+        <role descr="Agent, inundator" f="PAG" n="0"/>
+        <role descr="Entity inundated, area or container" f="GOL" n="1"/>
+        <role descr="Entity inundated with, substance" f="PPT" n="2"/>
+	    </roles>
+      <example name="Arg0, Arg1, and Arg2, this verb is often used figuratively, and Arg2 is rarely actually liquid" src="RNC, В. Г. Глушкова. Путешествие из Москвы в Ярославль. Москва -- Сергиев Посад -- Переславль-Залесский -- Ростов Великий -- Ярославль (2015)">
+        <text>Тем не менее он наводнил Боярскую думу своими родственниками .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">он</arg>
+          <rel relloc="?">наводнил</rel>
+	        <arg type="ARG1" start="?" end="?">Боярскую думу</arg>
+	        <arg type="ARG2" start="?" end="?">своими родственниками</arg>
+        </propbank>
+      </example>
+      <example name="Arg2 and Arg1; Often the line between arg0 and arg2 is blurred, with the substance being masses of people who do technically have agency; in most cases stick to arg2 instead, as that completes the mental schema/image better (besides, there is often some external 'cause' that pushes the masses)." src="RNC, Б. Е. Клетинич. Моё частное бессмертие (2015) // «Волга», 2016">
+        <text>… В марте город наводнили многодетные семьи с Украины .</text>
+        <propbank>
+          <arg type="ARG1" start="?" end="?">город</arg>
+          <rel relloc="?">наводнили</rel>
+	        <arg type="ARG2" start="?" end="?">многодетные семьи с Украины</arg>
+        </propbank>
+      </example>
+      <example name="Arg2 and Arg1, once more a blurred line, but not masses of people; it's similiar to a river inundating an area; treat the river as the substance and not the agent." src="RNC, В. В. Бибихин. Из записей на тему самопознания. Отдельные записи и отрывки из дневников (нач. 70-х—нач. 90-х гг.) (1970-1992)">
+        <text>Механические потоки речи наводняют мир, захлестывают, переполняют его .</text>
+        <propbank>
+          <arg type="ARG2" start="?" end="?">Механические потоки речи</arg>
+          <rel relloc="?">наводняют</rel>
+	        <arg type="ARG1" start="?" end="?">мир</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

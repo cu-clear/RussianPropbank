@@ -1,119 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-	<predicate lemma="решить">
-	<note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-		<roleset id="решить.01" name="make up one's mind">
-			<aliases>
-				<alias framenet="" pos="j" verbnet="">решивший</alias>
-				<alias framenet="" pos="v" verbnet="">решать</alias>
-				<alias framenet="" pos="j" verbnet="">решающий</alias>
-				<alias framenet="" pos="j" verbnet="">решавший</alias>
-				<alias framenet="" pos="v" verbnet="">решиться</alias>
-				<alias framenet="" pos="j" verbnet="">решившийся</alias>
-				<alias framenet="" pos="v" verbnet="">решаться</alias>
-				<alias framenet="" pos="j" verbnet="">решающийся</alias>
-				<alias framenet="" pos="j" verbnet="">решавшийся</alias>
-				<alias framenet="" pos="n" verbnet="">решение</alias>
-			</aliases>
-			<note>решить.01 NOTES: Corresponds to FrameBank senses 1,3</note>
-			<note>решить.01 NOTES: Frame based on expansion of English decide.01</note>			
-			<roles>
-				<role descr="decider" f="PAG" n="0"/>
-				<role descr="decision" f="PPT" n="1"/>
-				<role descr="beneficiary" f="GOL" n="2"/>
-				<role descr="subject-matter of a decision " f="VSP" n="3"/>
-			</roles>
-			<example name="arg0 and 1" src="" type="">
-				<text>Хорошо , скажи мне , что ты решишь .</text>
-				<arg f="" n="1">что</arg>
-				<arg f="" n="0">ты</arg>
-				<rel f="">решишь</rel>
-			</example>
-			<example name="arg0" src="" type="">
-				<text>Ну уж нет , решил Бог .</text>
-				<rel f="">решил</rel>
-				<arg f="" n="0">Бог</arg>
-			</example>
-			<example name="arg1" src="" type="">
-				<text>А после аборта уже ничего решить будет нельзя .</text>
-				<arg f="tmp" n="m">А после аборта уже</arg>
-				<arg f="" n="1">ничего</arg>
-				<rel f="">решить</rel>
-				<arg f="adv" n="m">нельзя</arg>
-			</example>
-			<example name="reflexive 'be decided'" src="" type="Russian National Corpus. [Евгений Гришковец. ОдноврЕмЕнно (2004)]">
-				<text>Но это было настолько моим переживанием, что я не решился спросить у папы: "Папа, что это с тётей случилось?</text>
-				<arg f="" n="0">я</arg>
-				<arg f="neg" n="m">не</arg>
-				<rel f="">решился</rel>
-				<arg f="" n="1">спросить у папы: "Папа, что это с тётей случилось?</arg>
-			</example>
-			<example name="reflexive with prepositional arg1" src="Russian National Corpus. [Я желанна. Разве это стыдно? // «Даша», 2004]" type="">
-				<text>Он рассердился, быстро закончил заседание, а наши сотрудницы потом говорили, что они бы не решились на открытое выступление .</text>
-				<arg f="" n="0">они</arg>
-				<arg f="neg" n="m">не</arg>
-				<rel f="">решились</rel>
-				<rel f="">на открытое выступление</rel>
-			</example>
-			<example name="reflexive, arg 0" src="Russian National Corpus. [Анна Варшавская. Дар не случайный (2002) // «Домовой», 2002.02.04]" type="">
-				<text>Тем, кто всё же решился , нужно иметь в виду, что приживается спираль от 2 до 8 месяцев.</text>
-				<arg f="" n="0">кто</arg>
-				<arg f="adv" n="m">всё же</arg>
-				<rel f="">решился</rel>
-			</example>
-		</roleset>
-		
-		<roleset id="решить.02" name="solve, find an answer">
-			<aliases>
-				<alias framenet="" pos="j" verbnet="">решивший</alias>
-				<alias framenet="" pos="v" verbnet="">решать</alias>
-				<alias framenet="" pos="j" verbnet="">решающий</alias>
-				<alias framenet="" pos="j" verbnet="">решавший</alias>
-				<alias framenet="" pos="v" verbnet="">решиться</alias>
-				<alias framenet="" pos="j" verbnet="">решившийся</alias>
-				<alias framenet="" pos="v" verbnet="">решаться</alias>
-				<alias framenet="" pos="j" verbnet="">решающийся</alias>
-				<alias framenet="" pos="j" verbnet="">решавшийся</alias>
-				<alias framenet="" pos="n" verbnet="">решение</alias>
-			</aliases>
-			<note>Corresponds to FrameBank senses 2,4</note>
-			<note>NOTES: Frame based on expansion of English solve.01</note>			
-			<roles>
-				<role descr="solver" f="PAG" n="0"></role>
-				<role descr="problem" f="PPT" n="1"/>
-				<role descr="manner" f="mnr" n="2"/>
-				<role descr="beneficiary [new, not in ENG]" f="GOL" n="3"/>
-			</roles>
-			<example name="find an answer to the question" src="" type="">
-				<text>Так , что если учиться , то надо решить *PRO* основной вопрос : а тому ли я учусь ? </text>
-				<arg f="" n="0">*PRO*</arg>
-				<rel f="">решить</rel>
-				<arg f="" n="1">основной вопрос : а тому ли я учусь ?</arg>
-			</example>
-			<example name="solves nothing; arg0, 1, and 3" src="" type="">
-				<text>Поэтому суицид ничего не решит для Вашей души , а лишь усугубит ситуацию .</text>
-				<arg f="dis" n="m">Поэтому</arg>
-				<arg f="" n="0">суицид</arg>
-				<arg f="" n="1">ничего</arg>
-				<arg f="neg" n="m">не</arg>
-				<rel f="">решит</rel>
-				<arg f="" n="3">для Вашей души</arg>
-			</example>
-			<example name="reflexive as passive, arg1" src="Russian National Corpus. 52. [С. Г. Бочаров. Из истории понимания Пушкина (1998)]" type="">
-				<text>Два нравственных мира противопоставлены один другому и борются между собою под знаком единой Красоты : как решится спор , загадочный отрывок не говорит</text>
-				<arg f="mnr" n="m">как</arg>
-				<rel f="">решится</rel>
-				<arg f="" n="1">ничего</arg>
-			</example>
-			<example name="reflexive as passive, arg1 &amp; arg2" src="" type="Russian National Corpus. [Владимир Красноухов. IPP-27 под созвездием Южного Креста (Международная встреча головоломщиков) // «Наука и жизнь», 2008]">
-				<text>И тем не менее задача решилась путём многоходовых пространственных манёвров .</text>
-				<arg f="dis" n="m">И</arg>
-				<arg f="dis" n="m">тем не менее</arg>
-				<arg f="" n="1">задача</arg>
-				<rel f="">решилась</rel>
-				<arg f="" n="2">путём многоходовых пространственных манёвров</arg>
-			</example>
-		</roleset>
-		
-	</predicate>
+    <predicate lemma="решить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="решить.01" name="make up one's mind">
+            <aliases>
+                <alias pos="j">решивший</alias>
+                <alias pos="v">решать</alias>
+                <alias pos="j">решающий</alias>
+                <alias pos="j">решавший</alias>
+                <alias pos="v">решиться</alias>
+                <alias pos="j">решившийся</alias>
+                <alias pos="v">решаться</alias>
+                <alias pos="j">решающийся</alias>
+                <alias pos="j">решавшийся</alias>
+                <alias pos="n">решение</alias>
+            </aliases>
+            <note>решить.01 NOTES: Corresponds to FrameBank senses 1,3</note>
+            <note>решить.01 NOTES: Frame based on expansion of English decide.01</note>
+            <roles>
+                <role descr="decider" f="PAG" n="0"/>
+                <role descr="decision" f="PPT" n="1"/>
+                <role descr="beneficiary" f="GOL" n="2"/>
+                <role descr="subject-matter of a decision " f="VSP" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="decide.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg0 and 1" src="">
+                <text>Хорошо , скажи мне , что ты решишь .</text>
+                <propbank>
+                    <arg type="ARG1" start="5" end="5">что</arg>
+                    <arg type="ARG0" start="6" end="6">ты</arg>
+                    <rel relloc="7">решишь</rel>
+                </propbank>
+            </example>
+            <example name="arg0" src="">
+                <text>Ну уж нет , решил Бог .</text>
+                <propbank>
+                    <rel relloc="4">решил</rel>
+                    <arg type="ARG0" start="5" end="5">Бог</arg>
+                </propbank>
+            </example>
+            <example name="arg1" src="">
+                <text>А после аборта уже ничего решить будет нельзя .</text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="0" end="3">А после аборта уже</arg>
+                    <arg type="ARG1" start="4" end="4">ничего</arg>
+                    <rel relloc="5">решить</rel>
+                    <arg type="ARGM-ADV" start="7" end="7">нельзя</arg>
+                </propbank>
+            </example>
+            <example name="reflexive 'be decided'"
+                     src="Russian National Corpus. [Евгений Гришковец. ОдноврЕмЕнно (2004)]">
+                <text>Но это было настолько моим переживанием , что я не решился спросить у папы : " Папа , что это с
+                    тётей случилось ?
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="8" end="8">я</arg>
+                    <arg type="ARGM-NEG" start="9" end="9">не</arg>
+                    <rel relloc="10">решился</rel>
+                    <arg type="ARG1" start="11" end="23">спросить у папы : " Папа , что это с тётей случилось ?</arg>
+                </propbank>
+            </example>
+            <example name="reflexive with prepositional arg1"
+                     src="Russian National Corpus. [Я желанна. Разве это стыдно? // «Даша», 2004]">
+                <text>Он рассердился , быстро закончил заседание , а наши сотрудницы потом говорили , что они бы не
+                    решились на открытое выступление .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="14" end="14">они</arg>
+                    <arg type="ARGM-NEG" start="16" end="16">не</arg>
+                    <rel relloc="17">решились</rel>
+                    <arg type="ARG1" start="18" end="20">на открытое выступление</arg>
+                </propbank>
+            </example>
+            <example name="reflexive, arg 0"
+                     src="Russian National Corpus. [Анна Варшавская. Дар не случайный (2002) // «Домовой», 2002.02.04]">
+                <text>Тем , кто всё же решился , нужно иметь в виду , что приживается спираль от 2 до 8 месяцев .</text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="2">кто</arg>
+                    <arg type="ARGM-ADV" start="3" end="4">всё же</arg>
+                    <rel relloc="5">решился</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="решить.02" name="solve, find an answer">
+            <aliases>
+                <alias pos="j">решивший</alias>
+                <alias pos="v">решать</alias>
+                <alias pos="j">решающий</alias>
+                <alias pos="j">решавший</alias>
+                <alias pos="v">решиться</alias>
+                <alias pos="j">решившийся</alias>
+                <alias pos="v">решаться</alias>
+                <alias pos="j">решающийся</alias>
+                <alias pos="j">решавшийся</alias>
+                <alias pos="n">решение</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 2,4</note>
+            <note>NOTES: Frame based on expansion of English solve.01</note>
+            <roles>
+                <role descr="solver" f="PAG" n="0"/>
+                <role descr="problem" f="PPT" n="1"/>
+                <role descr="manner" f="mnr" n="2"/>
+                <role descr="beneficiary [new, not in ENG]" f="GOL" n="3"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="solve.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="find an answer to the question" src="">
+                <text>Так , что если учиться , то надо решить * PRO * основной вопрос : а тому ли я учусь ?</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <rel relloc="8">решить</rel>
+                    <arg type="ARG1" start="12" end="20">основной вопрос : а тому ли я учусь ?</arg>
+                </propbank>
+            </example>
+            <example name="solves nothing; arg0, 1, and 3" src="">
+                <text>Поэтому суицид ничего не решит для Вашей души , а лишь усугубит ситуацию .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Поэтому</arg>
+                    <arg type="ARG0" start="1" end="1">суицид</arg>
+                    <arg type="ARG1" start="2" end="2">ничего</arg>
+                    <arg type="ARGM-NEG" start="3" end="3">не</arg>
+                    <rel relloc="4">решит</rel>
+                    <arg type="ARG3" start="5" end="7">для Вашей души</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive, arg1"
+                     src="Russian National Corpus. 52. [С. Г. Бочаров. Из истории понимания Пушкина (1998)]">
+                <text>Два нравственных мира противопоставлены один другому и борются между собою под знаком единой
+                    Красоты : как решится спор , загадочный отрывок не говорит
+                </text>
+                <propbank>
+                    <arg type="ARGM-MNR" start="15" end="15">как</arg>
+                    <rel relloc="16">решится</rel>
+                    <arg type="ARG1" start="?" end="?">ничего</arg>
+                </propbank>
+            </example>
+            <example name="reflexive as passive, arg1 &amp; arg2"
+                     src="Russian National Corpus. [Владимир Красноухов. IPP-27 под созвездием Южного Креста (Международная встреча головоломщиков) // «Наука и жизнь», 2008]">
+                <text>И тем не менее задача решилась путём многоходовых пространственных манёвров .</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">И</arg>
+                    <arg type="ARGM-DIS" start="1" end="3">тем не менее</arg>
+                    <arg type="ARG1" start="4" end="4">задача</arg>
+                    <rel relloc="5">решилась</rel>
+                    <arg type="ARG2" start="6" end="9">путём многоходовых пространственных манёвров</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

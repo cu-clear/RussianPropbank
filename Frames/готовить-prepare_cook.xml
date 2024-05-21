@@ -1,0 +1,83 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="готовить">
+        <roleset id="готовить.01" name="Prepare, make">
+            <aliases>
+                <alias pos="v">готовить</alias>
+                <alias pos="v">приготовить</alias>
+                <alias pos="j">готовящий</alias>
+                <alias pos="j">приготовленный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English prepare.02</note>
+            <roles>
+                <role descr="Preparer, Agent" f="PAG" n="0"/>
+                <role descr="Thing made ready" f="PPT" n="1"/>
+                <role descr="Ready for, purpose or person" f="PRP" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="RNC, Д. С. Данин. Нильс Бор (1969-1975)">
+                <text>Он готовил тогда статью о связи между электрическими свойствами и поверхностным натяжением ртути
+                    .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Он</arg>
+                    <rel relloc="1">готовил</rel>
+                    <arg type="ARG1" start="3" end="12">статью о связи между электрическими свойствами и поверхностным
+                        натяжением ртути
+                    </arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, Г. Я. Бакланов. Жизнь, подаренная дважды (1999)">
+                <text>И родина приготовила для них место : в лагерях .</text>
+                <propbank>
+                    <arg type="ARG0" start="1" end="1">родина</arg>
+                    <rel relloc="2">приготовила</rel>
+                    <arg type="ARG3" start="3" end="4">для них</arg>
+                    <arg type="ARG2" start="5" end="5">место</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="готовить.02" name="Cook, prepare">
+            <aliases>
+                <alias pos="v">готовить</alias>
+                <alias pos="v">приготовить</alias>
+                <alias pos="j">готовящий</alias>
+                <alias pos="j">приготовленный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English prepare.01</note>
+            <roles>
+                <role descr="Chef, Agent" f="PAG" n="0"/>
+                <role descr="Dish, Creation" f="PPT" n="1"/>
+                <role descr="Ingredients, created from" f="DIR" n="2"/>
+                <role descr="Benefactive, eater" f="GOL" n="3"/>
+            </roles>
+            <example name="Arg0 and Arg1"
+                     src="RNC, Е. В. Салиас-де-Турнемир (Евгения Тур). Воспоминания о войне 1877-1878 гг. (1880)">
+                <text>Дуняша между тем готовила в той же комнате чай .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Дуняша</arg>
+                    <rel relloc="3">готовила</rel>
+                    <arg type="ARG1" start="8" end="8">чай</arg>
+                </propbank>
+            </example>
+            <example name="Arg1 and Arg2" src="RNC, Аркадий Кощеев. Царство флоры // «Уральский следопыт», 1982">
+                <text>Из высушенных почек можно зимой готовить душистый чай с ароматом и вкусом южного ананаса .</text>
+                <propbank>
+                    <arg type="ARG2" start="0" end="2">Из высушенных почек</arg>
+                    <rel relloc="5">готовить</rel>
+                    <arg type="ARG1" start="6" end="13">душистый чай с ароматом и вкусом южного ананаса</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg3" src="RNC, Екатерина Завершнева. Высотка (2012)">
+                <text>У вас тут на столе одни шурупы , а мне Илонка ужин приготовила .</text>
+                <propbank>
+                    <arg type="ARG3" start="9" end="9">мне</arg>
+                    <arg type="ARG0" start="10" end="10">Илонка</arg>
+                    <arg type="ARG1" start="11" end="11">ужин</arg>
+                    <rel relloc="12">приготовила</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

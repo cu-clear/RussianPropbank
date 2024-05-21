@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="пояснять">
+        <roleset id="пояснять.01" name="Explaain, Clarify.">
+            <aliases>
+                <alias pos="v">пояснять</alias>
+                <alias pos="v">пояснить</alias>
+                <alias pos="j">поясняющий</alias>
+                <alias pos="j">пояснивший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English explain.01</note>
+            <roles>
+                <role descr="Explainer" f="PAG" n="0"/>
+                <role descr="Thing explained" f="PPT" n="1"/>
+                <role descr="Explained to" f="GOL" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="explain.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="Arg1 and Arg2" src="lib.ru">
+                <text>Я пояснил очевидную вещь : люди не могут обойтись без информации и вынуждены держать глаза
+                    открытыми .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">пояснил</rel>
+                    <arg type="ARG1" start="2" end="3">очевидную вещь</arg>
+                </propbank>
+            </example>
+            <example name="Arg1, Arg2, and Arg3" src="sudrf.ru">
+                <text>Свидетель В . пояснил суду , что участвовал в захоронении Й . М .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="1">Свидетель В</arg>
+                    <rel relloc="3">пояснил</rel>
+                    <arg type="ARG1" start="6" end="12">что участвовал в захоронении Й . М</arg>
+                    <arg type="ARG2" start="4" end="4">суду</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

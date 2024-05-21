@@ -1,0 +1,82 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="Затруднять">
+        <roleset id="затруднять.01" name="Make difficult, complicate">
+            <aliases>
+                <alias pos="v">затруднять</alias>
+                <alias pos="v">затруднить</alias>
+                <alias pos="j">ImperfactiveAdjective</alias>
+                <alias pos="j">etc</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English complicate.01</note>
+            <roles>
+                <role descr="Agent, entity causing something to become difficult" f="PAG" n="0"/>
+                <role descr="Thing becoming difficult" f="PPT" n="1"/>
+                <role descr="Benefactive, for whom is the thing becoming difficult" f="GOL" n="2"/>
+                <role descr="Tool or manner used to make Arg1 difficult" f="GOL" n="2"/>
+            </roles>
+            <example name="Arg1 and Arg3" src="RNC, Михаил Веллер. Карьера в Никуда (1988)">
+                <text>Ходьба затруднена силой тяжести , вызывающей усталость , ― но ею же делается вообще возможной ,
+                    давая сцепление с землей .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Ходьба</arg>
+                    <rel relloc="1">затруднена</rel>
+                    <arg type="ARG3" start="2" end="3">силой тяжести</arg>
+                </propbank>
+            </example>
+            <example name="Inanimate Arg0 and Arg1"
+                     src="RNC, Анна Андреева. Клематисы на все времена (2002) // «Homes &amp; Gardens», 10.08.2002">
+                <text>Стены затрудняют доступ воды , а фундамент мешает развиваться корням клематиса .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Стены</arg>
+                    <rel relloc="1">затрудняют</rel>
+                    <arg type="ARG1" start="2" end="3">доступ воды</arg>
+                </propbank>
+            </example>
+            <example name="Animate Arg0 and Arg1, note that this rarely happens without an Arg3"
+                     src="RNC, Леонид Шинкарев. «Лучше по своей прихоти нуждаться, чем по чужой воле преуспевать». Санжаа БАЯР, посол Монголии в Российской Федерации. Интервью (2003) // «Известия», 20.02.2003">
+                <text>И когда один большой сосед относит нашего высшего иерарха к своим политическим врагам , а другой
+                    большой сосед из солидарности затрудняет его проезд через свою территорию к верующим монголам ,
+                    последним ничего не остается ...
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="15" end="17">другой большой сосед</arg>
+                    <rel relloc="20">затрудняет</rel>
+                    <arg type="ARG1" start="21" end="28">его проезд через свою территорию к верующим монголам</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2"
+                     src="RNC, А. Алексеев. Россия в 1914-1915 годах. Война на два фронта // «Наука и жизнь», 2007">
+                <text>Русское командование считало , что все это затруднит немцам вторжение в Польшу .</text>
+                <propbank>
+                    <arg type="ARG0" start="5" end="6">все это</arg>
+                    <rel relloc="7">затруднит</rel>
+                    <arg type="ARG2" start="8" end="8">немцам</arg>
+                    <arg type="ARG1" start="9" end="11">вторжение в Польшу</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, Arg2, and Arg3"
+                     src="RNC, А. Калинин, О. Хромов. Единою чертою // «Наука и жизнь», 2007">
+                <text>Конечно , этим художник колоссально затруднил себе работу по сравнению с известными приемами .
+                </text>
+                <propbank>
+                    <arg type="ARG3" start="2" end="2">этим</arg>
+                    <arg type="ARG0" start="3" end="3">художник</arg>
+                    <rel relloc="5">затруднил</rel>
+                    <arg type="ARG2" start="6" end="6">себе</arg>
+                    <arg type="ARG1" start="7" end="7">работу</arg>
+                </propbank>
+            </example>
+            <example name="Arg3 only, notice the instrumental case"
+                     src="RNC, А. Калинин, О. Хромов. Единою чертою // «Наука и жизнь», 2007">
+                <text>На листке бумаги синим карандашом : « Разменом не затруднять .</text>
+                <propbank>
+                    <arg type="ARG3" start="7" end="7">Разменом</arg>
+                    <rel relloc="9">затруднять</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

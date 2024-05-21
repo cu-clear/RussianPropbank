@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="диктовать">
+        <roleset id="диктовать.01" name="Dictate what is to be written, spell out">
+            <aliases>
+                <alias pos="v">диктовать</alias>
+                <alias pos="v">продиктовать</alias>
+                <alias pos="j">диктующий</alias>
+                <alias pos="j">продиктованный</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English dictate.02</note>
+            <roles>
+                <role descr="Speaker" f="PAG" n="0"/>
+                <role descr="Utterance" f="PPT" n="1"/>
+                <role descr="Hearer, recorder" f="GOL" n="2"/>
+            </roles>
+            <example name="Arg0 and Arg1" src="_">
+                <text>Я продиктовал моё имя .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Я</arg>
+                    <rel relloc="1">продиктовал</rel>
+                    <arg type="ARG1" start="2" end="3">моё имя</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="_">
+                <text>Вон там учителя диктуют студентам экзамены .</text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="2">учителя</arg>
+                    <rel relloc="3">диктуют</rel>
+                    <arg type="ARG2" start="4" end="4">студентам</arg>
+                    <arg type="ARG1" start="5" end="5">экзамены</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

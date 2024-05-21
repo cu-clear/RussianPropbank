@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="Вырывать">
+        <roleset id="вырывать.01" name="Wrest, tear out, snatch">
+            <aliases>
+                <alias pos="v">вырывать</alias>
+                <alias pos="v">вырвать</alias>
+                <alias pos="j">вырывающий</alias>
+                <alias pos="j">вырвавший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English tear.01</note>
+            <roles>
+                <role descr="Agent, puller, tearer" f="PAG" n="0"/>
+                <role descr="Thing aquired, torn out" f="PPT" n="1"/>
+                <role descr="Source, thing torn from" f="DIR" n="2"/>
+            </roles>
+            <example name="Arg0, Arg1, and Arg2"
+                     src="RNC, Василий Шукшин. Леля Cелезнева с факультета журналистики (1958)">
+                <text>Леля вырвала из блокнота лист и написала :</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Леля</arg>
+                    <rel relloc="1">вырвала</rel>
+                    <arg type="ARG2" start="2" end="3">из блокнота</arg>
+                    <arg type="ARG3" start="4" end="4">лист</arg>
+                </propbank>
+            </example>
+            <example name="Arg0, Arg1, and Arg2" src="RNC, Ф. В. Гладков. Повесть о детстве (1948)">
+                <text>Я почувствовал , что отлетаю в сторону и меня вырывает из салазок страшная сила .</text>
+                <propbank>
+                    <arg type="ARG1" start="8" end="8">меня</arg>
+                    <rel relloc="9">вырывает</rel>
+                    <arg type="ARG2" start="10" end="11">из салазок</arg>
+                    <arg type="ARG0" start="12" end="13">страшная сила</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>

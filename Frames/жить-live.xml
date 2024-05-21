@@ -1,232 +1,299 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="жить">
-    <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise noted.</note>
-    <roleset id="жить.01" name="reside">
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">живущий</alias>
-		<alias framenet="" pos="j" verbnet="">живший</alias>
-		<alias framenet="" pos="v" verbnet="">прожить</alias>
-		<alias framenet="" pos="j" verbnet="">проживший</alias>
-		<alias framenet="" pos="j" verbnet="">прожитый</alias>
-		<alias framenet="" pos="v" verbnet="">живать</alias>
-		<alias framenet="" pos="v" verbnet="">проживать</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank sense 4</note>
-      <note>жить.01 NOTES: Roleset based on English verb frame inhabit.01</note>
-      <roles>
-        <role descr="resident" f="PAG" n="0">
-        </role>
-        <role descr="place of residence" f="PPT" n="1">
-        </role>
-      </roles>
-      <example name="all args" src="" type="">
-        <text>В каком городе ты живешь ?</text>
-        <arg f="" n="1">В каком городе</arg>
-		<arg f="" n="0">ты</arg>
-        <rel f="">живешь</rel>
-      </example>
-    </roleset>
-    
-	<roleset id="жить.02" name="live life, exist, survive, be not dead, how do you do">
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">живущий</alias>
-		<alias framenet="" pos="j" verbnet="">живший</alias>
-		<alias framenet="" pos="v" verbnet="">прожить</alias>
-		<alias framenet="" pos="j" verbnet="">проживший</alias>
-		<alias framenet="" pos="j" verbnet="">прожитый</alias>
-		<alias framenet="" pos="v" verbnet="">житься</alias>
-		<alias framenet="" pos="j" verbnet="">живущийся</alias>
-		<alias framenet="" pos="v" verbnet="">поживать</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank sense 1</note>
-	  <note>жить.01 NOTES: Roleset based on English verb frame live.01</note>
-      <roles>
-        <role descr="alive entity" f="PAG" n="0"/>
-		<role descr="life, cognate" f="PPT" n="1"/>
-      </roles>
-	  <example name="arg0" src="" type="">
-        <text>Что-то после прочтения подобных новостей мне уже совсем не кажется абсурдной мысль , что живем в " последние времена "</text>
-        <arg f="" n="0">*PRO*</arg>
-		<rel f="">живем</rel>
-		<arg f="tmp" n="m">в " последние времена "</arg>
-	  </example>
-	  <example name="leave alone" src="" type="">
-        <text>Пусть живет , несчастный .</text>
-        <rel f="">живет</rel>
-		<arg f="" n="0">несчастный</arg>
-	  </example>
-	  <example name="how lived" src="" type="">
-        <text>Прививать нужно даже тех животных , которые носа не высовывают за порог квартиры .. .. но мой собственный кот живет без прививок вот уже 19 лет ...</text>
-        <arg f="" n="0">мой собственный кот</arg>
-		<rel f="">живет</rel>
-		<arg f="mnr" n="m">без прививок</arg>
-	  </example>
-	  <example name="survive" src="" type="">
-        <text>( Раз кот две недели у вас жил и признаков болезни не подавал , то мер от бешенства я бы лично принимать не стала .</text>
-        <arg f="adv" n="m">Раз</arg>
-		<arg f="" n="0">кот</arg>
-		<arg f="tmp" n="m">две недели</arg>
-		<arg f="loc" n="m">у вас</arg>
-        <rel f="">жил</rel>
-	  </example>
-	  <example name="live life" src="Russian National Corpus. [Вячеслав Пьецух. Шкаф (1997)]" type="">
-        <text>Вообще жизнь в шкафу оказалась не такой уж и скучной, как показалось ей поначалу, ибо и учёное занятие у неё нашлось, и, хочешь не хочешь, она жила жизнью своей квартиры.</text>
-		<arg f="" n="0">она</arg>
-        <rel f="">жила</rel>
-		<arg f="" n="1">жизнью своей квартиры</arg>
-	  </example>
-	</roleset>
-	
-	<roleset id="жить.03" name="cohabitate">
-      <aliases>
-      </aliases>
-	  <note>Corresponds to FrameBank sense 5,7</note>
-	  <note>NOTES: Roleset based on English verb frame date.02</note>
-      <roles>
-        <role descr="dater (agent)" f="PAG" n="0"/>
-		<role descr="dated (co-inhabitor)" f="COM" n="1"/>
-      </roles>
-	  <example name="all args" src="Л. Н. Толстой, «Анна Каренина»" type="">
-        <text>Жена узнала, что муж был в связи с бывшею в их доме француженкою-гувернанткой, и объявила мужу, что не может жить с ним в одном доме.</text>
-        <arg f="" n="0">*Trace-1*</arg>
-		<rel f="">жить</rel>
-		<arg f="" n="1">с ним</arg>
-		<arg f="loc" n="m">одном доме</arg>
-	  </example>
-	  <example name="live with" src="" type="">
-        <text>Да все мы живем с человеком , а с ним уже возникают отношения </text>
-		<arg f="dis" n="m">Да</arg>
-		<arg f="" n="0">все мы</arg>
-		<rel f="">живем</rel>
-		<arg f="" n="1">с человеком</arg>
-	  </example>
-	  <example name="live together" src="" type="">
-        <text>Мы уже два года не живем вместе , а до этого - три года не было интима , но я не могу сказать , что " она стала чужой ".</text>
-        <arg f="" n="0">Мы</arg>
-		<arg f="tmp" n="m">уже два года</arg>
-		<arg f="neg" n="m">не</arg>
-		<rel f="">живем</rel>
-		<arg f="mnr" n="m">вместе</arg>
-	  </example>
-	  <example name="comitative" src="" type="">
-        <text>Ты живешь с кем-то из своих родителей ?</text>
-        <arg f="" n="0">Ты</arg>
-        <rel f="">живешь</rel> 
-        <arg f="" n="1">с кем-то из своих родителей</arg>
-      </example>
-	</roleset>
-	
-	<roleset id="жить.04" name="make a living, support oneself">
-      <aliases>
-	    <alias framenet="" pos="j" verbnet="">живущий</alias>
-		<alias framenet="" pos="j" verbnet="">живший</alias>
-		<alias framenet="" pos="v" verbnet="">живать</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank sense 2</note>
-      <roles>
-        <role descr="working person" f="PAG" n="0"/>
-		<role descr="career, support" f="MNR" n="1"/>
-      </roles>
-	  <example name="live on" src="Russian National Corpus [Сергей Любимов. Если корова перестала доиться (2003) // «Богатей» (Саратов), 2003.04.24]" type="">
-        <text>По мнению министра, жить на эти деньги нельзя.</text>
-        <arg f="" n="0">*PRO*</arg>
-		<rel f="">жить</rel>
-		<arg f="" n="1">на эти деньги</arg>
-		<arg f="neg" n="m">нельзя</arg>
-	  </example>
-	  <example name="live by" src="Russian National Corpus [А. Я. Гуревич. Популярное богословие и народная религиозность средних веков (1976)]" type="">
-        <text>Рыцари, воины осуждены: они навлекают на себя гнев божий, так как живут грабежом, откуда и все их богатства.</text>
-		<arg f="" n="0">*PRO*</arg>
-		<rel f="">живут</rel>
-		<arg f="" n="1">грабежом, откуда и все их богатства</arg>
-	  </example>
-	</roleset>
-	
-	<roleset id="жить.05" name="be all caught up in, live by/in, emotionally depend on">
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">живущий</alias>
-		<alias framenet="" pos="j" verbnet="">живший</alias>
-      </aliases>
-	  <note>Corresponds to FrameBank senses 3,6</note>
-      <note>жить.05 NOTES: Roleset based on English verb frame </note>
-      <roles>
-        <role descr="the person living (not agentive)" f="PAG" n="1">
-        </role>
-        <role descr="instrument that supports the life" f="PPT" n="2">
-        </role>
-      </roles>
-      <example name="all args" src="" type="">
-        <text>Дело в том , что человек , который живет воспроминаниями о вас - дцать лет , вполне счастлив со своими воспоминаниями .</text>
-        <arg f="" n="1">который</arg>
-        <rel f="">живет</rel>
-		<arg f="" n="2">воспроминаниями о вас</arg>
-		<arg f="tmp" n="m">дцать лет</arg>
-      </example>
-    </roleset>
-  </predicate>
-  
-  <predicate lemma="житься">
-    <roleset id="житься.06" name="(not) want to live somewhere, be settled somewhere">
-      <aliases>
-		<alias framenet="" pos="j" verbnet="">ужиться</alias>
-      </aliases>
-      <note>житься.06 NOTES: Roleset based on English verb frame inhabit.01</note>
-	  <note>житься.06 NOTES: Always negative.</note>
-      <roles>
-        <role descr="resident" f="PAG" n="0">
-        </role>
-        <role descr="how or where one lives" f="PPT" n="1">
-        </role>
-      </roles>
-      <example name="all args" src="Russian National Corpus [А. В. Дружинин. Русские в Японии в конце 1853 и в начале 1854 годов (1855)]" type="">
-        <text>В ней найдём мы вместо туристов по призванию, вместо бурных деятелей, которым не живётся дома, людей из всех сословий общества, людей, развившихся под одинаковой с нами звездою, одушевлённых страстями, нам близко знакомыми.</text>
-        <arg f="" n="0">которым</arg>
-		<arg f="neg" n="m">не</arg>
-        <rel f="">живётся</rel>
-		<arg f="" n="1">дома</arg>
-      </example>
-	  <example name="all args" src="Russian National Corpus [коллективный. Форум: Жители Пугачева из-за убийства десантника перекрывали трассу (2013)]" type="">
-        <text>Вы ни с кем ужиться не можете, и у себя вам не живется, работать неохота!</text>
-        <arg f="" n="0">Вы</arg>
-		<arg f="" n="1">ни с кем</arg>
-        <rel f="">ужиться</rel>
-      </example>
-    </roleset>
-  </predicate>
-  
-  <predicate lemma="долго_жить">
-    <roleset id="долго_жить.07" name="die, cease to exist">
-      <aliases>
-		<alias framenet="" pos="m" verbnet="">приказать_долго_жить</alias>
-		<mwe id="терять_счет">
-			<token slot="A" arg="" pos="" head="" dep="">приказать</token>
-			<token slot="A" arg="" pos="" head="" dep="">велеть</token>
-			<token slot="B" arg="" pos="" head="C" dep="">долго</token>
-			<token slot="C" arg="" pos="" head="A" dep="">жить</token>
-		</mwe>
-      </aliases>
-      <note>долго_жить NOTES: Roleset based on English verb frame die.01</note>
-      <roles>
-        <role descr="the deceased" f="PPT" n="1">
-        </role>
-      </roles>
-      <example name="all args" src="Russian National Corpus [С. Т. Григорьев. Александр Суворов (1939)]" type="">
-        <text>А ты кланяйся товарищам. Вели долго жить. Да еще погожу умирать.</text>
-        <arg f="" n="1">*PRO*</arg>
-        <rel f="">Вели</rel>
-		<rel f="">долго</rel>
-		<rel f="">жить</rel>
-      </example>
-	  <example name="cease to exist" src="Russian National Corpus [[Анастасия Гулина. Правый десант продолжается (2003) // «Богатей» (Саратов), 2003.04.17]" type="">
-        <text>Эта система казалась настолько прочной, что, когда в 1991 году СССР приказал долго жить, во всем мире стали задавать вопрос, почему же это так быстро произошло.</text>
-        <arg f="tmp" n="m">когда</arg>
-		<arg f="tmp" n="m">в 1991 году</arg>
-		<arg f="" n="1">СССР</arg>
-        <rel f="">приказал</rel>
-		<rel f="">долго</rel>
-		<rel f="">жить</rel>
-      </example>
-    </roleset>
-  </predicate>
+    <predicate lemma="жить">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers unless otherwise
+            noted.
+        </note>
+        <roleset id="жить.01" name="reside">
+            <aliases>
+                <alias pos="j">живущий</alias>
+                <alias pos="j">живший</alias>
+                <alias pos="v">прожить</alias>
+                <alias pos="j">проживший</alias>
+                <alias pos="j">прожитый</alias>
+                <alias pos="v">живать</alias>
+                <alias pos="v">проживать</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 4</note>
+            <note>жить.01 NOTES: Roleset based on English verb frame inhabit.01</note>
+            <roles>
+                <role descr="resident" f="PAG" n="0">
+                </role>
+                <role descr="place of residence" f="PPT" n="1">
+                </role>
+            </roles>
+            <lexlinks>
+                <lexlink class="inhabit.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args" src="">
+                <text>В каком городе ты живешь ?</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="2">В каком городе</arg>
+                    <arg type="ARG0" start="3" end="3">ты</arg>
+                    <rel relloc="4">живешь</rel>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="жить.02" name="live life, exist, survive, be not dead, how do you do">
+            <aliases>
+                <alias pos="j">живущий</alias>
+                <alias pos="j">живший</alias>
+                <alias pos="v">прожить</alias>
+                <alias pos="j">проживший</alias>
+                <alias pos="j">прожитый</alias>
+                <alias pos="v">житься</alias>
+                <alias pos="j">живущийся</alias>
+                <alias pos="v">поживать</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 1</note>
+            <note>жить.01 NOTES: Roleset based on English verb frame live.01</note>
+            <roles>
+                <role descr="alive entity" f="PAG" n="0"/>
+                <role descr="life, cognate" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="live.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="arg0" src="">
+                <text>Что - то после прочтения подобных новостей мне уже совсем не кажется абсурдной мысль , что живем в
+                    " последние времена "
+                </text>
+                <propbank>
+                    <rel relloc="16">живем</rel>
+                    <arg type="ARGM-TMP" start="17" end="21">в " последние времена "</arg>
+                </propbank>
+            </example>
+            <example name="leave alone" src="">
+                <text>Пусть живет , несчастный .</text>
+                <propbank>
+                    <rel relloc="1">живет</rel>
+                    <arg type="ARG0" start="3" end="3">несчастный</arg>
+                </propbank>
+            </example>
+            <example name="how lived" src="">
+                <text>Прививать нужно даже тех животных , которые носа не высовывают за порог квартиры .. .. но мой
+                    собственный кот живет без прививок вот уже 19 лет ...
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="16" end="18">мой собственный кот</arg>
+                    <rel relloc="19">живет</rel>
+                    <arg type="ARGM-MNR" start="20" end="21">без прививок</arg>
+                </propbank>
+            </example>
+            <example name="survive" src="">
+                <text>( Раз кот две недели у вас жил и признаков болезни не подавал , то мер от бешенства я бы лично
+                    принимать не стала .
+                </text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="1" end="1">Раз</arg>
+                    <arg type="ARG0" start="2" end="2">кот</arg>
+                    <arg type="ARGM-TMP" start="3" end="4">две недели</arg>
+                    <arg type="ARGM-LOC" start="5" end="6">у вас</arg>
+                    <rel relloc="7">жил</rel>
+                </propbank>
+            </example>
+            <example name="live life" src="Russian National Corpus. [Вячеслав Пьецух. Шкаф (1997)]">
+                <text>Вообще жизнь в шкафу оказалась не такой уж и скучной , как показалось ей поначалу , ибо и учёное
+                    занятие у неё нашлось , и , хочешь не хочешь , она жила жизнью своей квартиры .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="30" end="30">она</arg>
+                    <rel relloc="31">жила</rel>
+                    <arg type="ARG1" start="32" end="34">жизнью своей квартиры</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="жить.03" name="cohabitate">
+            <aliases>
+            </aliases>
+            <note>Corresponds to FrameBank sense 5,7</note>
+            <note>NOTES: Roleset based on English verb frame date.02</note>
+            <roles>
+                <role descr="dater (agent)" f="PAG" n="0"/>
+                <role descr="dated (co-inhabitor)" f="COM" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="date.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args" src="Л. Н. Толстой, «Анна Каренина»">
+                <text>Жена узнала , что муж был в связи с бывшею в их доме француженкою - гувернанткой , и объявила мужу
+                    , что не может жить с ним в одном доме .
+                </text>
+                <propbank>
+                    <rel relloc="24">жить</rel>
+                    <arg type="ARG1" start="25" end="26">с ним</arg>
+                    <arg type="ARGM-LOC" start="28" end="29">одном доме</arg>
+                </propbank>
+            </example>
+            <example name="live with" src="">
+                <text>Да все мы живем с человеком , а с ним уже возникают отношения</text>
+                <propbank>
+                    <arg type="ARGM-DIS" start="0" end="0">Да</arg>
+                    <arg type="ARG0" start="1" end="2">все мы</arg>
+                    <rel relloc="3">живем</rel>
+                    <arg type="ARG1" start="4" end="5">с человеком</arg>
+                </propbank>
+            </example>
+            <example name="live together" src="">
+                <text>Мы уже два года не живем вместе , а до этого - три года не было интима , но я не могу сказать ,
+                    что " она стала чужой " .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Мы</arg>
+                    <arg type="ARGM-TMP" start="1" end="3">уже два года</arg>
+                    <arg type="ARGM-NEG" start="4" end="4">не</arg>
+                    <rel relloc="5">живем</rel>
+                    <arg type="ARGM-MNR" start="6" end="6">вместе</arg>
+                </propbank>
+            </example>
+            <example name="comitative" src="">
+                <text>Ты живешь с кем - то из своих родителей ?</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Ты</arg>
+                    <rel relloc="1">живешь</rel>
+                    <arg type="ARG1" start="2" end="8">с кем - то из своих родителей</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="жить.04" name="make a living, support oneself">
+            <aliases>
+                <alias pos="j">живущий</alias>
+                <alias pos="j">живший</alias>
+                <alias pos="v">живать</alias>
+            </aliases>
+            <note>Corresponds to FrameBank sense 2</note>
+            <roles>
+                <role descr="working person" f="PAG" n="0"/>
+                <role descr="career, support" f="MNR" n="1"/>
+            </roles>
+            <example name="live on"
+                     src="Russian National Corpus [Сергей Любимов. Если корова перестала доиться (2003) // «Богатей» (Саратов), 2003.04.24]">
+                <text>По мнению министра , жить на эти деньги нельзя .</text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <rel relloc="4">жить</rel>
+                    <arg type="ARG1" start="5" end="7">на эти деньги</arg>
+                    <arg type="ARGM-NEG" start="8" end="8">нельзя</arg>
+                </propbank>
+            </example>
+            <example name="live by"
+                     src="Russian National Corpus [А. Я. Гуревич. Популярное богословие и народная религиозность средних веков (1976)]">
+                <text>Рыцари , воины осуждены : они навлекают на себя гнев божий , так как живут грабежом , откуда и все
+                    их богатства .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="?" end="?">*PRO*</arg>
+                    <rel relloc="14">живут</rel>
+                    <arg type="ARG1" start="15" end="21">грабежом , откуда и все их богатства</arg>
+                </propbank>
+            </example>
+        </roleset>
+        <roleset id="жить.05" name="be all caught up in, live by/in, emotionally depend on">
+            <aliases>
+                <alias pos="j">живущий</alias>
+                <alias pos="j">живший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 3,6</note>
+            <note>жить.05 NOTES: Roleset based on English verb frame</note>
+            <roles>
+                <role descr="the person living (not agentive)" f="PAG" n="1">
+                </role>
+                <role descr="instrument that supports the life" f="PPT" n="2">
+                </role>
+            </roles>
+            <example name="all args" src="">
+                <text>Дело в том , что человек , который живет воспроминаниями о вас - дцать лет , вполне счастлив со
+                    своими воспоминаниями .
+                </text>
+                <propbank>
+                    <arg type="ARG1" start="7" end="7">который</arg>
+                    <rel relloc="8">живет</rel>
+                    <arg type="ARG2" start="9" end="11">воспроминаниями о вас</arg>
+                    <arg type="ARGM-TMP" start="13" end="14">дцать лет</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="житься">
+        <roleset id="житься.06" name="(not) want to live somewhere, be settled somewhere">
+            <aliases>
+                <alias pos="j">ужиться</alias>
+            </aliases>
+            <note>житься.06 NOTES: Roleset based on English verb frame inhabit.01</note>
+            <note>житься.06 NOTES: Always negative.</note>
+            <roles>
+                <role descr="resident" f="PAG" n="0">
+                </role>
+                <role descr="how or where one lives" f="PPT" n="1">
+                </role>
+            </roles>
+            <lexlinks>
+                <lexlink class="inhabit.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args"
+                     src="Russian National Corpus [А. В. Дружинин. Русские в Японии в конце 1853 и в начале 1854 годов (1855)]">
+                <text>В ней найдём мы вместо туристов по призванию , вместо бурных деятелей , которым не живётся дома ,
+                    людей из всех сословий общества , людей , развившихся под одинаковой с нами звездою , одушевлённых
+                    страстями , нам близко знакомыми .
+                </text>
+                <propbank>
+                    <arg type="ARG0" start="13" end="13">которым</arg>
+                    <arg type="ARGM-NEG" start="14" end="14">не</arg>
+                    <rel relloc="15">живётся</rel>
+                    <arg type="ARG1" start="16" end="16">дома</arg>
+                </propbank>
+            </example>
+            <example name="all args"
+                     src="Russian National Corpus [коллективный. Форум: Жители Пугачева из-за убийства десантника перекрывали трассу (2013)]">
+                <text>Вы ни с кем ужиться не можете , и у себя вам не живется , работать неохота !</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Вы</arg>
+                    <arg type="ARG1" start="1" end="3">ни с кем</arg>
+                    <rel relloc="4">ужиться</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+    <predicate lemma="долго_жить">
+        <roleset id="долго_жить.07" name="die, cease to exist">
+            <aliases>
+                <alias pos="m">приказать_долго_жить</alias>
+                <mwp-descriptions id="терять_счет">
+                    <syntaxdesc slots="A B C">
+                        <token slot="A" arg="" pos="" head="" dep="">приказать</token>
+                        <token slot="A" arg="" pos="" head="" dep="">велеть</token>
+                        <token slot="B" arg="" pos="" head="C" dep="">долго</token>
+                        <token slot="C" arg="" pos="" head="A" dep="">жить</token>
+                    </syntaxdesc>
+                </mwp-descriptions>
+            </aliases>
+            <note>долго_жить NOTES: Roleset based on English verb frame die.01</note>
+            <roles>
+                <role descr="the deceased" f="PPT" n="1">
+                </role>
+            </roles>
+            <lexlinks>
+                <lexlink class="die.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="all args" src="Russian National Corpus [С. Т. Григорьев. Александр Суворов (1939)]">
+                <text>А ты кланяйся товарищам . Вели долго жить . Да еще погожу умирать .</text>
+                <propbank>
+                    <rel relloc="5 6 7">Вели долго жить</rel>
+                </propbank>
+            </example>
+            <example name="cease to exist"
+                     src="Russian National Corpus [[Анастасия Гулина. Правый десант продолжается (2003) // «Богатей» (Саратов), 2003.04.17]">
+                <text>Эта система казалась настолько прочной , что , когда в 1991 году СССР приказал долго жить , во
+                    всем мире стали задавать вопрос , почему же это так быстро произошло .
+                </text>
+                <propbank>
+                    <arg type="ARGM-TMP" start="8" end="8">когда</arg>
+                    <arg type="ARGM-TMP" start="9" end="11">в 1991 году</arg>
+                    <arg type="ARG1" start="12" end="12">СССР</arg>
+                    <rel relloc="13 14 15">приказал долго жить</rel>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

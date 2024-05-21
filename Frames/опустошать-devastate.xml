@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+  <predicate lemma="Oпустошать">
+    <roleset id="опустошать.01" name="Devastate, lay waste, empty">
+      <aliases>
+        <alias pos="v">опустошать</alias>
+        <alias pos="v">опустошить</alias>
+        <alias pos="j">опустошающий</alias>
+        <alias pos="j">опустошённый</alias>
+	    </aliases>
+	    <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+	    <note>NOTES: based on English devastate.01</note>
+      <roles>
+        <role descr="Destroyer" f="PAG" n="0"/>
+        <role descr="Thing Destroyed" f="PPT" n="1"/>
+        <role descr="Instrument of Destruction" f="MNR" n="2"/>
+	    </roles>
+      <example name="Arg0 and Arg1" src="RNC, В. Г. Глушкова. Костромская земля. Природа. История. Экономика. Культура. Достопримечательности. Религиозные центры (2015)">
+        <text>В XVII в . город опустошили поляки , только через столетие его отстроили .</text>
+        <propbank>
+          <arg type="ARG1" start="?" end="?">город</arg>
+          <rel relloc="?">опустошили</rel>
+	        <arg type="ARG0" start="?" end="?">поляки</arg>
+        </propbank>
+      </example>
+      <example name="Arg0, Arg1, and Arg2" src="RNC, И. Грекова. На испытаниях (1967)">
+        <text>— Ты циник, — сказал Теткин. — Я должен бороться с твоим влиянием на массы. Ты опустошаешь нас своим цинизмом .</text>
+        <propbank>
+          <arg type="ARG0" start="?" end="?">Ты</arg>
+          <rel relloc="?">опустошаешь</rel>
+	        <arg type="ARG1" start="?" end="?">нас</arg>
+	        <arg type="ARG2" start="?" end="?">своим цинизмом</arg>
+        </propbank>
+      </example>
+	  </roleset>
+  </predicate>
+</frameset>

@@ -1,59 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE frameset SYSTEM "frameset.dtd">
 <frameset>
-  <predicate lemma="понять">
-  <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
-    <roleset id="понять.01" name="understand">
-      <aliases>
-        <alias framenet="" pos="j" verbnet="">понявший</alias>
-		<alias framenet="" pos="v" verbnet="">понявши</alias>
-		<alias framenet="" pos="v" verbnet="">поняв</alias>
-		<alias framenet="" pos="v" verbnet="">понимать</alias>
-		<alias framenet="" pos="j" verbnet="">понимающий</alias>
-		<alias framenet="" pos="j" verbnet="">понимавший</alias>
-		<alias framenet="" pos="v" verbnet="">понимавши</alias>
-		<alias framenet="" pos="v" verbnet="">понимав</alias>
-		<alias framenet="" pos="j" verbnet="">понимаемый</alias>
-		<alias framenet="" pos="v" verbnet="">пониматься</alias>
-        <alias framenet="" pos="j" verbnet="">понимающийся</alias>
-		<alias framenet="" pos="v" verbnet="">понимаясь</alias>
-		<alias framenet="" pos="v" verbnet="">понимавшись</alias>
-		<alias framenet="" pos="j" verbnet="">понимавшийся</alias>
-	  </aliases>
-	  <note>Corresponds to FrameBank senses 1,2,3,4</note>
-	  <note>понять.01 NOTES: Based on understand.01.</note>
-	  <roles>
-        <role descr="understander" f="PAG" n="0">
-        </role>
-        <role descr="thing understood" f="PPT" n="1">
-		</role>
-	  </roles>
-      <example name="as I understood" src="" type="">
-        <text>вообщем как я понял люди не могут отличить " ЖУЖЖАЛКУ " от предмета разговора</text>
-		<arg f="adv" n="m">вообщем</arg>
-		<arg f="" n="0">я</arg>
-        <rel f="">понял</rel>
-        <arg f="" n="1">люди не могут отличить " ЖУЖЖАЛКУ " от предмета разговора</arg>
-      </example>
-	  <example name="could never understand" src="" type="">
-        <text>Вам не понять .</text>
-		<arg f="" n="0">Вам</arg>
-		<arg f="neg" n="m">не</arg>
-        <rel f="">понять</rel>
-      </example>
-	  <example name="understand someone" src="" type="">
-        <text>В общем , ты меня понял .</text>
-		<arg f="adv" n="m">В общем</arg>
-		<arg f="" n="0">ты</arg>
-        <arg f="" n="1">меня</arg>
-		<rel f="">понял</rel>
-      </example>
-	  <example name="be understood" src="" type="">
-        <text>Эта фраза обычно понимается иначе .</text>
-        <arg f="" n="1">Эта фраза</arg>
-		<arg f="adv" n="m">обычно</arg>
-		<rel f="">понимается</rel>
-		<arg f="adv" n="m">иначе</arg>
-      </example>
-	</roleset>
-  </predicate>
+    <predicate lemma="понять">
+        <note>NOTES: Added for LORELEI to support aligning RU and EN texts. Data from Skatje Myers.</note>
+        <roleset id="понять.01" name="understand">
+            <aliases>
+                <alias pos="j">понявший</alias>
+                <alias pos="v">понявши</alias>
+                <alias pos="v">поняв</alias>
+                <alias pos="v">понимать</alias>
+                <alias pos="j">понимающий</alias>
+                <alias pos="j">понимавший</alias>
+                <alias pos="v">понимавши</alias>
+                <alias pos="v">понимав</alias>
+                <alias pos="j">понимаемый</alias>
+                <alias pos="v">пониматься</alias>
+                <alias pos="j">понимающийся</alias>
+                <alias pos="v">понимаясь</alias>
+                <alias pos="v">понимавшись</alias>
+                <alias pos="j">понимавшийся</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses 1,2,3,4</note>
+            <note>понять.01 NOTES: Based on understand.01.</note>
+            <roles>
+                <role descr="understander" f="PAG" n="0"/>
+                <role descr="thing understood" f="PPT" n="1"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="understand.01" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="as I understood" src="">
+                <text>вообщем как я понял люди не могут отличить " ЖУЖЖАЛКУ " от предмета разговора</text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="0">вообщем</arg>
+                    <arg type="ARG0" start="2" end="2">я</arg>
+                    <rel relloc="3">понял</rel>
+                    <arg type="ARG1" start="4" end="13">люди не могут отличить " ЖУЖЖАЛКУ " от предмета разговора</arg>
+                </propbank>
+            </example>
+            <example name="could never understand" src="">
+                <text>Вам не понять .</text>
+                <propbank>
+                    <arg type="ARG0" start="0" end="0">Вам</arg>
+                    <arg type="ARGM-NEG" start="1" end="1">не</arg>
+                    <rel relloc="2">понять</rel>
+                </propbank>
+            </example>
+            <example name="understand someone" src="">
+                <text>В общем , ты меня понял .</text>
+                <propbank>
+                    <arg type="ARGM-ADV" start="0" end="1">В общем</arg>
+                    <arg type="ARG0" start="3" end="3">ты</arg>
+                    <arg type="ARG1" start="4" end="4">меня</arg>
+                    <rel relloc="5">понял</rel>
+                </propbank>
+            </example>
+            <example name="be understood" src="">
+                <text>Эта фраза обычно понимается иначе .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="1">Эта фраза</arg>
+                    <arg type="ARGM-ADV" start="2" end="2">обычно</arg>
+                    <rel relloc="3">понимается</rel>
+                    <arg type="ARGM-ADV" start="4" end="4">иначе</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
 </frameset>

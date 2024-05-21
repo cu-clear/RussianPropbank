@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+    <predicate lemma="звонить">
+        <roleset id="звонить.01" name="To call by phone">
+            <aliases>
+                <alias pos="v">звонить</alias>
+                <alias pos="v">позвонить</alias>
+                <alias pos="j">звоняший</alias>
+            </aliases>
+            <note>Corresponds to FrameBank senses [insert appropriate thing here]</note>
+            <note>NOTES: based on English call.02</note>
+            <roles>
+                <role descr="Caller" f="PAG" n="0"/>
+                <role descr="Entity summoned" f="PPT" n="1"/>
+                <role descr="Medium or phone used" f="MNR" n="2"/>
+            </roles>
+            <lexlinks>
+                <lexlink class="call.02" resource="English PropBank" version="3.4"/>
+            </lexlinks>
+            <example name="ARG1, 2, and 3" src="ingalatory.ru">
+                <text>Ирина , Вы можете позвонить нам по телефону ...</text>
+                <propbank>
+                    <arg type="ARG0" start="2" end="2">Вы</arg>
+                    <rel relloc="4">позвонить</rel>
+                    <arg type="ARG1" start="5" end="5">нам</arg>
+                    <arg type="ARG2" start="7" end="7">телефону</arg>
+                </propbank>
+            </example>
+            <example name="ARG0" src="wertblog.ru">
+                <text>Он еще много раз тогда звонил , а она не отвечала, раз звонил значит все в порядке .</text>
+                <propbank>
+                    <arg type="ARG1" start="0" end="0">Он</arg>
+                    <rel relloc="5">звонил</rel>
+                </propbank>
+            </example>
+            <example name="ARG1" src="up74.ru">
+                <text>На днях позвонил двоюродный брат .</text>
+                <propbank>
+                    <rel relloc="2">позвонил</rel>
+                    <arg type="ARG1" start="4" end="4">брат</arg>
+                </propbank>
+            </example>
+        </roleset>
+    </predicate>
+</frameset>
